@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+key Int32,     str1 String,     str2 String,    fstr0 FixedString(8)NULL,     fstr2 FixedString(8)
+14560

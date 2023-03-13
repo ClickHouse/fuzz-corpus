@@ -1,0 +1,7 @@
+TabSeparatedRawWithNames
+d	Date, 	k1	AggregateFunction(uniq, UInt8), 	Quantiles 	AggregateFunction(quantiles(0.5, 0.9), UInt64), 	GroupArray	AggregateFunction(groupArray, String)
+29#72
+TSV
+`i`
+VWithInNames
+keyt

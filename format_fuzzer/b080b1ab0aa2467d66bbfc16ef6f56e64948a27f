@@ -1,0 +1,9 @@
+TSVWithNamesAndTypes
+b Int ttl CASE-oyd-(P)+TabSeparated
+d String
+1
+ i1CSV
+idU Int16 Codec(ZSTD(3))
+172000000000015557521000115500000000000000177777572117613000000000017777757211761332906
+Binary
+idŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒ‹ŒŒŒ

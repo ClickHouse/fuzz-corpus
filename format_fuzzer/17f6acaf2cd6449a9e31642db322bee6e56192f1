@@ -1,0 +1,20 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     grp_aggreg AggregateFunction(groupArrayStateForEach, Array(UInt16))
+ÿÿÿÿÿÿÿ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ÿÿÿÿÿÿWithN
+
+
