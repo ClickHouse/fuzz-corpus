@@ -1,0 +1,11 @@
+TSVRawWithNamesAndTypes
+id UInt32, name String, arnality LowCardinality(String), decility LowCardinality(String), decimal Decimal64(6)NULL
+16941LineAsString
+
+i String
+ˆˆˆˆmal Decimal64(6)NULL
+16941LineAsString
+
+i String
+ˆˆˆˆnˆifg
+ˆ6976

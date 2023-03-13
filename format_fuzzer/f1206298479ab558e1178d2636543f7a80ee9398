@@ -1,0 +1,3 @@
+CSV
+id UInt64 codec(ZSTD())
+1
