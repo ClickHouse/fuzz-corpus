@@ -1,0 +1,3 @@
+TSVRawWithNamesAndTypes
+EventDate Date, CrID UInt64,  EventTime DateTime('America/Los_Angeles'), UTCEventime DateTime('UTC')
+21478

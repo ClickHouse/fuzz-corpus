@@ -1,0 +1,3 @@
+CSVWithNames
+erId UInt64,     actorId UInt64,    0duration UInt16,     fullWatched UInt8,     fullWatchedDyte Date,    ullWatchedDate Date,     `vieges` Array(String),     version DateTime
+4417

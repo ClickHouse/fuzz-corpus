@@ -1,0 +1,16 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     grp_aggreg AggregateFunction(groupArrayArray, Array(Int16))
+3424
+RawTabSWithNamesAndTypes
+
+
+
+
+
+
+
+
+TabSeparated
+d String
+2Tb\\\\\\\\\\\\\\\\\\\\\ÿÿSeparaÿÿg
+2Tb\\\\\\\\\\\\ÿÿÿÿÿÿ\\\\\ÿÿÿÿÿ\

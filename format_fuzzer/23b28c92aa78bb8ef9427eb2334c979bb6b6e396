@@ -1,0 +1,5 @@
+CustomSeparatedWithNames
+a1 Array(UInt16), a2 Array(UInt16), a3 Array(Array(UInt16)), a4 Array(Array(UInt16))
+252CSV
+iUInt64 Codec(ZST)(359
+

@@ -1,0 +1,3 @@
+CSVWithNames
+id Int8, td Int8,s DateTime64(3, 'UTC'),tric Float64
+3990

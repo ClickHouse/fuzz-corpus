@@ -1,0 +1,3 @@
+CSV
+id Float32 Codec(Delta, Delta, LZ4HC)
+22

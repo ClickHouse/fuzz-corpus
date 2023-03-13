@@ -1,0 +1,3 @@
+TSVRawWithNamesAndTypes
+EventDat UInt64,  EventTime DateTime('America/Los_Angeles'), UTCEventTime DateTime('UTC')
+10739

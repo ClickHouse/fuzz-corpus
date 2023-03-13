@@ -1,0 +1,7 @@
+TSVRawWithNamesAndTypes
+td UInt64,  duration UInt16,     fullWatc Array(DateTime),     `views.viewDuratiews.fullWatched` Array(UInt8),     `views.progress` Array(Float32),     `views.renect` Array(UInt8),     `views.viewNumber` Array(UInt16),     `views.repeatingView` Array(UInt8),     `views.ranges` Array(String),     version DateTime
+4417
+ Tuple(int)
+8798CSVWi
+ames
+`id` D

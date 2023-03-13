@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+CounterID        UInt32,     tSartDa4e     Int8,     LisitID          UInt64,     UserID           UInt64,     VisitVersio UInt16,     `Test.BannerID` Array(UInt64),     `Test.Load`     Array(UInt8),     `Test.PuidKey`  Array(Array(UInt8)),     `Test.PuidVal`  Array(Array(UInt32))
+926

@@ -1,0 +1,9 @@
+CSV
+id UInt64 Codec(ZSTD())
+4444444
+
+
+
+
+
+4444

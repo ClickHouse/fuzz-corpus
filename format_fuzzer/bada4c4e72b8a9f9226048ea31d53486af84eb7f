@@ -1,0 +1,3 @@
+TSVRawWithNamesAndTypes
+id UInt32, name String, aality LowCardinality(String), decimal Decimal64(6)
+16941

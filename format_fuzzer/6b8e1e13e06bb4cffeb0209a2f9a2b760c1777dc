@@ -1,0 +1,3 @@
+TSVWithNamesAndTypes
+id UInt64, `n\\\\\\\n.a` Array(UInt32), `\\\\\\\\\\\\\\\\\b` Array(String)
+18873

@@ -1,0 +1,3 @@
+CSVWithNames
+entitiIri String,     courId UInt64,     acxorId UInt64,  ExternalUserDefinedEtched UInt8,     fullWachedDate Date,    ullWatchedDate Date,     `vieges` Array(String),     version DateTime
+4417

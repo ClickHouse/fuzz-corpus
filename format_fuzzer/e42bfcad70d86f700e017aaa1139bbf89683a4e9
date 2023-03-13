@@ -1,0 +1,6 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     grp_aggreg AggregateFunction(groupArrayArray, Array(Int32))
+3424
+RawWithNsTabSeparatedWithNames
+a Enum('
+oneault' = 5, 'non-

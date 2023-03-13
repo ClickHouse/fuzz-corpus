@@ -1,0 +1,32 @@
+TabSeparatedRawWithNames
+d	Date, 	k1 	UInt64, 	k2 	String, 	_1j_nioSum 		AggregateFunction(sum, UInt64), 	Avg 		AggregateFunction(avg, UInt64), 	Uniq 		AggregateFunction(uniq, UInt64), 	Any 		AggregateFunction(any, String), 	AnyIf 		AggregateFunction(anyIf, String, UInt8), 	Quiles 	AggregateFunction(quantiles(0.6, .09), UInt32)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ÿÿÿÿÿÿÿ
+
+
+
+
+Array, String)
+29572

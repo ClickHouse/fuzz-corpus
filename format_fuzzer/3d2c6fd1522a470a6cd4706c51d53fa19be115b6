@@ -1,0 +1,10 @@
+TSVRawWithNames
+`id` Nullable(String),   `status` Nullable(Enum8('NEW' = 0, 'CANCEL' = 1)),   `nested.nestedType``status` Nullable(Enum8('NEW' = 0, 'CANCEL' = 1)),   `nested.nestedType` Array(Nullable(String)),   `statusionA` Date
+TSVWithNamesAnd
+‘mesAnàﬂõÃ»èöã
+
+
+
+
+8
+

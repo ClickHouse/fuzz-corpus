@@ -1,0 +1,3 @@
+CSV
+i UInt32 Codec(ZSTD(3))
+17244888

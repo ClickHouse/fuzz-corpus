@@ -1,0 +1,6 @@
+TSVRawWithNamesAndTypes
+i Int64, s String, nest Nested(x UInt8WithDictionary, y UInt32)
+8204\\\\\\\\Nulla\\\\0ÿÿÿÿÿÿÿTSVWithNam\\\\\/\\mA@@\\\\\\\\\\\Nulla\\\\0ÿÿÿÿÿÿÿTSVWithNames
+
+65
+2\\\\\\\\\\\\\\\\\\ExternalUsmrD

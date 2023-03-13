@@ -1,0 +1,3 @@
+CSV
+id UInt16 Codec(ZSTD(3))
+1720021007730

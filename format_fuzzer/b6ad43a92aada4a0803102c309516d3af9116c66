@@ -1,0 +1,3 @@
+CSVWithNames
+id UInt64,val SimpleAggregateFunction(sum,Double)
+2Fun

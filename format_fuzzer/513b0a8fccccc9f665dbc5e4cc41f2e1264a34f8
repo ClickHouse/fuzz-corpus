@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     grp_aggreg AggregateFunction(groupArrayArray, Array(Int64))
+3424______________________mesTabSepn-

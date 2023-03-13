@@ -1,0 +1,5 @@
+TSVWithNames
+2a Int128
+103z@@@@@@@@@@@@@@@views.AString, CSV
+id UInt16 Codec(ZSTD(3))
+3

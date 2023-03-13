@@ -1,0 +1,5 @@
+TSVRawWithNames
+66666666id UInt64,      value1 Nullable(Float32),     value2 Nullable(Float64)
+2926666666a Decimal(6, 4),     b Decimal(34, 6),     c Decimal(68, 8)
+4ÿÿÿTypes
+— Date, a Str'ng, b UIIntalu:0992

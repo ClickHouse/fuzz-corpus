@@ -1,0 +1,3 @@
+CSV
+idU UInt8 Codec(ZSTD(5))
++001555510270

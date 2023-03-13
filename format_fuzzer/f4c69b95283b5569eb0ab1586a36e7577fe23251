@@ -1,0 +1,4 @@
+RowBinary
+iU Int16 Codec(ZSTD(3))
+172454TSVRawWithNames
+a Decimal(6, 4),     b Decimal(17, 6),     c55555555555555555555 Dec5i

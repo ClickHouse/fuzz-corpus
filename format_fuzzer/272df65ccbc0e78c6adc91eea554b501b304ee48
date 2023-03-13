@@ -1,0 +1,3 @@
+TSVRawWithNamesAndTypes
+id UInt32, name String, array Array(Int32),ecimal Decimal32(6)
+16941
