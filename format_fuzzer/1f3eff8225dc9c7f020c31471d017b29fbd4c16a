@@ -1,0 +1,133 @@
+TabSeparatedRawWithNames
+d	Date, 	k1 	UInt64, 	k2y 		AggregateFunction(any, String), 	AnyIf 		AggregateFunction(anyIf, String, UInt8), 	Quantiles 	AggregateFunction(quantiles(0.6, .09), UInt64)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a String,     date Date,     f UInt8
+ÿn
+
+
+ù
+
+
+
+
+~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Þ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+÷
+
+
+
+
+
+
+
+
+
+
+
+ûÿÿIMAÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿn
+
+ÿÿÿ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+öõõõ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kú‡ Arra
+mes
+keY UInt16
+VWithNameKú‡m5 b UInt32
+26TabS`Kúg)
+29572

@@ -1,0 +1,4 @@
+CSVWithNames
+entityIri String,     courId UInt64,     actorId UInt64,  ExternalUserDefinedExecutallWatched UInt8,     fullWatchedDate Date,    ullWatchedDate Date,     `vieges` Array(String), a String,     date Date,     f UInt8
+16649
+ÿÿÿÿÿÿÿ Date

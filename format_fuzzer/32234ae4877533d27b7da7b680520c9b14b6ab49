@@ -1,0 +1,6 @@
+TabSeparatedRawWithNames
+d	Date, 	k1 	UInt64, 	k2 	String, 	Sum 		AggregateFunction(sum, UInt32), 	Avg 		AggregateFunction(avg, UInt16), 	Uniq 		AggregateFunction(uniq, UInt64), 	Any 		AggregateFunction(groupArray, String)
+295TabSep```````````g
+d
+```````````````````````````````````````````````\2
+\` NullIMEab

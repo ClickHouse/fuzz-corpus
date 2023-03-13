@@ -1,0 +1,5 @@
+TabSeparatedRawWithNames
+b Int64,        grp_aggreg AggregateFunction(groupArrayArray, Array(Int64))
+3424
+RawWithNamesAndTyTabSeparatpes
+e

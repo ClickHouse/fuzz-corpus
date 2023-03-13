@@ -1,0 +1,4 @@
+TSVRawWithNames
+`id` Nullable(String),   `status` Nullable(Enum8('NEW' = 0, 'CANCEL' = 1)),   `nested.nestedType` Array(Nullable(String)),   `partitnestedType` Array(Nullable(String)),   `partition|||||stedType` Array(Nullable(String)),   `partition` Date
+` Date
+TSVWithNamesAndTy27TSVWitŒŒ

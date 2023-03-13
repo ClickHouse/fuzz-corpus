@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+a Date,     b UInt32,     c UInt64,     p Nested (         at1 String,         at2 String    )
+23749

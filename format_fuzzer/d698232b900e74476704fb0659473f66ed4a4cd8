@@ -1,0 +1,15 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     grp_aegrgg AggregateFunction(groupArrayStateForEach, Array(UInt16))
+CSV
+idU Int16 Codec(ZSTD(3))
+17254444445444443
+
+444415
+
+
+
+
+4
+
+
+#

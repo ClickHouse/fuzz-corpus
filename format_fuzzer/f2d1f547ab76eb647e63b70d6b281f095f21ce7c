@@ -1,0 +1,16 @@
+CSV
+id Float32 Codec(Delta, LZ4HC)
+56344
+
+
+
+
+
+
+
+
+
+
+
+
+4

@@ -1,0 +1,4 @@
+TabSeparatedRawWithNames
+b Int64,     grp_aggreg AggregateFunction(groupArrayArray, Array(UInt32))
+3~424
+i
