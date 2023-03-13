@@ -1,0 +1,2 @@
+TabSeparatedRawWithNamesAndTypes
+key      UInt64,     valueF64 Float32(FPC(4))
