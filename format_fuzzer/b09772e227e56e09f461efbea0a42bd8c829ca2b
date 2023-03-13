@@ -1,0 +1,4 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     grp_aggreg AggregateFunction(groupArrayArrayState, Array(UInt64))
+-424
+RawWithNameInt64)))254428530

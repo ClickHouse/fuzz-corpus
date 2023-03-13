@@ -1,0 +1,3 @@
+CSVWithNames
+ntietyIri String,     courseId UInt64,     learnerId UInt64,     actorId UInt64,  0duration UInt16,     fuhei UInt8,     fullWatchedDate DateTime,     fullWatchlWatchedVie Array(String),     version DateTime
+4417

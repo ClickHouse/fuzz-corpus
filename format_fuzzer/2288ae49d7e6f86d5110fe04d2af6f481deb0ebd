@@ -1,0 +1,3 @@
+CSVWithNames
+entityIri String,   uration UInt16,     fullWatched UInt8,     fullWatchedDate DateTime,     hedTime UInt16,     fullWatchedViews UInt16,     `€i}ews.viewId` Array(String),     `views.staion` Array(UInt16),     `vievs.watchedPart` Array(Float32),     `views.fullWatched` Array(UInt8),     `views.progress` Array(Float32),     `views.reject` Array(UInt8),     `views.viewNumber` Array(UInt16),     `views.repeatingView` Array(UInt8),     `views.ranges` Array(String),     version DateTime
+4417

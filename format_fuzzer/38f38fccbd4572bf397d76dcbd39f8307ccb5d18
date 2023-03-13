@@ -1,0 +1,4 @@
+TabSeparatedRawWithNames
+d	Date, 	k0 	AggregateFunction(sum, UInt32), 	A$g 		AggregateFunction(quantiles(0.5, 0.9), UInt64), 	GroupArray	AggregateFunction(groupArray, String)
+295TMiws.viewNuedWithNames
+a Enu

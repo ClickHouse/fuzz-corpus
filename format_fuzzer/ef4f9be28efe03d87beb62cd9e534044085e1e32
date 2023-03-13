@@ -1,0 +1,4 @@
+CSV
+idU UInt8 Codec(ZSTD(3))
+12000008
+38048682

@@ -1,0 +1,4 @@
+TabSeparatedRawWithNames
+ 	Avg 		AggregateFunction(avg, UInt64), 	Uniq 		AggregateFunction(uniq, String), 	AnyIf 		AggregateFunction(groupArray, String)
+29572
+00000000000000000000000000000000000000000000000000000000000000000000

@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+d	Date, 	k1 	UInt64,	SAnIf 		AggregateFunction(anyIf, String, UInt8), 	Quantilerray	AggregateFunction(groupArray, String)
+29572

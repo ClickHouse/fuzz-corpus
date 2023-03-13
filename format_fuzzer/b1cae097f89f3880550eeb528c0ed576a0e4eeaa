@@ -1,0 +1,4 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     g_rpaggreg AggregateFunction(groupArrayArray, Array(Int32))
+3424
+RawWSepn-

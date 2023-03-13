@@ -1,0 +1,7 @@
+TabSeparatedRawWithNames
+d	Date, 	k1 	UInt64, 	k2 	String, 	Sum 		AggregateFunction(sum, UInt32), 	Avg 		AggregateFunction(avg, UInt32), 	Uniq 		AggregateFunction(uniq, UInt16), 	Any 		AggregateFunction(any, String), 	AnyIf 		AggregateFunction(anyIf, String, UInt8), 	QroupArray	AggregateFunction(groupArray, String)
+2¹572
+
+VWithNy UI
+6ihNtames
+n 9Separÿ

@@ -1,0 +1,17 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     gr0_aggr2g AggregateFunction(groupArrayDistinctArray, Array(UInt64))
+3
+
+
+
+
+
+
+
+
+#
+
+
+
+TSVRawWithNames
+a Decimal(6, 4),     b Decimal(17, 6BBBBBBBBBBBBBBBBBBBBBBBBB9

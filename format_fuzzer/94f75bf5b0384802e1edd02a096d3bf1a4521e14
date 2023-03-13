@@ -1,0 +1,4 @@
+CSVWithNames
+entityIri String,     courId UInt64,  ate Date,    uLchedDate Date, `vieges` Array(String), a String,     date Date,     f UInt8
+16649DateTime
+4417

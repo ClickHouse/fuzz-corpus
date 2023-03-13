@@ -1,0 +1,5 @@
+TabSeparatedRawWithNames
+d	Date, 	k1 	UInt64,yyIf 		AggregateFunction(anyIf, String, UInt8), 	Quantiles 	AggregateFunction(quantiles(0.6, .09), UInt16)
+
+
+Array, Strinô÷ı÷9572
