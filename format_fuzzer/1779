@@ -1,0 +1,3 @@
+PrettySpace
+x UInt32, s Array(LowCardinality(Nullable(String)))
+7425

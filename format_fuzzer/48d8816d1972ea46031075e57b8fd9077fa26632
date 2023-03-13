@@ -1,0 +1,3 @@
+TabSeparatedWithNamesAndTypes
+prefix String,     value_date Date,     value_date_32 Date32,     value_date_t Date,     value_dime DateTime,     value_date_time_64 DateTime64
+12533

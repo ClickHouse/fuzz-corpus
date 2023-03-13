@@ -1,0 +1,3 @@
+TemplateIgnoreSpaces
+`tm` DateTime,   `log_message` String,   INDEX log_message log_message TYPE tokenbf_v1(4096, 2, 0) GRANULARITY 1
+11142

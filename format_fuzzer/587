@@ -1,0 +1,3 @@
+JSONEachRow
+dt DateTime,   user_id UInt32,   encrypted String,   iv String
+13161

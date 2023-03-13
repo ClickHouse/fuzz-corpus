@@ -1,0 +1,3 @@
+CSVWithNamesAndTypes
+prefix String,     decimal_value Decimal256(5)
+25400

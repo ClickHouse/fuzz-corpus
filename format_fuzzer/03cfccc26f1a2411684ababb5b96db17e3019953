@@ -1,0 +1,5 @@
+CSV
+id UInt16 Codec(ZSTD(6))
+1
+36
+18

@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpaces
+key_column UInt64,     data_column_1 UInt64,     data_column_2 UInt8
+17894

@@ -1,0 +1,3 @@
+TemplateIgnoreSpaces
+col UInt64,     x UInt64 MATERIALIZED col + 1
+3221

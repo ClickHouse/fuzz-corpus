@@ -1,0 +1,3 @@
+MySQLWire
+endUserIDs Tuple(       _experience Tuple(           aaid Tuple(               id Nullable(String),               namespace Tuple(                   code LowCardinality(Nullable(String))               ),               primary LowCardinality(Nullable(UInt8))           ),           mcid Tuple(               id Nullable(String),               namespace Tuple(                   code LowCardinality(Nullable(String))               ),               primary LowCardinality(Nullable(UInt8))           )       )   )
+14394

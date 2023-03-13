@@ -1,0 +1,9 @@
+TabSeparatedWithNamesAndTypes
+d Date, a String, 0x UInt32, y UInt64, z Float32
+29TabSeparatedRawWithNames
+a UInt32
+26TabSeparatedR,éb UInt32
+26TabSeparated, 0x UInt32, y UInt6ÿÿÿÿÿÿÿÿÿÿ
+
+WithNames
+key U

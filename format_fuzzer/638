@@ -1,0 +1,3 @@
+TemplateIgnoreSpaces
+`fingerprint` UInt64,      `fields` Nested(     name LowCardinality(String),      value String)
+20505

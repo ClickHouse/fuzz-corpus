@@ -1,0 +1,3 @@
+CapnProto
+enum_key Enum8('x' = 2, 'y' = 1),     lc_key LowCardinality(String),     value String
+22886

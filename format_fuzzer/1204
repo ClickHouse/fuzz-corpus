@@ -1,0 +1,3 @@
+PrettySpaceNoEscapesMonoBlock
+key UInt64,     value String,     version UInt8,     sign Int8
+13934

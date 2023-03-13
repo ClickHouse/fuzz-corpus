@@ -1,0 +1,3 @@
+Template
+id UInt64,     a LowCardinality(UInt32) CODEC(NONE)
+7856

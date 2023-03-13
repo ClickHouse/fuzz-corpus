@@ -1,0 +1,3 @@
+RowBinaryWithNames
+`day` Date,     `uid` String,     `dummy` String DEFAULT ''
+4872

@@ -1,0 +1,3 @@
+CSVWithNames
+somedate Date CODEC(ZSTD, ZSTD, ZSTD(12), LZ4HC(12), Delta, Delta),     id UInt64 CODEC(LZ4, ZSTD, Delta, NONE, LZ4HC, Delta),     data String CODEC(ZSTD(2), Delta(1), LZ4HC, NONE, LZ4, LZ4)
+12187

@@ -1,0 +1,3 @@
+JSONObjectEachRow
+`hour` DateTime,     `sum_bytes` UInt64,     `avg_duration` Float64
+14226

@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+x UInt32, lc LowCardinality(String)
+19300

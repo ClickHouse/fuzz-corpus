@@ -1,0 +1,3 @@
+JSONEachRowWithProgress
+somedate Date CODEC(LZ4),   id UInt64 CODEC(NONE)
+31475

@@ -1,0 +1,3 @@
+BSONEachRow
+pk Int64, d Date, id UInt64, c UInt64
+18370

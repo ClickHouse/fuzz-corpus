@@ -1,0 +1,3 @@
+CapnProto
+key UInt32, key1 UInt32, key2 Nullable(UInt32), key3 UInt32, s String
+25919

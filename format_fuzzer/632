@@ -1,0 +1,3 @@
+TemplateIgnoreSpaces
+field0 Nullable(UInt64) CODEC(Delta)
+20210

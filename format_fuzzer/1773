@@ -1,0 +1,3 @@
+Prometheus
+`x` UInt32, `lc` LowCardinality(String)
+21587

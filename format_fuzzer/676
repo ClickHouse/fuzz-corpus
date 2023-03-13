@@ -1,0 +1,3 @@
+ORC
+id Float64 Codec(Delta, LZ4)
+10194

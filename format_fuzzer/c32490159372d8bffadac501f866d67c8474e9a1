@@ -1,0 +1,3 @@
+TSVRawWithNamesAndTypes
+id UInt32, name String, array Array(Int32), nullable Nullable(String), low_cardinality LowCardinality(String), decimal Decimal64(6)
+16941

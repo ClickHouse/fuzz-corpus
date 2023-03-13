@@ -1,0 +1,3 @@
+Values
+primary_key String,     index_array Array(UInt64),     INDEX additional_index_array (index_array) TYPE set(10000) GRANULARITY 1
+15079

@@ -1,0 +1,3 @@
+CapnProto
+Date Date,     SomeType UInt8,     Alternative1 UInt64,     Alternative2 UInt64,     User UInt32,     CharID UInt64 ALIAS multiIf(SomeType IN (3, 4, 11), 0, SomeType IN (7, 8), Alternative1, Alternative2)
+28539

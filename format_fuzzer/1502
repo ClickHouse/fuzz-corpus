@@ -1,0 +1,3 @@
+MsgPack
+s_suppkey       Int32,  -- PK     s_name          FixedString(25),     s_address       String, -- variable text, size 40     s_nationkey     Int32,  -- FK n_nationkey     s_phone         FixedString(15),     s_acctbal       Decimal(18,2),     s_comment       String, -- variable text, size 101     CONSTRAINT pk CHECK s_suppkey >= 0
+23254

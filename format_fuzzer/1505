@@ -1,0 +1,3 @@
+TSKV
+`statusMap` Array(Tuple(goal_id UInt16, revenue Nullable(Decimal(9, 5))))
+30898

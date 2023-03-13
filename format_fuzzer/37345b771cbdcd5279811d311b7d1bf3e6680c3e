@@ -1,0 +1,4 @@
+CSV
+i UInt16 Codec(ZSTD(3))
+8
+112

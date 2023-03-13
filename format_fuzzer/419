@@ -1,0 +1,3 @@
+JSONCompactStrings
+date Date,     value String,     version UInt64,     sign Int8
+27673

@@ -1,0 +1,3 @@
+PrettyCompactMonoBlock
+d Date DEFAULT '2000-01-01', x DateTime, y UInt64, z UInt64
+27398

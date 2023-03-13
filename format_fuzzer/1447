@@ -1,0 +1,3 @@
+PrettyNoEscapes
+r_regionkey     Int32,  -- PK     r_name          FixedString(25),     r_comment       String, -- variable text, size 152     CONSTRAINT pk CHECK r_regionkey >= 0
+435

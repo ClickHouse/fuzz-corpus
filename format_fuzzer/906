@@ -1,0 +1,3 @@
+JSONEachRowWithProgress
+`id` UInt64,     `update_ts` DateTime,     `value` UInt32
+14353

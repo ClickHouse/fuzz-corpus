@@ -1,0 +1,3 @@
+JSONCompactStringsEachRow
+id UInt64,    value_first String,    value_second Nullable(String)
+12036

@@ -1,0 +1,3 @@
+Avro
+id   UInt32,   code LowCardinality(FixedString(2)) DEFAULT '--'
+17639

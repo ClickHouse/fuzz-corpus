@@ -1,0 +1,3 @@
+RowBinaryWithNames
+id UInt32, cond UInt8, s String
+17398

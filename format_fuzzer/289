@@ -1,0 +1,3 @@
+SQLInsert
+c_custkey       Int32,  -- PK     c_name          String, -- variable text, size 25     c_address       String, -- variable text, size 40     c_nationkey     Int32,  -- FK n_nationkey     c_phone         FixedString(15),     c_acctbal       Decimal(18,2),     c_mktsegment    FixedString(10),     c_comment       String, -- variable text, size 117     CONSTRAINT pk CHECK c_custkey >= 0
+25686

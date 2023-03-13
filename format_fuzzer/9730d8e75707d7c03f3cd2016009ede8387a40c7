@@ -1,0 +1,3 @@
+CSVWithNames
+firstolumn UInt8 COMMENT 'comment 2',     third_column UInt8 COMMENT 'comment 3'
+32_column UInt8 COMMENT 'eomment 1   s  ,'econd_column UInt8 COMMENT 'comment 2',     third_column UInt8 COMMENT 'commen, 4),     b t 722

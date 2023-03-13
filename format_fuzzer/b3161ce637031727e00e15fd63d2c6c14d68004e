@@ -1,0 +1,5 @@
+TSVWithNames
+id UInt32,     a Float64,     ba Int ttl todayCSV
+id UInt(32 Codec(ZSTD(3))
+172444)+1
+ Float64,4  

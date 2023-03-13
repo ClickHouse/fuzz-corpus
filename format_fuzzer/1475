@@ -1,0 +1,3 @@
+Avro
+some_name               String,     user_id                 UInt64,     amount                  Int64,     currency                String
+12597

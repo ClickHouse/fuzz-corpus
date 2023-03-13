@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+created_date Date DEFAULT toDate(created_at), created_at DateTime DEFAULT now(), strings Array(String) DEFAULT emptyArrayString()
+19622

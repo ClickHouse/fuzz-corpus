@@ -1,0 +1,3 @@
+TSVWithNames
+`s` LowCardinality(String), x UInt32
+31113

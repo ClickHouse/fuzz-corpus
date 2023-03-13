@@ -1,0 +1,4 @@
+CSV
+idU Int16 Codec(ZSTD(3))
+1825285
+1

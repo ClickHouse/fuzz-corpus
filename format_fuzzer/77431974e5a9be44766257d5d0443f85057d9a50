@@ -1,0 +1,3 @@
+CSVWithNames
+`id` Decimal(38, 30),     `idUUlable` Nullable(UUID)
+8¹1

@@ -1,0 +1,3 @@
+PrettyCompact
+EventTime DateTime,     UserID UInt64,     Age UInt8 TTL EventTime + INTERVAL 3 MONTH
+11614

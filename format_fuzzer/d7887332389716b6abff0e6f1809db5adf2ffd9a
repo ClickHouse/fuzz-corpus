@@ -1,0 +1,6 @@
+TabSeparatedWithNames
+id INT NULL
+25575
+TabSeparsAndTypes
+a NUInt32), b Nullable(UInt32)
+25805

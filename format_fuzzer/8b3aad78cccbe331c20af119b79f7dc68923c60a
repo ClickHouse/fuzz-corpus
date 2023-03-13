@@ -1,0 +1,3 @@
+TabSeparatedWithNames
+a Enum('one' = 9, 'default' = 5, 'non-default' = 0),     c UInt8
+21607

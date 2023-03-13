@@ -1,0 +1,3 @@
+TSVWithNamesAndTypes
+ value1 Nullable(UInt64),     value2 Nullable(UInt64),     value3 Nullable(UInt64)
+13038

@@ -1,0 +1,17 @@
+TabSeparatedWithNamesAndTypes
+prefix String,     value_date Date,     value_date_32 Date32,     value_dategrp_aggreg AggregateFunction(groupArrayStateArray, Array(UInt16))
+3
+
+
+
+
+
+
+
+J#
+
+
+
+
+""""lue_dae_64 DateTime64
+12533

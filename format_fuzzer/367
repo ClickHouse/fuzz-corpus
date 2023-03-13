@@ -1,0 +1,3 @@
+TSVRawWithNamesAndTypes
+date Date, counter UInt64, sampler UInt64, alias_col alias date + 1
+13019

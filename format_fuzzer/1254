@@ -1,0 +1,3 @@
+RowBinaryWithNames
+lat Float64, lon Float64, resolution UInt8
+9673

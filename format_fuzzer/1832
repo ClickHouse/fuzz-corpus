@@ -1,0 +1,3 @@
+JSONEachRowWithProgress
+x UInt8, y int, PRIMARY KEY (x)) PRIMARY KEY y; -- {clientError 36}  CREATE TABLE mt (a UInt64, b Nullable(String), PRIMARY KEY (a, coalesce(b, 'test')), INDEX b_index b TYPE set(123) GRANULARITY 1); SHOW CREATE TABLE mt; SET default_table_engine = 'Log'; CREATE TABLE mt2 AS mt; SHOW CREATE TABLE mt2; DROP TABLE mt;  SET default_table_engine = 'Log'; CREATE TEMPORARY TABLE tmp (n int); SHOW CREATE TEMPORARY TABLE tmp; CREATE TEMPORARY TABLE tmp1 (n int
+23138

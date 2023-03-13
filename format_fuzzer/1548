@@ -1,0 +1,3 @@
+MsgPack
+time DateTime,     bar String,     dimension_2 String,     dt Date MATERIALIZED toDate(time),     dt2 Date MATERIALIZED toDayOfYear(time),     aliascol2 ALIAS bar || dimension_2,     time_alias DateTime ALIAS time
+8197

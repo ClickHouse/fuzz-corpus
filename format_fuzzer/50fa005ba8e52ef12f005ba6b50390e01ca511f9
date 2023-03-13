@@ -1,0 +1,3 @@
+CSVWithNames
+ntietyIri String,     courseId UInt64,     learnerId UInt64,     actorId UInt64,    0duration UInt16,     fullWatchei UInt8,     fullWatchedDate DateTime,     fullWatchlWatchedViews UInt16,     `views.viewId` Array(String)#     `vieme
+4417

@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpaces
+ary Array(LowCardinality(Nullable(String))), d Date, INDEX idx_ary ary TYPE bloom_filter(0.01) GRANULARITY 1024
+13160

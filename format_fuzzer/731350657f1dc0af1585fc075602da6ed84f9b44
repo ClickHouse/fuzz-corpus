@@ -1,0 +1,6 @@
+TabSeparated
+d String
+d
+d SŒŒŒŒŒŒŒŒŒŒŒ[[[[[[[[[[ŒŒŒŒŒŒ|ŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒCCCCCCCCCCCÂÂÂÂÂÂÂÂSTRINGÂHIMA===ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂCSV
+if UInt64 Codec(ZSTD(3))
+17254444

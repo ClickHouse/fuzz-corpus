@@ -1,0 +1,3 @@
+TSVWithNamesAndTypes
+n Nested(id UInt64, `vs.id` Array(UInt64))
+9445,

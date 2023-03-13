@@ -1,0 +1,3 @@
+JSONCompactStrings
+id UInt64, v Array(Float64)
+63

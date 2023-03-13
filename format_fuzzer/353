@@ -1,0 +1,3 @@
+MySQLDump
+data_1 DEFAULT dictGetUInt64('02097_db.test_dictionary', 'data_column_1', toUInt64(0)),     data_2 DEFAULT dictGet(02097_db.test_dictionary, 'data_column_2', toUInt64(0))
+6934

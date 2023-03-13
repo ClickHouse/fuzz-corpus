@@ -1,0 +1,3 @@
+JSONStringsEachRowWithProgress
+d materialized today(), k UInt64, c UInt64, x AggregateFunction(topK(2), UInt8)
+3994

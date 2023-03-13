@@ -1,0 +1,3 @@
+JSONCompactStringsEachRowWithNames
+id UInt64,      value1 Nullable(UInt64),     value2 Nullable(UInt64),     value3 Nullable(UInt64),      weight UInt64,     weight_nullable Nullable(UInt64)
+29913

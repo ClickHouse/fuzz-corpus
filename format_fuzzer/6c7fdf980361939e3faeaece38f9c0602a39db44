@@ -1,0 +1,5 @@
+TSVRawWithNames
+a Decimal(6, 4),     b Decimal(18, 6),     c Decimal(20, 8)
+493paratedWithNamsAndTypes
+d Date, a String, b UInt8, x String, y Int8, z UInt32
+31984

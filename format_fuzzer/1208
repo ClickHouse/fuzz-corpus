@@ -1,0 +1,3 @@
+JSONCompactStringsEachRowWithNames
+Key UInt64,     Value UInt64,     ConcatArraySimple SimpleAggregateFunction(groupArrayArray, Array(UInt64)),     ConcatArrayComplex AggregateFunction(groupArrayArray, Array(UInt64))
+2861

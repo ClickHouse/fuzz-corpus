@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+x UInt8, y UInt8 MATERIALIZED x + 1
+23451

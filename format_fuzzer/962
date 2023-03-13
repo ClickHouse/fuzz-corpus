@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+id UInt64,     value String,     INDEX value_idx (value) TYPE set(1000) GRANULARITY 1
+6745

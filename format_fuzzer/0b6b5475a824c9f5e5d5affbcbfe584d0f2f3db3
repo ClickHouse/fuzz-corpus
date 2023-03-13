@@ -1,0 +1,3 @@
+CSV
+id Int64 Codec(ZSTD(3))
+-003

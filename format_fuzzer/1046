@@ -1,0 +1,3 @@
+JSONCompactStringsEachRowWithNames
+i UInt64, s String, u UUID, d Date, t DateTime, a Array(UInt32)
+5094

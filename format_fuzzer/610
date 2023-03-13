@@ -1,0 +1,3 @@
+ArrowStream
+EventDate Date,  Id UInt64,  Data String,  Version UInt32
+18222

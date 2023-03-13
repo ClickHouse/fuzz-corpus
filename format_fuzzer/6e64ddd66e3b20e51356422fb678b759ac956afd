@@ -1,0 +1,3 @@
+TSVWithNames
+`id` String,     `wr` String,    `with_dot.array` Array(String)
+22601

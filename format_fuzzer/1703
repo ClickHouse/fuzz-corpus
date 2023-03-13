@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpacesWithNamesAndTypes
+x Array(UInt64), z String, y Array(UInt64)
+1023

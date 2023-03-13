@@ -1,0 +1,3 @@
+BSONEachRow
+key2 UInt64, key1 UInt64, key3 UInt64, attr UInt64
+677

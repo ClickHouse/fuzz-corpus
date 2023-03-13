@@ -1,0 +1,3 @@
+JSONEachRow
+id UInt64,      value1 Nullable(Float32),     value2 Nullable(Float64),      weight UInt64
+8244

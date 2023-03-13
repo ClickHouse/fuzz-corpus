@@ -1,0 +1,3 @@
+JSONLines
+`x` UInt32, `s` LowCardinality(String)
+21211

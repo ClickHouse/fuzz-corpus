@@ -1,0 +1,3 @@
+MySQLDump
+id UInt64,     value_date Date,     value_date_32 Date32,     value_date_time DateTime,     value_date_time_64 DateTime64
+18499

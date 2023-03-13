@@ -1,0 +1,3 @@
+PrettyCompactNoEscapesMonoBlock
+key UInt64, id UInt64, s String
+11346

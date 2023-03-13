@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpacesWithNamesAndTypes
+what String,     a String DEFAULT concat(c, ' is great'),     b String DEFAULT concat(c, ' is fast'),     c String ALIAS concat(what, 'House')
+30739

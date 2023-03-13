@@ -1,0 +1,3 @@
+TabSeparatedWithNames
+k int, v Nullable(int), INDEX v_minmax v TYPE minmax GRANULARITY 4
+8112

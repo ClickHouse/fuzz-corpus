@@ -1,0 +1,3 @@
+JSONEachRowWithProgress
+`key` UInt32,     `val` LowCardinality(UInt32),     `date` DateTime
+28061

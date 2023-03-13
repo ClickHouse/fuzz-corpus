@@ -1,0 +1,3 @@
+RowBinaryWithNamesAndTypes
+id UInt32, m Map(String, UInt32)
+7711

@@ -1,0 +1,3 @@
+MySQLDump
+`s` LowCardinality(String),     `arr` Array(String),     `num` UInt64
+6552

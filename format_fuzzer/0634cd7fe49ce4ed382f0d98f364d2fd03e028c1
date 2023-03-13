@@ -1,0 +1,3 @@
+TSVRawWithNames
+`if||||||||||||||||||||||||atus` Nullable(Enum8('NEW' = 0, 'CANCEL' = 1)),   `nested.nestedType` Array(Nullable(String)),   `partition` Date
+27370

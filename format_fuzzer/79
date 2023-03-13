@@ -1,0 +1,3 @@
+TSKV
+a Int64, b Int64, c Int64, d Int32, CONSTRAINT c1 ASSUME a = b AND c = d, CONSTRAINT c2 ASSUME b = c
+9706

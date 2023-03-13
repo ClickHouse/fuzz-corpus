@@ -1,0 +1,3 @@
+JSONStrings
+x UInt32, s Tuple(UInt32, String)
+4780

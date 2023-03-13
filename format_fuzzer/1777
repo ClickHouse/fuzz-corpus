@@ -1,0 +1,3 @@
+JSON
+x UInt32, `nest.col1` Array(String), `nest.col2` Array(Int8)
+26791

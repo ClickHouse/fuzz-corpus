@@ -1,0 +1,3 @@
+TabSeparated
+EventDate Date, CounterID UInt64, WatchID UInt64
+13368

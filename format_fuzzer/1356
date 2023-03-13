@@ -1,0 +1,3 @@
+CSV
+OrderId UInt64, OrderName String, OrderDate DateTime
+32477

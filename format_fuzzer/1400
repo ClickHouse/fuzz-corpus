@@ -1,0 +1,3 @@
+Values
+p Int,     t DateTime,     INDEX idx t TYPE minmax GRANULARITY 1
+30315

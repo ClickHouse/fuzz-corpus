@@ -1,0 +1,3 @@
+PrettyNoEscapesMonoBlock
+t Tuple(`1` Tuple(`2` Int, `3` Int), `4` Int)
+10282

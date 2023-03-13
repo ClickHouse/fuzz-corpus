@@ -1,0 +1,3 @@
+AvroConfluent
+`date` Date,      `id` Int64,      `clicks` Int64,      `price` Float64,      `spend` Float64
+4726

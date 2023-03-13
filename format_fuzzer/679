@@ -1,0 +1,3 @@
+XML
+id Float64 Codec(LZ4HC)
+17961

@@ -1,0 +1,4 @@
+CSVWithNames
+`id` Decimal(38, 30),     `id_key` Array(UUID),     `value` Array(Nullable(DateTime64(3))),    f UInt8
+16649ÿÿÿ Nullable(UUID)
+8

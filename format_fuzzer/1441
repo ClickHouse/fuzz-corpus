@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNames
+row_id UInt32,     map Map(String, String),     INDEX map_bloom_filter_values mapValues(map) TYPE bloom_filter GRANULARITY 1
+21170

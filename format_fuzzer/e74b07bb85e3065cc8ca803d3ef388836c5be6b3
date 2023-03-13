@@ -1,0 +1,2 @@
+CSV
+idU Int64 Codec(ZSTD(35444444444444))

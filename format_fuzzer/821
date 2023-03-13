@@ -1,0 +1,3 @@
+CapnProto
+id UInt32, sMap SimpleAggregateFunction(sumMap, Tuple(Array(UInt8), Array(Int64))), aMap AggregateFunction(sumMap, Tuple(Array(UInt8), Array(Int64)))
+20938

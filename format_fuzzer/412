@@ -1,0 +1,3 @@
+JSONCompactEachRow
+date Date, val Array(Nullable(UInt64))
+12637

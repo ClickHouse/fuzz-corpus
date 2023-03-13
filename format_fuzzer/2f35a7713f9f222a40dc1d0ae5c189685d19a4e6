@@ -1,0 +1,4 @@
+TabSeparatedRawWithNamesAndTypes
+CounterID        UInt32,     tNOTSartDate        Date,     Sign             Int8,     VisitID          UInt64,     UserIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXy Int8, z Int8
+83XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXD           UInt64,     VisitVay(Array(UInt32))
+926

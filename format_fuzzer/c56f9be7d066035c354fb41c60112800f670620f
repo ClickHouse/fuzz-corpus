@@ -1,0 +1,8 @@
+TSVWithNames
+a String,     date Date,     f UInt8
+ÿn
+
+
+ùTabSeparatedWithCSV
+idU UInt8 Codec(ZSTD(3))
+1720000000Nam000155575e2

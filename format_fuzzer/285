@@ -1,0 +1,3 @@
+Template
+`ca_address_sk` Int64,     `ca_address_id` String,     `ca_street_number` Nullable(String),     `ca_street_name` Nullable(String),     `ca_street_type` Nullable(String),     `ca_suite_number` Nullable(String),     `ca_city` Nullable(String),     `ca_county` Nullable(String),     `ca_state` Nullable(String),     `ca_zip` Nullable(String),     `ca_country` Nullable(String),     `ca_gmt_offset` Nullable(Float32),     `ca_location_type` Nullable(String)
+11320

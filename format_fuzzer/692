@@ -1,0 +1,3 @@
+CustomSeparated
+id Int32,     name String,     ts DateTime,     oth_id Int32
+623

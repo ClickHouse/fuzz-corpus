@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNamesAndTypes
+key Nullable(UInt32), s String
+32700

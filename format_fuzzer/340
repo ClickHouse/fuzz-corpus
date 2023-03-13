@@ -1,0 +1,3 @@
+CSV
+count UInt32, min Int32, max Int32, count_subquery Int32, min_subquery Int32, max_subquery Int32
+20734

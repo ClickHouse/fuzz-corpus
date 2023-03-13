@@ -1,0 +1,3 @@
+TSKV
+id UInt64,   data String,   INDEX a (id) type minmax GRANULARITY 3
+20972

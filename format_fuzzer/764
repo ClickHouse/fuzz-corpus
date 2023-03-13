@@ -1,0 +1,3 @@
+JSONEachRowWithProgress
+id SimpleAggregateFunction(sum, Nullable(UInt64))
+32017

@@ -1,0 +1,40 @@
+TabSeparated
+d String
+d
+TabSeparatedRawWithNamesAndTypes
+x Map(UInt8, ContextArray(Map(UInt8, Array(AggregateFunction(uniq, UInt64)))))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ûÿÿIMAÿÿÿÿÿÿÿÿÿÿÿÿÿTSVWithNames
+id UInt32,     a Float64,     ba Int ttl today()+1
+ Float64,     c Float64,     d Float64
+s153
+ÿÿIMAÿÿÿÿÿÿÿÿÿÿÿÿÿŒŒŒœŒŒŒŒŒŒŒŒŒŒŒŒŒ
+
+ŒŒŒŒŒŒ
+
+
+
+
+
+

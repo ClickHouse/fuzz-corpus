@@ -1,0 +1,3 @@
+JSONCompactColumns
+n Int8, a Array(UInt8) NOT NULL
+9571

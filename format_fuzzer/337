@@ -1,0 +1,3 @@
+TSKV
+CountryID UInt64,   CountryKey String,   StartDate Date,   EndDate Date,   Tax Float64
+7624

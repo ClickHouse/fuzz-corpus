@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+p Array(Array(Array(Tuple(Float32, Float64)))), s String, id Int
+29371

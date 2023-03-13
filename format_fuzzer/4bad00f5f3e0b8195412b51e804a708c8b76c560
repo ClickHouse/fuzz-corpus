@@ -1,0 +1,3 @@
+TSVRawWithNames
+puct_name String, 	price DECIMAL(22, 2), 	grce DECIMAL(22, 2), 	group_id Int64
+8074

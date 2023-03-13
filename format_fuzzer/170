@@ -1,0 +1,3 @@
+JSONCompactStringsEachRowWithNamesAndTypes
+`a` String,     `f` UInt8 DEFAULT 0
+26048

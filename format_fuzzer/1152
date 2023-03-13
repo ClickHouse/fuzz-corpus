@@ -1,0 +1,3 @@
+JSONCompactStringsEachRow
+`key` UInt32,     `ts` DateTime,     `value` UInt32,     PROJECTION aaaa     (         SELECT             ts,             key,             sum(value)         GROUP BY ts, key     )
+19523

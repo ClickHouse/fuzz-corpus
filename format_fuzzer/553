@@ -1,0 +1,3 @@
+Vertical
+d materialized today(),     k UInt64,     c UInt64,     u AggregateFunction(uniq, UInt8),     ue AggregateFunction(uniqExact, UInt8)
+29504

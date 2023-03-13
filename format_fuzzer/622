@@ -1,0 +1,3 @@
+ArrowStream
+event_time DateTime,     event_date Date MATERIALIZED toDate(event_time),     event_tm DateTime ALIAS event_time
+29942

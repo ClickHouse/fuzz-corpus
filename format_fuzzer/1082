@@ -1,0 +1,3 @@
+MsgPack
+key Int32,     ints Array(Int32),     int_ints Array(Array(Int32)),     strs Array(String),     str_strs Array(Array(String))
+27774

@@ -1,0 +1,5 @@
+TSVWithNames
+user_id UUID
+2326TSVRawWies
+x ÿÿÿÿÿÿÿÿamesAndCSVWithNames
+entityIri String,     courseId UInt32,     learnerId UInt64,     actorId UInt64,     durationU Int16,     fullWatched UInt8,     fullWatchedDate DateTime,     fullTatchedDA2ruration UInt16,     fullWatchedTime UInt16,     fu `views.watchedPart` Array(Float32),     `views.fullWatched` Array(UInt8),     `views.progress` Array(Float32),teT2

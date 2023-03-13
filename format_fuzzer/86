@@ -1,0 +1,3 @@
+HiveText
+a Int64, grp_aggreg AggregateFunction(groupUniqArrayArray, Array(UInt64)), grp_simple SimpleAggregateFunction(groupUniqArrayArray, Array(UInt64))
+30947

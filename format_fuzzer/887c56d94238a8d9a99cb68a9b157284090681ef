@@ -1,0 +1,3 @@
+CSVWithNames
+a UInt64, b UInt64, c UInt64
+1594RRRfalseRR c    actorId UInt64,     duration UInt16,     fullWay Ung,     courseId UInt64,     learnerId UInt64,     actorId UInt64,     duration UInt16,     fullWayched UInt8,  T  fullWatchedDate DateTime,   & fullWatchedDuration UInt16,      UInt16,     hedDuration UInt16,     fullWatchedTime UInt16,     fullWatchedViews UInt16,     `views.viewId` Array(String),     `views.startedAt` Array(DateTime),     `views.enderay(Dy(UInt6),     `views.progress` Array(Float32),     `views.rejessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssct` Array(UInt8),RRRRRRRRRRRRRRR8

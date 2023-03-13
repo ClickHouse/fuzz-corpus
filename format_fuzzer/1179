@@ -1,0 +1,3 @@
+TSVWithNames
+key UInt64,     partitioner UInt8,     value String
+6546

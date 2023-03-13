@@ -1,0 +1,3 @@
+LineAsStringWithNamesAndTypes
+date Date,     key UInt32,     testMap Nested(     k UInt16,     v UInt64)
+11646

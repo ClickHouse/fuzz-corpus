@@ -1,0 +1,3 @@
+CSVWithNamesAndTypes
+x enum('a', 'b', NULL)
+14900

@@ -1,0 +1,3 @@
+TabSeparatedRaw
+key Int32,     date Date,     dt DateTime,     dt64 DateTime64(3),     en8 Enum8('a'=1, 'b'=2, 'c'=3, 'd'=4),     en16 Enum16('c'=100, 'l'=101, 'i'=102, 'ck'=103, 'h'=104, 'o'=105, 'u'=106, 's'=107, 'e'=108),     dec32 Decimal32(4),     dec64 Decimal64(8),     dec128 Decimal128(16),     dec256 Decimal256(16),     uuid UUID
+31122

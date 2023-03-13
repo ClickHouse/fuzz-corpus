@@ -1,0 +1,5 @@
+TabSeparatedRawWithNames
+d			AggregateFunction(any, String), 	AntIf 		AggregateFunction(quantiles(0.5, 0.9), UInt64), 	GroupArray	AggregateFunction(groupArray, String)
+29572CustomSe
+paratedWithNames
+a1 ArrayhUInt16), a2 Array(UInt16), a3 

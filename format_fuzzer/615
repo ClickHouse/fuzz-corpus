@@ -1,0 +1,3 @@
+TSVRawWithNamesAndTypes
+EventDate Date, UTCEventTime DateTime, MoscowEventDate Date DEFAULT toDate(UTCEventTime)
+16237

@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+a UInt8, b DEFAULT 0, c DEFAULT identity(b)
+5349

@@ -1,0 +1,3 @@
+CSVWithNamesAndTypes
+a UInt32, b UInt32 ALIAS a
+6170

@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNames
+o_orderkey      Int32,  -- PK     o_custkey       Int32,  -- FK c_custkey     o_orderstatus   FixedString(1),     o_totalprice    Decimal(18,2),     o_orderdate     Date,     o_orderpriority FixedString(15),     o_clerk         FixedString(15),     o_shippriority  Int32,  -- integer     o_comment       String, -- variable text, size 79     CONSTRAINT c1 CHECK o_totalprice >= 0
+19901

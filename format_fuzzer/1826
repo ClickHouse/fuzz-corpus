@@ -1,0 +1,3 @@
+JSONStrings
+x UInt8, PROJECTION p (SELECT x GROUP BY x)
+16588

@@ -1,0 +1,3 @@
+ProtobufSingle
+p Date, k UInt8, d AggregateFunction(sum, UInt64) DEFAULT arrayReduce('sumState', [toUInt64(200)])
+9361

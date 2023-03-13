@@ -1,0 +1,3 @@
+Pretty
+foo LowCardinality(String), baz UInt64
+26167

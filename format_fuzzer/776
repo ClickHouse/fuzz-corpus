@@ -1,0 +1,3 @@
+Pretty
+id String,     seqs Array(UInt8),     create_time DateTime DEFAULT now()
+3575

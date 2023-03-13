@@ -1,0 +1,3 @@
+JSONLines
+key UInt64, a UInt8, b String, c Float64
+20147

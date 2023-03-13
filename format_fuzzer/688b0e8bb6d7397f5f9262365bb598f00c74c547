@@ -1,0 +1,3 @@
+TSVWithNamesAndTypes
+key UInt8, id UInt64, s String
+170

@@ -1,0 +1,3 @@
+CSV
+`product` Enum8('IU' = 1, 'WS' = 2),     `machine` String,     `branch` String,     `generated_time` DateTime
+2366

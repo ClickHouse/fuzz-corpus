@@ -1,0 +1,3 @@
+PrettyMonoBlock
+id UInt64,     CONSTRAINT `c0` CHECK nullIf(1 % 2, 1)
+22478

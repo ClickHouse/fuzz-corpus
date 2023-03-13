@@ -1,0 +1,3 @@
+JSONCompactStringsEachRowWithNames
+a Int8, b Nullable(Int8)
+15886

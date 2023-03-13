@@ -1,0 +1,3 @@
+ProtobufList
+ps_partkey      Int32,  -- PK(1), FK p_partkey     ps_suppkey      Int32,  -- PK(2), FK s_suppkey     ps_availqty     Int32,  -- integer     ps_supplycost   Decimal(18,2),     ps_comment      String, -- variable text, size 199     CONSTRAINT pk CHECK ps_partkey >= 0,     CONSTRAINT c1 CHECK (ps_availqty >= 0 AND ps_supplycost >= 0)
+21241

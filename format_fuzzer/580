@@ -1,0 +1,3 @@
+MySQLDump
+dt DateTime, idx int, t Tuple(Nullable(UInt64), Nullable(String))
+1625

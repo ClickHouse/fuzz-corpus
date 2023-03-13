@@ -1,0 +1,3 @@
+CSVWithNames
+`id` Decimal(38, 30),     `id_alue` Array(Nullable(DateTime64(3))),     `value_nullable` Nullable(UUID)
+))),     `value_nullabl891

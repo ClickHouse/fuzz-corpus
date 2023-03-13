@@ -1,0 +1,33 @@
+TabSeparatedRawWithNamesAndTypes
+x Map(UInt8, Array(Map(UInt8, Array(AggregateFunction(uniq, UInt32)))))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TabSeparatedRawWithName
+
+
+
+
+
+s
+a UInt32, b 
+
+
+
+UI
+n

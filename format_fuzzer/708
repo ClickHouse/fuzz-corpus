@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNamesAndTypes
+id Int32, y_a String, y_b Nullable(String)
+3303

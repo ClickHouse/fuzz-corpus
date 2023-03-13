@@ -1,0 +1,3 @@
+JSONColumnsWithMetadata
+id Int32, poly Array(Tuple(Int32, Int32))
+15702

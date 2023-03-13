@@ -1,0 +1,3 @@
+CSV
+idU Int64 Codec(ZSTD(3))
+345088888888

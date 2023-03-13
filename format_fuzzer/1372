@@ -1,0 +1,3 @@
+CapnProto
+param1 Float64,     param2 Float64,     target Float64,     predict1 Float64,     predict2 Float64
+4688

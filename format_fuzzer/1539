@@ -1,0 +1,3 @@
+MySQLWire
+test_id UInt32, 	type String, 	test_config Array(Map(String, Decimal(28,12))), 	ncp UInt8
+28459

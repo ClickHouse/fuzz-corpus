@@ -1,0 +1,3 @@
+JSONObjectEachRow
+a UInt64, b ALIAS a, c ALIAS b
+4580

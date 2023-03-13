@@ -1,0 +1,3 @@
+JSONEachRow
+c0 UInt64 CODEC(ZSTD),     c1 UInt64
+17736

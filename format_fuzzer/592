@@ -1,0 +1,3 @@
+JSONCompactStrings
+`dt` LowCardinality(Date), `col` DateTime, `col2` Nullable(Int256), `colAlias0` Nullable(DateTime64(3)) ALIAS col, `colAlias3` Nullable(Int32) ALIAS col3 + colAlias0, `colAlias1` LowCardinality(UInt16) ALIAS colAlias0 + col2, `colAlias2` LowCardinality(Int32) ALIAS colAlias0 + colAlias1, `col3` Nullable(UInt8)
+25624

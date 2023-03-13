@@ -1,0 +1,3 @@
+PrettyCompactNoEscapes
+CounterID UInt32, EventDate Date, EventTime DateTime, UserID UInt64, Sign Int8
+30284

@@ -1,0 +1,3 @@
+PrettySpaceNoEscapesMonoBlock
+timestamp        UInt64,     insert_timestamp UInt64,     key              UInt64,     value            Float64
+21379

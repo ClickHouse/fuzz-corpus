@@ -1,0 +1,3 @@
+JSON
+id UInt32, col Map(String, UInt64)
+19835

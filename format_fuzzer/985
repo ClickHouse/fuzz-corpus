@@ -1,0 +1,3 @@
+JSONEachRow
+id UInt8, h3_index UInt64, res UInt8
+22805

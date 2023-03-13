@@ -1,0 +1,3 @@
+JSONStringsEachRow
+x UInt64, `arr.a` Array(UInt64), `arr.b` Array(UInt64)
+20130

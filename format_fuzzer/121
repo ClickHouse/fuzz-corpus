@@ -1,0 +1,3 @@
+RowBinary
+a Nullable(INT) NULL,     b INT NOT NULL,     c Nullable(INT)
+22250

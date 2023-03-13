@@ -1,0 +1,3 @@
+MySQLWire
+dt Date,     id UInt32,     val Nullable(UInt32)
+23954

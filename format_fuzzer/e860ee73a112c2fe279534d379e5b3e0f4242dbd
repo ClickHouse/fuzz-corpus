@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+keyalueF28 Float64,     ref_valueF32 Float32,     valueF64 Float32  CODEC(FPC(4)),     valueF32 Float32  CODEC(FPC(4))
+32431

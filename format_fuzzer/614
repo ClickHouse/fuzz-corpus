@@ -1,0 +1,3 @@
+LineAsStringWithNames
+`event_date` Date,     `user_id` Int32,     `timestamp` DateTime,     `eventID` Int32,     `product` String
+22380

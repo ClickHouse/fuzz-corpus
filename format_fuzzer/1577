@@ -1,0 +1,3 @@
+JSONCompact
+ts DateTime, field String, num_field Nullable(Float64)
+23351

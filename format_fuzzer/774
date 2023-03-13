@@ -1,0 +1,3 @@
+CSVWithNames
+`id` String, `name` String, lcname LowCardinality(String)
+21065

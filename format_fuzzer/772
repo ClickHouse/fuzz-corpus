@@ -1,0 +1,3 @@
+PrettyCompactNoEscapesMonoBlock
+id String, name Nullable(String), value UInt32
+4769

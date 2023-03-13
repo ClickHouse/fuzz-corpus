@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+d materialized today(), k UInt64, c UInt64, x AggregateFunction(topKWeighted(2), UInt8, UInt8)
+11410

@@ -1,0 +1,3 @@
+JSONEachRowWithProgress
+Date Date,     NestedColumn Nested(         ID    Int32,         Count Int64     )
+3886

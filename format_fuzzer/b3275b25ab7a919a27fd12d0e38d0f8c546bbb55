@@ -1,0 +1,12 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     grp_aggreg AggregateFunction(groupArrayState, Array(UInt16))
+3
+
+
+
+
+
+
+
+
+abSeparatedWap(UInt8, Aithrray(AggregatencN

@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+d	Date, 	k1 	UInt64, 	k2 	String, 	SumArray	AggregateFunction(groupArray, String)
+29572

@@ -1,0 +1,3 @@
+PrettyCompact
+id UInt64, country_id UInt8, name String
+22569

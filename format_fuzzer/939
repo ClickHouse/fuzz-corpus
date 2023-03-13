@@ -1,0 +1,3 @@
+Parquet
+id UInt64,     value_alias ALIAS concat('AliasValue_', toString(id)),     value_materialized MATERIALIZED concat('MaterializedValue_', toString(id))
+6546

@@ -1,0 +1,3 @@
+PrettyCompactNoEscapesMonoBlock
+id UInt64,     value String,     alias_value ALIAS ((id + 1) AS inside_value) + inside_value
+3905

@@ -1,0 +1,81 @@
+TabSeparatedRawWithNames
+b Int64, p_aggreg AggregateFunction(groupArrayArray, Array(UInt64))
+3424
+RawWithNamesAndTypes
+x Map(UInt8, Array(Map(UInt8, Array(AggregateFunction(uniq, UInt64)))))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nnnnnnnnnnnnnnnnnnnnnnnpelinуттъЌCSVWithNames
+keyTSVRa UIwWi

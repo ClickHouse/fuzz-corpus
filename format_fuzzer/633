@@ -1,0 +1,3 @@
+JSONColumnsWithMetadata
+field0 Tuple(Array(UInt64), String) CODEC(T64, LZ4)
+27761

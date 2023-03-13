@@ -1,0 +1,3 @@
+TabSeparated
+Id Int8,   EventDate Date DEFAULT '2000-01-01',   field1 Int8,   field2 String,   field3 ALIAS CASE WHEN field1 = 1 THEN field2 ELSE '0' END
+3848

@@ -1,0 +1,3 @@
+JSONCompactColumns
+a String, b String, c String, d String, CONSTRAINT c1 ASSUME a > b AND b >= c AND c > d AND a >= d
+3841

@@ -1,0 +1,3 @@
+CustomSeparated
+x UInt64, y LowCardinality(String)
+19199

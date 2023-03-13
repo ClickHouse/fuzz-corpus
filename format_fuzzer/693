@@ -1,0 +1,3 @@
+PrettySpaceNoEscapes
+id Int32,     name String,     ts DateTime,     trd_id Int32
+16277

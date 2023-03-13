@@ -1,0 +1,3 @@
+JSONCompact
+id Int64, A Nullable(Int64), X Int64 materialized coalesce(A, -1)
+7809

@@ -1,0 +1,3 @@
+ODBCDriver2
+`a` Date,`b` UInt16,`c.d` Array(Date),`dcount` UInt16 ALIAS length(c.d)
+20142

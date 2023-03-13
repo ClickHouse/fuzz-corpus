@@ -1,0 +1,3 @@
+ProtobufSingle
+d materialized today(), k UInt64, payload materialized rand(), SomeMap Nested(ID UInt32, Num1 Int64, Num2 Float64)
+8176

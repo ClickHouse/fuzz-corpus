@@ -1,0 +1,3 @@
+CSVWithNamesAndTypes
+`x` LowCardinality(UInt32), `str` Nullable(Int16)
+20873

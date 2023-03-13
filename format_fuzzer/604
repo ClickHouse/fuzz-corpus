@@ -1,0 +1,3 @@
+Avro
+`EventDate` Date,     `CounterID` Nullable(String),     `UserID` Nullable(UInt32)
+10241

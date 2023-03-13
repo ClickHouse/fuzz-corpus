@@ -1,0 +1,3 @@
+PrettyCompactNoEscapesMonoBlock
+`id` LowCardinality(Nullable(UInt64)),     CONSTRAINT `c0` CHECK `id` = 3
+1390

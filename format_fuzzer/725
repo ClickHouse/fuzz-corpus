@@ -1,0 +1,3 @@
+JSONColumns
+`id` int, `ary` Array(LowCardinality(Nullable(String))), INDEX idx_ary ary TYPE bloom_filter(0.01) GRANULARITY 1
+16913

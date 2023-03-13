@@ -1,0 +1,3 @@
+HiveText
+t Tuple(Tuple(Int, Int), Int)
+7881

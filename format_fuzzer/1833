@@ -1,0 +1,3 @@
+CustomSeparatedWithNamesAndTypes
+x UInt8, y String, z Array(String)
+22073

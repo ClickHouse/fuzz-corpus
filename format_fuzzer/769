@@ -1,0 +1,3 @@
+TemplateIgnoreSpaces
+`id` String, `color` String, `section` String, `description` String
+10962

@@ -1,0 +1,3 @@
+PrettySpace
+id UInt64,     INDEX t_constant_index 'foo' TYPE set(2) GRANULARITY 1
+31455

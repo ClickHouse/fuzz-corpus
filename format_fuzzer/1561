@@ -1,0 +1,3 @@
+PrettyCompact
+timestamp DateTime, val Nullable(Int8)
+15450

@@ -1,0 +1,3 @@
+TabSeparatedWithNames
+`hour` Nullable(DatETime),       `avg_duration` Float64
+6348

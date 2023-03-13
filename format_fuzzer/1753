@@ -1,0 +1,3 @@
+BSONEachRow
+`x` Nullable(UInt32), `lc` Nullable(String)
+16528

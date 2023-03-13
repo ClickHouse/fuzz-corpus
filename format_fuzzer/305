@@ -1,0 +1,3 @@
+LineAsStringWithNames
+col1 Nullable(String),     col2 Nullable(String),     col3 Nullable(String)
+15290

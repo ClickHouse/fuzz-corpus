@@ -1,0 +1,6 @@
+TSVRawWithNames
+`id` Nullable(String),   `status` Nullable(Enum8('NEW' = 0, 'CANCEL' = 1)),   `nested.nype` Array(Nullable(String)),   `partition` Date
+TSVWithNamesAndTy2737pes
+key UInt8,   v=lue Stri0ng
+10149
+

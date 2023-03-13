@@ -1,0 +1,3 @@
+PrettyCompact
+d	Date, 	Uniq 		AggregateFunction(uniq, UInt64)
+31099

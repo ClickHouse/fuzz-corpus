@@ -1,0 +1,4 @@
+CSV
+id Int Codec(ZSTD(3))
+-4
+18

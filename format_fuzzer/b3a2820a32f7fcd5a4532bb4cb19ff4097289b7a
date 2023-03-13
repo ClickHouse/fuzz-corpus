@@ -1,0 +1,17 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     grp_aggreg AggregateFunction(groupArrayArray, Array(UInt64))
+3424
+RawWies
+x Map(UInt9, Array(Map(UInt8, Array(AggregateFunction(uINGniq, UInt64)))))
+
+
+
+
+
+
+
+
+
+
+
+nnnnT

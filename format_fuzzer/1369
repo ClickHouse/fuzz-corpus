@@ -1,0 +1,3 @@
+PrettyNoEscapes
+`order_key` UInt64,     `str` String,     INDEX idx str TYPE bloom_filter GRANULARITY 1
+12491

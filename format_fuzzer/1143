@@ -1,0 +1,3 @@
+JSONAsString
+key UInt32, PROJECTION x (SELECT max(key))
+28625

@@ -1,0 +1,7 @@
+TSVWithNames
+user_id UUID
+7504TSVRawWie UUID
+7504TSVRawWies
+CSV
+id UInt64 Codec(ZSTD(3))
+1725440x0

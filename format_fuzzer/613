@@ -1,0 +1,3 @@
+Null
+event_date Date MATERIALIZED toDate(created, 'Asia/Istanbul'),   id UInt64,   id2 UInt64,   val UInt64,   val2 Int32,   created UInt64
+5744

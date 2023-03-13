@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNamesAndTypes
+time DateTime64(3),     domain String,     subdomain String
+19103

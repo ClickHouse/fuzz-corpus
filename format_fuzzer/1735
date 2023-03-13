@@ -1,0 +1,3 @@
+CapnProto
+x Int32, y Int32, PROJECTION x_plus_y (select sum(x - y), argMax(x, y) group by x + y)
+1991

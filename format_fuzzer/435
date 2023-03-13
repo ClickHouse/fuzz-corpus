@@ -1,0 +1,3 @@
+JSONStrings
+date_time DateTime, value SimpleAggregateFunction(sum,UInt64)
+19778

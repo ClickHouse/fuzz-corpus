@@ -1,0 +1,3 @@
+TabSeparatedRaw
+key UInt64,     value String,     part UInt8 DEFAULT 77
+20008

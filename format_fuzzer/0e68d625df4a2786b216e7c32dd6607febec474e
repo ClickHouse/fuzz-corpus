@@ -1,0 +1,5 @@
+TSVWithNames
+x UInt32, s LowCardinality(String)
+160
+ß Dat       UInt16
+274

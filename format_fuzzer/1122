@@ -1,0 +1,3 @@
+JSONEachRowWithProgress
+`key_string` String,     `key_uint32` ALIAS toUInt32(key_string),     INDEX idx toUInt32(key_string) TYPE set(0) GRANULARITY 1
+27219

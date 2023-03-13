@@ -1,0 +1,3 @@
+JSONEachRowWithProgress
+`date` Date, `name` LowCardinality(Nullable(String)), `clicks` Nullable(Int32)
+8027

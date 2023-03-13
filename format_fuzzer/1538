@@ -1,0 +1,3 @@
+LineAsStringWithNamesAndTypes
+t DateTime,     z AggregateFunction(groupBitmap, UInt32)
+24665

@@ -1,0 +1,3 @@
+CSVWithNames
+entityIri String,     courseId UInt64,     learnerId UInt64,     actorId UInt64,    0duration UInt16,     fullWatched UInt8,     fullWatchedDate Date,     `vieges` Array(String), sion DateTime
+4417

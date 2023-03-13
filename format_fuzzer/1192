@@ -1,0 +1,3 @@
+TabSeparatedRaw
+key UInt64,     value Array(String)
+6089

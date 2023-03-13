@@ -1,0 +1,3 @@
+TSVRawWithNamesAndTypes
+EventDate Date, CounterID UInt32,  UserID UInt64,  EventTime DateTime('America/Los_Angeles'), UTCEventTime DateTime('UTC')
+ndT78

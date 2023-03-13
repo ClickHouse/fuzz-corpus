@@ -1,0 +1,3 @@
+BSONEachRow
+x varchar(255) COLLATE something_else NOT NULL
+20513

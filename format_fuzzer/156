@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+a String,     b String,     c Int32,     d Int32,     e Int32,     PROJECTION proj_1     (         SELECT c ORDER BY d     ),     PROJECTION proj_2     (         SELECT c ORDER BY e, d     )
+1012

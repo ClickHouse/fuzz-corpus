@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpaces
+id UInt64,      value1 Nullable(UInt8),     value2 Nullable(UInt16),     value3 Nullable(UInt32),     value4 Nullable(UInt64),      weight UInt64
+25263

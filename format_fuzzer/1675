@@ -1,0 +1,3 @@
+Parquet
+v Array(LowCardinality(Nullable(String))), INDEX idx v TYPE bloom_filter(0.1) GRANULARITY 1
+28710

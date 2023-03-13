@@ -1,0 +1,4 @@
+TabSeparatedRawWithNamesAndTypes
+CounterID        UInt32,     tSartDate        Date,     Sign             Int8,     VisitID          UInt64,     UserIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXy Int8, z Int8
+83XXXXXXXXXXXXXXXXXXXXXXXXXXXXy(UInt8),     `Test.PuidKey`  Array(Array(UInt8)),     `Test.PuidVal`  Array(Array(UInt32))
+926

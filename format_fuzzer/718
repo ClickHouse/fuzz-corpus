@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpacesWithNamesAndTypes
+id Int64, user_id Int64, content String, created_time DateTime
+23373

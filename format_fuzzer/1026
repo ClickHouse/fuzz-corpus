@@ -1,0 +1,3 @@
+BSONEachRow
+InsertionDateTime DateTime,     TTLDays Int32 DEFAULT CAST(365, 'Int32')
+3510

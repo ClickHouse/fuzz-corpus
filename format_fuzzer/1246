@@ -1,0 +1,3 @@
+CustomSeparatedWithNamesAndTypes
+k UInt64, t Tuple(UInt64, UInt64)
+1879

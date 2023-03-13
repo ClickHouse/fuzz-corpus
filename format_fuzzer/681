@@ -1,0 +1,3 @@
+TSVWithNames
+id Int16, name String, INDEX bf_idx(name) TYPE minmax
+26518

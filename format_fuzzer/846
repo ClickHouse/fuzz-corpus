@@ -1,0 +1,3 @@
+Regexp
+`id` UInt64 CODEC(DoubleDelta(3), ZSTD(22))
+7471

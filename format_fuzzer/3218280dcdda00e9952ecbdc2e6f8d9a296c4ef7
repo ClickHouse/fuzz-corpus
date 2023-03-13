@@ -1,0 +1,3 @@
+TabSeparatedWithNames
+a Enum('one' = 1, 'tkey1³³³³³³³³³³³³³³³³³³³³³³³= wo2 '),     b Enum('default' = 2, 'ÿnon-default1  ='),     c UInt8
+43214

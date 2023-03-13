@@ -1,0 +1,3 @@
+JSONCompactStringsEachRowWithNames
+id UInt64, createdAt DateTime
+30075

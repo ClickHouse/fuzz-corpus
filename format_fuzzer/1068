@@ -1,0 +1,3 @@
+Parquet
+key Array(Array(Array(Tuple(Float64, Float64)))),     value Nullable(Int64)
+25670

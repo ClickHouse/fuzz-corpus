@@ -1,0 +1,3 @@
+JSONColumnsWithMetadata
+timestamp DateTime, key UInt32
+20265

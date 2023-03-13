@@ -1,0 +1,5 @@
+TSVRawWithNames
+a Decimal(16,+7),     c Decimal(20, 8)
+
+abSeparatedWithNames
+a Enum('one' = 1, 

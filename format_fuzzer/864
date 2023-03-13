@@ -1,0 +1,3 @@
+Avro
+id UInt64,     decimal_value Decimal256(5)
+18312

@@ -1,0 +1,3 @@
+MySQLWire
+server_date Date, server_time Datetime('Asia/Istanbul'), dimension_1 String
+11339

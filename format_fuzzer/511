@@ -1,0 +1,3 @@
+TSVWithNamesAndTypes
+d DateTime, a Int, b default a * 2 ttl d + interval 1 DAY
+31338

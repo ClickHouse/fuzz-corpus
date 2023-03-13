@@ -1,0 +1,3 @@
+RowBinaryWithNames
+`datetime` DateTime,     `user_id` UInt64,     `device_id` UInt64,     `domain` LowCardinality(String),     `bytes` UInt64,     `duration` UInt64
+11646

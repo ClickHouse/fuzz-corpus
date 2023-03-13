@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNamesAndTypes
+uid String, version UInt32, is_deleted String
+20111

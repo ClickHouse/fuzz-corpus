@@ -1,0 +1,3 @@
+PrettyCompact
+key     Int32,     value   Nullable(Int32),     alias   UInt8 ALIAS value>0
+10196

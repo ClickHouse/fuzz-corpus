@@ -1,0 +1,7 @@
+CSV
+id UInt32 Codec(ZSTD(3))
+
+
+
+
+00216542019

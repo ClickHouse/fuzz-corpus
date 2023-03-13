@@ -1,0 +1,3 @@
+RowBinaryWithNames
+d DateTime,     a String,     b UInt64
+27376

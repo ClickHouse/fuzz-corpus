@@ -1,0 +1,3 @@
+ProtobufSingle
+order_key int, str Array(String), INDEX idx str TYPE bloom_filter(1.) GRANULARITY 1024
+10814

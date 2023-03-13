@@ -1,0 +1,3 @@
+RowBinaryWithNamesAndTypes
+`c0` String, `c1` Int32 CODEC(NONE), `c2` Int32
+1536

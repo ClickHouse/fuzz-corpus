@@ -1,0 +1,3 @@
+JSONColumnsWithMetadata
+id UInt64,     tuple_value Tuple(value_1 UInt64, value_2 String)
+16365

@@ -1,0 +1,3 @@
+Values
+timestamp         DateTime,   action            LowCardinality(Nullable(String)),   user              LowCardinality(Nullable(String)),   INDEX test_user_idx (user) TYPE set(0) GRANULARITY 8192
+25983

@@ -1,0 +1,3 @@
+Arrow
+timestamp UInt32,   country LowCardinality(Nullable(String))
+29470

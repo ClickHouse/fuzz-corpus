@@ -1,0 +1,3 @@
+CSV
+`ID` String,     `USER_ID` String,     `PLATFORM` LowCardinality(String)
+20286

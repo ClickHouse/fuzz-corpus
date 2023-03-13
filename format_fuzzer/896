@@ -1,0 +1,3 @@
+HiveText
+`id` UInt64, `s` String, INDEX tok_bf (s, lower(s)) TYPE tokenbf_v1(512, 3, 0) GRANULARITY 1
+30173

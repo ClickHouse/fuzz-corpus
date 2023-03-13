@@ -1,0 +1,3 @@
+PrettySpaceNoEscapesMonoBlock
+id Int32, values Array(Tuple(LowCardinality(String), Int32)), date Date
+12154

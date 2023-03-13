@@ -1,0 +1,3 @@
+HiveText
+OldColumn String DEFAULT '',     NewColumn String DEFAULT '',     EventDate Date DEFAULT toDate(EventTime),     EventTime DateTime
+15075

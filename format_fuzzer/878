@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpacesWithNamesAndTypes
+id UInt64, longitude Float64, latitude Float64
+10359

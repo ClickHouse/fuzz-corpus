@@ -1,0 +1,3 @@
+RowBinaryWithNames
+`id` UInt16,     `dec` AggregateFunction(argMin, Decimal(24, 10), UInt16)
+26592

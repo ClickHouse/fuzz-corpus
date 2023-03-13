@@ -1,0 +1,3 @@
+Protobuf
+`CounterID` UInt32,      `StartDate` Date,      `GoalID` UInt32,      `Visits` AggregateFunction(sumIf, Int8, UInt8),      `GoalReaches` AggregateFunction(sum, Int8)
+30544

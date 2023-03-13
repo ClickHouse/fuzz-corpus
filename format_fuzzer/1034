@@ -1,0 +1,3 @@
+MsgPack
+ip String,     ipv6 IPv6 MATERIALIZED toIPv6(ip)
+27225

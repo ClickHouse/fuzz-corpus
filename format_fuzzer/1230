@@ -1,0 +1,3 @@
+BSONEachRow
+k String, x UInt64, e Enum('hello' = 1, 'world' = 2)
+10476

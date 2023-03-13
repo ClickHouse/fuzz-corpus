@@ -1,0 +1,3 @@
+PrettySpaceMonoBlock
+a LowCardinality(Nullable(String)), b LowCardinality(Nullable(String))
+2375

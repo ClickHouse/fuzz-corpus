@@ -1,0 +1,3 @@
+TabSeparatedRaw
+date Date, version UInt64, val UInt64
+28660

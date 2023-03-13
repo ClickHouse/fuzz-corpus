@@ -1,0 +1,3 @@
+CSVWithNamesAndTypes
+time DateTime,     project LowCardinality(String),     subproject LowCardinality(String),     path String,     hits UInt64,     PROJECTION total     (         SELECT             project,             subproject,             path,             sum(hits),             count()         GROUP BY             project,             subproject,             path     )
+21292

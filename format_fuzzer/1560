@@ -1,0 +1,3 @@
+BSONEachRow
+timestamp DateTime, val Int8
+5618

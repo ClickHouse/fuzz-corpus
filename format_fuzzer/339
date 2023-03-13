@@ -1,0 +1,3 @@
+SQLInsert
+`country` String, `location` Array(Int32)
+20177

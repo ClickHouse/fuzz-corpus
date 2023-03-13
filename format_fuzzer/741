@@ -1,0 +1,3 @@
+LineAsStringWithNamesAndTypes
+id int, start String, end String
+1105

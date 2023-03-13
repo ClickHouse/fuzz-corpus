@@ -1,0 +1,3 @@
+HiveText
+dt DateTime, user int, event String
+14105

@@ -1,0 +1,3 @@
+TabSeparatedRaw
+d Date DEFAULT '2000-01-01', x UInt64, n Nested(a String, b String)
+11218

@@ -1,0 +1,3 @@
+TabSeparatedWithNames
+column_name1 UInt8 DEFAULT 1 COMMENT 'comment',     column_name2 UInt8 COMMENT 'non default comment'
+18120

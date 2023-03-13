@@ -1,0 +1,3 @@
+TSVWithNames
+dt DateTime, cost Int64, projection p (select toStartOfMinute(dt) dt_m, sum(cost) group by dt_m)
+12593

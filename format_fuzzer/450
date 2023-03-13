@@ -1,0 +1,3 @@
+Values
+d Date DEFAULT '2000-01-01',   x DateTime,   y Array(UInt64),   z UInt64,   n Nested (Age UInt8, Name String),   w Int16 DEFAULT 10
+19440

@@ -1,0 +1,3 @@
+Avro
+date Date,   key UInt64,   value String
+24488

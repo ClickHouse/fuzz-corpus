@@ -1,0 +1,3 @@
+PrettySpaceNoEscapesMonoBlock
+id UInt64,     value Tuple(value_0_level_0 Tuple(value_0_level_1 String, value_1_level_1 String), value_1_level_0 String)
+16254

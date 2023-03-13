@@ -1,0 +1,3 @@
+RowBinaryWithNames
+`id` LowCardinality(UInt16), `v` DateTime64(3, 'UTC')
+7292

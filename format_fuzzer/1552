@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNamesAndTypes
+timestamp DateTime64(3),     color     LowCardinality(String)
+29190

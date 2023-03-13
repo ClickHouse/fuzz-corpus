@@ -1,0 +1,3 @@
+PrettyCompactNoEscapesMonoBlock
+dt DateTime, i int, projection p (select sum(i) group by toStartOfMinute(dt))
+14761

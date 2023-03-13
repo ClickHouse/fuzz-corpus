@@ -1,0 +1,3 @@
+MySQLDump
+_id UInt64,  pt String, attr_list Array(String)
+15360

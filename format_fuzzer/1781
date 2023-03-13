@@ -1,0 +1,3 @@
+CustomSeparatedWithNamesAndTypes
+x UInt32, s LowCardinality(Nullable(String))
+21273

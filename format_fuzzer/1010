@@ -1,0 +1,3 @@
+JSONCompactEachRow
+i int, j int, k int, projection p (select * order by j)
+5978

@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+key      UInt64, f_va Float32  CODEC(FPC(4))
+32431

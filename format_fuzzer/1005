@@ -1,0 +1,3 @@
+CustomSeparatedWithNamesAndTypes
+i Int, a Int, s String default 'b' ttl a % 2 = 0 ? today() - 10 : toDate('2100-01-01'),     index ind_s (s) type set(1) granularity 1
+19199

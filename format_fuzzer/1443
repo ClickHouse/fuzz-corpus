@@ -1,0 +1,3 @@
+AvroConfluent
+row_id UInt32,     map Map(String, String),     map_fixed Map(FixedString(2), String),     INDEX map_keys_tokenbf mapKeys(map) TYPE tokenbf_v1(256,2,0) GRANULARITY 1,     INDEX map_fixed_keys_tokenbf mapKeys(map_fixed) TYPE ngrambf_v1(4,256,2,0) GRANULARITY 1
+3558

@@ -1,0 +1,3 @@
+JSONStringsEachRow
+d materialized today(), k UInt64, x AggregateFunction(quantile(0.1), Float64)
+5945

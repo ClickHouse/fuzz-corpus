@@ -1,0 +1,3 @@
+LineAsStringWithNamesAndTypes
+id UInt64,     CONSTRAINT `c0` CHECK 1,     CONSTRAINT `c1` CHECK 1 < 2,     CONSTRAINT `c2` CHECK isNull(cast(NULL, 'Nullable(UInt8)'))
+9107

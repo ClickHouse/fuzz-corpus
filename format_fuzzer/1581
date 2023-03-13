@@ -1,0 +1,3 @@
+PrettyCompactNoEscapes
+ts DateTime,    id String,    string Nullable(String),    float64 Nullable(Float64),    float32 Nullable(Float32),    decimal325 Nullable(Decimal32(5)),    date Nullable(Date),    datetime Nullable(DateTime),    datetime64 Nullable(DateTime64),    int64 Nullable(Int64),    int32 Nullable(Int32),    int16 Nullable(Int16),    int8 Nullable(Int8)
+21954

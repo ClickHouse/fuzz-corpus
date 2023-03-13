@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+event_id UInt64,     something Nullable(String),     other String
+17202

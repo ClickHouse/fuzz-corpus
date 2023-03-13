@@ -1,0 +1,12 @@
+TSVWithNames
+a String,     date Date,     f UInt8
+16649
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   date Date,     f UInt8
+16649
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿnnnnnnInt8
+16649
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnÿÿÿnaratedWithNamesAndTypes
+prefix String,     value_date Date,     value_date_32 Date32,     value_date_time DateTime,     value_date_time_64 DateTime64
+12533nnnnnInt8
+16649
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnÃnnnnnnnnnnnnnnnnnn\\\\\\\\\\\\\nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnÿÿÿ

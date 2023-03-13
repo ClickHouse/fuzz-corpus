@@ -1,0 +1,3 @@
+MySQLWire
+`Name` LowCardinality(String),   `Base` LowCardinality(String)
+2209

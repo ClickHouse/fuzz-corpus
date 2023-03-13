@@ -1,0 +1,3 @@
+JSONCompactColumns
+id UInt64, code String
+16385

@@ -1,0 +1,3 @@
+Pretty
+id UInt64,      value1 Nullable(Int8),     value2 Nullable(Int16),     value3 Nullable(Int32),     value4 Nullable(Int64),      weight UInt64
+6081

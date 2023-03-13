@@ -1,0 +1,6 @@
+TabSeparated
+d String
+d
+d ‰StCSV
+idU Int32 Codec(ZSTD(3))
+17254444444444edRawWi444th4

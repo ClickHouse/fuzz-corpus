@@ -1,0 +1,3 @@
+Protobuf
+a Int8, b Int64 DEFAULT c - 500, c Int32 DEFAULT a + 1000
+9822

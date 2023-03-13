@@ -1,0 +1,3 @@
+PrettyCompactMonoBlock
+`TV` Date,     `SHAMSI` String,     `HIJRI` String,     `MILADI` String,     `S_DAY` UInt8,     `H_DAY` UInt8,     `S_MONTH` UInt8,     `H_MONTH` UInt8,     `WEEK_DAY_NAME` String,     `DAY_NUMBER` UInt8,     `HOLIDAY` UInt8,     `WEEK_NAME` String
+14443

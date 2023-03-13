@@ -1,0 +1,3 @@
+JSONCompactEachRow
+epoch UInt64 CODEC(Delta,LZ4),   _time_dec Float64
+31604

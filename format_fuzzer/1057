@@ -1,0 +1,3 @@
+MySQLWire
+key_1 UInt64,     key_2 UInt64,     value UInt16
+27517

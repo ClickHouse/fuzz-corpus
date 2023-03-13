@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+d Date, x UInt32, s LowCardinality(String)
+22678

@@ -1,0 +1,3 @@
+RowBinary
+timestamp DateTime,   timestamp_h DateTime materialized toStartOfHour(timestamp),   bytes UInt64
+31779

@@ -1,0 +1,95 @@
+CustomSeparatedWithNames
+`year` Map(UInt8, Array(Map(UInt8, Array(AggregateFunction(uniq, UInt64)))))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n
+nt64
+26026StrindRawWithNamesAndTypes
+x Map(UInt8, Array(Map(UInt8, Array(AggregateFunction(uniq, UInt64)))))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

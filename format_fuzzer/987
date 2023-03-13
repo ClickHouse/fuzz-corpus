@@ -1,0 +1,3 @@
+HiveText
+id UInt8,     value Nullable(Decimal(38, 2))
+5681

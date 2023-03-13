@@ -1,0 +1,3 @@
+MySQLWire
+u64 UInt64, i32 Int32, i64 UInt64, INDEX idx (i32) TYPE bloom_filter GRANULARITY 1
+8572

@@ -1,0 +1,3 @@
+CSVWithNames
+entityIri String,     courId UInt64,     actorId UInt64,  ExternalUserDefinedExecutallWatched UInt8,  chedDate Date,    ullWatchedDate Date,     `vieges` Array(String),     version DateTime
+4417

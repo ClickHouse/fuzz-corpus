@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpaces
+date Date DEFAULT today(), fs FixedString(16)
+19653

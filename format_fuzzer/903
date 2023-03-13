@@ -1,0 +1,3 @@
+JSONAsString
+id UInt64, t Tuple(a UInt64, s String)
+3840

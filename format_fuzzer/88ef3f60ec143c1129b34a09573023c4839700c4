@@ -1,0 +1,15 @@
+TabSeparatedRawWithNamesAndTypes
+x Map(UInt8, Array(Map(UInt8, Array(AggregateFunction(uniq, UInt64)))))
+
+
+
+
+
+
+
+
+
+
+çççççççççççççnt64,     duration UInt16,     fullWatched UInt8,     fullWatchedDate DateTime,     fullWatchedDuration UInt16,     fullWatchedTime UInt16,     fullWatchedViews UInt16,     `vi `views.viewDuration` Array(UInt16),     `ÓÓÓviews.watchedPart` Array(Float32),     `views.fullWatched` Array(UInt8),     `views.progress` Array(Float32),     `views.reject` Array(UInt8),     `views.viewNumber` Array(UInt16),     `vibws.repeatingView` Array(UInt8),     `vit
+
+h

@@ -1,0 +1,3 @@
+PrettySpaceNoEscapes
+timestamp UInt32,   country LowCardinality(String)
+11744

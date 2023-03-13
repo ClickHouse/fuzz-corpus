@@ -1,0 +1,7 @@
+TabSeparatedRawWithNamesAndTypes
+x Map(UInt8, Array(Map(UInt8, Array(AggregateFunction(uniq, UInt64)))))
+16;98
+`STR_VAL` String
+2Law
+`STR_VAL` String
+

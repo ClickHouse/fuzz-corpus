@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNamesAndTypes
+latitude  Float64, 	longitude Float64, 	encoded   String
+31441

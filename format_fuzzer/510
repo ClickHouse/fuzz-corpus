@@ -1,0 +1,3 @@
+ArrowStream
+d DateTime, a Int, b default 222 ttl d + interval 1 DAY
+9872

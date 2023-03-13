@@ -1,0 +1,3 @@
+JSONColumns
+d Date, s String, u UInt8, i Int64, f Float64, a Array(UInt8)
+27245

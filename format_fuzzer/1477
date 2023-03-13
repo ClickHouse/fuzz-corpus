@@ -1,0 +1,3 @@
+ProtobufList
+`sr_returned_date_sk` Nullable(Int64),     `sr_return_time_sk` Nullable(Int64),     `sr_item_sk` Int64,     `sr_customer_sk` Nullable(Int64),     `sr_cdemo_sk` Nullable(Int64),     `sr_hdemo_sk` Nullable(Int64),     `sr_addr_sk` Nullable(Int64),     `sr_store_sk` Nullable(Int64),     `sr_reason_sk` Nullable(Int64),     `sr_ticket_number` Int64,     `sr_return_quantity` Nullable(Int64),     `sr_return_amt` Nullable(Float32),     `sr_return_tax` Nullable(Float32),     `sr_return_amt_inc_tax` Nullable(Float32),     `sr_fee` Nullable(Float32),     `sr_return_ship_cost` Nullable(Float32),     `sr_refunded_cash` Nullable(Float32),     `sr_reversed_charge` Nullable(Float32),     `sr_store_credit` Nullable(Float32),     `sr_net_loss` Nullable(Float32)
+25566

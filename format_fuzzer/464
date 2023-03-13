@@ -1,0 +1,3 @@
+PrettyMonoBlock
+d Date DEFAULT toDate('2015-05-01'), x UInt64
+24745

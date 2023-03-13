@@ -1,0 +1,3 @@
+TSVRawWithNames
+pk int, arr Array(int), projection p (select arr order by pk)
+27961

@@ -1,0 +1,3 @@
+JSONCompactStringsEachRowWithNames
+blockNum Decimal(10,0), eventTimestamp DateTime64(9)
+2681

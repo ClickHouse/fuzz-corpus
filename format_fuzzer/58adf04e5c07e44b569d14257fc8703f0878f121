@@ -1,0 +1,43 @@
+TabSeparatedRawWithNamesAndTypes
+x Map(UInt8, Array(Map(UInt8, Array(AggregateFunction(uniq, UInt64)))))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSVWithNames
+a UInt64, b UInt6
+
+
+
+
+
+
+
+
+
+
+
+
+ÿÿÿÿ
+
+4, c 
+
+UIn

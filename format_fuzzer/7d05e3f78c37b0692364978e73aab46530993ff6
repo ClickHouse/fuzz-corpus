@@ -1,0 +1,8 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     grp_aggreg AggregateFunction(groupArrayArray, Array(UInt32))
+3423
+RawWithNamesAndTypes
+x Map(UInt8, Array(Map(UInt8, Array(AgTabSeparated
+d String
+1\\\\\\ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ\\\\\\\\\\\\\\\\\\\\\ng,  Data£]\\§\\\\0347
+4ÿÿÿÿÿÿÿÿÿÿÿÿÿÿuniq,ÿÿÿÿÿÿÿ UInt64)))ÿÿÿÿ

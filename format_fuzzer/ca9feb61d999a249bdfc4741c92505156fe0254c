@@ -1,0 +1,5 @@
+TSVRawWithNames
+a Decimal(6, 4),     b Decimal(17, 6),     c Decimal(20, 8)
+493pa String, y Int8,zz UInt32
+g, y Int8,zz UInt32
+31931984

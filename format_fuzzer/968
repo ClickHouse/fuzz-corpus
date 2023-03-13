@@ -1,0 +1,3 @@
+JSONColumnsWithMetadata
+id UInt64,     value String,     value_join_2 String
+22255

@@ -1,0 +1,3 @@
+Native
+id UInt64,     value String,     value_nullable Nullable(String)
+9573

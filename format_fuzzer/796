@@ -1,0 +1,3 @@
+Vertical
+`id` UInt32,     `advertiser_id` String,     `campaign_id` String,     `name` String,     `budget` Float64,     `budget_mode` String,     `landing_type` String,     `status` String,     `modify_time` String,     `campaign_type` String,     `campaign_create_time` DateTime,     `campaign_modify_time` DateTime,     `create_time` DateTime,     `update_time` DateTime
+9584

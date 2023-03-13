@@ -1,0 +1,3 @@
+HiveText
+key Int, value Nullable(Int), str String
+23941

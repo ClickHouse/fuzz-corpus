@@ -1,0 +1,3 @@
+JSONCompactColumns
+d DATE, m Map(Int8, Int8)
+11853

@@ -1,0 +1,5 @@
+TabSeparatedRawWithNamesAndTypes
+key      UInt64,     name     String,     ref_valueF14 Float,  ate Date,     f UInt8
+16649
+ÿCODEC(FPC(4))
+32431

@@ -1,0 +1,3 @@
+TabSeparated
+id UInt64, arr Array(UInt64), n Nullable(String), m Map(String, UInt64)
+18314

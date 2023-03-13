@@ -1,0 +1,3 @@
+JSON
+id UInt64, val String, INDEX ind val TYPE bloom_filter() GRANULARITY 1
+20648

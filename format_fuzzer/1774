@@ -1,0 +1,3 @@
+PrettySpaceNoEscapesMonoBlock
+`x` UInt32, `lc` LowCardinality(String)
+10284

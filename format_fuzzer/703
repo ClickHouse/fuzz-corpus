@@ -1,0 +1,3 @@
+PrettyCompact
+id Int32, value Float64, master_id Int32
+12312

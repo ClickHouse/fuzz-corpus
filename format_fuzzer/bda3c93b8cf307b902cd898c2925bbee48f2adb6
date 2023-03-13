@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+id UInt64,  ue1 Nullable(Float32),     value2 Nullable(Float32)
+29246

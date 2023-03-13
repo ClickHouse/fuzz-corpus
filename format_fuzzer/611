@@ -1,0 +1,3 @@
+JSONCompact
+event_date Date,   key UInt64,   value1 UInt64,   value2 String
+28974

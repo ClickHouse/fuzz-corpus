@@ -1,0 +1,3 @@
+JSONStrings
+x UInt256, INDEX ix_x x TYPE bloom_filter(0.01) GRANULARITY 1
+17644

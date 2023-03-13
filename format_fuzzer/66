@@ -1,0 +1,3 @@
+TabSeparatedRaw
+a Int32, b LowCardinality(String)
+19394

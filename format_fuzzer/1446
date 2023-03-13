@@ -1,0 +1,3 @@
+HiveText
+`rowNr` UInt8,     `val_string` String,     `val_low` LowCardinality(String)
+24255

@@ -1,0 +1,3 @@
+CapnProto
+uid String, version UInt32, is_deleted UInt8
+21712

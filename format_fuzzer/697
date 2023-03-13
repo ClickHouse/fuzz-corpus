@@ -1,0 +1,3 @@
+Protobuf
+id Int32, pt Tuple(Int32, Int32), poly Array(Tuple(Int32, Int32))
+12153

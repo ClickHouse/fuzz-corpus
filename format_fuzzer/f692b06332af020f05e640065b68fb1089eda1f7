@@ -1,0 +1,3 @@
+CSVWithNamesAndTypes
+str LowCardinality(Nullable(FixedString(4)))
+9524/

@@ -1,0 +1,3 @@
+PostgreSQLWire
+`id` Int,   `info.id` Int,   `info.name` String,   `info.age` Int
+4543

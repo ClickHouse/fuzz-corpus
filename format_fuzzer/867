@@ -1,0 +1,3 @@
+JSONLines
+`id` UInt64,     `field1` UUID,     `field2` UUID,     `field3` Int64,     `field4` Int64,     `field5` LowCardinality(String),     `field6` FixedString(3),     `field7` String,     `field8` Nullable(UUID),     `event_at` DateTime('UTC'),     `order_id` Nullable(UUID),     `identity` LowCardinality(String)
+23369

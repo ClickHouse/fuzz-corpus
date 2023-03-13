@@ -1,0 +1,3 @@
+PrettyCompact
+`id` Decimal(38, 10) CODEC(Delta, ZSTD(22))
+25702

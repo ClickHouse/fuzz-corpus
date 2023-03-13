@@ -1,0 +1,6 @@
+TabSeparated
+d String
+d
+d SŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒ‹ŒŒ    0Bviews.startedAt` Array(DateTime),     `views.endedAt` Array(DateTime),     `views.viewDuration` Array(UInt16),     `views.watchedPart` Array(Float32),     `v2iews.fullWatched` Array(UInt8),    TSVRawWithNames
+a Decimal(6, 4),     b Decimal(70, 3),     c Decimal(20, 8)
+493paratedWithNatttdT `y

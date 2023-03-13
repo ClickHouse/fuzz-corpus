@@ -1,0 +1,9 @@
+TSVRawWithNames
+`id` Nullable(String),   `status` Nullable(Enum8('NEW' = 0, 'CANCEL' = 1)),   `nested.nestedType` Array(Nullable(String)),   `partitnestedType` Array(Nullable(String)),   `partition` Date
+TSVWitSVRawWies
+wWithNamesAnx d37pes
+key UInt8,   value Stri0ns
+wWithNamesAnx d37pes
+key UInt8,   value Stri0ng
+101e49
+

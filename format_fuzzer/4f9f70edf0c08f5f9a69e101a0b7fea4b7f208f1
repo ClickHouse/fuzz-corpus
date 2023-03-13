@@ -1,0 +1,7 @@
+TSVWithNames
+x DateTime64(3)
+
+x DateTi0mesAndT DateTime64(3)
+
+x DateTi0mesAndTypes
+id UInt64,     value String,     _join_ value String,     _join_1 \t

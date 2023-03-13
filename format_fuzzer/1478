@@ -1,0 +1,3 @@
+JSONCompactStringsEachRow
+`ss_sold_date_sk` Float64,     `ss_sold_time_sk` Float64,     `ss_customer_sk` Float64,     `ss_cdemo_sk` Float64,     `ss_hdemo_sk` Float64
+31935

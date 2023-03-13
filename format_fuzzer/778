@@ -1,0 +1,3 @@
+CSV
+`id` String, `start` DateTime, `end` DateTime
+30935

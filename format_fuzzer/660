@@ -1,0 +1,3 @@
+PrettySpaceMonoBlock
+id1 Int8, id2 Int8, projection p (select id1, id2 order by id2)
+22080

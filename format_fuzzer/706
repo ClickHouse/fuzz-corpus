@@ -1,0 +1,3 @@
+LineAsStringWithNamesAndTypes
+id Int32, x_a String, x_b Nullable(Int32)
+25958

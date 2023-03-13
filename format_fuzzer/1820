@@ -1,0 +1,3 @@
+PrettyCompact
+x UInt64, y UInt64 DEFAULT x
+22126

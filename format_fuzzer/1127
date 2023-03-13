@@ -1,0 +1,3 @@
+TabSeparatedWithNames
+key Tuple(Float64, Float64),     value Nullable(UInt64)
+30095

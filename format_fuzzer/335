@@ -1,0 +1,3 @@
+ProtobufSingle
+CounterID UInt32, UserID UInt64
+32359

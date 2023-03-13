@@ -1,0 +1,3 @@
+TabSeparatedWithNames
+`hour` Nullable(DatETime),     `sum__duration` Float64
+6348

@@ -1,0 +1,3 @@
+TabSeparated
+`k` Int64,     `x` Array(Int64),     INDEX ix1 x TYPE bloom_filter GRANULARITY 3
+18490

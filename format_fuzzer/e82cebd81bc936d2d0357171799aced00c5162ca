@@ -1,0 +1,3 @@
+CSVWithNamesAndTypes
+prefix String,     dal_value Decimal256(5)
+25400

@@ -1,0 +1,3 @@
+RowBinary
+`user_id_raw` UInt64,     `device_id_raw` UInt64,     `domain_raw` UInt64,     `bytes_raw` UInt64,     `duration_raw` UInt64
+16161

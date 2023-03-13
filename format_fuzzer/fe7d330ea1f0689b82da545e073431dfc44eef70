@@ -1,0 +1,2 @@
+CSVWithNames
+fist_column UInt8 COMMENT 'comment 1',     second_column UInt8

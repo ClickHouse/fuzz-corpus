@@ -1,0 +1,3 @@
+LineAsStringWithNamesAndTypes
+`CounterID` UInt32,     `StartDate` Date,     `StartTime` DateTime,     `GoalsID` Array(UInt32),     `Sign` Int8
+27560

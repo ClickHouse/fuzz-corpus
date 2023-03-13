@@ -1,0 +1,3 @@
+TSVWithNamesAndTypes
+a UInt8 CODEC(LZ4, NONE)
+9961

@@ -1,0 +1,3 @@
+PrettySpaceNoEscapes
+n UInt64, s String default 's' || toString(n)
+5985

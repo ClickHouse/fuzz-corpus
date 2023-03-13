@@ -1,0 +1,3 @@
+CustomSeparated
+id Int64, d Int64, projection dummy(select * order by id)
+28669

@@ -1,0 +1,3 @@
+TSVRaw
+EventDate Date,     Longitude Float64 TTL EventDate + toIntervalWeek(2)
+28985

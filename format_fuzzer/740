@@ -1,0 +1,3 @@
+JSONCompactStrings
+id int,     price Nullable(Int32)
+4977

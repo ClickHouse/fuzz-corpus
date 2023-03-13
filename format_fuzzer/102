@@ -1,0 +1,3 @@
+CustomSeparatedWithNamesAndTypes
+a INT NULL,     b Nullable(INT) NOT NULL,     c Nullable(INT)
+15360

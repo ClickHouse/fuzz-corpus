@@ -1,0 +1,3 @@
+PrettySpace
+type Enum8('session' = 1, 'pageview' = 2, 'click' = 3),     date Date,     id UInt64
+20343

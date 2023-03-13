@@ -1,0 +1,3 @@
+MsgPack
+key Int, value LowCardinality(Nullable(Int)), str String
+5590

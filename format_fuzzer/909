@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpacesWithNames
+id UInt64, u UInt64, s String, arr1 Array(String), arr2 Array(UInt64)
+30437

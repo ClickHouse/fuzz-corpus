@@ -1,0 +1,3 @@
+BSONEachRow
+d DateTime, a Int default 111 ttl d + interval 1 DAY
+12968

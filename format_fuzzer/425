@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+date Date, value UInt64, s String, m FixedString(16)
+19184

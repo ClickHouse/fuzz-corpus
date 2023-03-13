@@ -1,0 +1,3 @@
+TSVRawWithNamesAndTypes
+i Int64, s String, nest Nested(x UInt8, y UInt32)
+8204

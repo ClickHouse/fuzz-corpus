@@ -1,0 +1,3 @@
+PrettySpace
+a DEFAULT b, b DEFAULT toString(c), c DEFAULT concat(a, '1')
+10441

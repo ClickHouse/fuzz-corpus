@@ -1,0 +1,4 @@
+TabSeparatedRawWithNames
+`idRawW` String,     `with_dot.str` String,     `with_dot.array` Array(Int64)
+bSeg,     `with_dot.str` Szrg,     
+bSeparatedRawWithNParallelParsingSt.ing, TSVRaw

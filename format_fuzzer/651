@@ -1,0 +1,3 @@
+Regexp
+`hd_demo_sk` Int64,     `hd_income_band_sk` Nullable(Int64),     `hd_buy_potential` Nullable(String),     `hd_dep_count` Nullable(Int64),     `hd_vehicle_count` Nullable(Int64)
+18654

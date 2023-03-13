@@ -1,0 +1,3 @@
+MySQLDump
+uid UInt32 default 1,timestamp DateTime, event UInt32
+18579

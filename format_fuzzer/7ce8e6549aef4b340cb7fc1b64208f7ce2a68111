@@ -1,0 +1,3 @@
+TSVRawWithNamesAndTypes
+id UInt16, n Nullable(UInt16)
+2

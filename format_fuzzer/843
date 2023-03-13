@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+id UInt64,     array_value Array(Int64)
+20246

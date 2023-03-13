@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNamesAndTypes
+x LowCardinality(String) default 'Hello'
+13129

@@ -1,0 +1,38 @@
+TabSeparatedRaw
+id Nullable(String)
+««««««««TabSeparatedWithNames
+partition Int, parent_key Int, child_key Int, value Int
+14658
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿWithNames
+a String,     date D
+
+
+
+
+
+
+
+
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ÿÿÿÿÿÿ«ÿÿÿÿÿÿÿÿÿ«««1699ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ3ÿ
+ÿÿ

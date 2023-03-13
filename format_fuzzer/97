@@ -1,0 +1,3 @@
+HiveText
+a Int, b Int, c Int default 42 ttl d, d Date, index ind (b * c) type minmax granularity 1
+31571

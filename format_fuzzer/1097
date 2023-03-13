@@ -1,0 +1,3 @@
+LineAsStringWithNamesAndTypes
+key Int,     index key_idx (key) type minmax granularity 1
+30568

@@ -1,0 +1,3 @@
+JSONColumns
+payload String, date materialized today(), key materialized 0 * rand()
+11476

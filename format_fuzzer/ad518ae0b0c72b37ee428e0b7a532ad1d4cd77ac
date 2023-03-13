@@ -1,0 +1,6 @@
+TSVWithNames
+user_id UUID
+2326TSVRawWithNamesAndTypes
+EventDate Dat, CounterID UInt32,  UserID UInt64,  Ev
+entTs'), UTCEventTime DateTime('UTC')
+21478

@@ -1,0 +1,3 @@
+JSONCompactColumns
+t Tuple(s String, u UInt32)
+21727

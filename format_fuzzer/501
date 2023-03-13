@@ -1,0 +1,3 @@
+Arrow
+`d` Date,     `s` LowCardinality(FixedString(3)),     `c` UInt32
+8419

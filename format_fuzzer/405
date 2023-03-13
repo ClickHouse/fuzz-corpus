@@ -1,0 +1,3 @@
+JSONCompactStringsEachRowWithNames
+date Date,     sum32 Decimal32(4),     sum64 Decimal64(8),     sum128 Decimal128(10)
+14293

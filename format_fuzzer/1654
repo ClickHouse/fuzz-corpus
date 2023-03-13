@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpacesWithNames
+value Map(String, Tuple(UInt8, UInt8))
+13628

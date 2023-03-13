@@ -1,0 +1,3 @@
+PrettyCompact
+timestamp DateTime,   bytes UInt64 TTL toStartOfHour(timestamp) + INTERVAL 1 HOUR
+11380

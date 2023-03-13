@@ -1,0 +1,3 @@
+ProtobufList
+key   Int,     value SimpleAggregateFunction(max, Nullable(Int)),     INDEX value_idx assumeNotNull(value) TYPE minmax GRANULARITY 1
+25746

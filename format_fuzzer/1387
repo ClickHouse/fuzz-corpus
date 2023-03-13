@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNamesAndTypes
+p Date,   k UInt64,   v1 UInt64,   v2 Int64
+2136

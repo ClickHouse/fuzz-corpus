@@ -1,0 +1,3 @@
+Prometheus
+a UInt32,  date Date, b UInt64,  c UInt64, str String, d Int8, arr Array(UInt64), arr_alias Array(UInt64) ALIAS arr
+21980

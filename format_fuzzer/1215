@@ -1,0 +1,3 @@
+CapnProto
+`k` Int64,     `a` AggregateFunction(max, Int64),     `city` SimpleAggregateFunction(max, LowCardinality(String))
+19342

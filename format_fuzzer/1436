@@ -1,0 +1,3 @@
+Values
+row_id UInt32,     array Array(String),     array_fixed Array(FixedString(2)),     INDEX array_bf_tokenbf array TYPE tokenbf_v1(256,2,0) GRANULARITY 1,     INDEX array_fixed_bf_tokenbf array_fixed TYPE tokenbf_v1(256,2,0) GRANULARITY 1
+5347

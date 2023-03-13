@@ -1,0 +1,5 @@
+TSVRawWithNames
+66666v66id UInt64,      value1 Nullable(Float32),     value2 Nullable(Float64)
+2924666666666666666666666666666e66666666666666666666666666a Decimal(6, 4),     b Decimal(34, 6),    ÿþÿÿÿÿTypeŒ
+— Datb, CSVWithNames
+aa TSVRawWithName,  b

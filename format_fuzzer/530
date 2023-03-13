@@ -1,0 +1,3 @@
+JSONCompactStrings
+d Date,     Uniq AggregateFunction(uniq, UInt64)
+15694

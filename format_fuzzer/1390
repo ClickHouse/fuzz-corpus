@@ -1,0 +1,3 @@
+HiveText
+p Date,   k UInt64,   v1 UInt64,   v2 Int64,   Sign Int8,   Version UInt8
+16222

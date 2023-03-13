@@ -1,0 +1,3 @@
+JSONColumnsWithMetadata
+`id` UInt32,     `nested.arr1` Array(UInt64),
+142

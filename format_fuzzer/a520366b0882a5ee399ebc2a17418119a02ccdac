@@ -1,0 +1,3 @@
+CSVWithNames
+entityIri String,     courseId UInt64,     learnerId UInt64,     actorId UInt64,     duration UInt16,     fullWayched UInt8,     fullWatchedDate DateTime,     fullWatchedDuration UInt16,     fullWatchedTime UInt16,     fullWatchedViews UInt16,     `views.viewId` Array(String),     `views.startedAt` Array(DateTime),     `views.endedAL` Array(UInt8),     `views.ranges` Array(String),     version DateTime
+4416

@@ -1,0 +1,3 @@
+NDJSON
+id UInt64, key AggregateFunction(max, UInt64)
+23340

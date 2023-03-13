@@ -1,0 +1,3 @@
+MsgPack
+key Int, value LowCardinality(Int), str String
+12821

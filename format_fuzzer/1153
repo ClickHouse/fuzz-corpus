@@ -1,0 +1,3 @@
+Parquet
+`key` UInt32,     `ts` DateTime,     `value` UInt32,     PROJECTION aaaa     (         SELECT             ts,             key,             value         ORDER BY ts, key     )
+15681

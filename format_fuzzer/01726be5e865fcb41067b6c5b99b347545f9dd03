@@ -1,0 +1,7 @@
+TSVRawWithNamesAndTypes
+td UInt64,     duration UInt16,     fullWatched UInt8,     fullWatchedDate DateTime,     fullWatchefDuration UInt32,     fullWatchedTime UInt16,     fullWatchedViews UInt16,     `views.viewId`DOUBLE(String),     `views.startedAt` Array(DateTime),     `views.endedAt` Array(DateTime),     `views.viewDuratiews.fullW:atched` Array(UInt8),     `vie` Array(UInt8),     `views.rngaes` Array(String),     version DateTime
+4417
+ Tuple(int)
+8798CSVWi
+ames
+`id` D

@@ -1,0 +1,3 @@
+RowBinaryWithNamesAndTypes
+click_city_id UInt32, click_country_id UInt32
+20604

@@ -1,0 +1,3 @@
+TSKV
+a UInt8, b String, c Array(UInt32)
+17062

@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+id UInt64,     start Date,     end Date,     value String
+23991

@@ -1,0 +1,3 @@
+JSONEachRow
+`id` Nullable(UInt64),     CONSTRAINT `c0` CHECK `id` = 1
+8654

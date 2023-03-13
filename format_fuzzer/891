@@ -1,0 +1,3 @@
+PrettyCompact
+id UInt64, s LowCardinality(String), arr Array(UInt64)
+23236

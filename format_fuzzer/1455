@@ -1,0 +1,3 @@
+Prometheus
+server_date Date, dimension_1 String, metric_2 UInt32
+15147

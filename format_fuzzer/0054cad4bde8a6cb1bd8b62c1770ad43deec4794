@@ -1,0 +1,3 @@
+CSV
+id Int32 Codec(ZSTD(8))
+572

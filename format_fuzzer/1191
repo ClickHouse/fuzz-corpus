@@ -1,0 +1,3 @@
+ProtobufSingle
+key UInt64,     value Array(LowCardinality(String))
+30841

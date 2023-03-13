@@ -1,0 +1,3 @@
+JSONCompactStringsEachRowWithNames
+time DateTime,     foo String,     dimension_1 String,     dt Date MATERIALIZED toDate(time),     dt1 Date MATERIALIZED toDayOfYear(time),     aliascol1 ALIAS foo || dimension_1,     time_alias DateTime ALIAS time
+20261

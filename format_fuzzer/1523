@@ -1,0 +1,3 @@
+TSVWithNames
+str String, sub_str String ALIAS substring(str, 1, 3)
+28148

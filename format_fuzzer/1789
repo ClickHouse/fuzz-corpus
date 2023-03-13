@@ -1,0 +1,3 @@
+JSONCompactStringsEachRow
+x UInt32, s Tuple(UInt32, LowCardinality(Nullable(String)))
+17519

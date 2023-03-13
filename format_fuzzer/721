@@ -1,0 +1,3 @@
+JSONAsString
+id Int64, v UInt64, s String, INDEX a (id * 2, s) TYPE minmax GRANULARITY 3
+71

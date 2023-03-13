@@ -1,0 +1,3 @@
+LineAsStringWithNamesAndTypes
+str String, fixedStr FixedString(10), id Int64
+15099

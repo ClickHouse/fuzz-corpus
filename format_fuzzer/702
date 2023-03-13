@@ -1,0 +1,3 @@
+Native
+Id Int32,     Value Enum('ef' = 1, 'es' = 2)
+6310

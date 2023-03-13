@@ -1,0 +1,4 @@
+TSVRawWithNamesAndTypes
+id UInt16, num Nullable(UInt16)
+2625TSVWithNames
+id UInt3   a Floa1

@@ -1,0 +1,6 @@
+CustomSeparatedWithNames
+a1 Array(UInt16), a2 Array(UInt16), a3 Array(Array(UInt16)), a4 Array(Array(UInt16))
+252CSV
+id UInt64 c(ZSTD(3))
+1725444044444444444444444444194459
+

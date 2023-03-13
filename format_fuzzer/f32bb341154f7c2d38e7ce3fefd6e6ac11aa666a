@@ -1,0 +1,6 @@
+TabSeparatedWithNames
+t Tuple(Date, UInt32, UInt64)
+20465TSVRawWithNamesAndTypes
+id UInt64,     value String,t6
+4
+8382

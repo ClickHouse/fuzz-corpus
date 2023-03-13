@@ -1,0 +1,3 @@
+TSVWithNamesAndTypes
+partition Date, 	tistamp DateTime, 	user_id Nullable(UInt32), 	description Nullable(String)
+16743

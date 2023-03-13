@@ -1,0 +1,7 @@
+TSVWithNames
+x UInt32, s LowCardinality(String)
+wCardinality(String)
+160
+ß Date,60
+ß Date,     user_id          UInt16
+274

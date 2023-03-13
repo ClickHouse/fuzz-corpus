@@ -1,0 +1,3 @@
+TSKV
+fingerprint UInt16,     fields Array(Tuple(name Array(UInt32), value String))
+16809

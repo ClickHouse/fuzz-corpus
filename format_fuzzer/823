@@ -1,0 +1,3 @@
+ProtobufSingle
+`id`  UInt32, `time` UInt32, index `id` (`id`) type set(0) granularity 3, index `time` (`time`) type minmax granularity 3
+16459

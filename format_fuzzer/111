@@ -1,0 +1,3 @@
+JSONCompactStringsEachRowWithNamesAndTypes
+`a` LowCardinality(String), `x` Nullable(Int32)
+29566

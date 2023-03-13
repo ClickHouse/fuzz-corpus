@@ -1,0 +1,3 @@
+Protobuf
+key UInt64 DEFAULT 42,   value1 UInt64 MATERIALIZED key * key,   value2 ALIAS value1 * key
+19313

@@ -1,0 +1,3 @@
+Protobuf
+key UInt32, value Decimal(16, 6)
+28978

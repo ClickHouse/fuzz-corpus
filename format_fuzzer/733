@@ -1,0 +1,3 @@
+JSONAsObject
+`id` Int,     `info.id` Array(Int),     `info.name` Array(String),     `info.age` Array(Int)
+28484

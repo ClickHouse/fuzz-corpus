@@ -1,0 +1,4 @@
+CustomSeparatedWithNames
+date Date, value UInt64, s String, m FixedString(16)
+191stomSeparatedWithNames
+date Date, value UInt64, s S85

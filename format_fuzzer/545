@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpacesWithNames
+`depname` LowCardinality(String),     `empno` UInt64,     `salary` Int32,     `enroll_date` Date
+12660

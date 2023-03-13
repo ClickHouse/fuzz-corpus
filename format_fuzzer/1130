@@ -1,0 +1,3 @@
+RowBinaryWithNames
+`key` UInt256,     `start_date` Int8,     `end_date` LowCardinality(UInt256),     `value` Tuple(UInt8, Array(DateTime), Decimal(9, 1), Array(Int16), Array(UInt8)),     `value_nullable` UUID
+22156

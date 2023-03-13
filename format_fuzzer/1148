@@ -1,0 +1,3 @@
+JSONCompact
+`key` UInt32, `ts` DateTime64(3)
+8953

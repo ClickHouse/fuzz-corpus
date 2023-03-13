@@ -1,0 +1,3 @@
+CSV
+x UInt8, s String, a Array(Nullable(String))
+2782

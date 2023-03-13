@@ -1,0 +1,3 @@
+TSVRaw
+d Date DEFAULT toDate('2015-01-01'), n Nested(x String)
+24233

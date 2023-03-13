@@ -1,0 +1,6 @@
+CSVWithNamesAndTypes
+str LowCardinality(Nullable(FixedString(2)))
+9524
+esAndTypes
+str LowCardinality(Nullable(FixedString(2)))
+952

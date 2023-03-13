@@ -1,0 +1,3 @@
+Pretty
+`order_0` UInt64,     `ordinary_1` UInt32,     `p_time` Date,     `computed` ALIAS 'computed_' || cast(`p_time` AS String),     `granule` MATERIALIZED cast(`order_0` / 0x2000 AS UInt64) % 3,     INDEX `index_granule` `granule` TYPE minmax GRANULARITY 1
+25735

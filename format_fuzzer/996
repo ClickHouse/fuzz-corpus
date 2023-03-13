@@ -1,0 +1,3 @@
+PostgreSQLWire
+i Int64, a String, b String, CONSTRAINT c1 ASSUME a = substring(reverse(b), 1, 1)
+26432

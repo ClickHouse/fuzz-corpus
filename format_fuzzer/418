@@ -1,0 +1,3 @@
+PrettyCompactNoEscapes
+date Date, value Int TTL date + 7, key Int
+32111

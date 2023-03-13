@@ -1,0 +1,3 @@
+LineAsString
+row_id UInt32,     map Map(String, String),     INDEX map_bloom_filter_keys mapKeys(map) TYPE bloom_filter GRANULARITY 1
+31267

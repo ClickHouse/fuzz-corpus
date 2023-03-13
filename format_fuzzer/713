@@ -1,0 +1,3 @@
+JSONStrings
+id Int64,     d String,     p Map(String, String)
+24136

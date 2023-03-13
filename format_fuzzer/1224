@@ -1,0 +1,3 @@
+RowBinaryWithNames
+k Int64,     y Array(Int64) DEFAULT x,     x Array(Int64),     index ix1(x) TYPE bloom_filter GRANULARITY 3
+27758

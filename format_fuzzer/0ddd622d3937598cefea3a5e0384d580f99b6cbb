@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+d	Date, 	Sum 		AggregateFunction(sum, UInt64), 	AvpArray	AggregateFunction(groupArray, String)
+29572

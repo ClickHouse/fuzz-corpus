@@ -1,0 +1,3 @@
+CSVWithNames
+`pickup_dAte` Date,     `city_id` UInt32,    `uid` UInt32
+19261

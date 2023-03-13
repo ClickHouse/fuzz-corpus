@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNamesAndTypes
+d Date, s AggregateFunction(uniq, UInt64)
+5550
