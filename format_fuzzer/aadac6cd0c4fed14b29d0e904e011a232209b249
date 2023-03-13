@@ -1,0 +1,2 @@
+TabSeparatedWithNamesAndTypes
+prefix String,     vae_32 Date32,   value_date_time_64 DateTime32

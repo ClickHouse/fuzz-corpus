@@ -1,0 +1,5 @@
+TabSeparatedRawWithNames
+d	Date, 	k1 	UInt64, 	k3 	String,  	Avg 		AggregateFunction(avg, UInt64), 	Un		AggregateFunction(any, UInt32)
+
+r
+yyAyyy\õêu$$$$$$$$$$$$$$$$$$$$285yyyyyyyyy

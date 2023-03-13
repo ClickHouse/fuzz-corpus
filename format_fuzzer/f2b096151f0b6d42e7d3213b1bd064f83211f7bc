@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+d			AggregateFunction(any, String), 	AntIf 		AggregateFunction(anyIf, String, UInt8), 	Quantiles 	AggregateFunction(quantiles(0.5111111111, 0.9), UInt64), 	GroupArray	AggregateFunction(groupArray, String)
+29

@@ -1,0 +1,5 @@
+CSV
+id Float64 Codec(Delta, LZ4HC)
+22.55555555555555555e355
+
+9544

@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+d	Date, If 		AggregateFunction(anyIf, String, UInt8), 	Quantiles 	AggregateFunction(quantiles(0.1111111), UInt64), 	GroupArray	AggregateFunction(groupArray, String)
+Date, 	k1 	UInt64, 	k2 	String, 	Sum 		A29572

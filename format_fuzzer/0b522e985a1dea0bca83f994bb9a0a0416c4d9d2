@@ -1,0 +1,6 @@
+TabSeparated
+d String
+d
+.
+id UInt64 Codec(ZSTD(3))
+17254400000999­r

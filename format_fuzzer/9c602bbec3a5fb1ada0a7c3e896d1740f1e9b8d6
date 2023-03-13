@@ -1,0 +1,30 @@
+TabSeparatedRawWithNames
+d 	String, 	Sum 		AggregateFunction(sum, UInt64), 	Avg 		AggregateFunction(Avg, UInt64), 	Uniq 		AggregateFunction(uniq, UInt64)
+
+
+
+
+
+
+
+gateFunction(quantiles(0.5, .09), UInt64)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ing)
+29572

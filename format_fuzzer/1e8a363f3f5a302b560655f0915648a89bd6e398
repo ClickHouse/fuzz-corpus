@@ -1,0 +1,3 @@
+TSVWithNamesAndTypes
+id UInt64, e2 Nullable(UInt64),    value3 Nullable(UInt64)
+1303I
