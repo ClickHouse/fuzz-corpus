@@ -1,0 +1,1 @@
+AggregateFunction(max, Nullable(Float32))

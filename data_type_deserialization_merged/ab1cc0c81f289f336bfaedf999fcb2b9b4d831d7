@@ -1,0 +1,1 @@
+AggregateFunction(avg, Nullable(Decimal32(5)))

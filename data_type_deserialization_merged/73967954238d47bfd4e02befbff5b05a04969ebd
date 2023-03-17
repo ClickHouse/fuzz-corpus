@@ -1,0 +1,1 @@
+AggregateFunction(avg, Nullable(Float32))
