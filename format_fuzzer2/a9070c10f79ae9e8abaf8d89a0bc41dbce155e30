@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatdhID Int64, JavaEnable Int16, Title String, CookieEnable Int16, JavascriptEnable Int16, IsMobile Int16, MobilePhone Int16, MobilePhoneModel String, Params String, IPNetworkID Int32, TraficSourceID Int16, SearchEngineID Int16, SearchPhrase String, AdvEngineID Int16, IsArtifical Int16, WindowcialSourceNetworkID Int16, SocirceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+Watch	-1	-1	-1	�	�\f			0	0	0	0	0	0	0	0		0		NH	0											0	-296158784638538935	0

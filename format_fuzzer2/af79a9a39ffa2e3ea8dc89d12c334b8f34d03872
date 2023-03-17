@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, Title String, Gooame Int32, HistoryLength Int16, BrowserampaignID String, OpenstatAdID String, OpenstatSourceID String, UTM$Source String, UTM$SourcUTMMedium String, UTMCaSocialNetworkmpaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEven|	EventTime	EventDate	CounterID	ClientCategoryID	URLRegionID	ResolutionWidth	ResolutionHeight	Resolutle	MobilePhone	MobilePhoneModel	Params	IPNetworkID	TraficSourceID	SeaseStart01-01 14:16:06	0	0	0	0		0	0	0	0	0		0	0	-15 09:13:43",31,2,2,15014,2,1312025145,-1,-1,-1,"�","�","","",0,0,0,0,0,0,0,0,"",0,"","NH",0,"","","","","","","","","","",0,8417682003818480435	0

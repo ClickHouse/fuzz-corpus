@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int32, JavaEnable Int16, Tie Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyID Int16, OpenstatServiceName String, OpenstatCDIL Int16,sh Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEvent	enocialNet

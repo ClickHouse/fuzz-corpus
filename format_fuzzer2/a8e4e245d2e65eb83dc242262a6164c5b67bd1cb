@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvesolutionWidth Int16, ResolutionHeight Int16, ResolutionDepth Int16, FlashMajor Int16, FlashMinor Int16, FlashMinor2 String, NetMajor Int16, NetMinor Int16, UserAgentMajor Int16, UserAgentMinor String, CooSource String, UTMMedium String, UTMCampaign String, UTMContent String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WatchID","JavaEnable","Title","GoodEvent","EventTime","EventDate","CounterID","ClientIP","RegionID","UserID","CounterClass","OS","Usework","SocialAction","HT1801,0,0,0,'','',0,0,0,rAge18480435	0

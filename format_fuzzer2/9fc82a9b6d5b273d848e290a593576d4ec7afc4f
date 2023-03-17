@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JaourceNetworkID Int16, SocialSourcePage String, ParamPrice Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyIDstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEvent	EventTime	EventDate	CounterID	ClientIP	RegionID	UserID	CounterClass	OS	UserA4:16:06	0	0	0	0		0	0	0	0	0		0	0	0	Robotness	RemoteIP	WindowName	OpenerName	HistoryLength	BrowserLanguage	BrowserCountry	SocialNetwork	Soci\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\a0435	0

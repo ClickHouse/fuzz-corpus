@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WatchIash Int64, CLID Int32
+{
+	"row_1": {"WatventDate":"2013-07-15","CounterID":17,"ClientIP":-1216690514,"RegionID":839,"UserID":"-2461439046089301801","CounterClass":0,"OS":0,"UserAgent":0,"URL":"","Referer":"","IsRefresrams":"","IPNetworkID":3406264,"TraficSourceID":4,"SearchEngineID":0,"SearchPhrase":"","AdvEngineID":0,"IsArtifical":0,"WindowClientWidth":0,"WindowClientHeight":0,"ClientTimeZone":-1,"ClientEventTiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿFetchTiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿme":"82003818480435","CLID":0}
+}

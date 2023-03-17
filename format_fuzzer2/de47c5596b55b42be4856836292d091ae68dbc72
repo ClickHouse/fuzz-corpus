@@ -1,0 +1,2 @@
+TSKV
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDatsssssssssssssssssssssse Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgent Int16, URL String, Referer String, IsRefresh Int16, RefererCategoryID Int16, RefererRegionID Int32, URLCategoryID Int16, URLRegionID Int32, ResolutionWidth Int16-----------------------------------------------------ce=	UTMMedium=	UTMCampaigD=0	RefererHash=-296158784638538920	URLHash=-8417682003818480435	CLID=0

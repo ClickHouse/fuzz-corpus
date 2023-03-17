@@ -1,0 +1,7 @@
+JSONColumns
+WaptchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTimetworkID Int16, SocSiluaorcePage String, ParamPrice Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyID Int16, OpenstatServiceName String, OpenstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+{
+	"WatchID": ["ö9110818468285196899", "8156744413230854864", "5206346422301499756", "6308646140879811077", "87404ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿtring, HasGCLID Int16, RefererHash Int64, URLHash Int32, CLID Int32
+{
+	"row_1": {"WatchID":"9110000000276504221","JavaEnable":0,"Title":"","GoodEvent":1,"EventTime":"2013-07-14 20:38:47","EventDate":"2013-07-15","Coue":0,"IsMobile":0,"MobilePho, 0, 0, 0, 0, 0, 0, 0, 0]
+}

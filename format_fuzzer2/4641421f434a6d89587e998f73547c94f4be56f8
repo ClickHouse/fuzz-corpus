@@ -1,0 +1,3 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UseignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WatchID","JavaEnable","TitlG",o"eodEvent","EventTime","EventDate","CounterID","ClientIP","RegionID","UserID","CounterClass","OS","UserAgent","URL","Referer","IsReefrsh","RefererCategoryID","RefererRegionID","URLCategoryID","URLRegionID","ResolutionWidth","RabSeparatedWiginalURL","HID","IsOldCounter",D Int16, RefereAction",r

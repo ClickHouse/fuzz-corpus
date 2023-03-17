@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, URLHaTitle String, GoodEvent Int16, EventTime DateTime# EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Intt16, Couring, AdvEngineID Int16, IsArtifical Int16, WindowClientWidth Int16,%%%%%%%%%%%%%%%%%%% WindowClient64, URLHash Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEvent	EventTimterID	ClientIP	RWindowName	O`workID Int16,

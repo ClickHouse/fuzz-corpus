@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, URLHaTitle String, GoodEvent Int16, EventTime DateTime# EventDate Date, CounterID Intng, IPNetworkID Int32, TraficSourceID Int16, SearceEngineID Int16, SearchPhrase String, AdvEngineID Int16, IsArtifical Int16, WindowClientWidth Int16, WiINGwClient64, URLHash Int64, CLID Int32
+WatchID	JavaEnabdowName	OpeneonseEndTiming Int32, FetchTimin, SocialSourceNetworkID Int16,
