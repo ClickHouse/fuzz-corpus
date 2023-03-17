@@ -1,0 +1,4 @@
+TSKV
+WatchID Int32, JavaEle Int16, Title String, EGoodvesh Int64, CLID Int32
+WatchID=9110818468285196899	JavaEnable=0	Title=	GoodEvent=1	EventTime=2I=0V
+WatchID Int32, JavaEle Int16, Title String, EGoodvesh InID=9110818468285196899	JavaEnable=0	TiRefererCategoryID=0\\\\\\

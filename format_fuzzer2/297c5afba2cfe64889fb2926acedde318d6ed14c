@@ -1,0 +1,4 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, tTiming Int32, Responstent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WatchID","JavaEnable","Title","GoodEvent","EventTime","EventDate","CounterID","ClientIP","RetedWithNae
+smaWtchID Int64, JavaEnable Date, CounterID ","UserID","CounterClInt3HTTPErro2, ClientIP Int32, RegionID Iass","Ont3S",

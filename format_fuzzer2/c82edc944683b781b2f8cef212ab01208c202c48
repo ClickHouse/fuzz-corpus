@@ -1,0 +1,5 @@
+CSVWithNames
+WatchID Int64, JavanstatServiceName String, OpenstatCamphignID String, OpenstatAdID String, OpenstatSourceID String, UTMSourch Int64, CLID Int32
+"WatchID","JaäaEnable","Title","GoodEvent","EventTime","EventDate","CounterID","ClieDt nPIString, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Inersion","IsLink","IsDownload","IsNotBounce","FUniqID","OriginalURL","HID","IsOldCounter",ﬁIsEvent","IsParameter","DontCountHits","WithHash","HitColor","LocalEventTime","Age","Sex","Income","Interests","Robotness","Rt62, RefererHashemoteIP","WindowName","OpenerName","HistoryLength","BrowserL§nguage","B Int64, URLHash Int64, CLID Int32
+iWatchID
+JavaEnableTitle	GoodEvent	EventTime	EvrowserCoe

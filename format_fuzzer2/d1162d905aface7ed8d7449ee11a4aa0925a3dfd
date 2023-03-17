@@ -1,0 +1,4 @@
+TabSeparatedWithNames
+WatchIm String, FromTag String, Hash Int64, CLID Int32
+WJSONStr16, DontCountHits Int16, WithHash Int16, HitColor String, LocalEventTime DateTime, Age Int16, Sex Int16, Income Int16, Interests Int16, R€botness Int16, RemoteIP Int32, WindowName Int32, OpenerName Int32, HistoryLength Int16, BrowserLanguage String, BrowserCountoryLength Int16, BrowserLanguage String, BrowserCountry String, SocialNetwork String, SocialActcon String, HTTPError Int16, SendTiming Int32, DNSTiming Int32, 33333333333333333333333333333333333333Hash Int64, C`ID Int32
+{"WatchID":"9110818468285196899","JavaEnable":"0","Title":"","Goilverlight1"

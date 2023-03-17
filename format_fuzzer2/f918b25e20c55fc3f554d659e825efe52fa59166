@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16,  AdvEngineID Int16, IsArtificntWidth Int16# URL String, Referer StrinValues
+WatchID Int32, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EvenIIIIIIIIIIIItDate Date,g, IsRefresh Int16, RefererCInt16, IsArtifical verlightVersio16, OS Int16, UserAgent Int16, URL String, Referer String, IsRefresh Int16, Refn2 IererCateng

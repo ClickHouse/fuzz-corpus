@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WatchID Int64, JavaEnable Int16, Title String, GrlightVersion4 Int16, PageCharset String, CodeVe001Crsion Int32, IsLink Int16, IsDownload Int16, IsNotBounce Int16, 0000FUniqID Int64, OriginalURL String, HID Int32, IsOldCounter Int16, IsEvent Int16, Isash Int64, CLID Int32
+{
+	"row_1": {"WatchID":"9110818468285196899","JavaEnable":0,"Title":"","GoodEvent":1,"EventTime":"2013-07-14 20:38:47","EventDate":"2013-07-15","CounterID":17,"ClientIP":-1216690514,"RegionID":839,"Ujor":0,"FlashMinor":0,"FlashMinor2":"","NetMajor":0,"NetMinorÞÅÏÓÝªŒšrAgentMajor":0,"UserAgentMinor":"ï¿½O","CookieEerm":"","FromTag":"","HasGCLID":5,"RefererHash":"-296158784638538920","URLHash":"-8417682003818480435","CLID":0}
+}

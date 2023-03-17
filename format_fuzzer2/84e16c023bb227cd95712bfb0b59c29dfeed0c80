@@ -1,0 +1,3 @@
+TabSeparatedWithNames
+WatchID Int64, JavaEnable Int16, Title String,UserID Int64, CounterClass Int16,ampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEvent	EventTime	EventerID	ClientIP	RegionID	UserID	CounterClass	OS	UserˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆAgent	URL	Referer	IsRle Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int3sGCLID Int16, RefererHash Int64, UR2, RegionID Int32, UserI"0","NetMinor":"0not

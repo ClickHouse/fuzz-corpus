@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatdhID Int64, JavaEnable Int16, Title String, CookieEnable Int16, JavascriptEnable Int16, IsrchEngineID Int16, SearchPhrase String, AdvEngineID Int16, IsArtifical Int16, WindowcialSourceNetworkID Int16, SocialSourcePage String, ParamPrice Int64, ParamO Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEvent	EventTime	EventDate	CounterID	Client`P	RegionID	UserID	CounterClass	0	0	0	0		0	0	0	0	0	0	5	2013-07-15 12:31:39	0	0	0	0	0	-1001831330	-1	-1	-1	ï¿½	ï¿ÿ.f			0	0	0	0	0	0	0	0		0		NH	0											0	-296158784638538920	-84HasGCLID17682003818480435	0

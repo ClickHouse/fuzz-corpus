@@ -1,0 +1,3 @@
+CSVWithNames
+WatchID Int32, Jge String, ParamPrice Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyID Int16, OpenstatServiceName String, OpenstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WatchID","JavaEnaJble","Title","GoodEvent","EventTime","EventDate","CounterID","ClieSONntIP","RegionID","UserID","CounterClass","OS",O"

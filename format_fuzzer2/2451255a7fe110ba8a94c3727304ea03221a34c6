@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEvent	EventTime	EventDate	CounterID	ClientIP	RegionID SConnectTim\\\\\\\\\\a0435	0A

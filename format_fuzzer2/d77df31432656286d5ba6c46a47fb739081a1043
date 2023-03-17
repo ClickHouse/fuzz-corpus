@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WaTchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime,ign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+{
+	"r#ow_1": {"WatchID":"9110818468285196899","JavaEnable":0,"Title":"","GoodEvent":1,"EventTime":"2013-07-14 20:38:47","EventDate":"2013-07-15","i/n":0,"IsLink":0,"IsDownload":0,"IsNotBounce":0,"FUniqID":"0","ign	UTMContcy":"NH\u001C","ParamCurrencyID":0,"ent	UTMTerm	FromTag	HasGCLID	RefererHash	\f				0	0	0	ï¿½O	0	0	0	0			3793327	4	0		0	0	0	0	-1	1971-01-01 14:16:06	0	0	0¥0		0	0	0	0	0		0	0	0	0	0	0	5	2013-07-15 08:s7:59	0	0	0	0	0	-100e":"0","ParamOrderID":"","ParamCurrency":"NH\u001C","ParamCurrencyID":0,"OpenstatServiceName":"","OpenstatCampaignID":"","OpenstatAdID":"","OpenstatSourceID":"","UT[Source":"","UTMMedium":"","UTMCampaign":"","UTMContent":"","UTMTerm":"","FromTag":"","Ha=GCLID":0,"RefererHash":"-296158784638538920","URLHash":"-8417682003818480435","CLID":0}
+}

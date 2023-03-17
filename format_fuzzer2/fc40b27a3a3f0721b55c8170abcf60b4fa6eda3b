@@ -1,0 +1,3 @@
+TSKV
+WatchID Int64, JavaEnable Int16, Title String, GoodEvenP Int32, RegionID Int32, UsHash Int64, GoodEveURLHash Int64, CLID Int32
+WatchID=9110818468285196899	JavaEnable=0	TineID Int16,Hash Int64, GoodEveURLHash SourceID=	UTMSource=sh=-296158784638538920	URLHash=-8417682003818480435	CLID=0

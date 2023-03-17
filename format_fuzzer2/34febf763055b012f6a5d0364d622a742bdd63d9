@@ -1,0 +1,4 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OSmpaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UsGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WatchIJSONColumns
+WatchID Int64,3, ieEnable Int16, JavascriptEnable Int16, IsMobile Int16, MobilePhone Int16, MobilePhoneModel String, Params String,D","JavaEnable","TitlG",o"eodEvent","EventTime","EventDate","CounterID","ClientIP","Regight Int16, ClID",ientTimeZon"UserID","Ce o

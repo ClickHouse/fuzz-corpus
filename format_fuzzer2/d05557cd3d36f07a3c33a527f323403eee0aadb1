@@ -1,0 +1,22 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgenrce String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WatchID","JavaEnable","Title","GoodEvent","EventTime","EventDate","CounterID","ClientIP","RegionID","UserID","CounterClass","OS","UserAgent","U?L","Referer","IsRefresh","RefererCategoryID",elineExecutorInt16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32,raficSourceID","SearchEngineID","SearchPhrase","AdvEngineID","IsArtifical","WindowCl UserID Int64, CounterClass Int16, OS Int16, UserAgent Int16, UientWidth","WiRL String, ReferTSKV
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgent Int16, URL String, Referer String, IsRefresh Int16, RefererCategoryID Int16, RefererRegionID Int32, URLCategoryID Int16, URLRegionID Int32, ResolutionWidth Int16, ResolutionHeight Int16, ResolutionDepth Int16, FlashMajor Int16, FlashMinor r=0	FlashMinor=0	FlashMinor2=	NetMajor=0	NetMinor=0	UserAgentMajor=0	UserAgentMinor=�O	CookieEnable=0	JavascriptEnable=0	IsMobile=0	MobilePhone=0	MobilePhoneModel=	Params=	IPNetworkID=3793327	TraficSourceID=4	SearchEngineID=0	SearchPhrase=	AdvEngineID=0	IsArtifical=0	WindowClientWidth=0	WindowClientHeight=0	ClientTimeZone=-1	ClientEventTime=1971-01-01 14:16:06	SilverlightVersion1=0	SilverlightVersion2=0	SilverlightVersion3=0	SilverlightVersion4=0	PageCharset=	CodeVersion=0	IsLink=0	IsDownload=0	IsNotBounce=0	FUniqID=0	OriginalURL=	HID=0	IsOldCounter=0	IsEvent=0	IsParameter=0	DontCountHits=0	WithHash=0	HitColor=5	LocalEventTime=2013-07-15 10:47:34	Age=0	Sex=0	Income=0	Interests=0	Robotness=0	RemoteIP=-1001831330	WindowName=-1	OpenerName=-1	HistoryLength=-1	BrowserLanguage=�	BrowserCountry=�\f	SocialNetwork=	SocialAction=	HTTPError=0	SendTiming=0	DNSTiming=0	CounterID=17	ClientIP=1615432634	RegionID=39	UserID=376160620089546609	CounterClass=0	OS=2	UserAgent=7	URL=38049800818Hash=-8417682003818480435	CLID=0
+Wa189	CounterClass=0	OS=2	UserAgent=3	URL=http:/<a$i
+
+
+
+
+
+
+
+
+
+
+
+
+tchID=81567444132308
+
+
+
+5ht6tp8:

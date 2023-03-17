@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserIHash Int64, URLHash Int64, CLID Int32
+WatchID	Ja6aEnable	Title	GoodEvent	EventTime	EventDate	CounterID	ClientIP	RegionID	UserID	CounterClass	OS	UserAgent	URL	Referer	IsRefresh	RefererCat\F			0	0	0	0	0	0	0	0		0		NH	0											0	-296158784638538920	4673818480435	0

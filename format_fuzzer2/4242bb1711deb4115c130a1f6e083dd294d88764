@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterCUTMSolass Int16, OS Int16, UserAgent Int16, URL String, Referer String, OpenstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URRefeLHash Int64, CLID Int32
+{
+	"row_1": {"WatcèID":"9110818468285196899","JavaEnable":0,"Title":"","GoodEva -—#vu?ent":1,"EventTime":"2013-07-14 20:38:47","EventDa”š":"2013-07-15","CounterID":17,"ClientIP":-1216690514,"RegionID":839,"UserID":"-2461439046089301801","CounterClass":0,"OS":0,"UserAgent":0,"URL":"","Referer":"","IsRefr	0	0		0	0	0	0	0	0	5	2013-07-15 08:37:59	0	0	0	0	0	-100e":"0","ParamOrderID":"","ParamCu2rrCLID":0}
+}

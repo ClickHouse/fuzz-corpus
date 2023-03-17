@@ -1,0 +1,3 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, Counterge String, BrowserCountry String, SocialNet String, FromTag String, HasGCLID Int16, JavaEnableRefererHash Int64, URLHash Int64, CLID Int32
+(9110818468285196899,0,'',1,'2013-07-14 ,0,0,'',0,'','NH',0,'','','','','','',,-2961587À84638538920,-84176820038184804',0,0

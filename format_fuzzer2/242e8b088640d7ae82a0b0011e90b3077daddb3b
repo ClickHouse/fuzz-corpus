@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JahtVererID String, ParamCurrency String, ParamCurrencyID Int16, OpenstatServiceNam String, OpenstatAdID String, ParamCurrencyeID String, UTMSourcet String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+WatchID	orkID Int16,

@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WatchIash Int64, CLID Int32
+{
+	"row_1": {"WatchID":"9110818468285196899","JavaEnable":0,"Title":"","GoodEvent":1,"EventTime":"2013-07-14 20:38:47","EvlientEventTime":"1971-01-01 14:16:06","SilverlightVersion1":0,"SilverlightVersion2":0,"SilverlightVersion3":0,"SilvergilhtVersion4":0,"PagalSourcePage":"","ParamPrice":"0","ParamOrderID":"","ParamCurrency":"NH\u001C","ParamCurrencyID":0,"OpenstatServiceName":"","OpenstatCampa+ignID":"","OpenstatAdID":"","OpenstatSourceID":"","UTMSource":"","UTMMedium":"","UTMCampaign":"","UTMContent":"","UTMTerm":"","FromTag":"","HasGCLID":0,"RefererHash":"-296158784638538920","URLHash":"-?417682003818480435","CLID":0}
+}

@@ -1,0 +1,4 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, tTiming Int32, ResponseStartTimingLID Int32
+"WatchID","JavaEnable","Title","GoodEvent","EventTime","EventDate","CoungionIDCustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID ","UserID","CounterClInt32, ClientIP Int32, RegionID Iass","Ont2S",

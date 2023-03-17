@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, Event1ate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserIHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable	TiFromTagdEvent	EventTime	EventDate	CounterID	ClientIP	RegionID01801	0	0	0			0	0	0	0			3793327	4	0	00		03

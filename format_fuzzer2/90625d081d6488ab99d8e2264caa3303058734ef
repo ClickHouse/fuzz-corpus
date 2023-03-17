@@ -1,0 +1,4 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int32, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgenrce String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, UEvenRLHash Int64, CLID Int32
+"WatchID","JavaEnable","Title","GoodEvent","EventTime","EventTSKV
+WatchID Int64, JavaEna Int16, ResolutionHeight Int16, ResolutionDepth Int16, FlashMaPipelineExecutorjor Int16, FlashMinor Int16, FlashMiientIP","Reginor4 String,onID "

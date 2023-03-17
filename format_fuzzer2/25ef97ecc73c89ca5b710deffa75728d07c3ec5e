@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, statSo Int64, URReaeLHash Int64, CLID Int32
+{
+	"row_1": {"	0	0	5	2013-07-15 10:47:34	0	0	0	0	0	-10010		0	0	0	0	-1	1971-01-01 14:16:06	»»»»»»»»e String, GoodLID":0}
+}

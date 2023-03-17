@@ -1,0 +1,35 @@
+JSONColumns
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegioNetMinor Int16, UserAgentMajor Int16, UserAgentMinor String, CookieEnable Int16, JavascriptEnable Int16, IsMobile Int16, MobilePhone Int16, MobilePhoneModel String, Params String, IPNetworkID Int32, TraficSourceID Int16, SearchEngineID Int16, SearchPhrase String, AdvEngineID Int16, IsArtifical Int16, WindowClientWidth Int16, WindowClientHeight Int16, ClientTimeZone Int16, ClientEventTime DateTime, SilverlightVersion1 Int16, SilverlightVersion2 Int16, SilverlightVersion3 Int32, SilverlightVersion4 Int16, PageCharset String, CodeVersion Int32, IsLink Int16, IsDownload Int16, IsNotBounce Int16, FUniqID Int64, OriginalURL String, HID Int32, IsOldCounter Int16, IsEvent Int16, IsParameter Int16, DontCountHits Int16, WithHash Int16, HitColor String, LocalEventTime DateTime, Age Int16, Sex Int16, Income Int16, Interests Int16, Robotness Int16, RemoteIP Int32, WindowName Int32, OpenerName Int32, HistoryLength Int16, BrowserLanguage String, BrowserCountry String, SocialNetwork String, SocialAction String, HTTPError Int16, SendTiming Int32, DNSTiming Int32, ConnectTiming Int32, ResponseStartTiming Int32, ResponseEndTiming Int32, FetchTiming Int32, SocialSourceNetworkID Int16, SocialSourcePage String, ParamPrice Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyID Int16, OpenstatServiceName String, OpenstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, URLHashBrUTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromEvenTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+{
+	"WatchID": ["9110818468285196899", "8156744413230856864", "5206346422301499756", "6308646140879811077", "8740403056911509777", "8120543446287442873", "4894690465724379622", "6864353419233967042", "6635790769678439148", "8924809397503602651"],
+	"JavaEnable": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"Title": ["", "", "", "", "", "", "", "", "", ""],
+	"GoodEvent": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+	"Even0Time": ["2013-07-14 20:38:47", "2013-07-15 18:33:50", "2013-07-15 18:56:35", "2013-07-15 18:58:32", "2013-07-14 20:30:34", "2013-07-14 22:40:41"ndTypes
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgent Int16, URL String, Referer String, IsRefresh Int16, RefererCategoryID Int16, RefererRegionID Int32, URLCategoryID Int16, URLRegionID Int32, ResolutionWidth Int16, ResolutionHeight Int16, ResolutionDepth Int16, FlashMajor Int16, FlashMinor Int16, FlashMinor2 String, NetMajor Int16, NetMinor Int16, UserAgentMajor Int16, UserAgentMinor String, CookieEnable Int16, JavascriptEnable Int16, IsMobile Int16, MobilePhone Int16, MobilePhoneModel String, Params String, IPNetworkID Int32, TraficSourceID Int16, SearchEngineID Int16, SearchPhrase String, AdvEngineID Int16, IsArtifical Int16, WindowClientWidth Int16, WindowClientHeight Int16,t16, SendTiming Int32, DNSTiming Int32, ConnectTiming Int32, ResponseStartTiming Int32, ResponseEndTiming Int32, FetchTiming Int32, SocialSourceNetworkID Int16, SocialSourcePage String, ParamPrice Int64, Para 0, 0, 0],
+	"FlashMajor": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"FlashMinor": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"FlashMinor2": ["", "", "", "", "", "", "", "", "", ""],
+	"NetMajor": [0, 0, 0, 0, 2, 0, 0, 0, 0, 0],
+	"NetMinor": [0, 0, 0, 0, 7, 0, 0, 0, 0, 0],
+	"UserAgentMajor": [0, 0, 0, 0, 13, 18, 15, 15, 9, 0],
+	"UserAgentMinor": ["ï¿½O", "ï¿½O", "ï¿½O", "ï¿½O", "Dï¿½", "Dï¿½", "Dï¿½", "DW¿½", "Dï¿½", "ï¿½O"],
+	"CookieEnable": [0, 0, 0, 0, 1, 1, 1, 1, 0, 0],
+	"JavascriptEnable": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"IsMobile": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"MobilePhone": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"MobilePhoneModel": ["", "", "", "", "", "", "", "", "", ""],
+	"Params": ["", "", "", "", "", "", "", "", "", ""],
+	"IPNetworkID": [3793327, 3793327, 3793327, 3793327, 3761292, 3793327, 2630537, 2630537, 1940662, 3793327],
+"T": ["", "", "", "", "", "", "", "", "", ""],
+	"OpenstatSourceID": ["", "", "", "", "", "", "", "", "", ""],
+	"UTMSource": ["", "", "", "", "", "", "", "", "", ""],
+	"UTMMedium": ["", "", "", "", "", "", "", "", "", ""],
+	"UTMCampaign": ["", "", "", "", "", "", "", "", "", ""],
+	"UTMContent": ["", "", "", "", "", "", "", "", "", ""],
+	"UTMTerm": ["", "", "", "", "", "", "", "", "", ""],
+	"FromTag": ["",´´´´ "", "", "", "", "", "", "", "", ""],
+	"HasGCLID": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"RefererHash": ["-296158784638538920", "-296158784638538920", "-296158784638538920", "-296158784638538920", "-296158784638538920", "-296158784638538920", "-2961587846393870673240", "-4068508801627144074", "4943607778623395944", "-8417682003818480435"],
+	"CLID": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+}
