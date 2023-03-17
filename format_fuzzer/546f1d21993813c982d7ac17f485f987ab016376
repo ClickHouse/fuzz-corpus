@@ -1,0 +1,4 @@
+TSVWithNamesAndTypes
+b Int ttl CASE-oyd-(P)+true
+idU Int16 Codec(ZSTD(3))
+2000000000018·776

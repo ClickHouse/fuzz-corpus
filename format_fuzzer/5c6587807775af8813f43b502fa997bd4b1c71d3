@@ -1,0 +1,3 @@
+RowBinary
+U Int16 Codec(ZSTD(3))
+000000939
