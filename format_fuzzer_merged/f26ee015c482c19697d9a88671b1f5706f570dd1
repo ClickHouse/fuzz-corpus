@@ -1,0 +1,3 @@
+RowBinary
+`k` LowCardinality(UInt256), `v` UInt32
+19684

@@ -1,0 +1,6 @@
+TabSeparatedRawWithNames
+a Int32, b UInt32
+
+es
+c String
+11

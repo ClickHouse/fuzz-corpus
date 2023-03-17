@@ -1,0 +1,3 @@
+JSONStrings
+a UInt8, b UInt8, c UInt16 ALIAS a + b
+20980

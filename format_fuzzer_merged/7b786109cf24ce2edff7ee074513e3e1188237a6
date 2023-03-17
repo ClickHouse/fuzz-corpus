@@ -1,0 +1,3 @@
+MsgPack
+id UInt64,     nullable_str SimpleAggregateFunction(anyLast,Nullable(String)),     low_str SimpleAggregateFunction(anyLast,LowCardinality(Nullable(String))),     ip SimpleAggregateFunction(anyLast,IPv4),     status SimpleAggregateFunction(groupBitOr, UInt32),     tup SimpleAggregateFunction(sumMap, Tuple(Array(Int32), Array(Int64))),     tup_min SimpleAggregateFunction(minMap, Tuple(Array(Int32), Array(Int64))),     tup_max SimpleAggregateFunction(maxMap, Tuple(Array(Int32), Array(Int64))),     arr SimpleAggregateFunction(groupArrayArray, Array(Int32)),     uniq_arr SimpleAggregateFunction(groupUniqArrayArray, Array(Int32))
+23157

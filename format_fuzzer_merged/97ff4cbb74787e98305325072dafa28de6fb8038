@@ -1,0 +1,3 @@
+BSONEachRow
+id Nullable(String), s Nullable(String), s1 Nullable(String)
+9487

@@ -1,0 +1,3 @@
+JSONCompactStringsEachRowWithNames
+`p_promo_sk` Int64,     `p_promo_id` String,     `p_start_date_sk` Nullable(Int64),     `p_end_date_sk` Nullable(Int64),     `p_item_sk` Nullable(Int64),     `p_cost` Nullable(Float64),     `p_response_target` Nullable(Int64),     `p_promo_name` Nullable(String),     `p_channel_dmail` Nullable(String),     `p_channel_email` Nullable(String),     `p_channel_catalog` Nullable(String),     `p_channel_tv` Nullable(String),     `p_channel_radio` Nullable(String),     `p_channel_press` Nullable(String),     `p_channel_event` Nullable(String),     `p_channel_demo` Nullable(String),     `p_channel_details` Nullable(String),     `p_purpose` Nullable(String),     `p_discount_active` Nullable(String)
+24213

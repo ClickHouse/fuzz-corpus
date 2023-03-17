@@ -1,0 +1,3 @@
+JSONCompactStringsEachRow
+key Int,     v1 AggregateFunction(groupArray, String)
+175

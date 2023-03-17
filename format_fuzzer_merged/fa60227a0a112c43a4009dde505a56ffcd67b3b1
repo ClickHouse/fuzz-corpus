@@ -1,0 +1,3 @@
+JSONCompactStringsEachRow
+i int, v Array(LowCardinality(Nullable(String)))
+10036

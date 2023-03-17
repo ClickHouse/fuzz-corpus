@@ -1,0 +1,3 @@
+JSONCompactEachRowWithNames
+key Int, value SimpleAggregateFunction(groupArrayLastArray(5), Array(UInt64))
+15301

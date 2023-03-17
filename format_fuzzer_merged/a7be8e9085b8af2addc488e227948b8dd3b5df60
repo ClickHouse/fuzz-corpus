@@ -1,0 +1,3 @@
+NDJSON
+a Map(UInt8, Int), b UInt8, c UInt32, d Array(String), e Array(String)
+8899

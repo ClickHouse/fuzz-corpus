@@ -1,0 +1,4 @@
+TabSeparatedRawWithNames
+d	Date, 	k1B	UInt64, 	k2 	String, 	Sum 		AggregateFunction(sum, UInt32), 	Avg 		AggregateFunction(avg, UInt64), 	Any 		AggregateFunction(any, Int8), 	Quantilerray	AggregateFunction(groupArray, String)
+29572
+ÿ

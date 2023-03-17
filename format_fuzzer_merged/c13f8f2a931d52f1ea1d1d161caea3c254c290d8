@@ -1,0 +1,3 @@
+RowBinary
+n int, m default in(n, 'default.table_name')
+16130

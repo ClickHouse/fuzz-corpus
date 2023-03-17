@@ -1,0 +1,3 @@
+CSV
+d Float64 Codec(LZ4HC)
+22.555e5555555

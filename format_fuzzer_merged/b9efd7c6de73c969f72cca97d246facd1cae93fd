@@ -1,0 +1,3 @@
+CapnProto
+key String, macro String MATERIALIZED __getScalar(key)
+4124

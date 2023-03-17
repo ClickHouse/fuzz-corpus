@@ -1,0 +1,3 @@
+JSONCompactEachRow
+val0 Int8 DEFAULT NULL,     val1 Nullable(Int8) DEFAULT NULL,     val2 UInt8 DEFAULT NUll,     val3 String DEFAULT null,     val4 LowCardinality(Int8) DEFAULT NULL,     val5 LowCardinality(Nullable(Int8)) DEFAULT NULL
+15163

@@ -1,0 +1,3 @@
+JSONCompactEachRow
+p Date, k UInt64, v1 UInt64, v2 Int64, projection p1 ( select p, sum(k), sum(v1), sum(v2) group by p)
+26936

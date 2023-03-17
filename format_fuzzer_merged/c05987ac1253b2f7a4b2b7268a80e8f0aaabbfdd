@@ -1,0 +1,3 @@
+RowBinaryWithNamesAndTypes
+a LowCardinality(String), b LowCardinality(String)
+4227

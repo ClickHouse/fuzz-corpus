@@ -1,0 +1,3 @@
+CustomSeparated
+id UInt32, value String, log_date Date
+23193

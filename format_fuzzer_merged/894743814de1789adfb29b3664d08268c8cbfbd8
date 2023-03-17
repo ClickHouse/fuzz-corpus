@@ -1,0 +1,14 @@
+TabSeparatedRawWithNames
+b Int64,     a Int64,     g AggregateFunction(groupArrayStateForEach, Array(UInt16))
+CSV
+id44443
+
+5
+
+
+
+
+4
+
+
+#

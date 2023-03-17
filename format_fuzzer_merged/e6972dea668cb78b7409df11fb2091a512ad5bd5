@@ -1,0 +1,3 @@
+JSONStringsEachRow
+WatchID Int64, JavaEnable Int16, Title String, GoodEvtent Int16, EventTime DateTime, EventDate Date, CounterID Int32, CliDATETIMEentIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgent Int16,ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ Int64, CLID Int32
+{"WatchID":"9110818468285196899","JavaEnable":"0","Title":"","GoodEvent":"1","EventTime":"7682003818480435","CLID":"0"}

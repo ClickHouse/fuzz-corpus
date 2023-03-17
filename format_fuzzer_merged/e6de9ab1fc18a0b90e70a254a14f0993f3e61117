@@ -1,0 +1,3 @@
+PrettyCompactNoEscapes
+arr1 Array(Int8), arr2 Array(Int8), o Int8, no Nullable(Int8), l Int8, nl Nullable(Int8)
+13358

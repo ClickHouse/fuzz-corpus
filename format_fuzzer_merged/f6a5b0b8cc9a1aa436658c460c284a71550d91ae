@@ -1,0 +1,3 @@
+Avro
+n int, s AggregateFunction(max, String)
+27880

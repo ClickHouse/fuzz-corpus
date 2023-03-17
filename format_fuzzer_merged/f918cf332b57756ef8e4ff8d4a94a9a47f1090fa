@@ -1,0 +1,3 @@
+Values
+d Date DEFAULT toDate('2015-05-01'), x UInt64, y UInt64, z UInt64
+2957

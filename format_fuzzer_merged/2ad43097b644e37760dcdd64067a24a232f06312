@@ -1,0 +1,3 @@
+TabSeparatedRaw
+i Int8, n UInt8 DEFAULT 42, s String DEFAULT concat('test', CAST(n, 'String'))
+13169

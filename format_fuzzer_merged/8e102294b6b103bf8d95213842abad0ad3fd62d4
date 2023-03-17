@@ -1,0 +1,3 @@
+TabSeparatedRaw
+id UInt64 CODEC(LZ4, ZSTD, NONE, LZ4HC, Delta(4)),     data String CODEC(ZSTD(2), NONE, Delta(2), LZ4HC, LZ4, LZ4, Delta(8)),     ddd Date CODEC(NONE, NONE, NONE, Delta(1), LZ4, ZSTD, LZ4HC, LZ4HC),     somenum Float64 CODEC(Delta(4), LZ4, LZ4, ZSTD(2), LZ4HC(5), ZSTD(3), ZSTD)
+28844

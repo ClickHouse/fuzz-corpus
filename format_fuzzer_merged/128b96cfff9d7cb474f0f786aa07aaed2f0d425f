@@ -1,0 +1,3 @@
+ProtobufList
+col1 UInt32, col2 default col1 + 1, col3 materialized col1 + 2, col4 alias col1 + 3
+31195

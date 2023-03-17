@@ -1,0 +1,4 @@
+CSV
+U Int64 Codec(ZSTD(3))
+18
+18

@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+date Date,   datetime DateTime,   zoneId UInt64,   test1 ALIAS zoneId == 1,   test2 DEFAULT zoneId * 3,   test3 MATERIALIZED zoneId * 5
+5648

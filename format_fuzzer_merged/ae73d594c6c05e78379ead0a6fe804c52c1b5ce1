@@ -1,0 +1,3 @@
+Pretty
+s String, d Date DEFAULT today()
+13351

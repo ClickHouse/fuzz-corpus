@@ -1,0 +1,3 @@
+CSVWithNames
+id UInt64,v SimpleAggregateFunction(sum,Double)
+28452

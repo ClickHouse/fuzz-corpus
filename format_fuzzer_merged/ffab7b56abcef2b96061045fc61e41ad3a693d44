@@ -1,0 +1,3 @@
+TSVWithNamesAndTypes
+fid UInt32, `n.a` Array(UInt32), `\\\\\\\\\\\\\\\\\n.a` Array(UInt32), `\\\\\\\\\\n.a` Array(UInt32), `\\\\,\\\T\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n.b` Array(String)
+18874

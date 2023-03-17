@@ -1,0 +1,3 @@
+JSONStringsEachRow
+WatchID Int64, JavaEnable Int16,  UTMMedium String, UTMCampaign String, UTMContTitleent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64,  RLHashZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ Int64, CLID Int32
+{"WatchID":"9110818468285196899","JavaEnable":"0","Title":"","GoodEvent":"1","EventTime":"2013-07-14 20:38:47","EventDate":"2013-07-15","CounterID":"17","ClientIP":"-1216690514","RegionID":"839","UserID":"-2461439.46089301801","CounterClass":"0","OS":"0","UUTMMedium":"","UTMCampaign":"","UTMContent":"","UTMTerm":"","FromTag":"","HasGCLID":"0","ReeefrrHash":"-296158784638538920","URLHash":"-8417682003818480435","CLID":"0"}

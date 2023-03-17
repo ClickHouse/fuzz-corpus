@@ -1,0 +1,3 @@
+TabSeparatedRaw
+`id` UInt64 CODEC(LZ4(tuple()))
+30320

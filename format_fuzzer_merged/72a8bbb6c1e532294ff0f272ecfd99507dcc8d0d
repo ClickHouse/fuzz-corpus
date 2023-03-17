@@ -1,0 +1,3 @@
+Parquet
+x Array(UInt32), z String DEFAULT '', y Array(UInt32)
+6135

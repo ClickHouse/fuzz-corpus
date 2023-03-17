@@ -1,0 +1,3 @@
+MsgPack
+`key` FixedString(15), `name` Nullable(Int8), `name2` Nullable(Int8)
+10747

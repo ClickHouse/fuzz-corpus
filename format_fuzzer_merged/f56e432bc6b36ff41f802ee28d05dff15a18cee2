@@ -1,0 +1,3 @@
+CapnProto
+x UInt64, arr Array(Array(String)), t Tuple(String, Array(Nullable(String)), Tuple(UInt32, Date))
+23588

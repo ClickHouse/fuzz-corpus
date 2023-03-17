@@ -1,0 +1,3 @@
+RowBinaryWithNamesAndTypes
+OldColumn String DEFAULT '',     EventDate Date DEFAULT toDate(EventTime),     EventTime DateTime
+5680

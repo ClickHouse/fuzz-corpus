@@ -1,0 +1,3 @@
+ORC
+v1 String, v2 UInt8, v3 DEFAULT v2 * 16, v4 UInt8 DEFAULT 8
+7395

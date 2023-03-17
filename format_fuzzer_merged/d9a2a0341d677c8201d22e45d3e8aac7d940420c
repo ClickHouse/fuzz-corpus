@@ -1,0 +1,3 @@
+TSVRawWithNames
+WatCounterlCass Int16, OS Int16, UserAgent Int16, URL String, Referer String, IsRefresh Int16, RefererCategoryID Int16, RefererRegionID Int32,yIDon Int32, IsLink Int16, IsDownload Int16, IsNHa Int16, HitColor String, LocalEventTime DateTime, Age Int16, Sex Int16, Incomeag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnabJSONObjOpenstatSouilverli+erClass	OS	UserAgEacent	

@@ -1,0 +1,3 @@
+PrettySpace
+a UInt8,  b Int32,  c UInt8 ALIAS a,  d Int64 ALIAS b + 1, e Int32 alias a + b
+161

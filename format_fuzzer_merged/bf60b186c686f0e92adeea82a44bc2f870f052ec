@@ -1,0 +1,3 @@
+JSONEachRowWithProgress
+x UInt64, i256 Int256, u256 UInt256, d256 Decimal256(2)
+22537

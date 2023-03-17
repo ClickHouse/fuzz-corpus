@@ -1,0 +1,3 @@
+JSONStringsEachRow
+statementId String, eventDate Date, eventHour DateTime, eventTime DateTime, verb String, objectId String, onCourse UInt8, courseId UInt16, contextRegistration String, resultScoreRaw Float64, resultScoreMin Float64, resultScoreMax Float64, resultSuccess UInt8, resultCompletition UInt8, resultDuration UInt32, resultResponse String, learnerId String, learnerHash String, contextId UInt16
+3089

@@ -1,0 +1,3 @@
+TabSeparatedRawWithNamesAndTypes
+a Int32, b Int32, c alias a + b
+15469

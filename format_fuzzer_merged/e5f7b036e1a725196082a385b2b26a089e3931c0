@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpaces
+field0 Nullable(String) CODEC(Delta, LZ4)
+6772

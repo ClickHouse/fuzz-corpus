@@ -1,0 +1,3 @@
+LineAsString
+date Date, x UInt32 Codec(Delta), s FixedString(128)
+21962

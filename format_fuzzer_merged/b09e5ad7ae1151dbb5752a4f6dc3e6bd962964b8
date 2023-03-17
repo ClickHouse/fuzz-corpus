@@ -1,0 +1,3 @@
+Protobuf
+a TINYINT,     b TINYINT(8),     c SMALLINT,     d SMALLINT(16),     e INT,     f INT(32),     g BIGINT,     h BIGINT(64)
+20315

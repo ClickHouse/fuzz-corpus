@@ -1,0 +1,5 @@
+TabSeparatedRawWithNames
+d	Date, um 		AggregateFunction(sum, UInt64), 	A	AggregateFunction(groupArray, String)
+22
+tedWithNames
+a Enu

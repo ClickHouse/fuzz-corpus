@@ -1,0 +1,3 @@
+TabSeparatedRawWithNames
+id UInt64,  alue1 Nullable(Float32),     value2 Nullable(Float64)
+29246

@@ -1,0 +1,3 @@
+CSV
+id Float64 Codec(Delta, LZ4HC)
+220.0000000006011695800

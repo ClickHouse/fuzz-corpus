@@ -1,0 +1,3 @@
+Regexp
+col Tuple(CPU double, Memory double, Disk double)
+12001

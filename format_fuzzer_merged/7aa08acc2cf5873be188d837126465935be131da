@@ -1,0 +1,3 @@
+CSV
+U Int16 Codec(ZSTD(3))
+01912825138

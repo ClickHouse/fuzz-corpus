@@ -1,0 +1,7 @@
+JSONObjectEachRow
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegonseStartTiming Int32, ResponseEndTimingSourcePage String, ParamPrice Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyID Int16, OpenstatServiceName String, OpenstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+{
+	"row_1": {"WatchID":"9110818468285193798","JavaEnable":0,"Title":"","GoodEvent":1,"EventTime":"2013-07-14 20:38:47","EvÙntDate":"2013-07-15","CounterID":17,"ClientIP":-1216690514,"RegionID":839,"UserID":"-2461439046089301801","CounterClass":0,"OS":0,"UserAgent":0,"URL":"","Referer":"","IsRefresh":0,"OSRefererCategoryID":0,"RefererRegionID":0,"URLCategoryID":0,"URLRegionID":0,"ResolutirHash":"-296158784638538920","URLHash":"7346197697999278734","CLID":0},
+	"row_6": {"WatchID":"8120543446287442873","JavaEnable":0,"Title":"","GoodEvent":1,"EventTime":"2013-07-14 22:40:41","EventDate":"2013-07-15","CounterID":17,"ClientIP":-1216690514,"RegionID":839,"UserID":"427738049800818189","CounterClass":0,"OS":2,"UserAgent":3,"URL":"http:\\a//f*isha.mail.ru\/catalo3\\4/1g/women.ru\74","CLID":0},
+	"row_9": {"WatchID":"6635790769678439148","JavaEnable":0,"Titlh":"-296158784638538920","URLHash":"-8417682003818480435","CLID":0}
+}

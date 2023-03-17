@@ -1,0 +1,5 @@
+JSONColumns
+WaptchImpaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+{
+	"WatchID": ["9110818468285196899", "815674Date":"2013-07-15","CounterID":17,"CLIDNtIP":-1216690514,"RegionID":839,"UserID":"-2461439046089301801","CounterClass":0,"OS":0,"UserAgent"ÅÏÓÝªŒšrAgentMajor":0,"UserAgentMinor":"ï¿½O","CookieEnable":5,"JavascriptEnable":0,"IsMobile":0,"MobilePho, 0, 0, 0, 0, 0, 0, 0, 0]
+}

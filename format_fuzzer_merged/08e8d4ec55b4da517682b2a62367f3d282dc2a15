@@ -1,0 +1,3 @@
+TSKV
+`dt64_column` DateTime64(3),     `dt_column` DateTime DEFAULT toDateTime(dt64_column)
+30165

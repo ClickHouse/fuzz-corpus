@@ -1,0 +1,3 @@
+Native
+col Tuple(            a Tuple(key1 int, key2 int),            b Tuple(key1 int, key2 int)        )
+21999

@@ -1,0 +1,4 @@
+CSVWithNames
+entityIri String,  s UInt16,     `views.viewId` Array(String),     `views.startedAt` Array(DateTimeWithDictionary),     `vidAt` Array(DateTimeWithDictionary),     `viewDus.ranges$` Array(String),     version DateTime
+4417
+’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’

@@ -1,0 +1,3 @@
+JSONCompactStrings
+n Int64, creation_tid DEFAULT transactionID()
+28128

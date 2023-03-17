@@ -1,0 +1,3 @@
+JSONAsString
+key UInt32, val SimpleAggregateFunction(max, UInt32), date Datetime
+29390

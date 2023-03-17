@@ -1,0 +1,3 @@
+SQLInsert
+date Date DEFAULT '0000-00-00', x Enum8('0' = 0, '1' = 1, '2' = 2), d Enum8('0' = 0, '1' = 1, '2' = 2)
+14908

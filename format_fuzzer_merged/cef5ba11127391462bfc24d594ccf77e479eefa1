@@ -1,0 +1,3 @@
+TabSeparatedRaw
+received_at DateTime('Asia/Istanbul'),     device_id UUID,     sensor_id UUID,     value Nullable(Decimal(18, 4)),     low_warning Nullable(Decimal(18, 4)),     low_critical Nullable(Decimal(18, 4)),     high_warning Nullable(Decimal(18, 4)),     high_critical Nullable(Decimal(18, 4))
+27476

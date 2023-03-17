@@ -1,0 +1,3 @@
+JSONCompactEachRow
+x UInt32, fat FixedString(160000)
+20658

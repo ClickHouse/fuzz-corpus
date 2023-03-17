@@ -1,0 +1,3 @@
+ProtobufSingle
+date Date,   key UInt64,   value1 String,   value2 String DEFAULT concat('Hello ', value1),   value3 String ALIAS concat('Word ', value1)
+24273

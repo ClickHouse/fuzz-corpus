@@ -1,0 +1,3 @@
+JSONStringsEachRowWithProgress
+ip String,     ipv6 IPv4 MATERIALIZED toIPv4(ip)
+28638

@@ -1,0 +1,3 @@
+TSVWithNames
+x varchar(255) COLLATE binary NOT NULL
+485

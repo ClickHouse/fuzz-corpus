@@ -1,0 +1,7 @@
+CSV
+id Float64 Codec(Delta, LZ4HC)
+22
+44
++4444
+17
+4465643444

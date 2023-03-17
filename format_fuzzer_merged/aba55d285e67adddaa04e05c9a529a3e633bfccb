@@ -1,0 +1,3 @@
+MySQLWire
+`timestamp` DateTime,  `value` UInt64,  `day` Date ALIAS toDate(timestamp),  `day1` Date ALIAS day + 1,  `day2` Date ALIAS day1 + 1,  `time` DateTime ALIAS timestamp
+21398

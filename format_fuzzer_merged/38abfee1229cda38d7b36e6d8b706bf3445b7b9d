@@ -1,0 +1,3 @@
+JSONColumns
+value Tuple(UInt8, Array(Tuple(UInt8, UInt8)))
+7333

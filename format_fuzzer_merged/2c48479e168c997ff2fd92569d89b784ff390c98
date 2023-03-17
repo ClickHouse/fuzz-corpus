@@ -1,0 +1,3 @@
+TSKV
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int16, ClientIP Int32, RegionID Int32, UsHash Int64, GoodEveURLHash Int64, CLID Int32
+WatchID=9110818468285196899	JavaEnable=0	Title=	GoodEvent=1	Evg, AdvEngineID Int16, IsArtifical IASCIInt16, WindowCID=0

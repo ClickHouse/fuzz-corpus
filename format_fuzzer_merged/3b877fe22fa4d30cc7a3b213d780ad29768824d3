@@ -1,0 +1,3 @@
+ODBCDriver2
+d Date DEFAULT today(),     time DateTime DEFAULT now(),     n Int64
+18435

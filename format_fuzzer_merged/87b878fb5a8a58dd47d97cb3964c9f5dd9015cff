@@ -1,0 +1,3 @@
+MySQLDump
+id UInt64,     value String,     range_value UInt64
+32071

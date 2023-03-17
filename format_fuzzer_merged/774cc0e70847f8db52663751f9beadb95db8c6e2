@@ -1,0 +1,3 @@
+JSONColumns
+`key` UInt32, `arr` ALIAS [1, 2]
+21854

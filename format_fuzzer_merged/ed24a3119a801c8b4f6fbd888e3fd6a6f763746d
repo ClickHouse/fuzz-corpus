@@ -1,0 +1,3 @@
+Template
+x varchar(255) COLLATE utf8_unicode_ci NOT NULL
+5922

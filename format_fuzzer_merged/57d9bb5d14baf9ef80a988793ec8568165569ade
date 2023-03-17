@@ -1,0 +1,3 @@
+CapnProto
+`x` LowCardinality(UInt32), `s` LowCardinality(String)
+23404

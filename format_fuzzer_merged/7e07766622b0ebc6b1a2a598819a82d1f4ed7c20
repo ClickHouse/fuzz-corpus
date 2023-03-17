@@ -1,0 +1,3 @@
+MySQLDump
+`id` Int32,     `country` LowCardinality(String),     `purchase_location` UInt16 MATERIALIZED if(id IN joinGet(concat(currentDatabase(), '.id_join'), 'location', 'CLICK'), 123, 456)
+23786

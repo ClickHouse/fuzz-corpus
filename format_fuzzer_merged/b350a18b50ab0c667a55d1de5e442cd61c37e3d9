@@ -1,0 +1,3 @@
+JSONEachRow
+d Date DEFAULT '2000-01-01', k UInt64, u AggregateFunction(uniq, UInt64)
+10001

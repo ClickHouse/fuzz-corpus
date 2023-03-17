@@ -1,0 +1,3 @@
+TSVRawWithNamesAndTypes
+event_type LowCardinality(String) DEFAULT JSONExtractString(message_raw, 'type'),     repo_name LowCardinality(String) DEFAULT JSONExtractString(message_raw, 'repo', 'name'),     message JSON DEFAULT message_raw,     message_raw String EPHEMERAL
+11369

@@ -1,0 +1,3 @@
+TabSeparatedWithNamesAndTypes
+di DEFAULT 1, id int AUTO_INCREMENT, s String EPHEMERAL
+12782

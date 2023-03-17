@@ -1,0 +1,3 @@
+ProtobufList
+arr1 Array(Nullable(String)), arr2 Array(String), val String, val2 Nullable(String), o Int8, no Nullable(Int8), l Int8, nl Nullable(Int8)
+7320

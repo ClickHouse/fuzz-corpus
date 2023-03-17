@@ -1,0 +1,3 @@
+Protobuf
+n_nationkey     Int32,  -- PK     n_name          FixedString(25),     n_regionkey     Int32,  -- FK r_regionkey     n_comment       String, -- variable text, size 152     CONSTRAINT pk CHECK n_nationkey >= 0
+26424

@@ -1,0 +1,4 @@
+TabSeparatedRawWithNames
+d			AggregateFunction(any, String), 	AntIf 		AggregateFunction(anyIf, String, UInt8), 	QuantilesoupArray	AggregateFunction(groupArray, String)
+1TSV
+`ideUnx `I

@@ -1,0 +1,3 @@
+BSONEachRow
+seg_id String, mid_seqs AggregateFunction(groupBitmap, UInt32)
+20757

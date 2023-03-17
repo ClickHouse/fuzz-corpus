@@ -1,0 +1,3 @@
+RowBinary
+id UInt64,    id_key String,    value_first String,    value_second Nullable(String)
+21115

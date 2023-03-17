@@ -1,0 +1,3 @@
+LineAsString
+val UInt32, n Nested(x Nullable(UInt8), y String)
+15338

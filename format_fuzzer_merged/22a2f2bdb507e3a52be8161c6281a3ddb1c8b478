@@ -1,0 +1,3 @@
+JSONColumns
+id UInt32,     col1 Nested(a UInt32, n Nested(s String, b UInt32))
+14440

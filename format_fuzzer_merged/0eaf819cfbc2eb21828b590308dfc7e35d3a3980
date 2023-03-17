@@ -1,0 +1,17 @@
+JSONColumns
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTimetworkID Int16, SocSiluaorcePage String, ParamPrice Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyID Int16,m String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+{
+	"WatchID": ["9110818468285196899", "8156744413230854864", "5206346422301499756", "6308661440879811077", "8740403056911509777", "8120543446287442873", "4894690465724379622", "6864353419233967042", "6635790769678439148", "8924809397503602651"],
+	"JavaEnable": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"Title": ["", "", "", "", "", "", "", "", "", ""],
+	"GoodEvent": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+	"EventTime": ["2013-07-14 20:38TSKV
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64,earchEngineID Int16, SearchPhrase String, Adersion3 Int32, SilverlightVersion4 Int16, PageCharset String, reVoeCdsion Int32, IsLink Int16, IsDownloadg Int32, SocialSourceNetworkID Int16, SocialSourcePage String, ParamPrice Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyID Int16, OpenstatServiceName String, OpenstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSourcedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+{
+	"WatchID": ["9110818468285196899", "8156744413230854864", "5206346422301499756", "6308661440879811077", "8UTF-8305691150924809397503602651"],
+	"JavaEnable": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"Title": ["", "", "", "", "", "", "", "", "", ""],
+	"GoodEvent": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+	"EventTime": ["2013-07-14 20:38:47", "2013-07-15 18:33:50", "2013-07-15 18:56:35", "2013-07-15 18:58:32", "2013-07-14 20:30:34", "2013-07-14 22:40:41", "2013-07-15 19:26:13", "2013-07-15 19:36:56", "2013-07-15 18:18:31", "2013-07-15 0e String, BrowserCount":0,"D
+MobilePho, 0, 0, 0, 0, 0, 0, 0, 0]
+}

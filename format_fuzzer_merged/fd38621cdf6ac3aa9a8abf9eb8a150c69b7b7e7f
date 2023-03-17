@@ -1,0 +1,9 @@
+JSONColumns
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, ED Int32, IsOldCounter Int16, IsEvent Int16, IsParameter Int16, DontCountHits Int16, WithHash Int16, HitColor String, LocalEventTime DateTime, Age Int16, Sex Int16, Income Int16, Interests Int16, Robotness Int16, RemrerHash Int64, URLHash Int64, CLID Int32
+{
+	"WatchID": ["9110818468285196899", "8156744413230854864", "5206346422301499756", "6308646140879811077", "8740403056911509777", "8120543446287442873", "4894690465724379622", "6864353419233967042", "6635790769678439148", "8924809397503602651"],
+	"JavaEnable": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"Title": ["", "", "", "", "", "", "", "", "", ""],
+	"GoodEvent": [1, 1, 1, 1, 1, 1, 1, 0, 1, 1],
+	"Brow": [0, 0, 0, 0, 0, 0, ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹0, 0, 0, 0]
+}

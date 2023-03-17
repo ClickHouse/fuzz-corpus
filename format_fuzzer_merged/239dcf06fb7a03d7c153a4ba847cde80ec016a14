@@ -1,0 +1,3 @@
+JSONLines
+id UInt64, t Tuple(a UInt64, b Tuple(u UInt32, s String))
+1584

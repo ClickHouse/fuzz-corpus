@@ -1,0 +1,3 @@
+CSVWithNames
+`PhraseID` UInt64, `PhraseProcessedID` UInt64 ALIAS if(PhraseID > 5, PhraseID, 0)
+6091

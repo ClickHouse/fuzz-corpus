@@ -1,0 +1,3 @@
+Prometheus
+key Int32,     complex1 Array(Tuple(Nullable(FixedString(4)), Array(Tuple(Nullable(String), String))))
+11378

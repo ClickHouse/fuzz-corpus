@@ -1,0 +1,3 @@
+MySQLWire
+n UInt8, m Int32, d Date, t DateTime
+21075

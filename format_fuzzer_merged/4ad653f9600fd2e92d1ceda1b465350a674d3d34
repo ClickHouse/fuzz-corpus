@@ -1,0 +1,3 @@
+NDJSON
+`key` UInt32, `ts` DateTime, `db_time` DateTime DEFAULT now()
+13777

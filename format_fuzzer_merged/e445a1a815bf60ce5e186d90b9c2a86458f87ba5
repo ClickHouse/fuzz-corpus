@@ -1,0 +1,3 @@
+Values
+x UInt32, s Tuple(UInt32, Tuple(UInt32, Array(String)))
+27735

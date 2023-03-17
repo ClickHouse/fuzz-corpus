@@ -1,0 +1,3 @@
+BSONEachRow
+i Int32,     j ALIAS j + 1
+11943

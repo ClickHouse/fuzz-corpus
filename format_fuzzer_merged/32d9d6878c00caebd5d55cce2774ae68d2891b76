@@ -1,0 +1,3 @@
+MySQLDump
+d DATE, m Map(UUID, UInt16)
+2983

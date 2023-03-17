@@ -1,0 +1,3 @@
+CSVWithNamesAndTypes
+`id` UInt64 CODEC(LZ4HC(tuple()))
+30472

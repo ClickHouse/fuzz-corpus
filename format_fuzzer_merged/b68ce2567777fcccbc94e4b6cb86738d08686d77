@@ -1,0 +1,3 @@
+CustomSeparatedIgnoreSpaces
+col MATERIALIZED dictGet(currentDatabase() || '.dict', 'value', toUInt32(1))
+21572

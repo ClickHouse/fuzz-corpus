@@ -1,0 +1,3 @@
+Values
+d Date DEFAULT '2000-01-01', x UInt8, y UInt64
+18120
