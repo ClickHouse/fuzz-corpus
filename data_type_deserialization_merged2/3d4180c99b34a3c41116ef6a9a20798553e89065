@@ -1,0 +1,1 @@
+AggregateFunction(sumMap, Tuple(Array(String), Array(UInt64)))

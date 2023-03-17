@@ -1,0 +1,1 @@
+AggregateFunction(sum, Nullable(Float64))

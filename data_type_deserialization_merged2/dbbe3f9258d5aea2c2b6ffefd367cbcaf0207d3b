@@ -1,0 +1,1 @@
+AggregateFunction(sum, Nullable(Decimal32(5)))

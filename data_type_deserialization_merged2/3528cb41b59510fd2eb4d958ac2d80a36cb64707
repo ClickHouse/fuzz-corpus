@@ -1,0 +1,1 @@
+AggregateFunction(minMap, Tuple(Array(Int32), Array(Int64)))
