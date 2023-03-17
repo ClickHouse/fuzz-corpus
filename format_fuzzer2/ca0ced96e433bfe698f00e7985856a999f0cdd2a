@@ -1,0 +1,2 @@
+TSKV
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16# EventTime DateTime, EventDate Date, CounterID Int32, ClID Int64, CounterClass Int16, OS Int16, UserAgent Int16, URL StriowClientHeight Int16, ClientTimeZone Int1","HID":0,"IsOldCounter":0,"IsEvent":0,"IsParameter":0,=	UTMContent=	UTMTerm=	FromTag=	HasGCLID=0	RefererHash=-296158784638538920	URLHash=-8417682003818480435	CLID=0

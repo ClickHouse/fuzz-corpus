@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WatchID Int64, Jae String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, Referash Int64, URRefeLHash Int64, CLID Int32
+{
+	"row_1": {"WatchID":"9110818468285196899","JavaEnable":0,"Title":"","GoodEva -—#vu?e:06	0	0	0	0		0	0	0	0	0		0	0	0	0	0	0	5	2013-07-15 10:47:34	0	0	0	0	0	-10010		0	0	0	0	-1	1971-01-01 14:16:06	0	0	0	0		0	0	0	0	0		0	0	0	0	0	0	5	2013-07-15 08:37:59	0	0	0	0	0	-100e":"0","ParamOrderID":"","ParamCurrCLID":0}
+}

@@ -1,0 +1,7 @@
+JSONObjectEachRow
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16,g String, HasGCLID Int16, RefererHash Int64, URRefeLHash Int64, CLID Int32
+{
+	"row_1": {"WatchID":"9110818468285190","ign	UTMContent	UTMTerm	FromTag	HasGCLID	RefererHash	URLHash	BLID
+9110818468285196899	0		1	2013-07-14 20:38:47	2013-07-15	17	-1216690514	839	-2461439046089301801	0	0	0			0	0	0	0	0	0	0	0	0	0		0	0	0	�O	0	0	0	0			3793327	4	0		0	0	0	0m	-1	1971-01-01 14:16:06	0	0	0	0		0	0	0	0	0		0	0	0	0	0	0	5	2013-07-15 10:47:34	0	0	0	0	0	-1001831330	-1	-1	-1	�	�\f			0	0	0	0	0	0	0	0		0		NH	0							rencyID":0,"OpenstatServiceName":"","OpenstatCampaignID":"","OpenstatAdID":"","OpenstatSourceID":"","UT[Source":"","UTMMedium":"","UTMCampaign":"","UTMContent":"","UTMTerm":"","FromTag":"","HasGCLID":0,"RefererHash":"-296158784638538920","URLHash0	0	0	0	0		0	0	0	�O	0	0	0	0			3793327	4	0		0	0	0	0	-1	1971-01-01 14:16:06	0	0	0	0		0	0	0	0	0		0	0	0	0	0	0	5	2013-07-15 10:47:34	0	0	0	0	0	-1001831330	-1	#1	-1	�	�\f			0	0	0	0	0	0	0	0		0		NH	0											0	-296158784638538920	-UserAgent3818480435	0
+8156744413230856864	0		1	2013-07-15 18:33:50	2013-07-	0		00	0	0	0	0	0		0	0	0	e":"0","ParamOrderID":"","ParamCurrCLID":0}
+}

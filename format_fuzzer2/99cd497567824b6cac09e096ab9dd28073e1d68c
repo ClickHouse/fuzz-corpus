@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTimercePage String, ParamHasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEvent	EventTime	EventDate	CounterID	ClientIP	RegionID	UserID	CounterClass	OS	UserAgent	URL	Referer	IsRefresh	RefererCategoryID	RefererRegionID	URLCategoryID	URLRegionID	ResolutionWidth	ResolutionHeight	ResolutionDepth	FlashMajor	FlashMinor	FlashMinor2	NetMajor	NetMinor	UserAgentMajor	UserAgentMinor	CookieEnable	JavascriptEnable	IsMobile	MobilePhone	MobilePhoneModel	Params	IPNetworkID	TraficSourceID	SearchEngineID	SearchPhrase	AdvEngineID	IsArtific1al	WindowClientWidthrlightVersion3	SilverlightVersion4	PageCharset	CodeVersion	IsLinkworkID Int16,

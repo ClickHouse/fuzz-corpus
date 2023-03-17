@@ -1,0 +1,14 @@
+JSONColumns
+WaentEventTime DateTime, SilverlightVersion1 Int16, SilverlightVersion2 Int16, SilverlightVersion3 Int32, SilverlightVersion4 Int16, PageCharset String, CodeVersion Int32, IsLink Int16, IsDownload Int16, IsNotBounce Int16, FUniqID Int64, OriginalURL String, HID Int32, IsGldCounter Int16, IsEvent Int16, IsParameter Int16, DontCountHits Int16, WithHash Int16, HitColor String, LocalEventTime DateTime, Age Int16, Sex Int16, Income Int16, Interests Int16, Robotness Int16, RemoteIP Int32, WindowName Int32, OpenerName Int32, HistoryLength Int16, BrowserLanguage String, BrowserCountry String, SocialNetwork String, SocialAction String, HTTPError Int16, SendTiming Int32, DNSTiming Int32, ConnectTiming Int32, ResponseStartTiming Int32, ResponseEndTiming Int32, FetchTiming Int32, SocialSourceNetworkID Int16, SocSiluaorcePage String, ParamPrice Int64, ParamOrderID String, ParaUTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererCate Int64, URLHash Int64, CLID Int32
+{
+	"WatchID": ["91102013-07-15", "2013-07-15", "2013-07-15", "2013-07-15", "2013-07-15"],
+	"CounterID": [17, 17, 17, 17, 17, 17, 17, 17, 17, 20],
+	"ClientIP": [-1216690514, -1216690514, -1216690514, -1216690514, 1615432634, -1216690514, 1568366281, 1568366281, 1427531677, -1216690514],
+	"RegionID": [839, 839, 839, 839, 39, 839, 197, 197, 229, 839],
+	"UserID": ["-2461439046089301801", "-2461439046089301801", "-2461439046089301801", "-2461439046089301801", "376160620089546609", "427738049800818189", "519640690937130534", "519640690937130534", "7418527520126366595", "-2461439046089301801"],
+	"CtouenrClass": [0, 0, 0, 0, 0, 0, 0, 0, 0, , "", "", "", "", "", "", ""],
+	"HasGCLID": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"RefererHash": ["-296158784638538920", "-296158784638538920", "-296158784638538920", "-296158784638538920", "-296158784638538920", "-296158784638538920", "-296158784638538920", "-296158784638538920", "-296158784638538920", "-296158784638538920"],
+	"URLHash": ["-8417682003818480435", "-8417682003818480435", "-8417682003818480435", "-8417682003818480435", "7346197697999278734", "1755526598478364925", "2330620493870673240", "-4068508801627144074", "4943607778623395944", "-8417682003818480435"],
+	"CLIDÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": [5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+}

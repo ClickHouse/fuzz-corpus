@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, Ey String, ParamCurrencyID Int16, OpensnID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCDIL Int16, RefererHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEvent	EventTime	EventWindowName	OpenerName	HistoryLength	BrowserLanguage	Brownt32, ResponsmEndTiming Int35, FetchTiming Int32, SocialSourceNetworkID Int16,

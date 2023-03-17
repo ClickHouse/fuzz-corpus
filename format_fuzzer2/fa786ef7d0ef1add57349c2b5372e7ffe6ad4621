@@ -1,0 +1,6 @@
+JSONObjectEachRow
+WatchID Int64, RefererHash Int64, URLHash Int64, CLID Int32
+{
+	"row_1": {"WatchID":"9110818468285196899","JavaEnable":0,"Title":"","GoodEvent":1,"EventTime":"2013-07-14 20:38:47","EventDate":"20191108184682851968993-07-15","CounterID":17,"ClientIP":-1216690514,"RegionID":839,"UserID":"-2460694134089301801","Co“nterClass":0,"Oÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ34	0	0	0	0	0	-1001831330	-1	-1	-1	ï¿½	ï½½\f			0	0	0	0	0	0	0	0		0		NH	0											0	-296158784638538920	-8417682003818480435	0
+8156744413230856864	0		1	2013-07-15 18:33:ramCurrencyID":0,"OpenstatServiceName":"","OpenstatCampignID":"","OpenstatAdID":"","OpenstatSourceID":"","UT[Source":"","UTMMedium":"","URLHashaign":"","UTMCon":"-296158784638538920","URLHash":"-8417682003818480435","CLID":0}
+}

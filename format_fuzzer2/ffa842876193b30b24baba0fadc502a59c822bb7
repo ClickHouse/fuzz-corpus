@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, rrrrTitle String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserIHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEvent	EventTime	EventDate	CounterID	ClientIP	RegionID	UserID	CounterClass	OS	UserAgent	||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||URL	Referer	IsRefresh	RefererCategoryID	RefererRegionID	URLCategoryID	URLRegionID	ResolutionWidth	ResolutionHeight	ResolutionDepth	FlashMajor	FlashMinor	FlashMinor2	NetMajor	NeerlightVersion3	SilverlightVersion4	PageCharset	CodeVersion	IsLink	IsDownload	IsNotBounce	FUniqID	OriginalURL	HID	IsO480435	0

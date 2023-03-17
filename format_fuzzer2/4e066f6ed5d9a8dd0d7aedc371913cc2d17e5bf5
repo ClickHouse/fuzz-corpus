@@ -1,0 +1,3 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, Evdium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WatchID","JavaEnable","Title","GoodEvent","EventTime","EventDate","CounterID","ClientIP","RegionID","UserID","CounterClass","OS","UserAgentt","ResolutionDepth","FlashMajor","FlashMinor","FlashMinor2","NetMajor","NetMinor",aEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgent Int16, URL String, Referer String, 8538920,-8417682003818480435,0

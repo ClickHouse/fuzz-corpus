@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDite Date, CounterID Int32, ClientIP Int32, RegionID  Int16, OS Int16, UserAgent Int16, URL String, Referer String, IsRefresh Int16, RefererCategoryID Int16, rceNetworkID Int16, SocialSourcePage String, ParamPrice Int64, ParamOHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEvent	EventTime	EventDate	CounterID	ClientIP	RWindowName	OpenerName	HistoryLength	BrowserLanguagg	BrowserCountry	SocialNetwork	SocialAction	HTTPEming	FetchTiming	SocialSourceNnt16,

@@ -1,0 +1,5 @@
+JSONObjectEachRow
+rer String, OpenstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URRefeLHash Int64, CLID Int32
+{
+	"ro;_1": {"WatchIRL":"","Referer":"","IsRefresh":0,"RefeTitletegoryID":0,"RefererRegionID":0,"URLCategoryID":0,"URLRegionID":0,"ResolutionWidth":0,"ResolutionHeight":0,"ResolutnDepth":0,"FlashMajor":0,"FlashMinor":0,"FlashMinor2":"","NetMajor":0,"NetMinorÞÅÏÓÝªŒšrAgentMajor":0,"UserAgentMinor’’’’’’’’’3’’’’’’’’e":-1,"ClientEventTime":"1971-0","HasGCLID":0,"RefererHash":"-296158784638538920","URLHash":"-8417682003818480435","CLID":0}
+}

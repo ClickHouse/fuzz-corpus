@@ -1,0 +1,10 @@
+JSONColumns
+WatchID Int64, JavaEnable Int16, TitlURLHae String, GoodEvent Int16, EventTimetworkID Int16, SocSiluaorcePage String, ParamPrice Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyID Int16, OpenstatServiceName String, OpenstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, GoodEvenHasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+{
+	"WatchID": ["9110818468285196899", "8156744413230854864", "5206346422301499756", "6308646140879811077", "8740403056911509777", "8120543446287442873", "4894690465724379622", "6864353419233967042", "6635790769678439148", "8924809397503602651"],
+	"JavaEnable": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"Title": ["", "", "", "", "", "", "", "", "", ""],
+	"GoodEvent": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+	"EventTime": ["2013-07-14 20:38:47", "20013-07-14 22:40:41", "2013-07-15 19:26:13", "2013-07-15 19:36:56", "2013-07-15 18:18:31", "435", "-8417682003818480435", "7346197697999278534", "1755526598478364925", "2330620493870673240", "-4068508801627144074", "4943607778623395944", "-8417682003818480435"],
+	"CLID": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+}

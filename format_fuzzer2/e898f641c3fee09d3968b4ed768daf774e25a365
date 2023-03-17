@@ -1,0 +1,9 @@
+JSONColumns
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTimetworkID Int16, SocSiluaorcePage String, ParamPrice Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyID Int16, OpenstatServiceName String, OpenstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+{
+	"WatchID": ["9110818468285196899", "8156744413230854864", "5206346422301499756", "6308646140879811077", "8740403056911509777", "8120543446287442873", "4894690465724379622", "6864353419233967042", "6635790769678439148", "8924809397503602651"],
+	"JavaEnable": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"Title": ["", "", "", "", "", "", "", "", "", ""],
+	"GoodEvent": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+	"EventTime": ["2013-07-14 20:38:47", "2013-07-15 18:33:50", "2013-07-15 18:56:35", "2013-07-15 18:58:32", "2013-07-14 20:30:34",onID":0,"URLCategoryID":0,"URLRegionID":0,"ResolutionWidth":0,"ResolutionHeight":0,"ResolutionDepth":0,"FlashMajor":0,"FlashMinor":0,"FlashMinor2":"","NetMajor":0,"NetMinorÞÅÏÓÝªŒšrAgentMajor":0,"UserAgentMinor":"ï¿½O","CookieEnable":0,"JavascriptEnable":0,"IsMobile":0,"MobilePho, 0, 0, 0, 0, 0, 0, 0, 0]
+}

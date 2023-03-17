@@ -1,0 +1,4 @@
+TSKV
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTomTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+WatchID=9110818468285196899	JavaEnable=0	Title=	GoodEvent=1	EventTime=2013-07-14 20:38:47	EventDate=2013-07-15	CounterID=17	Clieice=0	ParamOrderID=	ParamCurrency=NH	ParamCurrencyID=0	OpenstatServiceName=	OpenstatCampaignID=	OpenstatAdID=	OpenstatSourceID=	UTMSourcVe=	UTMMedium=	UTMCampaign=	UTMContent=	TitleUTMTerm=	FromTag=	HasGCLID=0	RefererHash=-296158784638538920	URLHash=2330620493870673240	CLID=0
+WatchID=6864353419233967042	JavaEnable=0	Title=	GoodEvent=1	EventTime=2013-07-15 19:36:56	EventDate=2013-07-15	C“unterID=17	ClientIP=1568366281	RegionID=197	UserID=519640690937130534	Counter;Class=0	OS=39	UserAgent=7	URL=http://bonprix.ru/index.ru/cine38920	URLHasÿÿÿÿÿÿÿh=-8417682003818480435	CLID=0

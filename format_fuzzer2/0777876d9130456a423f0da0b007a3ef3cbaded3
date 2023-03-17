@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URRefeLHash Int64, CLID Int32
+{
+	"row_1": {"WatchID":"9110818468285196899","JavaEnable":0,"Title":"","GoodEva -—#vu?e	0	~		2013-07-15 08:37:59	0	0	0	0	0	-100e":"0","ParamOrderID":"","ParamCurrCLID":0}
+}

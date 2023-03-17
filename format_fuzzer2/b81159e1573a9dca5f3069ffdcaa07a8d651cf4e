@@ -1,0 +1,7 @@
+JSONColumns
+WaentEventTime DateTime, SilverlightVersion1 Int16, SzilverlightVersion2 Int16, SilverlightVeome Int16, Interests Int16, Robotness Int16, RemoteIP Int32, WindowName Int32, OpenerName Int32, HistoryLength Int16, BrowserLanguage String, BrowserCountry String, SociaLID Int32
+{
+	"WatchID": ["91102013-07-15", "2013-07ÓÈ5", "•••••••••••••••••••••••AdID":"","OpenstatSourceID":"","UTMSource":"","UTMMedium":"","UTMCampaign":"","UT(MContent":"","UTMTerm":"","FromTag":"","HasGCLID":"0","RefererHash":"-296158784638538920","URLHash":"-8417682003818480435","CLID":"0"}
+{"WatchID":"5206346422301499756","JavaEnable":"0","Title":"","GoodEvent":"1","EventTime":"2013-07-15 18:56:35","EventDate":"2013-07-15","CounterID":"17","ClientIP":"-1216690514","RegionID":"839","UserID":"-246143904608930¿1801","CounterClass":"0","OS":"0","UserAgent":"0","URL":"","Referer":"","IsRefresh":"0","RefererCategoryID":"0","RefererRegionID":"0","URLCategoryID":"0","URLRegionID":"0","Resoluti240", "-4068508801627144074", "4943607778623395944", "-8417682003818480435"],
+	"CLIDÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": [5, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+}

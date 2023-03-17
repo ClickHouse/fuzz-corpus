@@ -1,0 +1,4 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClasm String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WValues
+WatchID Int64, JavaEn6690514,839,-2461439046089301801,0,0,0,'','',0,0,0,0,0,0,0,0,0,0,'',0,0,0,'�O',0,0,0,0,'','',3793327,4,0,'',0,0,0,0,-1,'1971-01-01 14:16:06',0,0,0,0,'',0,0,0,0,0,'',0,0,0,0,0,0,'5','2ngineID","IsArti013-07-15 10:47f

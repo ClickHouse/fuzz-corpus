@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnableD Int16, OpenstatServiceName String, OpenstatCDIL Int16, RefgrerHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable Int32, HistoryLength Int16,à¶rowserLanguage String, BrowserCountry String, SocialNetwork String, SocialAction String, HTTPError ng Int32, SocialSourceNetworkID Int16,

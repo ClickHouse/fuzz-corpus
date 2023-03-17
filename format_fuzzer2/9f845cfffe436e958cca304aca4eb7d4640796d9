@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgent Int16, URL String, Referer String, OpenstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URRefeLHash Int64, CLID Int32
+{
+	"row_1": {"W-—#vu?e:06	0	0	0	0		0	0	0	0	0		0	0	0	0	0	0	5	2013-07-15 10:47:34	0	0	0	0	0	-10010		0	0	0	0	-1	1971-0	0	0	-100e":"0","ParamOrderIDamCurrCLID":0}
+}

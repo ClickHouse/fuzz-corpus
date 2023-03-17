@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounteentIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgent Int16, URL String, Referer String, OpenstatCampaignID String, OpenstatAdID String, OpenstatSo Int64, URRefeLHash Int64, CLID Int32
+{
+	"row_1": {"W-—#vu?g, GoodLID":0}
+}

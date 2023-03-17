@@ -1,0 +1,3 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, Regih Int64, URLHash Int64, CLID Int32
+"WatchID","JavaEnable","Title","GoodEvent","EventTime","EventDate","CounterID","ClienrlightVersion4=0	PageCharset=	CodeVersion=0	IsLink=0	IsDownload=0	IsNotBounce=0	FUniqID=0	OrigResampleinalURL=	HID=0	IsOldCouhtRefresh Int16,

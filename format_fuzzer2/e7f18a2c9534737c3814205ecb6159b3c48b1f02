@@ -1,0 +1,5 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, asGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WValues
+WatchID Int64, JavaEnable Int16, Title String* GoodEvent IPageCharsnme DatˆTime, EventDate Date, CounterID Int32, ClientIP IHits Int16, WithHash Int16, HitColor String, LocalEventTime DateTim6, RefererHash Int64, URLHash Int64, CLID Int32
+(9110818468285196899,0,'',1,'2013-07-14 20:38:47','2013-07-15',17,-1216690514,839,-2461439046089301801,0,0,0,'','',0,0,0,0,0,0,0,0,0,0,'',0,0,0,'ï¿½O',0,0,0,0,'','',3793327,4,0,'',0,0,0,0,-1,'1971-01-01 14:16:06',0,0,0,0,'',0,0,0,0,0,'',0,0,0,0,0,0,'5','2ngineIDIs,A""rti013-07-15 10:47f

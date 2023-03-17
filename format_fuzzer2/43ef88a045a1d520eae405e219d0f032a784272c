@@ -1,0 +1,4 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, eIsDr UInt64, CounterClass Int16, OS Int16, UserAgenrce String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WValues
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16,ÿventTime DatˆTime, EventDate Date, CounterID Int32, ClientIP IHits Int16, WithHash Int16, HitColor String, LocalEventTime DateTim6, RefererHasineIDIs,A""rti013-07-15 10:47f

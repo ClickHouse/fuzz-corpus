@@ -1,0 +1,3 @@
+CSVWithNames
+WatchID Int64, JavaEtCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WatchI께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께콲", 14:16:06',0,0,0,0,'',0,0,0,0,0,'',0,0,0,0,0,0,'5','2013-07-15 0OpenstatCampaignID String, OpenstatAdID String, OpenstatSourceID String, UTMSource String, UTMMedi"","","","","",0,-29615878463538920,-8417682003818480435,0

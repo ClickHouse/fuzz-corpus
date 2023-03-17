@@ -1,0 +1,3 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgenrce String, UTMMedium String, UTMCampLHash Int64, CLID Int32
+"WatchID","JavaEn,

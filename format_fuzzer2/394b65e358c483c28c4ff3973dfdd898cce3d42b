@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JahtVersion3 Int32, SilverlightVePError Int16, SendTiming Int32, DNSTiming Int32, ConnectTiming Int32, ResponseStartTiming Int32, ResponsPipelineEndTiming Int32, FetchTiming Int32, SocialSourceNetworkID Int16, SocialSourcePage String, ParamPrice Int64, efererHash Int64, URLHash Int64, CLID Int32
+WatcnnectTiming Int32, ResponseStartTiming Int32, ResponseEndTiming Int32, FetchTiming Int32, SocialSourceNetworkID Int16,

@@ -1,0 +1,3 @@
+TSKV
+WatchID Int64, JavaEnable Int16, Title String, GoodEvesh Int64, CLID Int64
+WatchID=9110818468285196899	JavaEnable=0	Title=	GoodEvent=Date=2dTiming Int32, DNSTiming Int32=	FromTag=	HasGCLID=0	RefererHash=-296158784638538920	URLHash=-8417682003818480435	CLID=0

@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, Tie Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyID Int16, OpenstatServiceName String, OpenstatCDIL Int16, RefgrerHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable TPError Int16,ÿÿ, DNSTiming Int32, Cming Int32, SocialSourceNetworkID Int16,

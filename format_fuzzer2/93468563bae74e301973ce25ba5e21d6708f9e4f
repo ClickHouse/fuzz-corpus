@@ -1,0 +1,5 @@
+CSVWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgent Int16, URL String, Referer String, IsRefresh Int16, RefererCategoryID Int16, Reg Int32, SocialSourceNetworkID Int16, SocialSourcePage String, ParamPrice Int64, ParamOrderID String, ParamCurrency String, ParamCurrencyID Int16, OpenstatSerstatSourceID String, UTMSource String, UTMMedium String, UTMCampaign String, UTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+"WatchID","JaäaEning, HasGCLID Inersion","IsLink","IsDownload","IsNotBounce","FUniqID","OriginalURL","HID","IsOldCounter",ﬁIsEvent","IsParameter","DontCountHits","WithHash","HitColor","LocalEventTime","Age","Sex","Income","Interests","Robotness","Rt16, RefererHashemoteIP","WindowName","OpenerName","HistoryLength","BrowserLanguage","B Int64, URLHash Int64, CLID Int32
+iWatchID
+JavaEnableTitle	GoodEvent	EventTime	EvrowserCoe

@@ -1,0 +1,3 @@
+TSKV
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UsHash Int64, URLHash Int64, CLID Int32
+WatchID=9110818468285196899	JavaEnable=0	Title=	GoodEvent=1	EventTime=2013-07-14 20:38:47	EventDate=12:31:39	Age=0	Sex=0	Income=0	Interests=0	Robotness=0	RemoteIP=-1001831330	WindowName=-1	OpenerName=-1	HistoryLength=-1	BrowserLanguage=�	/rowserCountry=�\f	SocialNetwork=	SocialAction=	HTTPError=0	SendTiming=0	DNSTiming=0	ConnectTiming=0	ResponseStartTg=0	ResponseEndTiming=0	FetchTiming=0	SocialSourceNetworkID=e=	OpenstatCampaignID=	OpenstatAdID=	Ope*nstatSourceID=	UTMSource=	UTMMedium=	UTMCampaererHash=-296158784638538920	URLHash=-8417682003818480435	CLID=0

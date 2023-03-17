@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgent Int16, URL String, Referer String, IsRefresh Int16, RefererCategoryID Int16, RefererRegionID Int32, URLCategoryID Int16, URLRegionID Int32, ResolutionWidth Int16, Resoluth Int64, URLHash Int64, CLID Int32
+{
+	"row_1": {"WatchID":"9110818468285196899","JavaEnable":0,"Title":"","GoodEvent":1,"EventTime":"2013-07-14 20:38:47","EventDate":"2013-07-15","CounterID":17,"ClientIP":-1216690514,"RegionID":839,"UserID":"-2461439046089301801","CounterClass":0,"OS":0,"UserAgent":0,"URL":"","Referer":"","IsRefresh":0,"RefererCategoryID":0,"RefererRegionID":0,"URLCategoryID":0,"URLRegionID":0,"ResolutionWidth":0,"ResolutionHeight":0,"ResolutionDepth":0,"FlashMajor":0,"FlashMinor":0,"FlashMinor2":"","NetMajor":0,"NetMinamoTrg":"","HasGCLID":0,"RefererHash":"-296158784638538920","URLHash":"-8417682003818480435","CLID":0}
+}

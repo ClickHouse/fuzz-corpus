@@ -1,0 +1,5 @@
+JSONObjectEachRow
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClienfererHash Int64, URLHash Int64, CLID Int32
+{
+	"row_1": {"WatchID":"9110818468285196899","entMinor":"�O","CookieEnable":0,"JavascriptEnable":0,"IsMobMobile=0	MobilePhone=0	MobilePhoneM*odel=	Params=	IPNetworkID=3793RLHash":"-8417682003818480435","CLID":0}
+}

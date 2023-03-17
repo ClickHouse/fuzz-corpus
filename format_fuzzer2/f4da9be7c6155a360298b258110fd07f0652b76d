@@ -1,0 +1,3 @@
+CustomSeparatedWithNames
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UserID Int64, CounterClass Int16, OS Int16, UserAgent Int16, URL String, ReferesolutionWidth Int16, ResolutionHeight Int16, R Int16, HitColorSource String, UTMMedium String, UTMCampaign String, VTMContent String, UTMTerm String, FromTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+WatchID	JavaEnable	Title	GoodEvent	EventTime	EventDat	RegionID	0serID	CounterClass	OS	UserAgent	URL	Referhrase":"0	-8417682003818480435	0

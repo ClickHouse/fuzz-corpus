@@ -1,0 +1,4 @@
+TSKV
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTomTag String, HasGCLID Int16, RefererHash Int64, URLHash Int64, CLID Int32
+WatchID=9110818468285196899	JavaEnable=0	Title=	GoodEvent=1	EventTime=2013-07-14 20:38:47	EventDaCLID=0
+WatchID=6864353419233967042	JavaEnable=0	Title=	GoodEvent=1	EventTime=2013-07-15 19:36:tent=	UTMTerm=	FromTag=	HasGCLID=0	RefererHash=-296158784638538920	URLHash=-8417682003818480435	CLID=0

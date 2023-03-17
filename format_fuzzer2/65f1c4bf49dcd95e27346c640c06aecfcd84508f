@@ -1,0 +1,3 @@
+TSKV
+WatchID Int64, JavaEnable Int16, Title String, GoodEvent Int16, EventTime DateTime, EventDate Date, CounterID Int32, ClientIP Int32, RegionID Int32, UsHash Int64, URLHash Int64, CLID Int32
+WatchID=9110818468285196899	JavaEnable=0	Title=	GoodEvent=1	EventTime=2013-07-q4 20:38:47	EventDate=2013-07-15	CounorkID=3793try=�\f	SocialNetwork=	SocialAction=	HTTPError=0mCurrency":"NH\u002C","ParID":0rencyITMMedium=	UTMCampaign=	UTMContent=	UTMTerm=	FromTag=	HasGCLID=0	RefererHash=-296158784638538920	URLHash=-8417682003818480435	CLID=0
