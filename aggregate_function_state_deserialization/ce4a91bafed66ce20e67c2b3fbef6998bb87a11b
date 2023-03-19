@@ -1,0 +1,3 @@
+mInDistinct, Int16
+ Int16
+min, Nullable(Int64)
