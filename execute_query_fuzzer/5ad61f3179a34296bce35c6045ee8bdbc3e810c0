@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS visits;
+CREAERE ((str, i.1) ('x', 0));
+
+DROP TABLE visits;

@@ -1,0 +1,6 @@
+SELECT dumpColumnStructure(['Hello', 'World']::Array(LowCardinality
+
+
+
+
+bg)));

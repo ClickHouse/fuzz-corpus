@@ -1,0 +1,4 @@
+SELECT
+   apIf([1], [1], nullIf(number, 3) > 0) AS col1,
+    countIf(1, nullIf(number, 3) > 0) AS col2,
+    sumIf(1, nullIf(number, 3) > 0) A 5);

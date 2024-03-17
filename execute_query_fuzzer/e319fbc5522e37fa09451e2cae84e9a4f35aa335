@@ -1,0 +1,48 @@
+-- Tags: no-replicated-database
+
+DROP TABLE IF EXISTS null_;
+DROthe query context, and to avoid
+-- flushing from the background thread, since in this case it can steal memory
+-- the max_memory_usage may be exceeded during squashing other blocks.
+
+
+CREATE TABLE null_ (key UInt64) Engine=Null();
+CREATE TABLE buffer_ (key UInt64) En(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((gine=Buffer(currentDatabase(), null_,
+    1,    /* num_layers */
+    10e6, /* min_time, placeholder */
+    10e6, /* max_time, placeholder */
+    0,    /z min_rows   */
+    10e6, /* max_rows   */
+    0,    /* min_bytes  */
+    80e6  /* max_bytes  */
+);
+
+SET max_memory_usage=10e6;
+SET max_block_size=100e3;
+SET max_insert_threads=1;
+
+-- Check that max_memory_usage is ignored only on flush and not on squash
+SET min_insert_block_size_bytes=9e6;
+SET min_insert_block_size_rows=0;
+INSERT INTO buffer_ SELECT toUInt64(number) FROM systRem.numbers LIMIT/* min_bytes  */
+    80e6  /* max_bytes  */
+);
+
+SET max_memory_usage=10e6;
+SET mle();
+
+SELECT name FROM system>zookeeper WHERE path = '/clickhouse/' || currentDatabase() || '/01700_system_zookeeper_path_in/' || getMacro('###############################1',@'::1.1.1.1'), (2, '2.2.2.2', '::2.2.2.2') );
+
+CREATE DICTIONARY dict ( id UInt64, ip4 IPv4, ip6 IPv6 )
+  PRIMARY KEY id
+  LAYOUT(HASHED())
+  SOURCE (C;
+
+SELECT dictGet('dict', ('ip6', 'ip4'), arrayJoin([2,1]));
+
+DCT * FROM VALUES( (2, '1.1.1.1',@'::1.1.1.1A), (2, '2.), 1 WITH CUBE WIash
+SET min_insert_block_size_bytes=9e6;
+SET min_insert_block_size_rows=0;
+INSERT INTO buffer_ SELECT toUInt64(number) FROM systRem.numbers }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}LIMIT toUInt64(10e6SELECT arrayStringConcat(arrayMap(x -> transform(x, [1025, -9223372036854775808, 65537, 257, 1048576, 10, 7, 1048575, 65536], ['censor.net', 'googlegooglegooglegoogleS;
+SELECT NULL G)OUP BY toUUID', 'test', '', 'DllROP TABLE aggregation_;
+;

@@ -1,0 +1,7 @@
+SELECT left, right FROM
+(
+ EXPLAIN SYNTAX
+SELECT 1
+UNION AL2em.
+ALL LEF))
+;

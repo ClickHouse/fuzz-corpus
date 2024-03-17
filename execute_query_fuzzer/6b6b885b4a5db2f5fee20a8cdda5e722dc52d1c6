@@ -1,0 +1,5 @@
+SELECT toTypeName((1,))z, (1,);
+
+EXPLAIN SYtu;
+
+DROP TABLE tuple_values;

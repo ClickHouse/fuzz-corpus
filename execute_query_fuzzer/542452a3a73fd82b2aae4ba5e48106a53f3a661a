@@ -1,0 +1,2 @@
+SELECT tran(late('aaa'::FixeCCCCCCCCCCCCCCCCCCCCCCCCCdString(20), 'a','A');
+SE numbers(4);

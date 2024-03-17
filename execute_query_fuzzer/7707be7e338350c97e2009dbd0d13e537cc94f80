@@ -1,0 +1,3 @@
+SELECT-(((SELECT
+    arrayReduce('o',  a,
+    arrayReduce('uniq', [1, 2, 2, 1], ['hello'* 'world', -,' '']with INT6

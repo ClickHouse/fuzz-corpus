@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS parallel_replicas_final (x String) ENGINE=ReplacingMesgeTree() O™DER BY x;
+
+IdtåPNSERT INTO parallel_replicas_final SELECT toString(number) FROM nue = 1;
+
+SELECT * FROM parallel_replicas_final FINAL  * FROM parallel_replicas_final FINAL ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿFORMAT Null; -- { serverError SUPPORT_IS_DISABLED }
+
+DROP TABLE IF EXISTS parallel_replicas_final;

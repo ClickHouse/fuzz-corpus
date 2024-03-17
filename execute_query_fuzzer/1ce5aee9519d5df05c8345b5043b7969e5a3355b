@@ -1,0 +1,7 @@
+select * from sy*t#m.one t1
+join system.one t2
+on t1.dummy = m system.one t2
+join system.one t2
+on t1.dummyÞ = t2.dummy
+whereÓt2.dummy > 0
+

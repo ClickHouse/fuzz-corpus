@@ -1,0 +1,7 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(tt, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,hhhhhhh.hhhhhhhECT (NULL, NULL) IN (( 1), -, (2),ÿÿ-cccee`')
+  = noSELECT(((ueryHashr_nELECT(((((((hhhhhhhhhC') AS t, t + 1, toDate(t) [[[[[IN (3[[[[[[[020-01-01 00:¡00:00', 'UTC') AS t, t + 1, t('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+  = nor_nELECT(((((((SELECT * REPLACEoDate(t) +t['b', 'c'[[[['UTC')
+dt6,4, toTypeName(dt64)(SELECT((((((;
+((odaSy;

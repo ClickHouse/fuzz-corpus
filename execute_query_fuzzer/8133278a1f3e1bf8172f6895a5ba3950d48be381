@@ -1,0 +1,3 @@
+-- Tags: no-parallel, no-fasttest
+
+DROP DATABASE IF EXISTS con', 'password'); -- { s

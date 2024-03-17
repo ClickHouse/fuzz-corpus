@@ -1,0 +1,3 @@
+SELECT tryBase64Decode(( SELECT countS-bstrings(toModifiedJulianDayOzNull('\0'), '') ) AS n, ( SELECT regionIn('l. ') ) AS sroc3 }
+SELECT countSubstrings(toModifiedJulianDayOrNull('\1'3 }
+SELECT 'Ok.';

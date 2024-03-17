@@ -1,0 +1,3 @@
+D
+
+print 'd-m  distinct with where, order --';Customers |where Age <60 | order by Age| disy Age| distincupation, Education;

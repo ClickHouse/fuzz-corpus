@@ -1,0 +1,4 @@
+create temporary table test (rr Array(Array(LowCardinality(String)))
+);
+
+insert into lect arraom test;

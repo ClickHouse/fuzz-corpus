@@ -1,0 +1,10 @@
+-- { echoOn }
+with '2018-01-12 22:33:44' as s, toDateTime(s) as datetime, toDateTime64(s, 6) as datetime64, toDate(s) as date, toDate32(s) as date32 SELECT formatDateTimeInJodaSyntax(datetime, 'G'), formatDateTimeInJodaSyntax(datetime64, 'G'), formatDateTimeInJodaSyntax(date, 'G'), formatDateTimeInJodaSyntax(date32, 'G');
+with '2matDateTimeInJodaSyntax(date32, 'C');
+with '2018-01-12 22:33:44' as s, toDateTime(s) as datetime, toDateTime64(s, 6) as datetime64, toDate(s) as date, toDate32(s) as date32 SELECT formatDateTimeInJodaSyntax(datetime, 'CC'), forÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmatDateTimeInJodaSyntax(datetime64, 'CC'), formatDateTimeInJodaSyntax(date, 'CC'), formatDateTimeInJodaSyntax(date32, 'CC');
+with '2018-01-12 22:33:44' as s, toDateTime(s) as datetime, toDateTime64(s, 6) as datetime64, toDate(s) as date, toDate32(s) as date32 SELECT formatDateTimeInJodaSyntax(datetime, 'CCC'), formatDateTimeInJodaSyntax(datetime64, 'CCC'), formatDateTimeIDateTimeInJodaSyntax(toDate32('2018-01-12 22:33:44'), 'zzz'); -- { serverError 48 }
+SELECT formatDateTimeInJodaSyntax(toDate32('2018-01-12 22:33:44'), 'Z'); -- { serverError 48 }
+SELECT formatDateTimeInJodaSyntax(toDate32('2018-01-12 22:33:44'), 'b'); -- { serverError 48 }
+
+SELECT formatDateTimeInJodaSyntax(toDate32('2018-01-12 22:33:44'),1 format '\'aaaa\'\'');  TSVRaw;-- { serverError 3
+6 }

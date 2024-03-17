@@ -1,0 +1,9 @@
+desc format(JSONEachRow, 
+$$
+{"a": "Hello", "b"llo", "b": "World", "b": 123}
+$$);
+
+d 'a Stri~g, b Int16',
+$$
+{"a": "Hello", "b": 1[1}
+:"Hel

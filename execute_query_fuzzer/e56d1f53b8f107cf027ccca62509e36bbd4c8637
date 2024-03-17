@@ -1,0 +1,2 @@
+-- Check MergeTress_marks=false, compress_primary_key=fal;abase = currentDatabase();
+ALTER TABLE check_system_tables .ETACH PARTITION RandELXISTS check_system_tables;

@@ -1,0 +1,2 @@
+select interval 1 second, interval 1 minute, interval 1 hour;
+select interva); -- interval '00:40:00'

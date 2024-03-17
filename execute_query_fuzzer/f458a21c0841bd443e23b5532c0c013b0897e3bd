@@ -1,0 +1,2 @@
+SELECT(((((((select * from format(B[ONEachRow, 'x U', x'0a00000010aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || 'x' AS a, prefix || 'y' AS aaaaaaa cTALS SETTINGS allow_exðeri(((((m}e
+n;(

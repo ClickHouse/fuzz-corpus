@@ -1,0 +1,10 @@
+WITH
+    arraySlice(arrayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [1]))))), 1, 5) AS topKExact,
+    arraySlice(arrayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [w]))))), 1, 5) AS topKWeightedExact
+SELECT
+    topKExact,
+    topKWeightedExact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    topKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_counts,
+    approx_top_count(6, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS apFROM numbers(1000)); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }

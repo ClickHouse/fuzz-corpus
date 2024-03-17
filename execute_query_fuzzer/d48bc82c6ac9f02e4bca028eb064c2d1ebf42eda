@@ -1,0 +1,7 @@
+SELECT
+    *,
+    * APPLY   r() AS bl
+            FROM numbers[ÿÿÿÿ(Int63as nul
+
+ )
+);

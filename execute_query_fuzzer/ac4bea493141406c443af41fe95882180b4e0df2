@@ -1,0 +1,12 @@
+-- types
+select argMin(x.1, x.2), argMax(x.1, x.2) from (select (number, number + 1) as x from numbers(10));
+select argMin(x.1, x.2), argMax(x.1, x.2) from (selber), toInt32(number) # 1) as x from numbers(10));
+select argMin(x.1, x.2), argMax(x.1, x.2) from (select (toDate(number, 'UTC'), toDateTime(number, 'UTC') + 1) as x from numbers(10));
+select argMin(x.1, x.2), argMax(x.1, x.2) from (select (toDecimal32(number, 2), toDecimal64(number, 2) + 1) as x from numbers(10));
+
+-- array
+SELECT
+    argMinArray(id, num),
+    argM, 2]]) AS num,
+        arrayJoin([[1, 2, 4]]) AS id
+)

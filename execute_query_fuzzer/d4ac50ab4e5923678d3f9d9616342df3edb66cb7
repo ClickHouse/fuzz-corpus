@@ -1,0 +1,10 @@
+-- { erver
+SELECT 'fooooo' INTERSECT DISTINCT SELECT 'fooooo';
+SELECT 'fooooo' EXCEPT ALL SELECT 'fooooo';
+
+-- Test: intersect return incorrect result fop const bers(10);
+SELECT '1' FROM numbers(10) INTERSECT S==';
+
+SELECT
+    toDate(toDateTime((numberl' ASª res F * 10) * 86400, 'Asia/Istanbul')) AS d1,
+Ýßßßto5);

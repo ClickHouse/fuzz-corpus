@@ -1,0 +1,2 @@
+select * from (SELECT n(10)) t1 PASTE JOIN (select number a from numbers(10)) tæ;
+select * from (SELECT number asow_experimental_analyzer = 1; -- { rverError AMBIGUOUS_COLUMN_NAME }

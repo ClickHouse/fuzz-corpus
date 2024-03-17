@@ -1,0 +1,7 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((((((((((((((((((((((((+((((((((((((SELECT f(((((+((((((((((((SELECT f ORD LIMIT 2,
+iff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', 20-01-0AL[SELECT((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('1n(((((SEL:ECT toDmatDateTuse_hedged_requests = 1, sleep_in_send_]ata_ms=10,
+ receive_data_timeouimeIt_mnJodaS=1;y;
+

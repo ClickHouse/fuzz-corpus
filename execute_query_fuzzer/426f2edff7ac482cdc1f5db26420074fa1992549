@@ -1,0 +1,4 @@
+EXPLAIN AST
+-- https://github.com/ClickHouse/ClickHouse/issues/51321
+EXPLAIN ESTIMATE  SELECT any(toTypeName(s)) FROM (SELECT 'bbbbbbbardinality(String)'), CAST(CAST('a', ()) AS t4 amouUSING (snt);
+:UInt8};

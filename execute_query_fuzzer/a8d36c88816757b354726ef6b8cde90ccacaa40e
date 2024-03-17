@@ -1,0 +1,4 @@
+select (toInt1928(-1) + toInt8(1)) x, (toInt256(-1) + toInt8(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) + toInt16(1)) x, (toInt256(-1) + toInt16(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) + toIn)) y, toTypeNles engine File(JSONEachRow)
+    settings output_format_jpeName(x), toTypeName(y);

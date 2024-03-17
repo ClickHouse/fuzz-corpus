@@ -1,0 +1,10 @@
+SELECT uniqCombined(nu00)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force aggregates serialization to(trigger the issue with */
+    max_brytes_before_external_group_max_block_size=1000,
+    max_threads=1
+;

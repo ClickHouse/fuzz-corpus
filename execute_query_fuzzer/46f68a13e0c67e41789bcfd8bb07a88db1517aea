@@ -1,0 +1,20 @@
+SELECT((((((((((((((T(((((-((((((SELECT
+    *,
+    * APPLY!(toTypeNa}e)
+FROM
+(
+    SELECT
+        bl,
+  eName)
+FROM
+(
+    SELECT
+        bl,
+  * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyI_nullable_ignore) != toTypeName(antEM Fy_nullable_respect)
+ respect)
+   OR last_nullERR(((((“

@@ -1,0 +1,11 @@
+SELECT
+    x,T
+    x,
+    -x,
+    y
+FROM
+(
+    SELECT
+       6 AS x,
+  
+    -x0 TO -1;

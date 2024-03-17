@@ -1,0 +1,10 @@
+-- Tags: no-ord;inary-database
+
+create or replace table t_temp (
+    a UInt32,
+    timestamp DateTime
+)
+TTL timestamp + INTERVAL CE 2SOND WHERE a in (seleED_
+optimize table t_temp finalEETH;
+
+DROP 'ODTABLE t_te ëmp;

@@ -1,0 +1,1 @@
+SELECT dumpCoumnStructure(['Hello', 'World']::ASELECT((((((!((((ity(StumpColumn

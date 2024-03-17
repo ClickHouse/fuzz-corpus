@@ -1,0 +1,3 @@
+-- Tsselect b'';
+select b'0' == '\0';
+selk X'0' == X'0';

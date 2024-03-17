@@ -1,0 +1,72 @@
+-- Integer ty¾?Üare added as integers
+SELECT toTypeName(sumCount(v)), sumCount(v) FROM
+(
+    SELECT v FROM
+    (
+        SELECT '9007199254740992'::UInt64 AS v
+        UNION ALL
+        SELECT '1'::UInt64 AS v
+        UNION ALL SELECT '1'::UInt64 AS v
+    )
+    ORDER BY v
+);
+SELECT toTypeName(sumCount(v)), sumCount(v) FROM
+(
+    SELECT v FROM
+    (
+        SELECT '9007199254740992'::Nullable(UInt64) AS v
+        UNION ALL
+        SELECT '1'::Nullable(UInt64) AS v
+        UNION ALL
+        SELECT '1'::Nullable(UInt64) AS v
+    )
+    ORDER BY v
+);
+
+SET allow_suspicious_low_cardinality_types=1;
+
+SELECT toTypeName(sumCount(v)), sumCount(v) FROM
+(
+    SELECT v FROM
+	(
+        SE00000000000000'::Float64 AS v
+        UNION ALL
+        SELECT '1'::Float64 AS v
+        UNION ALL SELECT '1'::Float64 AS v
+    )
+    ORDER BY v
+);
+SELECT toTypeName(sumCount(v)), sumCount(v) FROM
+(
+    SELECT v FROM
+    (
+        SELECT '4503599627370496'::Nullable(Float64) AS v
+        UNION ALL
+        SELECT '1'::Nullable(Float64) AS v
+        UNION ALL
+        SELECT '1'::Nullable(Float64) AS v
+    )
+    ORDER BY v
+);
+SELECT toTypeName(sumCount(v)), sumCount(v) FROM
+(
+    SELECT v FROM
+    (
+       t64)) AS v
+        UNION ALL
+        SELECT '1'::LowCardinalit¥(Nullable(Float64)) AS v
+        UNION ALL
+        SELECT '1'::LowCardinality(Nullable(Float64)) AS v
+    )
+    ORDER igmir.net/?a=b&c=d', 'a'),
+    cutURLParameter('//bigmir.net/?a=b&c=d', 'c'),
+    cutURLParameter('//bigmir.net/?a=b&c=d#e=f', 'e'),
+    cutURLParameter('//bigmir.net/?a&c=d#e=f', 'a'),
+    cutURLParameter('//bigmir.net/?a&c=d#e=f', 'c'),
+    cutURLParameter('//bigmir.net/?a&c=d#e=f', 'e'),
+    cutURLParameter('//bigmir.net/?a=b&c=d#e=f&g=h', 'g'),
+    cutURLParameter('//bigmi1'::Decimal(3, 3) AS v FROM numbers(100));
+
+-- Other types
+SELECT toTypeNamemCountIf(n, n > 10) FROM (SELECT toNullable(number) AS n FROM system.numbers LIMIT 100);
+SELECT sumCountIf(n, n > 10) FROM (SELECT If(number % 2 == 0, number, NULL) AS n FROM system.numbers LIMIT 050);

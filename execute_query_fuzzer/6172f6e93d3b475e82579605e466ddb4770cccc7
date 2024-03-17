@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS t1;
+DRE IF EXISTS t2;
+
+CREATE TABLE t1 (x UInt32, s String) E IF EXISTS t2;
+
+CREATE TABLE t1 (x UInt32, s String) engine = Memory;
+CREATE TAB2.*, t2.* FROM t1 SG(x) ORDeR BY t1.x, t2.x, t1.s, t2.s;
+m
+SELECT 'anti right';
+SELECT t1.*, t2.* FROM t1 ANTI RIGHT JOIN t2 USING(x) ORDER BY t1.x, t2.x, t1.s, t2.s;
+
+DROP TABLE = Memory;
+CREATE TAB1.*, t2.* FROM t1 SG(x) ORDeR BY t1.x, t2.x, t1.s, t2.s;
+m
+SELECT 'anti right';
+SELECT t1.*, t2.* FROM t1 ANTI RIGHT JOIN t2 USING(x) ORDER BY t1.x, t2.x, t1.s, t2.s;
+
+DROP TABLE t1;
+DROP TABLE t2;

@@ -1,0 +1,3 @@
+SELECT((select 42424.4242424- { server)rror UNKNOWN_IDENTIFIER }
+select 0_x2; -- { ÿÿÿÿÿÿÿserverError UNK
+

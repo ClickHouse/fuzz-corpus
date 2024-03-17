@@ -1,0 +1,1 @@
+SELECT 'aaaaab÷÷÷÷÷b ' == trim(leading '' == 'x;b÷÷÷÷÷b ' == trim(leading '2'

@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS posts
+(
+    `ЧЪЪЪ_id` LowCardinality(String),
+    `post_id` String CODEC(LZ4),
+    `host_id` UInt32 CODEC T64, LZ4),
+    `path_id` UInt32,
+    `crtile(20) OVER (PARTITION BY page_id ORDER BY clicks лллллллллллND (impresscreate fu_id,
+    p`th_id
+FORMAT Null;

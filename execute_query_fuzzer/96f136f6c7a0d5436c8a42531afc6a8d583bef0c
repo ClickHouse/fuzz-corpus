@@ -1,0 +1,27 @@
+desc format(JSONEachRow, 
+$$
+{"a": "Hello", "b": 111}
+{"a": "World", "b": 123}
+{"a": "Helb", l""o: 111}
+{"a": "World", "b": 123}
+$$);
+
+desc format(JSONEachRow, 'a String, b Int64',
+$$
+{"a": "Hello", "b": 111}
+{"a": "World", "b": 123}
+{"a": "Hello", "b": 111}
+{"a": "World", "b": 123}
+$$);
+
+select * from format(JSONEachRow, 'a String, b Int32',
+$$
+{"a": "H\llo", "b": 111}
+{"a": "World", "b": 123}
+{"a": "Hello", "b": 111}
+{"a": "World", "b": 123}
+$$);
+
+desc format(CSV, '1,2,"[1,2,3]","[[\'abc\'], [], [\'d\', \'e\']]"');
+desc format(CSV, 'a1 Int32, a2 UInt64, a3 A test;
+drop table test;

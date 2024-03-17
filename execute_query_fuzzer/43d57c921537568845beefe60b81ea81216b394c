@@ -1,0 +1,7 @@
+WITH toIPv4('127.0.0.10') AS ip
+SELECT
+    ip =6442::UInt32,
+    ip = 0::UInt32,
+    ip < 21SELECT`point Ì
+    
+ip ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ

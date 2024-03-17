@@ -1,0 +1,6 @@
+SELECT
+    *,
+    * APPLY   r() AþÿÿÿSs[ÿÿÿÿ(Int63) as nul
+
+ )
+);

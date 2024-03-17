@@ -1,0 +1,3 @@
+SELECT transform(name, ['a', 'b'], ['', NULL]) AS name FROM (SELECT 'test'::Nule(FixedStr name);
+SELECT tNu)) AS name);
+ame);

@@ -1,0 +1,4 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT((A((((((SELECT toDateTime('2020-01-01 00:00:00', 'Utrim(leading ' == trim(BOTH ', ' ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿF(((((SELECT(((((((((SELECT toDateTime('20ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿF(((((SELECT(((((((((SELECT toDateTime('5309-01-01 00:00:00', 'Utrim(leadin)
+dt6,4, toTypeName(dt64);

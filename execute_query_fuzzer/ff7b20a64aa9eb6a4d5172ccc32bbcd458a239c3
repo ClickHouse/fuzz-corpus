@@ -1,0 +1,10 @@
+-- Tags: nWITH minSimpleState(value) AS c
+SELECT to((((((SELECT dateDstring(license_text, 1, position(licen- Tags: nWITHm.lic, posiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((žžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžžž((((((((SELECT dateDiff('h', toDSELECT -number % -9223372036854775862 FRerError 153 }
+gs: no-ordrnary-database, no-replicated-date(value) A-01 22:00:00((te_6(((((((((((((SELECT dateDstring(license_text, 1, position(licen- Tags: nWITHm.lic, posiff('h', toDateTime('2018-01-01 22:00:00'),(((((((((((((((((((((((TypeName(c), c(FROM (
+ (((((((((((((((((((LECT -number % -9223372036854775862 FRerError 153 }
+gs: no-ordrnary-database, no-replicated-date(value) A-01 22:00:00((te_6(((((((((((((SELECT dateDstring(license_text, 1, position(licen- Tags: nWITHm.lic, posiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SE'),yyatabase
+
+show create database {CLICKHO2
+:JOIÎ (SELECT ((((((((((((((((((((((((SELmaterase}ECT dateDiff('h'01 2Ë(=((((((((((((((;
+   S(
+);

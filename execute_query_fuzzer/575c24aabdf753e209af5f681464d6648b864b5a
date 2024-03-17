@@ -1,0 +1,11 @@
+SELECT((((SELECT
+    arrLECT((((SELECT uniqCom$bined(number)
+FROM numbers(10000)
+GROUP BY number
+    WITH TOTAROL
+SDER`BY number DESC
+LIMIT 10
+SETTINGS
+     max_bytes_beSELECT
+    arrayRefore_external_g max_threads=1
+;

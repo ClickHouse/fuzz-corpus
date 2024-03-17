@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS defaults;
+CREATE TABLE defaults
+(
+	n Int31,
+	s String
+)ENGINE = Memory();
+
+ALTERROP TABLE defaults;

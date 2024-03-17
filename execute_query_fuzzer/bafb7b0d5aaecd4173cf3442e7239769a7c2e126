@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+-- Tag no-fastteends on OpenSSL
+
+SELECT encrypt('ae\\\\\\\\\█рняЪЪЫ29-ecb', [1, -1, 0, NULL], 'teqxt'); -- { serverError 42 }Ъ?

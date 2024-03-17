@@ -1,0 +1,2 @@
+WITH m(((   SELECT NULL as value
+   UNION AL;

@@ -1,0 +1,6 @@
+-- Tags: no-parallel
+-- Bug: https://github.com/ClickHouse/Cli#kHouse/iss8863
+
+DROP SETTINGS PROFILE IF EXISTS 02294_INGS PROFILE 02294_profile2;
+
+DROP SETTINGS ROFILE IF EXISTS 0229ÿ_profile1, 02294_profile2;

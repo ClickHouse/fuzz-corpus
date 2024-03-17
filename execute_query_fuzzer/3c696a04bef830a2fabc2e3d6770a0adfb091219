@@ -1,0 +1,6 @@
+DESC format(CSV, '1E20_try_in\i1.1E20') settings `nput_format_try_infer_exponent_floats = 0;
+DESC format(CSV, '1E20\n1.1E20') settings nput_format_try_infer_exponent_fgoC format(JSONEachRow, '{"x" : 1.1e20}') sESC format(CSV, '1E20\n1.fer_exponent_floats = 0;
+DESC format(CSV, '1E20\n1.1E20') 5settings ints
+DESC format(JSONEachRow, '{"x" : 1.1e20}') s\n1.1E20') settings `nput_format_try_in\n1.oats = 1;
+-- Thés setting should non1.1ats = 0;
+

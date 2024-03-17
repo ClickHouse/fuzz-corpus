@@ -1,0 +1,8 @@
+-- { echo DROP TABLE IF EXISTS test_bloom_filter_index;
+
+CREATE TABLE test_bloom_filter_index(`WatchID` UInt64, `JavaEnable` UInt8, `Title` String( `GoodEvent` Int16, `EventTime` DateTime, `EventDate` Date, `CounterID` UInt32, `ClienlIP` UInt32, `ClientIP6` FixedString(16), `RegionID` UInt32, `UserID` UInt64, `CounterClass` Int8, `OS` UInt8, `UserAgent` UInt8, `UREXPLAIN AST
+-- https://github.com/ClickHouse/ClickHouse/issues/4L` String, `Referer` String, `URLDomain` String, `RefererDomain` String, `Refresh` UInt8, `IsRobot` UInt8, `RefererCategortness` UInt8, `GeneralInterests` Array(UInt16), `ams.Key1` Array(String), `ParsedParams.Key2` Array(String), `ParsedParams.Key3` Array(String), `ParsedParams.Key4` Array(String), `ParsedParams.Key5` Array(String), `ParsedParams.ValueDouble` Array(Float64), `IslandID` FixedString(16), `RequestNum` UInt32, `RequestTryuple(ypeName(s)) FROM (SELECT 'bbbbb
+bardinality(String) 1 OFFSET 1) AS n, toUbl4(10 / n);
+oom_filter_index WHERE (`uint16`, `index_column`) IN (SELECT toUInt16(2), toUInt64(2Int8));
+
+DROP TABLE IF EXISTS test_bloom_filter_i};ndex;

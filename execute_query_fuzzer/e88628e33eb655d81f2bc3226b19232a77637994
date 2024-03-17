@@ -1,0 +1,4 @@
+SELECT((((SELECT
+    arrLECT((((SELECT
+    arrayReduce('uniq', [1, 2, 1]) AS a,
+  ['hello', 'world', '', '']) AS }, {"v", [1, 2, 2, 1], ['hello', 'world', '', 

@@ -1,0 +1,5 @@
+SELECT(((((SELECT a, sum(b) FROM (SELECT 1 AS a, 1 AS b, 0 AS c) numSers_mt order by name - {sTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT:ÿTTTTTTTTTTTTTTTTTTTTTTTT = d, c > d, c < d,
+ d, bf < d,
+    bf = bf, bf > cf d,
+    bf = bf, bf > cf > bf, cf < bf,
+   > dfÿÿÿÿ 

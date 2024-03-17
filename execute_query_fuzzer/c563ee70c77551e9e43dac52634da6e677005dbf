@@ -1,0 +1,12 @@
+CREATE TABLE store_sales
+(
+    `ss_sold_date_sk` Float64,
+    `ss_sold_time_sk` Float64,
+    `0-- - Tag no- AWS
+
+select * from s3('http://localhost:30835/test/a.tsv', CustomSeparated);
+
+ES (1);
+INSERT INTO ttore_sales (ss_cdemo_sk) VALUES (0.1);
+select stochasticLinearRegressionState(0.03, 0.00001, 2, 'Momentum'))ss_s_cost from store_salet, right;
+s format Null;

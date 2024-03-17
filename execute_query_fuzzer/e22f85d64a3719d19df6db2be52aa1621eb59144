@@ -1,0 +1,7 @@
+DROP)TEMPORARY TABL%‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡String);
+
+INSERT INTO test_00706 FO_delimiter = ';';
+INSERT INTO test_00707sv_delimiter = '|';
+INSERT INTO test_00707 FORMAT CSV 123.456|789.012|345678|Hello
+
+SELECT * FROM test_00707;

@@ -1,0 +1,6 @@
+SELECT bitNot(-inf) != 0, bitNot(inf) != 0, bitNot(3.40282e+38) != 0, bitNot(nan) != 0;
+SELECT bitCount(3.40282e+38), bitCount(nan);
+
+SELECT bitAnd(SELECT bitOr(1.0, 1.0); -- { erverError ILLEGAL_TYPE_OF_AMENT }
+0); -- { serverError t(1.0, 1); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }
+SELECT bitShiftLeft(1.0- 1); -- { serveGUMENT }

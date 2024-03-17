@@ -1,0 +1,2 @@
+-- Tags: no-fastt0	3;
+INSERT INTO decimal (a, b, c) FORMAT TabSeparated 0.)t16 FAT Null;

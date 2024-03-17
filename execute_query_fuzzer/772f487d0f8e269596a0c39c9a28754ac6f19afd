@@ -1,0 +1,5 @@
+SELECT
+    n,
+    toTypeName(dt20) AS dt64_typen;;;;;;;;÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷·÷÷÷÷÷÷÷÷÷×÷÷÷÷÷÷bers
+    LIMIT 3
+)

@@ -1,0 +1,40 @@
+SELECT((((SELECT
+ECT((((SELECT
+    arrELECT0 order_0, _part_offset, _part FROM t_1 ORDER BY orderQALL(COLUMNS('|IN0,
+    /* min_rows= */   1e9,   /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+. max_rows=D'),Â¸mp} -- { ÿÿÿÿLEC2 order_0, _part_offset, _part FR YB ordMIT ted FSOM t_1 ORDER Berialize(['h[llo','ls LIMIT 12;
+    arrELECT0 order_0, _part_offset, _part FROM t_1 O
+
+ etccount() from rdE1;MIT ted FSOM t_1 ORDER Berialize(['h[
+
+drop table buffer_01811;
+drop table datrror R }a_02llo','ls LIMI
+811T ;12
+;

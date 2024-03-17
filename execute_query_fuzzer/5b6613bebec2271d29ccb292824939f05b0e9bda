@@ -1,0 +1,2 @@
+-- {echo}
+SELECT sqrt(-1) as$x, not(x), not(not(x)), (not(xllao_ewxperimental_ana analyzer=0;

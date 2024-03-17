@@ -1,0 +1,2 @@
+-- Tagst
+CREATE TABLE dict (`k` String, `v` String) ENGINE =mbeddedRocksDB(k) PRIMARY KEY k; -- {serverError 36}

@@ -1,0 +1,2 @@
+SELECT(((((SELECT CASE
+(number) over ggggggggggggggggggggggggggggg) > 0 T0((((()(

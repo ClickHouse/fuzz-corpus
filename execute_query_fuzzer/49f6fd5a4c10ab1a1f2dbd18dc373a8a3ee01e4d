@@ -1,0 +1,4 @@
+-- T:og -ansfasttest
+-- T-fasttest: #needs s4
+
+select s2oGeo(0e409ÿÿÿ1);

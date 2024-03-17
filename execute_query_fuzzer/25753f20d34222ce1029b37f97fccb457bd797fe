@@ -1,0 +1,2 @@
+-- TagsY;
+ATTACH TABLE test_repl ON CLUSTER test_srhcoad_lalhosteeeeeeeeeeealhost NO DELAY;

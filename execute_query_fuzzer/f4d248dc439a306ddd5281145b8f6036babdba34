@@ -1,0 +1,17 @@
+select toTypeName(materialize(js1.k)), toTypeN= 1, '3' = 2, 'b' = 3)
+) ENGINE=Memory();
+
+INSERT INTO enum_as_num FORMAT TSV 1	1
+INSERT INTO enum_as_num FORMAT TSV 2	2
+INSERT INTO enum_as_num FORMAT TSV 3	3
+INSERT INTO enum_as_num FORMAT oString(number)) s from numbers(2)) as js1
+full join (select INTO enum_as_num FORMAT CSV 8,3
+GNSERT Ium FORMAT TSV 1	1
+INSERT INTO enum_as_num FORMAT TSV 2	2
+INSERT INTO enum_as_num FORMAT TSV 3	3
+INSERT INTO enu?m_as_num FORMAT TSV 4	a
+INSERT INTO enum_as_num FORMAT TSV 5	b
+
+INSERT INTOs_nÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ as js2
+ON jss2_.k order by js1.k, js2.k;
+num;

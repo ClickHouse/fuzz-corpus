@@ -1,0 +1,24 @@
+SELECT 1234; --R }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 2e5_; -- {ÿÿÿÿÿÿÿrror UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1› ÎË -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNK;
+
+-- Things that are not a number
+
+select _1000; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Nulelect 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+sele

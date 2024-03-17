@@ -1,0 +1,4 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h(((explain syntax system drop schema((((((( dateDiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0: ca00:00'),((((((((((((((((che ¹or (((((((((((((((((((((SELECT date((((h(teTime('2018-0hdfsn-01 22:00:0e(value) 21 -2A0:00:00'),((((((((((((((((((   S(
+);

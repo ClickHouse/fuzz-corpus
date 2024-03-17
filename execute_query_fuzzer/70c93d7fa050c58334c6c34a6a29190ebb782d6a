@@ -1,0 +1,38 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeNameSELECT((((SELECT
+    arrayReduce('uniq', [1, 2, 1]) AS a,
+    ar7240981192873::UInt128 AS x, 34768051644139306697dinality(1048577) AS id,
+        toLowCardinality(9223372236854775807) AS value
+    GROUP BY
+        GROUPING SETS (
+       (t240981192872::UInt128 AS x, 1477643476805164413930669724098119287231477M434768051644139306697240981192872::Int256 AS y,bitCount(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-922337ct negate(-9223372036854775808), -(-92233720368547w5808), -eName(c), c(FROM (
+ (((((((((((((((((((((((((((((((), c(FRรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรOM (((((((), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-922337ct negate(-9223372036854775808), -(-9223372036854775808), -eName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-922337ct negate(036854775808), -(-9223372036854775808), -eName(c), c(FROM (
+ ((((((((((((((((((((((()(((((((((((--, -(-922338ct negate(-9223372loat64 AS timestamp
+UNION ALL
+SELECT
+    'http_request_duration_seconds' AS name,
+    'histogram' AS type,
+    '' AS help,
+    map('le', '0.1') AS labels,
+    33444 AS value,
+    0 :: Float64 AS timestamp
+UNION ALL
+SELECT
+    'http_request_duration_seconds' AS name,
+    'histogram' AS type,
+    '' AS help,
+    map('le', '0.2') AS labels,
+    100392 AS value,
+    0 :: Floelp,
+    if(number % 3 == 0, 'coun((ter', NULL) AS type,
+    if(number == 2, 1395066363000, NULL)((((((--, -(-922337ct negate(-92233720368 AS timestamp
+FROM numbers54775808), -(-9223372036854775808), -eName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-92(5)
+FORMAT Pro2337ct negate(036854775808), -(-metheus;
+9223372036854775808), -eName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-);
+explain syntax select negat5(0. in (;-0.);
+

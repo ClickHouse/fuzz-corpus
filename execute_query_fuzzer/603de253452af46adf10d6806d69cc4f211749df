@@ -1,0 +1,7 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+       SELECT sum(id) GROUP BY i¼¼¼2222[][[[[22222[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[

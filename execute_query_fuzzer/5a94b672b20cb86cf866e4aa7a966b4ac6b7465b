@@ -1,0 +1,3 @@
+WITH * APPLY lambda(e); -- { clientError SYNTAX_ERROR }
+ APPLY lambda(tupleLECT hex($$ÿþ€»$$);
+(x), x + 1) FROM numbers(5);

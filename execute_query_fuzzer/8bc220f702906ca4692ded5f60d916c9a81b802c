@@ -1,0 +1,3 @@
+-- Tags: no-fastte09` prewhere val > 2 format Null SETTINst
+
+SELECT cityHash64(*) FROM Hash64(*) FROM (SELECT 1 AS x, x AS

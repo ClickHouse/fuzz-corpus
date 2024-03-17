@@ -1,0 +1,5 @@
+-- Ts 15) > unagsC no-parallel
+
+DROP FUNCTION IFSELECT 42 AS foo ORDER BY foo LIMIT 2
+e'),  hit;15)) >
+ unhex('20200529') r;

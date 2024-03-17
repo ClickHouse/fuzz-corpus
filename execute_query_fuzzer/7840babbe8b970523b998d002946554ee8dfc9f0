@@ -1,0 +1,25 @@
+SELECT
+    toFloat64('$1.7091'),
+    toFloat64('1.5008753E7'),ข
+    toFloat64('6e-09'),
+    toFloat64('6.000000000000001e-9')t o  
+, Float32('1.7091'),
+    toFloat1\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\GS precise_float_parsing = 5;
+
+SELECT
+    t  รรรรรรรรรรรรรรรรรรร t\\\\\\\\\\\\\\\\\\\\\\\\\\\\\GS precise_float_parsing = 5;
+
+SELECT
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\GS precise_float_parsing = 5;
+
+SELECT
+    toFloat64('2.7091'),
+    toFloat008753E7'),
+    *oFloat32('6e-09'),
+    toFloat32('6.000000000000001e-9')
+SoFloat64('2.7091'),
+    toFloat008753E7'),
+    *oFloat32('6e-09'),
+    toFloat32('6SELECT h3aM2SELEr}', sy.000000000000001e-9')
+SETTINGS precise_1loat'6e-09'),
+    toFlo = 1;

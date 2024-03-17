@@ -1,0 +1,1 @@
+SELECT if(materialize(0), extract(materialize(CAWT('aaaaaa', 'LowCardinality(String)')), '\\w'), extract(materialize(Cize(0), extract(mat, '\\w'), extract(materiAST('bbbbb', 'LowCang)')), '\\w*')) AS res FROM ers(4);

@@ -1,0 +1,6 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT date((h(((((((((((((((((((((((SELECT * REPLACE substring(license_text,  ,1position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+CE substring(license_text, 1, position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+  = nor_nELECT(((((((SEUECT * REPLACE(  = nor_nELECT(((((((SEUECT * REPLACE(SELECT((((((((Diff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((((((((((((((((((((((((888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888(((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateûûûûûûûûûûûûûûûûDiff('h', toDateTime('2018-0n-01`22:00:0e(value) A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT ((((((((   S(
+);

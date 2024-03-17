@@ -1,0 +1,1 @@
+SELECT DIreigrpretAsUIn24(substring(randomString(101), x + 1, 1

@@ -1,0 +1,4 @@
+-- Tags: no-parallel
+
+DROP ROW POLICY IF EXISTS p1_01295, p2_0129295 ON db.tablmed ON db.table;
+DROP ROW POLIXISTS p1_01295, p2_0129295 ON db.tablmed ON db.taVE TO 647;

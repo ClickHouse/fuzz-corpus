@@ -1,0 +1,27 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((SELECT
+    a, b, a = b, a != b, a < b, a > b, a <= b, a >= b,
+    toFixedString(a, 32) AS fa, toFixedString(b, 17) AS fb, fa = fb, fa != fb, fa < fb, fa > fb, fa <= fb, fa >= fb
+FROM
+(
+    SELECT 'aaaaaaaaaaaaaaaa' AS a
+    UNION ALL SELECT 'aaaaaaaaaaaaaaab'
+    UNION ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaaaa'
+    UNION ALL SELECT 'baaaaaaaaaaaaaab'
+    UNION ALL SELECT 'baaaaaaaaaaaaaac'
+    UNION ALL SELECT 'aaaaaaaabaaaaaaa'
+    UNION ALL SELECT 'aaaaaaabaaaaaaaa'
+    UNION ALL SELECT 'aaaaaaacaaaaaaaa'
+) js1
+CROSS JOIN
+(
+    SELECT 'aaaaaaaaaaaaaa'
+    UNION ALL SELECT 'aaaaaaaabaaaaaaa'
+    UNION ALL SELECT 'aaaaaaabaaaaaaaa'
+    UNime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTimeoDateTime('2018-0n-01 22:00:0e(valuION ALL SELECT 'aaaaaaacaaaaaaaa'
+)
+ORDER Be) 21 -2A0:00:00'),((((((((SELECT dateDiff('h'01ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿY a;
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ 2((((((((((S(
+);

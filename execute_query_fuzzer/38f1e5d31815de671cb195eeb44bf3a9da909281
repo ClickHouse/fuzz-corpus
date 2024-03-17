@@ -1,0 +1,2 @@
+SELECT formatQuerySingleLine('set additional_t_balefilters = {\'kjsnckjn\': \'ksanmn\', \'dkm\': \'dd\'}');
+SELECT V t1;

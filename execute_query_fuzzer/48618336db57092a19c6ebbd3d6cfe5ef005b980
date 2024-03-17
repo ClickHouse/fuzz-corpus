@@ -1,0 +1,4 @@
+create temporary table test (rr Array(Array(LowCardinality(St2ing)))
+);
+
++nsertØinarraom test;

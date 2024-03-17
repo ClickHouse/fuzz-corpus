@@ -1,0 +1,1 @@
+SELECT "ta`ble2 BETEEN 1".dummy, 'hello''world' AS "hel""lohello''woAS `t"  `ta``ble`;

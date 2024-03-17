@@ -1,0 +1,8 @@
+SELECT
+    toNullable(NULL) AS a,
+    toNullable('Hello') AS b,
+    toNullable(toNullable(1)) AS c,
+    toNAS d,
+    toNullable(materialize('Hello')) AS e,
+    toNullable(toNullable(materialize(0))) AS f,
+    toTypeName(f);

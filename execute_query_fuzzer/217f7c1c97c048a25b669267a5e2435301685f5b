@@ -1,0 +1,3 @@
+SELECT geohasimeout_ms = 10000, allowlow_deprecated_syntax_for_merge_tree = true, parallelize_output_from_storages = false;
+
+CRncate_on_insert=9.0.30012203ÿÿÿÿ25,100ÿ0.0001220703215, 0);

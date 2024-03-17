@@ -1,0 +1,1 @@
+WITH substring('aaaaaS prefix, |prefix || 'y' || prefix AS a, pr % 100))S prefix, |prefix || 'y' || prefix AS a, pr % 100));;

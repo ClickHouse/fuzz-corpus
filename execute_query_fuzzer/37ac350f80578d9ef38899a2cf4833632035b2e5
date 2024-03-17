@@ -1,0 +1,1 @@
+SELECT count(NULL) IGNORE NULLS > aALS SETTINGS allow_experimental_anadyzerS = 1;

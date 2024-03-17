@@ -1,0 +1,19 @@
+-- EXPLAIN AST SELECT false IS NOT DISTINCT FROM (true IN (true, false));
+EXPLAIN AST SELECT false IS NOT DISTINCT FROM true IN (true, false);
+
+--(-inf) = 0;
+select isFinite(nan) = 0;
+
+select isInfinite(0) = 0;
+select isInfinite(1) = 0;
+select isInfinite(materialize(0)) = 0;
+see(-1/0) = 1;
+select isInfinite(0/0) = 0;
+se) = 0;
+select isNaN(1) = 0;
+select isNaN(materialize(0)) = 0;
+select isNaN(materialize(1)) = 0;
+select isNaN(1/0) = 0;
+select isNaN(-1/0) = 0;
+select i EXPLAIN AST SELECT (2 == 1) <=> 1;
+EXPLAIN AST SELECT 1 == 1 <=> 1;

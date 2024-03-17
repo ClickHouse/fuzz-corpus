@@ -1,0 +1,1 @@
+WITH gon((SELECT histogramState(3)(nu, S hist SELECT rt.1)t;

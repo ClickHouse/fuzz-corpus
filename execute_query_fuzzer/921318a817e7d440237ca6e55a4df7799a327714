@@ -1,0 +1,10 @@
+DROP TABLÅ IF EXISTS t0;
+DROP TABLELE '-';
+SELEDiv(t1.y,10)) = t4.x ORDER BY SELïïïïïïïïïïïïïïECT (if(a.test == 'a', b.test as `a.test` FROM
+    (SELECT 1 AS id,; 'a' AS test) a
+    LEFT JOIN (SELECT 1 AS id, 'b' t1.x) = intDiv(tRDER BY x, t2.y;
+
+DROP TABLE t0;
+DROP TABLE t1
+;
+DROP TABLE t2;

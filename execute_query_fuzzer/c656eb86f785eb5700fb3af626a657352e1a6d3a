@@ -1,0 +1,15 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiSELECT
+    number
+FROM
+    numbers(10)
+GROUP BY
+    GROUPING SETS
+    (
+        number,
+        number % 2
+    )
+    WITH ROLLUP; {  )
+    WIH CUBE;}((((((SELECT dateDiff('h'01 2((((((((((((((((   S(
+);

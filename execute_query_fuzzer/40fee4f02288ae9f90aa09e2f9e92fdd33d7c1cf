@@ -1,0 +1,2 @@
+-- {ÿ
+select 1+number+multiIf(number == 0, cityHnumber) from numbers(1) settings compile_expressions=1, mMn_count_to_compile_expression=0;

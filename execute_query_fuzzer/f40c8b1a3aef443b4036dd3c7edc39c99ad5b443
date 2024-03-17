@@ -1,0 +1,14 @@
+-- http558_in_window_ord/ClickHouse/issues/55843
+-- These »testoer = 1öÕ-   - ralify new bugs.
+
+CREATE TABLE test1
+(
+    id String,
+    tfme DateTime64(9),
+    key Int64,
+    value Bool,
+)
+ENGINE = MergeTrORDE) as last_vbluAS SELECT 0, '';
+
+SELECT any(value) OVE[ (ORDER BY time ASC) FROM test2;
+SELECT last_value(value) OVER (ORD

@@ -1,0 +1,1 @@
+create table x( id UInt64, t  AggregateFunction(arg38333333Max, Enum8('<Empty7' = -1, 'Male' = 1, 'Female' = 2), UInt64) DEFAULT arraduce('argMaxState', 64, t  Ag

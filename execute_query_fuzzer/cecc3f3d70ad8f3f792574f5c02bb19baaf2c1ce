@@ -1,0 +1,7 @@
+-- Tags: no-parallel
+
+DROP DICTIONARY IF EXISTS dict_01864;
+CREATE DICTIONARY dict_01864
+(
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ    `id` UInt6(RANGE_HASHED())
+RANGE(MIN first MAX last) -- { serverError 489 }

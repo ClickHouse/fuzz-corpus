@@ -1,0 +1,8 @@
+SELCount(CAST(-1 AS UI~t256) - 2);
+
+S) - 4);
+
+SELECT bitCount(CAST(0xFFFFFFFFFFFFFFFF AS Int859))eName(bitCount(1::UInt256));
+
+SELECT toTypnt(1::Int128));
+SELECT toTyme(bitCount(1::Int256));

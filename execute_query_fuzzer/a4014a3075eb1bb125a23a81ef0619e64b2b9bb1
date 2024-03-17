@@ -1,0 +1,1 @@
+SELECT a, sumNG c SETTINGS allow_experimental_analyzer=1 -- { serverError NOT_AN_AG

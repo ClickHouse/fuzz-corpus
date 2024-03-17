@@ -1,0 +1,20 @@
+SELECT
+    a, b, a = b, a != b, a < b, a > b, a <= b, a >= b,
+    toFixedString(a, 16) AS fa, toFixedString(b, 17) AS fb, fa = fb, fa != fb, fa < fb, fa > fb, fa <= fb, fa >= fb
+FROM
+(
+    SELECT 'aaaaaaaaaaaaaaaa' AS a
+    UNION ALL SELECT 'aaaaaaaaaaaaaaab'
+    UNION ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaac', 16) AS b3,
+    toFixedString('baaaaaaaaaaaaaaa', 16) AS b4,
+    toFixedString('baaaaaaaaaaaaaab', 16) AS b5,
+    toFixedString('baaaaaaaaaaaaaac', 16) AS b6,
+    toFixedString('aaaaaaaabaaaaaaa', 16) AS b7,
+    toFixedString('aaaaaaabaaaaaaaa', 16) AS b8,
+  LL SELECT 'aaaaaaaaaaaaaaab'
+   b'
+    UNION ALL SELECT 'aaaaaaabaaaaaaaa'
+    UNION ALL SELECT 'aaaaaaacaaaaaaaa'
+)
+ORDER BY a;

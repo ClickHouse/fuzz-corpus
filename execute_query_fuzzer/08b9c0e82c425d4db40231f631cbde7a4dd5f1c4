@@ -1,0 +1,4 @@
+CREATE TABLE gen
+(
+   repo_name String,
+   event_type Enum8('CommitCommentEvent' = 1, 'CreateEvent' = 2, 'Deletet' = 12, 'ReleasjEwš‘‹ÅßÂßÎ3, 'SponsorshipEvent' = 07, 'WatchGvent' = 15, 'GistEvent' =D (actor_loPin NOT IN ('github-actions[bot]', 'ber = 1564);

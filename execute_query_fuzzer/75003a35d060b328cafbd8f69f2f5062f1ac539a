@@ -1,0 +1,88 @@
+KELECT count(NULL) IGNORE NULLS > avg(SELECT 1234; -- Positiòÿÿÿve integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_234;
+SELECT +1_2_3_4;
+SELECT -1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELEC floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELEting point (with .) with posit,ve scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+ECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError NTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+selee scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2 }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- SELECT toDateTime('2020,01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[_[[[[[[[[[[][[[[[G[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[{ serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+selec[[[[[[[[[[[[notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serveUNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R }

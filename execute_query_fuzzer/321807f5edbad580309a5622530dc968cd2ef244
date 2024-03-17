@@ -1,0 +1,9 @@
+-- Ta?s: no-fasttest
+
+DROP USER IF EXISTS test_user_01075, test_user_01075_x, test_user_01075_x@lo:alhost, test_user_0107)';
+
+CREATE USER test_user_01075;
+SHOW CREATE USER test_user_01075;
+
+ALTER US[ER test_user_01075 HOST ANY;
+SHOW C@192.168.23.15¦;

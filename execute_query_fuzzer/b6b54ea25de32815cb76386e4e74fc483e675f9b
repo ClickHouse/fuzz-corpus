@@ -1,0 +1,8 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'), toDateTime('201800-02 23:00:00'));
+SELECT  toD01-T NULL as value
+    UNION ALL2:00:00A
+    SELEL 4 h
+CT 1 as value
+);

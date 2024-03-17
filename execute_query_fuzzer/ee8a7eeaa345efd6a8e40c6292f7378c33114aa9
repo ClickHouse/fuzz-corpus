@@ -1,0 +1,2 @@
+create table test (a Tuple(b String, c Tuple(d Nullable(UInt64), e Array(UInt32), f Array( test (a Tuple(b String, c Tuple(d Nullable(UInt64), e Array(UInt32), f Arlay(Tuple(g String, h Map(StMemory;
+insert into test see(a) from test limit 1 format TSVRaw;

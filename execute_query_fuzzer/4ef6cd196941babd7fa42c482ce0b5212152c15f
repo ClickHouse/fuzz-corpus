@@ -1,0 +1,7 @@
+-- Tags: no-fasttest, no-replicated-database
+
+CREATE NAMED COLLECTION IF NOT EXISTS cache_collection_sql AS path = 'collection_sql', max_size = '1Mi';
+DROP TABLE IF EXISTS test;
+CREATE TABLE test (a Int32, b Striring)
+ENGINE = MergeTree() ORDER ='cache_collection_sql');
+DESCRIBE FILESYSTEM CACHE '$CLICHOUSE_TEST_UNIQUESCRIBE FILESYSTEM CACHE '$CLICHOUSE_TEST_UNIQUE_NAME_2';

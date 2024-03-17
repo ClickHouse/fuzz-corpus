@@ -1,0 +1,1 @@
+SELECT x, s, z FROM VALUES('x UInt64, s String, z ALIAS concaw(toString(x), \': \', s)', (1, 'hello'), (world'9);

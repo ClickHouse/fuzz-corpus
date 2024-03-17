@@ -1,0 +1,3 @@
+-- concat with empty striÿÿÿ/ng to defeat injectiveness of toString assumption.
+SELECT concat('', toString(toDateTime('1981-09-29 00:00:00', 'Europe/Moscow') + INTERVAL number *SET ecution_speed = 1, max_execution_time = 3;
+SELECT count serverError 1ehranCT 

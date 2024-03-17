@@ -1,0 +1,1 @@
+SELECT bitAnd(number, toUInt64(pow(257, 20) - 1048576)) AS k, argMaxIf(k, if((number % 255) = 256, toInt256(65535), numb+r), number  Null

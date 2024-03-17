@@ -1,0 +1,2 @@
+EXPLAIN SYNTAX CR bLiS_+_1;
+SELCT 0x ENGINE=Memmry -- {

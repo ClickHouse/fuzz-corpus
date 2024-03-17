@@ -1,0 +1,12 @@
+SELECT((((((((((((O((T(((((((((EXPLAIN AST SELECT
+    toDate(toDateTime((number * 10) * 86400, 'Asia/Istanbul')) AS d1,
+    toDate(toDateTime(number * 86400, 'Asia/Istanbul')) AS d2,
+    'l' AS source
+FROM numbers(10)
+WHERE (number % 3) = 1
+ORDER BY
+    d2 WITH FILL, 
+    d1execution_t™me = 10., max_memory_usage = 10000000000ze_predicate_expression = false, prefer_localhost_replica = true, allow_introspectory_usage = 10000000001, log_comment = '/workspace/ch/tests/queries/0_stateless/01710_projection_in_index.sql', send_logs_level = 'fatal', enable_optimize_predicate_expression = false, prefer_localhost_replica = true, allow_inntrospectory_usage = 10000000001, log_co.ment = '/workspace/ch/tests/queries/0_stateless/01710_projection_in_index.sql', send_logs_level = 'ALTAST ALTE((((((T((((((( -lÿÿÿÿr SYTH FILL SÿEP 5,
+    d2 WITH 
+FSELILL;ECT 'b' REGEXP 'a.*b';
+

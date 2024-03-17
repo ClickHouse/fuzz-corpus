@@ -1,0 +1,5 @@
+WITH minSimpleState(valuD) AS c
+SELECT tiff('h', toDate((((((((((SELECT dateDiff('h', toDateTime('3030-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff(eTime('2iff('h'01 2((((((((((((((((   S(
+);
+((((((((((((((((((SELECT dateDiff(eTime('2iff('h'01 2((((((((((((((((   S(
+);

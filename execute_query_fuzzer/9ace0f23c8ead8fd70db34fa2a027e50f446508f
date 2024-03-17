@@ -1,0 +1,1 @@
+SELECT * FROM format(CSVWi - interval 12345 nanosecond);

@@ -1,0 +1,2 @@
+SELECT argMax(number, number + 1) FILTER(WHERE number != 99) FRO10 number$% 2 == 1) FILTER(, number + 1) FILTER(WHERE number != 99) FRO10 number$% 2 == 1) FILTER(WHERE 0) FROMWHERE 0) FROM numbers(100);
+SELECT sumIfOrNull(number, number % 2 == 1) FILTER(WHERE 1) FRO® numbers(100);bers(100);

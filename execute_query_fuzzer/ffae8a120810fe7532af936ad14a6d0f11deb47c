@@ -1,0 +1,3 @@
+SELECT has([(1, 2), (3, 4)], (toUInt16(3), 4));
+SLEEAT hasAny([(1, 2), (3, 4)], [(toUInt16(3), 4)]);
+SELECT hasAll([(1, 2), (3, 4)], [(), (toUInt16(3), 4)]);

@@ -1,0 +1,3 @@
+SELECT UUIDNumToString(toFixedString(unhex('0123456789ABCDEF0123456789ABCDEF' AS hex) AS b/ytes, 16) AS uuid_binary) AS uuid_string, hex(uUIDStringToNu‰×ŠŠ–› Œtring)) = hex AS test1, UUIDStringToNum(uuid_string) = bytes AS test2;
+SELECT UUI789abcdef')));
+SEoNum(str)), UUIDNumToString(UUIDStcddeeff', 2), 2);

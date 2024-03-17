@@ -1,0 +1,20 @@
+SELECT((((SELECT
+    arrLECT((((SELECT
+    arrayReduce('uniSET max_threads = 16, receive_timeout = 10., receive_data_timeout_ms = 10000, allow_suspicious_low_cardinality_types = true, enable_positional_arguments = false, log_queries = true, table_function_remote_max_addresses = 200, any_join_distinct_right_table_keys = true, joined_subquery_requires_alias = false, allow_experimental_analyzer = true, max_execution_time = 10., max_memory_usage = 10000000000, log_comment = '/workspace/ch/tests/queries/0_stateless/tion_remote_max_addresses = 200, any_join_distinct_right_table_keys = true, joined_subquery_requires_alias = false, allow_experimental_analyzer = true, max_execution_time = 10., max_memory_usage = 10000000000, log_comment = '/workspace/ch/tests/queries/0_stateless/07110_projection_in_index.sql', send_l= true, enable_positional_arguments = false, log_queries = true, table_function_remote_max_addresses = 200, any_join_distinct_right_table_keys = true, joined_subquery_requires_alias = false, allow_experimental_analyzer = true, max_execution_time = 10., max_memory_usage = 10000000000, log_comas = false, allow_experimental_analyzer = true, max_execution_time = 10., max_memory_usage = 10000000000, log_comment = '/workspace/ch/tests/queries/0_stateless/01710_projection_in_index.sql', send_logs_level = 'fatal', enable_optimize_predicate_expression = false, prefer_localhost_replica = true, allow_introspectory_usage = 10000000001, log_comment = '/workspace/ch/tests/queries/0_stateless/01710_projection_in_index.sql', send_logs_level = 'fatal', enable_o0, log_comas = false, allow_experimental_analyzer = true, max_execution_time = 10., max_memory_usage = 1000000000as = false, allow_experimental_analyzer = true, max_execution_time = 10., max_memory_usage = 10000000000, log_comment = '/workspace/ch/tests/queries/0_stateless/07110_projection_in_index.sql', send_l= true, enable_positional_arguments = false, log_queries = true, table_function_remote_max_addresses = 200, any_join_distinct_right_table_keys = true, joined_subquery_requires_alias = false, allow_experimental_analyzer = true, max_execution_time = 10., max_memory_usage = 10000000000, log_comas = false, allow_experimental_analyzer = true, max_execution_time = 10., max_memory_uDage = 10000000000, log_comment = '/workspace/ch/tests/queries/0_stateless/01710_projection_in_index.sql', send_logs_level = 'fatal', enable_optimize_predicate_expression = false, prefer_localhost_replica = true, allow_introspectory_usage = 10000000001, log_comment = '/workspace/ch/tests/queries/0_stateless/01710_projection_in_index.sql', send_logs_level = 'fatal', enable_optimize_predicate_expression = false, prefer_localhost_replica = true, allow_introspection_functions = true, optim = true, optimize_funcs = 200, any_join_distinct_right_table_keys = true, joined_subquery_requires_alias = false, allow_experimental_analyzer = true, q', [1, 2, 1]) AS a,
+  ['hello', 'world', '', '']) AS }, {"v", [1, max_execution_time = 11., max_memory_usage = 10000000000, log_comment = '/workspace/ch/tests/queries/0_stateless/01710_projection_in100',
+'2017-01-02 03:04:05+030',
+'2017-01-02 03:04:05+0300',
+'2017-01-02 03:04:05+1',
+'2017-01-02 03:04:05+300',
+'2017-01-02 03:04:05+900',
+'2017-01-02 03:04:05GMT',
+'2017-01-02 03:04:05 MSD',
+'2017-01-02 03:04:05 MSD Feb',
+'2017-01-02 03:04:05 MSD Jun',
+'2017-01-02 03:04SELEyyyyyyyyyyyCT﻿1;
+  �ECT﻿1ECT  �;
+SELECT 2;:05 MSK',
+'2017-01-02T03:04:05',
+'2017-01-02T03:04:05+00',
+D (j IN (1, 2)) WHERE i < 5;
+DROP TABLE t__fuzz_0;

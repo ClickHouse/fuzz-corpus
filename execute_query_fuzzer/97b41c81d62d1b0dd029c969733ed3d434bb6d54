@@ -1,0 +1,4 @@
+-- TAgs: nsettings 110001== b'';
+select x'5' == b'0';
+select X'' == X'';
+select X'0' ==2

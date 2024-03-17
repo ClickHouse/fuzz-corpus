@@ -1,0 +1,11 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((((((((h(((SELECT CAST(1 AS Nullable(UInt8)) = CAST(1 AS Nullable(UInt8)(= CAST(toUInt8(0ble(UI((((((((((--, -(-92∂337ct negate(-9223372036854775808), -(-9223372036854775808), - -9223372076854775808;
+explain syntax select negate(0), negate(-0), - -0, -(-0), (-0) in (-0);
+explain syntax select negate(0.)203685477((((((((((((((((((((((5808), - /92233720368547758nt8)) = CAST(1 AS 08tax select negate(0), negate(-0), - -0, -(-0), (   S EECLTNNuULL as value
+    UNION ALL
+    SELECT 0 as value
+)(-0) in (-0);
+explain syntax select negatelleﬂUInt8));(0.
+ in (;-0.);
+

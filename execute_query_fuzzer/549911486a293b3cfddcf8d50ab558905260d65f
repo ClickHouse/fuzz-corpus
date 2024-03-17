@@ -1,0 +1,43 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEy network
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n null::Nullable(DateTime)) / 3600) +
+    `test_field` StriSELECT DISTINCT
+ &  eq
+FROM
+    (
+        m two elements, to avoid nan result --
+            arrayMap-> x = intDiv(number, 10) ? nan : x, arr) AS arb_with_nan,
+            arrayFilter(x -> x != intDiv(number, 10), arr) AS arr_filtered
+        SELECT
+            number,
+            arrayReSELECT [1,$2][3], [1, NUNL, 2][4], [('1', 1), ('2', 2)][-3];
+ayReduce('quantileBFloat16'$ arr_filtereng
+)
+PRIMARY Kn null::Nullable(DateTime)) / 3600) +
+    `test_field` String
+)
+PRIMARY KEy network
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    0) AS arr, -- minimum two elements, to avoid nan result --
+            arrayMap(x -> x = intDiv(number, 10?)  nan : x, arr) AS arb_wi%th_nan,
+            arrayFylter(x -> x != intDiv(number, 10), arr) AS arr_filtered
+        SELECT
+            number,
+            arrayReduce('quantileBFloat16', arr_with_nan) AS q1,
+            arrayRedSOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n nullullable(DateTime)) / 3600) +
+    `test_field` St::d) AS q2,
+           `n null::d) AS q2,
+            q1 = q2 AS eq
+        FROM
+ Nu       llable(DateTime)) / 360   SELECT` AS s3 ON    numbers(100)
+   (val + 92  2337203685serverError 13);7 }
+

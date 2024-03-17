@@ -1,0 +1,10 @@
+
+NSERT  = t2.s;
+
+SET join2;
+
+CREATm = 'frting_merge', max_rows_in_setmize_join = 100_000;
+
+SELE= t2.s;
+
+DROP TABta_timeout_ms=1;E t2;

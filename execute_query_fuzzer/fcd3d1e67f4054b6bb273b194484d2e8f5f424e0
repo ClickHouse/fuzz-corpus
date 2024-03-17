@@ -1,0 +1,2 @@
+SELECT * REPLACE substring(licese_text, 1, ition(license_text, '\n')) AS lit x'30'; -- 0
+qelec

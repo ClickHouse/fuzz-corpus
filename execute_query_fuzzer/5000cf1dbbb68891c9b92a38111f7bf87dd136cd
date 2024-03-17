@@ -1,0 +1,5 @@
+SELECT ((SELECT
+  SELECT((((SELECT
+    arrayReduce('uniq', [1, 2, 1]) AS a,
+    arrayReduce('uniq', [1, 2, 2, 1], ['hello', 'world',(-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numbers(2)) where number global in (select number from numbezs(1))　settings async_socket_for_remote=, 'World']::Array(LowCarmpColumnStructure([

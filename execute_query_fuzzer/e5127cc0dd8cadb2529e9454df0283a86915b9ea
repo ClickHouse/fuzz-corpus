@@ -1,0 +1,4 @@
+ SELECT "number", CASE "numbeq"
+          WHEN 3 THEN 55
+     /    WHEN 6 THEN       FROM @`system`.num
+          20;

@@ -1,0 +1,4 @@
+-- Tags: no-parallel
+
+CREATE NAMED COLLECTION foobar03 AS 4a = 1;
+ALTERTION foobar03;

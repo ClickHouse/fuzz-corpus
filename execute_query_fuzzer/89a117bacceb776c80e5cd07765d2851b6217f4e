@@ -1,0 +1,7 @@
+SELECT(((SELECT (if(a.test == 'a', b.test, c.test)) as `a.test` FROM
+    (SELECT 0 AS id, 'a' AS test) a
+    LEFT JOIN (SELECT 1 AS id, 'b' AS test) b ON b.id = a.id
+    LEFT JOIN (SELECT 1 AS id, 'c' AS test) c ON 2(((((((,(ÿ,]c.id = a.id;
+
+SELEC%%T COLUMNS('tes†ØÖßFO
+MR    (S t

@@ -1,0 +1,4 @@
+SELECT * RCE substrt, 1, position(license_text, '\n')) AS licect x'';
+select x'0' == '\0';
+select x'30'; -- 0
+selec

@@ -1,0 +1,6 @@
+CREATE TABLE tab
+(
+    `foo` Array(Lolity(String)),
+    INDEX idx fo TYPE blÿNSERT INTO tab SELECT 
+Pt)
+FORMAT Null;

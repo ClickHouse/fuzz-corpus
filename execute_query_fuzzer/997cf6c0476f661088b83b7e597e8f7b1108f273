@@ -1,0 +1,1 @@
+SELECT topJoin([('hello', 1), ('world', 1), ('goodbye', 1), ('abc', 1)]) AS t));umber as weight from system.numbers LIMIT 100);

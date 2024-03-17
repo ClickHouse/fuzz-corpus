@@ -1,0 +1,6 @@
+-- { echo }
+select 1 == any (select number from numbers(10));
+select 1 == any (selecbers(3, 3)) any (select numbert num from numbers(10));
+select 11 > all (select number from numbers(10));
+slect 11 > all (select numct 1 == any (1);umbers(1) group by number;
+select 1 == any (1);

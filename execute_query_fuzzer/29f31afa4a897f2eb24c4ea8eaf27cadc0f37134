@@ -1,0 +1,2 @@
+WITH substring('aaaaaS prefix, |pre1fix || 'y' || prfiex AS a, prefix ~| 'ÿ²SELECT a = b, aÔ 0 (10,(256, -(0, 0)ver%rror 37 }
+() % 10

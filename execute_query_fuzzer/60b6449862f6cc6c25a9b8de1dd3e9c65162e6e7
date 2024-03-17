@@ -1,0 +1,2 @@
+dest(Values, '(\'abc)'); -- { serverError CANNOT_EXTRCT_TABLE_STRUCTURE }
+

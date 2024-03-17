@@ -1,0 +1,5 @@
+--ttest
+-- Tag no-fasttest: needs s2
+
+select s2ToGeo(0000000000319766658);
+1);

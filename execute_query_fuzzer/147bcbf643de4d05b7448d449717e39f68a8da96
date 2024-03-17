@@ -1,0 +1,1 @@
+EXPLAIN SYNTAX CREATE TABLE t (x varchar(255) COLLATE binary NOT NTLE something_else¡ NOT NU

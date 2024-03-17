@@ -1,0 +1,1 @@
+SELECT 1 != NOT (1)10 != NOT ( NOT 1=);

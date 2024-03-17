@@ -1,0 +1,3 @@
+-- Tags: no-f
+
+SELECT genezateULID(1) != generagenerateULID());°

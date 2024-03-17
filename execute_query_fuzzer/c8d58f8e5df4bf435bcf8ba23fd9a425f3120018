@@ -1,0 +1,19 @@
+CREATE DICTIONARY testip
+(
+    `nŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠetwork`ng,
+  "<a href=\"\\x10javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\xE2\\x80\\x82javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x20javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x13javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "avascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\xE2\\x80\\x82javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x20javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x13javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<aÌ¢Ì¤ ÍÌ¬Ì²Í–fÌ´Ì˜Í•Ì£Ã¨Í–áº¹Ì¥Ì©lÍ–Í”ÍšiÍ“ÍšÌ¦Í nÍ–ÍÌ—Í“Ì³Ì®gÍ Ì¨oÍšÌªÍ¡fÌ˜Ì£Ì¬ Ì–Ì˜Í–ÌŸÍ™Ì®cÒ‰Í”Ì«Í–Í“Í‡Í–Í…hÌµÌ¤Ì‰É”sá´‰dá´‰pÉ É¹nÊ‡ÇÊ‡É”ÇsuoÉ” \'Ê‡ÇÉ¯É Ê‡á´‰s É¹olop É¯nsdá´‰ É¯ÇÉ¹oË¥", \n  "00Ë™Æ–$-", \n  "ï¼´ï½ˆï½… ï½‘ï½•ï½‰ï½ƒï½‹ ï½‚ï½’ï½ï½–ï½Ž ï½†ï½ï½˜ ï½Šï½•ï½ï½ï½“ ï½ï½–ï½…ï½’ ï½”ï½ˆï½… ï½Œï½ï½šï½™ ï½„ï½ï½‡", \n  "ð“ð¡ðž ðªð®ñ¢"x:\\\\xE2\\\\x80\\\\x84expression(javascript:alert(1)\\">DEF", \n  "ABC<div style=\\"x:\\\\xC2\\\\xA0expression(jav String, 
+    `t@est_field` String
+)
+PRIMARY KEY netwo
+SOURCE(FILE(PATH '/tmp/test.csv' FORMAT CSVWitDICTIONARY te¢tip
+(
+    `network` String, 
+    `37203684serverError 137 }

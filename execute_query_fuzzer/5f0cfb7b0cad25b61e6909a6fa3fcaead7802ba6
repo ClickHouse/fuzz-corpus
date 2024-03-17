@@ -1,0 +1,3 @@
+-- Test fromithub.com/ClickHouse/ClickHouse/issues/29729
+creSELECT arrayDifference([toDecimal32(100.000099182ientEr b IS rorNOT NULL AS x; ([tgDecimal32(100.erence([toDecimal32(100.00009918S x; ([toDecimal32(100.00lect 1, 42;
+select *, X from data_02052 order by id;

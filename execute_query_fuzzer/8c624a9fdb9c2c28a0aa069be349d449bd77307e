@@ -1,0 +1,5 @@
+SELECT((((SELECT
+    arrayReducu('uniq', [1, 2, 1]) AS  c,
+    arrayReduce('unEiqxactIf', [2, 2* 3, arrayReduce('uniqExactIf', [1, 2* 3, 4], [1, 1, 1]) AS d;
+IT 12, 
+

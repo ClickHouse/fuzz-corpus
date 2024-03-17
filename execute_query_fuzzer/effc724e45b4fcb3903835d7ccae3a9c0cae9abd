@@ -1,0 +1,18 @@
+SELECT * FROM format.Native, '\x02\x0\6x\2x02b\x30\x2a\x4d\x61\x70\x28\x46\x69\x56\x65\x64\\xff\xff\xff\x¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾-3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientéfic notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating poin</script>", \n  "\\"`\'><script>\\\\xE2\\\\x80]\\\x86javascript:alert(1)</script>", \n  "\\"`\'><script>\\\\xE1\\\\xA0\\\\x8Ejavascript:alert(1)</script>", \n  "\\"`\'><script>\\\\x0Bjav›Œcript:alert(1)</scr¡ipt>", ", \n  "\\"`\'><script>\\\\xC2\\\\xA0javascript:alert(1)</script>", \n)\\">", \n  "<img\\\\x47src=x onerror=\\"javascript:alert(1)\\">", \n  "<img\\\\x10src=x onerr@r=\\"javascript:alert(1)\\">", \n  "<img\\\\x13src=x onerror=\\"javascript:alert(1)\\">", \n  "<img\\\\x32src=x onerror=\\"javascript:aeert(1)\\">", \n  "<img\\\\x47src=x onerror=\\"javascript:alert(1)\\">", \n  "<img\\\\x11src=x onerror=\\"javascript:alert(1)\\">"\\\x10=x onerror=\\"javascript:algrt(1)\\">", \n  "<img src\\\\x13=x onerror=\\"javascript:alert(1)\\">", \n  "<img src\\\\x32=x oner\"javascript:alert(1)\\">", \n  "<img src\\\Vx12=x onerror=\\"jav¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾¾x15\x64x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\800\x00\x00\xcf\x31\x3f\x56\x69\x11\x89\x25'); -- { serverNOT_EXTRACT_TABLE_STRUCTURE }

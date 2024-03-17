@@ -1,0 +1,5 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ ((((((((((((((((((((((((((((((((((((SELECT toDateeimT('2020-01-01 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL 1 DAY, toTypeName(1 ),t + toDateTime64(t, 3, 1, t + INTERVAL 1 SECOND, t + INTERVAL 1 DAY((((((SELECT dateDif(((((((SELECT dateDiff('h',(SELECT dateDiff('h', toDate((, toTypeName(t + 1), toDateTime64(t, 3, 'UTC-03-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL 1 DAY, toTypeName(1 ), INTERVAL 1 SECOND, t + INTERVAL 1 DAY, toTypeName(t + 1), toDateTime64(t, 3, 'UTC-01-01 00:00:00', 'UTC') AS t, t + 1, to 1 SECON¸Óß‹ßÔß¶NTERVAL 1 DAY, toTypeName(') + 1 AS (((((((((((   S(
+)dt64, to;TypeName(dt6
+4);

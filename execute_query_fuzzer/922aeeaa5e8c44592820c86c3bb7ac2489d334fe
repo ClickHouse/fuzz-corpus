@@ -1,0 +1,2 @@
+SELEble('s1_disk') >= filesystem('s3_disk');
+select filesystemCapacity('deCT count() FROM (SELECT 1, arrayJoin([1,2,3]))

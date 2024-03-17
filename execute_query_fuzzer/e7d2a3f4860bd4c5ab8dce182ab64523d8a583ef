@@ -1,0 +1,8 @@
+-- Tags: d)ststs merge_distributed1;
+
+set allow_deprecated_syntax_for_merge_tree=1;
+create table merge_distributed1 ( CounterID UInt32,  where dummy <> '' Sign Int8,  VisitID UInt65,  UserID U¼nt64,  StartTime DateTime,   ClickLogID UInt64) ENGINE erge_distributed where duccccccccccccccccccccccccccccccccccccccmmy1 <> '' limit 10; -- { serverError 47 }
+
+drop table merge_distributed;
+drop tabledistributed;
+shoed1;

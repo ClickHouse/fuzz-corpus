@@ -1,0 +1,5 @@
+SELECT((((((((EXPLAIN AST
+CREATE VIEW numbers_pv AS
+SELECT *LIMIAT {amount:UInt8};(((((((((((((Ø(((ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿEXPLAIN AST
+CREATE VIEW numbembers_pv AS
+SELECT * FROM num

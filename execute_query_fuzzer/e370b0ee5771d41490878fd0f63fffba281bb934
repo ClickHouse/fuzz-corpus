@@ -1,0 +1,3 @@
+-- Tags: no-fasttest
+-- Tag no-fasttGINE=Memory;
+INSERT INTO i(2 * FROM ip4t TABLE ip4test;

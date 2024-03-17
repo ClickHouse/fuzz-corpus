@@ -1,0 +1,7 @@
+SELECT
+    *,
+    * APPLY  r() AS bl
+            FROM numbers[ÿÿÿÿÿÿÿÿ[[[[[[[[RESPECT NULLS AS resp£ct,
+    number::Nullable(Int63) as nullable_n
+  00)
+);

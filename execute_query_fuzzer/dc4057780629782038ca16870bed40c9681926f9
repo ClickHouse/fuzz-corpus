@@ -1,0 +1,3 @@
+SELECT count() AS cnt WHERE 0 HAVING cnt = 0;
+
+select cnt from (ystem.one where 1(dummy) sum from system.ull;

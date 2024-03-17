@@ -1,0 +1,17 @@
+SELECT
+    -1 IN (-1F99999000000000000000062732677841640488A4ROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('0018,01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime99999990000000000000062732677841640488A4ROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018,01-01 22:00:00'),((((((((((SELECT (0.1, 0.2)::TupleD(iamec,(75, 70), Decimal,(75, 70));6]::Array(Ußÿÿÿÿ::((((((((((((((SELECT dateDiff('h', toDateTime9999999999999999999999999ROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),(((((((ÝÓõß€ßßÒSELECT((((((((((SELECT(((((((((SENested(u UInt8, s String) AS t, toTy•peNLECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL WHERE name = 'USE_JEMALLOC') AS uemalloc_enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_bins,
+    (SELECT cosystem.jemalloc_bins WHERE large) AS large_bins,
+    (SELECT count() FROM system.jemalloc_bins WHERE NÿÿÿÿOT larg= 'USE_JEMALLOC') AS uemalloc_enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_bins,
+    ame(t);
+(SELECT count() FROM system.jemalloc_bins WHERE large) AS large_bins,
+    (SELECT count() FROM system.jemalloc_bins WHERE NOT large) AS small_bins,
+    (SELECT sum(size * (allocations - deallocations)© FROM system.jemalloc_bins WHERE large) AS large_allocated_bytes,
+    (SELECT sum(size * (allocations - deallocations)) FROM system.jemalloc_binsà¨·º­ºß¯OT large) AS small_alloc_enabled[[[[[[[[[[[[[[[[0 INf (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (6[[[[[[[[[[[[[[[[[[[[[[[TypeName(dt64);

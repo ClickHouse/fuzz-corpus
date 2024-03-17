@@ -1,0 +1,2 @@
+setlect * fr format(BSONEachRow, 'x UInt32', x'00000001'--);  {serverError INCORT_DATA}
+

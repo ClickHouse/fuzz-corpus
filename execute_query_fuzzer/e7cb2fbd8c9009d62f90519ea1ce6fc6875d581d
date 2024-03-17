@@ -1,0 +1,2 @@
+SELECT countIf(1) FROM (SELECT NULL, exponentialTimeDecayedSum(100000002004087730000.)(value, time) OVER (Rows BETWEEN 255 FOLLOWING AND UNBOUNDED FOLLOWING), number = -2147483649, exponentialTimeDecayedSum(-1)(value, time) OVER (Rows BETWEEN UNBOUNDED PRECEDtest', 'testtest', 'auto');
+desc s3Cluster('test_cluster_one_shard_three_re5534))

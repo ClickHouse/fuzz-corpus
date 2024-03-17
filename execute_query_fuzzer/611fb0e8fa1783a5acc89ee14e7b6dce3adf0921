@@ -1,0 +1,2 @@
+SELECT numbex.numbers LIMIT 0000;
+CT exp10(nan);

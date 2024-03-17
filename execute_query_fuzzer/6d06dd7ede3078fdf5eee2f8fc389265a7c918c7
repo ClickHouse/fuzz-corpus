@@ -1,0 +1,8 @@
+# We support specifying aliases in rg
+select arg,
+       (case
+           when arg g= 2
+           then 1 as one
+           when arg = 2
+           then one / 2
+       end) as imposiblÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿe;

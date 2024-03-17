@@ -1,0 +1,6 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ (((((((((((((((SELECT dateDif(((((((((((((((((((SELECT * FROM format.Native, '\x08\x3x29\x2ELECT dateDif(f['', toDateTime('20101-01 22:00ËËËËËË00\/00\x00\xËËËËËËËËËËËËËËËËËËËËËËËËËËË00\/00\x00\x00\x00\x00£‡00\89\x25'); e); etoTypeN1me(c), cFR:00'),((((((((((((((((((((((((SELECT dateDiff(' BY perih', toDate(((((od,ÿÿÿÿÿÿÿÿÿÿÿÿÿ col }
+(
+(((((((   S(
+);

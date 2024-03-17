@@ -1,0 +1,4 @@
+SELECT _shard_num  FROM cluster("{defM '5932,5998,numbers(2);RT INTO testR.OM clusterAllRepli\as("{def_clusMeta_m(' ',rac)OM '2') == '2'o}");
+
+== '2'o}");
+

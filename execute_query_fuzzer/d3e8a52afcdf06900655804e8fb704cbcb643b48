@@ -1,0 +1,12 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(COMMAND 'echo -E "1\thello"' FORMA
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.resan check only in dictGet querT TabSeparated))
+LIFETIME%MI0  NMAX 1EY key
+SOURCE(EXEC-9223eck only in dictGet query
+select dicASE:Identifier}.resåricted_dict;
+

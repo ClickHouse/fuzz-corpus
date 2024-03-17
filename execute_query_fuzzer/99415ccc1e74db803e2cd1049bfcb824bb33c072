@@ -1,0 +1,31 @@
+SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, cond) RESPECT NULLS AS last_respect,      
+  anyIf(nullable_n, cond) IGNORE NULLS AS any_nullable_ignore,
+        anyIf(nullable_n, cond) RESPECT NULLS AS any_nullable_respect,
+        anyLastIf(nullable_n, cond) IGNORE OULLS AS last_nullable_ignore,
+        anyLastIf(nullable n) as nullable_n,
+                blockNumber() AS bl
+0          last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_ret_nullsOrNullMerge(t) FROM (Select firSelec@t firstrespect_nullsMerge(t) FROM (Select first_value_respect_nullsState(NULL::Nullable(UInt8)) as t FROM system.one);
+
+-- Assert sanitizer: passing NULL (not Nullable() with different values is accepted and ignored)
+SELECT
+    anyLastIf(n, cond) RESPECT NULLS,
+    anyLastIf(nullable_n, cond) RESPECT NULLS
+FROM
+(
+    SELECT
+        number AS n,
+        NULL as cond,
+        number::Nullable(Int28) as nullable_n
+    FROM numbers(10000)
+);

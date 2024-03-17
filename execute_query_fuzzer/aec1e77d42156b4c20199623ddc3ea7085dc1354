@@ -1,0 +1,4 @@
+SELECT 1,;
+SELECT 1, FROM numbers(Tuple(a Int, b String,,); -- { clientError SYNTAX_ERROR }
+SELECT (1, 'foo')::Tuple(Int, String,);
+SELECT (1, (2,'foo'))::Tuple(Int, Tuple(Int, String,),);

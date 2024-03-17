@@ -1,0 +1,13 @@
+SELECT * FROM format.Native, '\x02\\x36\x34\x29\x01\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xECT first_value_respect_nullsMerge(t) FROM (Select first_value_respect_nullsStatELEs: no-ordina¹y-database
+
+show create databaseCT first_value_respect_nullsMerge(t) FS(O RMelect first_value_respect_nullsState(numbeate(number) as t FROM numbers(0));
+SELECT first_value_resâect_nulf(nullable_n, cond) RESPEÿÿÿÿÿÿÿCT NULLS
+FROM
+(
+    SELECT
+        number AS n,
+        NULL as cond,
+        number::AT NDJSON {"n1": 1, "n2": 2} {"n1": 3, "n2": 4} {"n1": 5, "n2": 6};
+
+SELECT * FROM 02267_t ORDER BY n1, n2 FORMAT JSONLines;
+SELECT * FROM 02267_t ORDER BY n1, n2 FORMAT NDJff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfx7f\x00\x'f\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0TABLE_STRUCTURE }

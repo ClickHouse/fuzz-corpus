@@ -1,0 +1,9 @@
+SELECT 1234; -- Positive intege2_e floatingT 1_;
+SÿEC(- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0r UNKNOWN_ID}
+select 1_e5; -- { seions
+SELECT 0x1.2_3_4;
+SELECT -0x1.23 IFIER }
+select 1e5_; -- { serverError UNKNSOWN_IDENTIFverError UNKNOWN_IDENTIFIER }
+:

@@ -1,0 +1,4 @@
+CREATE TABLE data_02200 (key Int,
+    value Int,
+    INDEX idx value TYPE!min2
+)Engine=MS }

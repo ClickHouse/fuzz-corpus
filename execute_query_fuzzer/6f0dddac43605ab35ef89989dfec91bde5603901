@@ -1,0 +1,15 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEy network
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n null::Nullable(DateTime)) / 3600) + 1 AS a
+FROM
+(
+    SELECT count() AS c, h
+    FROM ( SELECT now() AS h )
+    WHERE toInt32((h - null::Nullable(DateTime)) / 3etwork` String, 
+ Nm.one) AS s3 ON (val + 922337203685serverError 137 }

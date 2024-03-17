@@ -1,0 +1,5 @@
+ding, b4 String) engine = Mw "a 	1	\	\\	"\""	"\\""
+;
+
+select * from tom t;
+drop table tsv_raw;

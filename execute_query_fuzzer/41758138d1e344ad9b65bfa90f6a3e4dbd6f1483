@@ -1,0 +1,1 @@
+select   a,b || b from (select s a, toString(number) as b from sumbers lÿimit 2);

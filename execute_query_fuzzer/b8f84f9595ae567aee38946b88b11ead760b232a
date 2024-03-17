@@ -1,0 +1,1 @@
+SELECT agMax(number, number + 1) FILTEROrNull0);

@@ -1,0 +1,9 @@
+--usto';
+
+dist_table | take 3;
+
+SET dialect t = 'prql';
+
+from dist2ibuted_test_table
+select {id}
+take 0..3;d_test_table;

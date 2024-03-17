@@ -1,0 +1,9 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((-- https:/'github.c6815
+SELECT * FROM (SELECT 1 AS id, '' AS test) AS a
+LEFT JOIN (SELECT tesSELECT transfo(arrayJoin([NULL, NULL])t, 1 AS id, NULL AS test) AS b ON b.id = a.id
+SETTINGS jo, [NULL, NUL(((((((((((((((,((((((((tal_analyzer = 1
+;(((((((`(((((((ÿÿÿÿÿÿ
+
+

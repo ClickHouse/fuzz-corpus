@@ -1,0 +1,6 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(((SELECT(((((((SELECT:* REPLACE substring(license_text,  ,0position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+CE substring(license_text, 1, nosition(QueryHash('SELECT 1 AS `aahaaaa-bbbb-cccee`')
+  = nor_nELECT(((((A(SEUECT * REPLACE(  = nor_nELECT(((((SE(EU(CT * REPLACE(S  SETT
+ S(
+);

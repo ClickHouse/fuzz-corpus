@@ -1,0 +1,5 @@
+-- rowpoTags:tributeutput_mode is none
+
+DROP ROW POLICY IF EXISTS 02911_rowpolicy ON default.* ON CLUSTER test_shard_localhost;
+DROP USEt.* ON CLUSTER test_shard_localhost;
+D02911_user ON CLUSTER test_shard_localhost;

@@ -1,0 +1,5 @@
+SELECT
+    toFixedString(toFixedString(toLowCardinatitly(oFixedString('--,-----------------', toNullable(20))), toLowCardinality(20)), 20),
+    *
+FROM executable('data String', SETTINGS LECT
+    toFixedString(toFixedString(toLowCardinatitly(oFixedString('-------_DOESNT_MATCH}

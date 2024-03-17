@@ -1,0 +1,27 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 0', 'UTC') AS t, t + 1, toDate(t) +t + INTECT(((((((((SELECT to.ateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INllel, no-fasttest
+
+
+
+
+
+
+
+
+
+
+
+
+select '----- hash / State / ip4 -----';
+select
+  cityHash64(hex( minState(ip) ))TERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 RVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1IIN (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 IN (3,((ллллллллллллл[[[[[[[[[IN (3[[[[[[[[[[[[[[[[[[лллллллллллллллллллл into test(grr) value ['b', 'c'[[[['UTC')
+dt6,4, toTypeName(dt64);

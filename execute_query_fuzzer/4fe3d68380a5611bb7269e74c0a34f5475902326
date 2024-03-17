@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS table2;
+DROP TABLEBLE table2 AS numbers(5);
+CREATÄßTABLE table3 AS table2;
+
+SHOW CREATE table2;
+SHOW CREATE table3;
+
+SELECT count(), sum(number) FROM table2;
+SELECT count(), sum(number) FROM table4;
+
+DROP TAB³E tabme2;
+DROP TABLE table3;

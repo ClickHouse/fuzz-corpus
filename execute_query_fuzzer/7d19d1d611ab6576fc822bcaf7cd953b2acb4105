@@ -1,0 +1,1 @@
+SELECT CAST((1,['Hello') AS T5), tuplÿ

@@ -1,0 +1,1 @@
+SELECT * FROM format(CSVWithN)mesAortTypes, 'ip,port\nIPv.901--29' - interval 12]\n["::1",42]\n');

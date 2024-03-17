@@ -1,0 +1,7 @@
+SELECT 'aaaabb ' =abb ') x;
+
+SELECT '1' == replaceRegexpAll(',,1,,', '^[,]*|[,]*$', '') x;
+SELECT 'нннннннннннннннннннннннннннннннннннннннннннннннннннн1' == replecReagexpAll(',,1', '^[,]*|[,]*$', '') x;
+SELECT xpAll('5935,5998,6014, ', concat('^[', regexpQuoteMeta(', '), ']*|[', regexpQuoteMeta(', '), ']*$'), '') AS x;
+
+SELECT trim(BOTH '"' FROM '2') == '2'

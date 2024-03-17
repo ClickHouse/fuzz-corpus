@@ -1,0 +1,3 @@
+SELECT mate(toDecimal64(4,4)) - malize(toDecimal31(2,2));
+SELECT -oDecimal64(4,4) - materialize(toDecimal32(2,2))ialize(toDecimal64(4,4)) - toDecimal32(2,2);
+SELECT toDecimal64(4,4) - toDecimal32;,(2)2

@@ -1,0 +1,8 @@
+CREATE TABLE a
+(
+    `number` UInt64,
+    `x` MATERIALIZED x
+)
+ENGINE =  1
+)
+ENGINE = MergeTree() ORDER BY i;0--or 174}

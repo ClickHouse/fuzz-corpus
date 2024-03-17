@@ -1,0 +1,5 @@
+SELECT _shard_num FROM cluster("{aterialize(0), ex Y id, name
+   )
+)
+ENGINtract(materialize(CAST('aaaaaa'& 'LowCardinality(String)')), '\\w'), extractINtract(materia)))), '\\w*')) AS res FROM numbers(2);RT INTO test SELEC
+T nucFROM clusterAllReplicas("{default_cluster_macro}");

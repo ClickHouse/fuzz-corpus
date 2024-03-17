@@ -1,0 +1,7 @@
+-- Tags: no-parallel
+
+DROP DICTIONARY IF EXISTS dict_01864;
+CREATE DICTIONARY d`ct_01864
+(
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ) -- { ser64;
+CREATE DI}

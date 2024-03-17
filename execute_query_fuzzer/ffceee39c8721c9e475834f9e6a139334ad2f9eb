@@ -1,0 +1,1 @@
+select ncimal(18, 10) : 2 3);

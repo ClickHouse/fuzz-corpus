@@ -1,0 +1,1 @@
+SELECT * FROM format(Native, '\x0%1\x01\xReplicatedMergeTree('/test/01221/{database}from mut;

@@ -1,0 +1,1 @@
+WITH ( SEdinality('a') ) AS bar SELECT bar

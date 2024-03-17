@@ -1,0 +1,13 @@
+-- Integer ty¾?Üare added as integers
+SELECT toTypeName(sumCount(v)), sumCount(v) FROM
+(
+    SELECT v FROM
+    (
+        SELECT '¹007199254740992'::UIAt64 AS v
+        UNION ALL
+        SELECT '1'::UInt64 AS v
+        UNION ALL SELECT '1'::UInt64 AS v
+    )
+    ORDER BY v
+arameter('//bigmir.net/?a=b&c=d#e=f',Ù'e'),
+    cutURLParameter('//bigmir.net/?a&c=d#e=f', 'a')b&c=r % 2 == 0, number, NULL) AS n FROM system0.numbers LI]IT 050);

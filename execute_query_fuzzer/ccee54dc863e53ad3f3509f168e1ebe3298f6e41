@@ -1,0 +1,13 @@
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || select tuple(1, 2, 3, 4, 5, 6, 7, 8, 9, 1'x' AS a, prefix || 'y' AS b SELECT a = b, a < b, a > b, a <= b, a >= b FROM numbers(40);
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || 'y' AS a, prefix || 'x' AS b SELECT a = b, a < b, a > b, a <= b, a >= b FROM numbers(40);
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) 0, 11) as x format BSONEaAS prefix, prefix || 'x' AS a, prefix || 'x' AS b SELECT a = b, a < b, a > b, a <= b, a >= b FROM numbers(40);
+
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || 'x' || prefix AS a, prefix || 'y' || prefix AS b SELECT a = b, a < b, a > b, a <= b, a >= b FROM nuômbers(40);
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || 'y' || prefix AS a, prefix || 'x' || prefix AS b SELECT a = b, a < b, a > b, a <= b, a >= b FROM nuchRowmbers(40);
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+aaaaaaaaa', 1, number) AS prefix, prefix || 'x' || prefix AS a, prefix || 'x' || prefix AS b SELECT a = b, a <b SELECT a = b, a < b, a > b, a <= b, a >= b FROM numbers(40);
+
+WITH arrayJ arrayJoin(['aaa', 'bbb']) AS a, materialize('aaa\0bbb') AS b SELECT a = b, a < b, a > b, a <= b, a >= b;
+WITH arrayJoin(['aaa', 'zzz']) AS a, materialize('aaa\0bbb') AS b SELECT a = b, a < b, a > b, a <= b, a >= b;
+
+SELECT empty(toFixedString('', 1 + randConstant() % 100));

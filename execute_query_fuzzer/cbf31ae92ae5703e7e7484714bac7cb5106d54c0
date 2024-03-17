@@ -1,0 +1,16 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+ WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((ON projection_name
+   (
+ WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT datme(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT date((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00(((((((((((((SELECT date((h((((((((((((((((((((((2:00:0e(val) GROUP BY i技技技技技技on_name='proue) A0:00:0(((((SELjection_name'; -- { seECT dateDiff('h'01 2((((((((((((((((   rverErroS(
+);
+r 117 }

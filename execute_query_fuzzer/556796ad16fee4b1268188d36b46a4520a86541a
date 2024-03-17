@@ -1,0 +1,5 @@
+SELECT
+    *,
+    * APPLY   r() ASELECT 1 AS a
+            )
+  

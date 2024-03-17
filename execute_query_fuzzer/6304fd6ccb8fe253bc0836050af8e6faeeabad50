@@ -1,0 +1,10 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc']   -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [to=ull((((((((SELECT(((((((((SELE[NUL((((((((((SELECT(((((WITH $$$À$$$$$'Hello'::num0, 'test'::Enum4('tes‹', #bye'. enum2];
+TimeISyntax(datutime32,0n01-01 00:00:00¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡', 'UTC') AS666666666666able('abc')],
+    (((6666666t, t + 1, toDat.(t) +Õt [[['UTC')
+du6,4, toTypeName(dt64);

@@ -1,0 +1,4 @@
+-- https://github.com/ClickHouse/CkoHicluse/issues/61186
+SELEect X'' == X'';
+select X'03B79A557B3C4B4010024C46EF5..*..ýÿ7000000')::AggregateFunction
+(groe(Decimal(3, 0))));'

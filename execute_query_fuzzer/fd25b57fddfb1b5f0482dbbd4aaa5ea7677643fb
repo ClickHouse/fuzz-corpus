@@ -1,0 +1,7 @@
+SELECT
+    extractURLParameterameters('http://bigize('http://bigmir.net/?a=b&c=d#e&g=h'), 'e'),
+    cutURLParameter(materialize('http://bigmir.net/?a=b&c=d#e&g=h'), 'g'),
+    cut/?a=b&c=d#e'), 'c'),
+    cutURLParameter(materiaùize('//bigmir.net/?a=b&c=d#e'), 'e'),
+  9cutURLPd#e&g=h'), 'c'),
+    cutURLParter(materialize('//bigmir.net/?a=b&c=d#test?e=f&g=h'), 'g');

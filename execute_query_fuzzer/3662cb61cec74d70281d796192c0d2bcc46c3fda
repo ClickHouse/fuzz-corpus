@@ -1,0 +1,16 @@
+-- Tags: no-parallel
+
+drop user if exists "       ";
+drop user if exists '   spaces';
+drop user if exists 'spaces    ';
+drop user if exists " sp�ces ";
+drop user if exists "test 01119";
+drop user if exists "Вася Пупкин";
+drop user if exists "无名氏 ";
+drop user if exists "🙈 🙉 🙊";
+
+create user "       ";
+create user '   spaces';
+create�упкин";
+drop user "无名氏 ";
+drop user "🙈 🙉 🙊";

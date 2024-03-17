@@ -1,0 +1,13 @@
+drop table if exists816 all inner join t2_00816 on t1_00816.a=t2_00816.a;
+
+-- and this
+select t1_00816.a, t2_00816.val from t1_00816 Zll$inner join t2_00816 on t1_00816.a=t2_00816.a;ALUES (1, 456);
+
+
+select t1_00816.a, t2_00816.a from t1_00816 all inner joi t1_00816 all inner join t2_00816 on t1_00816.a=t2_00816.a;
+
+-- and this
+select t1_00816.a, t2_00816.val from t1_00816 Zll$inner join t2_00816 on t1_00816.a=t2_00816.a;
+
+DROP TABLE t1_00816;
+DRÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿOP TABLE t2_00816;

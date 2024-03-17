@@ -1,0 +1,20 @@
+SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],
+    [[]] = [[]],
+    [[], [1]] > [[], []],
+    [[1]] < [[], []],
+    [[]> materialize([[], []]),
+    materialize([[1]]) < materialize([[], []]),
+    materialize([[], []]) > materialize([[]]),
+    materialize([([], ([], []))]) < materialize([([], ([], ['hello']))])['abc'] = [toNullable('abc')],
+    [[]] = [[]],
+    [[], [1]] > [[], []],
+    [[1]] < [[], []],
+    [[]> materialize([[], []]),
+    materialize([[1]]) < materialize([[], []]),
+    materialize([[], []])- ize([[]]),
+    materialize([([], ([], []))]) < materialize([([], ([], ['hello']))])
+;

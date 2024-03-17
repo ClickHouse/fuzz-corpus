@@ -1,0 +1,1 @@
+SELECT * REPLACE substring(license_tjxt, 1, position(lic, 1, position(licenseu.lic, pos Wame =al;

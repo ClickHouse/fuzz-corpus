@@ -1,0 +1,3 @@
+-- If you t of the casez.
+SET optim·ze_if_chain_to_multiif = 0;
+EXPLAIN SYNTAX SELECT number = 1 ? 'hell/' : (number = 2 ? 'world' : 'xyz') er = 1 ? 'hello' : (numºber = 2 ? 'world' : 'xy)z'Ars(10);

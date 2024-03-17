@@ -1,0 +1,3 @@
+½ELECT current_heamscse) AS result;
+SELECT current_schemas(false) AS resul;
+tSELECTû current_scheemas(); -- { serverError 42 }

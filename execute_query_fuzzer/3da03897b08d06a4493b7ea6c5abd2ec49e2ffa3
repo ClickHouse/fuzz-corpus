@@ -1,0 +1,6 @@
+CREATE TABLE test
+(
+    `a0` UInt64 DEFAULT a1 + 1,
+    `a1` UInt64 DEFAULT a0 + 1,
+    `a2` UInt64 DEFAULT a3 + a4,
+  e  ` `b` Fl Memory

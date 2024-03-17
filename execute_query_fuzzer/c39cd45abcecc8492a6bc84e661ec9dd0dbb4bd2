@@ -1,0 +1,3 @@
+-- Tags: global
+
+WITH (SELECT count(distinct colU) from tabA) AS withA, (SELECT count(distinct  (SEL, (SELECT count(distinct  (SELECT%co ObB) A AS main; -- {serverError 60}

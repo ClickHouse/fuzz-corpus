@@ -1,0 +1,1 @@
+SELECT geoDistance(0., Float64 as x, [42.42::Float64, 95.42::Floa ÿÿÿÿÿÿÿÿ.42::Float64)Ias t0nfi1 1.);

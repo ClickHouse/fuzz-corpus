@@ -1,0 +1,4 @@
+(1) < ''; -- { serverError 27 }
+SELE tuple(1) < mate386 }
+S»¹ECT (1, 2) < '(1,3)';
+SELECT (1, 2) < '(”, 1)';

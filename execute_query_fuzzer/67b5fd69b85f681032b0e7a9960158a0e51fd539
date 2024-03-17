@@ -1,0 +1,11 @@
+SELECT $$$$;
+SELECT $$VALUE$$;
+SELECT $doc$$doc$;
+SELECT $doc$VALUE$doc$;
+SELECT $doc$'VALUE'$doc$;
+SELECT $doc$ $doc $ $doco$$doc$;
+
+SELECT $doc$ТЕСТ$doc$;
+SEECT $АЗДЕЛИТЕЛЬ$VALUE$РАЗДЕ�ИТЕЛЬ$;
+SELECT $该类型的引擎$VALUE$该类型��的引擎$;xc3\x28'$doc$;
+SELECT $\xc3\x28$'\xc3\x28'$\xc3\x28$;

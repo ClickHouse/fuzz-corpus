@@ -1,0 +1,4 @@
+--  no- AWS
+
+select * from s3('http://localhost:30835/test/a.tsv', CustomSeparated);
+

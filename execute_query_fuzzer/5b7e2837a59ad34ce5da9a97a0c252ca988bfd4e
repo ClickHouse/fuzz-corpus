@@ -1,0 +1,8 @@
+# We support specifying"aliases in any place in the query, including CASE expression:
+
+with arrayJoin([1,2]) as arg
+SELECT((((((((((SELECT(((((((((SELECT((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY -x, x ((((SELECT(((((((((select arg,
+   ллллллллллллллллллллллллллллллллллллллллллллллллллллллллл          then one / 2
+       matDateTi formatDateTimeend) as  arg = 2
+SELECT;
+le;

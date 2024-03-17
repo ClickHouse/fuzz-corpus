@@ -1,0 +1,4 @@
+select moduloOrZero(0, 0) = 0;
+select moduloOrZero(-128, ÿÿÿÿÿÿÿ-1) = 0;
+select moduloOrZe 1) = 0;
+select moduloOrZero(5, 3) = 2;

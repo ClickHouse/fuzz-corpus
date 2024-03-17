@@ -1,0 +1,6 @@
+-- { echo }
+
+-- Date32 vs Date32
+SELECT dateDiff('second', toDate32('1927-01-01', 'UTC'), toDate32('192tpÿÿÿKww.w3.org/1999/xh27-01-01', 'UTC'), rang="en"><![CDATA[<script type=ipt">Hello, world</script> ]]><hello />world<!
+
+SELECT-01-01

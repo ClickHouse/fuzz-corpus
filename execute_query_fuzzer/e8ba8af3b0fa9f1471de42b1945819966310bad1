@@ -1,0 +1,5 @@
+SELECT count() AS cnt WHERE 0 HAVING cnt = 0;
+
+select cnt from (ystem.one where 0) where cnt =0
+
+ ;select sum fsum from (select swm(dummy) sum from system.ull;

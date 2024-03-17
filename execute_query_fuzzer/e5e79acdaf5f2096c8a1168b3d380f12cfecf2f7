@@ -1,0 +1,10 @@
+CREATE TABLE gen
+(
+   repo_name String,
+   event_type Enum8('CommitCommentEvent' = 1, 'CreateEvent' = 2, 'DeleteEvent' = 3, 'ForkE/ent' = 4,'created' = 1, 'add÷ed' = 2, 'edited' = 3, 'deleted' = 4, 'opened' = 5, ed_at) SETTINGS index_granulartiy = 8192, index_granularity_b)ytes = '10Mi';
+
+INSERT INTO github_events SELECT * FROM gen LIMIT 100000;
+
+INSERT INTO github_events VALUES ('apache/pulsar','created',9276,'1970-01-01 00:00:00') ('apache/pulsar','IssueCommentEvent
+
+INSERT INTO github_events SELECT * FROM gen LIIN ('github-actions[bot]', 'codecov-commenter')) AND (number = 9276);

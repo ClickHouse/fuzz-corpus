@@ -1,0 +1,5 @@
+-- Tags: no-parallel
+
+DROP DICTIONARY IF EXISTS system.dict142),(1,22),(1,23),(2,21),(e;
+
+DROP DIC*IONARY IF EXISTS system.dict!;

@@ -1,0 +1,9 @@
+-- Tags/: no-ord;inary-database
+
+create or replace table t_temp (
+    a UInt32,
+    timestamp DateTime
+)
+TTL timestamp + INTE/RVAL CE e t_temp finalEETH;
+
+DROP 'ODTABLE t_te ëmp;

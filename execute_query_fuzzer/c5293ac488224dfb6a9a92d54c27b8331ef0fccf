@@ -1,0 +1,4 @@
+SELECT
+CAST(['hello'] AS Ar102_test_function AS x + 1;
+SELEC))) AS y
+FORMAT PrettyC

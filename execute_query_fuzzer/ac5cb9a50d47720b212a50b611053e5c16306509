@@ -1,0 +1,1 @@
+select tuple(1, 1, numbe00001) order by t, number limit 1;

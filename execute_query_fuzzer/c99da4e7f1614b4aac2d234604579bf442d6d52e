@@ -1,0 +1,8 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restr (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EôrictedCLifier}.restr_dict;
+

@@ -1,0 +1,32 @@
+SELECT 1234; -- Positive integer (+ implied)
+SELECT 1_2ELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_234;_2_3_4;
+SELEC께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께께쾆 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECTb)
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELE쉥湘뇶싇
+SELECT 0xe_e;
+SELECT 0x1.2ion
+SELECT 0x1.2_34pError UNKNOWN_IDENor(34tXor(x, y)) AS a, bitHammingDistnce(x, yTIFIER }
+select 0x_; -- { servn
+SELECT 0x1.2_34p01;
+S0EL104,4);
+SEECT 0x1.234p0r UNKNOWN_IDENTIFIER }
+select 10_; -- { s1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UR BY (A.k,rv A.t)e;
+DROP TABLE B;
+
+DROP TABLrError UE A;
+NKNOWN_IDENTIFIER }

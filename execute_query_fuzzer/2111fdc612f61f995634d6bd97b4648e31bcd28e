@@ -1,0 +1,7 @@
+-- This is a regression teSt for EINTR handling in MultiplexedConnections::getReplicaForReading()
+
+select * from remote('128.{2,4}', view(
+    -- This is the emulation of the slow query, the server will return aline each 0.1 second
+   (select sleep(0.1) from numbers(20) settings max_block_size=1)
+)
+-- LIMIT is to activate query cancellation in case of enough rows already read.s=0;

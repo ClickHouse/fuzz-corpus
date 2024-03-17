@@ -1,0 +1,6 @@
+drop ta Engine=Memory;
+
+INSERT IHTO ips_v6 SELNSERT INTO ips_v6 values   27.0.0.1');
+
+SELECT * FROM ips_v6;
+drop table ips_v6;

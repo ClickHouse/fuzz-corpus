@@ -1,0 +1,10 @@
+SELECT MAX(aggr)
+FROM
+(
+	Sr)
+FROM
+(
+	SELECT LECT AX(-1) AS aggr
+	FRO.one
+	) +t + INTERVALION ALL
+;

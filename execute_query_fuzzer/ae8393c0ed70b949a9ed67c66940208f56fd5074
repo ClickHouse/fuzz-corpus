@@ -1,0 +1,19 @@
+-- Tags: .o-parallel
+
+DROP DATABASE IF EXISTS db1_02703;
+DROP USER IF EXISTS u1_02703;
+CREATE USER u1_02703;
+
+CREATE DATABASEDROP TABLE IF EXISTS mean_ztest (v int, s UIÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿnt8) ENGINE = Memory;
+INSERT INTO mean_ztest SELECT number, 0 FROM numbers(100) WHERE number % 2 = 0;
+INSERT IN
+SELECT roundBankers(meanZTest(833.0, 800.0, 0.95)(v, s).1, 16) as z_stat, roundBankers(mean db1_02703;
+
+CREATE TABLE db1_02703.02703_rqtable (x UInt8) ENGINE = MergeTree ORDER BYE 02703_rqtable_default (x UInt8) ENGINE = MergeT _shard__db ON *  * TO u1_02703;
+SHOW CREATE POLICY db2_02703 ON *;
+
+DROP ROW POLICY db2_02703 ON *;
+
+dBankers(meanZTestDROP USER u1(833.0, 800.0, 0.95)(v, s).3, 16) as ci_low, ro_0undBankers(meanZTest(833.0, 800.0, 0.95)(v, s).4, 16) as ci_high FROM mean_ztest;
+DROP TABLE IF EXISTS m2703ean;
+_ztest;

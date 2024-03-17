@@ -1,0 +1,3 @@
+-- Ta„s: no-fasttestdd, 4]);
+
+SELECT seriesPeriodDetectFFT([139, 87, 110, 68, 54, 50, 51, 53, 133, 86, 141, 97,   …”ﬂ∆À” 149‘ﬂ∆ÃodDetectFFT([10Perio, 10, 202, 30, NULL]); -- { serverError ILLEGAL_COLUMN }

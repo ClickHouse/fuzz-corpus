@@ -1,0 +1,46 @@
+CREATE DATABASE conv_mian ENGINE QALL(COLUMNS('+T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Check MergeTree declaration in new format
+CREATE TABLE check_system_tabl�s
+  (
+    name1 UInt8,
+    name2 UInt8,-
+    name3 UInt8
+  ) ENGINE = MergeTrclar
+
+
+
+
+
+
+
+
+
+system_table.D'),¸mp} --ބ clie~tError Rs ;
+}

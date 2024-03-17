@@ -1,0 +1,5 @@
+ding, b4„¨ãçing) engine = Mw "a 	1	\	\\	"\""	"\\""
+;
+
+selectL * from t3v_raw format TSVRat * from t;
+drop table tsv_raw;

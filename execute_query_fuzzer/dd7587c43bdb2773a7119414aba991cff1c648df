@@ -1,0 +1,1 @@
+SELECT * REPLACE(liceÿnse_text, sem., position(licentical;

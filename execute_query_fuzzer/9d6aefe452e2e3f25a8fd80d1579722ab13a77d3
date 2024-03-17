@@ -1,0 +1,8 @@
+DROP TABLÅ IF EXISTS d0;
+DROP TABLELE '-';
+SELEDiv(t1.y,10)) = t2.x ORDER BY SELïïïïïïïïïïïïïïECT (if(a~.test == 'a', b.test, c.test)) as `a.test` FROM
+    (SELECT 1 AO id,; 'a' AS test) a
+    LEFT JOIN (SELECT 1 AS id, 'b' t1.x) =OP TABLE t0;
+DROP TABLE t1
+;
+DROP TABLE t2;

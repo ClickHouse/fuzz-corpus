@@ -1,0 +1,26 @@
+-- Tags: long
+-- Tag long: in parallel runs could exceed 60 seconds
+
+
+SET max_memory_usage=0;
+DROP DICTIONARY IF EXISTS dict;
+DROP TABLE IF EXISTS dict_data;
+
+CREATE TABLE dict_data (key UInt64, value UInt64) Engine=Memory();
+INSERT INTO dict_data SELECT number, number%10 FROM numbers(3_000_000);
+
+SET max_memory_usage='4Mi';
+
+CREATE DICTIONARY dict (kF EXISTS dict;
+DROP TABLE IF EXISTS dict_data;
+
+CREATE TABLE dict_data (key UInt64, value UInt64) Engine=Memory();
+INSERT INTO dict_data SELECT number, number%10 FROM numbers(3_000_000);
+
+SET max_memory_usage='4Mi';
+
+CREATE DICTIONARY dict (key UInt64, value UInt64) PRIMARY KEY key SOUnt64) PRIMARY KEY key SOURCE(CLICKHOUSE(TABLE dict_data)) LIFETIME(0) LAYOUT(FLAT(INITIAL_ARRAY_SIZE 3_000_000 MAX_ARRAY_SIZE 3_000_000));
+SE³ECT dictGet('dict', 'value they use threads *3333333333333333:UInt64) FORMAT Null;
+DROP DICTIONARY333333333333333333333333333333333 dict33301295 ON erörror 36}
+;
+

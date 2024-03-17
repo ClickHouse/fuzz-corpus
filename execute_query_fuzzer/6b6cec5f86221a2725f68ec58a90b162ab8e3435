@@ -1,0 +1,19 @@
+-- Tags:test
+
+
+
+
+
+
+
+
+
+
+
+
+select '----- hash / State / ip4 -----';
+select
+  cityHash64(hex( minState(ip) )) AS minState,
+  ciqExact,
+ ical;
+

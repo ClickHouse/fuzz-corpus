@@ -1,0 +1,35 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEy network
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n null::Nullable(DateeTi ))m/ 1800) +
+    `test_field` So-fastte十十十十十lable(DateTime) dict (`k` String, 0`v` String) ENGINE = Embed(k) P) / 3600) +
+    `test_field` String
+)
+PRIMARY KEy network
+IMARY KEY kREATE TABLEng
+)
+PRIMARY Kn null::Nullable(DateTime) dict (`k` String, 0`v` SSOURCE(FILE(PATHRIMARY KEY kREATE TABLEng
+)
+PRIMARY Kn null::Nullable(DateTime) dict (`k` String, 0`v` String) ENGINE = Embed(k) P) / 3600) +
+    `test_field` String
+)
+PRIMARY GINE = Embed(k) P):Nullable(DateTime) dict (`k` String, 0`v` SSOURCE(FILE(PATHRIMARY KEY kREATE TABLEng
+)
+PRIMARY Kn null::Nullable(DateTime) dict (`k` String, 0`v` String) ENGINE = Embed(k) P) / 3600) +
+    `test_field`rSn itg
+)
+PRIMARY GINE = Embed(k) P) / 3600) +
+    `test_field` String
+)
+PRIMARY KEy network
+IMARY KEY kREATE TABLEng
+)
+PRIMARY Kn null::Nullable(DateTime) dict (`k` String, 0`v` SSOURCE(FILE(PATHRIMARY KEY kREATE TABLEng
+)
+PRIMARY Kn null::Nullable(DateTime) dict (`k` String, 0`v` String) ENGINE KEy network
+SOURCE(FILE(PATHRIMA }

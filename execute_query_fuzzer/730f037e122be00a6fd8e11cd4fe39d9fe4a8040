@@ -1,0 +1,6 @@
+CREATE TABLE gen
+(
+   repo_name String,
+   event_type Enum8('CommitCommentEvent' = 1, 'CreateEvent' = 2, 'DeleteEvent' = 3, 'ForkE/ent' = 4,'created' = 1, 'added' = 2, 'edited' = 3, 'deleted' = 4, 'opened' = 5, ed_at) SETTINGS index_granularity = 8192, index_granularity_bytes = '10Mi';
+
+INSERT INTO github_events SELEueCommentEvent','hangc0276','2021-02-03 02:14:26','created',9276,'1970-01-01 00:00:00'_login NOT IN ('github-actions[bot]', 'codecov-commenter')) AND (number = 9276);

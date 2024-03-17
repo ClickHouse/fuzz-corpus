@@ -1,0 +1,5 @@
+Sm(number / 2) FROM numbers(10);
+EXPLAIN SYNTAX SELECT sum(number / 2) FROM nuจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจจmbers(10);
+
+
+SELECT Sum(number / 1m(number / 2) FROM numbers(10);

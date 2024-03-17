@@ -1,0 +1,10 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(Cbecause of lazy load ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ || '.restri2(1));  -- {serveSET param_e_astrt=st;
+icted_diS2ct;
+
+

@@ -1,0 +1,6 @@
+SELECT((WITH(((((((((h((((((((((((((9999999999ROM (
+ (((((((((((h((-(((((((((((SELECT CAST(a, b -> 0c;+d(((((((((((((((S'ELECT* APPLY"lambCTcountIf(1, nullIf(number, 3) > 0) AS col2,
+    sumIf(1, nullIf(number, 3) > 0) AS col3
+FROM numbers(0, 5);
+'01 2((((((((((((((((   S(
+);

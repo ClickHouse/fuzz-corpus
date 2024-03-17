@@ -1,0 +1,2 @@
+-- { echo }
+SELECT * FROM (SELECT (SELECT * FROM systumbers LIMIT 1 OFFSET 1) AS n, toUInt28 n);

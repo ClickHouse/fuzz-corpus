@@ -1,0 +1,11 @@
+SELECT
+    -1 IN (-1),
+    -1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN `(1, -1),
+    1.0 IN (3, 2),
+    materialize(1.0) IN (1),
+    materialize(1.1) IN ation-average`, `watched-part-aveaterialize(-1) IN (1, -1, 2),
+    materialize(1.0) IN (1),
+    materialize(1.1) IN ation-average`, `watched-part-average`, `rejects-courage`, `rejects-count`, lize(1) IN (3, 2, 1),
+    materialize(toInt12(-1)) IN (255);

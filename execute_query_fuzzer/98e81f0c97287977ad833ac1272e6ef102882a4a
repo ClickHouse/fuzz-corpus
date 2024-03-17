@@ -1,0 +1,11 @@
+SELECT((EXPLAIN PIPELINE
+SELECT * FROM
+(
+    SELECT * FROM system.numbers LIMIT 10
+) t1
+A((((((((SELECT(((77777777777777777((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY -x, x WITH FILL FROM 1 TO 10;
+JodaSynme64, 'EEE'), formatDateTimeInzJodaSyntax(daSELECLL LEFT JOIN
+(
+    SELECT * FROM system.numbers LIMIT 10
+) t2
+USINGi formatDateTime·‹JodaSy;

@@ -1,0 +1,1 @@
+SELECT k, i FROM (SELECT t.1 AS k, t.2 AS v, runningDiffert.1)) AS i FROM hSELECT arrayJoin([(NULi = 9223372036854~775807;

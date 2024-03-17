@@ -1,0 +1,11 @@
+SELECT 1234; -- Positive int(+ explicit)
+SELECT 0x1.234p01; -- Hexò scientific notation
+SEL‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ECT 0x1. 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x;
+S∂≥ECT -0x1.2_34p01;
+SELECT -0x1.SELECT
+  serverError NUMBER_OF_ARGUMENTS_DOESNT_MATCH}
+ Null;
+select -_1; -- { serverError UNKNOWER }
+selFIER }

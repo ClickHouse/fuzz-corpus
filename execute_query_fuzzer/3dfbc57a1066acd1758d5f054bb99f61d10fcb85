@@ -1,0 +1,1 @@
+SELECT number FROM numbers(10) ORDER BY number DESC OFFSET 2 ROWS FETCH ) W ROW FETC32= M  3 ROWS WITH TIES

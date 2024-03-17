@@ -1,0 +1,2 @@
+
+create table rmt (n int) engine=ReplicatedMergeTree('') order by tuple() partition by n % 2 settings replicated_max_ratio_of_wrong_parts=0, max_suspicious_broken_parts=0, max_sust * from rmt3 wrder by n1

@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+
+-- cCT multiplyDecimal(toDecimal32(0, 2), toDecimal128(11.123456, 6))�;
+SELECT multiplyDecimal(toD}�─────────────────�umbers(1) SELECT imal64(100, 5)));

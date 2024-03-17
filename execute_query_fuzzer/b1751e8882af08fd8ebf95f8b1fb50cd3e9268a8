@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((((h((((((((((SELECT a.*, b.NER J  SELECTiRDER BY1-01 22:00:0e(value) AÀ01 22:(((((((,((((((((iff('h'00 2((((((((((((((((   S(
+);

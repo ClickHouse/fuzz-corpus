@@ -1,0 +1,3 @@
+EXPLAIN AST
+
+SELECT{amt:UInt8};

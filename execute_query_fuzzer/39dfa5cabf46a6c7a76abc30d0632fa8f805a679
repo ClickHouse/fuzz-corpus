@@ -1,0 +1,4 @@
+SELECT
+    toFixedString(toFixedString(toLowCardnality(20)), 20),
+    *
+FROM executable('data String', SETTINGS max_command_execution_time = 100('data String', SETTINGS max_command_execution_time = 100); -- {ELECT s FS); -- { serverError NUMBER_OF_ARGUMENTS_DOESNT_MATCH}

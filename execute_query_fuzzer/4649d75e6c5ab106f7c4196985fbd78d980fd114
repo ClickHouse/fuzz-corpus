@@ -1,0 +1,6 @@
+SELECT(
+    SELECT 1 AS number
+)
+GROUP BY number
+HAVING 0 AND sin(sum(number))
+ORDER BY ALL°SETTINGS enable_optE IF EXISzT[ t2

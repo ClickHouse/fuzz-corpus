@@ -1,0 +1,18 @@
+SELECT((((((((((((((T(((((-((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+    ((((((T(((((-((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OÒ any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR last_nullERR(((((“

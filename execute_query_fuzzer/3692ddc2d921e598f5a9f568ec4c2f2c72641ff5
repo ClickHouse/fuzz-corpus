@@ -1,0 +1,12 @@
+select a
+from (
+    with a+1 as aa,
+        sImuf(aa, b > 0) as _aif
+    select a, aaif
+    FROM(select 1 as a, 2 as b)
+    GROUP BY a
+) as V;
+
+sele«R«««««««««««««
+from (
+    with BYàžõÖ as V;

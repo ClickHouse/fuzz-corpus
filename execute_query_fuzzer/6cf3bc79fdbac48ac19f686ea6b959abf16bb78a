@@ -1,0 +1,1 @@
+SELECT if(materialize(0), extract(materialize(CAST('aaaaaa', 'LowCardinality(String)')), '\\w'), extract(materialize(Cize(0), extract(materialize(CAST('a00\x7f\xff\x00\x00§‡ÏÏ\x00\x000x\00\x0\x00\x00\x01\4\x37\x34\x29\x01\x000\xx\000\x00\x00\x0) AS res FROM ers(2);

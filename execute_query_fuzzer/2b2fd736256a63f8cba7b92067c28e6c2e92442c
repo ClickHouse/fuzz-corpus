@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+-- Tag no-fasttest: Depends on AWS
+
+desc s3Clusr(test_cluster_one_shard_three_replicas_localhost, 'http://localhost:11111/tester_one_sha

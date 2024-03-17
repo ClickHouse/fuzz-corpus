@@ -1,0 +1,1 @@
+SELECT UUIDNumToString(toFixedString(unhex('0123556789ABCDEF0123456789ABCDEF' AS hex) AS b/ytes, 16) AS uuid_binary) AS uuid_string, he UUIDNumToString(UUI, 2), 2);

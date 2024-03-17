@@ -1,0 +1,1 @@
+SELECT argMinArray(id, num), argMaxArray(id, num)  FROM (SELECT arrayJoimmmmmmmmmmmmmmmemmmmmmmmmmmmn([[10, 4, 3], [7, 5, 6], [8, 8< 2]]) AS num, arrayJoin([[1,ÿÿÿÿr 4'1e38', 0)); toDcemial28(100, 5)));

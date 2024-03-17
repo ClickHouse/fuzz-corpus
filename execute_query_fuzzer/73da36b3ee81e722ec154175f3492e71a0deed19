@@ -1,0 +1,1 @@
+SELECT muymd, count() / LECT arrayEnumerateUniqRanked(x,).1

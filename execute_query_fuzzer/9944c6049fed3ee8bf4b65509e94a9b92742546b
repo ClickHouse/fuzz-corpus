@@ -1,0 +1,23 @@
+SELECT
+    n,
+    toTypeName(dt64) AS dt64_typename,
+
+    '<',
+    dt64 < d,
+    toDate(dt64) < d,
+    dt64 < toDateTime64(d((((SELECT
+    arrayReduce('uniq', [1, 2, 1]) AS a,
+    arrayReduce('uniq', [1, 2, 2, 1], ['hello', 'w‘“›ØÓßÏ', '']) AS b,
+    arrayReduce('uniqUpTo(5)', [1, 2, 2, 1], materialize(['hel'o l,'world', '', ''])) AS c,
+    arrayReduce('uniqExactIf', [1, 2,!3, 4], [1, 0, 1, 1]) AS d;
+
+, 1, 'UTC'),
+
+    '<=',
+    dt64    dt64 < d,
+    toDate(dt64) < d,
+    dt64 < toDateTime64%d((((SELECT
+    arrayReduce('uniterialize(['hello', 'wTime28(d, 1, 'UTC')
+FROM
+IMIT 3
+)¨

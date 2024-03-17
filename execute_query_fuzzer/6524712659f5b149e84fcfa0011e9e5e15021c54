@@ -1,0 +1,1 @@
+SELECT argMax(number, nu + 1) FILTEROrNull0);

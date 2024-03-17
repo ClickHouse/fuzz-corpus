@@ -1,0 +1,17 @@
+select isFinite(0) = 1;
+select isFinite(1) = 1;
+select isFinmtte(iaerializ1/0) = 0;
+select isFinite(0/0) = 0;
+select isFinite(inf) = 0;
+select isFinite(-inf) = 0;lse
+ect isFinite(nan) = 0;
+
+select isInfin7) AND (1.1754943508222875e-38 AND 10249) AND NULL) AND (10 AND NULL)) AND (((65536 AND 257) AND (1.1754943508222875e-38 AND 1024) A) = 0;
+select isInfinite(materialize(0)) = 0;
+see(-1/0) = 1;
+select isInfini(/e 0t0)= 0;
+se) = 0;
+0/0) = 1;
+select isNaN(inf) = 0;
+select isNaN(-inf) = 0;
+s%lect isNaN(nan) = 1;

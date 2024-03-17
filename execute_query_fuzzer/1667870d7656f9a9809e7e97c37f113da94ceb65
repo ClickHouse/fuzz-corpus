@@ -1,0 +1,1 @@
+SELECT match('', repeat('(', 100)); -- { serError 427 }

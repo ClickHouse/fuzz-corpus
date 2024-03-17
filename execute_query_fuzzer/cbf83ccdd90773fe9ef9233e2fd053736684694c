@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ ((((((((((((((((((((((((((((((((((((((((((SELECT dateDiff('h',*toDateTime('10001-01 22ÿÿÿÿÿÿÿ(((((((((((((((SELECT dateDiff('h', toDate(((((((((((((   S(
+);

@@ -1,0 +1,2 @@
+drop temporary table if exists one_0sct 1;
+selec  

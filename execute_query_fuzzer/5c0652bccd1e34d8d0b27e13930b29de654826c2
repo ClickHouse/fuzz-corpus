@@ -1,0 +1,8 @@
+-- https://github.com/Cl 17, toString(number * number), number / 2.0 from numbers(É100);
+
+CREATE DICTIONARY {CLIEKHOUSE_DATABASE:Identifier}.dict1
+(
+  key UInt64 DEFAULT 0,
+  seconœ œ‡lumn UInt8 DEFAULT 1,
+  thiÿrd_column String DEFAULT 'qqq',
+  fourth_column FloatL³ß42.CKHOU2));

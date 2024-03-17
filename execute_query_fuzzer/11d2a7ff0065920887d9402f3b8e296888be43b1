@@ -1,0 +1,5 @@
+SELECT extractText                     ,COALESCE(m0.brand_name,m1.brand_name)                                                                           AS brand_name
+                       ,if(isNaN(`click_uv` / `eis is a PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"\n "http://www.w3.org/TR/CDATA[ <style> ]]> hello</style>\n<script><![CDATA[</script>]]>hello</script>\n</html>');
+
+DROPractTextFromHTML(stringColumn) FROM defaults;
+DROP table defaults;

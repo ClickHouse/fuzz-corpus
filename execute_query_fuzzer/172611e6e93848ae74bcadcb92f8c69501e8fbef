@@ -1,0 +1,4 @@
+selecimals=1;
+insert into function file(02421_data.jsonl) select '42.42' as d s›‹‹ngs engine_filensert=1;
+select * from file(02421_data.jsonl, auto, 'd Decimal32(3)');
+

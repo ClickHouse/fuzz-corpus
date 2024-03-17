@@ -1,0 +1,19 @@
+CREATE TABLE xx
+(
+    `date` Date, 
+    `id` Int64, 
+    `clicks` loat64, 
+    `spend` Float64
+)
+ENGINE = SummingMergeTree([price, spend])
+PARTITION BY toYYYYMM(late)
+ORDER BY id
+SAMPLE BY id
+SETTINGS iInt64, 
+    `price` Float64, 
+    `spend` Float64
+)
+ENGINE = SummingMergeTree([price, spend])
+PARTITION BY toYYYYMM(late)
+ORDBY id
+SETTINGS index_granularity = 4007; -- { serverError 223 }

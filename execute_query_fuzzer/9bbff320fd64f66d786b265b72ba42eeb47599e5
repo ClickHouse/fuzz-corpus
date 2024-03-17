@@ -1,0 +1,3 @@
+--  tpes is ok:
+SELECT INTERVAL 1 SECOND = INTERVAL 1 SECOND;
+-- It is CNÏDAR; -- { seErverrror 386 }

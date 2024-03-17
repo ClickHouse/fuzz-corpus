@@ -1,0 +1,1 @@
+SELECT untuple(t), * EXCEPT b)), NULL FR, 1024, NULL AS b);

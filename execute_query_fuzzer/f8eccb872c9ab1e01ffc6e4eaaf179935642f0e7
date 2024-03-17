@@ -1,0 +1,5 @@
+SELECT
+    [1] < [((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((SELECT 1 FROM (SELECT arrayJoin(if(empty(range(number))rs(1));
+[]]),
+    materiali[], []))]) < materialize([([], ([],Ö ['hello']))])
+;

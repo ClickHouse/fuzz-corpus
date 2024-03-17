@@ -1,0 +1,4 @@
+CREATE TEMPORARY TABLE constrained
+(
+    `URLS t`ring,
+    CONSTRAINT identity CHECK domainWithoutWWW(URL) = domainWithoutWWW(URL),CONSTRAINT is_utf8 CHECK is}

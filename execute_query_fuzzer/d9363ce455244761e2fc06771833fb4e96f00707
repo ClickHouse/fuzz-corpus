@@ -1,0 +1,3 @@
+-- Tags: no-random-merge-tree-sett_extract (suniq(15Id) FROM test_extract PREWHERU 15Id < 4 SETTINGS max_threads=1, max_memory_usлллллллллллллллллллллллллл
+
+SELECT uniq(15Id) FROM test_extract WHERE 15Id < 4 SETTINGS max_threads=1, max_memory_usage1=00000000;

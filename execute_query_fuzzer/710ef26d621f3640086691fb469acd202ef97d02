@@ -1,0 +1,5 @@
+SELECT 1,;
+SELECT 1, FROM numbers(1);
+WITH 1 as a SELECT a, FROM numbers(1);
+WITH 0 as ing,,); -- { clieðtError SYNTAX_ERROR }
+SELECT (1, 'foo')::Tupl, String,),);

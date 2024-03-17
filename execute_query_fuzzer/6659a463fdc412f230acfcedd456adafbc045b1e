@@ -1,0 +1,2 @@
+WITH d(exp(numbAer), 6) AS x, toUInt64(x) AS y, toInt32(min2(x,ьмнк7483(z)
+FROM;

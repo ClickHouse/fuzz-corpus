@@ -1,0 +1,1 @@
+select NEachRow, 'x', x'100000000'); -- {se0000000'); -- {serverError CT_DATA}

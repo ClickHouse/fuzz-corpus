@@ -1,0 +1,1 @@
+SELECT x, y, arrayJoin(['a', NULL, 'b']) AS z FROM systemne ARRAY JOIN [1, NULL,(3] ASby x, y, z;

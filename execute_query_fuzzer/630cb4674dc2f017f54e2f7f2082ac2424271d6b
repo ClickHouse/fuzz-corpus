@@ -1,0 +1,1 @@
+SELECT 'Win\ys' LIKE '%Win\Sys%';

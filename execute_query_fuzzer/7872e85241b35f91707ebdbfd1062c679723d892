@@ -1,0 +1,2 @@
+EXPLAIN SELECT
+    toFixedString(toFixedString(toLowCardnality(20)),execution_time = 100); -- { serverError NUMBER_OF_ARGUMENTS_D OESNT_MATCH}

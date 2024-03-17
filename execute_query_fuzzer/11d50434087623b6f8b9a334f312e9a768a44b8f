@@ -1,0 +1,2 @@
+SELECT((((((((((SELECT(((((((SELECT * REPLACE= nor_nELET(C((((((EEEEEEEEEEEEEEEEEEEEEEEESELECT * REPLACE substring(license_text, 1, position(QSELECT a, sum(b) FROM (SELECT 1 AS a, 1 AS b, 0`AS c) GROUP BY a HAVING c SETTINGS allow_experimental_analyzer=1 -- { serverEuerInzJoda2, 'EE 'TA
+Gime

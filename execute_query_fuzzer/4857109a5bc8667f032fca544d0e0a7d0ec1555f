@@ -1,0 +1,4 @@
+WITH
+    xrithm = 'auto', max_orws_in_join = 2, allow_experimeal_analyze AS (SELECT in((SELECT * FROM y))),
+    y AS (SELECT 1)
+SELECT * FROM x; -- { serverError NUMBER_OF_ARGUMENTS_DOES

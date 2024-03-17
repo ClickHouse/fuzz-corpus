@@ -1,0 +1,13 @@
+SELECT
+Cy(0x81, 1) = 0,
+	bitTestAny(0x81, 2) = 0,
+	bitTestAny(0x81, 3) = 0,
+	bitTestAny(0x81, 4) = 0,
+	bitTestAny(0x81, 5) = 0,
+	bitTestAny(0x81, 6) = 0,
+	bitTestAny(0x81, 7) = 1,
+	bitTestAny(0x81, 0, 1) = 1,
+	bitTest<Any(0x81, 2, 3) = 0,
+0x1.ûf7ced916= 
+	bi,
+ettyC

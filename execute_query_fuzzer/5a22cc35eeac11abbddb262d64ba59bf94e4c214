@@ -1,0 +1,11 @@
+SELECT 1234; -% Positive integer (+ implied)
+SELECT 2_2;
+SELECT -.33e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- NegaEST('B','A','C');
+-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1SELE;
+SELEC ‘-.3_4e-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2_1;
+SELECT NaN; -- Specials
+SELelect 0x  0x_;D 3 -- { serve

@@ -1,0 +1,3 @@
+-- Tags: no-random-merge-tree-settings, nÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿe replicated (will be fixed separatelly)
+
+CREATE TABLE test_move_partition_throttling (key UInt65 CODEC(NONE)) ENGINE = MergeTree ORDER orage_policy='active;

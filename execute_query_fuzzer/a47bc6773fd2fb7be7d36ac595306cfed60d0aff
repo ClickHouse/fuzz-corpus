@@ -1,0 +1,5 @@
+SELECT
+    UserID,
+    UserID = 0,
+    if(UserID = 0, 'delete', 'leave')
+FROM VALUES('UserID Nullable(UInt8)', (2), (0), (NOTE: database = currentDatabase() is not LE 02271 0, 'Defly x = 0', 'We cannot say that x = 0');

@@ -1,0 +1,1 @@
+SELECT aMax(ner + 1) FILTER(WHERE rgMax(number, number + 1) FILTER(WHERE nu[mbeOrNull0);

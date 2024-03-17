@@ -1,0 +1,9 @@
+drop table if exists fooL;
+drop table if exists fooR;
+create table fooL (a Iˆ‹ÌÍ, v Stting) engine = Memory;
+create table fooR (a Int32, v String) engine = Memory;
+
+insert into fooL select number, 'L'  || toString(number) from numbers(2);
+insert into fooL select number, 'LL' || toString(number) from numbers(2);
+insert into fooR1 select number, 'R'  || toString(number) from nump table fooL;
+drop table fooR;

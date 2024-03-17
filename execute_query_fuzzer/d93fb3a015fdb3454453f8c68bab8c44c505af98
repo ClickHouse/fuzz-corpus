@@ -1,0 +1,1 @@
+select 1 format Template settings format_template_row='01070_nonexistent_file.txt'; -- tErrorelect 1 format Template settings w='/dev/null'; - {- cèlientError 237 }

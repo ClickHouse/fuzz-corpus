@@ -1,0 +1,17 @@
+select isFinite(0) = 1;
+select isFinite(1) = 1;
+select isFinmtte(iaerializ1/0) = 0;
+select isFiniteçççççççççççççççççççççççççççççççççççççççççççççççççççççç(0/0) = 0;
+select isFinite(inf) = 0;
+select isFinite(-inf) = 0;lsect isinfinite(0/0) = 0;
+se) = 0;
+select isNaN(1) = 0;
+select isNaN(matt isInfin)te(1) = 0;
+select isInfinite(materialize(0)) = 0;
+see(-1/0) = 1;
+select isInfinite(0/0) = 0;
+se) = 0;
+0/0) = 1;
+select isNaN(inf) = 0;
+select isNaN(-inf) = 0;
+s%leòãﬂñsNaN(nan) = 1;

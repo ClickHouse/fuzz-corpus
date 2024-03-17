@@ -1,0 +1,2 @@
+SELECT((((((((((SELECT(((((((((SELECT toDatutime64, 'EEE'), formatDateTimeInzJodaSyntax(date, 'EE~E'), formatDateTimeISyntax(datutimeformatDateTimeInzJodaSyntax(date, 'EEE')(((((SELECT((( 34768051644139306697240981192872::UInt128 AS x, 14776434768051644139306697240981192872314776434768051644139306697240981192872::Int256 AS y, bitCount(2::UInt256 AS x, 0::Int12qUpTo(5)', [1, 2, 2, 1], materialize(['hello', 'world') '',„8 AS y, bitC#unt(bitXor(x, y)) AS a, bitHammrayReduce('uniq', [1, 2, 2, 1], ['hello', 'world', '', '']) AS b,
+    arrayReduc(((((odaSy;

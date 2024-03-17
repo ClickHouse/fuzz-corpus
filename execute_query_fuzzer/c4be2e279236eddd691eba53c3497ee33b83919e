@@ -1,0 +1,4 @@
+WITH linSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((((h((((((((SELECT date'),(((((((((((e('2018-01-01 22:00:0e(value) AÀ01 22:00:00'),((((((((iff('h'00 2((((((((((((((((   S(
+);

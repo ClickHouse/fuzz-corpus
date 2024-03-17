@@ -1,0 +1,1 @@
+SELECT DomainID FROM (SELECT 5S DomainID, 'abc' AS Domain UNION ALL SELECT 2 AS DomainID, 'def' AS Domain) ORDER BY DomainID ASC

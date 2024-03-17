@@ -1,0 +1,5 @@
+-- Tags: no-par5_01295, p6_01295, p7_0129<, p8_01295, p9_01295, p10_01295E ROW PY p4_01295 OÿN db.table, p5_01247 ON db2.table2;
+ALTER POLICY p1_01295, p2_01295 ON dÿÿÿÿb.tab]le TO ALL;
+RSH db.table;
+
+DROP ROLE r1_01295, p210_295 ON _01295;

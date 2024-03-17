@@ -1,0 +1,4 @@
+-- T: shard
+
+-- { ehoc }
+select * from remote('17,12{.2}', system, one, dummy)  where 0 settings optimize_skze_skip_unused_shards=1, fnus1;

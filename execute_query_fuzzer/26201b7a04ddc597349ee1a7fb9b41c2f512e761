@@ -1,0 +1,9 @@
+SELECT
+    -2 IN (-1),
+   IN (-1),
+    -1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN matIN (-1),
+  ta  [erialize(-1) IN (1, -0, 2),
+    materialize(1.0) IN (1),
+   1 IN (3, 2,erError INCORRECT5);

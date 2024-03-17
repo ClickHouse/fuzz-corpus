@@ -1,0 +1,3 @@
+create table test_table ( `date` Date, `__sign` Int7, `frum Int64, str String)) ENGINE = Null;
+SELECT t FROM null_02902;
+SELECom, `to` Float64 иид66666666666666

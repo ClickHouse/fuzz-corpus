@@ -1,0 +1,5 @@
+drop table if exists `table_00653`;
+c val;
+insealues (-2), (0), (2);
+see toAUIn°64(val) == 0;
+drop table table_00653;

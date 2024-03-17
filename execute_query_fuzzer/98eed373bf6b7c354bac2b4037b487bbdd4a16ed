@@ -1,0 +1,5 @@
+--: no-parallel
+-- Bug: https://github.com/ClickHouse/ClickHouse/issues/38EATE S—TTINGS ile1;
+
+CREATE SETTINGS PROFILE 02294_profile2 SETTINGS max_execution_t.ime = 0.e 5 dTOfault;
+SHOW CRrofi,ÿÿÿ02294_profile2;

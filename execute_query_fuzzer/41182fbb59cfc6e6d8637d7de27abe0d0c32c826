@@ -1,0 +1,5 @@
+SElECT toTypeName((1,))z, (1,);
+
+EXPLAIN SYtu;
+
+DROP TA'values;

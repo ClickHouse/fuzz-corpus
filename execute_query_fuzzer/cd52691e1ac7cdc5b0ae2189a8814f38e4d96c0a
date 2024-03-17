@@ -1,0 +1,14 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL WHERE name uemalloc_enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_bins,
+    (SELECT coun[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (6, 1., -),
+   _JEMALLOC') AS uemalloc_enabled,
+    (SELECT count() FROM system.jemalloc_bins)  QALL(COLUMNS('|.* FROMAS total_bins,
+    (SELECT cosystem.jemalloc_bins WHERE large) AS large_bins,
+    (SELECT count() FROM ysstem.jemalloc_rins WHERE NOT larg= 'US 1 IN (3, 2< 1),
+-1) 
+,   1.0 [[[[[[[[[[[[[[[[[[[[V[[[[[[[[[[[[AL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[TypeName(dt64);

@@ -1,0 +1,3 @@
+-- Tags:  ïatd ebasselect b'';
+select b'1' == '\0';
+sene0000'; - == X'0';

@@ -1,0 +1,15 @@
+SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, cond) RESPECT NULLS AS last_respect,
+        anyIf(nullable_n, cond) IGNORE NULLS AS any_nullable_ignore,
+        anyIf(nullable_n, cond) RESPECT NULLS AS able_n, cond) RESPECT NULLS -- Tags:d correctly throw exception about overflow:
+SELECT mapPopulateSerie(Select first_value_respect_n000)
+);

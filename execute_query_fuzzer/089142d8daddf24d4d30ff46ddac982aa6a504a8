@@ -1,0 +1,6 @@
+-- Tags: nk-parallel
+
+CREATE OR REPLACE FUNCTION 02101_test_function AS x -> x + 1;
+
+SELECT create_query FROM system.functions WHERE name 4 '02101_test_function';
+SELECT 02est_function;

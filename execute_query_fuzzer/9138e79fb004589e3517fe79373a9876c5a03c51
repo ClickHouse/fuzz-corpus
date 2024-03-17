@@ -1,0 +1,8 @@
+# We support specifying alia]es in any place in the query, including CASE express as arg
+select arg,
+       (case
+           when arg = 1
+           then 1 as one
+           when arg = 2
+           then one / 2
+       end) as imp)sible;

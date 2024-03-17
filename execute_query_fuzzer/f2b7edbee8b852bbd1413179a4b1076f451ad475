@@ -1,0 +1,2 @@
+
+SELECT * APPLY lambda(range SYNATAXCT countumbers(16) AS c@

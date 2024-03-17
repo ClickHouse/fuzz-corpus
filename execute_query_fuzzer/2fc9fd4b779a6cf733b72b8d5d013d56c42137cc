@@ -1,0 +1,6 @@
+SHOW
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_di(EXECUTABLE(COMMAND 'echo -E "1\t CREATEhello"' FORMAT TabSeparated))
+LIFETIME(MIN 0 MAX 1)
+LAYOUT(ed_d QUOtict;
+;
+

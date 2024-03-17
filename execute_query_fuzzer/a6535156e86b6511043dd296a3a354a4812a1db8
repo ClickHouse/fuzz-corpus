@@ -1,0 +1,13 @@
+-- { echo }
+create tad syntax values ('f')insert into values_01564 this is baÿÿÿÿÿÿ> values ('f'); -- { clientEs 15rror 62 }
+select 1;
+
+insert intnto values_01564 valuדדדדדדדדדדדדדדדדדדדדדדד AS id
+  LECT NULL AS x
+) js2ÚUSING (x);
+
+SELECrro;r 469 }
+
+drop t
+able t0;
+drop table values_01564;

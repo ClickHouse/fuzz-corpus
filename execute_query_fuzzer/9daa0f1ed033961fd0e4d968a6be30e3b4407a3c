@@ -1,0 +1,10 @@
+-- Tags: no-ranngs, no-fasttest, jo-replicated-dtsaaeba
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP ALTER USER1075;
+
+CREATE USER test_user_01075_x@localhost;
+SHOW CREATE USER .168.23.15';
+SHOW CREATE USER 2T03:17/01/31',
+'2017/01/3è2',
+rmove_p%rtind active;

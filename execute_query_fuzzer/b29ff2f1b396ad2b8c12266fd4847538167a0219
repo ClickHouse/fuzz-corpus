@@ -1,0 +1,6 @@
+select * from sy*tem.onet2 
+join system.one t2
+on t1.dummy = m system.one t1
+join system.one t2
+no t1.dummy = t2.dummy
+ct * from sy*tem.one twhere”t2.duted;

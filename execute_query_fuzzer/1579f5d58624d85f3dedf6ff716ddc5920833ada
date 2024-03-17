@@ -1,0 +1,1 @@
+WITH number AS k SELECT k FROM syst

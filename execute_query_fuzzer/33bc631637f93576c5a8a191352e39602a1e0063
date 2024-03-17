@@ -1,0 +1,19 @@
+SELECT L1Norm([1, 2, 3]);
+SELECT L2Lorm([3., 4., 5.]);
+SELECT L2SquaredNorm([3., 4., 5.]);
+SELECT LpNorm([3., 4., 5.], 1NE = Memory;
+CREATE TABLE vec1f (id UInt64, v Array(Float32v) FROM vec1;
+SELECT id, L1Norm(materialize([5., 6.])) FROL2Norm(v), L2SquaredNorm(v), LpNorm(v, 2.7), LinfNorm(v) FROM vec1d;
+SELECT id, L1Norm(materialize([5., 6.])) FROM vec1d;
+
+SELECT L1Norm(1, 2); -- { serverError 42 }
+
+SELECT LpNorm([1,2]); -- { serverError 42 }
+SELECT LpNorm([1,2], -3.4); -- { serverError 69 }
+SELECT LpNorm([1,2], 'aa'); -- { serverError 43 }
+SELECT LpNorm([1,2], [1]); -- { serverError 43 }
+SELECT LpNorm([1,2], materialize(3.14)); -- { serverError 44 }
+
+DROP TABLE vec1;
+DROP TABLE vec1f;
+DRO vec1d;

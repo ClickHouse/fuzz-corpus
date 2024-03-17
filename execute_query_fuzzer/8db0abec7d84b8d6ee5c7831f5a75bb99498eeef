@@ -1,0 +1,9 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ (((((((((((((((ECT((((((((SELECT (0.1, 0.2)::Tuple(Delmal(00, 70));
+ENPLAIN);
+
+S/ELECT [[1::UInt16, 2::UInt12\x00\xΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ((((((((((((((((SELECT dateDif(f['', toDateTime('20101-01 22:00ΛΛΛΛΛΛ00\/00\x00\xΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ00\/00\x00\x00\x00\x00£‡00\89\x25'); e:00'),((((((((((((((((((((((((SELECT dateDiff(' BY perih', toDate(((((od,ÿÿÿÿÿÿ=ÿÿÿÿÿÿ col }
+(
+(((((((   S(
+);

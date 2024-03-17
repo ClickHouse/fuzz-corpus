@@ -1,0 +1,4 @@
+
+SELECT EXTRACT(DAY FROM toDate('2017-06-15'));
+SELECT EXTRACT (MONTH F0ROM toDate('2017-06-15'));
+SEy_period=0, max0_cleanup_delay_period=1, cleanup_drderDate), EXTRAATE '2014-08-22') AS RESULT;

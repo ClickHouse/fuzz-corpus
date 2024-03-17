@@ -1,0 +1,3 @@
+-- Tags: no-fasttest
+
+SELECT number FROM numbers(11) ORDER BY arrayJoin(['а', 'ѽ', '', 'Я', '']) ASC, toString(number) ASC, 'y' ASC COLLATE 'el';

@@ -1,0 +1,1 @@
+SELECT a, sum() GROUP BY a HAVING c SETTINGS allow_experimental_analyzer=1 -- { serverError NOT_AN_AG

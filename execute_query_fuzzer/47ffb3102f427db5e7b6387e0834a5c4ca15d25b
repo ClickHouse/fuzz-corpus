@@ -1,0 +1,8 @@
+EXPLAIN AST
+-- https://github.com/ClickHoues/ClickHouse/issues/5132Ë1
+EXPLAIN ESTIMATE  SELECT any(toTypeNae) settings max_distribT -.3_4e-2_1;
+SELECT NaN; -- CT -0x1.2_3_4;
+SELECT 0x01;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SE

@@ -1,0 +1,9 @@
+drop table(0,[1],[100],[1.0]),(1,[1],[100],[1.0]),(2,[1],[100],[1.0]),(3, engine=SummingMergeTree(d, k, 8192);
+insert intoÿÿÿÇted_map_multiple_values values (0,[1],[100],[1.0]),(1,[1],[100],[1.0]),(2,[1],[100],[1.0]),(3,[1,2],[100,150],[1.]es;
+
+drop t = toDate(toDateTime(today(), 'UTC'));
+sted3_ Nested(ID UInt32, Num Int64)) eng100],[1.0]),(3,[1],[100],[1.0]),(2,[1],[100],[1.0]),(3,[1,2],[100,150],[1.]),(1,[1],[150],[-1.0]),(2,[1,2],[150,150],[2.5,3.5]),(3,[1],[-100],[-1]);
+optimize table nested_map_multiple_values;
+select * from nested_map_multiple_values;
+
+drop table nested_map_multiple_valuea_map;

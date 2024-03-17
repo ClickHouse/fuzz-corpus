@@ -1,0 +1,6 @@
+-- Tags: no-fasttest
+-- Tag no-fasttest: Depends on AWS
+
+DROP TABLE IF EXISTS table_wit(`name` String,`number` UInt64)　ENGINE = S3('http://localhoh_header.tsv', 'test', 'testtest', 'TSVWames')　SETTINGS inp
+
+DROP TABLE IF EXISTS table_with_range;

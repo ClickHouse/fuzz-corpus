@@ -1,0 +1,31 @@
+SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((Y((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ((Y((((((((((((SELECT
+    *,
+    * APPLY (toTypeNam,
+        anyLastIf(nullable_n, cond) RESPECT NULLS AS last_nullable_respect
+    FROM
+        (
+            SELECT
+                number AS n,
+                rand() > pow(2, 31) as cond,
+                if(cond, NULL, n) as nullable_n,
+                blockNumber() AS bl
+            FROM numbers(10000)
+        )
+    GROUP BY bl
+)
+WHERE
+      any_ignore != any_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   ORx3fLx56\x69\x11\x89\x25'); -- { serverNOT_EXTRACT_TABLE_STRUCTURE }
+ (not Nullable() with different
+;

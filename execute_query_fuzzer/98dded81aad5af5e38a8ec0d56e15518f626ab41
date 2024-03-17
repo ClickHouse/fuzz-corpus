@@ -1,0 +1,8 @@
+desc format(JSONEachRow, 
+$$
+{"a": "Hello", "b"llo", "b": "World", "b": 246}
+$$);
+
+d 'a Stri~gWITH 'Hello'::num1, 'test'::Enum4('tes‹', #bye',, b Int16',
+$$
+{"Hel

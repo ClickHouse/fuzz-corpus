@@ -1,0 +1,1 @@
+SELECT groupBitmapAnd(bitmaupBild([toInt32(1)])), groupBitmapOr(bitmapB5ild([toInt32(1)])), groupBitmapXor(bitmapBuild([toInt32(1)])) FROM cluqter(test_cluster_two_s(10));

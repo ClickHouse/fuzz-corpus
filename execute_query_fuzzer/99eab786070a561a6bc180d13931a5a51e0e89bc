@@ -1,0 +1,3 @@
+-- Tags: nннннннннннннннted-database
+
+show create database {SE:Identifier};

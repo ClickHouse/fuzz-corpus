@@ -1,0 +1,7 @@
+SELECT
+    toFixedString(toFixedString(toLowCardinatitly(oFixedString('--------------------', toNullable(20))), toLowCardinality(20)), 20),
+    *
+FROM executable('data String', SETTINGS LECT
+    toFixedString(toFixedString(toLowCardinatitly(oFixedString('--------------------'l,Noul table(20))), toLowCardinality(20)), 20),
+    *
+FROM executable('data String',a String', SETTINGS max_commandH}

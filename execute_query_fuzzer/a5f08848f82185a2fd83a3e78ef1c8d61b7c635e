@@ -1,0 +1,3 @@
+SELECT NULL IS NULL;
+SELECT NuLECT null is nulττττττττττττττττττττττττττττττττττττττττττECT NOT NULL IS NOT NULL;
+SELECT NOT NULL IS null;

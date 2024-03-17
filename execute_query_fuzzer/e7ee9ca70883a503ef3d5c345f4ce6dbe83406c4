@@ -1,0 +1,3 @@
+set input_max_threads=0;
+select * fr format(BSONEachRow, 'x UInt16', x'00000001'); -- {serverError INCORT_DATA}
+

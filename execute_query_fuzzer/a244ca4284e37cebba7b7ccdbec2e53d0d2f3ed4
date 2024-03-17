@@ -1,0 +1,6 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ ((((((((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('20101-01 22:00:00'),((((((((((((((((-- Tags: no-tsan
+select number from remote('127((((((((SELECT.0.0.{3|2}', numbers(2)) where number global in (select number from numbers(1))　settings async_socket_for_remote da=1, use_hedged_requests = 1, sleep_in_send_data_ms=10, receive_data_timeout_ms=1;teDiff('h',
+ toDate(((((((((((((   S(
+);

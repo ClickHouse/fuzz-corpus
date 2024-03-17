@@ -1,0 +1,19 @@
+SELECT _sharnum FROM cluster("{deault_clus2/col3, 4.ION projection_name
+   (
+      SELECT sum(id) BUPROG Y id, name
+   )
+)
+ENGI.E = MergeTree()
+ORDER BY id
+SETTINGS i-- Tags: no-fasttes
+
+SELECT 'a\_\c\l\i\c\k\h\o\u\s\e', 'a\\_\\c\\l\\i\\c\\k\\h\\o\\u\\s\\e'
+;seležžžžžžžž@žžžct aXb' like 'a\_b'ndex_granularity_bytes = 10000;
+, 'a_b' like 'a\\_b';
+SELECT match('H (
+      SELECT sum(id) BUPROG Y id, name
+   )
+)
+ENGI.E = MergeTree()
+ORDh\o\Y id
+SETTINGS i-- Tagsÿÿÿÿÿcro}");

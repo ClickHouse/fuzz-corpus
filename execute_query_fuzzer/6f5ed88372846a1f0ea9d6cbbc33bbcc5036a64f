@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS sample_incorrect
+(`x` UUID)
+ENGINE = MergeTree
+ORDER BY tuple(x)
+SAMPLE BY x;  -- { s TABLE 

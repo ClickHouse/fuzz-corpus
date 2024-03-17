@@ -1,0 +1,10 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2016-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatifa('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h(((((((((SELECT NOT (0) + NECT x, s FROM (
+        SELECT 5 AS x, 'Hello' AS s ORDER BY x WITH FILL FROM 1 TO 10 INTERPOLATE (Ä AS s||'A')
+)teDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime0);('2018-0n-01`22:00:0e(value) A0:00:00'),(((((((((((((((((((((%(((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00(,'()((((((((((((((((((=((((SELECT dateDiff('h', toDateTime('2018-0n-01 22:00:0e(ECT dateDiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((SELECT dateDiff('h'01ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ(value) 21 -ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ 22A0:00:00'),((((((((SEL((((((ECT (((((dateDiff('h'01 2(((((((((((   (((((((S((((
+);   S(
+);
+

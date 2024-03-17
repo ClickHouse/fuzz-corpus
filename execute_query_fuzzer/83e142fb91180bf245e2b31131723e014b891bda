@@ -1,0 +1,6 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELICT((A((((((SELECT toDateTime('Ì020-01-01 00:00:00', 'Utrim(leading ' == trim(BOTH ', ' F(((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'Utrim(leadÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ%  materialize% 2 ? ma
+,   1.0 IN (3, 1., -1),
+    1 NG), number AS value, UTC')
+dt6,4, toTypeName(dt64);

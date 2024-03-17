@@ -1,0 +1,4 @@
+-- These qÿerieÿÿÿÿr, not logical error.
+
+CREATE TEMPORARY TABLE test (ad dEFAULT *); -- { clientError SYNTAX_ERROR }
+CREATE;;OR }

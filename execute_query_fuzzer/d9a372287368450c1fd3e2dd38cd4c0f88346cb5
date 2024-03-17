@@ -1,0 +1,14 @@
+CREATE DICTIONARY testip
+(
+    `nŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠ\ŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠetwork`ng,
+  "<a href=\"\\x10javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\xE2\\x80\\x82javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x20javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x13javascript:jaŸ Ì¯Ì²Í•ÍžÇ«ÌŸÌ¯Ì°Ì²Í™Ì»Ìf ÌªÌ°Ì°Ì—Ì–Ì­Ì˜Í˜cÌ¦ÍÌ²ÌžÍÌ©Ì™á¸¥ÍšaÌ®ÍŽÌŸÌ™ÍœÆ¡Ì©Ì¹ÍŽsÌ¤.ÌÌ Ò‰ZÌ¡Ì–ÌœÍ–Ì°Ì£Í‰ÌœaÍ–Ì°Í™Ì¬Í¡lÌ²Ì«Ì³ÍÌ©gÌ¡ÌŸÌ¼Ì±ÍšÌžÌ¬Í…oÌ—Íœ.ÌŸ", \n  "Ì¦HÌ¬Ì¤Ì—Ì¤ÍeÍœ ÌœÌ¥ÌÌ»ÍÌŸÌwÌ•hÌ–Ì¯Í“oÌÍ™Ì–ÍŽÌ±Ì® Ò‰ÌºÌ™ÌžÌŸÍˆWÌ·Ì¼Ì­aÌºÌªÍÄ¯ÍˆÍ•Ì­Í™Ì¯ÌœtÌ¶Ì¼Ì®sÌ˜Í™Í–Ì• Ì Ì«Ì BÌ»ÍÍ™Í‰Ì³Í…eÌµhÌµÌ¬Í‡Ì«Í™iÌ¹Í“Ì³Ì³òÌ®ÍŽÌ«Ì•nÍŸdÌ´ÌªÌœÌ– Ì°Í‰Ì©Í‡Í™Ì²ÍžpÇs \'Ê‡á´‰lÇ Æƒuá´‰É”sá´‰dá´‰pÉ É¹nÊ‡ÇÊ‡É”ÇsuoÉ” \'Ê‡ÇÉ¯É Ê‡á´‰s É¹olop É¯nsdá´‰ É¯ÇŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒÉ¹oË¥", \n  "00Ë™Æ–$-", \n  "ï¼´ï½ˆï½… ï½‘ï½•ï½‰ï½ƒï½‹ ï½‚ï½’ï½ï½—ï½Ž ï½†ï½ï½˜ ï½Šï½•ï½ï½ï½“ ï½ï½–ï½…ï½’ ï½”ï½ˆï½… ï½Œï½ï½šï½™ ï½„ï½ï½‡", \n  "ð“ð¡ðž ðªð®ð¢"x:\\\\xE2\\\\x80\\\\x84expression(javascript:alert(1)\\">DEF", \n  "ABC<div style=\\"x:\\\\xC2\\\\xA0expression(jav String, 
+    `t@est_field` String
+)
+PRIMARY KEY netwo
+SOURCE(FILE(PATH '/tmp/test.csv' FORMAT CSVWitDICTIONARY testip
+(
+    `network` String, 
+    `37203684serverError 137 }

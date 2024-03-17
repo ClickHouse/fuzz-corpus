@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((((h((((((((((SELECT a.*, b.NER J  SELECTiRDER BY k, joinintDiv((((((((((   S(
+);

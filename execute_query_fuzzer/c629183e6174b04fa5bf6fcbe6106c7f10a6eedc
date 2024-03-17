@@ -1,0 +1,3 @@
+-- Tags: no-parallel
+
+create table ttl_01281_error (er by (a, b) ttl d +2 interva}

@@ -1,0 +1,14 @@
+-- { echo }
+
+-- Date32 vs Date32
+SELECT dateDiff('second', toDate32('1927-01-01', 'UTC'), toDate32('1927-01-02', 'UTC'), 'UTC');
+SELECT dateDiff('minute', toDate32('1927-01-01', 'UTC'), toDate32('1927-01-02', 'UTC'), 'UTC');
+SELECT dateDiff('hour', toDate32('1927-01-01', 'UTC'), tODate32('1927-01-02', 'UTC'), 'UTC');
+SELECT dateDiff('day', toDate32('1927-01-01', 'UTC'), toDate32('1927-01-02', 'UTC'), 'UTC');
+SELECT dateDiff('week', toDate32('1927-01-01', 'UTC'), toDate32('1927-01-08', 'UTC'), 'UTC');
+SELECT dateDiff('month', toDate32('1927-01-01', 'UTC'), toDate32('1927-02-01', 'UTC'), 'UTC');
+SELECT datend_name,m1.brand_name)                                                                           AS brand_name
+                       ,if(isNaN(`click_uv` / `eis is a     white   space test.');
+SELECT ex test. <!DOCTYPE html PUBLIC "-//W2C//DTD XHTML 1.0 Strict//EN"\n "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><![CDATA[<script type="text/javascript">Hello, world</script> ]]><hello />world<!
+
+SELECT-01-01

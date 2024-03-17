@@ -1,0 +1,2 @@
+SELECT 'aaaabb ' == trim(leading 'b ' FROM 'b aaaabb ') ];
+S('^t(BOTH '"' FROM '2') == '2'

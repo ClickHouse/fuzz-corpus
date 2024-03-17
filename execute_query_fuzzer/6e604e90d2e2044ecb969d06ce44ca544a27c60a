@@ -1,0 +1,24 @@
+SELECT
+    '0',
+    toTypeName(materialize(js2.s))
+FROM
+(
+    SELECT number AS k
+    FROM numbers(100)
+) AS js1
+FULL OUTER JOIN
+(
+    SELECT
+    '0',
+    toTypeName(materialize(js2.s))
+FROM
+(
+    SELECT number AS k
+    FROM numbers(100)
+) AS js1
+FULL OUTER JOIN
+(
+    SELECT
+        SC NULLS LFST,
+    js2.k ASC
+FORMAT `Null`

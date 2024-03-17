@@ -1,0 +1,1 @@
+SELECT count(NULL) IGNORE NULLS > aLS SETTINGS allow_expiermental_zylnaaerS = 1;

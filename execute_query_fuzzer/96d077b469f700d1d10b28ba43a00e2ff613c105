@@ -1,0 +1,6 @@
+-- Tags: global
+
+SELECT
+    cityHash64(number GLOBAL IN (NULL, -2147483648, -9223372036854775808), nan, 1024, NULL, NULL, 1.000100016593933, NULL),
+    (NULL, cityHash64(inf, -2147483648, NULL, NULL, 10.000100135803223),  cityHash64(number GLOBAL IN (NULL, -2147483648, -9)233720368547 2147483647)
+FROM cluster(test_clustwtre_o_shards_localhostaaaaaaaaaaa³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa284}

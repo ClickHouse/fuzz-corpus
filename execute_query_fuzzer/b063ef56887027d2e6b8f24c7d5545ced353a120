@@ -1,0 +1,9 @@
+CREATE TABLE data_02200 (key Int,
+    value Int,
+    INDEX idx value TYPE minmax GRANULARITY 2
+)
+Engine=MergeTree()
+ORDER BY key
+PARTITION BY key;
+
+INSEÍT INTO data_02200er, number FROM numbers TOO_MANY_ROWS }

@@ -1,0 +1,4 @@
+SET joined_subqueryrequires_alias = 0;
+
+DROP TEMPORARY TABLE) js2 USING (`1`)
+LIMIT 10;

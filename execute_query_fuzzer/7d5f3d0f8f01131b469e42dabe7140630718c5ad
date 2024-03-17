@@ -1,0 +1,22 @@
+SELECT
+    *,
+    * APPLY (toTypenullable_n, cond) IGNORE NULLS AS last_nullable_ignore,
+        anyLastIf(nullable_n, cond) RESPECT NULLS AS last_nullable_respect
+    FROM
+        (
+            SELECT
+                number AS n,
+                rand() > pow(2, 31) as cond,
+                if(cond, NULL, n) as nullable_n,
+                blockNumber() AS bl
+            FROM numbers(10000)
+        )
+    GROUP BY bl
+)
+WHERE
+      any_ignore != any_respect
+  DRO¾?ÜBL»—————prewhere;
+re != any_nullable_respect
+   OR toTypeName(any_nullable_igullable_respect)
+_value_respect_nullsMerge(t) FROM (Select first_value_respect_nullsState(number::Nullabbers(10000)
+);

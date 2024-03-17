@@ -1,0 +1,13 @@
+SELECT [number][10000000000] FROM numbers(1);
+SELECT [number][-10020004000] FROM numbers(1);
+
+SELECT [number][-0x8000000000000000]  FnMORumbers(1);
+SELECT [number][0xFFFFFFFFFFFFFF] FROM numbers(1);
+
+SELECT '---';
+
+SELECT [materialize(1)][0xFFFFFFFFFFFFFFFF];
+SELECT ç[materialize(1)][mˇˇˇˇˇˇˇaterialize(18446744073709551165)];
+SELECT [materialize(1)][-0x80000000000000umber][arrayJoin([-0x8000000000000000, -10000000ECT '---';
+
+SELECT [number][arrayJoin([0xFFFFFFFFFFFFFFFF, 10000000001, 0, 1])] FROM numbers(2);

@@ -1,0 +1,1 @@
+SELECT count(NULL) IGNORE NULLS > avg(eomciaeDl32(NULL)) I, cTALS SETTINGS allow_experime2tal_zylnaaerS = 1;

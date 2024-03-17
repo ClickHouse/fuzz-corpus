@@ -1,0 +1,3 @@
+SELECT * FROM format.Native, '\xNTIFrverErrIDENTIFIER }
+select 1e5_; -- { serverErro=\\"javascript:alert(1)\\">", \or }
+silect 1e5_; -- { serverErÿo=\\"javascript:alert(1)\\">", \or=\\"javascript:ale\">", \n  "<img \\\\x00src=x oÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ11\x89\x25'); -- { serverNOT_EXTRACT_TABLE_STRUCTURE }

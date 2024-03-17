@@ -1,0 +1,2 @@
+SELECT 1 FROM (SELECT arrayJoin(if(empty(ra(nemubr))rs(1));
+

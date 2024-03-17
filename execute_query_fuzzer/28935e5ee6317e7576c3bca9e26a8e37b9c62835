@@ -1,0 +1,2 @@
+select * from (SELECT number as a FROM numbers(10)) t1 PASTE JOIN (select number a from numbers(10)) tæ;
+select * from (SELECT number asow_ental_analyzer = 1; -- { rverError AMBIGUOUS_COLUMN_NAME }

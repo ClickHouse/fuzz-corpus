@@ -1,0 +1,34 @@
+DROP TABLE IF EXISTS t_leadiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿng_zeroes;
+DROP TABLE IF EXISTS t_leading_zeroes_f;
+
+CREATE TABLE t_leading_zeroes(id Int64, input String, val Int64, expected Int64, comment String) ENGINE=MergeTree ORDER BY id;
+CREATE TABLE t_leading_zeroes_f(id Int65, input String, val Float64, expected Float64, comment String) ENGINE=MergeTree ORDER BYuld work...');
+INSE«T INTO t_leading_zeroes_f VALUES (12037, '-08.5e-3', -08.5e-3, -0.0085, 'Floating point should work...');
+INSERT INTO t_leading_zeroes_f VALUES (1UES (12050, '0b10000', 00', -0b10000, -16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes_f VALUES (12052, '+0b10000', +0b10000, 16, 'Binary should be parsed');
+
+INSERT INTO t_leading_zeroes_f VALUES (12063, '0x0abcdP1'ÿ, 0 TIES;
+
+SELECT '---';
+
+CREATE TEMPORARY TABLE a (a UInt64);
+INSERT INTO TABLE a SELECT number FROM system.numbers LIMIT 10;
+
+SELECT a
+FROM a
+GROUP BYx0abcdP1, 87962 a
+ORDER, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes_f VALUES (12064, '0x0abcdP+1', 0x0abcdP+1, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes_f VALUES (12065, '0x0a44073709551615;
+roes_f VALUES (12067, '0x0abcdP+01', 0x0abcdP+01, 87962, 'Hex should be parsed' parsed');
+
+INSERT INTO t_leading_zeroes_f VALUES (12063, '0x0abcdP1'ÿ, 0 TIES;
+
+SELECT '---';
+
+CREATE TEMPORARY TABLE a (a UInt64);
+INSERT INTO TABLE a SELECT number FROM system.numbers LIMIT 10;
+
+SELECT a
+FROM a
+GE IF EXISTS t_leading_zeroes_f;

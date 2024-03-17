@@ -1,0 +1,42 @@
+SELECT if(materialize(0), extract(materialize(Cerialize(0), extract(materialize(CAST('aaaaaa', 'LowCardinality(String)')), '\\w'), extSELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(ract(materialize(CAST('bbbbb', 'LowCang)')), '\\w*')) AS res FRAST('aaaaaa', 'LowCardinality(String)')), '\\w'), extract(mateAS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[0 IN (1, -1h, 2),
+  SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTECT(((((((((SELECT to.ateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1+t + INllel, no-fasttest
+
+
+
+
+
+
+
+
+
++t + INllel, no-fasttest
+
+
+
+
+
+
+
+
+
+
+
+
+select '----- hash / State / ip4 -----';
+select
+  cityHash64(hex( minState(ip) ))TERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1)ЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕ,
+    1.1 IN (1, -1) 
+,  Юнят IN (3, 1., -1),
+    1 RVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.   1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 IN (3,((лллллллллллллrialize(CAST(1 IN (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 IN (3,((ллллллллллллл[[[[[[[[[IN (3[[[[[[[[[[[[[[[[[[лллллллллллллллллллл into test(grr) value ['b', 'c'[[[['UTC')
+dt6,'bbbbb', 'LowCan4, toTypeName(dt64g)')), );
+'\\w*')) AS res FROM ers(2);

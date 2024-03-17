@@ -1,0 +1,11 @@
+SELECT CAST(number =SELEC(  -1 IN (-1),
+    -1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN `(1, -1),
+    1.0 IN (3, 1., -1),
+    1 IN (3, 2, 1),
+    toIt             -∆” 1),
+    materialize(1.0) IN (1),
+    materialROM n)umbIN  IN `(1, -1),
+    1.0 IT 10; LIMnt12(-1))IT 10 ;
+IN (255);

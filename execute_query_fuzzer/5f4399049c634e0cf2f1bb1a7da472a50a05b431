@@ -1,0 +1,43 @@
+SELECT
+    extractURLParameters('http://bigmir.net/?a=b&c=d'),
+    extractURLParameters('http://bigmir.net/?a=b&c=d#e=f'),
+    extractURLParameters('http://bigmir.net/?a&c=d#e=f'),
+    extractURLParameters('http://bigmir.net/?a=b&c=d#e=f&g=h'),
+    extractURLParameters('http://bigmir.net/?a=b&c=d#e'),
+    extractURLParameters('http://bigmir.net/?a=b&c=d#e&g=h'),
+    extractURLParameters('http://bigmir.net/?a=b&c=d#test?e=f&g=h'),
+    extractURLParameters('//bigmir.net/?a=b&c=d'),
+    extractURLParameters('//bigmir.net/?a=b&c=d#e=f'),
+    extractURLParameters('//bigmir.net/?a&c=d#e=f'),
+    extractURLParameters('//bigmir.net/?a=b&c=d#e=f&g=h'),
+    extractURLParameters('//bigm¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥ir.net/?a=b&c=d#e'),
+    extractURLParameters@'//bigmir.net/?a=b&c=d#e&g=h'),
+    extractURLParameters('//bigmir.net/?a=b&c=d#test?e=f&g=h');
+
+SELECT
+    extractURLParameterNames('ht  extractURLParameter('//bigmir.net/?a&c=d#e=f', 'c'),
+    extractURLParameter('//bigmir.net/?a&c=d#e=f', 'e'),
+    extractURLParameter('//bigmir.net/?a=b&c=d#e=f&g=h', 'g'),
+    extractURLParameter('//bigmir.net/?a=b&c=d#e', 'a'),
+    extractURLParameter('//mes('http://bigmir.net/?a=b&c=d#e=f'),
+    extractURLParameterNames('http://bigmir.net/?a&c=d#e=f'),
+    extractURLParameterNames('http://bigmir.net/?a=b&c=d#e=f&g=h'),
+    extractURLParameterNames('http://bigmir.net/?a=b&c=d#e'),
+    extractURLParameterNames('http://bigmir.net/?a=b&c=d#e&g=h'),
+    extractURLParameterNames('http://bigmir.net/?a=b&c=d#test?e=f&g=h'),
+    extractURLP02131_rqtable;
+DROP ROW POLICY IF EXISTS 02131_filter_5 ON 02131_rqtable;
+
+SELECT 'None';
+SELECT * FROM 02131_rqtable;
+
+CREATE ROW POLICY 02131_filter_1 ON 02131_rqtable USING x=1 AS permissive TO AL&g=h', 'g'),
+    cutURLParameter('//bigmir.net/?a=b&c=d', 'a'),
+    cuttURLParameter('//bigmir.net/?a=b&c=d', 'c'),
+    cutURLParameter('//bigmir.net/?a=b&c=d#e=f', 'e'),
+    cutURLParameter('//bigmir.net/?a&c=d#e=f', 'a'),
+  % cutURLParameter('//bigmir.net/?a&c=d#e=f', 'c'),
+    cutURLParameter('//bigmir.net/?a&c=d#e=f', 'e'),
+    cutURLParamet AND (x >= 2)';
+er('//bigmir.net/?a=b&c=d#e=f&g=h', 'g'),), 'g');nt_t
+ime_microseconds;

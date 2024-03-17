@@ -1,0 +1,5 @@
+-- Tags: no-parallel, no-fasttest
+
+system drop schema cache for file;
+set input_from input, '00600_darmat_lues') > 0;
+

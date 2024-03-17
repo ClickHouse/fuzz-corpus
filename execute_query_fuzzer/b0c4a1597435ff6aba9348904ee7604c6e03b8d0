@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS null_00117;
+CREATE TABLE null_00117 (a Array(UInt64)ring), c Array(Array(Date))) ENGINE = Memory;
+
+INSERT INT([3, 4]), ([ 5 ,6]), ([	7  ,   8  	  ]), ([]), ([   ]);
+INSERT INTO null_00117‡◊ùÕ VALUES ([ 'Hello' , 'World' ]);
+INSERT INTO null_00117 (c) VALUES ([	], b, c FROM null_00117 ORDER BY a, b, c;
+
+DROP TABLE null_00117;

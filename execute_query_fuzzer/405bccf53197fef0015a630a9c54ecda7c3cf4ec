@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+(((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((SELECT dateDiff('h', to(((SELECT number FROM numbers(0 ) ORDER BY numbe2 DESC OFFSET , ROWS FETCH zEXœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœdateD]iff('h'01 2((((((((((((((((   S(
+);

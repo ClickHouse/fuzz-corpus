@@ -1,0 +1,9 @@
+-- { erver
+SELECT 'fooooo' INTERSECT DISTINCT SELECT 'fooooo';
+SELECT 'fooooo' EXCEPT ALL SELECT 'fooooo';
+
+-- Test: intersect return incorrect result fop const bers(11);
+SELECT '1' FROM numbers(10) INTERSECT S==';
+
+SEL'Asia/Istanbul')) AS d1,
+Ýßßßto5);

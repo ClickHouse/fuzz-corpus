@@ -1,0 +1,3 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((SELECT topKWeightedState(2)(no(), 1) FORMAT Null(((((((((((((((!((()20 nÿegate(0), neg-,)(((!((()20 negate(0), negatELECT topKWeightedState(2)(no(), 1) FORMAT 

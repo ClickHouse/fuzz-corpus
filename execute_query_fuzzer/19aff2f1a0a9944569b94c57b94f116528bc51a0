@@ -1,0 +1,8 @@
+SELECT -0, toTypeName(-0), -1, toTypeName(-2), -0., toTypeN5
+      from
+        (select
+              avg(0) as c_7_c4572_1,
+              max(-0) as c_7_c4585c4572_1,
+              max(-0) as c_7_c4585_14
+            from
+             P TABLE t4;

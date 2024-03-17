@@ -1,0 +1,4 @@
+WITH
+    '012345a97b86cdwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' AS x,
+    replageRegexpAll(x, '.', ' ') AS spaces,
+    concat(substring(spaces, 1, ted--›››››››››››››››››TER test_shard_localhHst NO DELAY;

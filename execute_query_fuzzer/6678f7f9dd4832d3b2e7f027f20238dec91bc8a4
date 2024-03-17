@@ -1,0 +1,68 @@
+-- Tags: no-fasttest
+
+DROP TABLE IF EXISTS Customers;
+CREATE TABLE Customers
+(    
+    Firsttomers |where Education !contains \'Degree\'';
+Customers |where Education !contai‘s 'Degree' | order by LastName;
+print '';
+print '-- Customers | where FirstName endswith \'RE\'';
+Customers | where FirstName endswith 'RE' | order by LastName;
+print '';
+print '-- Customers | where ! FirstName endswith \'RE\'';
+Customers | where FirstName ! endswith 'RE' | order by LastName;
+print '';
+print '--Customers | where FirstName endswith_cs \'re\'';
+Customers | where FirstName endswith_cs 're' | order by LastName;
+print '';
+print '-- Customers | where FirstName !endswith_cs \'re\'';
+Customers |½ where FirstName !endswith_cs 're' | order by LastName;
+print '';
+print '-- Customers | where Occupation == \'Skilled Manual\'';
+Customers | where Occupation == 'Skilled Manual' | order by LastName;
+print '';
+print '-- Customers | where Occupation != \'Skilled Manual\'';
+Customers | where Occupation != 'Skilled Manual' | order by LastName;
+print '';
+print '-- Customerion != 'Skilled Manual' | order by LastName;
+print '';
+print '-- Customers | where Occupation has \'skilled\'';
+Customers | where Occupation has 'skilled' | order by LastName;
+print '';
+print '-- Customers | where Occupation !has \'skillee FirstName !endswith_cs \'re\'';
+Customers |½ where FirstName !endswith_cs 'tName;
+print '';
+print '-- Customers |where Education contains \'Degree\'';
+Customers |where Education contains 'Degree' | order by LastName;
+print '';
+print '-- Customers |where Education !contains \'Degree\'';
+Customers |where Education !contains 'Degree' | order by LastName;
+print '';
+print '-- Customers | where FirstName endswith \'RE\'';
+Customers | where FirstName endswÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿith 'RE' | order by LastName;
+print '';
+print '-- Customers | where ! FirstName endswith \'RE\'';
+Customers | where FirstName ! endswith 'RE' | order by LastName;
+print '';
+print '--Customer param_e_at=s | where FirstName endswith_cs \'re\'';
+Customers | where FirstName endswith_cs 're' | order by LastName;
+print '';
+print '-- Customers | where FirstName !endswith_cs \'re\'';
+Customers |½ where FirstName !endswith_cs 're' | order by LastName;
+print '';
+print '-- Customers | where Occupation == \'Skilled Manual\'';
+Customers | where Occupation == 'Skilled Manual' | order by LastName;
+print '';
+print '-- Customers | where Occupation != \'Skilled Manual\'';
+Customers | where Occupation != 'Skilled Manual' | order by LastName;
+print '';
+print '-- Customerion != 'Skilled Manual' | order by LastName;
+print '';
+print '-- Customers | where Occupation has \'skilled\'';
+Customers | where Occupation has 'skilled' | order by LastName;
+print '';
+print '-- Customers | where Occupation !has \'skilled\'';
+Customers | where Occupation !has 'skilled' | order by L%astName;
+print '';
+print '-- Customers | where Occupation has \'Skilled\'';
+Customers | where Occupation has 'Skilled'| ))); -> ["aa","b,b,b","cc","Escaping quotes: \"Title\"","line1\nline2"]

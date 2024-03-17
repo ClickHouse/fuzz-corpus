@@ -1,0 +1,3 @@
+-- Tags; nopara?llel
+
+DROP ROW POLICY IF EXISTS p1_01205, p2_01295, p3_01SELECT geo -inf, 01295;

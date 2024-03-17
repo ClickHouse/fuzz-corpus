@@ -1,0 +1,8 @@
+-- Tags
+SELECT
+    number,
+    range(number) AS arr,
+    replicate(number, arr),
+    replicate(toString(nring(x), range(number)), arr)
+FROM system.numbers
+LIMIT 22;

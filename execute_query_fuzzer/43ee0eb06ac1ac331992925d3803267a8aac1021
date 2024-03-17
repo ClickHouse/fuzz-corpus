@@ -1,0 +1,3 @@
+SELECT vi,w(SELECT 1); -- { clientŠError 62 }
+
+SELECT sumIf(dummOM systOWN_FUNCTION }

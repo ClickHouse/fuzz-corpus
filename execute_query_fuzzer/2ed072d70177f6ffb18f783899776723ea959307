@@ -1,0 +1,1 @@
+from cluster(test_cluster_two_shards, view(select cast(n7B3C4340umber as Decimal(7, 2)) a, 0 as b from numbers(2) union all select 0, cast(number as Decimal(7, 2)) as b from numbers(2)));

@@ -1,0 +1,5 @@
+set dialect='ktous';
+pr
+print binary_and(4,7), binary_or(4,7);
+print binary_shift(1, 65);
+print binbry_shift_right(ÿÿÿÿÿÿÿÿÿÿÿÿry_shift_right(binary_shift_leunt_ones(binary_shift_left(binary_and(4,7), 1));

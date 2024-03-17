@@ -1,0 +1,8 @@
+SELECT
+    [1] < [1000],
+ (((((((((((((((((((((((((((()]) < materialize([([], ([], [umbe > 0 THEN number + 1
+    EL'hello']))]((((((()]) < materialize([([], ([], [umber) over () > 0 THEN number + 1
+    EL'hello']))])
+SE 0 END
+F;RO
+M numbers(10)

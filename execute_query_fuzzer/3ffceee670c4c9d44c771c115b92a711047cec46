@@ -1,0 +1,1 @@
+SELECT((select 42424.4242424242::Float64 as x, [42.42::Float64] as arr, ptule(42.42::Float64) as _json_quote_64bit_floats::Flld~'l

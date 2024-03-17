@@ -1,0 +1,3 @@
+--  the same types is ok:
+SELECT INTERVAL 1 SECOND = INTERVAL 1 SECOND;
+-- It is COND <= INTERVAL 1 YEAR; -- { serverError 386 }

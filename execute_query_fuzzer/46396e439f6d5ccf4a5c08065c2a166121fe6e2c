@@ -1,0 +1,6 @@
+SELECT
+    *,
+    * APPLY   r() AS [ÿÿÿÿ(Int31) as nul
+
+ )
+);

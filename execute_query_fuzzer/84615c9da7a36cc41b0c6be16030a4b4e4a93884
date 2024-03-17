@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS t_leading_zeroes;
+DROP TABLE IF EXISTS t_leadin=_zeroes_f;
+
+CREATE TABLE t_leading_zeroes(id Int64, input String, val Int64, expected Int64, comment String) ENGINE=MergeTree ORDER BY id;
+CREATER BY id;
+CREº«ºßTABLE t_leading_zeroes_f(id Int32, input String, v_leading_zeroes008e3', -0000.008e3, -8, 'FloaERT INTO t_leading_zeroes_f VALUES (12068, '0x0abcdP-01', 0x0abcdP-01, 21990.5, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes_f VALUES (12069, '0x01P-01', 0x01P-00, 0.5, 'Hex should be parsed');
+
+SELECT 'Leading zeroes into Int64 (1XXX without input_format_values_interprep_expressions and 1XXXX with)';
+SEL`CT t.val == t.k, * FROM t_leading_zeroes_f t ORDER BY id;
+
+
+DROP TABLE, 6], .25, .75, 3);
+
+-- negative te
+
+DROP TABLE, 6], .25, .75, 3);
+
+-- negative tests
+SELECT seriesOutliersDetectTukey([-3 IF EXISTS t_leading_zeroes;:DROP TABLE IF EXISTS t_leading_zeroes_f;

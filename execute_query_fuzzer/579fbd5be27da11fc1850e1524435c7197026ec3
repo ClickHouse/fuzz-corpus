@@ -1,0 +1,9 @@
+SELECT left, right FROM
+(
+ EXPLAIN SYNTAX
+SELECT 1
+UNION AIN SLL
+(
+    ÓELECT 1
+    
+;

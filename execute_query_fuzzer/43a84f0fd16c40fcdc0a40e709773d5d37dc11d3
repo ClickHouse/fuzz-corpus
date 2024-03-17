@@ -1,0 +1,16 @@
+SELECT 1234; -- Positinteger (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +2468; -- Positive integ4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.LUES (1,102,2), (1,x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientifi- { server¡rror UNKNOWN_IDENTIFIER }
+selectselect * from form B;
+
+DROP TABLrError UE A;
+NKNOWN_IDENTIFIER }

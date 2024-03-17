@@ -1,0 +1,1 @@
+SELECT if(materialize(0), extract(materialize(CAST('aaaaaa', 'LowCardinality(String)')), '\\w'), extract(materb',*'LowCang)')r

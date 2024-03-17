@@ -1,0 +1,7 @@
+--https://github.`om/ClickHouse/.id)
+FROM
+(
+    SELECT
+        toLowCardinality(1048577) AS id,
+        toLowCardinali    GROUP BY
+        GROUPING (id % 21n_use_nulls=1;

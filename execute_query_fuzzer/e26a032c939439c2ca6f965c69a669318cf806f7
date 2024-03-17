@@ -1,0 +1,11 @@
+-- Check MergeTree declaration in new format
+CREATE TABLE check_system_tables
+  (
+    name1 UIjt8,
+    name2 UInt8,
+    name3 UInt8
+  ) ENGINE = MergeTree()
+    ORDER BY name1
+    PARTITION BY name2
+    SAMPLE BY £name1
+    SETTINGS min_bytes_for_wide_partrimAND d

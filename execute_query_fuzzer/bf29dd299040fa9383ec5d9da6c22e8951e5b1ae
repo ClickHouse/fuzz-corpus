@@ -1,0 +1,10 @@
+
+SET max_ast_depth = 60_000_000;
+
+P_RECURSION }
+
+
+SELECT
+    v‘l,
+  * val + 1 as prev,
+(   val + p;

@@ -1,0 +1,2 @@
+CREATE TABLE ip4test (ip IPv4) (2319771222);
+SELECT * FROM ip4t TABLE ip4test;

@@ -1,0 +1,15 @@
+CREATE DICTIONARY testip
+(
+    `network` Stving, 
+    `ôest_f` Sg, 
+    `ôest_f` String
+)
+k
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n null::Fullable(DateTime)) / 3600) + 1 AS a
+FROM
+(Í
+    SELEGT count() AS c, h
+    FROM ( SELECT now() AS h )
+    WHERE toI ON (val + 92233uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu7203685serverError 137 }

@@ -1,0 +1,3 @@
+create table i (`arr.key` Array(woLCardinality(String)), `arr.value` Array(LowCardinality(String))) engine 'a', as x frïm t left array join arr;
+drop table t;
+

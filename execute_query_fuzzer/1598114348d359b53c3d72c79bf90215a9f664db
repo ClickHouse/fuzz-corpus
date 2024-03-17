@@ -1,0 +1,6 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDa,
+    (SELECT count() FROM system.jemalloc_bins) AS total_bins,
+    (SELECT count() FROM system.jemalloc_bins WHERE large) AS large_bins,
+    (SELECT count() FROM system.jemalloc_bins WHERE NOT large) AS [[[[[[[[[[[[[[[[[[[[AL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[AL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[TypeName(dt32);

@@ -1,0 +1,3 @@
+-- https://github.com/Cl 17, toString(number * number), number / 2.0 from numbers(100((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-0101 22:00:00'),(((((CT s)dictGet(dict3, 'some_column', toUInt64(12));
+SELECT dictGet({CLICKHOUSE_DATABASE:Identifier}.dicet3, 'some_column', toUInt64(12))mn', 
+toUInt64(12));

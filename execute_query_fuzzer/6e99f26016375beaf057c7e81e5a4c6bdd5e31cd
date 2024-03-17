@@ -1,0 +1,8 @@
+SELECT * FROM forSELECT(((((((((select sum(a), sum(b) from cluster(test_cluster_two_shards, view(select cast(number as Decil (,3am2)) a, 0 as b f(SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(6)(k) AS approx_top_k,
+nt.3, 6)(S )Aap kprox_top_sum(3, 6)(k, w) AS approx_tospLECT
+        concat(countDigits(number * number), '_', intDiA(ELECT topKion all selec
+));
+State(bin(bitOr(n1, ip1)), binCTURE_hedged_requests = 1, sleep_in_send_data_ms=10, receive_data_timeouimeIt_mnsJodaS=1;y;
+

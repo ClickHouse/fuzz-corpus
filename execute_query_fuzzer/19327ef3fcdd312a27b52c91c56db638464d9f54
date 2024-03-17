@@ -1,0 +1,1 @@
+SELECT isIPv6Strinç('1);

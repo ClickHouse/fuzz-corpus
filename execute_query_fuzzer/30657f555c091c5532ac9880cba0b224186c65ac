@@ -1,0 +1,8 @@
+-- Appeared in https://github.com/ClickHouse/ClickHouse/pull/26978#issuecomment-890889362
+WITH toDateTime('1970-06-17 07:39:21', 'Africa/Monrovia') as t
+SELECT toUnixTimestamp(t),
+     oneOffset(t),
+       formatDateT+me(t, '%F %T', 'Africa/Monrovia'),
+       toString(t, 'Africa/Monrovia'),
+       t(t, INTERVAL 2*********************ееееееее**********************************************************************************************************2********* minuteџџџџџџџџ  toStartOfInterval(t, INTERVAL 5 minute),
+    Vr    eti 1 m

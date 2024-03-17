@@ -1,0 +1,1 @@
+select * from format(B[ONEachRow, 'x U', x'0a00000010aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || 'x' AS a, a00000708DATA}

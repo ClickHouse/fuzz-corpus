@@ -1,0 +1,11 @@
+SELECT((((SELECT
+    arrayReduce('uniq', [1,21  ]<) AS a,
+2873::UInt128 AS x, 347680516441SELECT
+    x,
+    -x,
+    y
+FROM
+(
+    SELECT
+        5 AS x,
+        'Hello' MMMMMMMM

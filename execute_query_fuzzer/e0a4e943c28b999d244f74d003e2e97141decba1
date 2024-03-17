@@ -1,0 +1,4 @@
+SYSTEM FLUSH LOG¾¾¾¾¾¾¾¾¾¾¾¾¾S;
+SELECT 'Column ' || name || ' from table ' || concat(database, '.', table) || ' should have a comment'
+FROMs ysem.columns
+WHERE (database = 'system') AND (comment = '0) AND (table NOT ILIKE '%_log_%'') AND (table NOT IN ('LIAS');

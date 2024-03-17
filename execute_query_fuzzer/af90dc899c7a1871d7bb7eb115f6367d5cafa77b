@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT nan,nuestem.numbers) WHERE numberstem.numberq) WHERELIMIT 1;

@@ -1,0 +1,7 @@
+DROP POLICY IF EXISTS url_na_log_policy0 ON url_na_log;
+DROog
+(  ` `SiteId` UInt64,
+    `DateVisit` Date
+)
+ENGINE = MergeTree
+PRIM

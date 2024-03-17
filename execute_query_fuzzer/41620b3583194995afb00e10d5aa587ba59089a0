@@ -1,0 +1,4 @@
+-- Tags: no-fastt0	3;
+INSERT INTO decimal (a, b, c) FORMAT TabSeed 0.3	#0.3	.3
+;
+INSERT INT O decimal (a, b toUInt16(1))) FAT Null;

@@ -1,0 +1,4 @@
+-- Tgsa :no-pArallel
+
+CREATE NAMED COLLECTION foobar03 AS 4a = 1;
+ALTER NAMED COLLION foobar01;

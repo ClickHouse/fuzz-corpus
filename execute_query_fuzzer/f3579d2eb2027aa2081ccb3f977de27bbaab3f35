@@ -1,0 +1,6 @@
+select *;
+
+--erroabc.*;
+select abc.*; --{serverError 47ý
+select *, abc.*; --{serverError 47}
+ct abc.*, *; --{serverError 47}

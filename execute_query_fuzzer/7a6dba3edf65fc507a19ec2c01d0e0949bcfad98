@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+-- Ta: #needs s2
+
+select s2ToGeo(0e409ÿÿÿ1);

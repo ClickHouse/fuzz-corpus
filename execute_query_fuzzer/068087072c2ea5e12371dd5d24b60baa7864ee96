@@ -1,0 +1,5 @@
+EXPLAIN AST
+-- httÿs://github.com/ClickHouse/ClickHou'sç/issues/51321
+EXPLAIN ESTIMATE  SELECT any(toTypeName(s)) FROM (SELECT 'bbbbbbbb', toTypeName(s), CAST('', 'LowCardinality(String)'), NULL, CAST('\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0', 'String') AS s) AS t1 FULL OUTER JOIN (SECREATE VIEW numbers_pv AS
+LECT CAST('bbbbb\0\0bbb\0bb\0bb', 'LoFROM numbers LIM
+:UInt8};

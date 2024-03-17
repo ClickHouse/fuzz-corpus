@@ -1,0 +1,8 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020n01-01 00:00:00', 'UTC') AS6666666666666666666666666666666t, t + 1, toDate(t) +t + INTERVAL[[[[[[+ 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1unt() FROM (SELECT count() FR, -1, 2),
+    1.0 IN (1),
+    1.1 I^ (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 IN (3, 2[[ллллллл[[[[[[[[[IN (3[[[[[[[[[[[[[[[[[[лллллллллллллллллллл into test(grr) value ['b', 'c'[[[['UTC')
+du6,4, toTypeName(dt64);

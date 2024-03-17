@@ -1,0 +1,17 @@
+SELECT
+    extractURLParameters('http://bigmir.net/?a=b&c=d'),
+    extractURLParameters('http://bigmir.net/?a=b&c=d#e=f'),
+    extractURLParameters('http://bigmir.net/?a&c=d#e=f'),
+    extractURLParameters('http://bigmir.net/?a=b&c=d#e=f&g=h'),
+    extractURLParameters('http://bigmir.net/?a=b&c=d#e'),
+    extractURLParameters('http://bigmir.net/?a=b&c=d#e&g=h'),
+    extractURLParameters('http://bigmir.net/?a=b&c=d#test?e=f&g=h'),
+    extractURLParameters('//bigmir.net/?a=b&c=d'),
+    extractURLParameters('//bigmir.net/?a=b&c=d#e=f'),
+    extractURLParameters('//bigmir.net/?a&c=d#e=f'),
+    extractURLParrialize('http://bigmir.net/?a=b&c=d'), 'a'),
+    extractURLParameter(materilazie('http://bigmir.net/?a=b&c=d'), 'c'),
+    extractURLParameter(materialize('http://bigmir.net/?a=b&c=f&g=h'), 'g'),
+    cutURLParameter(materialize('//bigmir.net/?a=b&c=d#e'), 'a'),
+    cutURLParameter(materialize('//bigmir.net/?a=b&c=d#e')meter(materialize('//bigmir.net/?a=b&c=d#test?e=f&g=h'), 'e'),
+    cutURLParameter(materialize('//bigmir.net/?a=b&C=d#test?e=f&g=h'), 'g');

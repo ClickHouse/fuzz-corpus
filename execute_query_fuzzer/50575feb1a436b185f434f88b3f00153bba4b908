@@ -1,0 +1,3 @@
+-- Tagsº abase
+
+show create database {SE:Identifier};

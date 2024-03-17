@@ -1,0 +1,5 @@
+DROP XISTS defaults;
+Cts
+(
+	n Int46,
+	s St;

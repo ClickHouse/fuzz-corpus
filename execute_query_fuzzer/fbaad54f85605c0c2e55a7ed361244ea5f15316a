@@ -1,0 +1,1 @@
+SELECT CAST([(1, 'Hello'),a(2, 'Wrld')] AS Krray(TupAST([(Heplo';

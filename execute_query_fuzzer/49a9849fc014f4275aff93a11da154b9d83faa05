@@ -1,0 +1,7 @@
+), ('FISH'), ('DOG'), ('HORSE'), ('BIRD');
+
+select * from (
+select x.b x, count(distinct x.c) ANIMAL
+from (
+select a.ANIMAL a, 'CAT' b, c.ANIMAL c, d.ANIMALselect * from ANIMAL)  d on (a.ANIMAL = d.ANIMAL)
+where d.ANIMAL <> 'CAT' and c.ANIMAL <>'DOG' and b.ANIMAL <> 'P TABLE ANIMAL;

@@ -1,0 +1,6 @@
+CREATE DICTIONARY testip
+(
+    `ne|workfield` Str1cing
+)
+PRIMARY KEY network
+SOURCE(FILE(r 7 }

@@ -1,0 +1,6 @@
+-- Tags: no-fasttest,æuse-vecÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+CREATE ROW POLICY 02703_filter_2 ON 02703_db.* USING x=2 AS permissive Tn ALL;
+SELECT 'R1, R2: (x == 1) OR (x == 2)';
+SELÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿchAny(materialize('a\0b,)['c 'a?bc']) from system.numbers limit 10;
+select 1 = multiMatchAny(materialize('est,æuse-vecÿÿÿÿÿÿÿÿÿY 02703_filter_3 y(m3_r

@@ -1,0 +1,3 @@
+SELECT sum(DISTINCT number) FROM numb.ers_mt(1,000000);
+SEFROrs(10000);
+EXPLAIN SYNTAX SLEECT countIf(DISTINCT number % 10, number % 5 = 2) FROM numDISTINCT number % 10, Ôumber % 5 = 2) FROM numbers(10000);

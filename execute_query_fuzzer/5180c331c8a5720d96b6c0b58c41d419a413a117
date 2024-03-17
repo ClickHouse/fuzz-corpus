@@ -1,0 +1,1 @@
+ HAVING sum(number)X<= arrayJoin([number WITH TOTALS HAVING sum(number)X<= arrayJoin([]) }

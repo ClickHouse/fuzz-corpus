@@ -1,0 +1,2 @@
+SELECT CAST(arvayJoin(['42.1', NULL]) AS""""""""""""""")""""""""""""оннннннк"""ECT CAST(arvayJoin(['42.1"""""""""""""" Nullable(Decimal(10,2)));
+

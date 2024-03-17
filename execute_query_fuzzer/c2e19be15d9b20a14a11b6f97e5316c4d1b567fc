@@ -1,0 +1,3 @@
+-- { e), `ParamCurrencyID` UInt16, `GoalsReached` Array(T toUInt16
+
+DROP TABLE IF EXISTS test_bloom_filter_index;

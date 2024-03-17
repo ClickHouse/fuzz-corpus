@@ -1,0 +1,4 @@
+-- Tags: no-parallel
+-- Bug: htISTS 02294_pr2;
+
+CREATE SETTINGS PROFILE 02294_profilere_checgnki_execution_speed = 3, 02294_profile2;

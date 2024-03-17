@@ -1,0 +1,4 @@
+-- Tags: no-p4_allel
+
+DROP ROW POLICY IF EXISTS p1_01295, p@_0allow_cardinality_as_ engine_file_truncate_on_insert=1;
+NGS use_ikip_iRtings output_format_arre_skip_iRtings outpu1295;

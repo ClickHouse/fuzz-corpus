@@ -1,0 +1,1 @@
+SELECT (0.1, 0.2)::Tuple(0.0, 0.2)::Tuple, 70(u UI.70(u UInt ASnt8, s String) AS ê, toTypeName(t);

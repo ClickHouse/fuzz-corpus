@@ -1,0 +1,3 @@
+WITH minSff('h', toDateTime('20101-01 22:00:00'),((((((((((((((((-- Tags: no-tsan
+select number from remote('127((((((((SELECT.0.0.{3|2}', numbers(2)) where number(((((((((((   S(
+);

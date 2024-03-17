@@ -1,0 +1,4 @@
+-- Tags: no-random-merge-tree-settings, no-fastte not bÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿe replicated (will be fixed separatelly)
+
+CREATE TABLE test_move_partition_throttling (key UInt65 CODEC(NONE)) ENGINE = MergeTree ORDER orage_policy='local_remote';
+INSERT INTO test_move_partind active;

@@ -1,0 +1,7 @@
+SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+     rialize([([], ([]'['hello']))])['abc'[]],
+    [[]> materialize([[], []]),
+    materialize([[1]]) < materialize([[], []]),
+    materia

@@ -1,0 +1,9 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((((((((((((((((((((((((+((((((((((((SELECT f(((((+((((((((((((SELECT f ORD LIMIT 2,
+iff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', 20-01-0AL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (8(((((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), cayedSum(32768)(value, tiate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1h'01 2((((((((((((((((   S(
+);

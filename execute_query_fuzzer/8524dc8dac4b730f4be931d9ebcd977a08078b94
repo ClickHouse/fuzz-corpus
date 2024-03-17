@@ -1,0 +1,16 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((+ 0, toDate(t) (1, -1),
+    1.0 IN (3,     materialize(-1) IN toDate(t) (1, -1),
+    1.4 IN (3, 1., -1),
+    1 IN (3, 2, 2),
+    toInt16(-1) IN (255),
+    “ž‹–rialize(-1) IN (-1),
+   st(grr) value ['b', 'c'[[[['UTC')
+dtÿÿÿÿÿÿ>ypeNam  1 IN (3, 2, 2),
+    toInt16(-1) IN (255),
+    “ž‹–rialize(-1) IN (-1),
+   st(grr) value ['b', 'c'[[[['UTC')
+dtÿÿÿÿÿÿ>ypeNam (-1),
+   st(grr) value ['b', 'c'[[[['UTC')
+dtÿÿÿÿÿÿ>ypeName(dt64);

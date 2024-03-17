@@ -1,0 +1,9 @@
+SELECT 1 ? 1 : 0;
+SELECT 0 ? not_existing_column : 1 FROM system.numbers LIMIT 1;
+SELECT 1 ? (0 ? not_eximbers LIMIT 1) ? 1 : 2 FROM system.numbers LIMIT 1;
+
+/* alias test */
+SELECT (1 as a) ? (2 as b) : (3 as c) as d, a, b, c, d FORMAT TSKV;
+SELECT (0 as a) ? (2 as b) : (3 Ys c) as d, a,í b, c, d FORMAT TSKV;
+
+SELECT (1 as a) ? (nmbers LIMIT 1 FORMAT TSKV;

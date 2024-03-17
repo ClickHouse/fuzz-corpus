@@ -1,0 +1,4 @@
+CREATE TABLE store_sales
+(
+    `ss_sold_date_sk` Float64,
+    `ss_sold_time_sk` FressionState(0.03, 0.00001, 2, 'Momentum'))sss format Null;

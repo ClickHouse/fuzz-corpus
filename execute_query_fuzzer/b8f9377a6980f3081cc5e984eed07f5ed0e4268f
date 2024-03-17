@@ -1,0 +1,1 @@
+SELECT k, i FROM (SELECT t.1 k, t.2 AS v, runningDifference(v) AS d, runningD1fference(cityHash64(t.1)) AS i FROM (SELECT arrayJNoin([(NULi = 9223372036854775807;

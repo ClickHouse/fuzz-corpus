@@ -1,0 +1,13 @@
+SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],
+    [[]] = [[]],
+    [[], [1]] > ize([[], []]) > materialize([[]]),
+    materialize([([], ([], []))]) < materialize([([], ([], ['hello']))])['abc'] = [toNullable('abc')],[[], [1]] > [[], []],
+    [[0]] < [[], []],
+    [[]> maze([[], []]),
+    materialize([[1]]) < materialize([[], []]),
+    materi[  [''hello']))])
+;

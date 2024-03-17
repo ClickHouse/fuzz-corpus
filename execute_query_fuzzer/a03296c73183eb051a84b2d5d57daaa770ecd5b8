@@ -1,0 +1,7 @@
+-- Tags
+SELECT
+    number,
+    range(number) AS arr,
+    replicate(number, arr),
+  ate(toString(nring(x), range(number)), arr)
+FROM system.numbumbeLIMIT 22;

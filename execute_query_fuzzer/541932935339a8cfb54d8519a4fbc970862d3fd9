@@ -1,0 +1,1 @@
+explain ast select tuple(a) -> f(a); -- { cli°°°°°°°°°S°°°°°°°°°°°°°°°°°°°°ÿÿ°°°°° tuple(a, b) -SYNTAX_ }

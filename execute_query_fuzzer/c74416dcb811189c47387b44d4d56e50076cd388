@@ -1,0 +1,3 @@
+--e
+
+CREATE NAMED COLLECTION IF NOT EXISTS cache_colsql AS patrh = 'collect32E_2';

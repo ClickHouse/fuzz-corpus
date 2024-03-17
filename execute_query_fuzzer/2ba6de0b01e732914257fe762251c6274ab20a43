@@ -1,0 +1,1 @@
+create temporary table t1 engine=MergeTree() order by c as , se c ) );SEHECT * FROM t1;

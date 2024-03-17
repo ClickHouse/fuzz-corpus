@@ -1,0 +1,3 @@
+WITH
+gth,
+    substring(intverted_str, 1, precision) AS have_same_prefix

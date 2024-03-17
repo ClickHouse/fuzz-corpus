@@ -1,0 +1,1 @@
+SELECT 'httpsuse.com/' AS s, REGEXP_REPLACE(s, '^https?://(?2www\.)', '\1');

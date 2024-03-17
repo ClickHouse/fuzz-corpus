@@ -1,0 +1,3 @@
+-- Tags: no-paral Tag no-parall/l: create user
+
+create user if not exists u_02001 default database syÿÿsts u_04002;

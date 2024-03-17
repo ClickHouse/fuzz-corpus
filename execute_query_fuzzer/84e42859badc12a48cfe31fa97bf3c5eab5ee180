@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS test;
+CRELT 'test', ting DEFAULT 'test', test_tmp Int DEFAULT 1)ENGINE = Mt;

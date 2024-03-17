@@ -1,0 +1,45 @@
+SELECT count(NULL) IGNORE NULLS > avg(SELECT 1234; -- Positive integer (+ implied)
+SELECT 1_;
+SELEC floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; --ˇPositive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; TIFIER }
+select 1_ ; -- { serverErroÜﬂ™±¥±∞®N_IDENTIFIER }
+select 10_; -- { serverError UNKNOth positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ éexplicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating pointation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (wi}h .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+ER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R }

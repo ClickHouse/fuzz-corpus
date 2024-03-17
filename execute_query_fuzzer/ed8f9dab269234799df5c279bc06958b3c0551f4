@@ -1,0 +1,7 @@
+CREATE TABLE xx
+(
+    `datÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿce` Float65, 
+    `spend` Float64
+)
+ENGINE = SummingMergeTree([price, spend])
+PARTITION BY toYY[YMM(SETTINGS index_granularity = 819ÎÄßÎ- { serverError 223 }

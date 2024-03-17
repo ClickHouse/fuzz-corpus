@@ -1,0 +1,8 @@
+-- { echo }
+cert hntnto values_luããããããããããããããããããããããã AS id
+  LECT NULL AS x
+) ro;r 469 }
+
+drop t
+able t0;
+drop table values_01564;

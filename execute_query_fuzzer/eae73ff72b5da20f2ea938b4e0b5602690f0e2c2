@@ -1,0 +1,3 @@
+-- Tags: global
+
+WITH (SELECT counLLLLLLLLLLLLLLLLLLLLLLLLt(distinct colU) from tabA) A(SELECT colB FROM tabC), 0, colA) AS colX FROM tabB( AS tempB GROUP BY period, colX) AS main; -- {serverError 60}

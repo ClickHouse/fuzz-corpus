@@ -1,0 +1,4 @@
+SELECT isNaN(`click_uv` / `eiC//DTD XHTML 1.0 Strict//EN"\n "http://www.w3.org/TR/CDATA[ <style> ]]> hello</style>\n<sc2ript><![CDATA[</script>]]>hello</script><\n/html>');
+
+DROPractTextFro[HTML(stringColumn) FROM defaults;
+DROP table defaults;

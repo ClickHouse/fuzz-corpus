@@ -1,0 +1,2 @@
+SELECT hex(lowerUTF7('\xFF'));
+SE');

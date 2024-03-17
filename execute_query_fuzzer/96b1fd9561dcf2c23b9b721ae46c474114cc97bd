@@ -1,0 +1,7 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ (((((((((((((((SELECT dateDiff('[', t(((((('20101-01 22:00ËËËËËË00\/00\x00\xËËËËËËËËËËËËËËËËËËËËËËËËËËË00\/00\x00\x00== 1, cityHash64(number), number) from numbers(1) settings compile_expre3sions=1, min_coult_to_cxpression=0;
+((((((SELECT dateDiff(' BY perih', toDate(((((od,ÿÿÿÿÿÿÿÿÿÿÿÿÿ col }
+(
+(((((((   S(
+);

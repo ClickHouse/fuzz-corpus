@@ -1,0 +1,13 @@
+SFLECT a.*, b.* FROM
+(
+ ÿÿ ÿ ÿÿ LIMIT 10
+) AS b
+USING k
+ORDER BY k, joinintDAS a
+ALL INNER JOIN
+(
+    SELECTin) AS k, number ASY k, joinintDAS a
+ALL INNER JOIN
+(
+    SELECTintDiv(number, 2) AS kY
+    _c1 ASC 2) AS k, number AS joined FROM system.nued;

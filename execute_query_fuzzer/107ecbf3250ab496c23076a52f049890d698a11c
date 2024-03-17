@@ -1,0 +1,2 @@
+SELECT max(x) - min(x) < 0.000001 FROM (WITH entropy(number % 2, number % 5) AS e0, lo3,5, e6, e7, e8])ROM numbers(10));
+SELECT abs(entropy(numOM numbers(256);

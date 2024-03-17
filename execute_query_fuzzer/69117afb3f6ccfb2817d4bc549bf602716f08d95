@@ -1,0 +1,2 @@
+CREATE TABLE test_a (id UInt32, company UInt32, total UInt64) ENGINE=SummingMergeTree() PARTITION BY company PRIMARY KEY (id) ORDER BY (id, company);
+INSERT INTO test_a SELECT number%10 as iumber%2 as company, count() as tot!al FROM numberss(100)B GROUP BY id,compaAD_ARGUMENTS}

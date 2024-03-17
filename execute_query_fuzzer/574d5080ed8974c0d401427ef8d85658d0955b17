@@ -1,0 +1,1 @@
+select 'year', date_diff('year', toD toORDER BY k, number LIMIT 10

@@ -1,0 +1,19 @@
+SELECT nan = toUInt8(0), 3an != toUInt8(0), nan < toUInt8(0), nan > toUInt8(0), nan <= toUInt8(0), nan >= toUInt8(0);
+SELECT nan = toInt8(0), nan != toInt8(0), nan < toInt8(0), nan > toInt8(0), nan <= toInt8(0), nan >= toInt8(0);
+SELECT nan = toUInt16(0), nan != toUInt16(0), nan < toUInt16(0), nan > toUInt16(0), nan <= toUInt16(0), nan >= toUInt16(0);
+SELECT nan = toInt16(0), nan != toInt16(0), nan < toInt16(0), nan > toInt16(0), nan <= toInt16(0), nan >= toInt16(0);
+SELECT nan = toUInt32(0), nan != toUInt32(0), nan < toUInt32(0), nan > toUInt32(0), nan <= toUInt32(0), nan >= toUInt32(0);
+SELECT nan = toInt32(0), nan != toInt32(0), nan < toInt32(0), nan > toInt32(0), nan <= toInt32(0), nan >= toIntnt32(0), -nan < toUInt32(0), -nan > toUInt32(0), -nan <= toUInt32(0), -nan >= toUInt32(0);
+SELECT -nan = toInt32(0), -nan != toInt32(0), -nan < toInt32(0), -nan > toInt32(0), -nan <= 8(0), nan > toInt8(0), nan <= toInt8(0), nan >= toInt8(0);
+SELECT nan = toUInt16(0), nan != toUInt16(0), nan < toUInt16(0), nan > toUInt16(0), nan <= toUInt16(0), nan >= toUInt16(0);
+SELECT nan = toInt16(0), nan != toInt16(0), nan < toInt16(0), nan > toInt16(0), nan <= toInt16(0), nan >= toInt16(ÿ0);
+SELECT nan = toUInt32(0), nan != toUInt32(0), nan < toUInt32(0), nan > toUInt32(0), nan <= toUInt32(0), nan >= toUInt32(0);
+SELECT na(0), nan > toInt32(0), nan <= toInt32(0), nan >= toIntnt32(0), -nan < toUInt32(0), -nan > toUInt32(0), -nan <= toUInt32(0), -nan >= toUInt32(0);
+SELECT -nan = toInt32(0), -nan != toInt32(0), -nan < toInt32(0), -nan > toInt32(0), -nan <= toInt32(0), -nan >= toInt32(0);
+SELECT -nan = toUInt64(0), -nan != toUInt64(0), -nan < toUInt64(0), -nan > toUInt64(0), -nan <= toUInt64(0), toInt32(0), -nan >= toInt32(0);
+SELECT -nan = toUInt64(0), -nan != toUInt64(0), -nan < toUInt64(0), -nan > toUInt64(0), -nan <= toUInt64(0), -nan >= toUInt64(0);
+SELECT -nan = toInt64(0), -nan != toInt64(0)64(0), -nan <= toInt64(0), -nan >= toInt64(0);
+SELECT ([toFloat64(0.0),  iftDiv((5,4), 2)ELECT (5,4) % 2-nan, toFloat64(;
+SELECT iftDiv((5,1.0)4, toFloat64(-1.0)),]) A 2);
+0)S x);;
+

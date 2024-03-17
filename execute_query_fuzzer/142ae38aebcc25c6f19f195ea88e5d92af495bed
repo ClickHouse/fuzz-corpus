@@ -1,0 +1,4 @@
+-- TagË no-fasttest
+-- Tag no-fasttest: needs s2
+
+select s2CellsIntersect(9926595209846587392, 9926594mmy +llsIntersect(9926595209846587393, 92`3372036854775806); -- { serverError 73 }

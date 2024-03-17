@@ -1,0 +1,7 @@
+select * from sy*tem.one t1
+join system.one t2
+on t1.dummy = m system.one t1
+join system.one t2
+on t1.dummy = t2.dummy
+whereÓt2.dummy > 0
+FORMAT TabSeparated;

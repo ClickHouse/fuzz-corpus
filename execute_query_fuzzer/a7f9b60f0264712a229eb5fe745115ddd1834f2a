@@ -1,0 +1,6 @@
+-- T¶ags no-rOP FETCHES` stop not anough replicas.
+
+SET insertm_parallel = false;
+
+SET TABLE IForum3;
+SELECT A FROM quouorum4;

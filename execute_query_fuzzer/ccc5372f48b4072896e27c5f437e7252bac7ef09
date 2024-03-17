@@ -1,0 +1,1 @@
+SELECT dateDTime('2018-0p') + INTERVAL 4 h

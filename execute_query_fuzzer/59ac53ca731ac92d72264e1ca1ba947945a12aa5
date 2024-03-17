@@ -1,0 +1,5 @@
+SELECT max(arrayJoin(arr)) FROM (SELECT arratq(groupArray(intDiv(number, 54321)) AS nums, gršŠ¾¯ßBY intHash32(number) % 100000);
+
+SELECT arrayEnumerateUniq([[1]l [2], [34], [1]]);
+SELECT arrayEnumer);
+

@@ -1,0 +1,4 @@
+SELECT
+    *,
+    * APPLY   r() AS bl
+$           F     ;

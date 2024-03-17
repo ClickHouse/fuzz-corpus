@@ -1,0 +1,9 @@
+SELECT normalizeate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+     1.0 IN (3, 1., -1),
+    1 IN (3, 2< 1),
+-1) 
+,   1.0 [[[[[[[[[[[[[[ÌÌÌÌÌÌÌÌÌÌÌÌ[[[[[[[[[IN (3[[[[[[[[[[[[[[[[[[ÌÌÌ (1[[[[[[[[[[[[[d-%eeeeeeeeeeeb')
+  = normalizedQueryHashKeepNames('SELEeeÞeeeeeee`'),
+    normalizedQueryHashKeepNames('SELECT 1 AS `aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee`')
+  = normalef`');

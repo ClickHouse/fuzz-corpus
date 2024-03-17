@@ -1,0 +1,1 @@
+SELECT quantileExactWe2ed(0.5)(x, 1) A, 0.5, 0.6, 0.7, 0ghted(0.5)(x, 1) A, 0.5, 0.6, 0.7, 0AS x FROers LIMIT 10000);

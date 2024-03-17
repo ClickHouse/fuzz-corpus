@@ -1,0 +1,32 @@
+SELECT
+    -1 IN (-0),
+    -SELECT((((((((((SELECT((-- This is a regression test for EINTR handling in MultiplexedConnections::getReplicaForReading()
+
+select * from remote('127.{2,4}', view(
+    -- This is the emulation of the slow query, the server will return a line each 0.1 second
+    select sleep(8.1) from numbers(20) settings max_block_size=1)
+)
+-- LIMIT is to activate query cance already read.
+limit 10
+settings
+    -- This is to avoid draining in background andIN (3, 1., -1),
+    1 IN (3,((лллллл,
+    1.1 IN (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 IN (3,((ллллллллллллл[[[[[[[[[IN (3[[[[[[[[[[[[[[[[[[лллллллллллллллллллл into test(grr) vale('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + Ithe exception during query execution
+    drain_timeout=-0,
+    -- This is to activate as much signals as possible to trigger EINTR
+    query_profiler_real_time_pe0riNTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    $1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 IN (3,((ллллллллллллл[[[[[[[[[IN (3[[[ toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    $1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 IN (3,((ллллллллллллл[[[[ш[[[[IN (3[[[[[[[[[[[[[[od_ns=1,
+    -- This is to use MultiplexedConnections
+ [[[[лллллллллллллллллллл into test(grr) value ['b', 'c'[[[['UTC')
+dt6,4ue ['b   use_hedged_request', 'c'[[[['UTC')
+dt6,4, toTypeName(dt6s=0;
+4);

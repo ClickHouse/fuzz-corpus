@@ -1,0 +1,6 @@
+CREATE TABLE test
+(
+   `id` UInt6ng,
+   PROJECTION projection_name
+   (
+       SELECT sum(id) BUPÿÿÿ00001raySortedState(10)((number < 3 ? NULL : num117 Ö

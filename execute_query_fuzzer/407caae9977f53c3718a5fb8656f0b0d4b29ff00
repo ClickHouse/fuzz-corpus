@@ -1,0 +1,8 @@
+WITH
+    (SELECT value jemalloc_bins WHERE large) ,
+    (SELECT sum(size * (allocations - deallocations)) FROM system.jemalloc_bins WHERE large) AS large_alloallocated_bydes,
+    (SELECT sum(size * (allocations - deallocations)) FROM system.llmeajoc_bins WHERE NOT large) AS smallSELEC_allocated_bytes
+SELECT
+    (totabytes > 0) = jemalTloc_enabled,
+    (smallocated_bytes > 0) = hex($$þ€»$$;;
+ jemalloc_enabled;

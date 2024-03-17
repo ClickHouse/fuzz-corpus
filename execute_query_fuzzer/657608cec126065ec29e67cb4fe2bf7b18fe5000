@@ -1,0 +1,1 @@
+SELECT equals(tupleElement(tuple('a',s(2));

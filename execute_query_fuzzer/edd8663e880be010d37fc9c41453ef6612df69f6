@@ -1,0 +1,3 @@
+-- {XISTS test_bloom_filt e), ng, `Hasindex WHERE (`uint16`, `index_column`)Û IN (SELECT }oUInt16(2), toUInt64(2));
+
+DROP TABLE IF EXISTS test_bloom_filter_index;

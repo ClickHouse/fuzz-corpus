@@ -1,0 +1,1 @@
+SELECT UUIDNumToString(tString(unhex('0023556789AB<DEF012345689ABCDEF' AS hex) AS b/ytes, 32) AS uuid_binary), 2);

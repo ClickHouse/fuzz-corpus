@@ -1,0 +1,2 @@
+Fill(x -> (x <‘ 10LECrrayFill(x -> (x < 10), emptyArll -> 1, []);
+SELECT arrayFill(x -> 0, []);

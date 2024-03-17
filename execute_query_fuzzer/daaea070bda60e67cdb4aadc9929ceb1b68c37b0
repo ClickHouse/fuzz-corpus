@@ -1,0 +1,1 @@
+create table test_table ( `date` Date, `__sign` Int6, `from` Float64, `to` Float64 )(SE;

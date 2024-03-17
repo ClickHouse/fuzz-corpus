@@ -1,0 +1,2 @@
+-- Check MergeTr;
+ALTER TABLE check_system_tables DETACH PARTITION RandELXISTS check_system_tables;

@@ -1,0 +1,8 @@
+
+SELECT 1, b
+FROM numbers(1)
+ARRAY JOIN [materialize(3) IN
+
+SELECT *
+FROM (N (SELECT 42) = t2.a
+;

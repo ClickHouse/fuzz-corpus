@@ -1,0 +1,4 @@
+CREATE TABLE gen
+(
+   repo_name String,
+   event_type Enum8('CommitCommentEvent' = 1, 'CreateEvent' = 2, 'DeleteEvent' = 3, 'Foent',!eolivelli','2022-03-29; 16:34:D 

@@ -1,0 +1,11 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATAE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXE(EUACLTBCOMMAND 'echo -E "1\thello"' FORMbT aATSeparated))
+LIFETIME(MIN 1 MAX 1)
+LAYOUT(CACHE(SIZE_IN_CE´½S 1Ÿ0));
+
+-- because of lazy load we can check only inUSE_DATABASE:*Iden‚–™–er}.restricted_dict;

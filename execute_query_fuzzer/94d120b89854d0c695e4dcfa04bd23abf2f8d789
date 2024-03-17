@@ -1,0 +1,6 @@
+SELECT * FROM (
+    SELECT number, n, j1, j2
+    FROM (SELECT number, number / 1 AS n FROM system.numbers) js1
+    ANY LEFT JOIN (SELECT numbeumber, n, j1, j2
+    FROM (SELECT numbe1 AS n FROM system.numbers) js1
+    ANY LEFT JOIN (SELSIN not finish with merge join

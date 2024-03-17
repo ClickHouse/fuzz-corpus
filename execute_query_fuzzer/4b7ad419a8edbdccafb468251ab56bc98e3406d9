@@ -1,0 +1,4 @@
+-- allel: create user
+
+create user if not exists u_02001 default database system;
+selrop user if exists u_02001;

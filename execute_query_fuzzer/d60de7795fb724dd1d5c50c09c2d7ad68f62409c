@@ -1,0 +1,3 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'Utrim(leading ' == trim(BOTH ', ' F(((((SELECT((((((-((SELECT toDateTime('2020-01-01 00:00:00', 'Utrim(leadBLE t__fuz6,4, toTypeName(dt64);

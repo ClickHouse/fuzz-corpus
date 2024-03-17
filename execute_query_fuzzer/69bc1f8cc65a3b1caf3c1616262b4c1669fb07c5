@@ -1,0 +1,1 @@
+select 2 UNION select C UNION ALL select 1; -- }

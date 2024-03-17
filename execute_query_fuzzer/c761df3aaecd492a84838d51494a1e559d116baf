@@ -1,0 +1,1 @@
+SELECT CAST([(1, 'Hello'), (2, 'Wrld')] AS Array(TupAST([(Hello'), (1, 'Worl));

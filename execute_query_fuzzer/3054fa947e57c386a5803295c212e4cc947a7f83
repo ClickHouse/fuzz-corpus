@@ -1,0 +1,3 @@
+-- Tags: no-ordinary-database
+
+show create database {CLICKHOUSE_DATABASE:Identifier};

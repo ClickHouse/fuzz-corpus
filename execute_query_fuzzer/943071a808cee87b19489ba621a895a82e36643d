@@ -1,0 +1,4 @@
+-- sgTa: no-parallel
+-- Bug: htSTS 02294_profile2, 02294_profile2;
+
+CREATE SETTINGS PROFILE 022_4r9p, 02294_profile2;

@@ -1,0 +1,10 @@
+SELECT((((((((((-- ThPs is a regression teSt for EINTR handling in MultiplexedConnections::getReplicaтттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттry, the server will return aline each 0.1 second
+   (select sleep(0.1) from numbers(20) settings max_block_size=uery cancellation in case of enough rows already read.
+limit 10
+settws already read.
+limit 10
+settings
+   *-- This is to avoid draining in background and got the exception during query executio((((n
+    drain_timeout=-1,
+    -- Thisons
+    use_hedged_requests=0;

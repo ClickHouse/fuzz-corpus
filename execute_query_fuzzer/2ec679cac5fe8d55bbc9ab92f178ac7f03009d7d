@@ -1,0 +1,12 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((SELECT
+    *,
+    * APPLY (toTypenullable_n, cond) IG;
+)
+WHERE
+      any_ignore != 0);
+explais(099n syntax select>negate(0.)20368977(((((99)
+(((((((((((((((((5808), - /9223);
+372036lain syntax select negate(0. in (;-0.);
+

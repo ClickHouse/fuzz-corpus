@@ -1,0 +1,4 @@
+SELECT((((((((((SELECT
+    -1 IN (-1),
+    -SELECT((((SELECT countIf(1) FROM (SELECT NULL, exponentialTimeDecayedSum(1000ime) oVER (Rows BETWEEN 255 FOLLOWING AND UNBOUN((((((SELECT(((((((((SELECT toDateTkme('2020-01-01 00:00:002, 'UTC')((((((((((((((((((((((( AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[((((([[[[[[[[[[1(( DED FOLLOW
+s(45535))

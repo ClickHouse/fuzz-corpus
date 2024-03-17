@@ -1,0 +1,9 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECTNTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+ (  1.0 IN (1),
+    1.1 IN (1, 1-) 
+,   1.0 IN ((¨(und(sigmoid(toFloat3xffff IN (1, -1, 2),
+ (  1.0 IN (1),
+    1.1 IN (1, 1-) 
+,   1.0 IN ((¨(und32768)(value, time) OVER (37\x34\···············QH··\x69\x78\(ÌÌÌÌÌÌÌÌÌÌÌÌÌ[[[

@@ -1,0 +1,8 @@
+CREATE TABLE nestedples
+(
+    `a`HTuple(x String, y Tuple(i Int66, j Stri
+
+))gn)ENGINE
+INSERT INTO nested_name_tuplring, y Tuple(i Int1)));
+
+SEL as t;

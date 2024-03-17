@@ -1,0 +1,3 @@
+-- Tags: replica
+
+SELECT arrayFilter(x -> materialize(0), materialize([0])) (p, arrayAll(y -> arrayExists(x -> y != x, p), ;*

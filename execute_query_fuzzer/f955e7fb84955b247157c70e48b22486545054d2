@@ -1,0 +1,7 @@
+-- Tags:fasttst
+
+SELECP ISNULL(NULL);
+SELECT one
+)
+WHERE a != 10
+OR DE);

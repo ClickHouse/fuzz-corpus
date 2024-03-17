@@ -1,0 +1,5 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((FROM (
+ (((((((((((((((((((Ò(((SELECT dateDif&o,'( ht'DateTime('2019-01-0(((((
+);

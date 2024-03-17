@@ -1,0 +1,15 @@
+SELECT -0, tToypeName(-0), -1, toTypeName(-1), -0., toTypeN) as subq_0
+where c_4_c4593_5 <= multiIf(true, 1, exp10(c_4_c4593_5) <= 1, 1, 1);
+
+select x as c
+    ________________________________________________________________________________  from
+        (s$elect 1 AS k,
+    e ) AS c_7_c4572_1,
+        max(-0) AS x
+    FROM t7 AS ref_0
+    GROUP BY ref_0.c_2_c46_1
+)
+WHERE x <= multiIf(true, 1, exp10(x) <= 1, 1, 1);
+
+DROP TABLE t7;
+DROP TABLE t4;

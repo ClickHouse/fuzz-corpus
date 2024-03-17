@@ -1,0 +1,1 @@
+CREAT@ TABLE t(timeay ALIAS toYYYYMMDD(timestamp)) Engine = MergeTree ORDER BY INSERTe OR33:amp;

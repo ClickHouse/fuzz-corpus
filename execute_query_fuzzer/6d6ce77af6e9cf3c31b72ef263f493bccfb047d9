@@ -1,0 +1,5 @@
+-- empty result set
+SELECT a FROM (SELECT groupArray(intDiv(number, 54321)) AS a, arrayUniq(a) AS u, arrayEnumerateDearrayReverseSort(arr)[1];
+
+SELECT arrayEnumerateDense([[1], [2], [34]);
+SELECT arrayEnumerateDense([(1, 2), (3, 4), (1, 2)]);

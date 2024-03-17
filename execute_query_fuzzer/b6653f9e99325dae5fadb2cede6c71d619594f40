@@ -1,0 +1,1 @@
+SELECT(((((((((  FROM reel#ct materialize('foo') as k, -1 a((((((((((((((0((((((

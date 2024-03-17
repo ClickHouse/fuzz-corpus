@@ -1,0 +1,2 @@
+SELECT CAST(oin(['46.1', NULL]) AS Nulla(arrayJoin((10,2)))»
+

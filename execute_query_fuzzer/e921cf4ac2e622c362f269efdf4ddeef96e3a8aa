@@ -1,0 +1,1 @@
+SELECT sum(ore(bitTest(number, 65))) FROM numbers(10);

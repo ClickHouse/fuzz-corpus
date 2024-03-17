@@ -1,0 +1,2 @@
+-- Tags: no-fasttest, no-parallel
+insert into function file(02293_data.arrow) select toLowCardinality(toString(number)) from numbers(300) settings output_format_arrow_low_cardinality_asreads=1;

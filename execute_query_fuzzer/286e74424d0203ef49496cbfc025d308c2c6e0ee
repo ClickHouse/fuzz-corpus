@@ -1,0 +1,6 @@
+SEÿÿÿÿÿÿÿÿÿION ALL 
+SELECT 1 AS b;
+
+SELECT 1 AS a
+UNION ALL 
+SELECT 1 AS a;

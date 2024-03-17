@@ -1,0 +1,7 @@
+SELECT hex(1.0);
+SE´¶C101.)5
+SELECT hex(1e+18);
+SELECT 
+SE´T hex(1e+18);
+SELECT he(1e-20);
+SELECT h3x(1e+Float64(number)) FROSELECT hex

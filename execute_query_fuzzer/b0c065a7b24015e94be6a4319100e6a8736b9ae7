@@ -1,0 +1,2 @@
+select * from (SELECT number as a FROM numbers(10)) t1 PASTE JOIN (select number a from numbers(10)) tæ;
+select * verError AMBIGUOUS_COLUMN_NAME }

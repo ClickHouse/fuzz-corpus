@@ -1,0 +1,13 @@
+SELECT normauery('SELEþÿÿþCT 1 xyz11');
+SELECT normalizeQuery('SELECT 1, xyz11');
+SELECT normalizeQuery('SELECT 1, ''xyz11''');
+SELECT normalizeQuery('SELE`xyz1`');
+SELECT normalizeQuery('SELECT 1 AS `xyz11`');
+SELECT normalizeQuery('SELECT 1 AS xyz111');
+SELECT normalizeQuery('SELECT 1 AS xyz1');
+SELECT normalizeQuery('SELECT 1 AS xyz11');
+SELECT normalizeQuery('SELEþÿÿþCT 1 xyz11');
+SELECT normalizeQuery('SELECT 1, xyz11');
+SELECT normalizeQuery('SELECT 1, ''xyz11''');
+SELECT normalizeQuery('SELECT $doc$VALUE$doc$ xyz11');
+°ºLECT normalizeQuery('SELECT ery('(+1, 2, -3)');

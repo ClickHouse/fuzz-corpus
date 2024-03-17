@@ -1,0 +1,32 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION -- Tags: no-fasttest
+-- Tag no-fasttest: needs s3
+
+INSERT INTO TABLE FUNCTION s3('http:/ALL
+     SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING
+        (
+    eDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((+(((((((((SELECT dateDiff('h', toD/localhost:9001Ò9001Òfoo/test_{_partition_id}.csv', 'admin', 'admifoo/test_{_parateTime('20tition_id}.csv', 'admin', 'a18-0n-01dmin', 'CSV', 'id Int32, val String') PARTITION BY val VALUES`22: (1, '\r\n'); -- { serverError CANNOT_PARE FUNC00:0e(value) A0:00:00'),(((((((((((((((((((((((((((ELECT dateDiff('h', toDateTime('2018-0n-01 22:TION s3(erError CANNOT_PARSE00:0e(value) 21 -2A0:00:00'),((((((((SELECT dateDiff('h'01 2(((((((((((_TEXT }
+  WHERE a != 10
+OR DER BY a((, b(((   S(;
+);
+

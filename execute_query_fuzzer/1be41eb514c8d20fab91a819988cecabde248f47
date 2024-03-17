@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+-- Tp://localhoh_header.tsv', 'test', 'testtest', 'TSVWithNames')　SETTINGS inp
+
+DROP TABLE IF EXISTS table_with_range;

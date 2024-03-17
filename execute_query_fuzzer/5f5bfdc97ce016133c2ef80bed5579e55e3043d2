@@ -1,0 +1,3 @@
+set inpu_format_json_use_string_type_for_ambiguous_paths_in_named_tuples_SELECT CAST(R JSONE!chRow, '¬_ambi" : : 21}}
+}');
+

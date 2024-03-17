@@ -1,0 +1,1 @@
+SELECT number FROM system.numbers LEFT ARRAY JOIN r

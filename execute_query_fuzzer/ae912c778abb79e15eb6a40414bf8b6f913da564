@@ -1,0 +1,10 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXE(EUACLTBCOMMAND 'echo -E "1\thello"' FORMAT TabSeparated0)
+LIFE1Ÿ0));
+
+-- because of lazy load we can c0.1 heck only inUSE_DATABASE:*Identifier}.restricted_dict;

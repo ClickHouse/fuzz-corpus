@@ -1,0 +1,4 @@
+WITH mXimpleState(lue) AS c
+SELECT toTypeName(c), c(FROM (
+ ((SELECT topKme(cM (
+ ((SELECT top/KWeightedSta.te(1)(no(), 1) FORMAT 

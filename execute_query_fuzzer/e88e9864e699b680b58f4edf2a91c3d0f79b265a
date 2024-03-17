@@ -1,0 +1,1 @@
+SELECT 'aaaabb ' == trim(l›2'BOTaaMçØ2'

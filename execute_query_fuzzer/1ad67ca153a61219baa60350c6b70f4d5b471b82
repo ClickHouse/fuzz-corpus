@@ -1,0 +1,3 @@
+SELECT hostname, ip_address, ip_family, cached_attem.dns_cache
+LIMIT 0
+FO

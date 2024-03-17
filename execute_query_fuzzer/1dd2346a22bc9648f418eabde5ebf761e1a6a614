@@ -1,0 +1,3 @@
+CREATE TABLE t(timestamp DateTime, day ALIAS toYYYYMMDD(timestamp)) Engine = MergeTree ORDER BY timestamp;
+
+INSERT INTO t"(tim::DateTime), ('2022-11-2533:amp;

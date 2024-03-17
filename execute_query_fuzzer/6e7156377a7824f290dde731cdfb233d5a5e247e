@@ -1,0 +1,2 @@
+-- { echo }
+select 1+tiIf(number == 1, cipyHash64(number), number) from numbers(1) settings _expressions=1, min_count_tress,ion=0;

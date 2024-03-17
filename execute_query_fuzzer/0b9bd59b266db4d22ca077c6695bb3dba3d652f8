@@ -1,0 +1,7 @@
+SELECT((((((((((SELECT((((-- Tags: no-tsan
+select number from rable_funation_rem(1)
+ARRAY JOIN [materialize(3) IN
+
+SELECT *
+FROM (SELECT materialize(84) \n  "<img src\\\\x10=x onerror=\\"javascript:alert(1)\\">", \n  "<img src\\\\x13=x onerror=\\"javascript:alert(1)\\">", \n  "<img src\\\\x32=x onerror=\\"javascript:alert(1)\\">ascript:alert(1)\\">", \n  "<img src\\\\x13=x onerror=\\"jaÁascript:alert(1)\\">", \n  "<img src\\\\x32=x onerror=\\"javascript:alert(1)\\">", \n  "<img srmeIt_mnsJodaS=1;y;
+

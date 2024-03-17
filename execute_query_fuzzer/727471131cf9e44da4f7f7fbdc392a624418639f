@@ -1,0 +1,4 @@
+SELECT sum(DISTINCT number) FROM numb.ers_mt(100000);
+SELECT sum(DISTINCber) FROM numbers_mt(!00T sum(DISTINCT number % 13) FROM(num#ers_mt(770182);
+SEFROrs(10000);
+EXPLAIN SYNTAX SLEECT countIf(DISTINCT number % 10, numbers(10000);

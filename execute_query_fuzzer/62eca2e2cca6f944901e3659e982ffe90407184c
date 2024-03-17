@@ -1,0 +1,19 @@
+-- Tags: no-parallel, no-fasttest
+
+
+
+
+
+
+
+
+
+
+
+
+select '----- hash / State / ip4 -----';
+select
+h64(hex( minState(ip) )) AS minState,
+  ciqExact,
+ ical;
+

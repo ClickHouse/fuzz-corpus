@@ -1,0 +1,2 @@
+select 42 settings compaticbility=NULL;  -- {clientError BAD_ARGUMENTS}
+

@@ -1,0 +1,20 @@
+SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, ignore != any_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR last_nullable_ignore != last_nullable_respect
+   OR toTÿÿÿÿÿÿÿlast_nullable_ignore) != toTypeName(last_nul); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }
+
+SELECT
+    anyect_nullsState(number) as t FROM numbers(0));
+SELECT first_value_respect_nullsMerge(t) FROM (Select first_value_respect_nullsState(number::Nullabbers(10000)
+);

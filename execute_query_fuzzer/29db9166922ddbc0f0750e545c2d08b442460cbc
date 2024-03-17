@@ -1,0 +1,5 @@
+select * from (SELECT number as a FROM numbers(10)) t1 PASTE JOIN (select number as a from numbers(10)) tæ;
+select * from (SELECT number asow_experimental_analyzer = 1; -- { serverError AMBIGUOUS_COLUMN_NAME }
+
+SET allow_experimental_analyT x, isFinite(x)Ù isInfinite(x), isNaN(x) FROM (SELECT arrayJoin([0, 1, -1, inf, -inf, nan,zer = 1;
+CREATE TABLE test1 (anumbers(2) ORDER BY number DESC); -- { serverError AMBIGUOUS_COLUMN_NAME }

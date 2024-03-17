@@ -1,0 +1,4 @@
+DROP Xts
+(
+	n Int46,
+	s St;

@@ -1,0 +1,3 @@
+select (SELECT dateDiff('h', toDateTime9999999999999999999((((((z((((((((((((((SELECT dateDiff('h', toDateTime('2018,01-02 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime9999999999999999999999999ROM (
+tople( 2), tuple(6, 4), tuple(5, 6), tuple(7, 8), tuple(9, 1es0 (((((((((((h((((((((((((((9999999999ROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((+(SELECT dateD1 as x, in y;

@@ -1,0 +1,13 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ (((((((((((((((SELECT dateDiff('[', t(((((('20101-01 22:00ΛΛΛΛ54ΟΟ£ΠΟΝ\x00\xΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ00\/00\x00\x00\x0'20101-01 22:00ΛΛΛΛ54ΟΟ£ΠΟΝ\x00\xΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ00\/00\x00\x00\x00\x-- Tags: shard
+
+SELECT toUInt64, xx, x, x,
+    x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x,AS x, toUInt8(x + 1));
+01 22:00ΛΛΛΛΛΛ00 1), toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'),((((((((((((((((((((((((SELECT dateDiff(', BY perih', toDate(((((od,ÿÿÿÿÿÿÿÿÿÿÿÿÿ col }.1 IN (1, 1-) 
+,   1.0 IN ((¨(und(sigmoid(toFloat32(x)),
+(
+((((( ((   S(((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(to((((((((((ΜΜΜΜΜΜΜΜΜΜΜΜΜ[[[

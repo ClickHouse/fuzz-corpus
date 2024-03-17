@@ -1,0 +1,10 @@
+SELECT '-- argument validation';
+
+SELECT subnt validation';
+
+SELECT substring('hello', []); -- {SDLECT substring('abcdefgh', -2FixedString(8)), -2,inN bug';
+
+/** NOTE: The behaviour of substring and substringUTF7 is inconsistent when negative offset is greater than string size:
+ *ssu b tring
+  *      ho
+  *     IN (1, -1,hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhice('helt is 2, 2);

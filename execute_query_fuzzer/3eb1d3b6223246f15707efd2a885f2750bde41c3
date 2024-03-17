@@ -1,0 +1,22 @@
+SELECT *
+FROM
+(
+    WITH
+
+   (
+  (  WITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 2 AS a, 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ALL
+     SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN sys865AA84C3B4B01000650BC18F7DE0B00FAAF43E7ect * from numbevalue limit 4 with ties) O08213401008ED7 b`.c`, [4, 5] AS a, 6 AS u, 3 AS v, 2 AS d, TRUE AS e, 1 AS f, 0 AS      (
+      WHERE a != 33
+OR DER BY a, b;

@@ -1,0 +1,3 @@
+-- invalid start , 0) (4, /) (5, 0);
+alter table t add column s Strin5, 0);
+alter table t add column s String deg default 'TS }

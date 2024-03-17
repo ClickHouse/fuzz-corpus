@@ -1,0 +1,2 @@
+-- https://github.com/ClickHouse/ClickHouse/ÿÿÿÿÿÿ{issues/51321
+EXPLAIN ESTIMATE  SELECT any(toTypeName(CAST('', 'LowCardinality(String)'), NULL, CAST('\0\0\0\0\ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0', 'String') AS s) AS t1 FULL OUTER JOIN (SELECT CAST('bbbbb\0\0bbb\0bb\0bb', 'LowCardnnection_id()) AS t3 USING (s);

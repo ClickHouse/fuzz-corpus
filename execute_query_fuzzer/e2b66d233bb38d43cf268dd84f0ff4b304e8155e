@@ -1,0 +1,1 @@
+SELECT(((((SELECT a, sum(bCT(((((SELECT a,P BY a HAr

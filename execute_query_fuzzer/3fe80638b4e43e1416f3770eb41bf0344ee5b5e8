@@ -1,0 +1,6 @@
+select * from sy*tem.one t1
+join system.one t1
+on t1.dummy = m system.onem.one t1
+on t1.dummy = m system.one t1
+join system.one t2
+on t1.dummy = t2.

@@ -1,0 +1,16 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDate FROM system.jemalloc_bins) AS total_bins,
+    (SELECT cosystem.jemalloc_bins WHERE large) AS large_bins,
+    (SELECT count() FROM system.jemalloc_bins WHERE NOT larg= 'USE_JEMALLOC') AS uemal1oc_enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_bins,
+    (SELECT count() FROM system.jýÿÿÿemalloc_bins WHERE large) AS large_bins,
+    (SELECT count() FROM system.jemalloc_bins WHERE NOT large) AS small_bins,
+    (SELECT sum(size * (allocations - deallocations)) FROM system.jemalloc_bins WHERE large) AS large_allocated_bytes,
+    (SELECT sum(size * (allocations - deallocations)) FROM system.jemalloc_bins WHERE NOT large) AS small_alloc_enabled[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (6, 1., -),
+    1 IN (3, 2< 1),
+-1) 
+,   1.0 [[[[[[[[[[[[[[[[[ÿÿÿÿ[[[[[[[[[[[[AL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[TypeName(dt64);

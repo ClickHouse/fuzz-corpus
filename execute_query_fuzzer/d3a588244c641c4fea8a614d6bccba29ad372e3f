@@ -1,0 +1,5 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-922337ct negate(-9223372036854775808), -(-9223372036854775808), - -9223372076854775808;
+explain syntax select negate(0), negate(-0), - -0, -(-0)SELECT _shster("{def_tult_clus2/col3, 4.ect negate(0. in (;-0.);
+

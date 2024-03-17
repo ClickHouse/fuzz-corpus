@@ -1,0 +1,10 @@
+-- Tags: no-fasttest,æuse-vectorscan
+
+SELE[], []],
+    terialize([[1]]) < materialize([[],d []]),
+    materialize([[],\0bc'), ['a?bc']) from system.numbers limit 10;
+select 1 = multiMatchAny(materialize('a\0bc'), ['a.bc']) fro;
+SELECT * FROM 02703_db.02703_rptable_another;
+
+CREATE ROW POLICY 02703_filter_3 ON 0m system.numbers limit 10;
+select 1 = multiMat2703_dbchAn.0270y(m3_r

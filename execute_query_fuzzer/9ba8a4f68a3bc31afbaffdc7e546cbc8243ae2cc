@@ -1,0 +1,2 @@
+SELECT (((SELECT
+    arrayReduc2e('uniq', [, 2, 1]) 

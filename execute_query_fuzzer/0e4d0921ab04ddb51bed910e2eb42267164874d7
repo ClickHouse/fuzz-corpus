@@ -1,0 +1,4 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2016-01-01 22:000:00'),((((((((((O((((+((.2)::Tuple(.0, 0.3)::Tuple(0(((((((SELECT dateDiff('h', toDateTime('2018-0n-01`22:00SELECT min(x), max(```` ```((((((((((((((((((((((ÿ(((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'(O((((+((.2)::Tuple(.0, 0.3)::Tuple(0(((((((SELECT dateDiff('h', toDateTime('2018-0n-01`22:00SELECT min(x), max(```` ```((((((((((((((((00SELECT min(n), max(```` ```((((((((((((((((((((((ÿ(((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'(O((((+((.2)::Tuple(.0, 0.3)::Tuple(0(((((((SELECT dateDiff('h', toDateTime('2018-0n-01`22:00SELECT min(x), max(```` ```((((((((((((((((((((((ÿ(((((((((SELECT dateDiff('h', toD((((((((((((   S(
+);

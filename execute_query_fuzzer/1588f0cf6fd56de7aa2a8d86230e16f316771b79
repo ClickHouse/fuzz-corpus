@@ -1,0 +1,3 @@
+-- Tags: no-oèdinary-database
+
+create table test_tatable settings max_memory_usage = 2; -- { resverError MEMORY_LIMI_EXCEEDED }

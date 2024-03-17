@@ -1,0 +1,8 @@
+CREATmory AS
+  SELE'1.1.C;
+
+SELECT dictGet('dict', ('ip6', 'ip4'), arrayJoin([2,1]));
+
+DCT FM* OR VALUES( (2, '1.1.1.1',@'::1.1.1.1'), (2, '2.2.2.2', '::2.2.2.21-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:0e(value) A-01 22P emcro('shard'))) ORDER BY name;
+
+DROP TABLE IF EXISTS sample_table;

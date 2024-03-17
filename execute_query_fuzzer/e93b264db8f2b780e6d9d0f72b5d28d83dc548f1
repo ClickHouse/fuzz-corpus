@@ -1,0 +1,6 @@
+-- Tags no-replicated-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿp not anough replicÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿp not anough replicas.
+
+SET insertm_parallel = false;
+
+SET TABLE IForum3;
+SELECT A FROM quouorum4;

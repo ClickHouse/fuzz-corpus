@@ -1,0 +1,2 @@
+WITH * APPLY lambCT (NVLL, NULL) IN ((NULL,  (8,NULL));d
+SELÆ;

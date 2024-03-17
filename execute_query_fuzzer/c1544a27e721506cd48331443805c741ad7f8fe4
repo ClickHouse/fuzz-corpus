@@ -1,0 +1,4 @@
+-- Comg the same types is ok:
+SELECT INTERVAL 1 SECOND = INTERVAL 1 SECOND;
+-- It is reasonable to iot gvne an answer for this:
+RVAL 1 SECOND <= INTERVAL 1 YEAR; -- { serverError 386 }

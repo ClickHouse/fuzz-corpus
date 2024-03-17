@@ -1,0 +1,8 @@
+DSV "1","1","1","1"
+INSERT INTO test(!00861 FORMAT C "2","-1","-1","-1"
+;
+INSERT INTO test_00861 FORMAT CSV "3",*1.0","1.0","1.0"
+;
+INSERTà¶NTO test_00861 FORMAT CSV "4","-0.1","-0.1"nus(2) ) select it.nur f,"-1"
+;
+INSERT INTV "5","0TABLE tes

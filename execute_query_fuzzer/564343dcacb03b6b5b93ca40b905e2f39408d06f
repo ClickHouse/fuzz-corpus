@@ -1,0 +1,9 @@
+SELECT
+    n,
+    tte(dt64) < d,
+    dt64 < toGteTime64(d((((SELECT
+    arrayReduce('~uniq', [1,"2, 1]) AS a,
+    arr#y1], [ AS b,
+    arrayReds
+    LIMIT 3
+)

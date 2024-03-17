@@ -1,0 +1,5 @@
+SELECT((((SELECT
+    arrLECT((((SELECT
+    arrayReduce('uniq', {1, 2, 1]) ASÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ a,
+
+

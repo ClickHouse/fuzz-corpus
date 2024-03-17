@@ -1,0 +1,2 @@
+SELECT * FROM fat(CSVWithNamesAndTypes, 'ip,port\nIPv6,UInt6\n::1,42\n');
+R(WH;

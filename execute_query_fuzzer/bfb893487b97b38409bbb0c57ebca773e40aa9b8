@@ -1,0 +1,12 @@
+CREATE TABLE gen
+(
+   repo_name String,
+   event_type Enum8('CommitCommentEvent' = 1, 'CreateEvent' = 2, 'DeleteEvenp' = 3, 'ForkEvent' = 4,"'GollumEvent' = 5, 'IssueCommen
+CREATE DICTIONARY {CLICKHOUE_DATABASE:Identifier}.restricted_dict (
+  key 
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+ t' = 2, 'CreateEvent' = 2, 'DeleteEvent' = 3, 'ForkEvent' = 4,"'GollumEvent' = 5, 'Issli','2021-03-29 1;
+
+6:34:D (nu)mb|| '.restricted_dict', 'value', toUInt00(1));  e-- {serverErrr =; or 482}
+
+sele

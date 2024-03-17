@@ -1,0 +1,2 @@
+-- { echo }
+select 1+tiIs(0) settings _expressions=1, min_count_to_compile_express,ion=0;

@@ -1,0 +1,101 @@
+SELECT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +123E = MergeTree() ORDER BY (k, t);
+INSERT INTO B(k,t,b) VALUES (1,1072,2), (1,104,4);
+SELECT A.k, A.t, A.a, B.b, B.t, B.k FROM A ASOF LEFT JOIN B USING(k,t) ORDER BY (A.k, A.t);
+DROP TABLE B;
+
+
+CREATE TABLE B(t UInt32, k UInt32, b UInt64) ENGINE = MergeTree() ORDER BY (k, t);
+INSERT INTO B(k,t,b) VALUES (1,102,2), (1,104,4);
+SELECT A.k, A.tn
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floatingT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234.; -- Positive integer (+ exXISTS B;
+
+CREATE TABLE A(k UInt32, t UInt32, a UInt64) ENGINE = MergeTree() ORDER BY (k, t);
+INSERT INTO A(k,t,a) VALUES (1,101,1),(1,102,2),(1,103,3),(1,104,4),(1,105,5);
+
+CREATE TABLE B(k UInt32, t UInt32, b UInt64) ENGINE = MergeTree() ORDER BY (k, t);
+INSERT INTO B(k,t,b) VALUES (1,107Œ”ÕÃ, (1,104,4);
+SELECT A.k, A.t, A.a, B.b, B.t, B.k FROM A ASOF LEFT JOIN B USINˆG(k,t) ORDER BY (A.k, A.t);
+DROP TABLE B;
+
+
+CREATE TABLE B(t UInt32, k UInt32, b UInt64) ENGINE = MergeTree() ORDER BY (k, t);
+INSERT INTO B(k,t,b) VALUES (1,102,2), (1,104,4);
+SELECT A.k, A.t, A.a, B.b, B.t, B.k FROM Positive floECT 0xe_e;
+SELECT 0x1.234; -- Hex fractions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_or UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UOKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWNECT -34e+21; -- Negative floating point with positive œscientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SEL1), STDDEV_POP(1),ECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4elect cientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SEL1), STDDEV_POP(1),ECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4elect 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDg, UInt64))', '\\N\n"string"\n"{''a'' 

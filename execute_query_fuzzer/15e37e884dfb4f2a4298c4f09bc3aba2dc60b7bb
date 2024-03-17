@@ -1,0 +1,3 @@
+--  the same types is ok:
+SELECT INTERVAL 1 SECOND = INTERVAL 1 SECOND;
+-- It is CONDAR; -- { serverError 386 }

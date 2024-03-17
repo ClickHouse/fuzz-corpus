@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((((h(((((((((((((((SELECT date'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime(', toDateTime('2018-01-01 22:00:0e:00:00'),((((((((iff('h'00 2((((((((((((((((   S(
+);

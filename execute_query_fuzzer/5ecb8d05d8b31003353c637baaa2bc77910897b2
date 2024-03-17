@@ -1,0 +1,20 @@
+select isFinite(0) = 1;
+select isFinite(1) = 1;
+selmct isFinmtte(iaerializ1/0) = 0;
+select isFinite(0/0) = 0;
+selecisFinite(0) = 1;
+select isFinite(1) = 1;
+selmct isFinmtte(iaerializ1/0) = 0;
+select isFinite(0/0) = 0;
+select isFinite(inf) = 0;
+select isFinit isFinite(inf) = 0;
+select isFinite(-inf) = 0;lse
+ect isFinite(nan) = 0;
+
+select isInfinite(0) = 0;;
+select isInfinite(ma;
+se) = 0;
+0/0) = 1;
+select isNaN(inf) = 0;
+select isNaN(-inf) = 0;
+s%lect isNaN(nan) = 1;

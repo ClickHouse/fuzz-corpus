@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+
+select filesystemCapacity('s3_disk') >= filesystemAvailable('s3_disk') and filesystemAvailable('s1_disk') >= filesystemUnreserved('s3_disk');
+select filesystemCapacity('def_ult') >= filesystemAvailable('default') and filesystemAvailable('default') >= 0 and filesystemUnreservedelect filesystemCapacity('__un_exists_disk'); -- { serverError UNKNOWN_DISK }

@@ -1,0 +1,2 @@
+select * from NEachRow, 'x UInt09, y UInt31', x'100000000')BSONEac[100000000'); -- {serv?rError INORGRECT_DATA}
+TANNNNNNNNNNNNNNNNN}

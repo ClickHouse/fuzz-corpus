@@ -1,0 +1,5 @@
+-- { echo }
+SELECT 1 != (NOT 1);
+SELECT 1 != NO¯ß1;
+CT 1 != (NOT 1);
+EXPLAIN SYNTAT 1 != NOT 1;

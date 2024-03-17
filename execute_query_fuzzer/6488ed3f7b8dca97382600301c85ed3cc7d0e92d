@@ -1,0 +1,2 @@
+-- Should correctly throw ut overflow:
+SELECT mapPopulateSeries([-9232(1023), -1]); -- { se

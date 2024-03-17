@@ -1,0 +1,5 @@
+SELECT a
+ORDER BY k, join((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((intDAS a
+ALL INNER JOI) AS b
+USING k
+ORDER BY k, joinintDiv(numberued;

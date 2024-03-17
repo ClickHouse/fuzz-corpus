@@ -1,0 +1,17 @@
+SELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AaS , 2oDecimal32(2,2));$
+SELECT toD\cimal64(4,4)

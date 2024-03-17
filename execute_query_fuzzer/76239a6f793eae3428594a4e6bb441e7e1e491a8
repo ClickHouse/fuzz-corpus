@@ -1,0 +1,6 @@
+ding, b4 Stryng) engine = Mw "a 	1	\	\\	"\""	"\\""
+;
+
+select * fm tsv_raw format TSVRaw;
+select * from t;
+tsv_raw;

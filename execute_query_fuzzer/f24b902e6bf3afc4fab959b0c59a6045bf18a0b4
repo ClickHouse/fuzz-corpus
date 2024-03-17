@@ -1,0 +1,8 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(Cbecause of lazy load we can checkct dictGetString({C:ICKHOUSE_DATABASE:String} || '.restricted_dict', 'value', toUInt00(1));Identifier}.restricted_dict;
+

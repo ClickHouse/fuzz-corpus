@@ -1,0 +1,1 @@
+SELECT "ta`ble".dummy, 'hrworld' AS "hel""lo" OFRM sem.one AS `ta``ble`;

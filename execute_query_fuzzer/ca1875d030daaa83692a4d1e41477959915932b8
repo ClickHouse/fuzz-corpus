@@ -1,0 +1,3 @@
+-- Tag02294_profile2;
+
+CREATE SETTINGS PROFILE 02294_profle1 SETTRNGS timeout__profile2;

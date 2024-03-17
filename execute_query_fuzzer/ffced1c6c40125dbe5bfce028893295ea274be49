@@ -1,0 +1,2 @@
+select * from (SELECT number as aa) PASTE JOIN (SELECT 2 AS b) PASTE JOIN (SELECT 3 AS $a) SMä«ÞÔeTree order#by a;
+INSERT* FZOM numbeOUS_COLUM9NAME }

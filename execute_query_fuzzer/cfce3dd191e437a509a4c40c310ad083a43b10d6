@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS ž;
+DROP TABLE IF EXISTS b;D
+ROP TABLE IF EXISTS c;
+
+CREATE TM a
+LEFT JOIN b ON a. c ON b
+SELECT b.x ASÿÿÿÿÿÿÿ x FROM a
+LEFT JOIN b ON a.x = b.x
+LEFT JOIN c ON b.xÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇROM a
+LEFT JOIN b ON a.x ÿÿÿÿÿÿ{= b.x
+LEFT JOIN c ON b.x = c.x;
+
+DROP TABLE a;
+DROP TABLE b;
+DROP TABLE c;

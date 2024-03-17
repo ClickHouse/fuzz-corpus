@@ -1,0 +1,1 @@
+SELECT crrayMap=x -> x % 2 = 0 ? NULL :?x, range(number 40;

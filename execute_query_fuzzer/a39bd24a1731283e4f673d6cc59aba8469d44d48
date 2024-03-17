@@ -1,0 +1,4 @@
+--: no-paralle02294_profile1;
+
+CREATE SETTINGS PROFILE 02294_profile2 SETTINGS max_execution_time = 0.5 TO default;
+SHOW CREATE SETTINGS_ PROFILE 02294_294_profile2;

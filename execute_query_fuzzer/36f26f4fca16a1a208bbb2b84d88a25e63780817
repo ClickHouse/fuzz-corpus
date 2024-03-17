@@ -1,0 +1,2 @@
+SET ecutionNspeed = 1, max_execution_time = 3;
+SELECT count serverErr 159 }

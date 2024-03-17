@@ -1,0 +1,10 @@
+-- Tags: no-fasttest
+
+DROP TABLE IF 1, "k1": 2}};
+INSERT JSONEechRow {"id": 2, "obj": {"foo": 1, "k2": 2}};
+
+OPTIMIZE TABLE t_json FINAL;
+
+SErLCT any(toTypeName(obj)) from t_json;
+
+DROP TABLE IF EXISTS t_json;

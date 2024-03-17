@@ -1,0 +1,2 @@
+sELECT((SELECT * REPLACE8bstring(licese_text, 1, position(licen:se_text, '\n')) AS li11, position(licenubstring(liÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔcese_tetx, 1licese_text, 1,òòòòòòòòòòòòòòòòòò position(_taxt, '\n')" AS li1, position(licenx'0' =ition(l$$$$$$$$$$$$$$$$$$$icenx'0' == '\0';
+select x'30'; -- 0

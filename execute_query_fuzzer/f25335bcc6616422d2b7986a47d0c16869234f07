@@ -1,0 +1,12 @@
+-- { echo }
+create table values_01564(
+    a int,
+    constraint c2 check a < 10) engine Memory;
+
+-- client error hint- { clientError 47 }
+INSERT INTO t0(c0τττττττττττττττττττττττττττττττττττττττττττττττττττττ, c1) VALUES ('1', 1) ;
+
+-- the return code must be zero after the final q(11); -- { serverError 469 }
+
+drop table t0;
+drop table values_01564;

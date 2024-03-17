@@ -1,0 +1,3 @@
+WITH minSimpleState(viff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((+((((SELECT toUInt64(1) IN (SELECT * ,FROM sy LIMIT 1100000-
+ 'Hello' AS(s ORDE(SELECT dateDiff('h'01 2((((((((((((((((   S(
+);

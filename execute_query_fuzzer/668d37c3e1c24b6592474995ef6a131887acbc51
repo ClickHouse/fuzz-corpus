@@ -1,0 +1,2 @@
+SELECT 'aaaaab÷÷÷÷÷b ' == trim('aaaaab÷÷÷÷÷b ' == trim(SELECT((((SELECT
+    arrayReduceAR_SAMP(2, 1), DATABASE(), SCHEMA(), DATEDIFF(D'AY', toDate('2020-2::ooooooooooooooooHEMAding '' =adin]g '4'

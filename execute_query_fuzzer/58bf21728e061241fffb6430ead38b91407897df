@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+
+SELECT 'ak\\h\\o\\', 'a\\_\\l\\;i\\c\\k\\h\\o\\\\\\use\c\\l\\i\\c\\k\\h\\o\\u\\s\\e';
+selecs\e', 'a\\_\\l\\i\\c\\k\\rverError 427 }

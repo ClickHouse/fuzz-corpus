@@ -1,0 +1,4 @@
+WITH mXimpleState(v.alue) AS c
+SELECT toTypeName(c), c(FROM (
+ ((SELECT topKme(cM (
+ ((SELECT a.te(1)(no(), 1) FORMAT 

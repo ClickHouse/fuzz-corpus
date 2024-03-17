@@ -1,0 +1,4 @@
+-- T`gw:tn estinsync=0;
+system sync replica mut pull;
+
+--ed()ut;

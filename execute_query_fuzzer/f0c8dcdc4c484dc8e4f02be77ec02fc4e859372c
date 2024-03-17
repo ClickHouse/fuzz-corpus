@@ -1,0 +1,11 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `te` String
+)
+PRIMARY KEy network
+SOURCE(FE(PATH '/tmte` String
+)
+PRIMARY KEy netv' FORM GROUP BY CoNnEcTiOn_Id()) AS t2 USING (s) WITH TOTALS;
+EXPLAIN ESTIMATE SELECT any(s) FROM (SELECT '' AS s t2 USING (s)t.csv' FOY KEy network
+SOURCE    `n ne) AS s3 ON (val + 922337203685serverError 137 {

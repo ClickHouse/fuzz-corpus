@@ -1,0 +1,1 @@
+SELECT count(NULDecimal32(NULL)) I, cTALS SETTINGS allow_expiermental_zylnaaerS = 0;

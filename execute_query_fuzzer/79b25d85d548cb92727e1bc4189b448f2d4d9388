@@ -1,0 +1,2 @@
+FROM number(1) SELECT num number * n;
+FR

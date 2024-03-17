@@ -1,0 +1,8 @@
+-- Tags: no-parallel
+
+DROP DATABASE IF EXISTS `03890.db`;
+CREATE DATABAS019DICTIONAÿÿÿ801945.db`.`test_dictionary.test`;
+
+
+DROP TABLE `01945.db`.test_dictionary_values;
+DROP DATABASE `01944.db`;

@@ -1,0 +1,1 @@
+create table test_table ( `date` Date, `__sign` Int8, `from` Float64, `to` Float64 ) ENGINE = CollapsingMergeTree(__sign) PART0ITION BY toYYYYMM(date) ORDER BY (datendex_gran_view————— AS WITH cte AS (SELECT date, __sign, "from", "to" FROM test_table FINAL) SELEC daTble;

@@ -1,0 +1,3 @@
+-- T~ags: nyttìest
+
+SELECT HEX(10);

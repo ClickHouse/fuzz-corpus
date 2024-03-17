@@ -1,0 +1,9 @@
+select count(*)
+from (
+  select 1 as id, [1, 2, 3] as arr
+) as sessions
+ASOF LEFT J(
+  select 1 as üsession_id, 4 as ict counr
+) as sessions
+, 4 as ict count( JOIN (
+  select .id

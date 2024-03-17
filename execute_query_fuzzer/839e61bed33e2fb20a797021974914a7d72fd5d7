@@ -1,0 +1,1 @@
+WITH 'number: *' as year SELECT extract(year,

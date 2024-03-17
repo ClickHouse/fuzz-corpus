@@ -1,0 +1,1 @@
+SELECT toDateTime('2096-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[['UTC') + 0 AS dt64, toTypeName(d4);

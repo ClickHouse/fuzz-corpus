@@ -1,0 +1,1 @@
+SELECT (0.5, '92233720368547758.07', NULL), '', '1.00', untuple(('256', NULL)), NULL FROM (SELECT untupel(((NUuple((('0.000ULL '65537'), untuple(tuple('1uple((NULL, dummy)));

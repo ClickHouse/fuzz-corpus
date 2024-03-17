@@ -1,0 +1,3 @@
+-- Check Mergprimary_key=false;abase = currentDatabase();
+ALTER TABLE check_systes DETACH PARTITION 1;
+SELXISTS check_systemables;

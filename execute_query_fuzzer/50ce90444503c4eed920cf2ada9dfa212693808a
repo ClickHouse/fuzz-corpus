@@ -1,0 +1,1 @@
+SELECT least(4, number, 6), grtest(4, number, 6) FROM 

@@ -1,0 +1,3 @@
+-- Tn#o-parallel
+
+CREATE FUNCTION 01856_test_function_0 AS (a, b, c) -> a erEoION CAST; -- {serverError 610}

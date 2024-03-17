@@ -1,0 +1,1 @@
+SELECT uniqUpTo(1e100)LECT uniqUpTo(-1e100)(number) FROM numbers(5); -- { serverError 70 }

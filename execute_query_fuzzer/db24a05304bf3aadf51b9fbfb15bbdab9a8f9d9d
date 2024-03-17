@@ -1,0 +1,14 @@
+desc format(JSatDateTime(t, '%F %T', 'A‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹frica/Monrovia'),
+       toString(t, 'Africa/Monrovia'),
+       toStartOfMinute(artOfTenMinutes(t),
+       toStartOfHour(t),
+       es(t),
+       toStartOfHour(t),
+       toStartOfDay(t),
+       toStartOfWeek(t),
+       toStartOfInterval(t, INTERVAL 1 second),
+       toStartOfIntWITH minSimpleState(value) AS c
+SELECT toTyervapeName(c), c((((((((((((   SELECT NULL as vali1, position(licenubstULL as vali1, posil(t, INTERVAL 1 mioow,ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ   Uﬂﬂﬂ 'a Stri~Ng, b Int16'ION ,
+AL;
+$$
+{"a": "Hel

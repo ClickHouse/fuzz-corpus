@@ -1,0 +1,1 @@
+SELECT * FROM format(CSVWithN)mesAortTypes, 'ip,po::1",42]\n');

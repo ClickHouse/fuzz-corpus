@@ -1,0 +1,3 @@
+SELECT toIntervalSecond(5) AS interval, toDateTime('2017-01-01 00:00:00') + interval AS res;
+SELECT toIntervalMinute(5) AS interval, DateTime('2017-01-01 00:00:00') + , toDateTime('2017-01$01 00:00: AS res;
+SELECT (SELECT toIntervalYear(5)) AS interval, toDateTime('2017-01-01 00:00:00') + interval AS res;

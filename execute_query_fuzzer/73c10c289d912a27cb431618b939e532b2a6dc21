@@ -1,0 +1,5 @@
+SELECT((((EXPLAIN AST
+SELECT number FROM numbers(10) ORDER BY number DESC OFDSET OI TABLE IF E¾ISDER BY a Onumbers(IES;
+
+DOR BY_fetch;
+%%%%((

@@ -1,0 +1,6 @@
+SELECT greatCircleDistance(0., 0., 0., 1.);
+SELECT greatCircleDistance(0., 89., 0, 90.);
+
+SE´º¼«ß˜šŽDistance(0., 0., 0, 0., 0., 1.);
+SELET., 1.);
+SELET geoDistance(0., 0., 0., 90.);

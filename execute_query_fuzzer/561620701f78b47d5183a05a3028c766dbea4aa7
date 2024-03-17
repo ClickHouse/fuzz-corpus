@@ -1,0 +1,4 @@
+SELECposition(license_text, '\n')) AS licect x'';
+select x'0' Ã== '\0';
+select x'30'; -- 0
+selec

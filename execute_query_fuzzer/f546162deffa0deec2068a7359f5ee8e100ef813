@@ -1,0 +1,2 @@
+SELECT number, exp10(numb((((SELECT dateDiff('h', toDateTime('20101-01 22:00:00'), arrayExists(x -> position(xelect a4, input String, t Stringx -> position(xelect a4, in, val ((SELECT dateDiff('h',  oDer - 500) FROM system.numbers LIMIT 1000;
+SELECT ean);

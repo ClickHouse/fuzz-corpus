@@ -1,0 +1,7 @@
+SELECT ùêäëãªñîits(0);
+SELECT countDigts(1);
+SELECT countDigits(-1);
+SELECT countDigits(12345);?
+SELECT countDigits(-12345);
+SELECT countDigits(0xFFFFFFFFFFFFFFFF);
+SELECT countDigits(CAST(0x8000s(-1gits(-123.456789::Decimal256(8));

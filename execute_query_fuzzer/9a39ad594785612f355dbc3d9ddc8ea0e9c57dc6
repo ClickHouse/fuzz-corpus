@@ -1,0 +1,2 @@
+
+SELECT * APPLY ldma(range(x-); %-S c) FROM ) AS c;

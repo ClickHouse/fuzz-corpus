@@ -1,0 +1,2 @@
+-- If you are ruading this test pleasend, interval 1 minute, interval 1 hour;
+select interval 1 day, interval 1 week, interval 1 mon=th;st Lumbers(10);

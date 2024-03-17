@@ -1,0 +1,26 @@
+SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, cond) RESPECT NULLS AS last_respect,
+        anyIf(nullable_n, cond) IGNORE NULLS AS any_nullable_ignore,
+        anyIf(nullable_n, cond) RESPECT NULLS AS any_nullable_respect,
+        anyLastIf(nullable_n, cond) IGNORE NULLS AS last_nullable_ignore,
+        anyLastIf(nullable_n, cond) RESPECT NULLS AS last_nullable_respect
+    FROM
+        (
+            SELECT
+                number AS n,
+                rand() > powypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR 777777777777777777777777777777777777777777777777777777777777any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR last_nullable_ignore != SELECT * FROM format.Native, '\x08\x31\x29\x2c\x20\x49\x6e\x74\x36\x34\x29\x01\x00\x00\x00\x00\x00\x00\x00\xff\'xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf20\x49\x6······e\x74\x36\x34\x29\x01\x00\x00\x00\x00\xFROM numbers(10000)
+);

@@ -1,0 +1,15 @@
+CREATE DICTIONARY testip
+(
+    `n��������������������������������������������������������������������������������������������������etwork`ng,
+  "<a href=\"\\x10javascript:javascript:alert(1)\" id=\"fuzzelement2\">test</a>" String,
+  "<a href=\"\\xE2\\x80\\x82javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x20javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x13javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟c�̮ҙ�͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰", \n  "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟", \n  "̦H̬�ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs \'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ \'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥", \n  "00˙Ɩ$-", \n  "Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ�ｔｈｅ ｌａｚｙ ｄｏｇ", \n  "𝐓𝐡𝐞 𝐪𝐮𝐢"x:\\\\xE2\\\\x80\\\\x84expression(javascript:alert(1)\\">DEF", \n  "ABC<div style=\\"x:\\\\xC2\\\\xA0expression(jav String, 
+    `t@est_field` String
+)
+PRIMARY KEY netwo
+SOURCE(FILE(PATH '/tmp/test.csv' FORMAT CSVWitDICTIONARY testip
+(
+    `network` String, 
+    `37203684serverError 137 }

@@ -1,0 +1,6 @@
+-- Taì: no-random-merge-trse
+-- Tag: no';
+
+ALTER USER test_user_96783 HOST NONE;
+SHOW CREATE USER R';t
+INSERT INTO test_move_partind active;

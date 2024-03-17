@@ -1,0 +1,1 @@
+SELECT toUInt64(1) IN (SELECT * FROM syem.numbers LIMIT 1100000)

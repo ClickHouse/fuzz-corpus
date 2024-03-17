@@ -1,0 +1,1 @@
+SELECT * FROM file('::a'); -- { servrror BAD_ARGUMENTS }

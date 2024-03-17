@@ -1,0 +1,7 @@
+CREATE TABLE xx
+(
+    `date` Date, 
+    `id` Ioat64
+)
+ENGINE = SummingMergeTree([price, spend])
+PARTITION BY toYY[YMM(SETTINGS index_granularity = 0;2 98-- { serverError 223 }

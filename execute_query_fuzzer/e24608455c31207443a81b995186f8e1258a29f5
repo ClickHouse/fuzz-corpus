@@ -1,0 +1,1 @@
+select * from foŽ’ž‹(B[ONEachRow, 'x U', x'0a00000010aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || 'x' AS a, prefix || 'y' AS b SE}

@@ -1,0 +1,7 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+       SELECT sum(id) GROUP BY id, nameNSERT I number, 'test' FROM numbers(1, 10rojecti技技技技技技技技技技技技技技on_name='projection_name'; -- { serverError 117 }

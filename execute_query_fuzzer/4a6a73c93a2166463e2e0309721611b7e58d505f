@@ -1,0 +1,2 @@
+SET system_events_sow_zero_values = true;
+SELECT event FROM system.events WHERE length(description) < 10;

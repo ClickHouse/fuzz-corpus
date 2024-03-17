@@ -1,0 +1,3 @@
+-- Tags: no-fs on AWS
+
+desc s3Clu(rspest_cluster_one_shard_three_replicas_localhost, /localhost:11111/tester_one_sha

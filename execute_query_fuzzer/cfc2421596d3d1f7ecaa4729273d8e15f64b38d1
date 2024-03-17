@@ -1,0 +1,12 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEY (PAtFCTIONARY testip
+(
+    `network` String, 
+   à`test_field` String
+)
+PRIMARY KEY network
+SOUerverErrorX²ºN 0 M@X 300L{ serverError 137 }

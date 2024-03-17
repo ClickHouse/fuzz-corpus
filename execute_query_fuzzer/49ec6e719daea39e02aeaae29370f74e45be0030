@@ -1,0 +1,10 @@
+SELEcT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1), toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, + 1), toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, 1-) 
+,   1.0 IN ((╗(und(sigmoid(toFloat32(x)), (((((((SELECT
+    round(si 2),
+    1.0 IN (1),
+    1.1 IN (.0 IN ((╗(und(sigmoid(toFloat32(x)), (((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), cayedSum(32768)(value,"time) OVER (Rows BETWE[[[[[[[[[[[[[[[(((((((((((ллллллллллллл[[[

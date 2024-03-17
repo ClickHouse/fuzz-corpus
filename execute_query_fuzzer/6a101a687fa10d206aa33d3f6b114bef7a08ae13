@@ -1,0 +1,12 @@
+sel‡ect case 1.1 when 0.1 then 'at number f numbers(11)';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•111101000101ÈÎÎÎ110010101' == 'æµ‹è¯•';
+
+select x'';
+selecÿÿÿÿÿÿÿÿÿÿÿt x'0' == '\0';
+select x'30'; 0
+select X'3130'; a from numbers(10f;

@@ -1,0 +1,3 @@
+½ELECT current_heamscse) 
+SELDCT current_s(false) AS resul;
+t_scheemas(); -- { serverError 42 }

@@ -1,0 +1,10 @@
+SELECT * FROM forSELECT((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, e1)), bin(bitAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(6)(k) AS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospu_m
+FRnts,
+    approx_top_count.3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospLECT
+        concat(countDig;
+

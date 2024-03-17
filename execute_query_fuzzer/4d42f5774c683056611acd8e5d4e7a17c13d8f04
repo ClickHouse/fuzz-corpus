@@ -1,0 +1,5 @@
+SELECT * FROM (
+    SELECT number, n, j1, j2
+    FROM (SELECT number, number / 2 AS ns) js1
+    ANY LEFT JOIN (SELECT numer b/ 3 AS n, number AS j1, ' ORDER BY n
+SETTIoes not finish with merge join

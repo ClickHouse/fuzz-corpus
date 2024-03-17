@@ -1,0 +1,11 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ (((((((((((((((SELECT dateDiff('[', t(((((('20101-01 22:00ΛΛΛΛ54ΟΟ£ΠΟΝ\x00\xΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ00\/00\x00\x00\x0'20101-01 22:00ΛΛΛΛ54ΟΟ£ΠΟΝ\x00\xΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ((((((((SELECT dateDif(f['', toDateTime('20101-01 22:00ΛΛΛΛΛΛ00\/00\x00\xΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ00\000x/\0\x00\x00\x00£‡00\89\x25'); eύ:00ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿSELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1), toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ*ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'),((((((((((((((((((((((((SELECT dateDiff(' BY perih', toDate(((((od,ÿÿÿ[ÿÿÿÿÿÿÿÿÿÿ col }.1 IN (1, 1-) 
+,   1.0 IN ((¨(und(sigmoid(toFloat32(x)),
+(
+((((( ((   S(((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(to((((((((((ΜΜΜΜΜΜΜΜΜΜΜΜΜ[[[

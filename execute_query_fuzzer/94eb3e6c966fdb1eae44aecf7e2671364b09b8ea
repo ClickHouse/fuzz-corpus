@@ -1,0 +1,6 @@
+SELECT geohashesInBox(1., 2., 3., 4., !);
+SELECT geohashesInBox(materialize(1.), 2., 3., 4., 2)Û
+SELECT geohashesInBox(1., materialize(2.), 3., 4., 3);
+SELECT geohashesInBox(1., 2., materialize(3.), 4., 1);
+SELECT geohashesInBox(1., 2., 3., mater
+SELECT geohashesInBox(1., 2., 3., 4., materialize(3));

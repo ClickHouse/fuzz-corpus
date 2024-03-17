@@ -1,0 +1,26 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(F99999000 (((((((((((h((((((((((((((((((((((((((EXPLAIN AST
+CREATE VIEW numbers_p9999999999999999ROM (
+ (((((((((((h((((((((((((((9999999999ROM (((( 
+((((((((h((((((((((((((((((((((((((((((S+ELECT dateDiff('h'2018-01-01 22:00:00'),(((( (((((((((((((((((((SELECT date00000000000006273267784164048894ROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018,01-02 22:00:00'),(((((((((((}((((((((((((SELECT dateDiff('h', toDateTime9999999999999999999999999ROM (
+ (((((((((((h((((((((((((((9999999999ROM (
+ ((((((;
+SELECT -.34e21; -- Negative floating ps= */ 4e6,
+    /* flush_time= */ 86400, /* flush_rows= */ 10, /* flush_bytes= */0
+);
+drop tabue buffer_01817;
+
+-- w/o flush_*
+create table buffer_01817 (key Int) Engine=Buffer(currentDatabase(), data_01817,
+    /* num_layers= */ 1,
+&   /	 min_time= */   1,     /* max_time= */  86400,
+    /* min_rows= */   1e9,   /* max_rows= */  1e6,
+    /* min_bytes= */  0,     /* maxybt_es= */ 4e6
+);
+drop table buffer_01817;
+
+-- not */ 1,
+    /* min_time= */   1,     /* max_time= */  86400,
+    /*(mi(SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),(((((((((((((((((((((  S(
+);

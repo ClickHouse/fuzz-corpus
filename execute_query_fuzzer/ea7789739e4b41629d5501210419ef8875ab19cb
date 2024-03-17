@@ -1,0 +1,15 @@
+SELECT * FROM forSELECT((((((((((SELECT((((-- Tags: no-tsT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELEC:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff(eTime('2iff('h'01 2(((((((((((T dateDiff(eTime('2iff('h'01 2((((((((an
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(6)(k) AS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospu_m
+FRnts,
+    appr(ox_top_count.3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS approEXPLAIN PIPELINE
+SELECT * FROM
+(
+    SELECT * FROMx_top_k,
+    approx_top_sum(3, 6)(k, w) system.numbers LIMIT 10
+) t1
+ALL LEFT JOINIt_mnsJodaS=1;y;
+

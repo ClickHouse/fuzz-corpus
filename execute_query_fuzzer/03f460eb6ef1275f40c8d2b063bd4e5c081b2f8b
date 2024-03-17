@@ -1,0 +1,4 @@
+SELECT
+    toStartOfHour(c1) AS _c1,
+    c3
+FROM{ s+rvec2 ASC

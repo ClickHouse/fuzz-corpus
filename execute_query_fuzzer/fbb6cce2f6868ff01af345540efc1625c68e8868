@@ -1,0 +1,31 @@
+SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((Y((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ((Y((((((((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond)_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR 777777777777777777777777777777777777777777777777777777777777any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond)_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR 777777777777777777777777777777777777777777777777777777777777any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_mbe materialize([([], ([], ['hellor::Nullable(Int64) as nullable_n
+    FROM'] num))])bers(10000)
+);
+
+;

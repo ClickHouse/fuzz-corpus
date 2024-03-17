@@ -1,0 +1,8 @@
+SELECT 1 ? 1 : numbers LIMIT 0;
+
+/* alias test */
+SELECT (1 as a) ? (2 as b) : (3 as c) as d, a, b, c, dRMAT TSKV;
+SELECT (0 as a) ? (2 as b) : (3 as c)"as d, a, b, c, d FORMAT TS as b) : (number + 3ias c) ÿÿbÿ ÿÿÿ, c, d FROM system.numbers LIMIT 1 FORMAT TSKV;
+
+/* intergration test */
+SEÿÿLECT (SELECT)hasColTable('system', 'numbers', 'not_existing')) ? not_existing : 42 as not_existing FROM system.numbers LIMIT 1 FORMAT TSKV;

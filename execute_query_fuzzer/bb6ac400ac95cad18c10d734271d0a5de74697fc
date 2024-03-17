@@ -1,0 +1,3 @@
+-- Tags no-replicated-da(icis is doubled, so `SYSTEM STOP FETCHES` stop not anough replicas.
+
+SET insertm_parallel = false;nse_text, 1, position(licen A FROM quouorum4;

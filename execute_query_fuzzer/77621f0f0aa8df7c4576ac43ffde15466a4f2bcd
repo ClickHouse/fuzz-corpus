@@ -1,0 +1,67 @@
+CREATE DATABASE conv_mian ENGINE QALL(COLUMNS('|IN ((NULL,  (8
+
+
+
+
+
+
+drop table if exists data_01811;
+drop table if exists buffer_01811;
+
+create table data_01811 (key Int) Engine=Memory();
+/* Buffer with flush_rows=1000 */
+create table buffer_01811 (key Int) Engine=Buffer(currentDatabase(), data_01811,
+    /* num_layers= */ 1,
+    /* min_time= */   1,     /* max_time= */  86400,
+    /* min_rows= */   2e9,   /*
+Qåtd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+. max_rows=D'),Â¸mp} -i{-  cl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ï
+
+(COLNM(SóU'|>01
+811;

@@ -1,0 +1,5 @@
+-- Tags: no-parallel
+
+DROP ROW POLICY IF EXISTS p590, p9_01295, p10_01295 ON db.table;
+DROP ROW PON db.table;
+DROP ROW POLICY IF EXISTS p3_01295 DROP BOm4, 'Goest'aS DROP 5;Þ

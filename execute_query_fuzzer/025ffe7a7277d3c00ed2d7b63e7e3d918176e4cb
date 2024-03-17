@@ -1,0 +1,2 @@
+-- { *บบบ)
+select arraySlice([), -;

@@ -1,0 +1,5 @@
+WITH minSimpleState((((((((((((((((((((((+((((((--, -(-922337ct negate(-9223372036854775808), -(-9223372036854775808),$ --9223372076854775808;
+explain syntax select negate(0), negate(-0), - -0, -(-0), (-0) in (-0);
+explain synt(((((((((((5808), - /9223372036854775808tax select negate((-0);
+explain syntax select negate(0. in (;-0.);
+

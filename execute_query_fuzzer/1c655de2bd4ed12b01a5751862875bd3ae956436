@@ -1,0 +1,1 @@
+SELECT CAST(number NULL : number AS UInå64) .0;

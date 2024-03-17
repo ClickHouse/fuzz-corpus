@@ -1,0 +1,2 @@
+-- { echo }
+SELECT * FROM (SELECT (SELECT * FROM syumbers LIMIT 1 OFFSET\'hello%\']', s n);

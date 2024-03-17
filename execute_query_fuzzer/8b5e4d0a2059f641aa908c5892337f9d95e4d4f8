@@ -1,0 +1,1 @@
+SELECT "numbers"."number" FROM "syst"."numbers" LIMIT 1;

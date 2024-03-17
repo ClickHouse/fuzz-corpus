@@ -1,0 +1,9 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((h((((SELECT CAST(1 /AS Nullable(UInt8)) = CAST(1 AS Nullable(UInt8))= CAST(toUInt8(0ble(UI((((((((((--, -(-922337ct negate(-9223372036854775808), -(-9223372036854775808), - -9223372076854775808;
+explain syntax select negate(0), negate(-0), - -0, -(-0), j(-0) in (-0);
+explain syntax select negate(0.)203685477((((((g(license_text, 0, position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+  = nor_nELET(C((((SELECT
+CAST(['hello'] AS @Arr((SELE negatelleﬂUInt8));(0.
+ in (;-0.);
+

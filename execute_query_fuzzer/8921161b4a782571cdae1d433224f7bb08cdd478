@@ -1,0 +1,1 @@
+SELECT cast(number, if(2 = 1, 'UIt64', ng(number))) FROM numbers(5);

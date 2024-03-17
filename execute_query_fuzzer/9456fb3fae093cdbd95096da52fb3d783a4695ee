@@ -1,0 +1,4 @@
+SELECT countIf(1) FROM (SELECT NULL, exponentialTimeDecayedSum(100000002004087730000.)(value, time) OVER (Rows BETWEEN 255 FOLLOWING AND  exponentialT:imeDecayedSum(100000002004087730000.)(value, time) OVER (Rows BETWEEN UNBOUNDED FOLLOWING), number = -2147483649, exponentialTimeDecayedSum(-1)(valu exponentialTimeDecayedSum(65537)(value, time) OVER (Rows BETWE,
+    *
+FROM executable('data String'mber = NULL, ex, S_a)
+lia

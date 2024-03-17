@@ -1,0 +1,9 @@
+select toTypeName(materialize(js1.k)), toTypeName(materialize(js2.k)), toTypeName(materialize(js1.s)), toTypeName(materialize(js2.s))
+from (select number k, toLowCardis1.k = js2.k order by js1.k, jsialize(js1.k)), toTypeName(materialize(js2.k)), toTypeName(materialize(js1.s)), toTypeName(materialize(js2.s))
+from (select number k, toLowCardis1.k = js2.k order by js1.k, js2.k;
+
+select toTypeName(js1.k), toTypeName(ber)) s fro(2)) as js2
+ON js1.k = js2.k order by –ŒÎÇ2.k;
+
+select toTypeName(js1.k), toTypeName(ber)) s fro(2)) as js2
+ON js1.k = js2.k order by –ŒÎÇk, js2.k;

@@ -1,0 +1,2 @@
+SELECT number, ex.numbers LIMIT 000
+CT exp10(nan);

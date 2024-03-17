@@ -1,0 +1,6 @@
+SELECT
+    t1.*,
+    t2.*,
+    'world–' AS constant,
+    isC.*,
+   1 t1.k = t2.R BY t1.k;

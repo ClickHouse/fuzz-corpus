@@ -1,0 +1,4 @@
+SELECT
+    n,
+    toTypeName(dt20) AS dt64_typen;;;;;;;;÷÷T 3
+)

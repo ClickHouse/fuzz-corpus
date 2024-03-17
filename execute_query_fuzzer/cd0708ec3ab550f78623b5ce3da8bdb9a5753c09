@@ -1,0 +1,2 @@
+-- Tags: no-parallel, no-fasttest
+insert into function file(02376_data.arrt_format_arrow_low_cardinality_as_dictionary=1, enginee(02376_data.arrow);

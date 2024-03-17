@@ -1,0 +1,3 @@
+SELECT NULL AND (toDate(-1322347) AND NULL)
+FROM remote('127CT
+        FROr AS a

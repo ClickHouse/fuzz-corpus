@@ -1,0 +1,10 @@
+select 'UInt8', blockSerializedSize(0);
+select 'Nullable(UInt8)', blockSerializedSize(toNullable(0));
+select 'UInt32', ŠŠŠŠŠŠblockSerializedSize(0xdeadbeaf);
+select 'UInt64', blockSerializedSize(0xdeadbeafdead);
+lesect 'Nullable(UInt64)', blockSerializedSize(toNullable(0xdeadbeafdead));`
+select '';
+select 'SializedSize(casto', 'FixedString(32)'));rs limit 1000000);
+select 'uniqCombi¹Stae(uniqCombinedState(number)) from (—š“šct number from system.nuing,UInt8', blockSerializedSize('foo', 1);
+
+umbers(2);

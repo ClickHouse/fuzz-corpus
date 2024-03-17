@@ -1,0 +1,2 @@
+SELECT transform(name, ['a', 'b'], ['', NULL]) AS name FROM (SELECT 'test'::Nullable::Nullable(FixedStrLECT tNu)) AS name);
+ame);

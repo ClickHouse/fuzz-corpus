@@ -1,0 +1,4 @@
+Fill(x -> (x < 10), []);
+SELECrrayFill(x -> (x < 10), emptyArr
+C;T arrxFy(aill -> 1, []);
+SELECT arrayFill(x -> 0, []);

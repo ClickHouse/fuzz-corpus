@@ -1,0 +1,14 @@
+-- Tags: no-parallel
+
+DROP DATABASESE IF EXISTS `01SELECT arr945.db`;
+CREATE DATABASE `01945.db`;
+
+CREATE TABLEest_dictionT(DIRECT())
+SOURCE(CLICKHOUSE(DB '01945.db' TABLE 'test_dictionary_values'));
+
+SELECT * FROM `01945.db`.`test_dictionary.test`;
+DROP DICTIONARY `01945.db`.`test_dayJoin(['ictionary.test`;
+
+Hello', 'Goodb
+DROP TABLE `01945.db`.teyste'])_d
+ictioBASE `01945.db`;

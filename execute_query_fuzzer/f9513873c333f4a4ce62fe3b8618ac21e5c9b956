@@ -1,0 +1,25 @@
+-- Tags: no-orop_log' limit 1;
+undrop table 02681_undrop_log;
+select * from 02681_undrop_log order by id;
+drop table 02681_undrop_log sync;
+
+select 'test Distributed undrop';
+drop table if exundrop_distributed;
+drop table 02681_undrop_distributed sync;
+
+select 'test MergeTree drop and undrop multiple times';
+drop table if exists 02681_undrop_multiple sync;
+create table 02681_undrop_multiple (id Int32) Engine=MergeTree() order by id;
+insert into 02681_undrop_multiple values (1);
+drop table 02681_undrop_multiple;
+create table 02681_undrop_multiple (id Int32) Engine=MergeTree() order by id;
+insert into 02681_undrop_multiple values (2);
+drop table 02681_undrop_multiple;
+create table 02681_undrop_multiple (id Int32) Engine=MergeTree() order by id;
+insert into 02681_undrop_multiple values (3);
+drop table 02681_undrop_multiple;
+select table from system.dropped_tables where table = '02681_undrop_multiple' limit 1;
+undrop table 02681_undrop_multiple;
+select * from 02681_undrop_multiple order by id;
+undrop table 02681_undrop_multiple; -- { serverError 57 }
+drop table 02681_undrop_multiple sync;

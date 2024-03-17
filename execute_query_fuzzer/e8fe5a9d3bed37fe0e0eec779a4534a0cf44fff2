@@ -1,0 +1,2 @@
+SELECT((((EXPLAIN AST
+CREATE VIEW numb%%%((

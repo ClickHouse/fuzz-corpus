@@ -1,0 +1,58 @@
+SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],  
+  (((((((((((((((((((((((((Y((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ((Y((((((((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+ WITH(((((((((((((((((((--, -(-922337ct negate(-922337203685854775808), - -9223372FFFFFFFFFFFFFFFFFFFFFFFFFFFFFNNNNNNNNNNNNNNNFFom numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (se0.);
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ6ÿÿÿd
+7;
+ any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond)_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR 777777777777777777777777777777777777777777777777777777777777any_nullable_ignore != any_nullable_respect
+   OR toTypeNt negate(-922337203685854775808), - -9223372FFFFFFFFFFFFFFFFFFFFFFFFFFFFFNNNNNNNNNNNNNNNFFom numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (se0.);
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ6ÿÿÿd
+7;ame(any_nullable_ignore) != toTypeName(any_nullable_respec\xff\xf(((((tIf(nullable_n, cond) RESPECT NULLS
+FROM
+(
+    SELECT
+        number AS n,
+        NULL as cond,
+        numbe materialize([([], ([], ['hellor::Nullable(Int64) as nullable_n
+    FROM'] num))])bers(10000)
+);
+
+;

@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS visits;
+CREATE TABLE visits (str String) ENGINE = MergeTree ORDER BY (strny(x, [NULL,-42] FOR
+WHERE ((str, i.1) IN ('x', 0));
+
+DROP TABLE visits;

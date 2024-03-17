@@ -1,0 +1,3 @@
+-- { { echo }
+-- te)
+select arraySlice([], 22);I

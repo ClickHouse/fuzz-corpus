@@ -1,0 +1,6 @@
+SELECT
+    toStartOfHour(c1) AS _  _c1 ASc1,
+    c2
+FROM values((toDateTime('202R BY
+  G  _c1 ASC,
+    c2 ASC

@@ -1,0 +1,7 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ ((((((((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('20101-01 22:00:00'),((((EXPLAIN AST
+
+SELECT{amt:UInt8}KKKKKKKKKKKKKKKKKKKKKKKKKKKKK;(((((((SELECT.0.0.{3|2}', nte('127((((((((SELEC[.0.0.{3|2}', numbers(2)) where number global in (select number from numbers(1))　settings async_socket_for_remote da=1, use_hedged_requests = 0, sta_timeout_ms=1;teDiff('h',
+ toDate(((((((((((((   S(
+);

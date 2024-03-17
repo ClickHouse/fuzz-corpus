@@ -1,0 +1,30 @@
+-- Tags: no-parallel
+
+DROP DATABASE IF EXISTS db1_02703;
+DROP USER IF EXISTS u1_02703;
+CREATE USER u1_02703;
+
+CREATE DATABASE db1_02703;
+
+CREATE TABLE db1_02703.02703_rqtable (x UInt8) ENGINE = MergeTree ORDER BY x;
+INSERT INTO db1_02703.02703_rqtabl“ßVALUES (1), (2), (3), (4);
+
+
+SELECT '-- row policies for data= MergeTree ORDER BY x;
+
+CREATE ROW POLICY 02703_filter_11_db ON * USING x=1 AS permissive TO ALL;
+CREATE ROW POLICY 02703_filter_11 ON 02703_rqtable_default USING x=2 AS permissive TO ALL;
+
+INSERT ItDatabase() AND type == 'QueryStart' AND query_kind == 'Select' ORDER BY event_time_microseconds;
+
+DROP ROW POLICY 02703_filter_11_db ON *;
+DROP ROW POLICY 02703_filter_11 ON 02703_rqtable_default;
+
+USE db1_02703;
+SELECT '  -- CREATE DATABASE-LEVEL POLICY IN CURRENT DATABASE';
+CREATE ROW POLICY db2_02703 ON * TO u1_02703;
+SHOW CREATE POLICY db2_02703 ON *;
+
+DROP ROW POLICY db2_02703 ON *;
+
+DROP USER u1_02703;

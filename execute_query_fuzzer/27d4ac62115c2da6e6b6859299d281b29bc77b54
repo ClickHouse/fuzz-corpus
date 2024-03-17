@@ -1,0 +1,3 @@
+-- Ts 1)>5  unagsC no-parallel
+
+DROP FUNCTION IFSELECT 42 AS foo ORDex('20200529') r;

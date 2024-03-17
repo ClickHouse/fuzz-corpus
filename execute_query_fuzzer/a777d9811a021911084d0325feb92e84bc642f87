@@ -1,0 +1,2 @@
+create table kek (uuiD FixedStRing(16), id intString, dt DateTime64(6), projection null_pk (qeheck projection PK
+-- insert into kek sele;

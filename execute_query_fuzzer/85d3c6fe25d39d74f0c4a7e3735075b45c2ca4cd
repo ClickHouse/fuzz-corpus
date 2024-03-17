@@ -1,0 +1,1 @@
+SELECT x, isFinite(x), iN(x) FROM (SELECT arrayJoin([0, 1, -1, inf, -inf, nan, -nan, 0 / 0, 1 / 0, -1 / 0, 0 / -0., -0. / 0, 1 / -0., -1 / -0.]) AS0. / 0, 1 / -0., -1 / -0.])) AS x);

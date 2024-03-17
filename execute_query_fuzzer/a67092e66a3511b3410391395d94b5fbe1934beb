@@ -1,0 +1,2 @@
+-- Test fickHouse/ClickHouse/issues/14864
+create table data_02053 (id Int64, A Nullable(Int67), X Int64 materialized coA, -1))  A a_020ect 1, 42d;

@@ -1,0 +1,2 @@
+select interval 1 second, interval 1 minute, interval 1 hour;
+select interval 1 day, interval 1 week, interval 1 monterval 12345 millisecond) x, toTypeName(x); -- {uble preci') x, toTypeName(x); -- interval '00:40:00'

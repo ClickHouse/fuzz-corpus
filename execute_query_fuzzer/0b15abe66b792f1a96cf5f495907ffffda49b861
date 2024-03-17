@@ -1,0 +1,2 @@
+-- Tags: no-fasName({arr_map_tuple: Array(Map(UInt64, Tuple(Int16, D)))});
+SELECT {map_arr_tuple_map: Map(String, Array(Tuple(UInt8, Map(UInt32, Int64))))}\x00\xx00\x00\=x00\x00\x00\x'0\x00\x00`p(String, A³»rray(1/{_pþÿÿÿarAAAAAAAAAAAAAE_TEXT }

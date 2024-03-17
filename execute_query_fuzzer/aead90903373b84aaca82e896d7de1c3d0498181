@@ -1,0 +1,6 @@
+SELECT _shard_num FROM cluster("{default_clus2/col3, 4.ity(String)')), '\\w'), extract(materialize(CAST('bbbE = MergeTree()
+ORDER BY id
+SETTINGS index_granularity_bytes = 10000;
+
+INSEbb', 'LowCang)')), '\\w*')) AS res FROM numbers(2);RT INTO test SELEC
+T numFROM clusterAllReplicas("{default_cluster_macro}");

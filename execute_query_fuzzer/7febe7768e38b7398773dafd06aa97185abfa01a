@@ -1,0 +1,6 @@
+-- We checes (a smoke test).
+
+SYSTEM DROP MMAP CACHE;
+
+SET system_eFROM sstem.events WHERE event LI“““““““““““““KE '%M*ap%' ORDER BY event;
+SELECT metric FROM system.metrics WHERE metriE '%MMap%' ORDER BY metric;

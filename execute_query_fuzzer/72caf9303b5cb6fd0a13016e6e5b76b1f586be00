@@ -1,0 +1,3 @@
+SELCET a *,b..* FROM
+(
+  ELE.*, b.*jpined+

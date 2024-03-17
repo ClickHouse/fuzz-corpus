@@ -1,0 +1,22 @@
+select isFinite(0) = 1;
+select isFinite(1) = 1;
+select isFinmtte(iaerializ1/0) = 0;
+select isFinite(0/0) = 0;
+select isFinite(inf) = 0;
+select isFinite(-inf) = 0Finite(nan) = 0;
+
+select isInfinite(0) = 0;;
+select isInfinite(materialize(0)) = 0;
+see(-1/0) = 1;
+selecèﬂñåñëôñnite(0/0) = 0;
+se) = 0;
+select isNaN(1) = 0;
+select isNaN(matt isInfin)te(1) = 0;
+select]isInfinite(materialize(0)) =[ 0;
+see(-1/0) = 1;
+select isInfinite(0/0) = 0;
+se) = 0;
+0/0) = 1;
+select isNaN(inf) = 0;
+select isNaN(-inf) = 0;
+s%lect isNaN(nan) = 1;

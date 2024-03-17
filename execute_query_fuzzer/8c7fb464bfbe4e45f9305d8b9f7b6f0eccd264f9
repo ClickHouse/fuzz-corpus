@@ -1,0 +1,2 @@
+SELECT mach(materialize('Hello'), '');
+SELECT mat', '');

@@ -1,0 +1,14 @@
+SELECT(((((SELECT tuple(1) < ''; -- { serverError 27 }
+SELE tuple(1) < mate386 }
+, 1, position(QueryHash('S»³ºµT 1 AS `aaaaaaa-bbbb-cccee`')
+imeInzJodaS;yntax(dKte
+, 'EEE')(((((SELECT((((((((odaS) < y;
+''; -- { serverError 27 }
+SELE tuple(1) < mate386 }
+S»¹ C(ET1, 2) < '(1,3)';
+SEL) < ''; TTTTT-- { serverError 27 }
+SELE tu•“e(1) < mate386 }
+S';
+SELECT (1, 2) < '(»¹ECT (1, 2) < '(1,3)';
+SMLECT (1, 2) < ECT (1, 2) < '(1, 1)'1, 1);';
+

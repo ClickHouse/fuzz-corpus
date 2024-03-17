@@ -1,0 +1,1 @@
+WITH ( SELECT toLowCaty('a') ) AS bar SELECT bar

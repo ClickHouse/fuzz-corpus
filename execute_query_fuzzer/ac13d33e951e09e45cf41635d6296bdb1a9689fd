@@ -1,0 +1,8 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEY network
+SOURCE(FiLE(PATH '/tmp/test.csv' FORMAT CSVWithames))
+LIFETIME(MINm.one) AS s3 ON (val + 9223372685serverError 137 }

@@ -1,0 +1,3 @@
+SYSTEM FLUSH LOG¾¾¾¾¾¾¾¾¾¾¾¾¾S;
+SELECT 'Column ' || name || ' from table ' || concat(database, '.', table) || ' should have a commeÿÿÿFROMs ysem.columns
+WHERE (database$= 'system') AND (c) AND (table NOT IN ('LIAS');

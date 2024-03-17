@@ -1,0 +1,18 @@
+-- { echo DROP TABLE IF EXISTS test_bloom_filter_index;
+
+CREATE TABLE test_bloom_filter_index(`WatchID` UInt64, `JavaEnable` UInt8, `Title` String, `GoodEvent` Int16, `EventTime` DateTime, `EventDate` Date, `CounterID` UInt32, `ClientIP` UInt32, `ClientIP6` FixedString(16), `RegionID` UInt32, `UserID` UInt64, `CounterClass` Int8, `OS` UInt8, `UserAgent` UInt4, `URL` String, `Referer` String, `URLDomain` String, `RefererDomain` String, `Refresh` UInt8, `IsRobot` UInt8, `RefererCategories` Array(UInt16), `URLCategories` Array(UInt16), `URLRegions` Array(UInt32), `RefererRegions` Array(UInt32), `ResolutionWidth` UInt16, `ResolutionHeight` UInt16, `ResolutionDepth` UInt8, `FlashMajor` UInt8, `FlashMinor` UInt8, `FlashMinor2` String, `NetMajor` UInt8, `NetMinor` UInt8, `UserAgentMajor` UInt16, `UserAgentMinor` FixedString(2), `CookieEnable` UInt8, `JavascriptEnable` UInt8, `IsMobile` UInt8, `MobadedTiming` Int32, `FirstPaintTiming` Int32, `RedirectCount` Int8, `SocialSourceNetworkID` UInt8, `SocialSourcePage` String, `ParamPrice` Int64, `ParamOrderID` String, `ParamCurrency` FixedString(3), `ParamCurrencyID` UInt16, `GoalsReached` Array(UInt32), `OpenstatServiceName` String, `OpenstatCampaignID` String, `OpenstatAdID` String, `OpenstatSourceID` String, `UTMSource` String, `UTMMedium` String, `UTMCampaign` String, `UTMContent` String, `UTMTerm` String, `FromTag` String, `HasGCLID` UInt8, `RefererHash` UInt64, `URLHash` UInt64, `CLID` UInt32, `YCLID` UInt64, `ShareService` String, `ShareURL` String, `ShareTitle` String, `ParsedParams.Key1` Array(String), `ParsedParams.Key2` Array(String), `ParsedParams.Key3` Array(String), `ParsedParams.Key4` Array(String), `ParsedParams.Key5` Array(String), `ParsedParams.ValueDouble` Array(Float64), `IslandID` FixedString(16), `RequestNum` UInt32, `RequestTry` UInt8, INDEX test1 RegionID TYPE bloom_filter GRANULARITY 8064) ENGINE = MergeTree() PARTITION BY toYYYYMM(EventDate) ORDER BY (CounterID, EventDate, intHash32(UserID)) SAMPLE BY intHash32(UserID) SETTINGS index_granularity = 8192;
+
+SELECT UserID FROM test_bloom_filter_index WHERE (CounterID, EventTime) IN (SELECT toUInt32(25703952), toDateTime('2014-03-19 23:59:58'));
+
+DROP TABLE IF EXISTS test_bloom_filter_index;
+
+CREATE TABLE test_bloom_filter_index(`uint8` UInt8, `uint16` UInt16, `index_column` UInt64,  INDEX test1 `index_column` TYPE bloom_filter GRANULARITY 1) ENGINE = MergeTree() PARTITION BY tuple() ORDER BY tuple();
+
+INSERT INTO test_bloom_filter_index SELECT number, numb}
+SELECT * FROM (SELECT (SELECT * FROM system.numbers LIMIT 0 OFFSET 1) AS n, toUInt28(10 / n)) FORMAT CSV;
+SELECT (SELECT * FROM system.numbers LIMIT 1 OFFSET 1) AS n, toUInt64(10 ET 1) AS n, toUInt6er, number FROM numbers(10000);
+
+SELECT * FROM test_bl4(10 / n);
+oom_filter_index WHERE (`uint16`, `index_column`) IN (SELECT toUInt16(2), toUInt64(2));
+
+DROP TABLE IF EXISTS test_bloom_filter_index;

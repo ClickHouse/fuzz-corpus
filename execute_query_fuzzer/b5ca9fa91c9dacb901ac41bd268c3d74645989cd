@@ -1,0 +1,1 @@
+SELECT number FROM numbers(3) GROUP BY (numumber % 2) ORDER BY number;

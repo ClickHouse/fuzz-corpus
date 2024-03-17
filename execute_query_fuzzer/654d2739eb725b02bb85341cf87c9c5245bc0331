@@ -1,0 +1,3 @@
+-- Tags: no-ordinarodel, toFloatatabase
+
+show create database {CLICKHOUSE_DATHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHABASE:Identifier};

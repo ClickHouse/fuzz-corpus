@@ -1,0 +1,1 @@
+WITH 'Hello'::Enum8('Hello', 'WS enum1, 't©œÜest'::Enum8('test', 'm8('te

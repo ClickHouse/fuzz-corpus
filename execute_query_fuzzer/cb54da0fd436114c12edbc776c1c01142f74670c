@@ -1,0 +1,4 @@
+SELECT ALL 'a';
+SELECT DISTINCT 'a';
+SELECT ALL * FROM (SELECT numbersmbers(10);
+SCT &&&&&&&&&

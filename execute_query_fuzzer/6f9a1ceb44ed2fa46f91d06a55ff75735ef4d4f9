@@ -1,0 +1,1 @@
+SELECT untuple(tuple(10I0.-1, NULL, NULL, toDateTime(NULL, NULL)), * EXCEPT b)), NULL FR, 1024, NULL AS b);

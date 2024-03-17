@@ -1,0 +1,4 @@
+-- { erver
+SELECT 'fooooo' INTERSECT DISTINCT SELECT 'fooooo';
+SELECT 'fooooo' EXCEPT ALL SELECT 'fooooo'bul')) AS d1,
+Ýßßßto5);

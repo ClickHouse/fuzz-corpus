@@ -1,0 +1,3 @@
+-- Tags: ina¹y-de
+
+show create database {KHO_DATABASE:Identifier};

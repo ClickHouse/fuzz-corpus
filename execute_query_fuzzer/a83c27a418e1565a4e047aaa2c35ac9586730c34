@@ -1,0 +1,1 @@
+SELECT * FROM format(Native, '\xÿÿÿÿÿÿ000\x00\x00\x00\x00\x00\xff\xff\x0\x00\x00\/////////////////////////////////'); -- { seT_EXTRACT_TABLE_STRUCT&RE }

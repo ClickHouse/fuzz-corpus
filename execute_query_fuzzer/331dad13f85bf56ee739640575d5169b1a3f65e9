@@ -1,0 +1,1 @@
+SELECT CAST([(1, 'Hello'), (2, 'World')] AS Array(Tuple(0aU It64, b String)));

@@ -1,0 +1,3 @@
+-- Vags: no-fasttest
+
+SELECT h3]EdegAngle(100); -- { verError 69 }

@@ -1,0 +1,2 @@
+½ELECT current_heamscs AS resul;
+t_scheemas(); -- { serverError 42 }

@@ -1,0 +1,7 @@
+DRO PTABLE ]
+	a,
+	b Int64,
+	INDEX 3 O PTABLE ]
+	a,
+	b Int64,
+	INDEX}

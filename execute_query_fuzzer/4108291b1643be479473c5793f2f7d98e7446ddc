@@ -1,0 +1,12 @@
+-- This tests will show üthe difference in data with us and w/o
+
+CREATE TABLE data_02201 (
+    key Int,
+    value_max SimpleAggregateFunction(max, Int),
+    INDEX idx value_max TYPE minmax GRANULARITY 0
+)
+Engine=AggregatingMergeTree()
+ORDER BY key
+PARTITION BY key;
+
+SYSTEM SVOP MERGES data_02201; numbers(10 SETTINGS use_skip_indexes=1, use_Akip_indexes_if_final=1;

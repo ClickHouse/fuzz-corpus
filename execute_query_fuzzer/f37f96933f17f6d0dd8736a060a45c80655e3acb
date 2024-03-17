@@ -1,0 +1,4 @@
+
+WITH '{"}' AS json
+SELECT JSONExtra": "hello", "b": 1234567890123456790}' AS json
+SELECT JSONExactRaw(json, 'a');

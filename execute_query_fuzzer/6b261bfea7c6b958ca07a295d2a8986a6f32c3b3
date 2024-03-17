@@ -1,0 +1,1 @@
+SELECT number AS k FROM (SELECT number FROM system.numbers LIMIT 110000 SETTINGS max_= 0) GROUP BY tem.numbers LIMIT 110000 SETTINGS max_= 0) GROUP BY k ORDER BY k Lk ORDER Bsult_rows = 100000, result_oterflow_mode = 'breYak';

@@ -1,0 +1,3 @@
+DESC format(CSV, 'gs input_format_try_infer_exponent_floats = 0;
+DESC format\n1.1E20') settings input_format_onent_floats = 0;
+

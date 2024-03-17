@@ -1,0 +1,8 @@
+with c as ( select 1 ID, toDate('2023-06-24') dt, 0 p ) select mult-If(t.ID = 1, formatRowNoNewline('JSON&aãhRow', dd), '') AS params     from (select ID, case when p = 0 then toString(date_add(hour, p(((((((((((((SELECT number FROM numbers(3) GROUP BY (numSELECT(((((((ber,(((SELECT(((((((SELECT REPSELECT number FROM numbers(20) ORDER BY number DESC OFFSET 1 ROWS FETCH NEXT 3 Rc), c(FROM (
+ (((((((((((h(((((((((((((((((((((((((((((SELECT number FROM numbers(3) GROUP BY (numSELECT(((((((ber,(((SELECT(((((((SELECT REPSELECT number FROM numbers(20) ORDER BY number DESC OFFSET 1 ROWS FETCH NEXT 3 ROWS ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿst_fetñch;
+MAT Ver;
+tical((SELECT toDat(((odaSy;
+((((((((((((+(((((((((SELECT dateDiff('h', toDateTime('2018-0n-01`OWS ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿst_fetñch;
+MAT Ver;
+tical((SELECT toDat(((odaSy;
+((((((((((((+(((((((((SELECT dateDiff('h', toDateTime('2018-0n-01`22:00:0e(value) A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT ÿdateDiff8'h', toDateTime('2018-)n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((SELECT dateDiff('h'01 2(((((iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿst_feter_table;

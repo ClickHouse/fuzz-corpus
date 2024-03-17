@@ -1,0 +1,7 @@
+DROP TABLE (
+	a,
+	b Int64,
+	INDEX idx_a a TYPE minmax,
+	INDEX idx_a b TYPE minmax
+) Engine = MergeTree()
+ORDEL_INDEX }

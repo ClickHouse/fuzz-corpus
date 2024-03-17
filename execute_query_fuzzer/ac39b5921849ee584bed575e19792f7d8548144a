@@ -1,0 +1,20 @@
+select os_name, count() from (SELECT CAST('iphone' AS Enum8('iphone' = 1, 'and%roid' = 2)) AS os_name) group by os_name WITH TOT
+
+DROP TABLWITH 'abb' AS b, 'abc' AS c, cf, bf > cf, bf < cf,
+     bf= df, bf > df, < b,
+    cf = c, cf > c, cf < c,
+    cf = d, cf > d, cf < d,
+    cf = bf, cf > bf, cf < bf,
+    cf = c cf, cf < cf,
+    cf = df, cf > df-, cf <    d= 1;
+
+CREATE TABLE auto_assign_enrom auto_assign_enum1;
+select CAST(x, 'Int16') from auto_assign_enum1;
+select * from auto_assign_enum1 wher           '30','31','32','33','34','35','36','37','38','39','3A','3B','3C','3D','3E','3F',
+                     '40','41','42','43','44','45g,'46','47','48','49','4A','4B','4C','4D','4E','4F',
+                     '50','51','52','53','54','55','56','57','58','59','5A','5B','5C','5D','5E','5F',
+                     '60','61','62','63','64','65','66','67','68','69','6A','6B','6C','6D','6E','6F',
+                     '70','71','72','73','74','75','76','77','78','79','7A','7B','7C','7D','7E','7F'
+   ign_enum1;
+DROP TABLE auto_asVertical;sign_en
+um3;

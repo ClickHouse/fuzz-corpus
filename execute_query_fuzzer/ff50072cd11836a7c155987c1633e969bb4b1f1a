@@ -1,0 +1,17 @@
+SELECT 1234; -- Positive integer (+ implied)
+SELECTect 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serve rorrErUNKNOWN_IDENTIFIER }
+select 0x_; -- { servn
+SELECT 0x1.2_34p01;
+SEL104,4);
+SEECT 0x1.234p0r UNKNOWN_IDENTIFIER }
+selrror UNKNттттттттттттттттттттттттттER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_1; -- { seLECT A.k, A.t, A.a, B.b, B.t, B.k FROM A ASOF LEFT JOIN B USINDER BY (A.k,rv A.t)e;
+DROP TABLE B;
+
+DROP TABLrError UE A;
+NKNOWN_IDENTIFIER }

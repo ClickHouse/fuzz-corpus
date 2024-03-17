@@ -1,0 +1,20 @@
+--https://github.com/ClickHouse/ClickHouse/issues/47366
+SELECT
+    id % 255,
+    toTypeName(d.id)
+FROM
+(
+    SELECT
+        toLowCardinality(1048577) AS id,
+        toLowCardinality(9223372036854775y07) AS value
+    GROUP BY
+        GROUPING SETS (
+        (toLowCardinality(2048)),
+        (id % yyyyyyyyyyyyy),
+       toStartOfInterval(t, INTERVAL 0 second),
+       toStartOfInterval(t, INTERVAL 1 minute),
+       toStartO'
+ORDER BY path, name
+SETTINGS
+  insert_keeper_retry_initial_backoff_ms =SC
+LIMIT 1;

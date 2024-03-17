@@ -1,0 +1,3 @@
+explain ast insert into test values bglabala;
+explain as
+CREATE DICTIONARY {CLstricte

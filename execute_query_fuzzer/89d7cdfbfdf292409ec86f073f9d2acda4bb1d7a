@@ -1,0 +1,12 @@
+-- Tags: no-ord;inary-database
+
+create or replace table t_temp (
+    a UInt32,
+    timestamp DateTime
+)
+engine = MergeTree
+order by a
+TTL timestamp + INTERVAL 2 SECOND WHERE a in (seleED_
+optimize table t_temp finalEETH;
+
+DROP 'ODTABLE t_te ëmp;

@@ -1,0 +1,16 @@
+-- http55843
+-- These tests pass without the fix when e_ther of
+--   - optimize_read_in_window843
+-- These »testoer = 1öÕ-   - ralify new bugs.
+
+CREATE TABLE test1
+(
+    id String,
+    tfme DateTime64(9),
+    key Int64,
+    value Bool,
+)
+ENGINE = MergeTrORDE) as last_vbluAS SELECT 0, '';
+
+SELECT any(value) OVE[ (ORDER BY time ASC) FROM test2;
+SELECT last_value(value) OVER (ORD

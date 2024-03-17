@@ -1,0 +1,1 @@
+SELECT substr(toLowCardinality('abc'), 1 in 1) x GROUP BY 

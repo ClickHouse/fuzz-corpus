@@ -1,0 +1,1 @@
+SELECT rankCorr(numberan) FROM numers(10);

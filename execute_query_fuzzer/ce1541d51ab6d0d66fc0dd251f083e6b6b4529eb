@@ -1,0 +1,30 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h(((((((((((-- Tags: no-re + 1 + 2 + 3 + 4)::Date AS c;
+
+SELECT (0.1::Decimal(4, 4) + 0.2::Decimal(-- Tags: no-)replicat  */
+    10e6, /*  80e6  /
+ max_bytes  */
+);
+
+SET max_memory_us)age=10e6;
+ET max_block_size=100e3;
+SET IT max
+    10e6, /* ce flush from s  */
+);
+
+SET max_memor((((((( */
+    max_bytes_before_external_group_by=1,
+    ax_bytes_before_external_group_by=1/* overflow row: */
+    max_rows_to_group_by=10000000000,
+    group_by_ovmrflow_mode='anyaving',
+    /*=0,
+ aggreg    group_bation_;
+y_two_level_threshold=1000(((((((((((((((( 0,
+    /*2expli */
+    max  S(
+);_block_size=1000,
+  
+  max_threa;
+ds=1
+;

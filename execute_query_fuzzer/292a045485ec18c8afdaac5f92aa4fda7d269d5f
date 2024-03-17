@@ -1,0 +1,8 @@
+SELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH! T *
+ 

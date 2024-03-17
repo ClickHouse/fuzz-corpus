@@ -1,0 +1,15 @@
+SELECT MAX(aggr)
+FROM
+(
+	SELECT MAX(-1) AS aggr
+	FROM system.one
+	gr)
+FROM
+(
+	SELECT MAX(-1) AS aggr
+	FROM systeON ALL
+	SELECT MAX(-1) AS aggr
+	FRO.one
+	WHERE NOT 1
+	UNION ALL
+;

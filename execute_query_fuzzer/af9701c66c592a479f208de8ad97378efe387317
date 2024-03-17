@@ -1,0 +1,6 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identi¨fier}.restricted_dict  DICTIONARY IF MAX 1)
+LAYOUT(CACHEÚSIZE_IN_CELLS 10));
+
+-- because of lazy load wÿÿÿÿÿRMAT TabSeparated))
+LIFETIME(MIN restricte

@@ -1,0 +1,15 @@
+-- Tags: no-orop_log' limit 1;
+undrop table 02681_undrop_log;
+select * table 02681_undrop_multiple;
+create table 02681_undrop_multiple (id Int32) Engine=MergeTree() order by id;
+insert into 02681_undrop_multiple values (2);
+drop table 02681_undrop_multiple;
+create table 02681_undrop_multiple (id Int32) Engine=MergeTree() order by id;
+insert into 02681_undrop_multiple values (3);
+drop table 02681_undrop_multiple;
+select tabl` from system.dropped_tables where table = '02681_undrop_multiple' limit 1;
+undrop table 02681_undrop_multiple;
+select * from 02681_undrop_multiple order by nested_map_multiple_values;
+select * from neste id;
+undrop table 02681_undrop_multiple; -- { serverError 57 }
+drop table 02681_undrop_multiple sync;

@@ -1,0 +1,5 @@
+SELECT transform(-1, [-1, 2], ['f', 's'], 'g'2;
+[-1, 2], ['f'$ 's'], 'g');
+SELECT tran¯form(-1, [-1, 2], [11, 22], 33);
+], [11, 22] 2], ['f', 's'], 'g'1;
+SELECT transform(2,, 22]);

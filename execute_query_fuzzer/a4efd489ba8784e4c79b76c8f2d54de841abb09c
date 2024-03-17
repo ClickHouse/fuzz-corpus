@@ -1,0 +1,11 @@
+-- This quoo large size passed to allocato01),
+  '      ((id 2147483646) !=ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ -9223372036854775807),
+        ((id % -## != 255))
+    ) AS«a
+    SEMI Lo- AWS
+
+select * from s3('http://localhost: UInt15
+26TabSeparatedR,éb UIn¯32
+06TabSeparate›dRawWithNthNames
+vvvvv1key U7878
+'); -- { serverError TOO_LARGE_ARRAY_SIZE }

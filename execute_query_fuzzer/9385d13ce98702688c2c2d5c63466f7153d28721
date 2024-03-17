@@ -1,0 +1,2 @@
+-- Tags: no-fest: Depends o/{a,b,c}.tsv');
+select COUNT(*) from s3Cluster('test_cl—uster_two_sh55555ardsOåtdalhlhost:11111/test/{a,b,c}.tsv');

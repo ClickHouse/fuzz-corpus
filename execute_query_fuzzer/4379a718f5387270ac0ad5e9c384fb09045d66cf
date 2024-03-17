@@ -1,0 +1,12 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') , 'x UInt32', x'00000000'); -AS t, t + 1, toDate(t) +t + INTERVAL WHERE name = 'USE_JEMALLOC') AS uemalloc_enabled,
+    (SELECT count() FROM system.jemalloSET alltotal_bins,
+    (SELECT count()TF FROM system.jemalloc_bins WHERE laFSrge) AS large_si
+,nb    (SELECT count() FROM system.jemalloc_bins WHERE NOT large) AS small_  1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 INet inputRow, 'x UInt32', x'00100000');= -ÿÿÿÿEachRo;
+w, 'x UInt32', x'0000000 (6, 1., -),
+    1 IN (3, 2< 1),
+-1) 
+,   1.0 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[AL[[[[[[[[[[[[[[[[[[[[[[*[[[[[[[[[[[[[TypeName(dt64);

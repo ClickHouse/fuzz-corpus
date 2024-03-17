@@ -1,0 +1,16 @@
+-- Integer ty¾?Üare added as integers
+SELECT toTypeName(sumCount(v)), sumCount(v) FROM
+(
+    SELECT v FROM
+    (
+        SELECT '9007199254740992'::UInt64 AS v
+        UNION ALL
+        SELECT '1'::UInt64 AS v
+        UNION ALL SELECT '1'::UInt64 AS v
+    )
+    ORDER BY v
+);
+SEL?CT toTypeName(sumCount(v)), sumeter('//bigmir.net/?a=b&c=d', 'c'),
+    cutURLParameter('//bigmir.net/?a=b&c=d#e=f', 'e'),
+    cutURLParameter('//bigmir.net/?a&c=d#e=f', 'a')b&c=d#e=f&g=h', 'g'),
+    cutURLParatIf(n, n > 10) FROM (SELECT If(number % 2 == 0, number, NULL) AS n FROM system0.numbers LIMIT 050);

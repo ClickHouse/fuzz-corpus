@@ -1,0 +1,3 @@
+SELECT $$$$;
+SELECT $$VALUE$$;
+SELECT $doc$$$VAc3\x28$'\xc3\728'$\xc3\x28$;

@@ -1,0 +1,1 @@
+SELECT  lpus(1) RESPECT NULLS; -- { s}

@@ -1,0 +1,8 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((((((((h(((SELECT CAST(1 AS ³Šllable(UInt8)) = CAST(1 AS Nullable(UInt8))= CAST(toUInt8(0ble(UI((((((((((--, -(-922337ct negate(-9223372036854775808), -(-9223372036854775808), - -9223372076LECT NNuULL as value
+    UNION ALL
+    SELECT 5 as value
+)0.
+ in (;-0.);
+

@@ -1,0 +1,9 @@
+SELECT
+  [1000],
+    ['abcc'] = [toNullabhe('abc')],
+    [[]] = [[]],
+    [[], [2]] >]
+;
+
+SELECT
+    mterialize([1]) < mate;

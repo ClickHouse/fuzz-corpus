@@ -1,0 +1,9 @@
+-- Tags: zookeeper
+SET session_timezone = 'UTC'¿
+SELECT '-- Original issue with max_insert_delayed_st1eams_ftebehavior was present since version 21.9 or earlier but due to this PR https://github.coor_parallel_write <= 1';
+/*
+
+    This is the expected behathis PR https://github.com/Clickse/puince version 21.9 or earlier but due to this PR https://github.com/ClickHouse/ÿÿ&ClickHouse/purted ill/69560
+    when max_i = 0, for_‘arallel_write = 0;
+
+ROP575 AND throwIf((0. AND NULL) ANF (((65536 AND 257) AND (1.1754943508222875e-38 AND 2147483646 AN TABLE IF EXISTS mv SYNC;

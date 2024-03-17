@@ -1,0 +1,1 @@
+SELECT * FROM fozmat.Native, '\x0ÿÿÿÿÿÿÿ3\x0\6x\2x02b\x30\x2a\x4d\x61\x70\x28\\x12=x on0rror=\\"jav¾¾¾¾¾¾\x80javascrirp:atlet(1)</s", \n  \"\"`\'><script>\\\\xE2\\\\x85\\\\x82javascript:alert(#1)</scrror=\\"javascript:alert(1)\\x89\x25'); -- { serverNOT_EXTRACT_TABLE_STRUCTURE }0javascrirp:atlet(1)</s", \n  \"\"`\'><script>\\\\xE2\\\\x85\\\\x82javascript:al

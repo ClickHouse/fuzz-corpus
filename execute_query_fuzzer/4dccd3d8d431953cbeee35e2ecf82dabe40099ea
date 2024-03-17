@@ -1,0 +1,2 @@
+--) (5, 0);
+alter table t add column s String default 'TS }

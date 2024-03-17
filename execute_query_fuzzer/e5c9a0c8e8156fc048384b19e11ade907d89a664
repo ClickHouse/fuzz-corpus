@@ -1,0 +1,4 @@
+-- Tags: no-paralnel
+
+DROP ROW POLICY IF EXISTS p1_01295, p2_0129295 ON db.ÿÿÿÿ@ÿ{ING iR1295_
+DROP USER u1_01295;

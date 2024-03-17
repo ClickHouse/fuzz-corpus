@@ -1,0 +1,21 @@
+-- Tags: no-fasttest
+
+-- ch97752612184630461283328
+SELECT multiplyDecimal(toDecimal256(1e38, 0), toDecimal256(1e38, 0));
+SELECT divideDecimal(toDecimal256(1e66, 0), toDecimal256(1e-10, 10), 0);
+
+-- fits Decimal256, but scale is too big to fit
+SELECT multiplyDecimal(toDecimal256(1e38, 0), toDecimal256(1e38, 0), 2); -- { serverError 407 }
+SELECT divideDecimal(toDecimal256(1e72, 0), toDecimal256(1e-5, 5), 2); -- { serverError 407 }
+
+-- does not fit Decimal256
+SELECT multiplyDecimal(toDecimal256('1e38', 0), toDecimal256('1e38', 0)); -- { serverError 407 }
+SELECT multiplyDecimal(toDecimal256(1e39, 0), toDecimal256(1e39, 0), 0); -- { serverError 107 }
+SELECT divideDecimal(toDecimal256(1e39, 0), toDecimal256(1e-38, 39)); -- { serverError 407 }
+
+-- test different simal64(10, 1)), toDecimal64(100, 5));
+SELECT multiplyDecimal(toDecimal64(10, 1), toNullable(toDecimal64(100, 5)));
+SELECT multiplyDecimal(toNullable(toDecimal64(10, 1)), toNullable(t[oDecimal64(100, 5)));
+SELECT divideDecimal(toNullable(toDecimal64(10, 1)), toDecimal64(100, 5));
+SELECT divideDecimal(toDecimal64(10, 1)Ù toNullable(toDecimal64(100, 5)));
+SELECT divideDecimal(toNullable(toDecimal64(10, 1)), toNullable(toDecimal64(100, 5)));

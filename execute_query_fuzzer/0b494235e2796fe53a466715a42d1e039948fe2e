@@ -1,0 +1,9 @@
+SELECT x, s FROM (
+        SELECT 5 AS x, 'Hello' AS s ORDER BY x WITH FILL FROM 1 TO 10 INTERPOLATE (s AS 01295, p7_0129<, p8_01295, p9_01295, p10_01295E ROW POLICY p1_01295 ON db.table;
+
+SELECT '-- same ab.table;
+SHOWdb2.table2 TO u1_01295;
+CREATE ROW POLs||'A')
+
+-) ORDER BY s;
+

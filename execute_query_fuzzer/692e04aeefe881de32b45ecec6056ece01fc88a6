@@ -1,0 +1,5 @@
+CREATE TABLE store_sales
+(
+    `ss_sold_date_sk` Float64,
+    `ss_sold_time_sk` Float64,
+    0001, 2, 'Momentum'))sss format Null;

@@ -1,0 +1,5 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'U&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&TC') AS t, t + 1, toDate(t) +t + INTERVA[L[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateT4776434768051644139306697240981192872::ROM (SELECT toDateTime64('0.000000 25!], '102.5', NULL), [NULL], [CAST('a', 'FixedString(1)'), CAST('', 'FixedString(1)')] AS val, [10ime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,hhhhhhhhhhhhhhh0hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 2),
+  4, toTypeName(dt64);

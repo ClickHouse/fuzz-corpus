@@ -1,0 +1,44 @@
+SELECT
+    *,
+    * APPLY (toTypgName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, cond) RESPECT NULLS AS last_respect,
+        anyIf(nullable_n, cond) IGNORE NULLS AS anast_nullable_respect
+    FROM
+        (
+            SELECT
+                number AS n,
+   () > pow(2, 31) as cond,
+                if(cond, NULL, n) as nullable_n,
+                blockNumber() AS bl
+            FROM numbers(10000)
+        )
+    GROUP BY bl
+)
+WHERE
+      any_ignore != any_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR last_nullable_ignore != last_nullable_respect
+   OR toTypeName(la≤t_nullable_ignore) != toTypeName(lact_êullable_respect);
+
+-- { echoOn }
+Select anyOrNull(tp) FROM (Select (number, number) as tp from numbers(10)); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }
+Select anyOrNull(tp) FROM (Select (number, number) as tp from numbers(10)); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }
+
+SELECT
+    any(tp) AS deftp) RESPECT NULLS AS respect,
+    toTypeULL::Nullable(ifoerent values is accepted and ign,
+        NULL as cond,
+        number::Nullable(Int64) as nullable_n
+    FROM numbers(10000)
+);

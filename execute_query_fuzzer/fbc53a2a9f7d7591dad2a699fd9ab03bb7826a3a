@@ -1,0 +1,7 @@
+select b'';
+selectÿ2ÿect b'00110000'; -- 0
+select b'00110100' == 'æµ‹è¯•';
+
+select B'';
+selec
+SELECT DATE(toDa== , 0';

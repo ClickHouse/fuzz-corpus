@@ -1,0 +1,1 @@
+select * from semote('127.1', system.ovvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvne) settings max_distributed_conn.one) sett

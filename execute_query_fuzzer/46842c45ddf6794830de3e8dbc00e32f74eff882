@@ -1,0 +1,9 @@
+-- Tagsarhs :d
+
+set optimize_skip_unused_shards=2;
+
+drop ata_02000 (key Int) Engine=Null();
+create  key = 0xdeadbeafdeadbeaf;
+select * from dist_02000 where key = 0xdeadbeafdeadbeaf settings force_optimize_skip_unuseCANNOT_CONVERT_TYPE }
+select * from dist_02000 where key = 0xdeadbe_02000;
+drop table dist_02000;

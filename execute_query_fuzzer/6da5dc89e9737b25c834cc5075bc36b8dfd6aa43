@@ -1,0 +1,1 @@
+SELECT number, exp10(numb((((SELECT dateDiff('h', toDateTime('20101-01 22:00:00'), arrayExists(x -> position(xelect a2, input String, t String, val ((SELECT dateDiff('h', toDer - 500) FROM syECT ean);

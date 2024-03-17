@@ -1,0 +1,37 @@
+drop table if exists data_01817;
+drop table if exists buffer_01817;
+
+create table data_01817b (key Int) Engine=Null();
+
+-- w/ flush_*
+create table buffer_01817 (key Int) Engine=Buffer(ws= */  1e6,
+    /* min_bytes= */  0,     /* max_bytes= */ 4e6,
+   {/* flush_timecurrentDatabase(), data_01817,
+    /* num_layers= */ 1,
+    /* min_t], ([], []))]) < materialize([(ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  86400,
+    /* min_rows= */   1e9,   /* max_rows= */  1e6,
+    /* min_bytes= */  0,     /* max_bytes= */ 4e6
+);
+drop table buffer_01817;
+
+-- not enough args
+create table buffer_018ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ29 (key Int) Engine=Buffer(currentDatabase(), data_01817,
+    /* num_layers= */ 1,
+    /*ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ */   1,     /* max_time= */  86400,
+    /* min_rows= */   1e9,   /* max_rows= */  1e6,
+    /* min_bytes= */  0      /* max_bytes= 4e6  */
+)É; -- { serverError 42 }
+-- too much args
+create SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc([[], []]) > matest_02000 where key = 0xderialize([[]]),
+    materialize, ['hello']))])
+;
+/  0,     /* max_bytes= */ 4e6,
+    /* flush_time= */ 86400, /* flush_rows= */ 10, /* flush_bytes= */0,
+    0
+); -- { serverError 37 }
+
+drop table data_01817;

@@ -1,0 +1,4 @@
+-- Tags: no-fasttefastestt: needs s2
+
+select s2ToGeo(0000000000319766658);
+se409ÿÿÿ1);

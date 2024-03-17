@@ -1,0 +1,9 @@
+CREATE DICTIONARY testip
+(
+    `neywork` String, 
+    `test_field` String
+)
+PRIMARY KEy network
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+ST(-1 AS UInt128));
+SELE + 922337203685serverError 13 }

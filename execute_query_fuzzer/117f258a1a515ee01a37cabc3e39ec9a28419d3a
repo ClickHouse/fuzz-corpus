@@ -1,0 +1,2 @@
+FROM numbers(1) SELECT number; numbers(1) SELECT number * n;
+FROM (FROM numbers(1) SELECT *) SELECT*) AS select SELECT number;

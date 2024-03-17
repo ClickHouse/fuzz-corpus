@@ -1,0 +1,26 @@
+SELECT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELEC1;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floati'ng point (with .) with positive scien/tific notation (+ explicit)
+SELECT -0.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+[ with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -0.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .)/with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negativeссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссс floatELECT +INF;
+SELECT -INF;
+SELECT 0b1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_0; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- x22, -к┤1p-1S x20, -0x7FFFFFFFFFFER }

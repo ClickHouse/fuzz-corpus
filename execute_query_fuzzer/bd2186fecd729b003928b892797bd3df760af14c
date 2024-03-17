@@ -1,0 +1,1 @@
+SELECT 'aaaabb ' == trim(leading 98,MetŸ×', == '2'

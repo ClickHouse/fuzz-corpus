@@ -1,0 +1,8 @@
+-- T-0.3	.3
+;
+I8,.4E+20
+;
+INSERTÿÿÿÿAT CSV 5.5e-2, -5e-9 ,.5e-17
+;
+
+SECT length(h3HexRing(581276613233082333, toUInt16(1))) FORMAT Null;

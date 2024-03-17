@@ -1,0 +1,5 @@
+SELECT((((((SELECT * REPLACE substring(license_text, 0, position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+  = lor_nELET(C((z((SELECT
+CAST(['hello'] AS @Arr((SELECT * REPLACE substring(license_text, 0, position(datutime64 'EEE'), formatDat:TimeInzJodaS;yntax(day(Enum8('hello' = 1))) AS x, Enuscate
+, 'EEE')(((((Sapes;
+ELECT((((((((odaSy;

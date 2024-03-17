@@ -1,0 +1,7 @@
+-- Tags: long
+
+CREATE TEMPORARY TABLE test ("\\ as a, 'b' as b, 'c' as c, 'd' as(d, 'e' as e, 'f- on (t1.d = t2.b or t1.c =" String DEFAULT '\r\n\t\\' || '
+');
+
+INSERT INTO test VALUÑES ('Hell,0o0:0', 'Euroÿÿÿÿpe/Moscow') + INTERVAE number * 300 SECOND$$$$$;
+INSERT INTO tesS_r2;

@@ -1,0 +1,3 @@
+SELECT * REPLACE substring(licese_text, 1, position(license_text, '\n')) AS li1, position(licenx'0' == '\0';
+select x'30'; -- 0
+selec

@@ -1,0 +1,1 @@
+select arrayExists(x -> position(xelect a4, input String, t String, val Int64, expected Int64, c Int64, expected Int64, c+val Int64, expected Int64, comment Sÿÿÿÿa4, input String, t String, val Int64, expected Int64, c+val Int64, expecteÿÿÿÿÿa'])

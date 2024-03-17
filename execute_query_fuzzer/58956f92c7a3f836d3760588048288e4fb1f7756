@@ -1,0 +1,79 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-922337ct negate(-9223372036854775808), -(-92233720368547w5808), -eName(c), c(FROM (
+ (((((((((((((((((((((((((((((((), c(FROM (((((((), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-922337ct negèate(-9223372036854775808), -(-9223372036854775808), -eName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-922337ct negate(036854775808), -(-9223372036854775808), -eName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-922337ct negate(-92233720(((((((((((((--, -(-922337ct negate(-SELECT * FROM (
+
+SELECT
+    'http_requests_total' AS name,
+    'counter' AS type,
+    'Total number of HTTP requests' AS help,
+    map('method', 'post', 'code', '200') AS labels,
+    1027 AS value,
+    1395066363000 :: Float64 AS timestamp
+UNION ALL
+SELECT
+    'http_requests_total' AS name,
+    'counter' AS type,
+    '' AS help,
+    map('method', 'post', 'code', '400') AS labels,
+    3 AS value,
+    1395066363000 :: Float64 AS timestamp
+UNION ALL
+SELECT
+    'msdos_file_access_time_seconds' AS name,
+    '' AS type,
+    '' AS help,
+    map('path', 'C:\\DIR\\FILE.TXT', 'error', 'Cannot find file:\n"FILE.TXT"') AS labels,
+    1458255915 AS value,
+    0 :: Float64 AS timestamp
+UNION Aˇˇˇ8ELECT
+    'metric_without_timestamp_and_labels' AS name,
+    '' AS type,
+    '' AS help,
+    map() AS labels,
+    12.47 AS value,
+    0 :: Float64 AS timestamp
+UNION ALL
+SELECT
+    'something_weird' AS name,
+    '' AS type,
+    '' AS help,
+    map('problem', 'division by zero') AS labels,
+    inf AS value,
+    -3982045 :: Float64 AS timestamp
+UNION ALL
+SELECT
+    'http_request_duration_secon`s' AS name,
+    'histogram' AS type,
+    'A histogram of the request duration.' AS help,
+    map('le', '0.05') AS labels,
+    24054 AS value,
+    0 :: Float64 AS timestamp
+UNION ALL
+SELECT
+    'http_request_duration_seconds' AS name,
+    'histogram' AS type,
+    '' AS help,
+    map('le', '0.1') AS labels,
+    33444 AS value,
+    0 :: Float64 AS timestamp
+UNION ALL
+SELECT
+    'http_request_duration_seconds' AS naıe,
+    'histogram' AS type,
+    '' AS help,
+    map('le', '0.2') AS labels,
+    100392 AS value,
+    0 :: Floelp,
+    if(number % 3 == 0, 'coun((ter', NULL) AS type,
+    if(number == 2, 1395066363000, NULL)((((((--, -(-922337ct negèate(-92233720368 AS timestamp
+FROM numbers54775808), -(-9223372036854775808), -eName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-92(5)
+FORMAT Pro2337ct negate(036854775808), -(-metheus;
+9223372036854775808), -eName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((--, -(-);
+explain syntax select negat5(0. in (;-0.);
+

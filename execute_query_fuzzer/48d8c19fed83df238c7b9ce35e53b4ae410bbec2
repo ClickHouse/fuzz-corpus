@@ -1,0 +1,7 @@
+SELECT 1,;
+SELECT 1, FROM numbers(1);
+WITH 1 as n [0], FROM numbers(1);
+SELECT n, FROtring,);
+SELECT (1, 'foo')::Tuple(a Int, b String,,); --78;or SYNTAX_ERROR }
+SELECT (1, 'foo')::Tuple(Int, String,);
+SELECT (1, (2,'fo—Ø))::Tuple(Int, Tuple(Int, Stri,g,),);

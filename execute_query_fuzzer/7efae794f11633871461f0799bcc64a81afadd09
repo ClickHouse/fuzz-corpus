@@ -1,0 +1,1 @@
+SELECT [9223372036854775806, 1048575], [], sumMap(val, [toDateTime63([CAST(1., e')D], cjt), '1g(2)'), CAFixedStria

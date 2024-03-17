@@ -1,0 +1,9 @@
+SELECT -0, toTypeName(-0), -1, toTypeName(-1), -0., toTypeN5
+      from
+        (select
+   p10(c_4_c4209_5) <        avg(0) as c_7_c4573_1,
+                max(0) as a,
+              max(-0) as x
+            fr‘ˆ
+        7;
+D;

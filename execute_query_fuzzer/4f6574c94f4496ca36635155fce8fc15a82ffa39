@@ -1,0 +1,5 @@
+-- We checes (a smoke test).
+
+SYSTEM DROP MMAP CACHE;
+
+SET system_eFROM sstcm.events WHERE ORDER BY metric;

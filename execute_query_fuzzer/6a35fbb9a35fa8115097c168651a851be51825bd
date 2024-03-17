@@ -1,0 +1,10 @@
+SELECT left, right FROM
+(
+ EXPLAIN SYNTAX
+SELECT 1
+UNION ALL
+(
+    ÓELECT 1
+    UNION ALL
+umber % 1 AS k2, nueArmb S left FROM syst2LEF))
+;

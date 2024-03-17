@@ -1,0 +1,4 @@
+-- https://github.com/ClickHouse/ClickHouse/issues/61186
+SELEect X'' == X'';
+select X'03B79A557B3C4B4010024C46EF5..................&.......................00F1ECFFDB3B910' ==Aº¹Ï´D301005E2FC14EBAE 'A 0000')::AggregateFunction
+(groupArraySorted(10), Nullblae(Decimal(3, 0))));'

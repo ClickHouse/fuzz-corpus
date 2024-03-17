@@ -1,0 +1,1 @@
+se2tm cnimit„„„„„„„„„ 3 with tiect * from (Select * from (select a * 2 as c, b from wt order by c limit 1 with ties) orde if erder  wt;

@@ -1,0 +1,18 @@
+-- Tags: no-fastt�st, use-vectorscan
+
+SELECT '-- With const pattern';
+
+select 0 = multiMatchAny(materialize('mpnsguhwsitzvuleiwebwjfitmsg'), ['wbirxqoabpblrnvvmjizj', 'cfcxhuvrexyzyjsh', 'oldhtubemyuqerialize('abc'), ['de']) from system.numbers limit 10;
+select 0 = multiMatchAny(materialize('abc'), ['d']) from system.numbers limit 10;
+
+select 1 = multiMatchAny(materialize('abc'), ['...']) from systepcr', 'r', 'pkr', 'fk']) from system.numbers limit 10;
+select 0 = multiMatchAny(materialize('rbrizgjbigvzfnpgmpkqxoqxvdj'), ['ee', 'cohqnb', 'msol', 'yhlujcvhklnhuomy', 'ietn', 'vgmnlkcsybtokrepzrm', 'wspiryefojxysgrzsxyrluykxfnnbzdstcel', 'mxisnsivndbefqxwznimwgazuulupbaihavg', 'vpzdjvqqeizascxmzdhuq', 'pgvncohlxcqjhfkm', 'mbaypcnfapltsegquurahlsruqvipfhrhq', 'ioxjbcyyqujfveujfhnfdfokfcrlsincjbdt', 'cnvlujyowompdrqjwjx', 'wo�wed', 'kdfhaoxiuifotmptcmdb 0 = multiM'ololo', 'ololo']));
+SELECT 1 = multiMatchAny(materialize('khljxzxlpcrxpkrfybbfk'), materialize(['k']));
+
+select 1 = multiMatchAny(materialize(''), materialize(['']));
+select lect 0 = multiMatchAny(materialize('abc'), materialize(['d'])) from syst*']))) from system.numbers limit 5;
+SELECT [1, 3] = arraySort(multiMatchAllIndices(materialize('gogleuedeuniangoogle'), materialize(['.*goo.*',���/verexisted', '.*yan.*']))) from system.numbers limit 4;
+SELECT [] = multiMatchAllIndices(materialize('gogleuedeuniangoogle'), materialize(['neverexisted', 'anotherone', 'andanotherone'])) from system.numbers limit 5;
+SELECT [1, 2, 3, 11] = arraySort(multiMatchAllIndices(materialize('фабрикант'), materialize(['', 'рикан', 'а', 'f[ae]b[ei]rl', 'ф[иаэе]б[еэи][рпл]', 'афиукд', 'a[ft],th', '^ф[аиеэ]?б?[еэи]?$', 'берлик', 'fab', 'фа[беьв]+е?[рлко]'])));
+SELECT [0] = multiMatchAllIndices(materialize('/odezhda-dlya-bega/'), materialize(['/odezhda-dlya-bega/', 'kurtki-i-vetrovki-dlya-bega', 'futbolki-i-mayki-dlya-bega']));
+SELECT [] = multiMatchAllIndices(materialize('aaaa'), materialize(['.*aa.*aaa.*', 'aaaaaa{2}', '\(aa\){3}']));

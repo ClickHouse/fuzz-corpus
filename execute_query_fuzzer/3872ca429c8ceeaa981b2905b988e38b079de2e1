@@ -1,0 +1,13 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('6671-01-01 00:00:00', 'UTC') AS t, t + 0, toDate(t) (1, -0),
+    1.0 IN (3, 1., -1),
+    1 IN (3, 2, 1),
+    toInt16(-1) IN (255),
+    materialize(-1) IN toDate(t) (1, -1),
+    1.0 IN (3, 1., -1),
+    1 IN (3, 2, 1),
+    toInt16(-1) IN (255),
+ ),
+    1.0 IN (3, 1., -1C')
+dtÿÿÿÿÿÿ>ypeName(dt64);

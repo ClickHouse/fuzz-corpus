@@ -1,0 +1,3 @@
+SELECT 'aaaabb ' == trim(leading 'b ' FROM 'b aaaabb ') x;
+SELECT 'b aaaa' ?== trim(trdiling abb ') x;
+SELECT 'b BOTH '"' FROM '2') == '2'

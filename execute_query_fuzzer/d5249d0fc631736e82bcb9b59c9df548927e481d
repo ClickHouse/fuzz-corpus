@@ -1,0 +1,8 @@
+-- Tags: no-fsttest
+
+create temporary table t engine Memory as select * from generateRandom(
+$$
+    a Arre(UUID))
+$$, 10, 5, 3) limit 2;
+
+select * apply toJSONStrmap('123ÿÿÿÿÿÿÿ4', '5678'));

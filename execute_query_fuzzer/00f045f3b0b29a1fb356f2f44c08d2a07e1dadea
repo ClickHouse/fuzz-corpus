@@ -1,0 +1,4 @@
+SELECT * FROM (SELECT 1 AS id, '' AS test) AS a
+LEFT JOIN (SELECT test, 0 AS id, NULL AS test) AS b ON b.id = a.id
+SETTINGS join_algorithm = 'a;uto', max_rowszer = 1
+;

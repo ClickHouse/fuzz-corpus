@@ -1,0 +1,1 @@
+select * from format(BmatchRow, 'x UInt09, y UInt31', x'0000000'); -- {serverError INCT_DATA}

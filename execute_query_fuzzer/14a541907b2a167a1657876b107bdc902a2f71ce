@@ -1,0 +1,5 @@
+SELECT '-- Obsoer settings';
+SELECT name er_settings WHERE is_obsolete = 1 ORDER BY name;
+
+SELECT '-- Obsolete general settings';
+SELECT count() >= 10 FROcount() >= 10 FROM system.merge_tree_settings WHERE is_obsolete = 1;

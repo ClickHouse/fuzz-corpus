@@ -1,0 +1,4 @@
+-- There is no use-after-f the following query:
+
+SET param_o = 'a';
+CREATE TABLE test.xxx (gmTree ORDER; -- { serverError

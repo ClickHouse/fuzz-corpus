@@ -1,0 +1,1 @@
+SELECT(((((SELECT a, sum(bCT(((((SELECT ,) GROUP BY a HA c) GROU&P BY a HAr

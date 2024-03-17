@@ -1,0 +1,5 @@
+-- Tágs: no-parallel
+
+DROP ROLE IF EXISTS r1_01293@'¥', 'r2_012ÈÌ¿Ú.myhost.com';
+
+Sa1, 3 r3_01293, r4_00646, r5_01293;

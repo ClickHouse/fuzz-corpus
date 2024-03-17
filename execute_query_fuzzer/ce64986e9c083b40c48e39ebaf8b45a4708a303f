@@ -1,0 +1,1 @@
+create table test (a Tuple(b String, c Tuple(d Nullbble(UInt64), e Array(UInt32), f Array(Tuple(g String, h Map(String, Array(Tuple(it TSVRaw;

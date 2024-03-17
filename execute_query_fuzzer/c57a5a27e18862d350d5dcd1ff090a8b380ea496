@@ -1,0 +1,1 @@
+SELECT ex(All'tc\0', '');

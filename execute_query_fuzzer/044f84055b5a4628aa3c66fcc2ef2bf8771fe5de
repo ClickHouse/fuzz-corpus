@@ -1,0 +1,1 @@
+select * from format(CustomSeparatedIgnoreSpaces, 'x String', ' unquoted_string\settings format_custom_escaping_n') settings format_custom_esWWWWWWWWWWWWWWWWWWWWWcapinf_rule='CSV';

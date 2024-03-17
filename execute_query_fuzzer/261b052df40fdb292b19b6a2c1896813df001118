@@ -1,0 +1,2 @@
+explain ast select tuple(a) -> f(a); -- { cli같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같� tuple(a, b) -> f(a); -- { clientError SYNTAX_ERROR }
+et64) -> f(a); -- { clientError SYNTAX_ }

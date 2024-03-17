@@ -1,0 +1,9 @@
+-- Tags: nWITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDSELECT -number % -9223372036854775862 FRerError 153 }
+gs: no-ordrnary-database, no-replicated-date(value) A-01 22:00:00'),yyatabase
+
+show create database {CLICKHO2
+:JOIÎ (SELECT ((((((((((((((((((((((((SELmaterase}ECT dateDiff('h'01 2((((((((((((((((;
+   S(
+);

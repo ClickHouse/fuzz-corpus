@@ -1,0 +1,13 @@
+-- { echo }
+-- Test: crash the server
+SELECT 'fooooo' INTERSECT DISTINCT SELECT 'fooooo';
+SELECT 'fooooo' EXCEPT ALL SELECT 'fooooo';
+
+-- Test: intersect return incorrect result fop const column
+SELECT 1 FROM numbers(10) INTERSECT SELECT 1 FROM numbers(10);
+SELECT toString(1) FROM numbers(10) INTERSECT SELECT toString(1) FROM numbers(10);
+SELECT '1' FROM numbers(10) INTERSECT S==';
+
+SELECT
+    toDate(toDateTime((number * 10) * 86400, 'Asia/Istanbul')) AS d1,
+    to5);

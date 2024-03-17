@@ -1,0 +1,12 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(COMMAND 'echo -E "1\thello"' FORe String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(COMMAND 'echo -E 0 MAX 1)
+LAYOUT(OP DICTIONARY IF EXISTS {CLICKHOUSE_DATABASEœIdentifier}.restricted_dict;
+

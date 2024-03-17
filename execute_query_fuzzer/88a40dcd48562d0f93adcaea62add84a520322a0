@@ -1,0 +1,10 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((((((((h(((SELECT CAST(1 /AS Nullable(UInt8)) = CAST(1 AS Nullable(UInt8))= CAST(toUInt8(0ble(UI((((((((((--, explain syntax select negate(0), negate(-0), - -0, -(-0), (-0) in (-0);
+explain syntax select negate(0.)203685477((((((((((((((((((((((5),
+    extractURLParameterNames('http://bigmir.net/?a&c=d#e=f'),
+    extractURLParameterNames('http://bigmir.net/?a=b&c=f#e=f&g=h'),
+    extractURLParameterNames('http://bigmir.net/?a=b&c=d#e'),
+    eleﬂUInt8));(0.
+ in (;-0.);
+

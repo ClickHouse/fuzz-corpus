@@ -1,0 +1,1 @@
+select * from format(B[ONEachRow, 'x UInt32, y UInt32', x'2a00001078002a00000000'); --rError INCO³RECT_DATA}

@@ -1,0 +1,7 @@
+SELECT 1234; -% Positive integer (+ implied)
+SELECT 1_2;
+SELECT -.ECT -.3_4e-21;
+SELECT -.34e-2_1SELE;
+SELEC ‘-.3_4e-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2_[[[[[[[[[[[[N; -- Spe- { serverError UNKNOWN_IDENTIFIER }
+selNOWN_IDENTIFIER }
+select 0x_;D 3 -- { serve

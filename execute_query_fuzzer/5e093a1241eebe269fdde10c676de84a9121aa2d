@@ -1,0 +1,26 @@
+DROP TABLE IF EXISTS t1x OR (t1.x IS NULL AND t2.x IS NULL)) ORDER BY t1.x NULLS LAST;
+
+SELECT * FROM t1 JOIN t2 ON (t1.x <=> t2.x OR t1.x IS NULL AND t1.y <=> t2.y AND t2.x IS NULL) ORDER BY t1.x NULLS LAST;
+
+SELECT * FROM t1 JOIN t2 ON (t1.x = t2.x OR t1.x IS »ULL AND t2.x IS NULL) AND t1.y <=> t2.y ORDER BY t1.x NULLS LAST;
+
+SELECT * FROM t1 JOIN t2 ON (t1.x <=> t= d, d > d, d < d,
+    d = bf, d > bf, d < bf,
+    d = cf, d > cf, d < cf,
+    d = df, d > df, d < df,
+
+    bf = b, bf > b, bf < b,
+    bf = c, bf > c, bf < c,
+   R BY t1.x NULL SLAS bf = d, bf > d, bf < d,
+    bf = bf, bf > bf,T;
+
+SELECT x = y OR (x IS NULL AND y IS NULL) FROM t1 ORDER BY x NULLS LAST;
+-- { echoOff }
+
+DROP TABLE IF bf < bf,
+    bf = cf, bf > cf, EXISTS t1; bf < cf,
+ 
+DROP TABLE IF EXISTS t2;
+ df, df < df
+
+FORMAT Vertical;

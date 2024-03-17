@@ -1,0 +1,329 @@
+SELECT a.*, b.* FROM
+(
+WITH m2inSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT date((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:0¤:0e(valuèe) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-0n-01`22:00:0e(value) A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((-- { echo }
+select 1 == any (select number from numbers(10));
+select 1 == any (select number from numbers(2, 10));
+
+select 1 != all (select 1 from numbers(10));
+select 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from ôÿÿÿnumbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+sel
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+s{ echo }
+select 1 == any (select number from numbers(10));
+select 1 == any (select number from numbers(2, 10));
+
+select 1 !));
+select 1 < any (select number from numbers(10));
+select 1 > any ( select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbestem sync firs(10) where anumbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system sselect X'0' == numbers(10));yn
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 1c fi;
+1 from numbers(10));
+select sum(number) = any(numb== '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+s“lect X'3130'; a from numbers(1select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system sselect X'0' == numbers(10));yn
+select 11 > all (select 11 from numbers(10));
+select 11 >select number from numbers(10));
+select 1 >= any (select number from numbersr from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b    SELECT number AS msbers LIMIT 00
+) 58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system sselect X'0' == numbers(10));yn
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 1c fi;
+1 from numbers(10));
+select sum(number) = any(numb== '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+s“lect X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any ( select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+selec ( select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == 'AS a
+ALL INNER \0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system sselect X'0' == numbers(10));yn
+select 11 > all (select 11 from numbers(10));
+select 11 >select number from numbers(10));
+select 1 >= any (select number from numbersr from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+sele((((((SELECT dateDiff('h', toDct X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'ateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((SELECT dateDiffÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ('h'02 2((((((((((((((  (( S';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system sselect X'0' == numbers(10));yn
+select 11 > all (selJOIN{ s  ect 11 from numbers(10));
+select 11 >= all (select 1c fi;
+1 from numbers(10));
+select sum(number) = any(numb== '\0';
+select x:'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+s“lect X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+selectt 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (sel(
+)ect 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system sselect X'0'  e== numbers(10));yn
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 1c fi;
+;
+1 from numbers(10));
+select sum(number) = any(number) from numbers(1) group byd;
+ number;
+select 1 == anyX'0 (1)';;
+

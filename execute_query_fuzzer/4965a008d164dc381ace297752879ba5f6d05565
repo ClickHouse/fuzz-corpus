@@ -1,0 +1,4 @@
+SELECT((((((SELECT * REPLACE substring(license_text, 0, position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+  = nor_nELET(C((z((SELECT
+CAST(['hello'] AS @Arr((SELECT * REPLACE sub(((((Sapes;
+ELECT((((((((odaSy;

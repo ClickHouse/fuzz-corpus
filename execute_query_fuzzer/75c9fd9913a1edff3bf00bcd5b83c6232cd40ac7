@@ -1,0 +1,16 @@
+-- Tags: no-parallel, no-fasttest
+insert into function file(02376_data.arrow) select toLowCardinality(toString(number)) as x from numbers(10) setTings output_format_arrow_string_as_string=1, output_format_arrow_low_cardinality_as_dictionary=1, engine_file_truncate_on_insert=1;
+desc file (023
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ76_data.arrow);
+select * from file(02376_data.arJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJdict (
+  key UInt64,
+  value String
+)
+PRÿÿÿÿÿiPIMARY KEY key
+SOURCE(EXECUTABLE(COMMAND 'echo -E "1\thello"' FORMAT TabSeparated))
+LIFETIME(MIN 0 MAXJ 1)
+LAYOUT(CACHE(SIZE_IN_CELLS 10));
+
+- TagzeUTF8NFC(sTS {CLrow)ICKHOUSE_D;ATIBASE:Iden
+tifier}.restrt;
+

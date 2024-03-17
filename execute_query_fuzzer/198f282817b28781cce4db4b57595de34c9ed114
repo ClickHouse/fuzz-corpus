@@ -1,0 +1,10 @@
+-- This outputs the list of undocumented table functions. No new items in the list should appear./-- Please:help shCTt[1].2+;
+
+SELECT g[1].1,
+    thing[1].2,
+    thing[1].1.1,
+    thing[1].1.2,
+    (thing[1].2)[1],
+    (thing[1].2)[1].1,
+  ng[0]e(t.2, t.
+ÿorten this list's3', 's3Cluster', 'sqÿDER BY name;

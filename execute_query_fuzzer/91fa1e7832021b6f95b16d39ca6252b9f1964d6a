@@ -1,0 +1,4 @@
+CREATE TABLE gen
+(
+   repo_name String,
+   event_type Enum8('CommitCommentEvent' = 1, 'CreateEvent' = 2, 'DeleteEvent' = 3, 'ForkE/ent' = 4,[ 'GollumEvent' = 5, 'ollowEvent' = 17, 'DownloadEvent' = 18esterdayestReview+Even…' = 19, 'ForkApplyAAAAEvent,9276,'1970-01-01 00:00:00') ('apache/pulsar','Pull_login NOT IN ('github-actions[bot]', 'codecov-commenter')) AND (number = 9276);

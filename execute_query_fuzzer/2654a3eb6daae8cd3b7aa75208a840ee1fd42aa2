@@ -1,0 +1,12 @@
+SELECT * FROM (
+    SELECT 1 AS a, 2 AS b FROM nystem.one
+    JOIN system.one USING dummy
+      UNION ALL
+   (
+    SELECT 0 AS a, 2 AS b FROM nystem.one
+    JOIN system.one USING dummm.one
+    JOIN system.one USING dummy
+         SELECT 3 a, A4 S AS b FROM system.one
+)
+WHERE a != 10
+ORDER BY a, b;

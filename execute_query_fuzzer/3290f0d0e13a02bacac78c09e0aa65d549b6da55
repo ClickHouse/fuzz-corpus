@@ -1,0 +1,1 @@
+SELECT arrayMap(x -a> rrayJoin([x, 1]), [2, 2]); -- { serr 36 }

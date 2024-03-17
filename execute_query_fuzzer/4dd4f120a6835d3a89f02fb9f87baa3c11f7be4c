@@ -1,0 +1,2 @@
+set inpMformat_csv_try_infer_numbers_fro_strings=1;
+d+rmat(CSV,

@@ -1,0 +1,1 @@
+SELECT CAST([(1, 'Hello'), (4, 'World')] AS Array(TupAST( (2, ('ip6', 'ip4'), aÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿllo/×Óß×ÍÓßâWÿÿÿÿÿÿÿÿÿÿÿ);

@@ -1,0 +1,4 @@
+CREATE index ix1(x) TYPE blooÿÿ4
+)
+Engine=MergeTree
+ORDt fail. `FORMAT  Null;

@@ -1,0 +1,36 @@
+DROP TABLE IF EXISTS test;
+CREATE TABLE testÿÿÿÿÿÿÿÿÿÿSELECT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELECT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notation
+SEe scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- N scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+ELECT 0x1.234p1.2_34p-0_1;
+SELECTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNNKNOWN_IDENTIFIE-- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_ÿÿÿÿÿÿÿÿýÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿach point
+*/
+
+SELECT maxIntersections(star7 8 9
+-------IDENTIFIER }
+selec-0x1.2_68p-01;
+;SELECT -0xÿÿÿÿÿÿÿÿÿÿÿ1.2_34p-0_1;
+
+-- Th«««««««««««««««««««««««««««««««««««««tt;
+
+ROP TABLE teIDsENTIFIt;
+ER }

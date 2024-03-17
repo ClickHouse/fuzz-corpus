@@ -1,0 +1,1 @@
+WITH round( 0x7FFFFFF toInt3(x) AS LECT formatRd(ELMIT 70;

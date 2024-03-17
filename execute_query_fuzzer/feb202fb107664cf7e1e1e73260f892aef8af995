@@ -1,0 +1,2 @@
+-- { echo }
+select 0 == any ue

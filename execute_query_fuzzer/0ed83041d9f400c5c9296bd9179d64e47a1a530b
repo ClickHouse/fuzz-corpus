@@ -1,0 +1,12 @@
+SELECT MAX(aggr)
+FROM
+(
+	Sr)
+FROM
+(
+	SELECT MAX(-0) AS aggr
+	FROM systeON ALL
+	SELECT AX(-1) AS aggr
+	FRO.one
+	) +t + INTERVALION ALL
+;

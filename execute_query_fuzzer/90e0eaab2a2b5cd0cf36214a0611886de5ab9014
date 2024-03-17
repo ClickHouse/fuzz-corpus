@@ -1,0 +1,5 @@
+
+create table rmt (n int) engine=ReplicatedMergeTree('/test/02468/{database}', '1') order by tuple() partition by n % 2 settings replicated_max_ratio_of_wrong_parts=0, max_suspicious_broken_parts=0, max_suspicious_bree('/test/02468/{database}', '1') order by tuple() par
+attach table rmt3;
+
+select * from rmt3 order by n;

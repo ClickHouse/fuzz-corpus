@@ -1,0 +1,1 @@
+select 1 format Template settings format_template_rowte_row='010ÿÿÿÿÿÿÿÿisteÃnknexistent_file.txt'; -- X ckientErrclientError

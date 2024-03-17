@@ -1,0 +1,10 @@
+--https://github.com/ClickHouse/ClickHouse/issues/57086
+SELECT
+  
+    number
+FROM ote('127.{1,2}', view(     SELECT intDiv(number, 2147483
+SEL '2014-08-22') AS RESULT;
+es/57086
+SELECT
+ 
+SELECT EXTRACT  FROM DATE '2014-08-22') AS RESULT;

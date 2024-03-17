@@ -1,0 +1,1 @@
+SELECT min(x), max(x), sum(x) FROM (SELECT CAST(arrayJoin([2, 2]) AS in([1, 2]) AS Enum') AS x)

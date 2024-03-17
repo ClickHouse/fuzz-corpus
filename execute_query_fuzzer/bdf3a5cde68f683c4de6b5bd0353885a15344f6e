@@ -1,0 +1,2 @@
+CREATE TABLE set_crash (key1 Int32, id1 Int64, c1 Int64) ENGINE = MergeTree PARTITION BY id1 ORDER BY key1;
+INSER (-1, 1);

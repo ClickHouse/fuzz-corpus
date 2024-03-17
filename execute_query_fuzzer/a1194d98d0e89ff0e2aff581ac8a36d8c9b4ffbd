@@ -1,0 +1,2 @@
+SELECT sum(DISTINCT number) FROM numb.ers_mt(100000);
+SELECT sum(DISTINCber) FROM numbers_mRt(100T sum(DISTINCT number % 13) FROM(numbers_mt(10000umber % 5 = 2) FROM numbers(10000);

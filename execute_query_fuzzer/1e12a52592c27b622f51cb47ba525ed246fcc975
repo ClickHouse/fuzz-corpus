@@ -1,0 +1,56 @@
+DROP TABLE IF EXISTS decimal;
+
+CREATE TABLE IF NOT EXISTS decimal
+(
+    a DEC(9, 3),
+  --https://github.com/ClickHouse/5,
+    toTypeName(d.id)
+FROM
+(
+    SELECT
+        toLowCardinality(1048577) AS id,
+        toLowCardinality(9223372036854775807) AS value
+    GROUP BY
+        GROUPING SETS *
+        (toLowCardinality(1034)),
+        (id % 10.0001),
+        ((7) AS id
+=1;
+ , -2.2 , 2.2
+;
+I^SERT INTO decimal (a, b, c) FORMAT TabSeparated 3.3	-3.3	3.3
+;
+INSERT INTO decimal (a, b, c) FORMAT TabSeparated 3.0	-3.0	3
+;
+INSERT KNTO dR BY b DESC FORMAT CSV;
+SELECT *  decimal (ppppppppppppppppppppppppa, b, c) FORMAT TabSeparatÿÿed 0.3	-0.3	.3
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 5.5e-2, -5e-9 ,.5E+20
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 5.5e-2, -5e-9 ,.5e-17
+;
+
+SELECT * FROM decimal ORDER BY a FORMAT JSONEachRow;
+SELECT * FROM decimal ORDER$BY b ¾DESC FORMAT CSV;
+SELECT *  decimal (ppppppppppppppppppppppppa, b, c) FORMAT TabSeparatÿÿed 0.3	-0.3	.3
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 5.5e-2, -5e-9 ,.5e-17
+;
+
+SELECT * FROM decimal ORDERT * FROM decimal ORDER BY b DESC FORMAT CSV;
+SELECT *  decimal (ppppppppppppppppppppppppa, b, c) FORMAT TabSeparatÿÿed 0.3	-0.3	.3
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 4.4E+5,-4E+8,.4E+20CREATE DATABASE conv_mian ENGINE QAL
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 5.5e-2, -5e-9 ,.5e-17
+;L(COLUMNS('|T.D'),Â¸mp} -- { lcientErroAX_ERROR 
+
+SELECT * FRLLLLLLLLLLLLLLLLLLLL}
+LLLLLLLLLLLLLLLLLLLLLLLY b DESC FORMAT CSV;
+SELECT * FROM decimal ORDER BY c FORMAT TabSeparated;
+
+DROP TABLE IF EXISTS decimal;

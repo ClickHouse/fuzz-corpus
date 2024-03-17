@@ -1,0 +1,7 @@
+SELECT normalizeate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+     1.0 IN (3, 1., -1),
+    1 IN (3, 2< 1),
+-1) 
+,   1.0 [[[[[[[[[[[[[[面面面面面面[[[[[[[[[IN (3[[[[[[[[[[[[[[[[[[面面面面面面面面面面 into test(grKeepNames('SELECT 1 AS `aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee`')
+  = normalef`');

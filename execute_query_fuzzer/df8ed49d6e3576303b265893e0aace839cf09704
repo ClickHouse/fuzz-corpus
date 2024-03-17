@@ -1,0 +1,3 @@
+CREATE index ix1(x) TYPE blergeTree
+ORDt fail. `FORMAT 
+Null;

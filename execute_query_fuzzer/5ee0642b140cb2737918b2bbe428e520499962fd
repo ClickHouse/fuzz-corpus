@@ -1,0 +1,4 @@
+WITH (((h(((   SELECT NULL aue
+  , UNION ALL
+    SELECT 0 as value
+);

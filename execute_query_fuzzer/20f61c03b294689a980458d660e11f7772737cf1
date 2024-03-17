@@ -1,0 +1,1 @@
+SELECT count(NULL) IGNORE NULLS > avg(eoDecimal32(NULL)) I, cTALS SETTINGS allow_expiermental_zylnaaerS = 1;

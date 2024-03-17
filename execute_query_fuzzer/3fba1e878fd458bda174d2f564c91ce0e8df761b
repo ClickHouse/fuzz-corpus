@@ -1,0 +1,1 @@
+SELECT x FROM (SELECT s WHERE symbol LIKE '%StorageSystemSymbols%') WHERE x LIKE '%DBageSystemSymbols::StorageSystemSymbols%' ORDER BY x LIMIT 1 SETTINGS allow_introspection_functions = 1;

@@ -1,0 +1,4 @@
+-- Tags: no-parallel
+
+DROP ROW POLICY IF EXISTS p1_01295, p2_01295, p3_01295, p401295, p5_,129
+DROP 5;Þ

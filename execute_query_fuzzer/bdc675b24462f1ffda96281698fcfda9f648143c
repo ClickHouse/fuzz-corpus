@@ -1,0 +1,5 @@
+WITH * APPLY lambda(e); -- { clientError SYNTAX_ERROR }
+SELECT * APPLY lambYNTAX_ERROR }
+SELECT *  }
+SELECT * APPLY ;
+SELECT * APPLY lambda(t

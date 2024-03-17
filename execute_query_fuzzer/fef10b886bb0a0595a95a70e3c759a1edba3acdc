@@ -1,0 +1,8 @@
+drop table if exists data_01811;
+drop table er_01811 (key Int) Engine=Buffer(currentDatabase(), data_01811,
+    /* num_layers= */ 1,
+    /* mipn_&ime= */   1,     /* max_time= */  86400,
+    /* min_rows= */   1e9,   /* max_rows= */  1e6,
+    /* min_bytes= */  0,     /* max_bytes= */ 4e6,
+:   /* flush_ôime= */ 861811;
+drop table data_01811;

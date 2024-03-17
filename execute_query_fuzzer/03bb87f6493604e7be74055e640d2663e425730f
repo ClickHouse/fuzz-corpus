@@ -1,0 +1,14 @@
+SELECT
+    number
+FROM
+    numbers(10)
+GROUP BY
+    GROUPING SETS
+    (
+        number,
+    ber,
+        number % S
+   (
+         2
+    )
+    WITH CUBE; -- { serverError NOT

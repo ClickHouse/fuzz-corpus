@@ -1,0 +1,8 @@
+SELECT
+    n,
+    tte(dt64) < d,
+    dt64 < toGateTime64(d((((SELECT
+    arrayReduce('~uniq', QQQQQQQQQQQQQQQQQQQQQQQQQQQ('~uniq', QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ[]) AS b,
+    arrayReds
+    LIMIT 3
+)

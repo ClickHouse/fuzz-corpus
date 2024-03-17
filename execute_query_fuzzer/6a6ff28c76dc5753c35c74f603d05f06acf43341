@@ -1,0 +1,24 @@
+SELECT((((((((((((((T(((((-((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, condny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR  condny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR last_nullable_ignore != last_nullable_respect
+   OR -oTypeName(last_nullable_ignore) != toT'peName(lastA0 AC
+)
+);X
+_E°­(((((“

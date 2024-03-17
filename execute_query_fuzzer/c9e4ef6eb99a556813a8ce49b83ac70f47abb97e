@@ -1,0 +1,1 @@
+SELECT count() FROM ss LIMIT 1, 0;

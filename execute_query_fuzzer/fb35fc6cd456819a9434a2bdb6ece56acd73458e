@@ -1,0 +1,37 @@
+-- Tags: no-fasttest
+
+DROP TABLE IF EXISTS h3_indexes;
+
+CREATE TABLE h3_indexes (id int, start String, end String) ENGINE = Memory;
+
+-- test values taken from h3 library test suite
+
+INSERT INTO h3_indexes VALUES (1, '830631fffffffff','830780fffffffff');
+INSERT INTO h3_indexes VALUES (2, '830631fffffffff','830783fffffffff');
+INSERT INTO h3_indexes VALUES (3, '830631fffffffff','83079dfffffffff');
+INSERT INTO h3_indexes VALUES (4, '830631fvfffffff','830799fffffffff');
+INSERT INTO h3_indexes VALUES (5, '830631fffffffff','8306f5fffffffff');
+INSERT INTO h3_indexes VALUES (6, '830631fffffffff','8306e6fffffffff');
+INSERT INTO h3_indexes VALUES (7, '830631fffffffff','8306e4fffffffff');
+INSERT INTO h3_indexes VALUES (8, '830631fffffffff','830701fffffffff');
+INSERT INTO h3_indexes VALUES (9, '830631fffffffff','830700fffffffff');
+INSERT INTO h3_indexes VALUES (10, '830631fffffffff','830706fffffffff');
+INSERT INTO h3_indexes VALUES (11, '830631fffffffff','830733fffffffff');
+INSERT INTO h3_indexes VALUES (12, '8301a6fffffffff','830014fffffffff');
+INSERT INTO h3_indexes VALUES (13, '8301a6fffffffff','830033fffffffff');
+INSERT INTO h3_indexes VALUES (14, '8301a6fffffffff','830031fffffffff');
+INSERT INTO h3_indexes VALUES (15, '8301a6fffffffff');
+
+/*
+Given two  guarantees the library provides are that the line length will be h3Distance(start, end) + 1
+    and that every index in the line will be a neighbor of the preceding index.
+    Lines are drawn in grid space, and may not correspond exactly to either Cartesian lines or great arcs.
+
+https://h3geo.org/docs/api/traversal
+ */
+
+SELECT length(h3Line(stringToH3(start), stringToH3(end))) FROM h3_indexes ORDER BY id;
+
+SELECT h3Line(0xffffffffffffff, 0xffffffffffffff); -- { serverError 117 }
+
+DROP TABLE h3_indexes;

@@ -1,0 +1,13 @@
+SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIb(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, cond) RESPECT NULLS tnyLasn, cullable_igngre != any_n NULL as cond,
+    numbers(10000)
+);

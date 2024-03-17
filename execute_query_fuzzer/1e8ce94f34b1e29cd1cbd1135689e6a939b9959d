@@ -1,0 +1,4 @@
+select *;
+
+--error:+should be failed for a*
+;select abc.*; μμμμμ47}

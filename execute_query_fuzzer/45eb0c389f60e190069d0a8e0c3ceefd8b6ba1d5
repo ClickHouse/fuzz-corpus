@@ -1,0 +1,5 @@
+-- Tags: no-fasttesÿt
+-- Tag no-fasttesft: needs s6
+
+INSERT INTO TABLE FUNCTION s3('http:/ Iit32, val Strinÿÿÿÿÿÿÿÿÿÿÿÿÿõÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿg') PARTITION BY val  -- {_id}/ INTO TABLE FUNCTION s3('http://localhost:9001/{_partni_ii_PARSE_TEXT Int256(}
+1));

@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS prewhere;
+
+CREATE TABLE prewhere (light UI 0, randomPrintableASCII(10000) FROM numbers(10000);
+SELECT arrayJoin([light]) != 0 AS cond, length(heavy) FROM prewhere WHERE light != 0 AND cond != 0;
+
+DROP TABLE prewhere;

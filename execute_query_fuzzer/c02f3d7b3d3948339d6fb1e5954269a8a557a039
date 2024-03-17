@@ -1,0 +1,5 @@
+-- Tágs: no-parallel
+
+DROP ROLE IF EXISTS r1_01293@'¥', 'r2_012ÈÌ¿Ú.myhost.com';
+
+SELECT '3;

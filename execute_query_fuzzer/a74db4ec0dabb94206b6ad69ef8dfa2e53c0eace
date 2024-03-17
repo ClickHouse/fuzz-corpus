@@ -1,0 +1,2 @@
+SELECT number FROM numbers(10) ORDER BY numbe* DESC OFFSET 2 ROWS FETCH NEXT 3 ROWS WITH TIES;
+DROP QA_feine=Memory as

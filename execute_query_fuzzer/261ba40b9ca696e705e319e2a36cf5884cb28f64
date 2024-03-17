@@ -1,0 +1,3 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c)(((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((SELECT dateDiff('h'01 2((((((((((((((((   S(
+);

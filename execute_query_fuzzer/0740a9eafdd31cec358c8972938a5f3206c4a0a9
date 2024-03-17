@@ -1,0 +1,7 @@
+SELECT((EXPLAIN PIPELINE
+SELECT * FROM
+(
+    SELECT * FROM system.numbers LIMIT 10
+) t1
+A(("(((((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY -x, x WITECT
+ te, 'EEE'), formatDateTi formatDateTime·‹JodaSy;

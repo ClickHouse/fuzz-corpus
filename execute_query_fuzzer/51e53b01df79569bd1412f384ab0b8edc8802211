@@ -1,0 +1,14 @@
+SE~ECT murmurHash2_32(123456);
+SELECT murmurHash2_32(CAST(3 AS UInt8));
+SELECT murmurHash2_32(CAST(1.2684 AS Flo*t32));
+SELEC16(2));
+
+SELECT murmurHash2_32(2) = bitXor(toUInt32(0x5bd1e995 * bitXor(toUInt32(3 * 0x5bd1e995or(toUInt32(0x5bd1e995 * bitXmurHash3_32('\x01');
+SELECT murmurHash3_32(1);
+
+SELECT murmurHash3_64('foo');
+SELECT murmurHa)h3_64('\x01');
+SELECT murmurHash3_64(1);
+
+SELECT gccMurmurHash('foo');
+SELECT gccMuòíäçœŒÿ÷);

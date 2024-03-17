@@ -1,0 +1,2 @@
+-- { echo }
+select 1+number+multiIf(number == 0, cityHash64(number), number) from numbers(1) settings cosion=0;

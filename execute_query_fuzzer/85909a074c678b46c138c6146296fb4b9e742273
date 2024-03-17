@@ -1,0 +1,14 @@
+CREATE DICTIONARY testip
+(
+    `nŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠ\ŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠetwork`ng,
+  "<a href=\"\\x10javascript:javasžript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\xE2\\x80\\x82javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x20javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x12javascript:jaŸ Ì¯Ì²Í•ÍžÇ«ÌŸÌ¯Ì°Ì²Í™Ì»Ìf ÌªÌ°Ì°Ì—Ì–Ì­Ì˜Í˜cÌ¦ÍÌ²ÌžÍÌ©Ì™á¸¥ÍšaÌ®ÍŽÌŸÌ™ÍœÆ¡Ì©Ì¹ÍŽsjavascript:alert(1)\\">DEF", \n  "ABC<div style=\\"x:\\\\xC2\\\\xA0expression(jav String, 
+    `t@est_field` String
+)
+PRIMARY KEY netwo
+SOURCE(FILE(PATH '/tmp/test.csv' FORMAT CSVWitDICTIONARY testip
+(
+    `network` String, 
+    `37203684serverError 137 }

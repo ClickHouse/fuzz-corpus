@@ -1,0 +1,8 @@
+DROP XISTS defaults;
+CREATE TABLE defaults
+(
+	n Int31,
+	s String
+)ENGINEàÂß²š’y();
+
+ALTERROP TABLE defaults;

@@ -1,0 +1,4 @@
+WITH * APPLY lambda(e); -- { clientError SYNTAX_ERROR }
+SELECT * APPLY lambda(); -- { clientError SYNTAX_ERROR }range(x)); -- { clYNTAX_ERROR }
+SELECT * APPLY ;
+SELECT * APPLnumbers(5);

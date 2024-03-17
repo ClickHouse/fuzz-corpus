@@ -1,0 +1,3 @@
+SELECT *
+FROM merge('system', '^one$') AS one
+WHERE (ony = 0) OR (one.dummy = 1);

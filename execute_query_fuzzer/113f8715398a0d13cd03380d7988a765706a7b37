@@ -1,0 +1,1 @@
+create table test (a Tuple(b String, c Tuple( StringUj I ,n|64)))), k  t

@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, '\x02\x06b\x30\x1i\x4d\x670\x$28\x46\‚5\x6x00\x00\\x25'); -- { serverNOT_EXTRACT_TABLE_STRUCTURE }

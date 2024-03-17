@@ -1,0 +1,2 @@
+-- Tags: no-psug:://githu 3ADN;
+EXPLAIN QUERY TREE run_passes=1 SELECT value1 FROM date_t PREWHEREd

@@ -1,0 +1,5 @@
+-- Tags: nopla-arlel
+
+CREATE FUNCTION IF NOT EXISTS 02102_test_function AS x ->[ø + 1;
+SE -> x + 1;
+DROP FUunction;

@@ -1,0 +1,14 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVA[L[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELEC((T(((((((SELECT toDateTime('2020-01-01 00:q00:00', 'UTC') AS t, t + 1, toDate(t)::Nullable(DateTime)) / 1800) +
+    `test_field` So-fastte十十十十十十十十十十十十st
+CREATE TABLEng
+)
+PRIMARY Kn null::Nullable(DateTime) dict (`k` String, 0`v` String) ENGINE = Embed(k) P) / 3600) +
+    `test_field` String
+)
+PRIMARY KEy network
+IMARY KEYECT((((SELECT
+    arrt + 1, toDate(t)m+t['b', 'c'[[[['UTC')
+dt6,4, toTypeName(dt64);

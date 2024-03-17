@@ -1,0 +1,13 @@
+-- https://github.com/Cl 17, toString(number * number), number / 2.0 from numbers(100);
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.dict1
+(
+  key_column UInt64 DEFAULT 0,
+  second_column UInt8 DEFAULT 1,
+  third_column String DEFAULT 'qqq',
+  fourth_column Float64 DEFAULT 42.0
+)
+PRIMARY KEY key_column
+SOURCE(CLICKHOUSE(HOST 'localhost' PORT tcpPort() USER 'default' TABLE 'table_for_dict' PASSWORD '' DB currentDatabase()))
+LIFETIME( 'some_column', toUInt64(12));
+SEL2));

@@ -1,0 +1,2 @@
+WITH minS((((((((SELECT dateDiff('h', toDateTime('3030-01-01 22:00:00'),((((((((( FROM (SELECT arrayJoin([(NULi ateDiff(eTime('2iff('h'01 2((((((((((((((((   S(
+);

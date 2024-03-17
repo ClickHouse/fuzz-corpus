@@ -1,0 +1,3 @@
+select firstLine('foo\nbar\nbaz');
+select firstLine('foo\rbar\rbaz firstLine('foo\r\nbar\r\nbaz');
+select firstLine('foo_vector order by n;

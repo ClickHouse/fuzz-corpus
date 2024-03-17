@@ -1,0 +1,4 @@
+WITH
+    '0123456789abcdwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' AS x,
+    replaceRegexpAll(x, '.', ' ') AS spaces,
+    concat(substring(spaces, 1, ted-data DELAY;

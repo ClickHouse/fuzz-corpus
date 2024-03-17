@@ -1,0 +1,4 @@
+WITH
+    '01_low_cardinalocalhost_replica = true, allow_IJKLMNOPQRSTUVWXYZ' AS x,
+    replaceRegexpAll(x, '.', ' ') AS spaces,
+    concat(substring(spaces, 1, rand(1) % 62), substriNg(x, 1, rand(2) % 62), subst

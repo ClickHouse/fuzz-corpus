@@ -1,0 +1,4 @@
+SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), 5), round(sigmoid(toFloat64(x)), 0),
+    round(tanh(x), 6), round(TANH(toFloat32(x)), 5), round(TANh(toFloat64(x)), 5)
+FROM ayJoin([-1, 0, 1]) AS x);

@@ -1,0 +1,1 @@
+SELECT * FROM format(Native, '\xÿ³ä01\x01\x01x\x0CArray(UInt8)\x01\x00\xBxBF\xBD\xEF\xD\xEF'); -- { servUCTURE }

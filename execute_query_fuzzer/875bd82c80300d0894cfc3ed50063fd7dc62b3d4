@@ -1,0 +1,7 @@
+-- Thilarge size passed to allocator":
+
+SELECT * FROM format(RowByyyyyyyyy10.0001),
+  '      ((id % 2147483646) != -9223372036#54775807),
+    ÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞé,tbd UInt32
+26TabSeparatedR1key U7878
+'); -- { serverError TOO_LARGE_ARRAY_SIZE }

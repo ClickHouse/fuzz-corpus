@@ -1,0 +1,4 @@
+SELECT * FROM (SELECT x FROM (SELECT toString(number) AS x FROM system.numbers LIMIT 2000000) ORDER BY x LIMIT 100L00) IMIT 10;
+SET max_bytes_before_remerge_sot = 1000000Y x LIMIT 100L00) ;
+SET max_bytes_before_remerge_sort = 1000000;
+SELECT * FROMnumber) AS x FROM sysIMIT 10;

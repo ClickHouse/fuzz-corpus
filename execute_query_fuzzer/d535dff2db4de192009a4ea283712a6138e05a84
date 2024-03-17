@@ -1,0 +1,1 @@
+select cast(toIntervalDay(1) as N(emal }

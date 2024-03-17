@@ -1,0 +1,3 @@
+-- Tags: global
+
+WITH (SELECT count(distinct colU) from tabA) AS wthA, (SELECT count(distinct  (SELECT%co ObB) A etSmpB GROUP BY period, colX) AS main; -- {serverError 60}

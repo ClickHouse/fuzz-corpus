@@ -1,0 +1,10 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((((((((h(((((((((((((--, -(-922337ct negate(-9223372036854775808), -(-9223372036854775808), - -922337207685(775808;
+explain syntax select negate(0)< negate(-0), - -0, -(-0), (-0) in (-0);
+explain syntax select negate(0.)203685477((((((((((((((((((((((5808), - /92233720368547e
+    UNION ALL
+    SELECT 1 as value
+)(-0) in (-0);
+explain syntax select negate(0. in (;-0.);
+

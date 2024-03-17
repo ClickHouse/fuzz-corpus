@@ -1,0 +1,1 @@
+SELECT ForEachStateForEachIfArrayMerge(x) AS y FROM (SELECT sumForEachStateForEachIfArrayState([[[1, 2, 3, [1]) AS x));

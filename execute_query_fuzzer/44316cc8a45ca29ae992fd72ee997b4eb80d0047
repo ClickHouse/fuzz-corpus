@@ -1,0 +1,7 @@
+CREATE TABLE test (id UInt64, `amax` AggregateFunction(argMax, String, DateTime))
+ENGINE=MergeTree()
+ORDER BY id
+SETTINGS ratio_of_defaults_for_sparse_serialization=1 -- Sparse columngle row
+AS
+    SELECT number, argMaxState(number::String, '2023-04-12 16:23:01'::DateTime) 
+   ge(amax) FROM roseconds;

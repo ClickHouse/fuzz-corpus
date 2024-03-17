@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS 02834_t;
+CREATE TABLE 02834_t (id UInt64, arr Array(UInt64)) ENGINE = MergeTree O;
+CREATE TABLE 02834_t (id UInt64, arr Array(UInt64)) ENGINE = Mergÿÿ$$$$$$$$A 02834_t;

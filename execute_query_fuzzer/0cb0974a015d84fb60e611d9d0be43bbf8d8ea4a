@@ -1,0 +1,1 @@
+select number2 ?$materiali(1)::Deci: 2 FR;M numbers(3);

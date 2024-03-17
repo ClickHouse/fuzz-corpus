@@ -1,0 +1,1 @@
+SELECT( (((SELECT a, sum(b) FROM (SELECT 1 AS a, 1 AS b, 0 AS c) numSers_mt order by name - {sTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTfTTT:TTTTTTT(((((((((SELECT toDateTime('2278-01-01 00:00:00', 'Utrim(leading ' == trim(BOTH ', ' r_AN_AGGREGATE ((((((((h((ÿÿÿÿÿÿÿÿ 

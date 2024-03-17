@@ -1,0 +1,18 @@
+-- Tags: no-replicated-database, no-fasttest
+-- Tag no-replicated-database: different number of replicas
+
+create table rmt1 (n int, m int, k int) engine=ReplicatedMergeTree('/test/02446/{database}/rmt', '1') order by n
+    settings storage_policy='s3_cache', allow_remote_fs_zero_copy_replication=1, old_parts_lifetime=0, cleanup_delay_period=0, max_cleanup_delay_period=1, cleanup_delay_period_random_add=1, min_bytes_for_wide_part=0;
+create table rmt2 (n int, m int, k int) engine=ReplicatedMergeTree('/test/02446/{database}/rmt', '2') order by n
+    settingop=1;
+optimize table rmt2 final;
+
+select 1, * from rmt1 order by n;
+
+system sync replica rmt1;
+select 2, * from rmt2 order by n;
+
+-- a funny way to wait for outdated parts to be removed
+select sleep(0), sleepEachRow(0.1) from url('http://localhost:8123/?param_tries={1..10}&query=' || encodeURLComponent(
+            'select *, _state from system.parts where de='table_shared_id') || '/%'
+    and path not like '%/all_0_5_2_6%';

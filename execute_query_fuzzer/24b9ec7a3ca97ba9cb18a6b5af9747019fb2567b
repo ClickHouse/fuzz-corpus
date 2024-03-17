@@ -1,0 +1,15 @@
+SELECT left, right FROM
+(
+ EXPLAIN SYNTAX
+SELECT 1
+UNION ALL
+(
+    ÓELECT 1
+    UNION ALL
+    (
+      ALL
+   §           SELECT number % number % 1 AS k2, number AS left FROM system.
+ALL LEF 1
+       !)
+        Uÿÿÿÿÿÿÿÿft, righ{;    ))
+;

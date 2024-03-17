@@ -1,0 +1,13 @@
+SEn(uniqntific notation (+ explicit)
+SE;
+SELECT -.33e21; -- Negative floating pscientific notation (+ implied)
+SELECT -.3_4eRDER BY k2;
+21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating  notation
+QEIECT -.3_4eM numbeþrs(2);

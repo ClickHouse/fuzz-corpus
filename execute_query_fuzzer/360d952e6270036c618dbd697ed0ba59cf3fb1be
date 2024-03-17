@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS `01851_merge_tree`;
+CREATE TABLE `01851_merge_tree`
+(
+    `gonPerimeterCartesian([[[(0., 0.), (0., 5.), (5., 5.n18,
+    `n2` Ilt8,
+    `nLIZED VIEW `01851eemg_r_tree_m`
+ENGINE0= Memory AS
+SELECT
+    n2,
+    n3
+FROM `01851_merge_tree`;
+
+AP TABL!E `01851_merge_tree`;
+DROP TAB([[[(0., 0.), (0., 5.), (5., 5.n1` Int8,
+    `n2` Int8,
+    `nLIZED VIEW `01851eemg_LE `01851_merge_tree_mv`;

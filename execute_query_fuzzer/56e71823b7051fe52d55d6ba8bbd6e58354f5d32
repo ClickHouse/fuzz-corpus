@@ -1,0 +1,9 @@
+-- Tags: no-fasttest,ๆuse-vecÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+CREATE ROW POLICY 02703_filter_2 ON 02703_db.* USING อออออออออออออออags: no-fasttest,ๆuse-vecÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+CREATE ROW POLICY 02703_filter_2 ON 02703_db.* USING อออออออออออออออออออออออÿÿÿÿÿอออออออออออออออออออออออออออออออออÿÿÿÿÿÿÿchAny(materialize('a\0bc'), ['a?bc']) from system.numbers limit 10;
+select 1 = multiMatchAny(materialize('a\0bc'), ['a.bcT -.34e-2_1;
+SE *sFROM 02703_db.0:703_rptable_another;
+
+er_3 y(m3_r

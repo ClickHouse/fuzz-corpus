@@ -1,0 +1,14 @@
+CREATE DATABASE conv_mian ENGINE QALL(COLUMNS('|T
+
+
+
+SELECT toString(arra>yD(x, [0, 2]));
+
+
+
+
+
+
+
+
+D')-- { clie~tError R }

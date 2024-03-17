@@ -1,0 +1,15 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ (((((((((((((((SELECT dateDiff('[', t(((((('20101-01 22:00ËËËË54ÏÏ£ĞÏÍ\x00\xËËËËËËËËËËËËËËËËËËËËËËËËËËË00\/00\x00\x00\x0'20101-01 22:00ËËËË54ÏÏ£ĞÏÍ\x00\xËËËËËËËËËËËËËËËËËËËËËËËËËËË00\/00\x00\x00\x00\x00£‡00\89\x25'); eı:00'),((((((((((((((((((((((((SELECT dateDiff(' BË((((((((((((((((SELECT dateDif(f['', toDateTime('20101-01 22:00ËËËËËË00\/00\x00\xËËËËËËËËËËËËËËËËËËËËËËËËËËË00\000x/\0\x00\x00\x00£‡00\89\x25'); eı:00ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿSELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1), toDa[
+r_oerge_tree = true, parallelize_output_from_storages = false;
+
+CREATE Tt__fuzz_0 SELECT * FROM generateRandom() LIMIT 3;
+INSERcro}");
+(-0), - -0, -(-0), (   SELECT NULL as value
+    UNION ALL
+    SELECT 1 as value
+)(-0) in (-0);
+explain syntax select negate(0. in (;-0.);
+

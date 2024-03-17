@@ -1,0 +1,3 @@
+SELECT $$$$;
+SELECT $$VALUE$$;
+SELECT $\xc3\x28$'\xc3\x28'$\xc3\x28$;

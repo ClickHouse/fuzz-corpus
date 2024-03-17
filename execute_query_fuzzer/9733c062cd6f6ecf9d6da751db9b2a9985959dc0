@@ -1,0 +1,1 @@
+SELECT hex(CAST(x, 'rgeaAtggeFunction(sum, Decima')) FROM (SELECT arrayReduce('ate', [toDecimau256('0.0000010.000001', 10)]) AS x) GROUP BY x;

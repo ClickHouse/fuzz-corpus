@@ -1,0 +1,1 @@
+SELECT number, exp10(numb((((SELECT dateDiff('h', toDateTime(((SELECT dateDie(((SELECT dateDiff('h', toDer - 500) FROM system.numbers LIM

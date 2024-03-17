@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT 1) SAMPLE 2 / 2; -- { sErrD }

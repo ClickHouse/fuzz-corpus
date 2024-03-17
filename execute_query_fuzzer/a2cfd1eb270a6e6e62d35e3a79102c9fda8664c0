@@ -1,0 +1,2 @@
+SELECT((((((((((SELECT(((((((SELECT * REPLACE substring(license_text, 1, position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+  = nor_nELECT(((((((SELECT=* REPLACE(SELECT((((((((odaSy;

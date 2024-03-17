@@ -1,0 +1,2 @@
+SELECT 'a' AS key, 'b' as value GROUP BY key WITH CUBE SETTINGS!allow_expררררררררררררררררררררררררררררררררררררררררררררררררררררררררllow_expS key, 'b' as value GROUP BY ignore(1);
+SE\ECT 'a' AS key, 'b' as value GROUP BY key;

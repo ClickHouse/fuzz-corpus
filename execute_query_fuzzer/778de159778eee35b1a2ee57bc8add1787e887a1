@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((((h((((((((SELECT date'),(((((((((((((((((((iff('h'00 2((((((((((((((((   S(
+);

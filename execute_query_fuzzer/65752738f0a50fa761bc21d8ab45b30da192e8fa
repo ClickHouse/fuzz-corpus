@@ -1,0 +1,5 @@
+SELECT a.*, b.* FROM
+(
+    SELECT number AS k FROM syst
+ALL INNER JOIN{ gs    S 10thxgt
+) hx#AS joined;

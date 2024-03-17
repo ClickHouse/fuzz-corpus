@@ -1,0 +1,12 @@
+CREATE DICTIONARY testip
+(
+    `n�����������������������������������������������������������������������vuuu�����������������������etwork`ng,
+  "<a href=\"\\x10javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\xE2\\x80\\x82javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x20javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x13javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰", \n  "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҦZ̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟", \n  "̦H̬̤̗̤͝e�netwo
+SOURCE(FILE(PATH '/tmp/test.csv' FORMAT CSVWitDICTIONARY testip
+(
+    `network` String, 
+    `37203684serverError 137 }

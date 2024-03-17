@@ -1,0 +1,2 @@
+select transform(number, [1], [toFloat32(1)], toFloat32(1)) from ners(3);
+`ET )],at32(1)) Frÿÿÿÿÿÿÿom numbers(6);

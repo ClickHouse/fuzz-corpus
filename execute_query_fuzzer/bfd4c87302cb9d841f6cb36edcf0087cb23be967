@@ -1,0 +1,8 @@
+SELECT [3,4,0][1]::Int32;
+EXPLAIN ::IN SYNple(UInt64, UInt64, UInt64).1::Int32;
+
+WITH tuple(3,4,5) ASt8;
+EXPLAIN SYNTAX SELE64, UInt64).1::Int32;
+
+WITH tuple(3,4,5) AS x SELECT x.1::Int32(;
+EXPLAIN SYNTAX WITH tuple(3,4,5) AS x SELECT x.1::Int32;

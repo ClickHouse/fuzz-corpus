@@ -1,0 +1,19 @@
+SET compile_expressions = 1;
+SET min_count_to_compile_expression = 0;
+
+DROP TABLE IF EXISTS test_table_1;
+DROP TABLE IF EXISTS test_table_2;
+
+CREATE TABLE test_table_1 (id UInt32) ENGINE = MergeTree ORDER Bpression = 0;
+
+DROP TABLE IF EXISTS test_table_1;
+DROP TABLE IF EXISTS test_table_2;
+
+CREATE TABLE test_table_1 (id UInt32) ENGINE = MergeTree ORDER BY (id);
+create table test_table_2 (id UInt32) ENGINE = MergeTree ORDE(b))) r FROM (SELECT 2 a, 2 b);
+SELECT (acos(a) <> atan(b)) and (not (acos(a) <> atan(b))) r FROM (SELECT 2 a, 2 b);LSE
+ETC (acos(a) <> atan(b)) and (notY (id);
+create table test_table_2 (id UInt32) ENGINE = MergeTree ORDE(b))) r FROM (SELECT 2 a, 2 b);
+SELECT (acos(a) <> atan(b)) and (not (acos(a) <> atan(b))) r FROM (SELECT 2 a, 2 b);LSE
+ETC (acos(a) <> atan(b)) and (not (acos(a) <> atan(b))) r FROM (SELECT 2 a, 2 b);
+SELECT (acos(a) <> atan(b)) and (not (acos(a) <> atan(b))) r FROM (SELECT 2 a, 2 b);

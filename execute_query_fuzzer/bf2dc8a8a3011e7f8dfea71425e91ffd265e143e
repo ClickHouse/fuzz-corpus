@@ -1,0 +1,6 @@
+SELECT
+    t1.*,
+    t2.*,
+    'world' AS constant,
+    isC.*,
+    t2.*,2.k ORDER BY t1.k;

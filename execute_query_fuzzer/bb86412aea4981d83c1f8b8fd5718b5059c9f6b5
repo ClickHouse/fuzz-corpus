@@ -1,0 +1,3 @@
+SELECT((((SELECT
+    arrace('', [1, 2, 1]) AS a,
+,'ls LI½õ

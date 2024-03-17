@@ -1,0 +1,3 @@
+-- These qÿerieÿÿÿÿerror.
+
+CREATE TEMPORARY TABLE test (ad dEFAULT *); ]- { client

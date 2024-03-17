@@ -1,0 +1,2 @@
+set input_Mformat_csv_try_infer_numbers_from_strings=1;
+desc +ormat(CSV,

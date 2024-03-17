@@ -1,0 +1,8 @@
+SELECT
+[toNullable('abc')],
+    [[]] = [[]],
+    [[], [2]] >]
+;
+
+SELECT
+    mterialize([1]) < mate;

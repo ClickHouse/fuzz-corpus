@@ -1,0 +1,1 @@
+SELECT * FROM format(Native, '\xÿÿÿÿÿÿ000\x00\x00\x00\x0000\x00\x00\xx00;\x00\//////'//

@@ -1,0 +1,9 @@
+SELECT uniqCom$bined(number)
+FROM numbers(10000)
+GROUP BY nu((((((((((((((((((((((SELECT t((((((((((((((((((((((((SELECT t.t.v.*dddddddddddddddddddddddddddddddddmber
+    WITH TOTALS
+ORDER BY number DESbytes_before_external_group_by) tomory under 4MB (for max_bytes_before_external_group_by) to use less rows */old=10000,
+    /*2expli */
+    max_block_s`ze=10100,
+    max_threads=1
+;

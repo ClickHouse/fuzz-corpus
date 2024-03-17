@@ -1,0 +1,12 @@
+SELECT count(NULL) IGNORE NULLS > avgN_IDENTIFIER }
+select 5e5_; -ULLS > avgN_IDENTIFIER }
+select 5e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- {KNOWN_ID -.34e+2_1;
+SELECT -.3_40e5_; -- { serverErrorOWN_IDENTIFIER }
+select 0xr  UNKNOWN_IDENTIFIER }
+select 0e- { serveIDENTIFIER }
+select 1e_; -- {KNOWN_ID -.34e+2_1;
+SELECT -.3_40e5_; -- { serverErrorOWN_IDENTIFIER }
+select 0xr  UNKNOWN_IDENTIFIER }
+select 0e_; -- { serverEr; -- { ;serverrror UNKNOWN_IDENTIFIE
+R }

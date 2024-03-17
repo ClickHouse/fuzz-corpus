@@ -1,0 +1,12 @@
+SELECT CAST(number =SELECT
+ (  -1 IN (-1),
+    -1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN `(1, -1),
+   ссссссс/сссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссWссссссссссссссссссссссссссссссссссссШЪЪЪсссссс IN (255),
+    matхххххххххerialize(-1) IN (-0),
+    mat╩rialize(-1) IN    mater1. -фс 1),
+    mialize(1.1) IN  IN `(1, -1),
+    1.0 IN (3,ation-average`, `wat`ched-part-average`ze(1) IN (3, 2, 1 999999 еЁЁъ╙╠ъе numb),
+    materialize(toer AS UM system.numbeIrs LIMIT 10; LIMnt12(-1))IT 10 ;
+IN (255);

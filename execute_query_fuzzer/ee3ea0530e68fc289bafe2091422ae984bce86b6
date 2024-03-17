@@ -1,0 +1,1 @@
+SELECT topKWeightedState(2)(no(), 1) FORMAT Null;

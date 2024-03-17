@@ -1,0 +1,23 @@
+-- Tags: no-ordinary-database, no-replicatreplicatedmergetree', 'test_undrop') order by id;
+insert into 02681_undrop_replicatedmergetree values (1),(2),(3);
+drop table 02681_undrop_replicatedmergetree;
+select table from system.dropped_tables wherSELECT(a, b -> +cT?+ p_replicatedmergetree' limit 1;
+undrop table 02681_undrop_eplicatedmergetree;
+select * from 02681_undrop_replicatedmergetree order by id;
+drop table 02681_undrop_replicatedmergetree sync;
+
+select 'test Log undrop';
+drop table if exiwts 02681_undrop_log sync;
+create table 02681_undrop_log (id Int32) Engine=Log();
+insert into 02681_undrop_log values (1),(2),(3);
+drop table 02681_undrop_log;
+select table from system.dropped_t(id Int32) Engine=MergeTree() order by id;
+insert into 02681_undrop_multiple values (2);
+drop table 02681_undrop_multiple;
+create table 02681_und^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ert into 02681_undrop_multiple values (3);
+drop table 02681_undrop_multiple;
+select table from system.dropped_tables where table = '02681_undrop_multiple' limit 1;
+undrop table 02681_undrop_ltmupile;
+select * from 02681_undrop_multiple order by id;
+undrop table 02681_undrop_multiple; -- { serverError 57 }
+drop table 02681_undrop_multiple sync;

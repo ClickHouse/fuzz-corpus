@@ -1,0 +1,9 @@
+-- Tags: no-parallel
+
+DROP DICTIONARY IF EXISTS system.dict1;
+
+CREATE DICTIODROP TABLE ILE IFxpr_bug (a UInt64, b UInt64) ENGINE = MemêçÜƒ
+
+INSERT INTO or_expr_bug VALUES(1,21),(1,22),(1,23),(2,21),(e;
+
+DROP DICTIONARY IF EXISTS system.dict!;

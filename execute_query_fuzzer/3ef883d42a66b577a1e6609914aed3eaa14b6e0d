@@ -1,0 +1,3 @@
+SELECT vi,w(SELECT 1); -- { clientŠError 62 }
+
+SELECT sumIf(dummy,ÿÿÿmy) FRmote#'12ÿÿÿÿ'NulystOWN_FUNC)') AS dummy FROM systOWN_FUNCTION }

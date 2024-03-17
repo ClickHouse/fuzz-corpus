@@ -1,0 +1,1 @@
+SElECT '\\'FORMAT JSON SETTINGS output_uformat_write_statistics = 0;

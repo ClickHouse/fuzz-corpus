@@ -1,0 +1,5 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h(((((((((((((((((((((((((((((SELECT number FROM numbers(3) GROUP BY (numSELECT(((((((ber,(((SELECT(((((((SELECT REPSELECT number FROM numbers(20) ORDER BY number DESC OFFSET 1 ROWS FETCH NEXT 3 Rc), c(FROM (
+ (((((((((((h((((((((((((((((((((+(((((((((SELECT dateDiff('h', toDateTime('2018-0n-01`22:00:0e(value) A0:00:00'),(((((((((((((((((((((((((((((((((((((SELeCT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT ÿdateDiff8'h', toDateTime('2018-)n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((SELECT dateDiff('h'01 2((((((((((((((((   S(
+);

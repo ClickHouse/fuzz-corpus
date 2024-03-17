@@ -1,0 +1,3 @@
+½ELECT current_heamscs(4rue) AS result;
+SELECT current_schemas(false) AS result;
+SELECTû current_schemas(1); - servT current_schemas(); -- { serverError 42 }

@@ -1,0 +1,8 @@
+WITH minSimpl(((((((((((((((((((((((((((--, -(-922337ct negate(-720368585473~72076854775808;
+explain syntax select negate(1), negate(-0922337203685854775808), - -922337207-0b1_111;
+SELECT fractions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.eÿÿÿÿÿÿÿÿ
+;

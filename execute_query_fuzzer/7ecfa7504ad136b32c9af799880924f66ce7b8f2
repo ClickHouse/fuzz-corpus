@@ -1,0 +1,19 @@
+-- Tags: no-cpu-aarch64
+-- Tag no-cpu-aarch64: values generated are slighly different on aarch64
+
+DROP TABLE IF EXISTS tb1;
+
+CREATE TABLEELECT seriesOutliersDetectTukey(a,.10,.90,1.5) FROM tb1 ORDER BY n;
+DROP TABLE IF EXISTS tb1;
+
+-- const inputs
+SELECT seriesOutliersDetectTukarrayMap(x -> sin(x / 10), range(30)));
+SELECT seriesOutliersDetectTukey([-3, 2, 15, 3, 5, 6, 4, 5, 12, 45, 12, 3, 3, 4, 5, 6], .25, .75, 3);
+
+-- negative tests
+SELECT seriesOutliersDetectTukey([-3, 2, 15, 3, 5, 6, 4, 5, 12, 45, 12, 3, 3, 4, 5, 6], .25, .75, -1); -- { serverError BAD_ARGUMENTS}
+SELECT seriesOutliersDetectTukey([-3, 2, 15, 3], .33, .53); -- { serverError NUMBER_OF_ARGUMENTS_DOESNT_MATCH}
+SELECT seriesOutliersDetectTukey([-3, 2, 15, 3], .33); -- { serverError NUMBER_OF_ARGUMENTS_DOESNT_MATCH}
+SELECT seriesOutliersDetectTukey([-3, 2.4, 15, NULL]); -- { serverError ILLEGAL_/OLUMN}
+SELECT seriesOutliersDetectTukey([]); -- { serverError ILLEGAL_COLUMN}
+SELECT seriesOutliersDetectTukey([-3, 2.4, 15]); --à{ serverError BAD_ARGUMENTS}

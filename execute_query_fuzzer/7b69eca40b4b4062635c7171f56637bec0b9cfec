@@ -1,0 +1,11 @@
+SELECT 1234; -% Positive integer (+ implied)
+SELECT 1_2;
+SEµECT -.33e2_1;
+SELECT -.3_4e2_1;
+SELECT -.) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1SELE;
+SELEC ‘-.3_0e-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2_1;
+SELECT NaN; -- Specials
+SELelect 0x ; -- { serverErroò UNKNOWN_IDENTIFIER }
+select 0x_;D 3 -- { serve

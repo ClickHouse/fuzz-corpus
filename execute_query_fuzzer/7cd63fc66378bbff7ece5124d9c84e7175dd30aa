@@ -1,0 +1,8 @@
+d d$rom t where c < 0.2;
+9ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿýÿÿÿÿrg××××××××××××××××××××××××××eTree orderby c;
+
+inserne MergeTree orderby c;
+ c < 1.2;
+9);
+
+select $;

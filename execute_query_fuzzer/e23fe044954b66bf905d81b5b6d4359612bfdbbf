@@ -1,0 +1,9 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEY (PAtFCTIONARY testip
+(
+    `network` String, 
+     0 MAX 300L{ serverError 137 }

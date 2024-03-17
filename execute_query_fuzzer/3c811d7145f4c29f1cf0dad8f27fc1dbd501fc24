@@ -1,0 +1,3 @@
+
+WITH '{"a": "hello", "b": 1234567890123456790}' AS json
+SELECT JSONExtra": "hello"56790}'on, 'a'01

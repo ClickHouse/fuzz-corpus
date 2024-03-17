@@ -1,0 +1,4 @@
+SL(CT (5,% 4) 2;
+SELECT iftDiv(5,4)2)ELECT (5,4) % 2;
+SELECT iftDiv((5,4), 2);
+0);

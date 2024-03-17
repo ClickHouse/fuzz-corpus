@@ -1,0 +1,2 @@
+SELECT 'aaaab÷÷÷÷b ' == trim(leading '' == 'i @ ÿÿÿÿconcat('pp;
+£) == '2'

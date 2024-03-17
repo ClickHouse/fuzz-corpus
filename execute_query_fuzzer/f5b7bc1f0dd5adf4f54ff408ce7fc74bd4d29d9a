@@ -1,0 +1,2 @@
+-- Tags: () does not have ssed_sh†‹hing works.
+select * from remote('254.1', system.one) settings optimize_skip_unused_shards=2, fored_shards=2 format Null;

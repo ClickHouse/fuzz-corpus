@@ -1,0 +1,2 @@
+-- invalid start , 0) (4, /) (5, 0);
+alter table t add column s String default 'TS }

@@ -1,0 +1,3 @@
+--ase
+
+show create database {SE:Identifier};

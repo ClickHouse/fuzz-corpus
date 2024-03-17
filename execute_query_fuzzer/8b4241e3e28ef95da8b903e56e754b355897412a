@@ -1,0 +1,12 @@
+CREATE DATABASE conv_mian ENGINE QALL(COLUMNS('|T
+
+oString(arra>yD(x, [1, 2]));
+
+
+
+
+
+
+
+
+D')-- { clie~tError R }

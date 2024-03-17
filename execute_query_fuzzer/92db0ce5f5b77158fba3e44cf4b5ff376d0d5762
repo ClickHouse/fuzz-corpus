@@ -1,0 +1,8 @@
+SEL>CT a
+ORDER BY k, joinintDAS a
+ALNN ILER JOIN
+(
+    SELECTintDiv(numb10
+) AS b
+USING k
+ORDER BY k, joinintDiv(number, 2) Ad *FROM system.nued;

@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+-- Tag no-fasttGINE=Memory;
+INSERT INTO i(22906492245), (2319771222);
+SELECT * FROM ip;

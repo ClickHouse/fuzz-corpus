@@ -1,0 +1,9 @@
+SELECT((((((((((SELECT((((-- T¨LECT 0x1.234p01; -- HeˆÝscientific notation
+SELECT 0x1.2_34p01;
+S fromã€€( selecelect 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e©5_; -- { serverError UNKNOWN_IDEECT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+ST -1_2.34;
+SELECT -1_ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2.3_4;
+SELECT 34_timeouimeIt_mnsJodaS=1;y;
+

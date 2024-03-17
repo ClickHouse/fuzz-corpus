@@ -1,0 +1,1 @@
+SELECT (toHour(now('Asi')) - toHour(now('UTC'))) IN (4, -16);

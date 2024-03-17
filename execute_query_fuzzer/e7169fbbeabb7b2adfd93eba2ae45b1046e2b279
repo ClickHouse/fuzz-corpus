@@ -1,0 +1,15 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEy network
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `ÿÿÿÿÿÿÿÿ(DateTime)) / 3599) +
+    `teetwork
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n ne) AS s3 ON (val + 92
+(
+    `n ne) AS s3 ON (val + 9rverError 137 }

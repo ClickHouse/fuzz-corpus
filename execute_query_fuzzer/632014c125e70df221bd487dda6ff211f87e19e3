@@ -1,0 +1,7 @@
+SELECT((EXPLAIN PIPELINE
+SELECT * FROM
+(
+    SELECT * FROM system.numbers LIMIT 10
+) t1
+A((((((((SELECT(((((((((SELECT toDaSELECT x Fx_threads=16;T((((((((((SELECT(((((((((SELECT
+ te, 'EEE'), formatDateTi formatDateTime·‹JodaSy;

@@ -1,0 +1,3 @@
+D
+
+print omers |where Age <60 | order by Age| disy Age| distiation;

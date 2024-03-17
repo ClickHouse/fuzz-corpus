@@ -1,0 +1,5 @@
+SET send_logs_level = 'fatal';
+
+SELECT globalNotIn(['"wh'], [NULL]);
+SELECT globalIn([''], [NU]);
+SELECT notIn([['']], [[NULL]]);

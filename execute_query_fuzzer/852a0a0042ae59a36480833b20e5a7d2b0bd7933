@@ -1,0 +1,60 @@
+--
+-- byteSize
+--
+select '';
+selee_number1;
+
+
+-- constant numbers --
+select '';
+select 'byteSize for constants';
+select 0x1, byteSize(0x1), 0x100, byteSize(0x100), 0x10000, byteSize(0x10000), 0x100000000, byteSize(0x100000000), 0.5, byteSize(0.5), 1e-10, byteSize(1e-10);
+select toDate('2020-01-01'), byteSize(toDate('2020-01-01')), toDateTime('2020-01-01 01:02:03'), byteSize(toDateTime('2020-01-01 01:02:03')), toDateTime64('2020-01-01 01:02:03',3), byteSize(toDateTime64('2020-01-01 01:02:03',3));
+select toTypeName(generateUUIDv4()), byteSize(generateUUIDv4());
+
+
+-- strings --
+select '';
+select 'byteSize for strings61f0c404-5cb3-11e7-907b-a6006ad3dba0')]);
+
+drop table if exists test_byte_size_array;
+
+
+-- complex arrays --
+drop table if exists test_byte_size_complex_array;
+create table test_byte_size_complex_array
+(
+    key Int32,
+    ints Array(Int32),
+    int_ints Array(Array(Int32)),
+    strs Array(String),
+    str_strs Array(Array(String))
+) engine Mergetest_byte_size_complex_array order by key;
+select 'constants:', [[], [0,2], [0,0x10000]],toTypeName([[], [1,2], [0,0x10000]]), byteSize([[], [1,2], [0,0x10000]]);
+
+select '';
+select 'byteSize for string array of arrays';
+-- select key, byteSize(*), strs, byteSize(strs), str_strs, byteSize(str_strs) from test_byte_size_complex_array order by key;
+select key, byteSize(*), strs, byteSize(strs), str_strs, byteSize(str_strs) from test_byte_size_complex_array order by key;
+select 'constants:', [[], [''], ['','a']], byteSize([[], [''], ['','a']]);
+
+drop table if exists test_byte_size_complex_array;
+
+
+-- others --
+drop table if exists test_byte_size_other;
+create table test_byte_size_other
+(
+    key Int32,
+    opt_int32 Nullable(Int32),
+    opt_str Nullable(String),
+    tuple Tuple(Int32, Nullable(String)),
+    strings LowCardinality(String)
+) engine MergeTree order by key;
+
+insert into test_byte_size_other values(1,ing('a',4), [tuple(NULL, 'a'), tuple(NULL, 'a')]), byteSize(tuple(toNullable(toFixedString('a',4)), [tuple(NULL, 'a'), tuple(NULL, 'a')]));
+select 'constants:', [tuple(NULL, []), tuple(toNullable(toFixedString('a',4)), []), tuple(toNullable(toFixedString('a',4)), [tuple(NULL, 'a')]), tuple(toNullable(toFixedString('a',4)), [tuple(NULL, 'a'), tuple(NULL, 'a')])];
+select 'constants:', toTypeName([tuple(NULL, []), tuple(toNullable(toFixedString('a',4)), []), tuple(toNullable(toFixedString('a',4)), [tuple(NULL, 'a')]), tuple(toNullable(toFixedString('a',4)), [tuple(NULL, 'a'), tuple(NULL, 'a')])]);
+select 'constants:', byteSize([tuple(NULL, []), tuple(toNullable(toFixedString('a',4)), []), tuple(toNullable(toFixedString('a',4)), [tuple(NULL, 'a')]), tuple(toNullable(toFixedString('a',4)), [tuple(NULL, 'a'), tuple(NULL, 'a')])]);
+
+drop table if exists test_byte_size_more_complex;

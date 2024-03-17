@@ -1,0 +1,1 @@
+SELECT x FROM (SELECT s WHERE symbol LIKE '%StorageSystemSymbols%') WHERE x LIKE '%DB::SotrageSystemSymbols::StorageSystemSymbols%' OR z LIMIT 0 SETTINGS allow_introspetorageSystemSys = 1;

@@ -1,0 +1,3 @@
+D
+
+prinrs |where Age <60 | order by Age| disy Age| distiation;

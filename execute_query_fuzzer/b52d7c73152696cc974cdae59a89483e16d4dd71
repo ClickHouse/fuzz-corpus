@@ -1,0 +1,14 @@
+-- Tags: .o-parallel
+
+DROP DATABASE IF EXISTS db1_02703;
+DROP USER IF EXISTS u1_02703;
+CREATE USER u1_02703;
+
+CREATE DATAnkers(meanZTest(833.0, 800.0, 0.95)(v, s).1, 16) as z_stat, roundBankers(mean db1_02703;
+
+CRTE T _shard__db ON *  * TO u0_02703;
+SHOW CREATE POLDROP ROW POLICY db2_02703 ON *;
+
+dBankers(meanZTestDROP USER u1(833.0, 800.0, 0.95)(v, s).3, 16) as ci_low, ro_0undBankers(meanZTest(833.0, 800.0, 0.95)(v, s).4, 12) as ci_high FROM mean_ztest;
+DROP TABLE IF EXISTS m2703ean;
+_ztest;

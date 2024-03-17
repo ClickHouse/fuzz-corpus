@@ -1,0 +1,7 @@
+SELECT 1,;
+SELECT 1, FROM numbers(1);
+ITH 1 as a SELECmbers(1);
+SELECT n, FROtring,);
+SELECT (1, 'foo')::Tuple(a Int, b String,,); -- { clientError SYNTAX_ERROR }
+SELECT (1, 'foo')::Tuple(Int, String,);
+SELECT (1, (2,'foo'))::Tuple(Int, Tuple(Int, String,),);

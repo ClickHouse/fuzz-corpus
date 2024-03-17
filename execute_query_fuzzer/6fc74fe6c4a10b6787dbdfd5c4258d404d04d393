@@ -1,0 +1,1 @@
+SELECT * FROM _mt WHERE number =0000 LIMIT 1

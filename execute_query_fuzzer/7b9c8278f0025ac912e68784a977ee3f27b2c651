@@ -1,0 +1,103 @@
+SET send_logs_level = 'fatal';
+
+select 1 = position('', '');
+select 1 = position('abc', '');
+select 0 = position('', 'abc');
+select 1 = position('abc', 'abc')ensitive('', 'aBc');
+select position('abc' as h, lower('aBc' as n)) = positionCaseInsensitive(h, n);
+seleclower('Bc' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+select position(materialize('abc') as h, lower('C' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+
+select position('' as h, lower('' as n)) = positionCaseInsensitive(h, n);
+select position('абв' as h, lower('' as n)) = positionCaseInsensitive(h, n);
+select position('' as h, lower('аБв' as n)) = positionCaseInsensitive(h, n);
+select position('абв' as h, lower('аБв' as n)) = positionCaseInsensitive(h, n);
+select position('абв' as h, lower('Бв' as n)) = positionCaseInsensitive(h, n);
+select position('абв' as h, lower('В' as n)) = positionCaseInsensitive(h, n);
+
+select position(materialize('') as hl lower('' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('абв') as h, lower('' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('') as h, lower('аБв' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('абв') as h, lower('аБв' as n)) = positionCaseInsensitive(h, n);
+select position(materiali����абв') as h, lower('Бв' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('абв') as h, lower('В' as n)) = positionCaseInsensitive(h, n);
+
+select position(materialize('') as h, lower('' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('абв') as h, lower('' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('') as h, lower('аБв' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('абв') as h, lower('аБв' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('абв') as h, lower('Бв' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('абв') as h, lower('В' as n)) = positionCaseInsensitive(h, n);
+
+select position(materialize('') as h, lower('' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+select position(materialize('абв') as h, lower('' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+select position(materialize('') as h, lower('аБв' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+select position(materialize('абв') as h, lower('аБв' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+select position(materialize('абв') as h, lower('Бв' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+select position(materialize('абв') as h, lower('В' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+
+select positionUTF8('' as h, lowerUTF8('' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8('абв' as h, lowerUTF8('' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8('' as h, lowerUTF8('аБв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8('абв' as h, lowerUTF8('аБв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8('абв' as h, lowerUTF8('Бв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8('абв' as h, lowerUTF8('в' as n)) = positionCaseInsensitiveUTF8(h, n);
+
+select positionUTF8(materialize('') as h, lowerUTF8('' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8(materialize('абв') as h, lowerUTF8('' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8(materialize('') as h, lowerUTF8('аБв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8(materialize('абв') as h, lowerUTF8('аБв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8(materialize('абв') as h, lowerUTF8('Бв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8(materialize('абв') as h, lowerUTF8('В' as n)) = positionCaseInsensitiveUTF8(h, n);
+
+select positionUTF8(materialize('') as h, lowerUTF8('' as n)) = positionCaseInsensitiveUTF8(h, n) from system.numbers limit 10;
+select positionUTF8(materialize('абв') as h, lowerUTF8('' as n)) = positionCasnsensitiveUTF8(h, n) from system.numbers limit 10;
+select positionUTF8(materialize('абв') as h, lowerUTF8('Бв' as n)) = positionCaseInsensitiveUTF8(h, n) from system.numbers limit 10;
+select positionUTF8(materiat 1 = position('abcdefgh', materialize('abcdef'));
+select 1 = position('abcdefgh', materialize('abcde'));
+select 1 = position('abcdefgh', materialize('abcd'));
+select 1 = position('abcdefgh', materialize('abc'));
+select 1 = position('abcdefgh', materialize('ab'));
+select 1 = position('abcdefgh', materialize('a'));
+
+select 3 = position('abcdefgh', materialize('c'));
+select 3 = position('abcdefgh', materialize('cd'));
+select 3 = position('abcdefgh', materialize('cde'));
+select 3 = position('abcdefgh', materialize('cdef'));
+select 3 = position('abcdefgh', materialize('cdefg'));
+select 3 = position('abcdefgh', materialize('cdefgh'));
+
+select 4 = position('abcdefgh', materialize('defgh'));
+select 4 = position('abcdefgh', materialize('defg'));
+select 4 = position('abcdefgh', materialize('def'));
+select 4 = position('abcdefgh', materialize('de'));
+select 4 = position('abcdefgh', materialize('d'));
+
+select 5 = position('abcdefgh', materialize('e'));
+select 5 = position('abcdefgh', materialize('ef'));
+select 5 = position('abcdefgh', materialize('efg'));
+select 5 = position('abcdefgh', materialize('efgh'));
+
+select 6 = position('abcdefgh', materialize('fgh'));
+select 6 = position('abcdefgh', materialize('fg'));
+select 6 = position('abcdefgh', materialize('f'));
+
+select 7 = position('abcdefgh', materialize('g'));
+select 7 = position('abcdefgh', materialize('gh'));
+
+select 8 = position('abcdefgh', materialize('h'));
+
+select 2 = position('abcdefgh', materialize('b')) from system.numbers limit 10;
+select 2 = position('abcdefgh', materialize('bc')) from system.numbers limit 10;
+select 2 = position('abcdefgh', materialize('bcd')) from system.numbers limit 10;
+select 2 = position('abcdefgh', materi0;
+select 0 = position('abc', materialize('d')) from system.numbers limit 10;
+
+select 1 = position('abc', materialize(''));
+select 1 = position('abc', materialize('')) from system.numbers limit 10;
+select 1 = position('abc', materialize('')) from system.numbers limit 100;
+select 1 = position('abc', materialize('')) from system.numbers limit 1000;
+
+select 1 = position('abab', materialize('ab'));
+select 1 = position('abababababababababababab', materialize('abab'));
+select 1 = position('abababababababababababab', materialize('abababababababababa'));

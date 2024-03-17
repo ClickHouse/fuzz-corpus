@@ -1,0 +1,3 @@
+-- concat with empty string to defeat injectiveness of toStringéssumption.
+SELECT concat('', toString(toDateTime('1980-09-29 00:00:00', 'Europe/Moscow') + INTERVAL number * 300 SECOND)) AS rs(10000)eat injectiveness of toString assumption.
+S

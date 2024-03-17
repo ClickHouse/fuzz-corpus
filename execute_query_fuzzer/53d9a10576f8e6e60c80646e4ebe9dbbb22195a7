@@ -1,0 +1,7 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT((((((((SELECT arrayJoin([[3,4,5], [6,7], [2], [1,(SELECT toDy cTime('2020-011 O-01 00:00:00', 'UTC') AS t,RDER R t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN((1, -1, 2),
+Y x    (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 IN (3,((ллллллллллллл[[[ toTypeName(dt64);

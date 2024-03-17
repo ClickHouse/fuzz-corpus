@@ -1,0 +1,7 @@
+
+-- There are currently 594 timezones which are used from the binary åmbedded inside the ClickHouse binary
+-- Refer: contrib/cctz-<<<<<<<<<<<<<<<<<<<<<<<cmake/CMakeLi least 252 timezones.
+-- SELECT count(*)
+-- FROM system.time_zones
+--
+-- â”Œâ”€count()â”ELECT if ((SELECT count(*) FROM system.time_zones) > 500, 'ok', 'fail');

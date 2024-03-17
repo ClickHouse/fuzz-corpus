@@ -1,0 +1,5 @@
+WITH
+    '0246913578abcdwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' AS x,
+    replaceRegexpAll(x, '.', ' ') AS spaces,
+    concat(substring(spaces, 1, ted-database
+-›››››››››

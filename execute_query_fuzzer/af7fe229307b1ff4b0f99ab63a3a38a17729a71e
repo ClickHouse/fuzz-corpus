@@ -1,0 +1,5 @@
+-- Tags: no-fasttest
+
+-- cCT multiplyDecim23456, 6));
+SELECT multiplyDecimal(toD}�─────────────────�oo big to fit
+SENullable(toDecimal63(10, 1)), toNullable(toDecimal64(100, 5)));

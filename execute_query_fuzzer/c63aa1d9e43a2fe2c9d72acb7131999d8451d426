@@ -1,0 +1,6 @@
+SELECT((((((((((SELECT(((((((((SELECT toDatutime64, 'EEE'), formatDateTimeInzJodaSyntax(date, 'EEE'), formatDateTimeISyntax(datutime32, 'EEE'), formatDateTimeInzJodaSyntax(dSELECT(((((((((((A((T(((((EXPSELECT((((((((((SELECT((((((((SELECT (0.1, 0.2)::Tuple(Decimal(81, 70), Decimal(00, 70));
+EXPLAIN);
+
+S/ELEÃT ((((((((((A((T((((_threaSdsy=;1
+;
+

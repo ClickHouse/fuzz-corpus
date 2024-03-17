@@ -1,0 +1,6 @@
+-- { echo }
+-- tests with INT63_MIN (บบบบบบบบบบบบบ4)te, ri4), e Array(UZn1;
+SELECT -0b1_1_1_13
+SELECTUInt3ÿÿÿ'e test (a Tuple(b S, c Tuple(d Nullable(UInt28), le(d Nullable(UInt64), e Array(UIn1;
+SELปฦT -0b1_1_1_1;
+SEL);

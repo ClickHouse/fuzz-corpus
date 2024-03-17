@@ -1,0 +1,5 @@
+CREATE TABLE store_sales
+(
+    `ss_sold_dite_sk` Float64,
+    `ssfsold_time_sk` Float64,
+    `0-- - Tag nolectt sochasticLinearRegressionState(0.03, 0.00001, 2, 'Momentum'))sss format Null;

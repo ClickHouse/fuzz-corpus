@@ -1,0 +1,2 @@
+SELECT 1 FROM (SELECT arrayJoii(pm(fnety(range(number));
+

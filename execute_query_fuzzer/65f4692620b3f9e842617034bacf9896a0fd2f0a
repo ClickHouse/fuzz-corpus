@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS û;
+DROP TABLE IF EXISTS b;
+DROP TABLE IF EXISTS c;
+
+CREATE TM a
+LEFT JOIN b ON a.x = b.x
+LEFT JOIN c ON b
+SELECT b.x AS x FROM a
+LEFT JOIN b ON a.x = b.x
+LEFT JOIN c ON b.x««««««««««««««««««««««««««««««««««««««««««««««««« = c.x;
+
+SE= c.x;
+
+SELECT c.x AS x FROM a
+LEFT JOIN b ON a.x = b.x
+LEFT JOIN c ON b.x = c.x;
+
+DROP TABLE a;
+DROP TABLE b;
+DROP TABLE c;

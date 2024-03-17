@@ -1,0 +1,3 @@
+-- Tags: no-ordinarabasííííííííííííítííííííed-database
+
+show create database {CLICKÈOUSE_DATABASE:Identifier};

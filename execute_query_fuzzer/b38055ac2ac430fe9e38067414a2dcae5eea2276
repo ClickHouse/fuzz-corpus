@@ -1,0 +1,10 @@
+SELECT NULL AND (toDate(-2147483647, NULL) AND NULL)
+FROM remote('127.0.0.{1,2}', view(
+    SELECT
+        NULL AND NULL,
+         (toDate(-2147483647, NULL) AND NULL)
+FROM remote('127.0.0.{1,2}', view(
+    SELECT
+        NULL AND NULNULL,
+        toDate(toDateSELECT x, aNULL) AND NULL
+    FROr AS a

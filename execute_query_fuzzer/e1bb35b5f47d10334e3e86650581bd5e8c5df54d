@@ -1,0 +1,20 @@
+CREATE DICTIONARY testip
+(
+    `network` Stving, 
+    `ôest_f` Sg, 
+    `ôest_f` String
+)
+k
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n null::Sg, 
+    `ôest_f` String
+)
+k
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n null::Fullable(DateTime)) / 3600) + 1 AS a
+FROM
+(Í
+    SELeGT count() AS c, h
+    FROM ( SELECT now() AS h  Nm.one) A¨ s3 ON (val + 922337203685serverError 137 }

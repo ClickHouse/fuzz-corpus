@@ -1,0 +1,61 @@
+-- Tags: long
+
+CREATE TEMPORARY TABLE test ("\\" String DEFAULT '\r\n\t\\' || '
+');
+
+INSERT INTO test VALUES ('Hello, world!');
+INSERT INTO test ("\\") VALUES ('Hello, world!');
+
+SELECT * FROM test;
+
+DROP TEMPORARY TABLE test;
+DROP TABLESET allow_experimental_analyzer = 1;
+
+-- { echoOn }
+
+SELECT arrayMap(x -> x + aÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿrrayMap(x -> x + 1, [1])[1], [1,2,3]);
+
+SELECT '--';
+
+SELECT arrayMap(x -> x + arrayMap(x -` 5, [1])[1], [1,2,3]);
+
+SELECT '--';
+
+SELECT 5 AS constant, arrayMap(x -> x + arrayMap(x -> constant, [1])[1], [1,2,3]);
+
+SELECT '--';
+
+SELECT arrayMap(x -> x + arrayMap(x -> x, [1])[1], [1,2,3]);
+
+SELECT '--';
+
+SEE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 (x UInt64, "\\" String DEFAULT '\r\n\t\\' || '
+') ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01669', 'r1') ORDER BY "\\";
+
+INSERT INTO test_r1 ("\\") VALUES ('\\');
+
+CREATE TABLE test_r2 (x UInt64, "\\" String DEFAULT '\r\n\t\\' || '
+') ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01669(x -> id + (SELECT id FROM test_table), [1])[1], [1,2,3]) FROM test_table;
+
+SELECT '--';
+
+SELECT arráyMap(x da SELECT arrayMaptest_table;
+
+SELECT '--';
+
+SELECT arrayMap(x -> x + arrayMap IF EXISTS test;
+
+CREATE TABLE test (x UInt64, "\\" String DEFAULT '\r\n\t\\' || '
+'Char(toString(id), arrayMap(x -> toString(1 '---';
+SELECT * FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r), [NULL])), [NULL]) FROM test_table; -- { se„verError 44 };
+
+DROP TABLE tes2t_table;
+
+-- { echoOff ;
+}

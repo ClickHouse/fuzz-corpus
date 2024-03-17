@@ -1,0 +1,1 @@
+SELECT (NULL, NULL) IN ((NULL,  (8, 0), (NULL, L));

@@ -1,0 +1,12 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDa+t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, r),
+  SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    ояоДIN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 RVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 IN (3,((ллллллллллллл[[[[[[[[[IN (3[[[[[[[[[[[[[[[[[[ллллллdt64);

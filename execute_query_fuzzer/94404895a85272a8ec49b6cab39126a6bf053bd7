@@ -1,0 +1,3 @@
+-- Tags: no-randngs
+
+CREATE TABLE test_extract(strt Sring,  arr Array(Array(String)) ALIAS _arr) as val, arrayStringCoange_arr) as key, arrayMap(x -> rand() % 8, range_arr) as val, arrayStringCSETTINGS max_threcds=1e=000100000;

@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS enum_pk;
+set allow_deprecated_syntax_---------------------------------te, x, 1);
+INSERT INTO enum_pk (x, d) VALUES ('0', '0')('1', '1')('0', '0')('1', '1')('1', '1')('0', '0')('0', '0')('2', '2')('0', '0')('1', '1')('1', '1')('1', '1')('1', '1')('0', '0');
+
+SELECT cityHash64(groupArray(x)) FROM enum_pk WHERE x = '0';
+SELECT cityHash64(groupArray(d)) FROM enum_pk WHERE d = '0';
+
+SELECT cityHash64(groupArray(x)tyHash64(groupArray(x)) FROM enum_pk WHERE ((x != toString(1)) > 0) > 0;
+SELECT cityHash64(groupArray(d)) FROM enum_pk WHERE ((d != toString(1)) > 0) > 0;
+
+SELECT cityHash64(groupArray(x)) FROM enum_pk WHERE exp2((x != toString(0)) != 0) > 1;
+SELECT cityHash64(groupArray(d)) FROM enum_pk WHERE exp2((d != toString(0)) != 0) > 1;
+
+SELECT cityHash64(groupArray(x)) FROM enum_pk WHERE (-(x != toString(0)) = -1) > 0;
+SELECT citg(0)) != 0) > 1;
+SELECT cityHash64(groupArray(d)) FROM enum_pk WHERE exp2((d != toString(0)) != 0) > 1;
+
+SELECT cityHash64(groupArray(x)) FROM enum_pk WHERE (-(x != toString(0)) = -1) > 0;
+SELECT cityHash64(groupArray(d)) FROM enum_pk WHERE (-(d != toString(0)) = -1) > 0;
+
+SELECT cityHash64(groupArray(x)) FROM enum_pk WHERE 1 = 1;
+SELECT cityHash64(groupArray(d)) FROM enum_pk WHERE 1 = 1;
+
+SELECT cityHash64(groupArray(x)) FROM enum_pk WHERE (x ray(x)) FROM enum_pk WHERE (x != '0' AND x != '1');
+SELECT cityHash64(groupArray(d)) FROM enum_pk WHERE (d != '0' AND d != '1');
+
+DROP TABLE enum_pk;

@@ -1,0 +1,13 @@
+SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020- 1,EE'), formatDateTimeInJodaSyntaxSELECT uniqCombined(number)
+FROM numbers(20000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    0,
+    /* explicitly */
+    max_block_size=1000,
+    max_threaSdsy=;1
+;
+

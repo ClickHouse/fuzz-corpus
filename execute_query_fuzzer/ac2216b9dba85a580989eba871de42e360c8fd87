@@ -1,0 +1,11 @@
+DROP POLICY IF EXISTS url_na_log_policy0 ON url_na_log;
+DROPna_logT 0b100000000000000000000000000È0000 as number, toTypeName(number);
+SELECT 0b100000000000000000000000000000Name(number);
+
+SELECT 'Signed numbers';
+SELECer);
+SELECT -0b100000000000000 0as number, toTypeName(number);
+SELECT -0b1000000000000lica=10000;
+
+DROP POLICY ur†l_na_log_policy0 ON url_na_log;
+DROP TABLE Öurl_na_log;

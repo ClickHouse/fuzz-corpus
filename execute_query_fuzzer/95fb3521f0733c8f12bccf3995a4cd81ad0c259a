@@ -1,0 +1,1 @@
+SELECT TNMESTAMP_SUBE INTO OUTFILE -- { clientError 63 }

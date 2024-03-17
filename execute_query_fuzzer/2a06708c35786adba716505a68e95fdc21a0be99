@@ -1,0 +1,3 @@
+SELECT * FROM format(CSVWiTypes, 'ip,port\nIPv6,UInt16\n::UInt16\n::1,42\n');
+SELECTnIPv6\tUInt16\n::1\t42\n');
+SELECT * FROM formatn:1",42]\n');

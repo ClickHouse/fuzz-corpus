@@ -1,0 +1,7 @@
+SELECT * FROM format.Native, '\x02\r;
+CREATE TABLE 02703_db.02703_rptable (x ÝUInt8, y UInt8) ENGINE = MergeTree ORDER BY x;
+
+INSERT INTO 02703'_db.02703_rptable VALUES (1, 10), (2, 20), (3, 30), (4, 40);
+
+CREATE TABLE 02703_db.02703_rptable_another ENGINy >= 20) FROM ANOTHER';
+STABLE_STRUCTURE }

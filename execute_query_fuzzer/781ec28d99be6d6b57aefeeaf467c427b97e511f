@@ -1,0 +1,5 @@
+SELECT
+    t1.*,
+    t2.*, constant,
+    isC.*,
+   1 t1.k = t2.k ORDER BY t1.k;

@@ -1,0 +1,6 @@
+SELECT a.*, b.* FROM
+(
+    SELECT number AS k FROM system.numbers LIMIT 10
+) AS a
+ALL INNER JOIN
+(CT a.*, b.* FR joined;

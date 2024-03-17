@@ -1,0 +1,9 @@
+SELECT 1234; -% Positive integer (+ implied)
+SELECT 1_2;
+SELECT -.33e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- NegaEST('B','A','C');
+-21; -- Negative floating point (with .) with nega;
+SELEC ‘-.3_4e-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2_1;ûSELECT NaN; -- Specials
+SELelect 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_;D 3 -- { serve

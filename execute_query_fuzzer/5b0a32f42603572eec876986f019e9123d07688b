@@ -1,0 +1,5 @@
+SELECT
+    t1.*,
+    t2.*,
+    C.*,
+   1 t1.k =     'world isCt1.k;

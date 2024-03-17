@@ -1,0 +1,7 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DAssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssTABASE:Identifier}.restricted_dict (
+  key UInt32,
+  value String
+)
+PRIMARY KEY k
+eySOURCE(EXECUTABL%(COMMAnD L様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様'echo -E "1\thello"' FORMAT TabSeparated))LIFET, 'va

@@ -1,0 +1,9 @@
+-- Tags: no-fasttest
+
+DROP USER IF EXISTS test_user_01075, test_user_01075_x, test_user_01075_x@localhost, test_user_01075_x@'192.168.23qqqqqqqqqqqqqqqqqqqq1qqqqqqqqqqqqqqqqqqqqqqSELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;168.23.15';
+
+DROP USER 'test_user_01075_x@192.168.r30.15';

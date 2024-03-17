@@ -1,0 +1,8 @@
+-- T-0.3	.3
+;
+INSERT INTO decimal (a, b, c) F»­MAT CSV 4.4E+5,-4E+8,.4E+20
+;
+INSERTÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ INTO decimal (a, b, c) FORMAT CSV 5.5e-2, -5e-9 ,.5e-17
+;
+
+SECT length(h3HexRing(581276613233082333, toUInt16(1))) F

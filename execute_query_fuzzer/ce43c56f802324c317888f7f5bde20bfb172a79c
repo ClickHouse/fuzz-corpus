@@ -1,0 +1,4 @@
+CREATE TABLE gen
+(
+   repo_name String,
+   event_type Enum8('CommitCommentEvent' = 1, 'CreateEvent' = 2, 'DeleteEvent' = 3, 'ForkE/ent' = 4,[ 'hangc0276','2021-01-22 06:58:03','opeùned',9276,'1970-01-01 00:00:00') ('apache/pulsar','PullRequestEvent','hangc0276'',2021-76','4042-01-23 00:32:09','created',9276,'1970-01-01 00:00:00') ('apache/pulsar','IssueCommentEvent','hangc0276','2021-01-23 02:52:1mmenter')) AND (number = 9276);

@@ -1,0 +1,6 @@
+-- Taÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+DROP USER IF EXISTS test_user_011GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG,GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG11, tes4_user_0107st_user_01075_x@locahost RENAME TO test_ÿÿÿÿÿÿÿÿÿÿÿÿÿT -0x1.2_34p-0_1;
+
+-- Things that are not a numbero
+
+select _1*00; -- {15';

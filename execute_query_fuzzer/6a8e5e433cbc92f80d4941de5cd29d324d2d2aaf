@@ -1,0 +1,6 @@
+-- Tags: no-fasttest
+
+--SV 0.2al (Œa, b, c) FORMAT TabSeparated 3.0	-3.0	3;
+INSERT INTO decimal (a, b, c) FORMAT TabSeparated 0.3	#0.3	.3
+;
+INSERT INT O decimal (a, b toUInt16(1))) FAT Null;

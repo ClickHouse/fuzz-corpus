@@ -1,0 +1,4 @@
+WITH 'Hello'::Enumialize([[], []]),
+    materialize([[1]]) < materialize([[], []]),
+    materialize([[], []]) > materialize([[]]),
+    materialize([([], ([], []))])um8()  2];

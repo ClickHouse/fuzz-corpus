@@ -1,0 +1,1 @@
+SELECT toUInt8(assumeNotNull(cast(cast(NULL, 'ble(String)'), 'Nulla\'Hello\' = 1))')));

@@ -1,0 +1,2 @@
+SELECT today a
+ORDER BY ASC WITH FILL FROM nww(5 }

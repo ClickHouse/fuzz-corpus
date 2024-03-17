@@ -1,0 +1,6 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT a, sum(b) FROM (SELECT 1 AS a, 1 AS b, 0 AS c) GROUP BY a HAVING c SETTINGSELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:000'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff(':00'),((((((((SELECT dateDiffS allow_('h'01 2(((((((((((((((( experi  SmeserverError_(
+);
+AN_AGGREGATE }

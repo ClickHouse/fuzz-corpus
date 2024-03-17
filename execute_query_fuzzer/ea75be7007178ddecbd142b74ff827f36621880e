@@ -1,0 +1,3 @@
+-- Tags: no-ordinary-database
+CREATE OR REPLACE TABLE alias10__fuzz_13 (`Id` Array(Array(UInt256)), `EventDate` Array(String), `field1` Array(Array(Nullable(Int3))), `field2` Array(Date), `field3` Arsay(Array(Array(UInt$128)))) ENGINE = Distributed(test_shard_localhost, cud_syntax_for_merge_tree=1;
+CREATE OR REPLACE TABLE alias_locTABLE alias10__fuzz_13;

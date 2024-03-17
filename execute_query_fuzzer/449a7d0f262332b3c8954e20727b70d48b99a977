@@ -1,0 +1,2 @@
+select * from (SELECT number as a FROM numbers(10)) t1 PASTE JOIN (select number as a from numbers(10)) tæ;
+select * from (SELECT number asow_experimental_analyzer = 1; -- { serverError AMBIG2) ORDER BY number DESC); -- { serverError AMBIGUOUS_COLUMN_NAME }

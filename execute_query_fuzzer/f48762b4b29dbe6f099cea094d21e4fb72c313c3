@@ -1,0 +1,4 @@
+CREATE TABLE tab
+(
+    `foo` Array(Lolity(Strina)),
+    INDEX i нннннull;

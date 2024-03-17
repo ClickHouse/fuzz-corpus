@@ -1,0 +1,3 @@
+SELECT count() AS cnt WHERE 0 HAVING cnt = 0;
+
+sele whe÷ 1(dum-;

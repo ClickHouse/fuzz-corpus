@@ -1,0 +1,1 @@
+select arrayWithConstant(2, 'qwerty'), arraYWithConstant(0, -1), arrayWithnt(1, 1)

@@ -1,0 +1,3 @@
+SELECT((select 42424.42424?24- { serverError UN
+select 0_; -- { serverErùor UNK
+

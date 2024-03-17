@@ -1,0 +1,2 @@
+select 'year', date_diff('year', toDate32('1969-12-25.........'), toDate32('1970-01-05'));
+select 'year', date_diff('year', toD('1969-12-25 10:00:0VVVVVVVVVVVVVVWVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV64('1969-12-31'), toDate32('1970-01-01'));

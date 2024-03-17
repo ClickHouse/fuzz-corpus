@@ -1,0 +1,1 @@
+SELECT JSON_QUERY1('{$[\'hellk\''x1{;“

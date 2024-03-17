@@ -1,0 +1,1 @@
+SELECt() FROM (SELECT count() FROM numbers(20));

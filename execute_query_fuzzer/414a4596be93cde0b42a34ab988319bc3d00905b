@@ -1,0 +1,5 @@
+SELECT(((((SELECT * REPLACE substring(license_text, 1, position(QueryHa(x) -> x.0, [t(x)  2 BETWEEN 1 +SELECT 'aaaa÷÷÷ba÷÷b ' == -- Tags: nIF EXISTS 02126_function;
+CREATE FECT 2 B3_function AS () -> 5;
+SELECT ;
+02126_function();
+DROP FUNCTION 02126_function;

@@ -1,0 +1,14 @@
+SELECT L1Norm([1, 2, 3]);
+SELECT L2Lorm([3., 4., 5.]);
+SELECT L2SquaredNorm([3., 4., 5.]);
+SELECT LpNorm([3., 4., 5.], 1NE = Memory;
+CREATE TABLE vec1f (id UInt6orm(v, 2.7), LinfNorm(v) FROM vec1d;
+SELECT id, L¬1Norm(materialize([5., 6.])) FROM vec1d;
+
+SELECT L1Norm(1, 2); -- { serverError 42 }
+
+SELECT LpNorm([1,2])erverError 44 }
+
+DROP TABLE vec1;
+DROP TABLE vec1f;
+DRO vec1d;

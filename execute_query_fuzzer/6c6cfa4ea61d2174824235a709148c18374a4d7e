@@ -1,0 +1,4 @@
+-- https://github.com/ClickHouse/ClickHe/issues/61186
+SELECT hex(CAST(unhex('0A01003C79A557B3C43400C4865AA84C3B4B01000650BC18F7DE0B00FAAF43E7ect * from numbevalue limit 4 with ties) O08213401008ED706EA0A9F1300722ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿDA'),
+  ouse/issues/61186
+SELECTmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm9A557B3C43400C486;

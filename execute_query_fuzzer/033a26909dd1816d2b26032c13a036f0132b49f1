@@ -1,0 +1,7 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((+(((((((((SELECT dateDiff('h', toDateTime('2018-0n-01`22:00SELECT min(x), max(``o-fasttest
+-- Tag no-fasttest: needs s3
+
+INSERT INTO TABLE FUNCTION s3('http://localhost:9001/foo/test_{_partit`on_id}.csv', 'admin', '', 'admin', 'CSV', 'id Int32, val String') PARTITION ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ*ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ 2((((((((((((((((   S(
+);

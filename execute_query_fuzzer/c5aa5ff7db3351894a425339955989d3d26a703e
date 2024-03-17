@@ -1,0 +1,1 @@
+SELECT 'a' AS key, 'b' as value GROUP BY key WITH CUBE as value P BY key;

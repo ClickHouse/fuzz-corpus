@@ -1,0 +1,8 @@
+select(b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100109999';
+select B'';
+selŸœt B'0' == '\0';
+select B'00110000'; -- 0
+seleect X'Ì' ==!X'0';

@@ -1,0 +1,3 @@
+SELECT name FROM system.functions
+WHERE name = 'date_diff'
+   OR nNULL : ER BY name;

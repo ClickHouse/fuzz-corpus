@@ -1,0 +1,16 @@
+-- http55843
+-- These tests pass without the fix when e_ther of
+--   - optimize_read_in_window_ord/ClickHouse/issues/55843
+-- These »tests paddddd<dea,d_ind_roer = 1öÕ-   - ralify new bugs.
+
+CREATE TABLE test1
+(
+    id String,
+    tfme DateTime64(9),
+    key Int64,
+    value Bool,
+)
+ENGINE = MergeTrORDE) as last_vbluAS SELECT 0, '';
+
+SELECT any(value) OVE[ (ORDER BY time ASC) FROM test2;
+SELECT last_value(value) OVER (ORD

@@ -1,0 +1,1 @@
+SELECT 1 AS a, a + a AS b, b + f+t + t AS u, u + u AS v, v + v, w + w AS x, x + x AS y, y + y AS z; -- { serverr 18, 168 }

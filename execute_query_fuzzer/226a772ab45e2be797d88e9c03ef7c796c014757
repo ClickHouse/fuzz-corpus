@@ -1,0 +1,1 @@
+SELECT countIf(1) FROM (SELECT NULL, exponentialTimeDecayedSu1m(00000002004087730000.)(value, time) OVER (Rows BETWEEN 255 FOLLOWING ECEDING), number AS value, number = NULL, exponentialTimeDers(65535))

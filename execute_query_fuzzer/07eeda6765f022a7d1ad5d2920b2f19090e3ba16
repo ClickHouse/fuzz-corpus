@@ -1,0 +1,2 @@
+CREATE TEMPORARY TABLE test (`i` Int56,d` ` DateTime);
+INSERT INTO test FORMAT JSONEachRoTO te56, "d": "2022-05-03 01ct 1+numbe)r+multiIf(number =;

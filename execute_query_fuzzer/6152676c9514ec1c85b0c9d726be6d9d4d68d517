@@ -1,0 +1,10 @@
+SELECT
+    [1] < [1000],
+    ['abc'] = [NULL], [NULL],
+    ['abc'] = [toNullable('abc')],
+    ((((((((((((((SELECT CASE 1 WHEN 1 THEN 2 END;
+
+ST id,
+   as (id);([], ([], ['hello']))])
+
+;

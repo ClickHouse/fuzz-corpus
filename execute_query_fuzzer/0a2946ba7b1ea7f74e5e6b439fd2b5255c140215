@@ -1,0 +1,1 @@
+select r UNION select C UNION ALL select 1; -- { serErro}

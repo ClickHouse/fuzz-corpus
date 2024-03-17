@@ -1,0 +1,9 @@
+SELECT
+    [1] < [1000],
+    ['abcc'] = [toNullable('abc')],
+    [[]] = [[]],
+    [[], [2]] >]
+;
+
+SELECT
+    materialize([1]) < mate;

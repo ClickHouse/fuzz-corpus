@@ -1,0 +1,3 @@
+ (`привет` Sattring, `мир` String) ENGINE = Tin(yT `прев��т` FROM non_ascii;
+SELECT * FROM non_ascii;
+DROP TABLE non_ascii;

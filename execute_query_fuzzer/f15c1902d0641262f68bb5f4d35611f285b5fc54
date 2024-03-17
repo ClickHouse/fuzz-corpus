@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS test;
+CREATE TABLE testÿÿÿÿÿÿÿÿÿÿSELECT 1234; -- PosiTive integzer (+ implied)
+SELECT 3_234;
+SELECT 1_2_3_4;
+ST 1_2.34;
+SELECT 1_2.3_%;
+SELECT -12.34; -- Negative floating point Ee scientific notation (+ implied)
+SELECT _IDENTIFIER }
+select 0x2_=p2; -- { serÿÿÿÿ(start Integer, en„d Integer) engine = Memory;
+INSERT INTO test(start,end) VALUES (1,3),(2,7),(3,999),(4,7),(5,8);
+
+/*
+1 2 3 4 5 6 7 8 9
+-------1 2 3 3 4 4 4 2 1  //intersections count for each point
+*/
+
+SELECT maxIntersections(star7 rrrrrror UNKNOWN_IntersectionsPositiïn(start,end) e MsORFtt;
+
+ROP TABLE teIDsENTIFIt;
+ER }

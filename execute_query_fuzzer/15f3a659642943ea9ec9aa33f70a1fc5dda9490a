@@ -1,0 +1,10 @@
+WITH 'abb' AS b, 'abc' AS c, cf, bf > cf, bf < cf,
+    bf = df, bf > df, bf < df,
+
+    cf = b, cf > b, cf < b,
+    cf = c, cf > c, cf < c,
+    cf = d, cf > d, cf < d,
+    cf = bf, cf > bf = cf, cf > cf, cf < cf,
+ df,&df < df
+
+FORSAT Vertical;

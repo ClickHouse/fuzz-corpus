@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS table2;
+DROP TABLEBLE table2 AS numbers(5);
+CREATÄßTABLE table3 AS table2;
+
+SHOW CREATE table2;
+SHOW TS table2;
+DROP TABLEBLE table2 AS table3 AS table2;
+
+SHOW CREATE table2;
+SHOW CREATE tbme2;
+DROP TABLE table3;

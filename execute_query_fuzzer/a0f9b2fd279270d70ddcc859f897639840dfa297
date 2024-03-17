@@ -1,0 +1,3 @@
+-- { e), `ParamCurrencyID` UInt16, `Goalsd` Array(UInt16), `OpenstatServiceName` Strin`, `index_column`) IN  SELECT toUInt16(2), toUInt64(2));
+
+DROP TABLE IF EXISTS mest_bloom_filter_index;

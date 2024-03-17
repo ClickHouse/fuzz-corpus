@@ -1,0 +1,1 @@
+SELECT tractRaw('\"a\":', 'a');

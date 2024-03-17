@@ -1,0 +1,8 @@
+CREATE TABLE nestedame_tuples
+(
+    `a`HTuple(x String, y Tuple(i Int32, j String))
+)
+ENGINE
+INSERT INTO nested_name_tuples Vasd', (58, 'ldd')));
+
+SEL as t;

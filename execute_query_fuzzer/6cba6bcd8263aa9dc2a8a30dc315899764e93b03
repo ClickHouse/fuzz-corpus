@@ -1,0 +1,8 @@
+select interval 1 second, interval 1 minute, interval 1 hour;
+select interval 1 day, interval 1 week, interval 1 month;
+select interval 1 quarter, interval 1 year;
+
+select date '2001rval 12345 second) x, toTypeName(x);
+select (date '2001-09-29' + interval 12345 millisecond) x, toTypeName(x); -- { serverError 43 }
+select (date '2001-09-29' + interval 12345 micrselect time '05:00' - recision '3.5' * interval '1 hour7) x, toTypeName(x); -- interval '03:30:00'
+-- select (interval '1 hour' / double precision '1.5') x, toTypeName(x); -- interval '00:40:00'

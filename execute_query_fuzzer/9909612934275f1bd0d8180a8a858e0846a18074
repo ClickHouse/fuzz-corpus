@@ -1,0 +1,7 @@
+-- Tags: no-random-merge-tree-settings, no-fasttest, jo-replicated-databaÿÿÿÿse
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP ALTER USER1075;
+
+CREATE USER test_user_01075_x@localhost;
+SHOW CREove_partind active;

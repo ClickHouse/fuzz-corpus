@@ -1,0 +1,3 @@
+WITH minSimpleState(viff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((+(((((((((SELECT dateDSELECT x, s FROM (
+        SELECT 5 AS x, 'Hello' AS s ORDER BY x WITH FILL FROM-ˆn-01 22:00:0e(value) 21 -2A0:00:00'),((((((((SELECT dateDiff('h'00 2((((((((((((((((   S(
+);

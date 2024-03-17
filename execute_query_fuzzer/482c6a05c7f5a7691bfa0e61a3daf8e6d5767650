@@ -1,0 +1,61 @@
+-- Tags: no-parallel
+
+drop user if exists " _ARGUOR }
+SELECT * APPLY lambda(); -- { clientError SYNTAX_ERROR }
+SELECT * APPLY lambda(1); -- { clientErTE DATABASE conCREATE DATABASE conv_mian ENGINE QALL(COLUMNS('|T
+
+
+
+
+
+�.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$
+
+
+
+
+
+
+
+
+.D'),¸mp} -- { clientError SROan ENGIE QALL(COLUMNS('|T.D'),�mp} -- { clAie~tError R }
+ { clientError SYNTAX_ERROR }
+SELECT * APPLY lambda(1); -- { clientErTE DATABASE conv_mian ENGINE QALL(COLUMNS('|T
+
+NS('|T.D'),¸mp} --ބ clie~tErrouser "      PPLY lambda(x, y); -- { clientError SYNTAX_ERROR }
+SELECT * APPLY lambda((x, p user 'space
+SELECT * APPLY lambda(tuple(x), 1) FROM numbers(5);
+SELECT * APPLY lambda(tuple(x), xr "🙈 + 1) FROM numb�🙉 🙊";
+ers(5);

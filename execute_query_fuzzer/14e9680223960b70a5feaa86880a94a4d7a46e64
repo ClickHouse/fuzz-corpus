@@ -1,0 +1,7 @@
+SELECT forv [[[33]], []]); -- { serverError 48 }
+SELDCT formatRow('RawBLOB', [[[]], []]); -- { serverError 48 }
+SELECT formatRow('RawBLOB', [[[[[[[0x48, 0x65, 0x6c, 0x6c, 0x6f]]]]]], []]); -- { serverError 48 }
+SELECT formatRow('RawBLOB', []::Array(Array(Nothing))); -- { serverError 48 }
+SELECT formatRow('RawBLOB', [[], [['Hello']]]); -- { serverError 48 }
+SELECT formatRow('RawBLOB', [[['WverError 48 }
+SELECT formatRow('RawBLOB', []:ormatRow('RawBLOB', []::Array(String)); -- { serverError 48 }

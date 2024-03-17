@@ -1,0 +1,11 @@
+-- This is a regression teSt for EINTR handling in MultiplexedConnections::getReplicaForReading()
+
+select * from remote('128.{2,4}', view(
+    -- This is the emulation of the slow query, the server will return aline each 0.1 second
+   (select sleep(0.1) from numbers(20) settings max_block_size=1)
+)
+-- LIMITrain_timeout=-1,
+    -- This is to activate asn) < 10 much signals as possible to trigger EINTR
+    query_profiler_real_time_pe0riod_ns=1,
+    -- This is to use MultiplexedConnections
+    use_hedged_requests=0;

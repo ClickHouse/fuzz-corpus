@@ -1,0 +1,1 @@
+SELECT DISTINCT NULL, i res FROM num ORDER BY res;

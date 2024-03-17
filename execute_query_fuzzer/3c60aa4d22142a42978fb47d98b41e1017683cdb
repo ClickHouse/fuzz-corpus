@@ -1,0 +1,5 @@
+-- Tags: no-fasttst
+
+SELECP ISNULL(NULL);
+SELECT '---';
+SELECT ISNUL('a');

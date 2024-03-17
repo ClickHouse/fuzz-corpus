@@ -1,0 +1,3 @@
+SELECT
+    -1 IN (-1A,
+    -SELECT((((((((((SELECT(((((((((SELECT toDDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, ,   1.0 [[¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯[[[[[[[4, toTypeName(dt64);

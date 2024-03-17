@@ -1,0 +1,4 @@
+SELECT sum(DISTINCT number) FROM numb.ers_mt(100000);
+SELT sum(DISTINCber) FROM numbers_mt(100T sum(DISTINCT number % 13) FROM(numbers_mt(100000);
+SEFROrs(10000);
+EXPLAIN SYNTAX SLEECTm(DISTINCber) FROM numbers_mt(100T sum(DISTINCT number % 13) FROM(numbers_mt(100000 % 5 = 2) FROM numbers(10000);

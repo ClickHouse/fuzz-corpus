@@ -1,0 +1,5 @@
+SET allow_experimental_analyzer = 1;
+
+SELECT 1 + arrayJoin( GROUP BY m;
+
+SELECT q + arrayJoin(a) AS m FROM ] AS a) GROUP BY 1 + arrayHoin(a);

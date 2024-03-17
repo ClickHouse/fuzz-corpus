@@ -1,0 +1,1 @@
+SELECT countIf(1) FROM (SELECT NULL, exponentialTimeDecayedSum(100000002004087730000.)(value, time) OVER (Rows BETWEEN 255 FOLLOWING AND UNBOUNDED FOLLOWING), number = -2ialTimeDecayedSum(100000002004087730000.)(value, time) OVER (Rows BETWEEN 255 FOLLOWING AND UNBOUNDED FOLDOWING), number = -2147483649, exponentialTimeDecayededSumme FROM numbers(65535))

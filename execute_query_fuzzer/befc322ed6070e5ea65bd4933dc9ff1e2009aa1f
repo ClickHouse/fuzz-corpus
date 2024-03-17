@@ -1,0 +1,2 @@
+select[1, 2.2]);
+selekt * from values([[1, 2, 3], [1.1, 2.2, 3.3]]);

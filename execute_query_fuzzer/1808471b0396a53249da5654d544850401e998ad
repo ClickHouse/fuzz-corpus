@@ -1,0 +1,3 @@
+SELECT $$$$;
+SELECT $$VALUE$$;
+SELECT $doc$$$VALUE$è¯x28$'\xc3\x28'$\xc3\x28$;

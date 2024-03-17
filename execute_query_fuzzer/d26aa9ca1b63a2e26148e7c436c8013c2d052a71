@@ -1,0 +1,7 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[+ 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+  (3, 2< 1),
+-1) 
+,   1.0 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[AL[[[[[[[[[ллллллл[[[[[[[[[IN (3[[[[[[[[[[[[[[[[[[лллллллллллллллллллл into test(grr) value ['b', 'c'[[[['UTC')
+dt6,4, toTypeName(dt64);

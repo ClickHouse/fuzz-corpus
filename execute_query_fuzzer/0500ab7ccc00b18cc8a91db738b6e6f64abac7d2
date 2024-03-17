@@ -1,0 +1,12 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDSELECAS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ALL
+     SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING
+        (
+      WHERE a != 10
+OR DER BY a, b;
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Time('2018-0n-01`22:00SELECT min(x), max(```` ```((((((((((((((((((((((ÿ(((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((SELECT dateDiff('h'01ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ 2((((((((((((((((   S(
+);

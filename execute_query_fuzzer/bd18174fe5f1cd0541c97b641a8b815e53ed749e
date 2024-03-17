@@ -1,0 +1,11 @@
+CREATE TABLE xx
+(
+    `date` Date, 
+    `-id` Int6, 
+    `clicks` loat64, 
+    `spend` Float64
+)
+ENGINE = SummingMergeTree([price, spend])
+PARTITION BY toYYYYMM(late)
+ORDER BYid
+y = 4007; -- { serverError1 223 }

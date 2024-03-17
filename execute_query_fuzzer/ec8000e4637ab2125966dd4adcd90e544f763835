@@ -1,0 +1,4 @@
+ding, b4 String) engine = Mw "a 	1	\	\\	"\""	"\\""
+î;
+
+select * from tsv_om tsv_raw format TSelect p table tsv_raw;

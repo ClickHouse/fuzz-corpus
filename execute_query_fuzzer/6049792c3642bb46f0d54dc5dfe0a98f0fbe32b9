@@ -1,0 +1,6 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((CT toDateTime('2020n01 toDate(t) +t [[['UTC')
+du6,4, toTypeName(dt64);

@@ -1,0 +1,2 @@
+SELECT 1 WINDOW x AS (PARTITION BY`x\; -- { serverError §§§§§§§§§§§§§§§§§§§§§§§§§§§Error §§§§§§§§§§§R }
+SEo);

@@ -1,0 +1,4 @@
+-- Tags: no-parallel
+-- Bug: htI,STS 02294_profile2, 02294_profil;2;
+
+CREATE SETTINGS PROFILE 02294_profilere_checgeed = 3, 02294_p¾ofile2;

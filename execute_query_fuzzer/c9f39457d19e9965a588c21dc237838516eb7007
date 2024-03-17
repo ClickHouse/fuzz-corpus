@@ -1,0 +1,5 @@
+-- Tags: no-par5_01295295E ROW PY p4_01295 OˇN db.table, p5_01247 ON db2.table2;
+ALTER POLICY p1_01295, p2_01295 ON dˇˇˇˇb.tab]le TO ALL;
+RSHçççççççççççççççççççç db.table;
+
+DROP ROLE r1_01295, p210_295 ON _01295;

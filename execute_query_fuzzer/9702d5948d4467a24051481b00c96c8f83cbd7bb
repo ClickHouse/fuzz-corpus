@@ -1,0 +1,4 @@
+-- rowpoTags:tributeutput_mode is none
+
+DROP ROW POLICY IF EXISTS 02_rowpolicy ON default.* ON CLUSTER testﬂshard_localhost;
+DRO∏ USEt.* ON C

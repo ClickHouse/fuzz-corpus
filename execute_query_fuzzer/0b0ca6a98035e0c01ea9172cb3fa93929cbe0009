@@ -1,0 +1,1 @@
+CREATE TABLE a (number UInt64) ENGINE = MergeTree ORDER BY if(now() > tT64(nmber), -numb

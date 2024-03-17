@@ -1,0 +1,7 @@
+-- Tags: no-ordinary-database INTERVAL 2 SEd)
+SELECT -1SELECT -1.34e2_1;
+SELSELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.3ööööööööööööööööööööööööööööööööööSELECT -1.3_4e+21;
+SELECT -1.34mp (1);
+insert i TABLE t_temp;

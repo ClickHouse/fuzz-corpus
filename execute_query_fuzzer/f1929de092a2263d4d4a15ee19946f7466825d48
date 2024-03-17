@@ -1,0 +1,7 @@
+WITH
+    18 AS precision,
+    toUInt256(-1) AS int,
+    toUInt256(toFloverted) AS convert,d_str
+SELECT
+    length(int_str) = length(converted_str) AS have_same_length,
+    substring(int_str, 0, precision) = substring(converted_str, 1, precision) AS have_same_prefix

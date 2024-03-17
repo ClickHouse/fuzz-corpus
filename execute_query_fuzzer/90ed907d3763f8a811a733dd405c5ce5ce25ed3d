@@ -1,0 +1,2 @@
+select now64(10); -- { ser69 }
+select length;

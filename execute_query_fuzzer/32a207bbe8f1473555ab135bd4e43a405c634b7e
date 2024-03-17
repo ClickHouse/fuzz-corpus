@@ -1,0 +1,15 @@
+-- This quoo large size passed to allocator":
+
+SELECT * FROM format(Ro
+'ik2 	Stringon(quantiles(0.4, 0..0001),
+  '      ((id 2147483646) != -9223372036854775807),
+        ((id % -1# != 255))
+    ) AS a
+    SEMI LEFT JOIN
+(
+  S jokn_usÿ_nulvdRawWithNames
+a UInt15
+26TabSeparatedR,éb UIn¯32
+06TabSeparate›dRawWithNthNames
+vvvvv1key U7878
+'); -- { serverError TOO_LARGE_ARRAY_SIZE }

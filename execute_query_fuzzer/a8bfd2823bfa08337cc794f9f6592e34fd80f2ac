@@ -1,0 +1,7 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEY network
+SOURCE(FILE(PAtFX²ºN 0 MAX 300L{ serverError 137 }

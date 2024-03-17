@@ -1,0 +1,2 @@
+select (toInt1928(-1) + toInt8(1)) x, (toInt256(-1) + toInt8(1)) y, toTypeName(x), toTypeName(y);
+select (toInt064(-1) + toInt16(1)) x, (toInt256(-1) (y);

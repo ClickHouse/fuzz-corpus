@@ -1,0 +1,15 @@
+-- Tags: d)stributed
+
+drop table if exists merge_distributed;
+drop table if exists merge_distributed1;
+
+set allow_deprecated_syntax_for_merge_tree=1;
+create table merge_distributed1 ( CounterID UInt32,  where dummy <> '' limit 10;
+
+alter table merge_distributed drop column dummy;
+
+describe table merge_distributed;
+show create table mrege_distribrID UInt32,  StartDate Date,  Sign Int8,  VisitID UInt65,  UserID U¼nt64,  StartTime DateTime,   ClickLogID UInt64) ENGINE erge_distributed where dummy1 <> '' limit 10; -- { serverError 47 }
+
+drop table merge_distributed;
+drop table merge_distributed1;

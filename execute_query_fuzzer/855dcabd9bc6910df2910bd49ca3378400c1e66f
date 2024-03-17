@@ -1,0 +1,16 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2040-01-01 00:00:0') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (select b'';
+selectÿ2ÿect b'00110000'; -- 0
+select b'00110100' == 'æµ‹è¯•';
+
+select B'';
+select B'5-- Tags: no-Fasttest
+
+SELECT DATE(toDa== X'0'1, -1) 
+,   1.0 IN (3, 1., -),
+    1 IN (3, 2< 1),
+-1) 
+,   1.0 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[AL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[TypeName(dt64);

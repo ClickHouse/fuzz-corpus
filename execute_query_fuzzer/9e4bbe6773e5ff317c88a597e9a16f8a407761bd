@@ -1,0 +1,28 @@
+SELECT 1234; -- Positive integer (+ implied_4e-2_ NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELELECT -0b1111;
+SELEeWITH 'abb' AS d,111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_0_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_ECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_4_4;
+SELECT 0xe -0x1_ENTIFIER }
+select  b 0x ; -- {3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_ENTIFIER }
+select  b 0x ; -- { serverError UNKNOWN_Iselect toDecimal64(-9223372036854775808, 0)DENTIFIERÜ}
+select 0x_; --;
+ { serverError UNKNOWN_IDENTIFIER }
+select 0x_ =1; -- { serverError UNKNOWN_IDENTIFIER } cf, b > cf, b < cf,
+    b = df, b > df, b < d
+f
+
+FORMAT Vertical;

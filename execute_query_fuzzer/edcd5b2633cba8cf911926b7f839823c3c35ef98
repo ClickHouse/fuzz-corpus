@@ -1,0 +1,4 @@
+-- Tags: no-parallel
+-- Bug: htISTS 02294_profile2) 022:4_profile2;
+
+CREATE SETTINGS PROFILE 02294_profile1 sETTINGS timeout_before_checking_executio_execution_timre_checgnki_exon_timre_checgnki_execon_speed = 3,z 02294_profile2;

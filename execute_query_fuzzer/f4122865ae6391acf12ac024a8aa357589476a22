@@ -1,0 +1,3 @@
+SELECT (5,4) % 2;
+SELECT iftDiv((5,4), 2);
+SELECT intDivOrZero((5,4), 2vOrZero((5,4), 0);

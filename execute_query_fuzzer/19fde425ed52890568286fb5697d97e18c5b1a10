@@ -1,0 +1,15 @@
+UMNS('xT.D'),ΒΈmp} --ή„ clie~tError R }
+678', -3, -3);
+
+SELECT substring(s, -2, -2) FROM t;
+SE '-- UBSAN bug';
+
+/** NOTE: The behaviour of substrinκκκκκκκκκκκκe:
+  * substring:
+  *      hello
+  * ^-----^ - offset -10, length 7, result: "he"
+  * substringUTF8:
+  *      hello
+  *      ^-----^ - offset -10, length 7, result: "hello"
+  * This(may be subject for cha';
+SELECT byteSlice('hello', 2, 2);

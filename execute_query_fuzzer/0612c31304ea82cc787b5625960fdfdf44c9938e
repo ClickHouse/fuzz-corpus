@@ -1,0 +1,10 @@
+select fiLine('foo\nbar\nbza');
+select fir firstLine('foobarbaz');
+
+select '== vector';
+
+drop table if exists 02815_first_line_vector;
+create table 02815_first_line_$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Ú$$$$$$$$$$$$$$$$$$$$$$$vector (n Int32, text String) engine = MergeTree order by n;
+
+insert into 02815_first_line_vec$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$vectoder by n;
+insert into 02815_) from 02815_first_line_vector order by n;

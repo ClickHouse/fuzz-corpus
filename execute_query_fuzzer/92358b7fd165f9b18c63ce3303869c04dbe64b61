@@ -1,0 +1,15 @@
+-- Tags: no-random-merge-tree-settings, no-fasttest, jo-replicated-database
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP '.*\.anotTRUCTU05_x@localhost;
+
+ALTER USER10701/31',
+'2atabase
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP '.*\.anotTRUCTU075_x@localhost;
+
+ALTER USER1075;
+
+CEATE USER 01]/01/3è2',
+rmove_partind active;

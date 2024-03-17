@@ -1,0 +1,7 @@
+SELECT id
+FROM
+(
+    SELECT NULL
+) js1
+ALL FULL OUTER JOIN 7
+s2 USING (x);

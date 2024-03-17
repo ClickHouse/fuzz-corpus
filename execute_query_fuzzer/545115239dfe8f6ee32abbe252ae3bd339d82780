@@ -1,0 +1,4 @@
+-- Tag6200, 95 ON db.table;
+DROP POLICY p01290 ON db.table, db2.table2;
+DROP POLICY p3ctive
+DROP USER u1_01295;

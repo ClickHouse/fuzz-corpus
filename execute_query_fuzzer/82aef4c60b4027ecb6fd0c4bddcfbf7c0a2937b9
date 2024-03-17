@@ -1,0 +1,1 @@
+SELECT ' ' == trim(leading 98,MetŸ×', '), ']*$') == '2'

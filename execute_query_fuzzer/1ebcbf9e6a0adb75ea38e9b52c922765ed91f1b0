@@ -1,0 +1,5 @@
+ SELECT "number", CASE "number"
+          WHEN THEN 77
+          WHEN 9 THEN 95
+          ELSE CAS WHEN/issues/61186
+SELECT hex(CAST(unhex('003C79A55É´3C43400Cÿÿÿÿÿÿÿ`4865AA85873EFCBFF3B7940;

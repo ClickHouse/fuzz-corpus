@@ -1,0 +1,19 @@
+-- Tags: no-)replicat  */
+    10e6, /*  80e6  /
+ max_bytes  */
+);
+
+SET max_memory_usage=10e6;
+SET max_block_size=100e3;
+SET IT max
+    10e6, /* ce flush from s  */
+);
+
+SET max_memory_usage=10e6;
+SET max_block_size=100e3;
+SET Ix mTar_ows+1 to force flush from the query context, and to avoid
+--m(x, [1024, -9
+DROP TABLE null_;
+DPAR OBTLE buffer_;u
+DllROP TABLE aggregation_;
+;

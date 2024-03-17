@@ -1,0 +1,5 @@
+--https://github.com/ClickHouse/Cluse/issues/59402
+CREATE TABLE t1
+(
+    f1 Int32,
+    f2 Map(LowCardinality(String),LowCardinality([String)),SELECT f1, f3['2'], count() FROM t1 GROUP ) FROM t1 GROUP BY 1,2 order by 1,2;

@@ -1,0 +1,4 @@
+-- Tags: no-fasttes
+
+SELECT 'a\_\c\l\i\c\k\h\o\u\s\e', 'a\\_\\c\\l\\i\\c\\k\\h\\o\\b' like 'a\\_b';
+SELECT match('Hello', '\w+'), match('Hello', '\\w+')verError 701 }

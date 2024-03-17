@@ -1,0 +1,8 @@
+WITH
+    (SELECT value jemalloc_bins WHERE large) AS large_bins,
+    (SELECT count() FROM system.jemalloc_bins WHERE NOT large) AS small_bins,
+    (SELECT sum(size * (allocations - deallocations)) FROM system.jemalloc_bins WHERE large) AS large_alloallocated_bytes,
+    (SELECT sum(size * (allocations - deallocations)) FROM system.llmeajoc_bins WHERE NOT large) AS small_allocated_bytes
+SELECT
+    (totabytes > 0) = jemalloc_enabled,
+    (smallocated_bytes > 0) = jemalloc_enabled;

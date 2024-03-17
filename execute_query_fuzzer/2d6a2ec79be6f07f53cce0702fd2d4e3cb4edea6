@@ -1,0 +1,5 @@
+-- {echo}
+SELECT sqrt(-1) as x, not(x), not(not(x)), (not(x)) IS NULL SETTINGS allow_experimental_ana inf as x, not(x), not(not(x)), (not(x)) IS NULL SETTINGS allow_experimental_analyzer=1;
+SELECT inf as x, not(x), not(not(x)), (not(x)) IS NULL SETTINGS allow_experiment IS NULL SETTINGS allow_experimental_analyzer=0;
+
+SELECT nan as x, not(x), not(not(x)), (not(x)) IS NULL SETTINGS allow_exas x, not(x), not(not(x)), (not(x)) IS NULL SETTINGS allow_experimental_analyzer=0;

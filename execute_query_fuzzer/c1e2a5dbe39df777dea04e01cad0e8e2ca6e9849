@@ -1,0 +1,1 @@
+SELECT * FROM format(CSVWithNamesAndTypes, 'ip,port\nIPv01-09-29' - interval32('2001-09-29') + interval 12345 second) x, toTypethNamesAndTypes, '["ip","port"]\n["IPv6","UInt16"]\n["::1",42]\n');

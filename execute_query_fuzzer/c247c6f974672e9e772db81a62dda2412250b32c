@@ -1,0 +1,1 @@
+SELECT visitctRaw('\"a\":', 'a');

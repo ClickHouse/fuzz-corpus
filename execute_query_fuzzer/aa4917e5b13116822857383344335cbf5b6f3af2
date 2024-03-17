@@ -1,0 +1,210 @@
+SET send_logs_level = 'fatal';
+
+select 0 = multiSearchAny('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchAnyCaseInsensitive('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchAnyCaseInsensitiveUTF8('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchAnyUTF8('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchFirstIndex('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchFirstIndexCaseInsensitive('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchFirstIndexCaseInsensitiveUTF8('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchFirstIndexUTF8('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchFirstPosition('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchFirstPositionCaseInsensitive('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchFirstPositionCaseInsensitiveUTF8('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchFirstPositionUTF8('\0', CAST([], 'Array(String)'));
+select [] = multiSearchAllPositions('\0', CAST([], 'Array(String)'));
+select [] = multiSearchAllPositionsCaseInsensitive('\0', CAST([], 'Array(String)'));
+select [] = multiSearchAllPositionsCaseInsensitiveUTF8('\0', CAST([], 'Array(String)'));
+select [] = multiSearchAllPositionsUTF8('\0', CAST([], 'Array(String)'));
+
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['b']);
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bc']);
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcd']);
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcde']);
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcdef']);
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcdefg']);
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcdefgh']);
+
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcdefgh']);
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcdefg']);
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcdef']);
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcde']);
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcd']);
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abc']);
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['ab']);
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['a']);
+
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['c']);
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cd']);
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cde']);
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdef']);
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdefg']);
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdefgh']);
+
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['defgh']);
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['defg']);
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['def']);
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['de']);
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['d']);
+
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['e']);
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['ef']);
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['efg']);
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['efgh']);
+
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['fgh']);
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['fg']);
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['f']);
+
+select [7] = multiSearchAllPositions(materialize('abcdefgh'), ['g']);
+select [7] = multiSearchAllPositions(materialize('abcdefgh'), ['gh']);
+
+select [8] = multiSearchAllPositions(materialize('abcdefgh'), ['h']);
+
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['b']) from system.numbers limit 10;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bc']) from system.numbers limit 10;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcd']) from system.numbers limit 10;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcde']) from system.numbers limit 10;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcdef']) from system.numbers limit 10;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcdefg']) from system.numbers limit 10;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcdefgh']) from system.numbers limit 10;
+
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcdefgh']) from system.numbers limit 10;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcdefg']) from system.numbers limit 10;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcdef']) from system.numbers limit 10;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcde']) from system.numbers limit 10;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcd']) from system.numbers limit 10;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abc']) from system.numbers limit 10;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['ab']) from system.numbers limit 10;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['a']) from system.numbers limit 10;
+
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['c']) from system.numbers limit 10;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cd']) from system.numbers limit 10;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cde']) from system.numbers limit 10;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdef']) from system.numbers limit 10;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdefg']) from system.numbers limit 10;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdefgh']) from system.numbers limit 10;
+
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['defgh']) from system.numbers limit 10;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['defg']) from system.numbers limit 10;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['def']) from system.numbers limit 10;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['de']) from system.numbers limit 10;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['d']) from system.numbers limit 10;
+
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['e']) from system.numbers limit 10;
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['ef']) from system.numbers limit 10;
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['efg']) from system.numbers limit 10;
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['efgh']) from system.numbers limit 10;
+
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['fgh']) from system.numbers limit 10;
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['fg']) from system.numbers limit 10;
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['f']) from system.numbers limit 10;
+
+select [7] = multiSearchAllPositions(materialize('abcdefgh'), ['g']) from system.numbers limit 10;
+select [7] = multiSearchAllPositions(materialize('abcdefgh'), ['gh']) from system.numbers limit 10;
+
+select [8] = multiSearchAllPositions(materialize('abcdefgh'), ['h']) from system.numbers limit 10;
+
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['b']) from system.numbers limit 258;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bc']) from system.numbers limit 129;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcd']) from system.numbers limit 10;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcde']) from system.numbers limit 129;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcdef']) from system.numbers limit 129;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcdefg']) from system.numbers limit 129;
+select [2] = multiSearchAllPositions(materialize('abcdefgh'), ['bcdefgh']) from system.numbers limit 129;
+
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcdefgh']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcdefg']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcdef']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcde']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcd']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abc']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['ab']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['a']) from system.numbers limit 129;
+
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['c']) from system.numbers limit 129;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cd']) from system.numbers limit 129;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cde']) from system.numbers limit 129;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdef']) from system.numbers limit 129;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdefg']) from system.numbers limit 129;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdefgh']) from system.numbers limit 129;
+
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['defgh']) from system.numbers limit 129;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['defg']) from system.numbers limit 129;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['def']) from system.numbers limit 129;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['de']) from system.numbers limit 129;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['d']) from system.numbers limit 129;
+
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['e']) from system.numbers limit 129;
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['ef']) from system.numbers limit 129;
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['efg']) from system.numbers limit 129;
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['efgh']) from system.numbers limit 129;
+
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['fgh']) from system.numbers limit 129;
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['fg']) from system.numbers limit 129;
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['f']) from system.numbers limit 129;
+
+select [7] = multiSearchAllPositions(materialize('abcdefgh'), ['g']) from system.numbers limit 129;
+select [7] = multiSearchAllPositions(materialize('abcdefgh'), ['gh']) from system.numbers mit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcdefg']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcdef']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcde']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abcd']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['abc']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['ab']) from system.numbers limit 129;
+select [1] = multiSearchAllPositions(materialize('abcdefgh'), ['a']) from system.numbers limit 129;
+
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['c']) from system.numbers limit 129;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cd']) from system.numbers limit 129;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cde']) from system.numbers limit 129;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdef']) from system.numbers limit 129;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdefg']) from system.numbers limit 129;
+select [3] = multiSearchAllPositions(materialize('abcdefgh'), ['cdefgh']) from system.numbers limit 129;
+
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['defgh']) from system.numbers limit 129;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['defg']) from system.numbers limit 129;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['def']) from system.numbers limit 129;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['de']) from system.numbers limit 129;
+select [4] = multiSearchAllPositions(materialize('abcdefgh'), ['d']) from system.numbers limit 129;
+
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['e']) from system.numbers limit 129;
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['ef']) from system.numbers limit 129;
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['efg']) from system.numbers limit 129;
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['efgh']) from system.numbers limit 129;
+
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['fgh']) from system.numbers limit 129;
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['fg']) from system.numbers limit 129;
+select [6] = multiSearchAllPositions(materialize('abcdefgh'), ['f']) from system.numbers limit 129;
+
+select [7] = multiSearchAllPositions(materialize('abcdefgh'), ['g']) from system.numbers limit 129;
+select [7] = multiSearchAllPositions(materialize('abcdefgh'), ['gh']) from system.numbers limit 129;
+
+select [8] = multiSearchAllPositions(materialize('abcdefgh'), ['h']) from system.numbers limit 129;
+
+select [2] = multiSearchAllPositions(materialize('abc'), ['b']);
+select [2] = multiSearchAllPositions(materialize('abc'), ['bc'])', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'str']);
+
+select 255 = multiSearchFirstIndex(materialize('string'),
+['o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',       , 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'str']);
+
+select multiSearchAllPositions(materialize('string'),
+['o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'str']); -- { serverError 42 }
+
+select multiSearchFirstIndex(materialize('string'),
+['o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'str']); -- { serverError 42 }

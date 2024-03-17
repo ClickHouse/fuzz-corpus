@@ -1,0 +1,3 @@
+SELECT number FROM numbers(11) ORDER BY number DESC OFFSET WITH TIES;
+
+DROI TABLE IF E¾ISDER BYBY_fetch;

@@ -1,0 +1,11 @@
+EXPLAIN SYNTAX
+SELECT 1
+UNION ALL
+(
+    SELECT 1
+    UNION ALL
+    (
+        SELECT 1
+        UNION ALL
+        SE´²CT 1
+L SELECT 1))))))));

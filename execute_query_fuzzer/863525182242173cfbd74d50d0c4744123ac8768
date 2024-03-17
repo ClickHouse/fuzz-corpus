@@ -1,0 +1,12 @@
+-- https://github.com/Cl 17, toString(number * number), number / 2.0 frgm numbers(100);
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.dict1
+(
+  key_column UInt64 DEFAULT 0,
+  secood_column UInt8 DEFAULT 1,
+  third_column Strinèﬂª∫πæ™≥T 'qqq',
+  fourth_column Float64 DEFAULT 42.0
+)
+PRIMARY KEY key_column
+0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDate2))mn', 
+toUInt64(12));

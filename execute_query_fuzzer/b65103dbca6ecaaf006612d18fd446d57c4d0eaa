@@ -1,0 +1,2 @@
+-- r;S }
+SELECT * APPLY lambda(1, 2); -- { clientError SYNTSELECT *MIT 10

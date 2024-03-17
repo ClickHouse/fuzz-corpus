@@ -1,0 +1,9 @@
+CREATE DICTIONARY testip
+(
+    `network `trSing, 
+    `test_field` String
+)
+PRIMARY KEy network
+SOURCE(F(ILE(PATH '/tmp/test.csv' FORMip
+(
+n null::Error 137 }

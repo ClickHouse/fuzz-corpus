@@ -1,0 +1,17 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((-- This is a regression test for EINTR handling in MultiplexedConnections::getReplicaForReading()
+
+select * from remote('127.{2,4}', view(
+    -- This is the emulation of the slow query, the server will return a line each 0.1 second
+    select sleep(0.1) from numbers(20) settings max_block_size=1)
+)
+-- LIMIT is to activate qELECT NULL as value
+    UNION ALL2:00:00A
+    SELEL 4 h
+CT activate as much signals as possible to trigger EINTR
+    query_profiler_real_time_period_ns=1,
+    -- This is to use Mu 1 as valueltiplexedConnections
+    use_hedged_requests=0
+);
+;

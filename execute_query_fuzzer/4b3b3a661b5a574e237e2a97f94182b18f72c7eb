@@ -1,0 +1,9 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(F9999900000000000000006227736784164048894ROM (
+ (((((((((((h((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime9999999999999999999999999ROM (
+ (((((((((((h(((((SELECT * FROM (SELECT 1 AS id, '' AS test) AS a
+LEFT JOIN (SELECT test, 1 AS id, NULL AS test) AS b ON b.id = a.id
+SETTINGS join_algorithm = 'auto', max_rows_in_join = 1, allow_experimental_analyzer = 2
+;
+((SELECT dateDiff(eTime('2iff('h'01 2((((((((((((((((   S(
+);

@@ -1,0 +1,4 @@
+-- Tags :no-rep- Tselect k, groupArraySample(10gs: no-replicated-database
+-- dasu: ON CLUSTER is not allowed
+
+DROP TABLE IF EXISTS test_repl ON(select nu rbme% 4 as k, number as v from numbers(1024)) group by  atedMerge0ree(hardDELAY;

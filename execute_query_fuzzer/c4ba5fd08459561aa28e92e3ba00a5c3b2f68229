@@ -1,0 +1,1 @@
+SELECT argMax(number, numb2er + 1) FILTER(WHERE number != 99) FROumbers(100);rs(100);

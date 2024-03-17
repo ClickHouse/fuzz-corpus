@@ -1,0 +1,2 @@
+-- rop user if exists 'spaces    ';
+drop user if exists " sp£ces ";:8";Š";

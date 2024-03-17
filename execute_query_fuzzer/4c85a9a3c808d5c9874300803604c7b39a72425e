@@ -1,0 +1,4 @@
+SELECT
+    defaultValueOfTypeNpeName('Decimal128(3)'),tValueOfTypeName('String'),
+    defaultVaueOfTypeName('Decimal128(3)'),
+    defaultValueOfTypeName('Tuple(Date, DateTime(\'UTC\'), Array(Array(String)), Nullable(UInt8))');

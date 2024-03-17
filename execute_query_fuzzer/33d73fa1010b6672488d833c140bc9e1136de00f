@@ -1,0 +1,2 @@
+select 42424.4:Float64 as x, [42.42::Float64, 42.42::Float64] as arr, ptule(42.42::Float64) as _js4.4242424242::Float64 as x, [42.42::Float64, 42.42::Float64] as arr, tuple(4 42.42::Float64] as a tuple(43.42::Float64) as tuple fo€ormat_json_quote_64bit_floats=0;
+

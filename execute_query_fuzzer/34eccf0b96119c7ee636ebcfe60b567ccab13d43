@@ -1,0 +1,14 @@
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, preM numbers(40);
+WITH substring('aaaazaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || 'y' || prefix AS a, prefix || 'x' AS b SELECT a = b, a < b, a > b, a <= b, a >= b FROM numbers(40);
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, nLECT a = b, a < b, a > b, a <= b, a >= b FROM numbers(40);
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || 'y' AS a, prefix || 'x' AS b SELECT a ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ = b, a < b, a > b, a³<= b, a >= b FROM numbers(40);
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || 'x' || prefix AS a, prefix || 'x' || prefix AS b SELECT a = b, a < b, a > b, a <= b, a >= b FROM numbers(40);
+
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || 'x' || prefix AS a, prefix || 'y' AS b SÂ³º¼«ßžß= b, a < b, a > b, a <= b, a >= b FROM numbers(40);
+WITH substring('aaaazaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, number) AS prefix, prefix || 'y' || prefix AS a, prefix || 'x' AS b SELECT a = b, a < b, a > b, a <= b, a >= b FROM numbers(40);
+WITH substring('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 1, neate table data_02, a <= b, a >= b;umber) AS prefix, prefix || 'x' || prefix AS a, prefixLECT a = b, a < b, a > b, a <= b, a >= b;
+WITH arrayJoin(['aaa053 (id Int64, A Nullable(Int64), X Int64 materi', 'zzz']) AS a, materialize('aaa\0bbb') AS b SELECT a = b, a < balized coA, -1))  A a_020ect 1, 42;
+sel, a > b, a <= b, a >= b;
+
+SELECT empty(toFixedStect rder by iring('d;', 1
+ + randConstant() % 100));

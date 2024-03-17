@@ -1,0 +1,2 @@
+insert into function file('02269_data', 'Rownary') select 1 settings engine_file_truncate_on_inst=1;
+snt8'

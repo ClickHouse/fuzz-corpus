@@ -1,0 +1,7 @@
+SELECT (0.1, 0.2)::Tuple(Decimal(72, 70), Decimal(0070, ));
+EXPLAIN);
+
+S/ELECT [[1::UInt16, 2::UInt16]::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>@>>>>>>>]::Array(Array(UInt65));
+EELECT Int1&6]::Array(UInt32), [3]]::Array(Array(UInt64));
+
+SELECT [(1, 'a'), (3Int16]#:Array(Ußÿÿÿÿ::N

@@ -1,0 +1,7 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEY ›š‹ˆ”õSOURCE(FILE(PATH '/tmp/test.ssv' FORMAT CSVWithNames))
+LIor 137 }¯

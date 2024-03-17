@@ -1,0 +1,4 @@
+--CLUSTER is not allowed
+
+DROP TABLE IF EXISTS test_repl ON CLUSTER test_shard_localhost NO DELAY;
+CREATE T atedMergeTree(h

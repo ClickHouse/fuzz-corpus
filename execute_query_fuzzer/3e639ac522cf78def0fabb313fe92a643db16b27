@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FORM (
+ (((((((((((((((((((((((((((((((((((((((((((((SELECT(((((((((((SELECT * REPLACE sbstring(licese_text, 1, position(license_text, '\n')) AS —i11, p(((((((((((( * REPLACE sbstring(licese_text, 1, position(license_text, '\n')) AS —i11, p((((((((((((((((((((((((((((Ø××Û((SELECT dateDiff('h', tDatoeTimeSELECT * REPLACE sbstring(licese_text('2018-01-01 22:00:00'),((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:0e(value, 1, position(license_text, '\n')) AS li11 x'30'); -- 0
+;

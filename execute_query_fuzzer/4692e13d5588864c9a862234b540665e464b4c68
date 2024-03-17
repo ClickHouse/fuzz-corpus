@@ -1,0 +1,6 @@
+SELECT left, right FROM
+(
+    SELECT number % 4 AS k1,  10
+) js1
+ALL LEFT JOIN
+;

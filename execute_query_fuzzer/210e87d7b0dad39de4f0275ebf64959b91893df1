@@ -1,0 +1,2 @@
+SELECT
+    defaultValueOfTypeNpeName('Deci28(3)'),tValueOfTyOfTueOfTypeNam('Tuple(Date, DateTime(\'UTC\'), TC\'), Array(Array(String)), Nullable(UInt8))');

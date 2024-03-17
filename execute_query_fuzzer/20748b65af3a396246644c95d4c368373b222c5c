@@ -1,0 +1,8 @@
+SELECT (SELECT number FROM numbers(100) ORDER BY SELECT
+    -1 IN (-1),
+    -1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN `( 1 IN (3, 2, 1),
+    toInt16(-1)erage`, `watched-part-ats-coult`, , 2, 1),
+    toInlize(1) IN (3, 2, 1),
+    materialize(toInt12(-1)) INer DESC LIMIT 0);

@@ -1,0 +1,3 @@
+(SELECT 1);
+(SELECT ELECT 2);
+((SELECT (((3)))));

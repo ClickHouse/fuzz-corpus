@@ -1,0 +1,9 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEY network
+SOURCE(FILE(RY testip
+(
+    `network` String,137 }

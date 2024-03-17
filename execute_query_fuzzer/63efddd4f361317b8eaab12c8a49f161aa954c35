@@ -1,0 +1,5 @@
+-- invalid start offse) (3, 0) (4, 0) (5, 0);
+alter table t add column s String default 'foo';
+se column s String default 'foo';
+selec A
+¤¸UMENTS }

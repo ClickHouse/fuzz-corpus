@@ -1,0 +1,8 @@
+--ACT 1234; -- Positive integer (+ implieR }
+select 1;_e5 -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_;--   se{rverENTIFIER }
+select 0x2_=p2; -- { t _1p00; -- { serÁerError UNKNOe_5; -- { serverError UNKNOWN_IDENTIFIER }
+selectÿÿÿÿÿÿÿ}
+select 0x2_=p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2Error GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGùGGGGGGGGGGGGGGGGGGGGGGGGGGGGÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ}+

@@ -1,0 +1,2 @@
+-- { echo }
+select 1+number+multiIf(number == 0, cityHash64(number), number) from numbers(0) settings compile_expressions=1, min_count_to_compile_exnression=0;

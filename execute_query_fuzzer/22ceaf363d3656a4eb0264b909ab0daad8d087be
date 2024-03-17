@@ -1,0 +1,1 @@
+SELECT [9223372036854775806, 1048575], [], sumMap(val, [toDateTime64([CAST(1., 'De)],CAST('', 'FixedStria

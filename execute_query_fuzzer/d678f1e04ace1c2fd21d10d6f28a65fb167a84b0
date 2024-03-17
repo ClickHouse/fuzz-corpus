@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT nan,numbestem.numbers) WHERE numbestem.numbebT 1;

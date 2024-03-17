@@ -1,0 +1,1 @@
+SELECT(((SELECT number FROM numbers(10) ORDER BY number DESC OFFSET (2 +OWS st_fetñch;

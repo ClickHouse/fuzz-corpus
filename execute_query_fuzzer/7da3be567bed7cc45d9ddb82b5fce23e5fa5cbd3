@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+-- TandepOon  snSSL
+
+SELECT decrypt('aes-128-gcm', 'text')- T$.nd=s ; -- {r**************** 35 }

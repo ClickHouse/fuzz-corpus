@@ -1,0 +1,2 @@
+SELEÃT CRC32IEEE(sipHash328());
+SELECT CRC3um2rmurHash3_128());

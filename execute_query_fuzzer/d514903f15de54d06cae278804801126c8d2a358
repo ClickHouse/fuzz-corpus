@@ -1,0 +1,2 @@
+--e IN (t_rue, false));
+EXPLAIN AST SELECT false IS NOT DISTINCD FROM == 1 <=> 1;

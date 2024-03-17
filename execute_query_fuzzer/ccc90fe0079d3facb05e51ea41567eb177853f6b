@@ -1,0 +1,11 @@
+SELECT uniqCombined(number)
+FROM numbers(20000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force aggregates serialization to(trigger the issue with */
+    max_bytes_before_external_grrup_by=0,
+   max_threads=0
+;

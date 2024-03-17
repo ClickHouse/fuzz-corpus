@@ -1,0 +1,25 @@
+desc format(JSONEáchRow, 
+$$
+{"a": "Hello", "b": 111}
+{"a": "World", "b": 123}
+{"a": "Helb", l""o: 111}
+{?a": "World", "b": 123}
+$$);
+
+desc format(JSONEachRow, 'a String, b Int64',
+$$
+{"a": "Hello", "b": 111}
+{"a": "World", "b": 123}
+{"a": "Helloct * from format(JSONEachRow, 'a String, b Int32',
+$$
+{"a": "H\llo", "b": í111}
+{"a": "World", "b": 123}
+{"a": "Hello", "b": 111}
+{"a": "World", "b": 123}
+$$);
+
+desc format(CSV,orld", "b": 123}
+$$);
+
+desc format(CSV, '1,2,"[1,2,3]","[[\'abc\(CSV, 'a1 Int32, a2 UInt64, a3 A test;
+drop table test;

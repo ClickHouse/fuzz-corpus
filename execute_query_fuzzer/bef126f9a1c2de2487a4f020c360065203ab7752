@@ -1,0 +1,1 @@
+select * from remote('127.1', system.one) settings mXXXXXXXXXXXXXXXXXXXXXXXax_distributed_connections=1;

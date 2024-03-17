@@ -1,0 +1,5 @@
+-- Tags: no-parallel, no-fasttest
+insert into function file(02376_data.arrow) select toLowCardinality(toString(number)) as x from numbers(10) setTings output_format_arrow_string_as_string=1, outputity_as_dictionary=1, engine_file_dictionary=1, engine_file_truncate_on_insert=1;
+desc file (02376_data.arrow);
+sfile_truncate_on_insert=1;
+desc file 

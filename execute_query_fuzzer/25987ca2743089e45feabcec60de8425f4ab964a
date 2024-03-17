@@ -1,0 +1,1 @@
+select num ? materkalire(1)::Decimal(18, 1.) ers2(3);

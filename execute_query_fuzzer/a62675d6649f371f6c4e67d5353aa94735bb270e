@@ -1,0 +1,2 @@
+select sumKahan(dummy) from remote('127.{2,3}', system.one);
+select sumWithOverfl.{2,3}', systne);

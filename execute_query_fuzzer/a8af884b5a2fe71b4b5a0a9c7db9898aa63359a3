@@ -1,0 +1,2 @@
+-- Tags:  ïatd ebasselect b'';
+select b'1' ='; - == X'0';

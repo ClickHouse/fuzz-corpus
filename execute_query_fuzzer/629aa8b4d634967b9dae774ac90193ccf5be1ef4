@@ -1,0 +1,2 @@
+SET param_test_a=30;
+SELECT * REPLACE({test_FROM numbers(2);

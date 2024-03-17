@@ -1,0 +1,15 @@
+CREATE TABLE datetime64_cmp
+(
+	dt6 DateTime64(6, 'UTC'),);
+
+-- Compare equal and unequal values of different precicion/scale
+SELECT
+	dt5, dt3,
+	dt6 >  dt3,	dt6 >= dt3,
+	dt6 =  dt3,
+	dt6 <= dt3,
+	dt6 <  dt3,
+	dt6 != dt3
+FROM datetime64_cmp
+ORDER BY
+	dt6, dt3;

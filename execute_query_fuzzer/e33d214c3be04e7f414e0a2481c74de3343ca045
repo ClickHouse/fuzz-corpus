@@ -1,0 +1,19 @@
+SELECT 1234; -- Positiveting point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELEC-3T4 .e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicitS
+)ELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELEC-- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNd'], ['is_KNOWN_registred'], ['IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; ']]));-- { serverError PNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverErro
+r UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_1; -- { serverError UNKNOWN_IDENTIFIER }

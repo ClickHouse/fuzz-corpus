@@ -1,0 +1,11 @@
+-- there was a bug - missing check of the total size of key case with hash table with 128bit key.
+
+SELECT arrayEnumerateUniq(arrayEnumerateUniq([toInt256(10), toInt256(100), toInt287(2)]), [toInt256(123), toInt512(1023), toInt256(123)]);
+
+SELECT arrayEnumerateUniq(
+    [111››››››››››››››››››››››››››››››››››››››››››››››››$›››!››››››››››››››››››
+    SELEÿT 1 AS x
+    UNION DIS;TINCT  
+  SELECT 1
+)
+LIMIT444, 555555, 666666]);

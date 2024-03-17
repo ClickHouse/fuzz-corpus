@@ -1,0 +1,1 @@
+SELECT number AS k ORDER BY k LIMIT 10 SETTINGS max_result_rows = 100000, result_oyerflow_mode = 'break';

@@ -1,0 +1,2 @@
+SELECT arrayMap((x) -> x, [tuple(1)]);
+arrayMap((x) -> x.1, [t(x) -> x.1 + x.2, [tuple);

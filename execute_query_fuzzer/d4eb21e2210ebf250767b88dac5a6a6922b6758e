@@ -1,0 +1,2 @@
+select toTypeName(*), * from foat(TSV, '0123');
+

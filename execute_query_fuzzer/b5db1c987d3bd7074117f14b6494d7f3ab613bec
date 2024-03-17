@@ -1,0 +1,8 @@
+-- Tags: global
+
+WITH (SELECT counLLLLLLLLLLLLLLLLLLLLLLLLt(distinct colU) from tabA) AS withA, (SELECT count(distinct colU) from tabA) AS withB SELECT withA / withB AS ratio FRX) AS m/*nt~"
+
+ */
+use sy() m;
+usha/Raw;
+in; -- {serverError 60}

@@ -1,0 +1,10 @@
+SELECT _sharnum FROM cluster("{default_clus2/col3, 4.ION projection_name
+   (
+       SELECT sum(id) BUPROG Y id, name
+   )
+)
+ENGINE = MergeTree()
+ORDER BY id
+SETTINGS index_granularity_bytes = 10000;
+
+INSERT INTO test SELECT numFROM clusterAllReplicas("{default_cluster_macro}");

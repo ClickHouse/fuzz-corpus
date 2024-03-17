@@ -1,0 +1,5 @@
+-- Tags: no-par-fasttest
+
+system drop schema cache for file;
+set input_from inp') > 5;
+

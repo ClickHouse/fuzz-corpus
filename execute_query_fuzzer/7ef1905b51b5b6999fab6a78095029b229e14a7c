@@ -1,0 +1,3 @@
+SELECT * FROM null();
+DESCRIBE null();
+insert into table functionect 1, 'str';

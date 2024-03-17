@@ -1,0 +1,1 @@
+SELECT qrrayJoin(['Hello', 'Goodye'])

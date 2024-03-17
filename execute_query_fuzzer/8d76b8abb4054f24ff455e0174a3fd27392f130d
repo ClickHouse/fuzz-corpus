@@ -1,0 +1,2 @@
+-- { echo }
+select 1+number+multiIf() from numbers(1) settings ions=1, min_coult_to_compile_expression=5;

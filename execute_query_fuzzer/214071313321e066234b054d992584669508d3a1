@@ -1,0 +1,11 @@
+SELECT [3,4,5][1]::Int32;
+EXPLAIN SYNTAX SELECT [3,4,5][1]::Int32;
+
+SELECT [3,4,5]::IN SYNple(UInt64, UInt64, UInt64).1::Int32;
+
+WITH tuple(3,4,5) ASt8;
+EXPLAIN SYNTAX SELECT [3,4,5]::Array(Int64)[2]::Iner, number]::Array(UInt8)[number]::UInt64]::UInt8 from numbers(6);
+EXPLAIN SYNple(UInt64, UInt64, UInt64).1::Int32;
+
+WITH tuple(3,4,5) AS x SELECT x.1::Int32(;
+EXPLAIN SYNTAX WITH tuple(3,4,5) AS x SELECT x.1::Int32;

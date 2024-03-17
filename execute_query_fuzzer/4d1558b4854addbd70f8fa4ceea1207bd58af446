@@ -1,0 +1,6 @@
+SELECT
+    *,
+    * APPLY   r() ASÿÿ(Int62) as nul
+
+ )
+);

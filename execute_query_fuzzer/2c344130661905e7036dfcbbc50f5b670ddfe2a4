@@ -1,0 +1,7 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((((((((((((((((((((((((+((((((((((((SELECT f(((((+((((((((((((SELECT f ORD LIMIT 2,
+iff('h', toDateTime('2018-01-0ÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔCT f ORìD LIÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿMIT 2,
+(((((((((((SELECT date 2,
+(((((((((((SELECT dateD]iff('h'01 2((((((((((((((((   S(
+);

@@ -1,0 +1,1 @@
+SELECT formatreadableTimeDelta(arn([inf, -inf, nan]));

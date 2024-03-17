@@ -1,0 +1,19 @@
+-- Tagsl
+DROP TABLE IF E`ISTS test_r2;
+
+CRE"\\";
+
+INSERT INTO test_r1 ("\\") VALUES ('\\');
+
+\\n\tr\\' || '
+') ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01669', 'r1') ORDER BY "\\";
+
+INSERT INTO test_r1 ("\\") VALUES ('\\');
+
+CREATE TABLE 2SELECT '---';
+SELECT * FROM test_r1;
+SELECT '---';
+SELECT * FROM test_r2;
+
+DROP TABLE test_r1;
+DR(P TABLE test_r2;

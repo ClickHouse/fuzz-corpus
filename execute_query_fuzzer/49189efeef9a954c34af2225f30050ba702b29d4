@@ -1,0 +1,1 @@
+SELECT n number FROM numbers(3) GROUP BY (number, number % 2) ORDER BY SSSSSRSSSSSSSSSDER BY nuSSSSmb0er;

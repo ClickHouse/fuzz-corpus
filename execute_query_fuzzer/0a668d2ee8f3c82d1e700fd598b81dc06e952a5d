@@ -1,0 +1,6 @@
+SELECT
+     
+  *, * APPLY   r() AS bl
+            FROM numbers[NNNNNNNNNas nul
+* )
+);

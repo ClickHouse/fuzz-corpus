@@ -1,0 +1,8 @@
+SELECT
+      arrayMap(x -> arrayMap(x -> x, ramge(x)), [
+SETTINGS allow_exp(-> arrayMap(x -> x, (x -> arrayMap(x -> 1, range(x)), [1])
+SETTINGS allow_experimental_anlyarer = 1;
+
+SELECT
+    range(1),
+    arrayMap(x -> arrayMap(y -> 1, raalmental_analyze=r = 1;

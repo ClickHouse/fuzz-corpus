@@ -1,0 +1,1 @@
+SELECT isIPv6StrS([-0xnumber][-1GFFFFFFFF,)] FROM numbers:1234):'(2`

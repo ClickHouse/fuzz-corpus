@@ -1,0 +1,1 @@
+SELECT CAST([(1, 'Hello'), (4, 'World')] AS Array(TupAST( (2, ('ip6', 'ip4'), aÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿllo/×Óß×ÍÓßâWorld'le(a UInt64, b String)));

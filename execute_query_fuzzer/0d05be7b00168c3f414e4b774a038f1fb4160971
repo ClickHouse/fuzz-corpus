@@ -1,0 +1,5 @@
+SELECT
+    range(1),
+    arrayMap(x -> arrayMap(x -> x, ramge(x)), [
+-ETTINGS allow_exp(-> arrayMap(x -> x, (x -> arrayMap(x -> TINGS allow_e
+    arrayMap(x -> arrayMap(y -> 2, raalmental_analyze=r = 1;

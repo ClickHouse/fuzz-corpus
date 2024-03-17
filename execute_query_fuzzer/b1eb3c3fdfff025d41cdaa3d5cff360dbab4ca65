@@ -1,0 +1,6 @@
+××××××××××eTree orderby c;
+
+inserne MergeTree orderby c;2.9;
+)
+
+select $;

@@ -1,0 +1,2 @@
+-- Tags Tect b'000';
+select b'0110000'+;

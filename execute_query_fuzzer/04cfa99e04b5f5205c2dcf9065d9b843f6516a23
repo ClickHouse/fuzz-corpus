@@ -1,0 +1,10 @@
+SELECT normalizeate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+     1.0 IN (3, 1., -1),
+    1 IN (3, 2< 1),
+-1) 
+,   1.0 [[[[[[[[[[[[[[Ì GROUP BY du_01075;
+
+ALTER USER test_user_01075 HOST IP '192.168.23.15';68.23.;‡15';
+SNOW CREATE USER 'teeááááeáááááááááááááÌÌÌÌÌÌÌÌÌÌÌ[[[[[[[[[IN (3[[[[[[[[[[[[[[[[[[ÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌ int   normalizedQueryHashKeepNames('SELECT 1 AS `aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee`')
+  = normalef`');

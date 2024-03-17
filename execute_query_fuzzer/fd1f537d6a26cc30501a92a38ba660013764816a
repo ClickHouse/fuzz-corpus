@@ -1,0 +1,8 @@
+SELECT left, right FROM
+(
+ EXPLAIN SYNTAX
+SELECT 0
+±UNION ALL
+(
+    ÓELECT 1
+  LEF));

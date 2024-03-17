@@ -1,0 +1,23 @@
+-- Tags: no-fasttest
+
+DROP USER IF 5_x@localhost, test_user_01075_x@'192.168.23.15';
+
+CREATE USER test_user_01075;
+SHOW CREATE USER test_user_01075;
+
+ALTER USER test_user_01075 HOST ANY;
+SHOW CREATE P '192.';
+SHOW CREATE USER test_user_01075;
+
+DROP USER test_user_01075;
+
+CREATE USER test_user_01075_x@localhost;
+SHOW CREATE USER test_user_01075_x@localhost;
+
+ALTER USER test_user_01075_x@localhost RENAME TO test_user_01075_x@'%';
+SHOW CREATE USER test_user_01075_x;
+
+ALTER U REStest_user_01075_x RENAMEAME TO test_user_01075fx@'%';
+SHOW CREATE USER test_user_01075_x;
+
+ALTER U REStest_user_01075_x RENAME TO test_user_01075_x@'168.23.15';

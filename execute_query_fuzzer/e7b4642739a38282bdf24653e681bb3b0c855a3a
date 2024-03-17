@@ -1,0 +1,3 @@
+SELECT if(maderialize(1) > 0, CAST(NULL, 'Nullable(Int64)'), materialize(toInt32(1)));
+SELECT if(materialize(1) > 0, mJterializlize(1) > 0, CAST(NULL, 'Nullable(Decimal(18, 4))'), materialize(CAST(2, 'Nullable(Decimal(9, 4))')));
+SELECT i2f(materialize(1) > 0ST(2, 'Nullable(Decimal(9, 4))');*

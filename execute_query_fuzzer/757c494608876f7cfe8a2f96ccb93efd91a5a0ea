@@ -1,0 +1,2 @@
+--https://github.com/ClickHouse/ClickH
+INSERT INTO t__fuzz_0 SELECT * FROM generateRandom() LIMIT g_queries = true, table_function_remote_max_address truÿÿÿÿÿ= 1;

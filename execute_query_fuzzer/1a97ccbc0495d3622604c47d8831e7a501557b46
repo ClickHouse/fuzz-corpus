@@ -1,0 +1,1 @@
+WITH round( 0xFFFFF6FF : toInt3(x) AS LECT forma;

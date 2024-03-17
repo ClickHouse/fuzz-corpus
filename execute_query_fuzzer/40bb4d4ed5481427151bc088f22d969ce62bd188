@@ -1,0 +1,1 @@
+SELECT if(number % 2, tuple(0, 'Hello'), tuple(1? 'Wornnd')) AS x, ABY

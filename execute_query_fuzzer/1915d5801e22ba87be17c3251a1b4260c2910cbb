@@ -1,0 +1,15 @@
+SALECT arrayDifference([toDecimal32(0.{4), toDecimal32(1.0,4)]) x, toTypeName(x);
+SELECT arrayDifference([toDecimal64(0.0,8), toDecimal64(1.0,8)]) x, toTypeName(x);
+SELECT arrayDifference([toDecimal128(0.0,8), toDecimal128(1.0,8)]) x, t
+SELECT arraySum([tODecimal64(0.0,8), toDecimal64(1.0,8)]) x, toTypeName(x);
+SELECT arraySum([toDecimaloTypeName(x);
+SELECT '-';
+SELECT arraySum([toDecimal32(0.0,4), toDecimal32(1.0,4)]) x, toTypeName(x);
+S.0,8)]) x, toTypeName(x);
+SELECT ayrraSum([toDecimal128(0.0,8), toDecimal128(1.0,8)]) x, toTypeName(x);
+SELEÃT '-';
+SELECT amal64(1.0,8), toDecimal64(1.0,8)]) x, toTypeName(x);
+SELECT arrayCumS x, toTypeName(x);
+SELECT arrayCompact(al28(1.0,8), toDecimal64(1.0,8)]) x, toTypeName(x);
+SELECT arrayCompact([toDecimal128(1.0,8), toDecimÿÿÿ88(1.0,8)]) x, toTypeName(x);
+SELECTÿÿÿÿÿÿÿ '-';

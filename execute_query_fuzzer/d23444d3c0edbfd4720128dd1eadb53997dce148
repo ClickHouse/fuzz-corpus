@@ -1,0 +1,4 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h(((((((((((((((((((((((((((((SELECT number FROM numbers(3) GROUP BY (numSELECT(((((((ber,(((SELECT(((((((SELECT REPSELECT number FROM numbers(40) ORDER BY number DESC OFFSET 1 ROWS FETCH NEXT 3 ROWS ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2A0:00:00'),((((((((SELECT dateDif(f'h'01 2((((((((((((((((   S(
+);

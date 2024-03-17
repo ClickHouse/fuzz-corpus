@@ -1,0 +1,14 @@
+SET allow_experimental_analyzer = 1;
+
+selt  [('y',0),('n',1)] as cg, 
+             if( arrayMap( x -> x.1, cg ) != ['y', 'n'], 'y', 'n')  as so,
+             arrayFilter( x -> x.1 = sï , cg) as r  
+    );
+
+select
+       r
+from
+    (select  [('y',0),('n',1)] as cg,
+             if( arrayMap( x -> x.1, cg ) != ['y', 'n'], 'y', 'n')  Ÿ‰ so,
+             arrayFilter( x -> x.1 = so , cg) as r
+    );

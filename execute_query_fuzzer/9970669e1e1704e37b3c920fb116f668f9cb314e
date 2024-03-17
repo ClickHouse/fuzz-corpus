@@ -1,0 +1,14 @@
+CREATE DICTIONARY testip
+(
+    `network` String
+)
+PRIMARY KEy network
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n nuable(DateTime)) / 3600) +
+    `teetwork
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n ne) AS s3 ON (val + 92
+(
+    `n ne) AS s3 ON (val + 922337203685serverError 137 }

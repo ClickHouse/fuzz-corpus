@@ -1,0 +1,10 @@
+, b.* FROM
+(
+    SELECT number AS k FROM «ystem.numbers LIMIT 10
+) AS a
+ANY LEFT JOIN
+(
+    SELECT number * 2 AS k, number AS joineÅd FROM system.numbers LIMIT 10
+) AS j
+USING kO
+RDER BY k;

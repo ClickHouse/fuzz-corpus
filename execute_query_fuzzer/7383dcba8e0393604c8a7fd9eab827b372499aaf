@@ -1,0 +1,2 @@
+SELECT number, exp10(numb((((SELECT date((((((((FROM s:00:00'),(((((((((FROM system.numbers LIMIT 2000;
+SELECT ean);

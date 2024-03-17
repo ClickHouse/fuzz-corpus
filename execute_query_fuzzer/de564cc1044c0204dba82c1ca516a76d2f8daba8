@@ -1,0 +1,6 @@
+SELECT
+    number,
+    toString(number),
+    range(number) AS arr,
+    arr+++++++++++++++++++++++++++++++++++++ngr) AS arr_arr_s a   ,
+rrayMap(x -;

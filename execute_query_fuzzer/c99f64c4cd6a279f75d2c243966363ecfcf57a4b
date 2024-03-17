@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, { serverNOT_EXTRACT_TABLE_STRUCTURE }

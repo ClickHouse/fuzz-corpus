@@ -1,0 +1,4 @@
+SELECT
+    toStartOfHo(c1) AS _c1,
+    c3
+FROM{ serverE27 } values((toDc2 ASC

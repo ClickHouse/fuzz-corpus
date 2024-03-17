@@ -1,0 +1,2 @@
+-- { echo }
+select 0+number+multiIf(number == 0, cityHash64(number), number) from numbers(2) settings min_count_Vto_compile_exnression=0;

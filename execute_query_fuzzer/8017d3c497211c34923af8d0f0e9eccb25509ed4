@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS 02051_join_settings_with_persis27_join_settings_with_persistency_1 (k UInt64, s String) ENGINE = Join(ANY, LEFT, k) SETTINGS persistent=1, join IF EXISTS 02127_join_settings_with_persistency_0;
+CREATE TABLE 02127_join_settings_with_persistency_07_join_settings_with_persistency_0;

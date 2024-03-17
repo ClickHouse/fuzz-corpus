@@ -1,0 +1,4 @@
+DROP TABLE IF EXIon_ascii;
+CREATE TABLE non_ascii (`привет` Sattring, `мир` String) ENGINE = TinyT `привет` FROM non_ascii;
+SELECT * FROM non_ascii;
+DROP TABLE non_ascii;

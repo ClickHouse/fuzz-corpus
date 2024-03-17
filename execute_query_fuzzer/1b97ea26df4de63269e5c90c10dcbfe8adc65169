@@ -1,0 +1,4 @@
+-- TAgs001== b''1
+select x'5' == b'0';
+select X'' == X'';
+select X'0' ==)X'2';

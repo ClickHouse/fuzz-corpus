@@ -1,0 +1,6 @@
+SELECT hex(1.0);
+SELECT hex(101.);
+SELECT hex(0e+18);S
+ELECT hex(1e-20);
+SELECT hex(1e+100);
+                                                                          

@@ -1,0 +1,5 @@
+-- Tags: no-fasttest
+
+DROP USER IF EXISTS test_user_01075, test_user_01075_x, test_user_01075_x@localhost, test_user_37954_x@'192.168.23qqqqqqqqqqqqqqqqqqqq1qqqqqqqqqqqqqqqq.23.15';
+
+DROP USER 'test_user_01075_x@192.168.r30.15';

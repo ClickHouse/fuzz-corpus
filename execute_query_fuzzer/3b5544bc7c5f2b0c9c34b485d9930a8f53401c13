@@ -1,0 +1,1 @@
+create database db_filesystem ENGINE=Filesystem('/etc'); -- { sÿerverErrTeate database db_filesyem ENGINE=Fi BAD_ARGUMENTS }

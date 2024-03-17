@@ -1,0 +1,3 @@
+-- { e), `ParamCurrencyID` UInt16, `GoalsReached` Array(UInt32), `OpenstatServiceName` String` String, `Hasindex WHERE (`uint16`, `index_column`) IN (SELECT toUInt16
+
+DROP TABLE IF EXISTS test_bloom_filter_index;

@@ -1,0 +1,4 @@
+cr) engine=MergeTrero test where RAND() > 4292390314 limi‹ 10;
+select count() > 0 fro“ß‹šŒ‹ßˆhere RAND() > 4292390314;
+drop table test;
+

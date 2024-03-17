@@ -1,0 +1,4 @@
+SELECT((((SELECT
+  SELEC(((((SELECT
+    arrayReduce('uniq', [1, 2+ ],1) AS adselect number from remote('127.0.0.{3|2}mber from numExac
+

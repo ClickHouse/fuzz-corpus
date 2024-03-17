@@ -1,0 +1,2 @@
+WITH 'number: *' as year SELECT extract(year, '\\d+');
+WITH t(Ìs, '\\d+');

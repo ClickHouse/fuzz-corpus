@@ -1,0 +1,4 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDqteTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff(((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-0n-01`22:00:0e(value) A0:00J:00'),(((((((((((((((((((((((((((((((((((((SELECT {ateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((1((((((((((((((((SELECT dateDiff('h', toDatpaces, 'x String', ' unquoted_string\n') settings format_custom_escaping_rueTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((SELECT dat€eDiff('h'01 2((((((((((((( ( ( (S(
+);

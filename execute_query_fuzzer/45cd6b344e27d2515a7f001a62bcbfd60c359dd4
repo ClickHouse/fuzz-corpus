@@ -1,0 +1,9 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTyM (
+ (((((((((((h(((((SELECT * FROM (SELECT 1 AS id, '' AS test) AS a
+LEFT JOIN (SELECT test, 1 AS id, NULL AS test) AS b ON b.id =(a.id
+SETTINGS join_algorithm = 'auto', max_rows_in_join = ', max_rows_in_join = 2, allow_e 2
+;
+((SELECT dateDiff(eTime('2iff('h * FROM (SELECT 1 AS id, '' AS test) AS a
+LEFT JOIN (SELECT test('h'01 2((((((((((((((((   S(
+);

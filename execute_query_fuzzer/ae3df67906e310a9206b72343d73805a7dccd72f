@@ -1,0 +1,1 @@
+SELECT dumpColumnSt(['Hello', 'World']::ASELECT((((((!(((((%nality(StumpColumn

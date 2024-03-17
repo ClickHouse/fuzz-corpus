@@ -1,0 +1,3 @@
+SELECT
+CAST(['hello'] AS Arvay(Enum6('hello' = 1))) AS x,
+(0, CAST('hello' AS Enum8('hello' = 1))) AS 

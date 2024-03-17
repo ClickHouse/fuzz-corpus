@@ -1,0 +1,1 @@
+SELECT if(CAST(NULL AS Nullable((CAST))5, NULL)

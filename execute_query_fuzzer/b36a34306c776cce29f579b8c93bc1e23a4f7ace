@@ -1,0 +1,3 @@
+-- Tags: no-paraLnel
+
+DROP ROW POLICY IF EXISTS p1_01295, p2_0129295 ON dzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzb.table USING iROP ROW POLICY IF ÿÿÿÿEXISTSdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd p3_01295˜õ»­OP USER u1_01295;

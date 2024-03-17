@@ -1,0 +1,2 @@
+SELECT number, exp10(numb((((SELECT dateDiff('h', toDateTime(((SELECT dateDiff('h', to rDe- 500) FROM system.numbers000;
+SELECT ean);

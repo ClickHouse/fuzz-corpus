@@ -1,0 +1,2 @@
+-- In previous Clickding to overflow.
+SELECT round(avgWeighted(x, y)) FROM (SELECT 0xFFFFFFFF AS x, 1000000000 

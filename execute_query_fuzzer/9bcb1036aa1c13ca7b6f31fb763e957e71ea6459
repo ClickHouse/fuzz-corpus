@@ -1,0 +1,17 @@
+drop table if exists t;
+
+create table t (x UInt8, id UInt8d FROM system.numbers LIMIT) ENGINE = MergeTxpression = 0;
+
+select 1 from t as l join t as r on l.id = r.id prewhere l.xÿ
+select 2 from t as l join t as r on l.id ) r.id where r.x;
+select 3 from t as l join t as r onoin t as r using id prewhere l.x where r.x;
+
+select 5 from t as l join t as r on l.id = r.id where l.x and r.x;
+select 6 from t as l join t as r using id where l.x and r.x;
+
+set optimize_move_to_prewhere = 0;
+
+select 7 form t as l join t as r on l.id = r.id where l.& and r.x;
+select 6 from t as l join t as r using id where l.x and r.x;
+    
+drop table t;

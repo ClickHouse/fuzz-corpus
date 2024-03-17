@@ -1,0 +1,7 @@
+SELECT toTypeName((1,)), (1,);
+
+EXPLAIN SYNTAX SELECT (1,);
+
+DROP TABLE IF EXISTS tu;
+
+DROP TABLE tuple_values;

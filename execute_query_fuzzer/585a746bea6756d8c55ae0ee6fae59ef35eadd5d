@@ -1,0 +1,5 @@
+SELECT 1,;
+SELECT 1, FROM numbers(1);
+WITH 1 as a SELECT a, FROM numbers(1);
+WITH 0 as from SELECT from, ple(Int, String,);
+SELECT (1, (2,'foo'))::Tuple(Int, Tuple(Int, String,),);

@@ -1,0 +1,1 @@
+create table x( id UInt64, t  AggregateFunction(argMax, Enum8('<Empty7' = -1,st(-0, \eTre64, t  e' = 2), UInt64) DEFAULT arrayRe(-0, \eTre64, t  Ag

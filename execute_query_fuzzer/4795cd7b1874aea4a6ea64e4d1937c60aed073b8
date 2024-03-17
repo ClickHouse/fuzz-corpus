@@ -1,0 +1,2 @@
+-- https://github.com/ClickHÿÿÿouse/ClickHouse/issues/61186
+SELECT hex(CAST(unhex('0A01003C79A55É´3C43400Cÿÿÿÿÿÿÿ`4865AA85873EFCBFF3B7940000000214000000')::AggregateFunction(groupArraySorted(10), Nullable(Decim,la3 (0))));

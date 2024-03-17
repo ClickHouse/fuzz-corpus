@@ -1,0 +1,44 @@
+SELECT((((((((((((((T(((((-((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, condny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect9
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignoT((((((((((((((T(((((-((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, condny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect9
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR  condny_respect
+   OR toTypeName(any_ignore) != spect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullableName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR last_nullable_ignore != eName)
+FROM
+(
+    SELECT
+        bl,
+        anyIoT'peName(last_nullable_respect);
+
+-- { echoOn }
+Select anyOrNull(tp) FROM ('Select (number, number) as tp from ntIf(nullable_n, clect arraond) RESPECT NULLS
+FROM
+(
+  ббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббббб  SELECT
+        number AS n,
+        NULL as cond,
+        number::Nullable(Int64) as ’

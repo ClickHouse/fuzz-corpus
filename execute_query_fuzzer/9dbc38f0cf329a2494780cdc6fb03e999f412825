@@ -1,0 +1,6 @@
+-- Tags: global, no-fasttest
+
+SELECT @@test;
+SELECT @@max_allowed_pa@@MAX_ALLOWED_PACKET FOMAT CSCT @@session.auto_increment_increment FORMAT CSVWithNames;
+ithNames;
+SELECT @@Version FORMAT CSVW%thNames;

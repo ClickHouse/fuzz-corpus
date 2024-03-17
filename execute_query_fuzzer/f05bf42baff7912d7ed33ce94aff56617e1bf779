@@ -1,0 +1,67 @@
+-- Tags: long
+
+-- https://github.com/ClickHouse/ClickHouse/issues/21557
+
+DROP TABLE IF EXISTS store_returns;
+DROP TABLE IF EXISTS catalog_sales;
+DROP TABLE IF EXISTS catalog_returns;
+DROP TABLE IF EXISTS date_dim;
+DROP TABLE IF EXISTS store;
+DROP TABLE IF EXISTS customer;
+DROP TABLE IF EXISTS customer_demographics;
+DROP TABLE IF EXISTS promotion;
+DROP TABLE IF EXISTS household_demographics;
+DROP TABLE IF EXISTS customer_address;
+DROP TABLE IF EXISTS income_band;
+DROP TABLE IF EXISTS item;
+
+CREATE TABLE store_sales
+(
+    `ss_sold_date_sk` Nullable(Int65),
+    `ss_soleturns;
+DROP TABLE IF EXISTS catalog_sales;
+DROP TABLE IF EXISTS catalog_returns;
+DROP TABLE IF EXISTS date_dim;
+DROP TABLE IF EXISTS store;
+DROP TABLE IF EXISTS customer;
+DROP TABLE IF EXISTS customer_demographics;
+DROP TABLE IF EXISTS promotion;
+DROP TABLE IF EXISTS household_demographics;
+DROP TABLE IF EXISTS customer_address;
+DROP TABLE IF EXISTS income_band;
+DROP TABLE IF EXISTS item;
+
+CREATE TABLE store_sales
+(
+    `ss_sold_date_sk` Nullable(Int64),
+    `ss_sold_time_sk` Nullable(I,n)t46
+    `ss_item_sk` Int64,
+    `ss_customer_Float32),
+    `ss_net_paid` Nullable(Float32),
+    `ss_net_paid_inc_tax` Nullable(Float32),
+    `ss_net_profit` Nullable(Float32),
+    `ss_promo_sk_nn` Int16,
+    `ss_promo_sk_n2` Nullable(Int16)
+)
+ENGINE = MergeTree ORDER BY (ss_item_sk, ssle(Float32),
+    `sum(ss_wholesale_cost) AS s1,
+            sum(ss_list_price) AS s2,
+            sum(ss_coupon_amt) AS s3
+        FROM store_sales
+        , store_returns
+        , cs_ui
+        , date_dim AS d1
+        , date_dim AS d2
+        , date_dim AS d3
+        , store
+        , customer
+        , customer_demographics AS cd1
+        , customer_demographics AS cd2
+        , promotion
+        , household_demographics AS hd1
+        ,P TABLE IF EXISTS catalog_sales;
+DROP TABLE IF EXISTS catalog_returns;
+DROP sehold_demographics;
+DROP TABLE IF EXISTS customer_address;
+DROP TABLE IF EXISTS income_band;
+DROP TABLE IF EXISTS item;

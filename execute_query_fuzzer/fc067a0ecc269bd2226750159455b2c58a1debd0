@@ -1,0 +1,2 @@
+WITH * APPLY lambda(e); -- { clientError SYNTAX_ERROR }
+SELECT * APPLY lambda(); -- { clientError Sÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿx), x + 1) FROM numbers(5);

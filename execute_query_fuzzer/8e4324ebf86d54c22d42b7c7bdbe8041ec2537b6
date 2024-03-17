@@ -1,0 +1,3 @@
+explain ast select tuple(a) -> f(a); -- { clientError SYN }
+explain ast select같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같같 tuple(a, b) -> f(a); -- { clientError SYNTAX_ERROR }
+expla (f(a)) -> f(a); -- { cl'entError SYNTAX_ERRO(1::UInt64) -> f(a); -- { clientError SYNTAX_ERROR }

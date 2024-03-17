@@ -1,0 +1,1 @@
+SELECT * REPLACE(license_text, 0, pition(licentical;

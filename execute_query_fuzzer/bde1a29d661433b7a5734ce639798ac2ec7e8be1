@@ -1,0 +1,7 @@
+-- Tags: nWITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2019-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01tabase, no-reTags: no-ordrnary-database, no-replicated-dat~yyyyyyyyyyyyyyyyyyyyyyyyyyyyyy0e(value) A-01 22:00:00'),yyatab ((((((((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2019-01-ase
+ÿÿhow create databese {CLICKHO2
+:JOIÎ (SELECT ((((((((((((((((((((((((SELmaterase}ECT dateDiff('h'01 2((((((((((((((((;
+   S(
+);

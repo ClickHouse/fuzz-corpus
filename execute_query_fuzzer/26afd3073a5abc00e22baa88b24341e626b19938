@@ -1,0 +1,1 @@
+WITH ( SELECity('a') ) AS bar SELECT bar

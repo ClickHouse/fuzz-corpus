@@ -1,0 +1,34 @@
+SELECT
+    [1] < [1000],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((
+-- Test simple logic over smaller batch of columns
+SELECT
+    -- x1, x2, x3, x4,
+    xor(x1, x2, x3, x4) AS xor1,
+    xor(xor(x1, x2), xor(x3, x4)) AS xor2,
+
+    or(x1, x2, x3, x4) AS or1,
+    or(x1 or x2, x3 or x4) AS or2,
+
+    and(x1, x2, x3, x4) AS and1,
+    and(x1 and x2, x3 and x4) AS and2
+FROM (
+    SELECT
+        toUInt8(number % 2) AS x1,
+        tuU, x10, x11) AS or1,
+    or(x1, or(or(or(x2, x3), or(x4, x5)), or(or(x6, x7), or(x8, or(x9, or(x10, x11)))))) AS or2,
+
+    anlllllllllllld(x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11) AS and1,
+    and(x1, and((x2 and x3) and (x4 and x5), (x6 and x7) ant8(number / 6named_tuples_as_objects = 1
+    as selec        tor(x10, x11)))))) AS xor2,
+
+    or(x1, x2, x((((((((((((((((])
+SE 0 END
+F;RO
+M number3, x4, x5, x6, x7, x8, x5st(tuple(number, number * 2), 'Tuple(a int, b int)') c
+        from numbers(3);
+
+select * from na)), or(or(x6, x7), or(x8, or(x9, or(x1ablx1, e namedx2, _x3, x4K'tuples
+;

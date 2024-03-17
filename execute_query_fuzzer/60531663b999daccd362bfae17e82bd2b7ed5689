@@ -1,0 +1,7 @@
+SELECT _shard_num FROM cluster("{de > 4292390314 limit 10;
+select co > 4292390314;
+drle test;
+0\0\0\ect000op table test;
+0\0\0\ect0sterAlt;
+0\0\0\ect000op table test;
+0\0\0\elicas("{default_cluster_macro}");

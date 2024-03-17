@@ -1,0 +1,2 @@
+-- Should correctly throw utflow:
+SELECT mapPopulateSeries([-9232(1023), -1]); -- { se

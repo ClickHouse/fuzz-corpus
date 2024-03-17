@@ -1,0 +1,7 @@
+SELECT
+    [1] < [1000],
+ (((((((((((((((((((((((((((()]) < materialize([([], ([], materialize([([], ([], [umber) over () > 0 THEN numb‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡HEN number + 1
+    EL'hello']))])
+SE 0 END
+F;RO
+M numbers(10)

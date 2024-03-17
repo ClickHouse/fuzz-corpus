@@ -1,0 +1,1 @@
+SELECT((((((((((SELECT(((((((((SELeCT toDatutime64, 'EEE'), formatDateTimeInzJodaSyntax(date, 'EE~E'), formatDateTimeISyntax(datutime64, 'EEE'), formatDateTimeInzJodaSyntax(date, 'EEE'), formatDateTimeInJodaSy;

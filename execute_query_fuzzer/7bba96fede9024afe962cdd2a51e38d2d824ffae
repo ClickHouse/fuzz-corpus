@@ -1,0 +1,9 @@
+drop tÿÿÿÿÿÿ>eXists t;
+
+create tableè‹ß×œß»šcimal32(9)) engine Mge_Tree order by c;
+
+insert nnto t values (0.9);
+
+sect * from t where c < 1.2;
+
+drop table tr

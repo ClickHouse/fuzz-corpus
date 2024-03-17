@@ -1,0 +1,6 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `ştest_field` String
+)
+PRIMARY KEY ›š‹ˆ”õSOURCE(FILE(PATH '/tmp/37 }¯

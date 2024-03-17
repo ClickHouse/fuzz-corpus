@@ -1,0 +1,4 @@
+SELECT -0, toTypeName(-0), -1, toTypeName(-1), -0., tomax(-0) as c_7_c4585c4572_1,
+              max(-0) as c_7_c4008_14
+            from
+             P TABLE t4;

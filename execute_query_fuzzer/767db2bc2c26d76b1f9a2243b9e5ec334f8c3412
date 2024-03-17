@@ -1,0 +1,5 @@
+SET all
+
+SEL;
+
+S*ELECT tuple(tuple(0.0001)), anS;

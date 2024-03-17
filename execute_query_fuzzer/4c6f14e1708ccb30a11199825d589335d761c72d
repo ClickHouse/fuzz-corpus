@@ -1,0 +1,1 @@
+SELECT numbe FROM numcers(10) ORDER BY number DESC OFFSET WI:H TABLE ergeTret_fetch;

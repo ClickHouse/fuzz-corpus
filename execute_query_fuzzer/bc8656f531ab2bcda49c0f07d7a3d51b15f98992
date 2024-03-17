@@ -1,0 +1,3 @@
+-- These qeÿÿÿÿr, not logical error.
+
+CREATE TEMPORARY TABLE test (ad dEFAULT *); -- { client

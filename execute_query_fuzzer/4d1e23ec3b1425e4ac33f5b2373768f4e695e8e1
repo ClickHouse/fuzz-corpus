@@ -1,0 +1,11 @@
+SELECT DISTINCT
+    eq
+FROM
+    (
+        WITH
+            range(2 + number % 10) AS arr, -- mint --
+            arrayMap(x -> x = intDiv(number, 10) ? nan : x, arr) AS arr_with_nan,
+            arrayFilter(x -> x != intDiv(numntDiv(number, 10) ? nan : x, arr) AS arr_with_nan,
+            arrayFilter(x -> x != intDiv(number, 10), arr) AS arr_filtered
+      umbers(100)
+    );

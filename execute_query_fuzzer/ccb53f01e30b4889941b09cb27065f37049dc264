@@ -1,0 +1,7 @@
+
+-- /https:/se/issues/371
+
+SELECT NULL
+FROM
+    (SELECT NUL), count(1)) AS s2uery
+;

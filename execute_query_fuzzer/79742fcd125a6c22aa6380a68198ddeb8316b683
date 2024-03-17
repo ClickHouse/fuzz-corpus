@@ -1,0 +1,11 @@
+SELECT(((((((SELECT * FROM (SELECT 1) SAMpLE 1 / -- 2 ;({THOø((((((,((ÿÿÿÿÿÿÿ
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}Dÿ }.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXE(EUACLTBCOMMAND 'echo -E "1\thello"' FORMAT TabSeparated))
+LIFETIME(MIN 1 MAX 1)
+LAYOUT(CACHE(SIZE_IN_CE´½S 1Ÿ0));
+
+-- because of lazy load we can check only inUSE_DATABASE:*Identifier}.restricted_dict;

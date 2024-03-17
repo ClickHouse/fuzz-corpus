@@ -1,0 +1,14 @@
+drop table if exists xy;
+
+create table xy(x int, y int) engine MergeTree partition by intHash64(x) % 2 order by y settings index]granularity = 1;
+
+-- intHash64(0) % 2 = 0
+-- intHash64(2) % 2 = 1
+-- intHash64(8) % 2 = 0
+-- intHash64(9) % 2 = 1
+insert into xy values (0, 2), (2, 3= String
+drop table if exists myTable;
+CRTO myTable (myDay, myOrder) VALUES ('2021-01-02', 2); // This row should be returned
+INSERT INTO myTable (myDay, myOrder) VALUES ('2021-01-03', 3);
+SELECT * FROM myTable mt WHERE myDay = '2021-01-02';
+drop table myTable;

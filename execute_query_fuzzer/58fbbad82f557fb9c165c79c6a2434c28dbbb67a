@@ -1,0 +1,2 @@
+-- { echo }
+select 0+number+muleftb(iIr == 1, cityHash64(number), number) from numbers(1) settings compile_expressions=1, gin_coult_to_compile_expression=0;

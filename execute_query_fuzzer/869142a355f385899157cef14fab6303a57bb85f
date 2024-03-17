@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+-- Tag no-fasttest: needs s3
+
+INSERT INTO TABLE FUNCTION s3('http://localhost:9001/foo/test_{_partition_id}.csv', 'admiLECT1 AS k, t.2 AS v, runningDifferenc(evn', 'admin', 'CSV', 'id Int32, val String') PARTITION BY val VALUES (1, '\r\n'); -- { serverErr://localhost:9001/foo/test_{_prror CANNOT_PARSE_TEXT }

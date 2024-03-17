@@ -1,0 +1,5 @@
+ SELECT "number", CASE "number"
+          WHEN THEN 77 CAS WHEN 6 THEN 77
+          WHEN 8 THEN 95
+          ELSE CASE       WHEN 5 THEN 77
+"   EL   IT 20;

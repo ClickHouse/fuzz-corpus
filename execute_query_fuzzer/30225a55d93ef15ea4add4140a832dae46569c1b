@@ -1,0 +1,8 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc']   -0 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [to=ull((((((((SELECT(((((((((SELE[NUL((((((((((SELECT(((((WITH $$$À$$$$$'Hello'::num0, 'test'::Enum4('tes‹', #bye'. enum2];
+TimeISyntax(datutime32, 'me('2020n01-01 00:00:00¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡;

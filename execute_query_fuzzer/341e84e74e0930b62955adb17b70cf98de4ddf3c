@@ -1,0 +1,31 @@
+SELECT * FROM forSELECT((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAnd(r2, ip1)), bin(bitAnd(ip2, n2)((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAnd(r2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n2, ip2)),
+       bin(bitOr(ip1, n1)), bin(bitOr(nExact,
+    arraySlice(arrayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [w,
+    topKWeightedExact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    yopKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_couact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    yopKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_counts,
+    approx_top_count(3, 6)(k) AS approx_top_count,
+    approxrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr_top_k(3, 6)(k) AS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospu_m
+FRnts,
+    approx_top_count.3, 6)(k) AS approx_top_coAS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospLECT
+        concat(countDigits(number * number), '_', intDiv(ELECT topKState(bin(bitOr(n1, ip1)), binCTURE_hedged_requests = 1, sleep_in_send_d), bin(bitAnd(n2, ip2)),
+       bin(bitOr(ip1, n1)), bin(bitOr(nExact,
+    arraySlice(arrayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [w,
+    topKWeightedExact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    yopKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_couact,
+    topK(3, 2, 'counts')(k) AS topK_crrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr_top_k(3, 6)(k) AS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospu_m
+FRnts,
+    approx_top_count.3, 6)(k) AS approx_top_coAS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospLECT
+        concat(countDigits(number * number), '_', intDiv(ELECT topKState(bin(bitOr(n1, ip1)), binCTURE_hedged_requests = 1, sleep_in_send_data_ms=10, receive_data_timeouimeIt_mnsJodaS=1;y;
+

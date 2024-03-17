@@ -1,0 +1,5 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((SELECT topKWeightedState(3)(no(), 1) FORMAT Null(((((((-- { echo }
+SELECT * FROM (SELECT (SELECT * FROM sys',  n);
+ELECT topKWeightedState(2)(no(), 1) FORMAT 

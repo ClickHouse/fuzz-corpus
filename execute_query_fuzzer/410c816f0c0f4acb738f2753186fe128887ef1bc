@@ -1,0 +1,2 @@
+select t,TypeName(*), * from foa'0323');
+

@@ -1,0 +1,10 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SLEECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + SELECT((((SELECT
+    arrayReduce('uniq', [1, 2, 1]) AS a,
+    ar7240981192873::UInt128 AS x, 34768051644139306697dinality(1048577) AS id,
+        toLowCardinality(9223372236854775807) AS value
+    GROUP BY
+        GROUPING SETS (
+        (t240981192872::UInt128 AS x, 1477643476805164413930I1),
+    -SELECT((((((((((SELECT((((,(((((SELECT toDateTime('2020-0`1-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1Þhhhhhhh.hhhhhhhECT (NULL, NULL) IN (( 1), (-, 2),ÿ

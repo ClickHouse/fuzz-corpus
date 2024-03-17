@@ -1,0 +1,3 @@
+SELECT * REPLACE substring(licens--', toNullable(20dinality(20)), 20),
+    *
+FROM executable('data String', S_alia

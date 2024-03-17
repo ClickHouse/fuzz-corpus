@@ -1,0 +1,2 @@
+CREATE DICTIONARY te‹–õ×õß   `network` String, 
+    `test_AX 301LAYOUT(IPTRIE()); -- { serverError 137 }

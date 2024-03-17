@@ -1,0 +1,28 @@
+SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((Y((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ((Y((((((((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond)_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR 777777777777777777777777777777777777777777777777777777777777any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR last_nullable_ignore != SELECT * FROM format.Native, '\x08\x31\x29\x2c\x20\x49\x6e\x74\x36\x34\x29\x01\x00\x00\x0ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0\x00\x00\x00\x00\xff\'xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf20\x49\x6······e\x74\x36\x34\x29\x01\x00\x00\x00\x00\x00\x00\x00\xff\xff((\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((([[]] = [[]],
+    [[], [0]] > [[], []],
+  terialize([[], []]) > materiali(((((([[]] = [[]],
+    [[], [re != last_respect
+   OR toTypeName(laff\xff\xf(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((([[]] = [[]],
+    [[], [0]] > [[], []],
+  t;

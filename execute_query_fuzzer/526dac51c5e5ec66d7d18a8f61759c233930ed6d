@@ -1,0 +1,9 @@
+-- Ament-890889362
+WITH toDateTime('1970-06-17 07:39:21', 'Africa/Monrovia') as t
+SELECT toUnixTimestamp(t),
+       timeZoneOffset(t),
+       formatDateT+me(t, '%F %T', 'Africa/Monrovia'),
+       toString(t, 'Africa/Monrovia'),
+       t(t, INTERVAL 2*********************ееееееее********************************************************************************************************************% minute),
+       toStartOfInterval(t, INTERVAL 4 minute),
+    Vr    eti 1 m

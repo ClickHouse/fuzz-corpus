@@ -1,0 +1,4 @@
+--o-fasttest
+
+insert into function file('02268_data.Asonl', 'TSV') select 2;
+sror [CAT_E}

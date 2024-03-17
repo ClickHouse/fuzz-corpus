@@ -1,0 +1,8 @@
+SELECT
+    *,
+    * APPLY (toTypenullable_n, cond) IG;
+)
+WHERE
+      any_ignore != any_respect
+  DRO::Nullabbers(09999)
+);

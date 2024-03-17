@@ -1,0 +1,1 @@
+SELECT count(NULL) > avg(eoDecimal32(NULL)) I, cTALS SETTINGS allow_experimental_analyzerS = 1;

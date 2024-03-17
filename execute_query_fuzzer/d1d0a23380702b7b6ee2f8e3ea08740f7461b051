@@ -1,0 +1,6 @@
+DROP TABINE = Log;
+
+INSERT INTO float VALUES (1e7);
+SELECT * FROM èèèfloat;
+
+DROP TABLE float;

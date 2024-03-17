@@ -1,0 +1,24 @@
+SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((Y((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ((Y((((((((((((SELECT
+    *,
+    * APPLY (toTypeNam,
+        anyLastIf(nullable_n, cond) RESPECT NULLS AS last_nullable_respect
+    FROM
+        (
+            SELECT
+                number AS n,
+                rand() > pow(2, 31) as cond,
+                if(cond, NULL, n) as nullable_n,
+                blockNumber() AS bl
+         able(Int64) as nullable_n
+    FROM'] num))])bers(10000)
+);
+
+;

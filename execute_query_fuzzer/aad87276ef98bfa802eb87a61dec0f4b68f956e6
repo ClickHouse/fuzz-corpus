@@ -1,0 +1,4 @@
+SELECT a *,b..* FROM
+(
+    SELECT number AS k FROM system.numystJOIN
+(CT a.*, b.* IR joined;

@@ -1,0 +1,1 @@
+select number % 2 ? mate % 2 ? materrs(3);

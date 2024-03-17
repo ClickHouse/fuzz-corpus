@@ -1,0 +1,2 @@
+
+SELECT * APPLY ldbama(range(x)); --S c) FROM rs(12) AS c;

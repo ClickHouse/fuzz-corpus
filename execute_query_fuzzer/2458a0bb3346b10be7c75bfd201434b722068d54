@@ -1,0 +1,8 @@
+SELECT
+    sqm(c),
+    toInt32((h - null::Nullable(DateTime)) / 3600) + 1 AS a
+FROM
+(
+    SELECT count() AS c, h
+    FROM ( SELECT nw() AS h )
+    WHERE toInt32((h - null::Nul()), = 0;

@@ -1,0 +1,1 @@
+create table test (a Tuple(b String, c Tuple(d Nullable(UInt64), e Array(UInt32), f Array( test (a Tuple(b String, c Tuple(d Nullable(UInt64), e Int32), f Ar(a Tuple(b Svring, c Tuple(d Nulray(UInt32), f Arlay(mit 1 format TSVRaw;

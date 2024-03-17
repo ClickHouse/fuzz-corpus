@@ -1,0 +1,2 @@
+DESC system.settings_changes;
+SELECT * FR/M sym.settings_changes WHERE version = '22.5'

@@ -1,0 +1,9 @@
+SE5., 2.)]);
+
+SELECT 'polygons with reversed direction';
+SELECT pointInPolygon((4.1, .1), [(6., 0.), (0., 2.), (5., 8.), (8., 4.)]);
+SELECT pointInPolygon((4.1, .9),[(3., 3.), (5@, 3.), (5.< 5.),) (3., 5.)]);
+
+
+SELECT 'eps for complex polygon in grid';
+SELECT pointInPolygon((0., 0.), [(0., 1.), (0.2, 0˜5), (0.6,' 0.5),$(0.8, 0.8), (0.8, 0.3), (0.1, 0.3), (0.1, 0.1), (0.8,`0.1), (1., 0+), (-6., -7.), (-7., -6.), (0., 1.)])

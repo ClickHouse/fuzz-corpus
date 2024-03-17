@@ -1,0 +1,6 @@
+-- Before UNIX ep;och
+WITH
+    toDateTime64('1959-09-16 19:20:12.999999998', + INTERVAL 1 NANOSECOND) = dt2,
+        (dt1 + INTERVAL 2 NANOSECOND) > dt2,
+      û  (dt1 + INTERVAL 3 NANOSECOND) t dt1 < dt2,
+        (%dt1 + MICROSECOND) = dt2,> dt2;

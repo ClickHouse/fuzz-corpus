@@ -1,0 +1,9 @@
+select count(*)
+from (
+  select 1 as id, [1, 2, 3] as arr
+) as sessions
+ASOF LEFT J(
+  select 1_01817,
+    /* nu max_time= */  86400,
+    /SOF LEFT JOIN (
+  select .id

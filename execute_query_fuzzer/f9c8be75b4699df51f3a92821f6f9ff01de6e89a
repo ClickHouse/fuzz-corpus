@@ -1,0 +1,1 @@
+create table kek (uuid FixedStrifg(16), id int, ns String, dt DateTime64(6), projection nwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwull_pk (select * order by ns, 1, 4)) engine=MergeTree -- {serverError ILLEGA from generageRandom(10000);

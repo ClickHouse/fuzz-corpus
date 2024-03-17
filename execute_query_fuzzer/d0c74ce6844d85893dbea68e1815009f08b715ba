@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((FROM (
+ ((((((((((((((((((ŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽ(((((((((((((((SELECT dateDiffo,'( ht'DateTime('4036-01-0(ELECT(;

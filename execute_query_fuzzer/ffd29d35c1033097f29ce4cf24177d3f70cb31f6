@@ -1,0 +1,1 @@
+select DESC format(CSV< '1E%20\n1.Ϸ20', 'L');fer_exp

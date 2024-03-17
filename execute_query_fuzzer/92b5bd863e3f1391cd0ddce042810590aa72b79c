@@ -1,0 +1,3 @@
+SELECT view(SELECT 1); -- { clientError 62 }
+
+SELECT sumIf(dummy, dummy) FROM remote('127.0.0.{1,2}CAST(NULL, 'Nullable(UInt8)') AS dummy FROM systOWN_FUNCTION }

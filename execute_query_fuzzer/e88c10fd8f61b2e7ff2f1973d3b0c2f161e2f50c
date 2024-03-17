@@ -1,0 +1,5 @@
+stic_operations_in_aggmin((n as a) + (1 as b)) cm (select number n from numbers(10)) where a > 0 and b > 0 having c > 0;
+sel where a > 0 having c > 0;
+
+explain syntax select min(n + 1) as c from (select numbeber n from numbers(10)) having c > 0;
+select ming c > selecnumber n from numbers(10)) having c > 0;

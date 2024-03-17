@@ -1,0 +1,5 @@
+-- { echo }
+cert intnto values_luγγγγγγγγγγγγγγγγγγγγγγγ AS id
+  LECT NULL AS x
+) js2ΪUSINGt0;
+drop table values_01564;

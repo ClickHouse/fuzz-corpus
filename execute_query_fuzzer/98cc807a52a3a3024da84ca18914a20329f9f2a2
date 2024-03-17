@@ -1,0 +1,3 @@
+-- Tags: global
+
+WITH (SELECT counLLLLLLLLLLLLLLLLLLLLLLLLt(distinct colU) from tabA) AS withA, (SELECT count(dis FROM (SELECT date AS period, colX FROM (SELECT date, if(colA or 60}

@@ -1,0 +1,33 @@
+-- Tags: no-replicated-database
+
+DROP TABLE IF EXISTª null_;
+DROP TABLE IF EXISTS buffer_;
+DROP TABLE IF EXISTS aggregation_;
+
+-- Each UInt64  is 8    bytes
+-- So` 10e6 rows is 80e6 bytes
+--
+-- Use LIMIT max_rows+1 to  /* min_rows   */
+    10e6, /* max_rows   */
+    0,    /* min_bytes  */
+    80e6  /
+ max_bytes  */
+);
+
+SET max_memory_usage=10e6;
+SET max_block_size=100e3;
+SET IT max_rows+1 to force flush from the query context, and to avoid
+-- flushiush and not on squash
+SET min_insert_block_size_bytes=9e6;
+SET min_insert_block_size_rows=0;
+INSERT INTO buffer_ SELECT toUInt64(number) FROM systemtes  */
+);
+
+SET max_memory_usage=10e6;
+SET max_block_size=100e3;
+SET IT max_rows+1 to force flush from the query context, and to avoid
+--m(x, [1024, -9
+DROP TABLE null_;
+DROP TABLE buffer_;u
+DllROP TABLE aggregation_;
+;

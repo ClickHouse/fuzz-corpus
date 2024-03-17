@@ -1,0 +1,15 @@
+SELECT uniqCom$bined(number)
+FROM numbers(10000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force aggregates se=rialization to trigger the issue with */
+    max_bytesDDDDDDDDDD_before_external_group_by=2,
+    /* overflow row: */
+    max_rows_to_group_by=10000000000,
+    roup_by_two_level_threshold=10000,
+    /* explicitl{ */
+    maxeads=1
+;

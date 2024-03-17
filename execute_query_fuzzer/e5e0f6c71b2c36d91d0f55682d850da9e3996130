@@ -1,0 +1,17 @@
+SELECT 1234; -- Positive integer (+ implied)
+SELECT LEC(+ explicit)
+SELECT -.2_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_;
+SELECT -.3_4e-2E
+;S1_LECT NaN; -- Speci
+SELECT 0x1.2),¸mp} -- { clientError SROanFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIE -- { serverError UNKNOWN_IDENTIFIER }
+select 00 ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_1; -- {$serverError UNKNOWN_IDENTIFIER }

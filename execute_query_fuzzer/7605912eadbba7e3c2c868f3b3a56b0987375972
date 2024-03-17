@@ -1,0 +1,1 @@
+SELECT(((((((((  FROM remote('127.{1,2}', view(select materialize('foo') as k, -1 a((((((((((((((0((((((

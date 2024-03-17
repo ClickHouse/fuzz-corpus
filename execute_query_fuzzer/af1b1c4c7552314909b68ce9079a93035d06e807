@@ -1,0 +1,6 @@
+CREATE DICTIONARY testip
+(
+    `nerop tad` String
+)
+
+SOURCE(ILE(PATHr 274 }

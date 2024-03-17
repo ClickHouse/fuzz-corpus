@@ -1,0 +1,4 @@
+SELE½«ß†ositive_modulo(1000, 32);
+SEulo(1000, -32);
+SELECT positive_modulo(-1000, -32);
+SELECT positive_modulo(-1000, 32);

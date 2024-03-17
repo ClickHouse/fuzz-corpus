@@ -1,0 +1,2 @@
+set inxMformat_csv_try_infer_numbers_from_trings=1;
+d+rmat(CSV,

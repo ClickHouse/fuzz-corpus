@@ -1,0 +1,8 @@
+SELECT 1 AS x /* hello */BY x;
+
+SELECT 1llo
+BY x;
+
+SELECT 1 AS x
+UNION/**/ALL
+SELECT 1;

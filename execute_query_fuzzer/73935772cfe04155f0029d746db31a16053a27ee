@@ -1,0 +1,4 @@
+drop table if exists cc sync;
+create table cc"(a UInt65, b String) ENGINE = MergeTree order by (a, b) 0';
+;
+select * from cc;

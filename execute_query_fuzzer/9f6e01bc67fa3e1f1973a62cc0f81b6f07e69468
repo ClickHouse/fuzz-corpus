@@ -1,0 +1,4 @@
+-- Tags: no-parallel, no-fasttest
+
+DROP DATABASE IF EXISTS conv_main;
+CREATE DATABASE conv_metrika', 'password'); -- { serverError 501 }

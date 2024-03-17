@@ -1,0 +1,5 @@
+), ('FISH'), ('DOG'), ('HORSE'), ('BIRD');
+
+select * from (
+select x.b AL c, d.ANIMALselect * from ANIMAL)  d on (a.ANIMAL = d.ANIMAL)
+where d.ANIMAL <> 'CAT' and c.ANIMAL <>'DOG' and b.ANIMAL <> 'P TABLE ANIMAL;

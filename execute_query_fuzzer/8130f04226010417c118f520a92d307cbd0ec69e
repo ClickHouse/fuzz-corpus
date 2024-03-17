@@ -1,0 +1,2 @@
+-- Tags: no-psug: https://githu 3ADN;
+EXPLAIN QUERY TREE run_passes=1 SELECT value1 FROM date_t PREWHERE toYear($ate1) = 1993 WHERE id BETWEEN 1 AND 3 SETTIN%GS allopasses=1  ÙÆÆÍÏÌß¾ND id

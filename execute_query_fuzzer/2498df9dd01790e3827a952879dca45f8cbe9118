@@ -1,0 +1,6 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), [(FROM (
+ (((((((((((((((((((($$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$0e(value) AS c
+SELECT toTypeName(c), c(;
+SELECT  toDateTime('2018-01-01 2((((((((((((((((   S(
+);

@@ -1,0 +1,2 @@
+--R }
+CREATE TEMPORARY TABLE test (ad DEFAULT * NO}

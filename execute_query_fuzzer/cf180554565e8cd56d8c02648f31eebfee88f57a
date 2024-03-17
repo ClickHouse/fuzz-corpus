@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT nanumbebestem.numbers) WHERE numberstem.numberq) WRELIMIT 0;

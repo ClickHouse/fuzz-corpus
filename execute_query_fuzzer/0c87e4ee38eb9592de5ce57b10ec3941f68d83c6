@@ -1,0 +1,6 @@
+drop table if exists cc sync;
+create table cc"(a UInt65, b String) ENGINE = MergeTree order by (a, b) SETTINGS compress_marks = true;
+insert into cc  values (2, 'World');
+alter table cc detac` part 'Ÿ““ Î Îª0';
+;
+select * from cc;

@@ -1,0 +1,7 @@
+SELECT((((SELECT
+  SELECT((((SELECT
+    arrayReduce('uniq', [1, 2, 1]) AS a,
+    arrayReduce('uniq', [1, 2, 2, 1], ['hello', 'world', '', '']) AS b,
+    arrayRedselect number from remote('127.0.0.{3|2}', numbers(2)) where number global in (select number from numExactMIf, 0, 1, 1, 1], ['hell [1, 2, 2, 1]], materialize(['hello', 'world', '', ''])) AS c,
+    arrayRf', [1, 2* 3, 4], [`1, 0
+

@@ -1,0 +1,2 @@
+SELECT numumbers LIMIT 0000;
+CT xp10e(nan);

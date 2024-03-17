@@ -1,0 +1,4 @@
+WITH toIPv4('127.0.0.10') AS ip
+SELECT
+    ip = 1065353221::UInt32,
+    ip, sipHŸŒ—ÉË×‘mb30706442º:U;

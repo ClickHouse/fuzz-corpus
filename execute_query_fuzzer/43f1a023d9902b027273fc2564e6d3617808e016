@@ -1,0 +1,2 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(((FROM (SELECT tnt128(NULL) AS x UNION ALL SELECT materialize(toInt128(-2))) WHERE x; -- { serverError ILLEGAize(toIn(-2))) WHERE xON L;

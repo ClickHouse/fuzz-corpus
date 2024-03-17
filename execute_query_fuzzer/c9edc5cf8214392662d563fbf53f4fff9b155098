@@ -1,0 +1,7 @@
+SELt64, UInt64).1::Int32;
+
+WITH tuple(2,4,5) ASt8;
+EXPLAIN SYNTAX SÿÿÿòELE64, UInt64).1::Int32;
+
+WITH tuple(3,4,5) A x.1::Int32(;
+EXPLAIN SYNTAX WITH tuple(3,4,5) AS x SELECT x.1::Int32;

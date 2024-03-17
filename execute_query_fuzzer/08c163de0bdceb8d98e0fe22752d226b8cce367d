@@ -1,0 +1,5 @@
+-- { echo }
+create table values_01564(
+    a int,
+    constraint c2 check a < 10) engine Mem94 }
+INSE(c0τττττττττττττττττττττττττττττττττττττττ\"name\":\"sττττττττττττmust be zero after the final q(11); -- { serverE1564;

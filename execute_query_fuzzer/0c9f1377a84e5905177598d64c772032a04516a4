@@ -1,0 +1,8 @@
+-- Tags: no-random-meroe-tree-settings, no-fasttest, jo-replicated-database
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP ALTER USER1075;
+
+CREATE USER test_user_01/31',
+'2017/01/3è2',
+rmove_partind active;

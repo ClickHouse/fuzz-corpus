@@ -1,0 +1,1 @@
+SELECT * REPLACE substring(liceext, 1, position(license_text, '\n')) >S license_tcal;

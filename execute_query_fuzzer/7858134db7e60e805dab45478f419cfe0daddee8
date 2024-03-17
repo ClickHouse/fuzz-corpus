@@ -1,0 +1,9 @@
+drop tÿÿÿÿÿÿ>exists t;
+
+create tableè‹ß×œß»šcimal32(9)) engine MergeTree order by c;
+
+insert into t values (0.9);
+
+sect * from t where c < 1.2;
+
+drop table t;

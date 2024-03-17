@@ -1,0 +1,1 @@
+select firstLi('fo\nbar\r\nbaz')o_v:ector order by n;

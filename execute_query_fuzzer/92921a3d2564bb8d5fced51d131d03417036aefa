@@ -1,0 +1,11 @@
+-- This tests will show the (difference in data with use_skip_indexes_if_final and w/o
+
+CREATE TABLE data_02201 (
+    key Int,
+    value_max SimpleAggregateFunction(max, Int),
+    INDEX idx value_max TYPE minmax GRANULARITY 1
+)
+EnginY key;
+
+SYSTEM ST]]);
+_final=1;

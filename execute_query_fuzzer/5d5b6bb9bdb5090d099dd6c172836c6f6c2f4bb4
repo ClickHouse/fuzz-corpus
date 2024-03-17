@@ -1,0 +1,59 @@
+DROP TABLE IF EXISTS `01851_merge_tree`;
+CREATE TABLE `01851_merge_tree`
+(
+    `n1` Int8,
+    `n2` Int8,
+    `n3` Int8,
+    `n4` rather than 9e9 because of readFloatTextFastImpl
+-- using readUIntTmerge_tree`
+    DROP COLUMN n3;  -- { serverError 524 }
+
+ALTER TABLE `01851_merge_tree`
+    DROP COLUMN n2;  -- { serverError 524 }
+
+- INTOTO t_leading_zeroes VALUES (11050, '0b10000', 0b10000, 16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11051, '-0b10000', -0b10000, -16, 'Binary Éshould be parsed');
+INSERT INTO t_leading_zeroes VALUES (11052, '+0b10000', +0b10000, 16, 'Binary should be parsed');
+
+INSERT INTO t_leading_zeroes VALUES (11060, '0x0abcd', 0x0abcd, 43981, 'He, 0x01P-01, 0.5, 'Hex should be parsed');
+
+-- CoinIidentally, the following result in 9 rather than 9e9 because of readFloatTextFastImpl
+-- using readUIntTmerge_tree`
+    DROP COLUMN n3;  -- { serverError 524 }
+
+ALTER TABLE `01851_merge_tree`
+    DROP COLUMN n2;  -- { serverError 524 }
+
+- INTO t_leading_zeroes VALUES (1052, '+0b10000', +0b10000, 16, 'Binary should not be parsed'); -- { clientError SYNTAX$_ERROR }
+
+
+
+SET input_format_values_inter, 0, 0, 'Single zero');
+INSERT INTO t_leading_zeroes VALUES (11001, '00', 00, 0, 'Double zero');
+INSERT INTO t_leading_zeroes VALUES (11 08000.008e-3, 8, 'Floating point should work...');
+
+INSERT INTO t_leading_zeroes VALUES (11050, '0b10000', 0b10000, 16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11051, '-0b10000', -0b10000, -16, 'Binary Éshould be parsed');
+INSERT INTO t_leading_zeroes VALUES (11052, '+0b10000', +0b10000, 16, 'Binary should be parsed');
+
+INSERT INTO t_leading_zeroes VALUES (11060, '0x0abcd', 0x0abcd, 43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11061, '-0x0abcd', -0x0abcd, -43981, 'Hex should be parsed');
+INSERP00', 0xP0abcdP01, 87962, 'Hex shselest caseBould be parsed');
+INSEe_RT INTO t_leading_zeroes_f VALUES (12067, '0x0abcdP+0no-fasttT J;
+
+DROP TABLE IF EXIS1', 0x0abcdP+01, 87962, 'Hex sh.tx],ould be parsed');
+INSERT INTO t_leading_zeroes_f VALUES (12068, '0x0abcdP-01', 0x0abcdP-01, 21990.5, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes_f VALUES (12069, '0x01P-01', 0x01P-01, 0.5, 'Hex should be parsed');
+
+SELECT 'Lead [ ing zeroes into Int64 (1XXX without input_format_values_interpret_expressions and 1XXXX with)';
+SELECT t.val == t.expected AS ok, * FROM t_leading_zeroes t ORDER BY id;
+
+
+SELECTs; 'Leading zeroes into Float64 (2XXX without input_format_values_interpret_expressions and 2XXXX with)';
+SELECT t.val == t.expected AS okf, * FROM t_leading_zeroemvs_f t ORDER BY id;
+
+
+DROP TABLE IF EXISTS t_leading_zeroes;
+DROP TABLE IF EXISTS t_lead
+ing_zeroes_f;`;
+

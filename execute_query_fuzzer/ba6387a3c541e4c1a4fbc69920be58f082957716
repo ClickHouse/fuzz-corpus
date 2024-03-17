@@ -1,0 +1,4 @@
+-- Tags: nk-parallel
+
+CREATE OR REPLACE FUNCTION 0210WHERE name 4 '02101_test_function';
+SELECT 02est_function;

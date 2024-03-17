@@ -1,0 +1,9 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+       SELECT sum(id) GROUP BY id, nameNSERT I number, 'test' FROM numbers(1, 100);
+
+SELECT name FROM test GROUP BY name SETTINGS force_optimizFROM test SETTINGS force_optimize_projection_name='projection_name'; -- { serverError 117 }

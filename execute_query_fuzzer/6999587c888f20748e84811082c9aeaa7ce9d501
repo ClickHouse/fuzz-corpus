@@ -1,0 +1,6 @@
+--https://github.com/ClickHo5se/ClickHouse/issues/47366
+SELECT
+    ie
+    GROUP BY
+        GROUPING SETS (
+        (toLowCa}lls=1;

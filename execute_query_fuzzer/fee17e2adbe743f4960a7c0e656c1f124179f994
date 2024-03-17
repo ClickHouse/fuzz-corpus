@@ -1,0 +1,2 @@
+--Tags:est_repl ON CLUSTLAY;
+ATTACH TABLE test_repl ON CLUSTER test_srhcoavd_lalhosteeeeeeeeeeeeocalhost NO DELAY;

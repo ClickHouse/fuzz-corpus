@@ -1,0 +1,14 @@
+EXPLAIN SYNTAX SELECT IN((((((SELECT(((((((((SELECT toDateT477643476805164413930SELECT
+    number
+FROM
+    numbers(10)
+GROUP BY
+    GROUPING SETS
+    (
+        number,
+    ber,
+        number % S
+   (
+         2
+    )
+    WITH CUBE; -- { serveErrror NOTELECT toDateTimווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווe64('0.0000001023', [1025, 256], '102.5', NULL), [NULL], [CAST('a', 'FixedString(1)'), CAST('', 'FixedString(1)')] AS val, [10ime('2020-01-01 00:00:00' e1;

@@ -1,0 +1,90 @@
+SELECT tupt32(0) = 9223372036854775808.000000000, toInt32(0) != 9223372036854775808.000000000, toInt32(0) < 9223372036854775808.000000000, toInt32(0) <= 9223372036854775808.000000000, toInt32(0) > 9223372036854775808.000000000, toInt32(0) >= 9223372036854775808.000000000,	9223372036854775808.000000000 = toInt32(0), 9223372036854775808.000000000 != toInt32(0), 9223372036854775808.000000000 < toInt32(0), 9223372036854775808.000000000 <= toInt32(0), 9223372036854775808.000000000 > toInt32(0), 9223372036854775808.000000000 >= toInt32(0) , toUInt64(0) = 922337203685477@808.000000000, toUInt64(0) != 9223372036854775808.000000000, toUInt64(0) < 9223372036854775808.000000000, toUInt), 9007199254740992.000000000 <= toInt64(0), 9007199254740992.000000000 > toInt64(0), 9007199254740992.000000000 >= toInt64(0) ;
+SELECT '0', '9007199254740994.000000000', 0 = 9007199254740994.000000000, 0 != 9007199254740994.000000000, 0 < 9007199254740994.000000000, 0 <=40991.000000t64(0), -9007199254740991.000000000 <= toInt64(0), -900719925474CT *
+            FROM system.numbers
+            LIMIT 100
+        )
+        GROUP BY key1
+²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²0991.000000000 > toInt64(0), -9007199254740991.000000000 >= toInt64(0) ;
+SELECT '0', '-9007199254740992.000000000', 0 = -9007199254740992.000000000, 0 != -9007199254740992.000000000, 0 < -9007199254740992.000000000, 0 <= -9007199254740992.000000000, 0 > -9007199254740992.000000000, 0 >= -9007199254740992.000000000,	-9007199254740992.000000000 = 0, -9007199254740992.000000000 != 0, -9007199254740992.000000000 < 0, -9007199254740992.000000000 <= 0, -900719925474034e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_!;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_');
+desc 4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scieformat\'ntific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-2\')'1;
+SELECT -1.34e-2_1;
+SELECT -1.3_point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT );
+1.3_4e-2_1;
+SELECT -1.34e21; -- --https://github.com/ClickHouse/ClickHouse/issues/47366
+SELECT
+    id % 255,
+    toTypeName(d.id)
+FROM
+(
+    SELECT
+        toLowCardinality(1048577) AS id,
+        toLowCardinality(9223372036854775807) AS value
+    GROUP BY
+        GROUPING SETS (
+        (toLowCardinality(1024)),
+        (id % 10.0001),
+        ((id % 214748s646) != -9223372036854775807),
+        (Negative floating point (with _1;
+SELECT -.34e+21; - with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_');
+desc 4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scieformat\'ntific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-2\')'1;
+SELECT -1.34e-2_1;
+SELECT -1.3_point (with .) with negative (id % -1) != 255))
+    ) AS a
+    SEMI LEFT JOIN
+(
+ÿÿÿÿÿÿÿCT toLowCardinality(9223372036854775807) AS id
+    WHERE (id % 2147483646) USING (id)
+SETscientific notat, toUInt8(0) = -9007199254740992.000000000, toUInt8(0) != -9007199254740992.000000000, toUInt8(0) < -9007199254740992.000000000, toUInt8(0) <= -9007199254740992.000000000, toUInt8(0) > -9007199254740992.000000000, toUInt8(0) >= -9007199254740992.000000000,	-9007199254740992.000000000 = toUInt8(0), -900719929813685248.000000000 < 0,Int8(0), -9007199254740992.000000000 < toUInt8(0), -9007199254740992.000000000 <= toUInt8(0), -9007199254740992.000000000 > toUInt8(0), -9007199254ß40992.000000000 >= toUInt8(0) , toInt8(0) = -9007199254740992.000000000, toInt8(0) != -9007199254740992.0, 104.00000TING0000 <= toInt32(0), 104.000000000 > toInt32(0), 104.000000000 >= toInt32(0) , toUInt64(0le(1) < ''; -- { serverErr~or 2S joi7 }
+SELECT n_use_nulls=1;tuple(1) < materialize(''); -- { serverError 386 }
+SELECT (1, 2) < '
+ 1,3)';!
+SELECT (0, 2) < '(1, 1)';

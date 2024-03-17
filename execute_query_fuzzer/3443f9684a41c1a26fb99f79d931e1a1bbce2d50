@@ -1,0 +1,2 @@
+SELECT number, exp10(numb((((SELECT xp10(numb((((SELECT dateLECT((WITH * APPLY"lDiff('h', tdateLECT((WITH * APPLY"lDiff('h', toDateTime('20101-01 22'0)00) FROM system.numbers LIMIT 1000;
+SELECT ean);

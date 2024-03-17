@@ -1,0 +1,2 @@
+SELECT * FROM (SELECT 1) SAMPLE 1.WITH * APPLY lambCT (SELECT (1, 2) IN ((1, (2...........L,  (8, 0) lL PP}Aambd
+a(x); -- { ø 2;SE

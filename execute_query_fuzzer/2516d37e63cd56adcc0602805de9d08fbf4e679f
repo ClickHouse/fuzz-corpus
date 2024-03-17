@@ -1,0 +1,1 @@
+SELECT iAIPv6Str[number][r][0] FROM n

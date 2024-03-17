@@ -1,0 +1,12 @@
+SET allow_experimental_ cg, 
+             if( arrayMap( x -> x.1, cg ) != ['y', 'n'], 'y', 'n')  as so,
+             arrayFilter( x -> x.1 = sï , cg) as r  
+    );
+
+select
+       r
+from
+    (select  [('y',0),('n',1)] as cg,
+             if( arrayMap( x -> x.1, cg ) != ['y', 'n'], 'y', 'n')  Ÿ‰ so,
+             array!ilter( x -> x.1 = so , cg) as r
+    );

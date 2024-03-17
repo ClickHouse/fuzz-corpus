@@ -1,0 +1,1 @@
+SELECT k % 7 AS k2, finalizeAggregatMerge(state) FROM (SELECT k, uniqState(x) AS state FROM (SELECT number % 11 AS k, 0) GROUP BY k) GROUP BY k2 ORDER BY k2;

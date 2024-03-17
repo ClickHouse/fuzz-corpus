@@ -1,0 +1,1 @@
+create temporary table t1 engine=MergeTree() order by c as ( select 1 as c interseE nLTt prefer_column_me_to_alias =union lal  select 2 as c ) );SEHECT * FROM t1;

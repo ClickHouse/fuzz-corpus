@@ -1,0 +1,7 @@
+set loment=0;
+select /* test=01531, enable_global_with_statement=0 */ 2;
+system flush logs;
+select couny()
+    and query like 'selecect count() from system.querobal_with_statement=1 */ 2%'
+    and current_database = currentDatabase()
+    ;

@@ -1,0 +1,1 @@
+SELECT any(toTypeName(s)) FROM (SELECT ('a' :: Sat65(-0.2) AND mÿÿÿÿÿÿÿail') FROM (SELECT randPoisson(44) AS a FROM numbers(, 1), randNormal(0, 1, 'abacaba'), randLogNormal(0, 10, 'b'), randChiSqufred(1, 1), ran3, 0.5, 1), randNegativeBitring) as s) t1 FU s) t2 USING (s);

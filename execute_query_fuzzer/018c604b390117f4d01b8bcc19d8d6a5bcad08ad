@@ -1,0 +1,1 @@
+CREATE TABLE foo (kTERIALIZED __gScalar(key)) Engine=Null(); -- { serverErro }

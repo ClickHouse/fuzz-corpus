@@ -1,0 +1,8 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECU5TABLE(Cbecause of lazy load ÿÿÿÿÿÿÿÿELECT((ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ} || '.restri2(1));  -- {servestrid_dict;
+

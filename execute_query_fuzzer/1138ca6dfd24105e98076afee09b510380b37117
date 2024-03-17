@@ -1,0 +1,12 @@
+SELECT formatQuerySingleLine('set additional_table_filters = {\'kjsnckjn\': \'ksanmn\', \'dkm\': \'dd\'}');
+SELECT'3130'; -- 10
+select X'e6b58be8af95' == '测试';
+
+
+select= b'';
+select x'0' == b'0';
+select`X'' == X'';
+sel1 FORMAT Vertical;
+
+DROP VIEW v1;
+DROP TABLE t1;

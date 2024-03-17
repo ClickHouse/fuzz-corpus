@@ -1,0 +1,4 @@
+-- Tags: shard
+
+SELECT toUInt64, xx, x, x,
+    x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x,AS x, toUInt8(x + 1));

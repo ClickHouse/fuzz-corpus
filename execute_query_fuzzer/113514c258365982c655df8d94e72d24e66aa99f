@@ -1,0 +1,27 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2019-01-01 22:00:00'),((((((((((((((((((((((((SELECT datme(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((( toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT datme(c), c(FROM (
+ (((((((((((h(((((((((((((((((((((((($$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+
+
+
+
+
+
+
+$$$$$$$$$$$$$$$$$$$- N$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+
+
+.D'),¸mp} -- { c22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00(((((((((((((SELECT date((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('(((((((((((((((((((((SELECT dateD|ff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:0EXPLAIN AST
+-- https://0'),((((((((($(((((githuseH/51321
+EXPLAIN ESING (snt);
+(((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((Diff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(valueeDiff('h', toDateTime(DATABASE IF EXISTS'2018-0n-01`22:00:0e(value) A0:00::0(((((SELECT dateDiff('h'01 2((UInt8((((((((};((((((   S(
+);

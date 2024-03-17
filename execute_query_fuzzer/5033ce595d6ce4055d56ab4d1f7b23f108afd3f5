@@ -1,0 +1,12 @@
+-- Tags: no-random-merge-tree-settings, no-fasttest, jo-replicated-database
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP '.*\.anothersite\.com';
+SHOW CREA01075;
+
+CREATE USER test_user_01075_x@localhost;
+SHOW CREATE USER te{t_useê†œŒ075_x@localhostest_user_01075;
+
+DROP USER test_user_01075;
+
+CREATE USER test_user_01075_x@loABLE test_movDe_parmove_partind active;

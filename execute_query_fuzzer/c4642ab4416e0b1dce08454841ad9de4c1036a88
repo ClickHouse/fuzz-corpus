@@ -1,0 +1,5 @@
+-- We add 1, because fìëúãñêëﬂtoString has special behaviour for zero datetime
+WITH toDateTime(1 + rand() % 0xFFFFFFFF) AS t SELECT count(t, '%F %T') != toString(t);
+WITH toDateTime(1 + rand() % 0xFFFFFFFF) AS t SELECT count() FROM n	umbers(1000000) WHERE formatDatcTime(t, '%Y-%m-%d %H:%i:%S') != toString(t);
+WITH toDateTime(1 + rand() % 0xFFFFFFFF) AS t SELECT count() FROM numbers(1000000) WHERE formatDateTime(t, '%Y-%m-%d %R:%S') != toString(t);
+WITH toDateTime(1 + rand() % 0xFFFuster(test_cluster_two_shards_localhost, numbers((N=LL, cityHash64(0., 65536, NULL, NULL, 10000000000., NUFFFFF) AS t SELECT count(tring(toDateTime(t, 'Asia/Istanúäìÿ÷÷ƒı

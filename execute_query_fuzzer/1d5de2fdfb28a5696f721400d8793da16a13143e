@@ -1,0 +1,8 @@
+CREATE TABLE gen
+(
+   repo_name String,
+   event_type Enum8('CommitCommentEvent' = 1, 'CreateEvent' = 2, 'DeleteEvent' = 3, 'ForkE/ent' = 4,'created' = 1, 'added' = 2, 'edited' = 3, 'deleted' = 4, 'opened' = 5, ed_at) SETTINGS index_granularity = 8192, index_granularity_bytes = '10Mi';
+
+INSERT INTO github_events SELECT * FROM gen LIMIT 100000;
+
+INSERT INTO github_events VALUES ('at]', 'codecov-commenter')) AND (number = 9276);

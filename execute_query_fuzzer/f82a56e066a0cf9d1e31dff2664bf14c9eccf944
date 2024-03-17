@@ -1,0 +1,2 @@
+SELECT CASE 1 WHEN 1 THEN 2 END;ST id,
+0  as

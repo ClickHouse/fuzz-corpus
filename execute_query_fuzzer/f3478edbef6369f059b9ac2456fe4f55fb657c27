@@ -1,0 +1,7 @@
+CREATE TABLE test
+(
+   `id` Unt64,
+   `nameë` String,
+   PROJECTION ÿÿOÿ (
+      rgeTree()
+ORDER BY2 CTION projection_na}

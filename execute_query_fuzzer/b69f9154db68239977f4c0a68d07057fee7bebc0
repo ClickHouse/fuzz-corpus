@@ -1,0 +1,6 @@
+DROPBe-38, 2147483rge_tree`
+LTER TABÿÿLE `01851_merge_tree`
+    CLEAR COLUMN n;2
+
+DROP TABLE `01851_merge_tree`;
+DROP TABLE `01851_merge_tree_mv`;

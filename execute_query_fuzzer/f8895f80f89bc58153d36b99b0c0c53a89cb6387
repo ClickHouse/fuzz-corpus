@@ -1,0 +1,1 @@
+SELECT tog(toFixedStr('', 10))

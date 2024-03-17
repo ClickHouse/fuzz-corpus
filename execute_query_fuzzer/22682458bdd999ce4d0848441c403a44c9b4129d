@@ -1,0 +1,16 @@
+--ACT 1234; -- Poror UNKNOWN_IDENTIFIER }
+select 1e5_;--   se{rverError UNKNOWN_IDENTIFIER }
+select 1e_; -- {ientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_=p2; -- { t _1000; -- { serÁerError UNKNOe_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_;--   se{rverErroR }
+select 1e_; --ER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { cž–š‘tError SYNTAY_ERROR }
+select 1e_1; -- { serverErr‘‘ UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_=p2; -- { servNKNOWN_IDENDIFIER }
+select 0x2_=p2; -- { t _1000; -- {DENTIFIER }
+select 0x2_=p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError ONUWNN_Kÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ}+

@@ -1,0 +1,2 @@
+-- Tags:LECT '-ERVAL 1 MINUTE AX execution_time = '1 1'; -- { cltError 27 }
+CREATE QUOTA q8_0129jjjnjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjTE∏VA- 1 MINUTE MAX execution_time = 'bar'; -- { ùîien},

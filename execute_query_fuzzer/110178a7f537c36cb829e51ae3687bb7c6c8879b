@@ -1,0 +1,8 @@
+-- }
+SELECT * APPLY lambda(tuple(x), 1FM O)R numberonerror=\\"javaript:alert(1)\\">", \n  "<EXPLAIN SYNTAX CREATEimg \\\\x12src=x onerror=\\"javascript:alert(1)\\">", \n  "<img1\\\\x47src=x onerror=\\"javascript:alert(1)\\">", \n  "<img\\\\x)</script>", \n  "\\"`\'><script>\\\\x20javascript:alert(1)</script>", \n  "\\"`\'><script>\\\\xC2\\\\xA0javascript:alert(1)</script>", \n  "<img \\\\x00src=x onerror=\\"alert(1)\\">", \n  "<img \\\\x47src=x onerror=\\"javascript:alert(1)\\">", \n  "<img \NTAX_ERROR }
+SELECT * APPLY lambda(range(x)); -- { clientErßor SYNTAX_ERROR }
+SELECT * APPLY l "<img \\\\x47lrc=x onerror=\\"javascript:alert(1)\\">", \n  "<img \\\\x34src=x onerror=\\"javsrc=
+
+ES XPLAINYNTx:x onerror=javascript:alert(1p1048;
+EXISTS TABLE dE db00S _Adl
+*EXI01ABLE A

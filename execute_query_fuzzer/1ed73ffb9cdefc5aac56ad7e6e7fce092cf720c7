@@ -1,0 +1,6 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeNamec(FROM (
+ (((((((((((((((((   SELECT NULL as value
+    UNION ALL
+    SELECT 0 as value
+);

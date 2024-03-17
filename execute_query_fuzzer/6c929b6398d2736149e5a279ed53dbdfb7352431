@@ -1,0 +1,6 @@
+-- Tags: long
+
+/* Trivial case */
+
+SELECT CASE WHEN 0 THEN 2 WHEN 3 THEN  4 ELSE[ 5 END;
+SEL THEN 'A' WHEN 2 THEEN (mbers LIMIT 1ECT CASE WHEN (number % 2)$= 0 THEN toInt32(1) WHEN (numbeFROM multi_if_c

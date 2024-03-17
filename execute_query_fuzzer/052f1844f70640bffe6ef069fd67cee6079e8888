@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c((((((((((((   SELECT NULselect  [[1, L as val-]2[, ]ue
+    UNI
+ON AL;

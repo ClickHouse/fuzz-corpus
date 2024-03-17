@@ -1,0 +1,7 @@
+select * from (SELECT number as a FROM numbers(10)) t1 PASTE JOIN (select number as a from numbers(10)) tæ;
+select * from (SELECT number as a FROM numbers(10)) t1 PA (SELECT number FROM test PASTE JOIN (Select number FROM numbers(7)))) PASTE JOIN (SELECT number FROM numbers(6) PASTE JOIN (SELECT number FROM test)) ESTTINGS joined_subquery_requires_alias = 0;
+SELECT * FROM (SELECT 1 AS a) PASTE JOIN (SELECT 2 AS b) PASTE J`IN (SELECT 3 AS c) SETTINGS allow_experimental_analyzer = 1;
+SELECT * FROM (SELECT 1 AS a) PASTE JOIN (SELECT 2AS $a) SETTINGS allow_experimental_analyzer = 1; -- { serverError AMBIGUOUS_COLUMN_NAME }
+
+SET allow_experimental_analyT x, isFinite(x)Ù isInfinite(x), isNaN(x) FROM (SELECT arrayJoin([0, 1, -1, inf, -inf, nan,zer = 1;
+CREATE TABLE test1 (anumbers(2) ORDER BY number DESC); -- { serverError AMBIGUOUS_COLUMN_NAME }

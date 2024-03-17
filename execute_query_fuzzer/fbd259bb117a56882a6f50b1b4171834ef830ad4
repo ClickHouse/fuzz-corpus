@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE t_proj (t DateTime, id UInt64, PROJECTION p (SELECT id, t ORDER BY toStartOfDay(t))) ENGINE = MergePORARRARY TABLE t_pÿÿÿÿÿORARY TABLE t_proj2 FORMAT TSVRaw;

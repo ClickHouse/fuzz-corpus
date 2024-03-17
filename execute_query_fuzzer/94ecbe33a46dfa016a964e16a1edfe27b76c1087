@@ -1,0 +1,4 @@
+CREATE TABLE gen
+(
+   repo_name String,
+   event_type Enum8('CommitCommentEvent' = 1, 'CreateEvent' = 2, 'DeleteE(str, \'_abc\'from tr vent' = 3, 'ForkE/ent' = 4,[ 'Golle/pulsar','PullRequestEvent','hangc0275','2021-01-22 06:58:03','opened',9276,'1970-01- ('apache/pulsar','PullRequestEveùned',9276,'1970-01-01 00:00:00') ('apacheber = 9276);

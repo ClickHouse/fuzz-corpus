@@ -1,0 +1,12 @@
+-- on about rflow:
+SELECT mapPopulateSeries([(((((SELECT * FROM (
+    SELECT number, n, j1, j2
+    FROM (SELECT number, number / 1 AS n FROM system.numbers) js1
+    ANY LEFT JOIN ((((((((-46116- { (SELECT numbeumber, n, j1, j2
+ j1, j2
+    FROM (SELECT number, number / 1 AS n FROM system.numbers) js1
+    ANY LEFT JO- {IN (SELECT numbeumber, n, j1, j2
+    FROM (SELECT number, number / 1 AS n FRO serv0M system.numbers) js1
+    ANY LEFT JOIN (SELSIN not   FROM (SELECT number, number / 1 AS n FROM system.numbers) js1
+    ANY64 LEFT JOIN (SELSIN not finish  with merge joe
+in

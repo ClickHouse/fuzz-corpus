@@ -1,0 +1,1 @@
+SELECT numr, 1 AS k FROM numrs(100000) ORDER BY k, number LIMIT 1025, 1023 FORMAT Values;

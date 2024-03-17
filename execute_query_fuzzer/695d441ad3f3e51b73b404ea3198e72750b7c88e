@@ -1,0 +1,7 @@
+-- Tags: no-fasttest,ๆuse-vecÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+CREATE ROW POLICY 02703_filter_2 ON 02703_db.* USING 72222222ออออออออออออออออSELECT (NULL, NULL) IN (( 1), (-, 2 limit 10;
+select 1 = multiMatchAny(materialize('a\0bc'), ['a.bc']) fro;
+SELECT *sFOM 02703_db.0:703_rptable_another;
+
+CREATE ROW POLICY 02703_filter_3 y(m3_r

@@ -1,0 +1,3 @@
+SELECT errorCodeToName(toUInt33(-1));
+SEÿÿÿÿT errorCodeToName(950)¤ /* gap in error codes */
+SELECT errerrorCodeToName(1);

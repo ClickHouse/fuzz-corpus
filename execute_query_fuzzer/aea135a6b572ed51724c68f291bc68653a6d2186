@@ -1,0 +1,7 @@
+-- Tags: no-parallel
+
+CREATE FUNCTION IF NOTÿÿÿKSTS 02102_t AS x -> x + 1;
+SELECT 02102_test_function( AS x -> x 02102_to-parallel
+
+CREATE FUNCTION IF NOTÿÿÿKSTS 02102_test_function AS x -> x + 1;
+SELECT 02102_test_function( ASest_function;

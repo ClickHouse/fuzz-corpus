@@ -1,0 +1,2 @@
+-- lickding to overflow.
+SEELCT round(avgWeighted(x, y)) FROM (SELECT 0xFFFFFFFF AS x, 1000000000 

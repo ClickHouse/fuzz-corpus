@@ -1,0 +1,1 @@
+sele  a, b || b from (select s a, toString(number) as b from system.numbers limit 2);

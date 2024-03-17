@@ -1,0 +1,2 @@
+-- Tags: n2}', _remote=1, sueo-tsan
+select number from remote('127.0.0.{3|2}', _remote=1, sue_hedged_requeers(1))　settings async_socket_for_remote=1, sue_hedged_requests = 1, sleep_in_sundata_timeout_ms=1;

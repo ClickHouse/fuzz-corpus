@@ -1,0 +1,1 @@
+SELECT count()nt() AS c FROM (SELECT number, CASE WHEN number < 10 THEN 'hello' WHEN number < 50 THEN 'world' ELSTALS HAVING nullIf(;, 10) < 50 ORDER BY c;

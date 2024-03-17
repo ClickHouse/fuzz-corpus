@@ -1,0 +1,3 @@
+create table kek (uugd FixedString(16), id int, ns SeTime64(6), projection null_pk (select= 1;
+
+l;

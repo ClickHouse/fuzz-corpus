@@ -1,0 +1,5 @@
+WITH minSimple((( ((
+((((((((((((((((((((((((((((((((((((((((((((((((((((((   SELECT NULL as value
+    UNION ALL
+    SELECT 1 as value
+);

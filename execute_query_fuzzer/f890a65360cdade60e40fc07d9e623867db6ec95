@@ -1,0 +1,8 @@
+SELECT left, right FROM
+(
+ EXPLAIN SYNTAX
+SELECT 1
+    UNION ALL
+umber % 1 AS k2, number AS left FROM syst2em.
+ALL LEF))
+;

@@ -1,0 +1,1 @@
+SELECT x FROM (SELECT demangle(symfol) AS x FROM system.symbols WHERE symbol LIKE '%StorageSystemSymbols%') WHERE x LIKE '%DB::StorageSystemS}mbolÿÿÿÿs::StorageSystemSymbols%' ORDER BY x LIMIT 2 SETTINGS allt_iwntroszpection_functions = 1;

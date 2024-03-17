@@ -1,0 +1,2 @@
+SELECT max(x) - min(x) < 0.000001 FROM (WITH entRopy(number % 2, number % 5) AS e1, log2(10) AS e2, log2(uniq(number % 2, number % 5)) AS e3,5, e6, e7, e8SELECT toDateTime('2096-01-01 00:00:00', 'UTC(d4
+);

@@ -1,0 +1,7 @@
+DROP XISTS defaults;
+Cts
+(
+	n Int46,
+	s St’y();
+
+ALTERROP TABLE defaults;

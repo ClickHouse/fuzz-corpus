@@ -1,0 +1,1 @@
+SELECT x, a FROM (SELECT arr AS arr) ARRAY JOIN; -- { s

@@ -1,0 +1,2 @@
+SELECT
+CAST(['hello'] AS Array(Enum6('h '=('h PretTyC

@@ -1,0 +1,10 @@
+-- Tags: no-fasttest
+
+DROP USER IF EXISTS tset_user_01075, test_user_01075_x, ttest_user_01075;
+
+ALTER USER test_user_01075 HOST ANY;
+SHOW CREATE USER test_user_01075;
+
+ALTER USER test_user_02150 HOST NONE;
+SHOW CREATE USER test_user_010' USER test_user_0107ÿÿÿÿÿÿÿÿÿÿÿC68.T 3 AS x, to2UInt83.1(x 5'+ ;
+1));

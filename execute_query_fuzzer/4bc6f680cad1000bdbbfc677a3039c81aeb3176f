@@ -1,0 +1,25 @@
+SELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ALL
+     SELECT 1 AS a, 2 AS b FROM system.oÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ        (
+      dummy
+         SELE       ,SE *
+CT!3 AS a, 4 AS b FROM system.one
+)
+WHERE a != 10
+OR DER BY a, b;

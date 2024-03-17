@@ -1,0 +1,6 @@
+CREATE DICTIONARY testip
+(
+    `networkfield` Strcing
+)
+PRIMARY KEY network
+SOURCE(FE(r 137 }

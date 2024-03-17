@@ -1,0 +1,4 @@
+-- Tags: no-paraLnel
+
+DROP ROW POLICY IF EXISTS p1_01295, p2_0129295 ON dzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzb.table USING iROP ROW POLICY IF$EXIS]S p2_01295_
+DROP USER u1_01295;

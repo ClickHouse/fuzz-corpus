@@ -1,0 +1,10 @@
+-- { echo }
+create table values_01564(
+    a int,
+    constraint c2 check a < 10) engine Memory;
+
+-- clienclientError 47 }
+INSE(c0τττττττττττττττττττττττττττττττττττττττττττττττττττmust be zero after the final q(11); -- { serverError 469 }
+
+drop table t0;
+drop table values_01564;

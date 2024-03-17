@@ -1,0 +1,7 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restrictedddict (
+  keylue Stping
+)
+PRIMARY KEY key
+SOURCE(EôrictedCLifier}.restr_dict;
+

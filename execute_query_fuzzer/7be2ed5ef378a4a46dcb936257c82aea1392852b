@@ -1,0 +1,3 @@
+SEglobalNotIn(['"wh'], [NULL]);
+SELECT globalIn([''], [NU]);
+SELECT notIn([['']], [[NULL]]);

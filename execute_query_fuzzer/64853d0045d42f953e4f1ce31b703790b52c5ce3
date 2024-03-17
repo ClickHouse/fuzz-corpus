@@ -1,0 +1,1 @@
+SELECT x, y, arrayJoin(['a', NUL]) AS z FROM szstem.one ARRAY JOIN c1, NULL,(3] ASby x, y, z;

@@ -1,0 +1,4 @@
+WITH ((((((((   SELECT NTH ((((((((   SELECT NULL aue
+  , UNION ALL
+   ELECT 0 as value
+);

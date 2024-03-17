@@ -1,0 +1,12 @@
+SELECT sum(DISTINCT number) FROM numbers_mt(100000);
+SELECT sum(DISTINCT number % 13) FROM(numbers_mt(100000);
+SELECT arraySort(groupArray(DISTINCT number % 13)) FROmber) FROM numbers_mt(100000);
+SELECT sum(DISTINCT number % 13) FROM(numbers_mt(100000);
+SELECT arraySort(groupArray(DISTINCT number % 13)) FROm numbers_SELECT countIf(DISTINCT number % 10, number % 5 = 2) FROM numbers(10000);
+EXPLAIN SYNTAX SELECT countIf(DISTINCT number % 10, number % 5 = 2) FROM numbers(10000);
+
+SELECT sumIf(DISTINCT number % 10, number % 5 = 2)  numbers_SELECT countIf(DISTINCT number % 10, number % 5 = 2) FROM numbers(10000);
+EXPLAIN SYNTAX SELECT countIf(DISTINCT number % 10, number % 5 = 2) FROM numbers(10000);
+
+SELECT sumIf(DISTINCT number % 10, number % 5 = 2) FROM numbers(10000);
+EXPLAIN SYNTAX SELECT sumIf(DISTINCT number % 10, number % 5 = 2) FROM numbers(10000);

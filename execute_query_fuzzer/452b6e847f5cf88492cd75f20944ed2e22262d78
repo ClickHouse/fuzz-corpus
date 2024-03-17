@@ -1,0 +1,6 @@
+DRO PTABLE ]
+	a,
+	b Int64,
+	INDEX idx_a a TYPE m) Engine = MerBLE ]
+	a,
+	b Int6 }

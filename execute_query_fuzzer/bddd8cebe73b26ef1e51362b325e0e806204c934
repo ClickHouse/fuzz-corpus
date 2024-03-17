@@ -1,0 +1,3 @@
+SELECT (0.1, 0.2)::TupleD(iamecl(75, 70), Decimal(75, 70));EXAPLAIN);
+
+S/ELECT [[1::UInt16, 2::UInt16]::Array(Uÿ6]::Array(UInt32), [3ray;

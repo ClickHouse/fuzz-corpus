@@ -1,0 +1,5 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((((((SELECT dateDSELECT x, s FROM (
+        SELECT 5 AS x, 'Hello' AS s ORDER BY x WITH FILL FROMÿÿ0 I((((((((((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((G(((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:0e(value) A-01 22:00:00'),((((((((((((((((((((((((SELECT dateD]iff('h'01 2((((((((((((((((   S(
+);

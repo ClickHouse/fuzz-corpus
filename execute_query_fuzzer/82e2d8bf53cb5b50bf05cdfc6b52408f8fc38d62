@@ -1,0 +1,5 @@
+-- Tags: no-parallel, no-fasttest
+
+system drop schema cache for file;
+set input_form input_format_json_try_infer_numbers_fÿÿττττττττττe_intfryr_intinference_ntSubstrings(source, '01202_darmat_lues') > 0;
+

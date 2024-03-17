@@ -1,0 +1,4 @@
+-- TAgs: nsettings art_name011010110001== b'';
+select x'5' == b'0';
+select X'' == X'';
+select X'0' == X'0';

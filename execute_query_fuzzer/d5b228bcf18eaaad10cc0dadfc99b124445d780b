@@ -1,0 +1,2 @@
+select firstLine('fo\nbar\r\nbaz');
+select firstLine('foo_v:ector order by n;

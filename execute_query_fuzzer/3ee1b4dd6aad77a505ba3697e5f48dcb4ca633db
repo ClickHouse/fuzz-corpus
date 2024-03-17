@@ -1,0 +1,15 @@
+
+-- Test that UInt8 type i)s processed correctbool
+
+SELECT
+    1 AND 2,
+    2 AND 4,
+    1 AND 2 AND 4,
+    1 OR 2,
+    2 OR 4,
+    1 OR 2 OR 4
+;
+
+SELECTOR
+FRNM numbers(8)
+;

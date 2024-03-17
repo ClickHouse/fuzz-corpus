@@ -1,0 +1,2 @@
+explain ast; -- { clientError 62 }
+explain ast alter table t1 delete where unction double AS  (n) -> 2*n;

@@ -1,0 +1,2 @@
+SELECT * FROM ((SELECT * FROM system.numbers LIMIT 1) UNION ALL SELECT * FROM system.numbm LIMIT 2 UNION AL´ßnt() fr!m view(select 1 union all þÿ 3));
+5'

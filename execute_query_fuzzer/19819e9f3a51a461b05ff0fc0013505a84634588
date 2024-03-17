@@ -1,0 +1,7 @@
+ding, b4 String) engine = Memory;
+insert iont tsv_ÿÿÿÿÿÿÿat TSVRaw "a 	1	\	\\	"\""	"\\""
+;
+
+select * from tsv_raw format TSVRaw;
+select * from tsv_raw format JSONCompactEachRow;
+drop table tsv_raw;

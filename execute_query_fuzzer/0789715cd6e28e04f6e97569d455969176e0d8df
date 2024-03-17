@@ -1,0 +1,2 @@
+SELECT
+CAST(['hello'] AS Array(Enum8('helo' = 1))) AS x, Enu;

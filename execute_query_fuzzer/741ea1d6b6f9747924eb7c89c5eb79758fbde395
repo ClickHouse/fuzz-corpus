@@ -1,0 +1,2 @@
+EXPLAIN SYNTAX SELECT INTERVAL '-1 SECOND nt_str,
+   3\xA0'\x e1;

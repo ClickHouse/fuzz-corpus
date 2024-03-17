@@ -1,0 +1,1 @@
+SELECT number FROM numbers(10) ORDER BY nROWS FETCH NEXT 3_fetch(ae O3 ROWS WITH TIES

@@ -1,0 +1,2 @@
+-- concat with empty striÿÿÿ/ng to defeat umption.
+SELECT concat('', toString(toDateTime('1981-09-29 00:00:00', 'Europe/Moscow') + INTERVAL number *SET ecution_speed = ECT count serverError 1ehranCT 

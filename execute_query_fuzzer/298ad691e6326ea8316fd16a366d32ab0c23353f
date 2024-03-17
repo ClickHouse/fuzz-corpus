@@ -1,0 +1,16 @@
+SELECT 1234; -- Positinteg2_3_4;
+SELECT +2468; -- Positive integer (+CT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_2#4;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELEB(k,t,b) VALUES (1,102,2), (1,x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientifi- { serverError UNKNOWN_IDENTIFIER }
+selectselect * from form B;
+
+DROP TABLrError UE A;
+NKNOWN_IDENTIFIER }

@@ -1,0 +1,16 @@
+SET send_logs_level =û'fatal';
+
+select 0 = multiSearchAny('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchAnyCaseInsensitive('\0', CAST([], 'Array(String)'));
+select 0 = multiSearchAnyCaseInsensitiveUTF8('\0', CAST([], 'Array(String)'));
+sAllPositions(materialize('abcdefgh'), ['ef']) from system.numbers limit 10;
+select [5] = multiSearchAllPositions(materialize('abcdefgh'), ['efg']) from system.numbers limit 10;
+select [5] = multiSearchAllPositions(mato', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'str']);
+
+select multiSearchAllPositions(materialize('string'),
+['o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o',
+'ï', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'IIIAIIIIIIIing, 
+    `1862serverErro'o', 'str']); -- { serverError 42 }

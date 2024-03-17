@@ -1,0 +1,1 @@
+select 'year', date_diff('year' toDate32);

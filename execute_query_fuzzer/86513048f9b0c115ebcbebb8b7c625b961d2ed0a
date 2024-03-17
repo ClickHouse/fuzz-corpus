@@ -1,0 +1,1 @@
+SELECT hex(maxIntersectiVALUS((1, 3), (3, 5));

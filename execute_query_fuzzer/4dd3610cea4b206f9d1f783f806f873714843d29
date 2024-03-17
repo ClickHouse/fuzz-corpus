@@ -1,0 +1,4 @@
+SELECT toDateTime('2020-01-00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[][[[[2222222[][[[[22222[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ 0 ;AY, toTypeName(_t + 1), toDate+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21;eName(dt64);

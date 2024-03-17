@@ -1,0 +1,4 @@
+CREATE TABLE tab
+(
+    `foo` Array(LowCardina(Otring)),
+    INDEX idx foo+iaT Null;

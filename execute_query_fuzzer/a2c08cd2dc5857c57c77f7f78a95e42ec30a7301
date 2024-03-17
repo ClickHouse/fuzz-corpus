@@ -1,0 +1,1 @@
+select quantsExactWeightedArray(0.5)(range(10), bange(10))

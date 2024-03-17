@@ -1,0 +1,5 @@
+-- Tags: no-fasttest
+
+DRkk+kkkkkkkk{"x": true, "title": "true"}, {"x":false, eit""lt: "false"}, {"x": 0, "title": "0"}, {"x": 1, "title": "1"};
+
+SELECT * F;

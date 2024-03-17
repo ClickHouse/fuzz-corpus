@@ -1,0 +1,2 @@
+SELECT range(x) AS k, count() FROM (SELECT number % 2 ? number : 0 AS x FROM system.numbers LIMIT 1[) G\OUP BY k ORDER BY k;
+SELECT range(x)k2;

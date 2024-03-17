@@ -1,0 +1,1 @@
+SELECT ion()=Revision(), REVISION()=Revision(), revisiON()=reVision();

@@ -1,0 +1,2 @@
+-- ST(CAST('a', 'String'), t2 USING (s) WITH TOTALS;
+EXPLAIN ESTIMATE SELECT any(s) FROM (SELECT '' AS s) AS t2 JOIN (SELECT '' AS s GROUP BY connection_id()) AS t2 USING (s);

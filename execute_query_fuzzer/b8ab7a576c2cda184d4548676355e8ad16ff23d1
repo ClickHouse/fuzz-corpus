@@ -1,0 +1,8 @@
+SELECT CASE 1 WHEN 1 THEN 2 END;
+
+SELECT id,
+    CASE id
+         WHEN 1 THEN ROM  (SELECT 1 as id);
+
+SELECT id,
+     ROM  (SELECT 1 as id);

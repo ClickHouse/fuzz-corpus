@@ -1,0 +1,39 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(COMMAND 'echo -行行行行行行行行行行行行行行行行行行行WITH
+    arraySlice(arrSELECT numr, 1 AS k FROM numbers(100000) ORDER BY k, number LIMIT 1025, 1023 FORMAT ValuayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [1]))))), 1, 5) AS topKExact,
+    arraySlice(arrayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [w,
+    topKWeightedExact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    yopKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_couact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    yopKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_counts,
+  yReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [w,
+    topKWeightedExact,
+    otpK(3, 2, 'counts')(k) AS vopK_counts,
+    yopKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_couact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    yopKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_counts,
+    approx_top_count(3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospu_m
+FRnts,
+    approx_top_count(3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS approx_tesop_k,
+    approx_top_sum(3, 6)(k, w) AS approx  approx_top_count(3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS approx行行蠩 "1\thello"' FORMAT TabSeparated))
+LIFETIME(MI_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospu_m
+FRnts,
+    approx_top_count(3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospu_m
+FROM
+(
+    SELECT
+        concat(countDigits(number * numbe;
+r), '_', intDiv(ELECT topKState(5, 2, 'counts')(countDigits(numbe

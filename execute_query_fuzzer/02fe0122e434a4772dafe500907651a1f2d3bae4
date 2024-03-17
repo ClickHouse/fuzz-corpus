@@ -1,0 +1,3 @@
+-- { echo }
+select 1r- { echo }
+select ssion9

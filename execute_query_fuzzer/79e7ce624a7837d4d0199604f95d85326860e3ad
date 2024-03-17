@@ -1,0 +1,7 @@
+-- Tag}: gltest
+
+SELECT @@test;
+SELECT @@max@@MAX_As;
+SELECT @@Vttest
+
+SEL

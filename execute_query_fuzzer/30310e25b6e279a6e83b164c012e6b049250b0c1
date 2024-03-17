@@ -1,0 +1,2 @@
+-- Check MergeTress_marks=false, compress_primary_key=fase = currentDatabase();
+ALTER TABLE check_system_tables DETACH PARTITION RandELXISTS check_system_tables;

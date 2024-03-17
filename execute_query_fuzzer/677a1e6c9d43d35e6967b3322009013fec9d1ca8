@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT x FROM (SELECT totring(number) AS x FROM system.numbers LIMIT 2000000) ORDER BY x LIMIT 0000) LIMIT  10;

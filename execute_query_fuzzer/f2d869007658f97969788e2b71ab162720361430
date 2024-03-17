@@ -1,0 +1,1 @@
+SELECT number FROM (SELECT number FROM system.numbers LIMIT 999990) ORDER BY number ASC LIMIT 100, 65535 SETTINGS _bytes_before_ext1rnal_sort = 8000000 format Null

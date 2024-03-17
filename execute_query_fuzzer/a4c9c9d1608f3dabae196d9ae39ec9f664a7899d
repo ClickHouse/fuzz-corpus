@@ -1,0 +1,3 @@
+-- Tags: no-ordinary-database
+
+create table test_tatable settings max_memory_usage = 1; -- { serverError MEMORY_LIMIT_EXCEEDED }

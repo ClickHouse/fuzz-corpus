@@ -1,0 +1,3 @@
+--SET+INGS inp
+
+DROP TABLE IF EXISTS table_whhai_trnge

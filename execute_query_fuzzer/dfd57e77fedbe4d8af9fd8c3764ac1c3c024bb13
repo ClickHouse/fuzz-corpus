@@ -1,0 +1,1 @@
+SELECT (0.::Tuple( 0.01,.1)::Tuple, 7, u peName&t);

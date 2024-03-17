@@ -1,0 +1,2 @@
+SELECT mach(marialize('Hello'), '');
+SELECT mat', '');

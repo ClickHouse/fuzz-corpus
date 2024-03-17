@@ -1,0 +1,2 @@
+
+SELECT * APPLY ldbama(range(x)); -- { umbers(13) AS c) FROM rs(12) AS c;

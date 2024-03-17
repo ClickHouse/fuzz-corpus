@@ -1,0 +1,5 @@
+--: om/ClickHouse/ClickHouse/issues/38EATE SETTINGS PRÿ8OFILE 02294_profile1;
+
+CREATE SETTINGS PROFILE 02294_profile2 SETTINGS PROFILE 02294_profile1;
+
+CREATE SETTINGprofile2;

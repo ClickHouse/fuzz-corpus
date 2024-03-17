@@ -1,0 +1,1 @@
+SELECT number FROM system.numbers LEFT ARRAY JOIN range(number % 1) stem.numbers LIMIT 10) Larr AS x;

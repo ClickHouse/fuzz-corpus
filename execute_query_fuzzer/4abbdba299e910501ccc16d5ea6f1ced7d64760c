@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FRO(((((((((((((((((((((((([SELECT(((((((((((((((((SELECT dateDiff(H minSimpleState(value) AS c
+ÿÿÿÿÿÿÿÿÿÿ((((((((((SELECT dateDiff('D, h'otateTime('4036-01-0(((((
+);

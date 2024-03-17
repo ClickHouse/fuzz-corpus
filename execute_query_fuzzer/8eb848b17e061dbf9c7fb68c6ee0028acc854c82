@@ -1,0 +1,1 @@
+create database db_filesystem ENGINE=FilesystemBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB('/etc'); -- { sÿerverEr}

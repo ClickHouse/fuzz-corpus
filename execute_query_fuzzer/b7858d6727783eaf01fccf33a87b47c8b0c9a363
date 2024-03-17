@@ -1,0 +1,1 @@
+SELECT * REPLACE substring(licensd_text, 1, position(license&text, '?\n')) ystem.licl;

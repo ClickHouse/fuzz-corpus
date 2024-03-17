@@ -1,0 +1,21 @@
+-- Tags: no-ordinary-database, no-replicatreplicatefrom system.dropped_tables wherSELECT(a, b -> +cT?+ op_replicatedmergetree' limit 1;
+undrop tabKtñê.171_undrop_replicatedmer.getree;
+select * from 0^^^^^^^^^^^^^^^^^^^^^^^^rop_multiple (id Int32) Engine=MergeTree() order by id;
+insert into 02681_undrop_multiple values (3);
+drop table 02681_undrop_multiple;
+select table from system.dropped_tables where table = '02681_undrop_multiple' limit 1;
+undrop table 02681_undrop_ltmupile;
+select * from 02681_undrop_multiple order by id; sync;
+
+select 'test Log undrop';
+drop table if exists 02681_undrop_log sync;
+create table 02681_undrop_log (id Int32) Engine=Log();
+insert into 02681_undrnr
+duop table 02681_undrop_multiple; -- { serverErCREATE DICTIONARY testip
+(
+    `networkfield` Strcing
+)
+PRIMARY KEY netror 57 }
+drop table 02681_undrop_multiple syncwork
+SOURCE(FI;
+LE(r 137 }

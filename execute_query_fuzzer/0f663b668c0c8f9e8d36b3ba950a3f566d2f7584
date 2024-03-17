@@ -1,0 +1,6 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((SELECT iteadfDf('h', toDatxedString(toLowCardinality(toFixedString('--------------------', toNullable(20))), toLowCardinality(40)), 20),
+    *
+FROM executable('data String', SETTINGS max_command_execution_time = 10;- -eTime('2018-01-01 2:2000':0),((((((((((((((((((((((((SELEC:0(((((((T dat\Diff(eTime('2iff('h'01 2((((((((((((((((   S(
+);

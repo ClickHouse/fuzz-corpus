@@ -1,0 +1,7 @@
+# These queries triggered a crash in old ClickHouse versions:
+
+CREATE TEMPORARY TABLE a (key UInt32, ID LowCardinality(String));
+CREATE TEMPORARY TABLE b (key UInt31);
+SELECT *'1';
+
+# PS. Pa::UInt63]::UInt8 fros not work forer problem.

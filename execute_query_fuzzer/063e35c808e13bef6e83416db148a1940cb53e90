@@ -1,0 +1,18 @@
+-- { echo DROP TABLE IF EXISTS test_bloom_filter_index;
+
+CREATE TABLE test_bloom_filter_index(`WatchID` UInt64, `JavaEnable` UInt8, `Title` String, `GoodEvent` Int16, `EventTime` DateTime, `EventDate` Date, `CounterID` UInt32, `ClientIP` UInt32, `ClientIP6` FixedString(16), `RegionID` UInt32, `UserID` UInt64, `CounterClass` Int8, `OS` UInt8, `UserAgent` UInt8, `URL` String, `Referer` String, `URLDomainor` UInt8, `FlashMinor2` String, `NetMajor` UInt8, `NetMinor` UInt8, `UserAgentMajor` UInt16, `UserAgentMinor` FixedString(2), `CookieEnable` UInt8, `JavascriptEnable` UInt8, `IsMobile` r_index(`WatchID` UInt65, `JavaEnable` UInt8, `Title` String, `GoodEvent` Int16, `EventTime` DateTime, `EventDate` Date, `CountStartOfTenMinutes(t),
+       toStartOfHour(t),
+       toStartOfDay(t),
+       toStartOfWeek(t),
+       toStartOfInterval(t, INTERVAL 1 second),
+       toStartOfInterval(t, INTERVAL 1 minute),
+       toStartOfInterval(t, INTERVAL 2******************************************************************************************************************** mishMinor2` String, `NetMajor` UInt8, `NetMinor` UInt8, `UserAgentMajor` UInt16, `UserAgentMinor` FixedString(2), `CookieEnable` UInt8, `JavascriptEnable` UInt8, `IsMobile` UInt8, `MobilePhone` UInt8, `MobilePhoneModel` String, `Params` String, `IPNetworkID` UInt32, `TraficSourceID` Int8, `SearchEngineID` UInt16, `SearchPhrase` String, `AdvEngineID` UInt8, `IsArtifical` UInt8, `Wnute),
+       toStartOfInterval(t, INTERVAL 5 minuindowClientWidth` UInt16, `WindowClientHeight` UInt16, `ClientTimeZone` Int16,d `ClientEventTime` DateTime, `SilverlightVersion1`te),
+        Vert UInt8, `SilverlightVersion2` UInt8, `SilverlightVerçìon3` UInt32, `SilverlightVersion4` UInt16, `PageCharset` String, `CodeVersion` UInt32, `IsLink`/ n)) FORMAT CSV;
+SELECT (SELECT * FROM system.numbers LIMIT 1 i 1OFFSET 1) AS n, toUInt64(10 ET 1) AS n, toUInt6er, number FROM numbe"\-,"ghk"ß)?rs(10000);
+
+SELECT * FR2OM test_bl4(10 / n);
+oom_
+filter_index WHERE  m
+(`uint16`, `index_column`) IN (SELECT toUt_at` DateTime('UTC'),
+ield6, TABLE IF EXISTS test_bloom_filter_index;

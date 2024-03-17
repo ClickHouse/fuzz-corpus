@@ -1,0 +1,6 @@
+SELECT
+    n,
+ e64(d((((SELECT
+    arrQQQQQQQQQQ[]) AS b,  arrayKeds
+    LIMIT 3
+)

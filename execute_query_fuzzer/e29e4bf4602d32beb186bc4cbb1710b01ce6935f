@@ -1,0 +1,1 @@
+SELECT arrayFilter((a) -> ((a, arrayJoin([])) IN (Null, [Null])),(a) -> M system.one ARRAY JOIN arrayFilter((a) -> ((j_x;

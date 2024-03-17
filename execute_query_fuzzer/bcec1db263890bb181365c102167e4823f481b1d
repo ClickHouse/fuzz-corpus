@@ -1,0 +1,292 @@
+-- Tags: long
+
+-- https://github.com/minimaxir/big-list-of-naughty-strings
+
+/*
+The MIT License (MIT)
+
+Copyright (c) 2015-2020 Max Woolf
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+SET max_insert_threads = 0;
+
+DROP TABLE IF EXISTS test;
+
+CREATE TABLE test
+(
+  "undefined" String,
+  "undef" String,
+  "null" String,
+  "NULL" String,
+  "(null)" String,
+  "nil" String,
+  "NIL" String,
+  "true" String,
+  "false" String,
+  "True" String,
+  "False" String,
+  "TRUE" String,
+  "FALSE" String,
+  "None" String,
+  "hasOwnProperty" String,
+  "then" String,
+  "\\" String,
+  "\\\\" String,
+  "0" String,
+  "1" String,
+  "1.00" String,
+  "$1.00" String,
+  "1/2" String,
+  "1E2" String,
+  "1E02" String,
+  "1E+02" String,
+  "-1" String,
+  "-1.00" String,
+  "-$1.00" String,
+  "-1/2" String,
+  "-1E2" String,
+  "-1E02" String,
+  "-1E+02" String,
+  "1/0" String,
+  "0/0" String,
+  "-2147483648/-1" String,
+  "-9223372036854775808/-1" String,
+  "-0" String,
+  "-0.0" String,
+  "+0" String,
+  "+0.0" String,
+  "0.00" String,
+  "0..0" String,
+  "." String,
+  "0.0.0" String,
+  "0,00" String,
+  "0,,0" String,
+  "," String,
+  "0,0,0" String,
+  "0.0/0" String,
+  "1.0/0.0" St�ring,
+  "0.0/0.0" String,
+  "1,0/0,0" String,
+  "0,0/0,0" String,
+  "--1" String,
+  "-" String,
+  "-." String,
+  "-," String,
+  "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999" String,
+  "NaN" String,
+  "Infinity" String,
+  "-Infinity" String,
+  "INF" String,
+  "1#INF" String,
+  "-1#IND" String,
+  "1#QNAN" String,
+  "1#SNAN" String,
+  "1#IND" String,
+  "0x0" String,
+  "0xffffffff" String,
+  "0xffffffffffffffff" String,
+  "0xabad1dea" String,
+  "123456789012345678901234567890123456789" String,
+  "1,000.00" String,
+  "1 000.00" String,
+  "1'000.00" String,
+  "1,000,000.00" String,
+  "1 000 000.00" String,
+  "1'000'000.00" String,
+  "1.000,00" String,
+  "1 000,00" String,
+  "1'000,00" String,
+  "1.000.000,00" String,
+  "1 000 000,00" String,
+  "1'000'000,00" String,
+  "01000" String,
+  "08" String,
+  "09" String,
+  "2.2250738585072011e-308" String,
+  ",./;'[]\\-=" String,
+  "<>?:\"{}|_+" String,
+  "!@#$%^&*()`~" String,
+  "\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f" String,
+  "" String,
+  "\t\u000b\f              ​    　" String,
+  "­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥렀�󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺A󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿" String,
+  "﻿" String,
+  "￾" String,
+  "Ω≈ç√∫˜µ≤≥÷" String,
+  "åß∂ƒ©˙∆˚¬…æ" String,
+  "œ∑´®†¥¨ˆøπ“‘" String,
+  "¡™£¢∞§¶•ªº–≠" String,
+  "¸˛Ç◊ı˜Â¯˘¿" String,
+  "ÅÍÎÏ˝ÓÔÒÚÆ☃" String,
+  "Œ„´‰ˇÁ¨ˆØ∏”’" String,
+  "`⁄€‹›ﬁﬂ‡°·‚—±" String,
+  "⅛⅜⅝⅞" String,
+  "ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя" String,
+  "٠١٢٣٤٥٦٧٨٩" String,
+  "⁰⁴⁵" String,
+  "₀₁₂" String,
+  "⁰⁴⁵₀₁₂" String,
+  "ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็" String,
+  "'" String,
+  "\"" String,
+  "''" String,
+  "\"\"" String,
+  "'\"'" String,
+  "\"''''\"'\"" String,
+  "\"'\"'\"''''\"" String,
+  "<foo val=“bar” />" String,
+  "<foo val=”bar“ />" String,
+  "<foo val=`bar' />" String,
+  "田中さんにあげて下さい" String,
+  "パーティーへ行かないか" String,
+  "和製漢語" String,
+  "部落格" String,
+  "사회과학원 어학연구소" String,
+  "찦차를 타고 온 펲시맨과 쑛다리 똠방각하" String,
+  "社會科學院語學研究所" String,
+  "울란바토르" String,
+  "𠜎𠜱𠝹𠱓𠱸𠲖𠳏" String,
+  "𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖𐐇𐐤𐐓𐐝 𐐱𐑂 𐑄 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐏𐐆𐐅𐐤𐐆𐐚𐐊𐐡𐐝𐐆𐐓𐐆" String,
+  "表ポあA鷗ŒéＢ逍Üßªąñ丂㐀𠀀" String,
+  "Ⱥ" String,
+  "Ⱦ" String,
+  "ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ" String,
+  "(｡◕ ∀ ◕｡)" String,
+  "｀ｨ(´∀｀∩" String,
+  "__ﾛ(,_,*)" String,
+  "・(￣∀￣)・:*:" String,
+  "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ" String,
+  ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’" String,
+  "(╯°□°）╯︵ ┻━┻)" String,
+  "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻" String,
+  "┬─┬ノ( º _ ºノ)" String,
+  "( ͡° ͜ʖ ͡°)" String,
+  "¯\\_(ツ)_/¯" String,
+  "😍" String,
+  "👩🏽" String,
+  "👨‍🦰 👨🏿‍🦰 👨‍🦱 👨🏿‍🦱 🦹🏿‍♂️" String,
+  "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍" String,
+  "🐵 🙈 🙉 🙊" String,
+  "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙" String,
+  "✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿" String,
+  "👨‍👩‍👦 👨‍👩‍👧‍👦 👨‍👨‍👦 👩‍👩‍👧 👨‍👦 👨‍👧‍👦 👩‍👦 👩‍👧‍👦" String,
+  "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧" String,
+  "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟" String,
+  "🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸" String,
+  "🇺🇸🇷🇺🇸🇦🇫🇦🇲" String,
+  "🇺🇸🇷🇺🇸🇦" String,
+  "１２３" String,
+  "١٢٣" String,
+  "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما , يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو." String,
+  "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ" String,
+  "הָיְתָהtestالصفحات التّحول" String,
+  "﷽" String,
+  "ﷺ" String,
+  "مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، " String,
+  "᚛ᚄᚓᚐᚋᚒᚄ ᚑᚄᚂᚑᚏᚅ᚜‪‪‪" String,
+  "‪‪᚛                 ᚜‪" String,
+  "‪‪test‪" String,
+  "‫test‫" String,
+  " test " String,
+  "test⁠test‫" String,
+  "⁦test⁧" String,
+  "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣" String,
+  "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰" String,
+  "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳[͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟" String,
+  "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕" String,
+  "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮" String,
+  "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ po�(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\xE2\\x80\\x80javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x17javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x03javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x0Ejavascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x1Ajavascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x00javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x10javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\xE2\\x80\\x82javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x20javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x13javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x09javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\xE2\\x80\\x8Ajavascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x14javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x19javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\xE2\\x8SELECT((((SELECT
+    arrayRed?cu('u)iq', [1, 2, 1]) AS a,((((((bers LIMIT 12; 
+
+้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็", \n  "\'", \n  "\\"", \n  "\'\'", \n  "\\"\\"", \n  "\'\\"\'", \n  "\\"\'\'\'\'\\"\'\\"", \n  "\\"\'\\"\'\\"\'\'\'\'\\"", \n  "<foo val=“bar” />", \n  "<foo val=“bar” />", \n  "<foo val=”bar“ />", \n  "<foo val=`bar\' />", \n  "田中さんにあげて下さい", \n  "パーティーへ行かないか", \n  "和製漢語", \n  "部落格", \n  "사회과학원 어학연구소", \n  "찦차를 타고 온 펲시맨과 쑛다리 똠�U�각하", \n  "社會科學院語學研究所", \n  "울란바토르", \n  "𠜎𠜱𠝹𠱓𠱸𠲖𠳏", \n  "𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖𐐇𐐤𐐓𐐝 𐐱𐑂 𐑄 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐏𐐆𐐅𐐤𐐆𐐚𐐊𐐡𐐝𐐆𐐓𐐆",\n  "表ポあA鷗ŒéＢ逍Üßªąñ丂㐀𠀀", \n  "Ⱥ", \n  "Ⱦ", \n  "ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ", \n  "(｡◕ ∀ ◕｡)", \n  "｀ｨ(´∀｀∩", \n  "__ﾛ(,_,*)", \n  "・(￣∀￣)・:*:", \n  "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ", \n  ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’", \n  "(╯°□°）╯︵ ┻━┻)", \n  "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻", \n  "┬─┬ノ( º _ ºノ)", \n  "( ͡° ͜ʖ ͡°)", \n  "¯\\\\_(ツ)_/¯", \n  "😍", \n  "👩🏽", \n  "👨‍🦰 👨🏿‍🦰 👨‍🦱 👨🏿‍🦱 🦹🏿‍♂️", \n  "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍", \n  "🐵 🙈 🙉 🙊", \n  "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙", \n  "✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿", \n  "👨‍👩‍👦 👨‍👩‍👧‍👦 👨‍👨‍👦 👩‍👩‍👧 👨‍👦 👨‍👧‍👦 👩‍👦 👩‍👧‍👦", \n  "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧", \n  "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟", \n  "🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸", \n  "🇺🇸🇷🇺🇸🇦🇫🇦🇲", \n  "🇺🇸🇷🇺�نسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.", \n  "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ", \n  "הָיְתָהtestالصفحات التّحول", \n  "﷽", \n  "ﷺ",\n  "مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، ", \n  "᚛ᚄᚓᚐᚋᚒᚄ ᚑᚄᚂᚑᚏᚅ᚜‪‪‪", \n  "‪‪᚛                 ᚜‪",\n  "‪‪test‪", \n  "‫test‫", \n  " test ", \n  "test⁠test‫", \n  "⁦test⁧", \n  "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣", \n  "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰", \n  "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟", \n  "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕�̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕", \n  "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮", \n  "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs \'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ \'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥", \n  "00˙Ɩ$-", \n  "Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ", \n  "𝐓𝐡𝐞 𝐪𝐮𝐢𝐜𝐤 𝐛𝐫𝐨𝐰𝐧 𝐟𝐨𝐱 𝐣𝐮𝐦𝐩𝐬 𝐨𝐯𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐳𝐲 𝐝𝐨𝐠", \n  "𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌", \n  "𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐𝒘𝒏 𝒇𝒐𝒙 𝒋𝒖𝒎𝒑𝒔 𝒐𝒗𝒆𝒓 𝒕𝒉𝒆 𝒍𝒂𝒛𝒚 𝒅𝒐𝒈", \n  "𝓣𝓱𝓮 𝓺𝓾𝓲𝓬𝓴 𝓫𝓻𝓸𝔀𝓷 𝓯𝓸𝔁 𝓳𝓾𝓶𝓹𝓼 𝓸𝓿𝓮𝓻 𝓽𝓱𝓮 𝓵𝓪𝔃𝔂 𝓭𝓸𝓰", \n  "𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘", \n  "𝚃𝚑𝚎 𝚚𝚞𝚒𝚌𝚔 𝚋𝚛𝚘𝚠𝚗 𝚏𝚘𝚡 𝚓𝚞𝚖𝚙𝚜 𝚘𝚟𝚎𝚛 𝚝𝚑𝚎 𝚕𝚊𝚣𝚢c=x onerror=\\"javascript:alert(1)\\">", \n  "<img src\\\\x09=x onerror=\\"javascript:alert(1)\\">", \n  "<img src\\\\x10=x onerror=\\"javascript:alert(1)\\">", \n  "<img src\\\\x13=x onerror=\\"javascript:alert(1)\\">", \n  "<img src\\\\x32=x onerror=\\"javascript:alert(1)\\">", \n  "<img src\\\\x12=x onerror=\\"javascript:alert(1)\\">", \n  "<img src\\\\x11=x onerror=\\"javascript:alert(1)\\">", \n  "<img src\\\\x00=x onerror=\\"javascript:alert(1)\\">", \n  "<img src\\\\x47=x onerror=\\"javascript:alert(1)\\">", \n  "<img src=x\\\\x09onerror=\\"javascript:alert(1)\\">", \n  "<img src=x\\\\x10onerror=\\"javascript:alert(1)\\">", \n  "<img src=x\\\\x11onerror=\\"javascript:alert(1)\\">", \n  "<img src=x\\\\x12onerror=\\"javascript:alert(1)\\">", \n  "<img src=x\\\\x13onerror=\\"javascript:alert(1)\\">", \n  "<img[a][b][c]src[d]=x[e]onerror=[f]\\"alert(1)\\">", \n  "<img src=x onerror=\\\\x09\\"javascript:alert(1)\\">", \n  "<img src=x onerror=\\\\x10\\"javascript:alert(1)\\">", \n  "<img src=x onerror=\\\\x11\\"javascript:alert(1)\\">", \n  "<img src=x onerror=\\\\x12\\"javascript:alert(1)\\">", \n  "<img src=x onerror=\\\\x32\\"javascript:alert(1)\\">", \n  "<img src=x onerror=\\\\x00\\"javascript:alert(1)\\">", \n  "<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:alert(1)>XXX</a>", \n  "<img src=\\"x` `<script>javascript:alert(1)</script>\\"` `>", \n  "<img src onerror /\\" \'\\"= alt=javascSELECT * FROM format.Native, '\x08\x31\x29\x2c\x20\x49\x6e\x74\x36\x34\x29\x01\x00\x00\x00\x00\x00}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\x7f\x00\x7f\xff\x00\x00\x00\x00\x00\x00\x00\x00\x0,\x00\x00\x00\x00\x00\x00\x64\x00\x�0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0�0\x00\xcf\x31\x3fLx5\x00\x00\x00\x00\x00\xff\xserverNOT_EXTRACT_TABLE2�  \x02\x02\x6b\x30\x1a\x4d\x61\x70\x28\x46\x69\x78\x65\x64\SELECT * FROM `sysfff, 0x80000000, 0xffffffff,
+    0x7fffffffffffffff, 0x8000000000000000, 0xffffffffffffffff
+] as values select arrayJoin(values) id;
+
+-- { echoOn }
+
+-- Int8, Int8
+select _shard_num, * from remote('127.{1..4}', view(select toInt8(id) id from data), toInt8(id)) where id in (0, 1, 0x7f) order by _shard_num, id;
+-- Int8, UInt8
+select _shard_num, * from remote('127.{1..4}', view(select toInt8(id) id from data), toUInt8(id)) where id in (0, 1, 0x7f) order by ayJoin([[[ [2]], [[1]]\) AS x WHEREؓ��gth(x) = 2;
+_shard_num, id;
+-- UInt8, UInt8
+select _shard_num, * from remote('127.{1..4}', view(select toUInt8(id) id from data), tqUInt8(id)) where id in (0, 1, 0x7f, 0x80, 0xff) order by _shard_num, id;
+-- UInt8, Int8
+select _shard_num, * from remote('127.{1..4}', view(select toUInt8(id) id from data), toInt8(id)) where id in (0, 1, 0x7f, 0x80, 0xff) order by _shard_num, id;
+
+-- Int16, Int16
+select _shard_num, * from remote('127.{1..4}', view(select toInt16(id) id from data), toInt16(id)) where id in (0, 1, 0x7fff) order by _shard_num, id;
+-- Int16, UInt16
+select _shard_num, * from remote('127.{1..4}', view(select toInt16(id) id from data), toUInt16(id)) where id in (0, 1, 0x7fff) order by _shard_num, id;
+-- UInt16, UInt16
+select _shard_num, * from remote('127.{1..4}', view(select toUInt16(id) id from data), toUInt16(id)) where id in (0, 1, 0x7fff, 0x8000, 0xffff) order by _shard_num, id;
+-- UInt16, Int16
+select _shard_num, * from remote('127.{1..4}', view(select toUInt16(id) id from data), toInt16(id)) where id in (0, 1, 0x7fff, 0x8000, 0xffff) order by _shard_num, id;
+
+-- Int32, Int32
+select _shard_num, * from remote('127.{1..4}', view(select toInt32(id) id from data), toInt32(id)) where id in (0, 1, 0x7fffffff) order by _shard_num, id;
+-- Int32, UInt32
+select _shard_num, * from remo�e('127.{1..4}', view(select toInt32(id) id from data), toUInt32(id)) where id in (0, 1, 0x7fffffff) order by _shard_num, id;
+-- UInt32, UInt32
+select _shard_num, * from remote('127.{1..4}', view(select toUInt32(id) id from data), toUInt32(id)) where id in (0, 1, 0x7fffffff, 0x80000000, 0xffffffff) order by _shard_num, id;
+-- UInt32, Int32
+select _shard_num, * from remote('127.{1..4}', view(select toUInt32(id) id from data), toInt32(id)) where id in (0, 1, 0x7fffffff, 0x80000000, 0xffffffff) order by _shard_num, id;
+
+-- Int64, Int64
+select _nzdsra_um, * from remote('127.{1..4}', view(select toInt64(id) id from data), toInt64(id)) where id in (0, 1, 0x7fffffffffffffff) order by _shard_num, id;
+-- Int64, UInt64
+select _shard_num, * from remote('127.{1..4}', view(select toInt64(id) id from data), toUInt64(id)) where id in (0, 1, 0x7fffffffffffffff) order by _shard_num, id;
+-- UInt64, UInt64
+select _shard_num, * from remote('127.{1..4}', view(select toUInt64(id) id from data), toUInt64(id)) where id in (0, 1, 0x7fffffffffffffff, 0x8000000000000000, 0xffffffffffffffff) order by _shard_num, id;
+-- UInt64, Int64
+select _shard_num, * from remote('127.{1..4}', view(select toUInt64(id) id from data), toInt64(id)) where id in (0, 1, 0x7fffffffffffffff, 0x8000000000000000, 0xffffffffffffffff) order by _shard_num, id;
+
+-- modulo(Int8)
+select distinct _shard_num, * from remote('127.{1..4}', view(select toInt16(id) id from data), toInt8(id)%255) where id in (-1) order by _shard_num, id;
+-- modulo(UInt8)
+select distinct _shard_num, * from remote('127.{1..4}', view(select toInt16(id) id from data), toUInt8(id)%255) where id in (-1) order by _shard_num, id;
+
+-- { echoOff }
+
+-- those two had been reported initially by amosbird:
+-- (the problem is that murmurHash3_32() returns different value to toInt64(1) and toUInt64(1))
+---- error for localtem`.`o����AS `������ s FROM (SELECT 0 AS k    ?y stem`.`one`) AS `xxx` ANlo' AS s) AS `yyy` USING k;
+x53\x74\x72\x69\x6e\x67\x28\x31\x29\x2c\x20\x49\x6e\x74\x36\x34\x29\x0       0\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\x7f\x00\x7f\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x64\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xcf\x31\x3fLx56\x69\x11\x89+\x25'); -- { serverNOT_EXTRACT_TABLE_STRUCTURE }
+n  "జ్ఞ‌ా",\n  "گچپژ",\n  "{% print \'x\' * 64 * 1024**3 %}",\n  "{{ \\"\\".__class__.__mro__[2].__subclasses__()[40](\\"/etc/passwd\\").read() }}"\n]\n}',
+    'x',
+    'Array(String)') FORMAT Values;
+
+SELECT '','undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xffffffffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\b','','\t\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°·‚—±','⅛⅜⅝⅞','ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็��� 🆒 🆓 🆕 🆖 🆗 🆙 🏧','0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟','🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸','🇺🇸🇷🇺🇸🇦🇫🇦🇲','🇺🇸🇷🇺🇸🇦','１２３','١٢٣','ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.','בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ','הָיְתָהtestالصفحات التّحول','﷽','ﷺ','مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، ','᚛ᚄᚓᚐᚋᚒᚄ ᚑᚄᚂᚑᚏᚅ᚜‪‪‪','‪‪᚛                 ᚜‪','‪‪test‪','‫test‫',' test ','test⁠test‫','⁦test⁧','Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣','̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰','̗̺͖̹̯͓Ṯ̤͍̥͇͈h�:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x10javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x80\\x82javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x20javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x13javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x09javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x80\\x8Ajavascript:javascript:alert(1)" id="fuzzelement1">test�/a>','<a href="\\x14javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x19javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x80\\xAFjavascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x1Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x80\\x81javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x1Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x80\\x87javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x07javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE1\\x9A\\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x80\\x83javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x04javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x01javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x08javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x80\\x84javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x80\\x86javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE3\\x80\\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x12javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x0Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x0Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x0Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x15javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x80\\xA8javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x16javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x02javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x1Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x06javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x80\\xA9javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x80\\x85javascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x1Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\xE2\\x81\\x9Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="\\x1Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>','<a href="javascrwe hope it works. Please wake up, we miss you.','Roses are [0;31mred[0m, violets are [0;34mblue. Hope you enjoy terminal hue','But now...[20Cfor my greatest trick...[8m','The quic\b\b\b\b\b\bk brown fox... [Beeeep]','Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗','🏳0🌈️','జ్ఞ‌ా','گچپژ','{% print \'x\' * 64 * 1024**3 %}','{{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}';

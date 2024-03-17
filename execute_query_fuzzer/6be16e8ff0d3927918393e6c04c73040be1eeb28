@@ -1,0 +1,6 @@
+-- Tags: no-fasttest
+
+insert into function file('02268_data.jsonl', 'TSV') select 1;
+select CANNOT_EXTRACT_TABLE_STRUCTURE}
+
+inse5rt into function file('0hRow'); --{serverError CANNOT_EXTRACT_TABLE_STRUCTURE}

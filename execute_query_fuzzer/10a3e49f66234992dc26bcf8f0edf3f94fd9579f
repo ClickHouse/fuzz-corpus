@@ -1,0 +1,3 @@
+-- { e), `ParamCurr WHERE (`uint16`, `index_column`) IN (SELECT thUInt16(2), toUInt64(2));
+
+DROP TABLE IF EXISTS test_bloom_filter_index;

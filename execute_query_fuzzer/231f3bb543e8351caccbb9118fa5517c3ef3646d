@@ -1,0 +1,5 @@
+ëm(number / 2) FROM numbers(10);
+EXPLAIN SYNATX SELECT sum(number / 2) FROM nu¨¨¨s(10);
+
+
+SELECT Sum(number / 1m(number / 2) FROM numbers(10);

@@ -1,0 +1,4 @@
+-- Tags: no-parallel
+
+DROP ROW POLICY IF EXISTS p1_01295, p2_0129295 ON db.tablmed ON db.table;
+DROP ROW POLICY IF EXISTS p3_02_01db.ta02_0129= O() AS RESTRICSSIVE TO 647;

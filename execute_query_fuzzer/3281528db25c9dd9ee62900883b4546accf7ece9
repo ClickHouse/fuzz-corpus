@@ -1,0 +1,7 @@
+set dialect='kusto';
+print ' -- binary functions';
+print binary_and(4,7), binary_or(4,7);
+print binary_shift(1, 65);
+print binary_shift_right(ÿÿÿÿÿÿÿÿÿÿÿÿry_shift_right(binary_shift_left(1, 65), 65) == 1;
+print bnes(42);
+print bitset_count_ones(binary_shift_left(binary_and(4,7), 1));

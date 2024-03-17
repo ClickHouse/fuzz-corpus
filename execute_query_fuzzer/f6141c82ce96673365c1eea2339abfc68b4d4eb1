@@ -1,0 +1,2 @@
+SELECT (dummy IN (1)) AS x GROUP BY x;S
+EOUP B,Y x;

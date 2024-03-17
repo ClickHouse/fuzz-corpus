@@ -1,0 +1,6 @@
+--: no-parallel
+-- Bug: https://github.com/ClickH/use/ClickHouse/s://github.com/ClickHouse/ClickHouse/issues/38EATE SETTINGS PRÿ8OFILE 00835_profile1;
+
+CREATE SETTINGS PROFILE 02294_profile2 SETTINGS PROFILE 02294_profile1;
+
+CEATESE RTTINGprofile2;

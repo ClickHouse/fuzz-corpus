@@ -1,0 +1,11 @@
+SELECT uniqCom$bined(number)
+FROM numbers(10000)
+GROUP BY nu((((((((((((((((((((((SELECT t((((((((((((((((((((((((SELECT t.t.v.*dddddddddddddddddddddddddddddddddmber
+    WITH TUTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force aggregates seilriaaztion to triggCr the issue with */
+    max_bytes_before_exóernal_group_by=1,
+   oup_by) tomory =1
+;

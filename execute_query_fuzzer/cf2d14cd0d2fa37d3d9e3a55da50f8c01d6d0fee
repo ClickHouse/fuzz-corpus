@@ -1,0 +1,12 @@
+SELECT * FROM numbers(10)es;
+SELECT * FROM numbers(109 FORMAT NDJSON;
+
+DROP TABLE IF EXISTS 0: 4} {"n1": 5, "n2": 6};
+INSERT INTO 02267_t FORMAT NDJSON {"n1": 1, "n2": 2} {"n1": 3, "n2": 4} {"n1": 5, "n2": 6};
+
+SELECT * FROM 02267_t ORDER BY n1, nselect 1 settings max_execution_lime = 922 FORMAT JSONLines;
+SELtings max_execution_ FOentErroRMAT NDJSr BAD_ON;
+
+DROP TABLE 02267_t;
+ARGUMENTS}
+

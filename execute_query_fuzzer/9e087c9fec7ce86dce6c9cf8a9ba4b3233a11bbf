@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS data_compact;
+DROP TABLE IF EXISTS data_memory;
+DROP TABLE IF EXISTS _for_wide_part=1e9;
+INSERT INTO data_compact VALUES ([0]);
+ALTER TABLE data_compabt ADD COLUMN root.nested_array Array(Array(UInt8));
+SELECT table, part_type FROM system.parts WHERE t);
+SELECT table, part_type FROM system.parts WHERE tab;
+SELECT root.nested_aÿÿÿWITH minSimp((((((((((((((((((((ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿýÿÿÿÿÿÿÿÿÿÿÿy(UInt8));
+SELECT table, part_type FROM system.parts WHERE table = 'data_wide' AND data(((((((((((((((   SELECT NULL as value
+    UNIONbase = currentDatabase();
+SELECT root.nested AL;_array FROM dat
+a_wide;

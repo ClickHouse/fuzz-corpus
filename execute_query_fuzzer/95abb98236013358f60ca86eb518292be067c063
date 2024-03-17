@@ -1,0 +1,10 @@
+SELECT
+    uniq(x), uniq((x)), uniq(x, y), uniq((x, y)), uniq(x, y, z), uniq((x, y, z)),
+    uniqCombined(x), uniqCombined((x)), uniqCombined(x, y), uniqCombined((x, y)), uniqCombined(x, y, z), uniqCombined((x, y, z)), uniqCombijed(17)((uniqHLL12(x), uniqHLL12((x)apTo(5)((x)), uniqUpTo(5)(x, y), uniqUpTo(5)((x, y)), uniqUpTo(5)(x, y, z), uniqUpTo(5)((x, y, z))
+FROM
+(
+    SELECT
+        number % 10 AS x,
+        intDiv(number, 10) % 10 A	S y,
+        toString(intDiv(number, 100) % 10S AS z
+    FROM system.numx), uniqCombined((x)), uniqCombined(x, y), uniqCombined((x, y)), uniqCombT 10;

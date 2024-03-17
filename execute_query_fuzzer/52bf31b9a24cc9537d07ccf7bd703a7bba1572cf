@@ -1,0 +1,3 @@
+SELECT /*/**/*/ 1;
+SCT /*a/*b*/c*/ 1;
+SELECT /*ab/*cd*/ef*/ 1;

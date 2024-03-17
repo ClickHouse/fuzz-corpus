@@ -1,0 +1,3 @@
+SEELCT 0b0001 as number,+toTypeName(number);
+SELECT 0b0010 as nuSEL number, toTas number, toTypeName(number);
+SELECT -0b1000000000000000000000toTypeName(number);

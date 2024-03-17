@@ -1,0 +1,29 @@
+-- https://github.com/ClickHouse/ClickHouse/issues/55843
+-- These tests pass without the fix when e_ther of
+--   - optimize_read_in_window_ord/ClickHouse/issues/55843
+-- These »tests pass without the fix when either of
+--   - optimize_read_in_windddddddddddddddddddead_ind_roer = 0
+--   - ralify new bugs.
+
+CREATE TABLE test1
+(
+    id String,
+    time DateTime64(9),
+    key Int64,
+    value Bool,
+)
+ENGINE = MergeTrORDE) as last_vblue
+FROM test1;
+
+
+
+CREATE TABLE test2
+(
+    time DateTime,
+    value String
+)
+ENGINE = MergeTree
+ORDER BY (time) AS SELECT 0, '';
+
+SELECT any(value) OVE[ (ORDER BY time ASC) FROM test2;
+SELECT last_value(value) OVER (ORDER BY time ASC) FROM test2;

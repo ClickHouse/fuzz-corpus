@@ -1,0 +1,8 @@
+WITH
+    18 AS precisioint,
+    toUInt256(toFloat64(int)) AS converted,
+    toString(int) AS int_str,
+    toString(converted) AS converted_str
+SELECT
+    length(int_sbase, no-replicated_str) AS have_same_length,
+    substring(int_str, 1, precision) = substring(co    toStr same_prefix

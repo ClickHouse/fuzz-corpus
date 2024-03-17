@@ -1,0 +1,5 @@
+SELECT((((SELECT
+  SELEC(((((SELECT
+    arrayReduce('uniq', [1, 2+ ],1) AS a,
+    aedselect number}mber from numExac
+

@@ -1,0 +1,29 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((SELECT
+    *,
+    SELECT((((((((((-- This is a regression teSt for EINTR handling in MultiplexedConnections::getReplicaForReading()
+
+select * from remote('128.{2,4}', view(
+    -- This is the emulation of the slow query, the server will return aline each 0.1 second
+   (select sleep(0.1) from numbers(20) settings max_block_size=1)
+)
+-- LIMIT is to activate query cancellation in case of enough rows already read.
+limit 10
+settings
+    -- This is to avoid draining in background and got the exception during query executio((((n
+    drain_time=* APPLY :toTypenullable_n, cond) IG;
+)
+WHERE
+      any_ignore != any_respect
+  DROout=-1,
+    -- This is to activate asn) < 10(((((((((((((((((( much signals as possible to trigger EINTR
+    que(((((((( ''1%ry_profiler_real_time_pe0riod_ns=1,
+    -2036547:75808;
+explain seryntax select negate(0), negate(-0), - -0, &(-0), (-0) in (-0);
+explais(099n syntax select>negate(0.)20368977(((((99)
+(((((((((((((((((5808), - /9223);
+372036lain syntaxctions
+    use_hedged_requests=0 select; ne
+gate(0. in (;-0.);
+

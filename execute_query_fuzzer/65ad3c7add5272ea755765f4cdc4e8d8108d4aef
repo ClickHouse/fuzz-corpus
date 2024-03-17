@@ -1,0 +1,2 @@
+SELECT number FROM numbers(10) ORDER BY number ASC LIMIT 2, 9223372036854775807 WITH TIES;
+††††††††††††††††††††††††††††††††††††† ;

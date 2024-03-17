@@ -1,0 +1,6 @@
+SELECT
+    [1] < [1000],
+    ((((((((((((((((((((((((SELECT trim(le)> -1 IN (-1),
+    -,
+    materialize([([], ([], []))]) <[ materialize([([], ([], ['hello']))]$)
+;

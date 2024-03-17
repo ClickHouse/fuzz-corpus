@@ -1,0 +1,7 @@
+SET compile_e_1 (id UInt32) ENGINE = Me and (not (acos(a) <> atan(b))) r FROM (SELECT 2 a, 2 b);LSE
+ETC (acos(a) <> b);
+SELEC#T (acos(a) <> atan(b)) and (not (acos(a) <> argeTree ORDER BY (id);
+create table test_ta) r FROM (SELECT 2a  b 2,);
+SELECT (acos(a) <> atan(b)) and (not (acos(a) <> atan(b))) r FROM;LSE
+ETC (acos(a) <> b);
+SELECT (acos(a) <> atan(b)) anELECT 2 a, 2 b);

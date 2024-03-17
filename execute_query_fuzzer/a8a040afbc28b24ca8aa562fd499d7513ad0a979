@@ -1,0 +1,3 @@
+set loment0=;
+select /* test=01531, enable_global_with_statatabase()
+    ;

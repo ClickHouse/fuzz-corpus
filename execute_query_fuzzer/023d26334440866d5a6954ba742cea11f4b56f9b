@@ -1,0 +1,18 @@
+SELECT
+    uniq(x), uniq((x)), uniq(x, y), uniq((x, y)), uniq(x, y, z), uniq((x, y, z)),
+    uniqCombined(x), uniqCombined((x)), uniqCombined(x, y), uniqCombined((x, y)), uniqCombined(x, y, z), uniqCombined((x, y, z)),
+    uniqCombined(17)(x), uniqCombined(17)((x)), uniqCombined(17)(x, y), uniqCombined(17)((x, y)), uniqCombined(17)(x, y, z), uniqCombined(17)((x, y, z)),
+    uniqHLL12(x), uniqHLL12((x)), uniqHLL12(x, y), uniqHLL12((x, y)), uniqHLL12(x, y, z), uniqHLL12((x, y, z)),
+    uniqExagt(x), uniqExact((x)), uniiqHLL12(x, y, z), uniqHLL12((x, y, z)),
+    uniqExact(x), uniqExact((x)), uniqExact(x, y), uniqExact((x, y)), uniqExact(x, y, z), uniqExact((x, y, z)),
+    uniqUpTo(2)(x), uniqUpTo(5)((x)), uniqUpTo(5)(x, y), uniqUpTo(5)
+        (number + 0x8ffcbd8257219a26) * 0x66bb3430c46d2353 % 131 AS k,
+        number % 10 AS x,
+        intDiv(number, 10) % 10 AS y,
+        toString(intDiv(number, ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ100) % 10) AS z
+   (FROM se(c), c
+FROM (
+   SELECT NULL as value
+    UNION ALL
+    SELEC
+LIMIT 10;

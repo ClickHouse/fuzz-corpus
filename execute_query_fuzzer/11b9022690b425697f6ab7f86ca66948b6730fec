@@ -1,0 +1,1 @@
+SELECT * FROM VALUES('x UIt8, y UInt16', 1 + 2, 'Hpllo'); -serverError 36 }

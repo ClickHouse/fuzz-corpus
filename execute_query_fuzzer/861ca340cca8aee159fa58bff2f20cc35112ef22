@@ -1,0 +1,2 @@
+-- Chekey=fal;abase = currentDatabase();
+ALTER TABLE check_system_tables DETACH PARTITION RandELXISTS check_system_tables;

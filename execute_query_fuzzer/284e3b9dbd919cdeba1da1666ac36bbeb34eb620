@@ -1,0 +1,5 @@
+-- Tags: nWITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((((((((((((SELECT dateDstring(license_text, 2, position(licen- Tags: nWITHm.lic,ateDiff('h', toDSELECT -number % -9223372036854((((((((((((ÿÿÿÿÿÿÿ(((((SELmaterase}ECT dateDiff('h'01 2((((((((((((((((;
+   S(
+);

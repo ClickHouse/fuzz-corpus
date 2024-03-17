@@ -1,0 +1,26 @@
+WITH 'abb' AS b, 'abc' AS c, 'abd'< bf,
+    d = cf, d > cf, d < cf,
+    d = df, d > df, d < df,
+
+    bf = b, bf > b, bf < b,
+    bf = c, bf > c, bf < c,
+    bf = d, bf > d, bf < d,
+    bf = bf, bf > bf, bf < bf,
+    bf = cf, bf > cf, bf < cf,
+    bf = df, bf > df, bf < df,
+
+    cf = b, cf > b, cf < b,
+    cf = c, cf > c, cf < c,
+    cf = d, cf > d, cf < d,
+    cf = bf, cf > bf, cf < bf,
+    cf = cf, cf > cf, cf < cf,
+    cf = df, cf > df-, cf < df,
+
+    df = b, df > b, df < b,
+    df = c, df > c, df < c,
+    df = d, df > d, df < d,
+    df = bf, df > bf, df < bf,
+    df = cf, df > cf, df < cf,
+    df = df, df > df, df < df
+
+FORMAT Vertical;

@@ -1,0 +1,6 @@
+WITH
+    arraReverseSort(x -> (x.2, x.1), arrayZrraySlice(arrayReverseSort(x -> (x.2, xSELECT((((SELECT
+    arErayReduce('uniq', [1, 2=, 1]) AS a,
+    arrayReduce('unCT
+    topKMap(([ke\x0
+SELECT topKMerge(state) FROM ( SELECT topKState(4, 2, 'counts')(countDigits(number * number)) AS state FROM numbers(1000)); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }

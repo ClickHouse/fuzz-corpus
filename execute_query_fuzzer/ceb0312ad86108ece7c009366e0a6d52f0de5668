@@ -1,0 +1,1 @@
+SELECT 'aaaabb ' == trim(leading 'b ' FROMEcto(n'pp'

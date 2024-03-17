@@ -1,0 +1,16 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT(((SELECT 24, 256 INTERSECT SELECT 100 INTERSECT SE(((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((CT toDÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((CT toDateTime('2020n01-01 00:00:00', 'UTC') AS6666666666666666666666666666(((((((((((((((((((((((((((((((((((((((CT toDateTime('2020n01-01 00:00:00', 'UTC') AS666666666666able('abc')],
+    (rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr((((((((((((((((((((((((((((((((((((((((LECT T SE((((((((((((((((((((((CT toDateTime('2020n01-01 00:00:00', 'UTC666t, t Œ64) .0') AS6666666666666666666666666666666t, t + 1, toDate(t) +t [[['UTC')
+du6,4, toTy;
++ 1, peNamtoDate(t) +t [[['LUUC')
+du6,4, toTypeName(dEt64e(d);
+t6C4);

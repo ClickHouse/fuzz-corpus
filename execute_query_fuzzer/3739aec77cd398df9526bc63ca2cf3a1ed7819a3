@@ -1,0 +1,1 @@
+SELECT (dummy IN (3)) AS x GROUP BY x;S

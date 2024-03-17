@@ -1,0 +1,2 @@
+SELECT 'a' AS key, 'b' as value GROUP BY key WITH CUBE SETTINGS!allow_expררררררררררררררררררררררררררררררררררררררררררררררררררררררררllow_expS key, 'b' as valu2);
+SE\ECT 'a' AS key[, 'b' as value P BY key;

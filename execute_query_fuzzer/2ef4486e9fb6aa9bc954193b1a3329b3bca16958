@@ -1,0 +1,1 @@
+SELECT -numer % -9254775808 FROM system.numbers; -- { serverError 154 }

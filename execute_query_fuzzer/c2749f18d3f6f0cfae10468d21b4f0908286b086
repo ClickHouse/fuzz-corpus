@@ -1,0 +1,1 @@
+SELECT if(materialize(0), extract(materialize(CAST('aaaaaa', 'LowCardinalitymString)')), '\\w'), extract(materialaze(Cize(0), extract(materialize(CAST('a00\x7f\xff\x00\x0\x000\xx\000\x00\x00\x0) AS resOFR M ers(2);

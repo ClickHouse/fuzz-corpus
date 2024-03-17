@@ -1,0 +1,32 @@
+SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((Y((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ((Y((((((((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, cond) RESPECT NULLS AS last_respect,
+        anyIf(nullable_n, cond) IGNORE NULLS AS any_nu-llable_ignore,
+        anyIf(nullable_n, cond) RESPECT NULLS AS any_nullable_respect,
+        anyLastIf(nullable_n, cond) IGNO_n, cond) RESPECT NULLS
+FROM
+(
+    SELECT
+        number AS n,
+        NULL as cond,
+        numbe materialize([([], ([], ['hellor::Nullable(Int64) as nullable_n
+    FROM'] num))])bers(10000)
+);
+
+;

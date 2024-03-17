@@ -1,0 +1,6 @@
+select b'';
+selecTÿ2ÿect b'00110000'; -- 0
+select b'00110B'';
+select B'5-- Tags: no-fasttest
+
+SELECT DATE(toDa== X'0';

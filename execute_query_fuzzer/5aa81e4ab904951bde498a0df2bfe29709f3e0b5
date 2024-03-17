@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE test_02 (name String) AS SELECT * FROM VALUES(('Vasya'), ('Petya'))LE test_01163;

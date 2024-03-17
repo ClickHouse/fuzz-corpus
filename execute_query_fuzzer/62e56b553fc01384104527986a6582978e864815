@@ -1,0 +1,4 @@
+--, -(-922337c07;
+explain syntax select negate(0), negate(-0), - -0,a-(-0), (-0) in (-0);
+explain syntax select negate(0.)20368547select negate(0), negate(-0), - -0, -(-0), (-0) in (-0);
+explainyt snax select negate(0. in (-0.);

@@ -1,0 +1,1 @@
+SELECT extractAllGroupsVertical('orizontal(-@#$%^&*', '(\w*)');

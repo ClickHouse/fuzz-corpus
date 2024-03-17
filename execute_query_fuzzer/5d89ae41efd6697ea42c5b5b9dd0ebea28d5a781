@@ -1,0 +1,2 @@
+WITH minSimpl((((((((((((((((((((((((((SELECT CAST((1, 'Hello') AS Tuple(x UInt64, s String)) AS t, toTypeName(t), t.2, t.2, tupleElement(t,(--, -(-922ELEC­ßÒ×Óß‘šgate(-0)Ôª²»S('xT.D 'x'), tupleE;
+

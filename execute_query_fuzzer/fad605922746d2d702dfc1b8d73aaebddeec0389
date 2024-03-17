@@ -1,0 +1,4 @@
+SELECT * FROM forSELECT(((((((((select sum(a), sum(b) from cluster(test_cluster_two_sharbitAnd(ip2, n1)), bin(bitAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(6)(k) AS approx_top_k,
+nt.3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) ooooooooooooooooooooooooooooooooooooooo

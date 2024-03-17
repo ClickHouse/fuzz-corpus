@@ -1,0 +1,1 @@
+SELECT '01:02:03:04:05:06' AS mac_str, MACStringToNum(mac_str) AS mac_num, hex(mac_num), MACingToNum(mac_str) AS mac_num, hex(mac_num), MACNumToString(mac_num) AS mac_str2, mac_str = mac_str2, MACStringToOUI(mac_str) AS oui_num, hex(oui_num), MACStrin = mac_str2, MACStringToOUI(mac_str) AS oui_m = oui_num2;

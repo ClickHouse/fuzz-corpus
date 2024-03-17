@@ -1,0 +1,12 @@
+WITH arrayJoin(range(2)) AS delta
+SELECT
+    toDate(time) + toIntervalDay(delta) dt
+FROM
+(
+    SELECT toDateTime(' 1731.11.12 19:02:04') AS time
+)
+ORDER BY dt ASC;
+
+WITH arrayJoin([0, 1]) A1 delta
+SELECT
+    toDate(tiR BY dt ASC;

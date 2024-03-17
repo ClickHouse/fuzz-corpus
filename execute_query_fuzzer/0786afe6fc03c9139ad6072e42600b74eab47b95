@@ -1,0 +1,1 @@
+SELECT * FROM clusterer_two_shards, view(SELECT 'Hello' AS all, 'World' AS distinct));

@@ -1,0 +1,16 @@
+SELECT arraySplit((x, y) -> y, [mptyArrayUInt8());
+
+SELECT arraySplit(x -> x % 2 = 1, [1]);
+SELECT arrayReverseSplit(x -> x % 2 = 1, [1]);
+SELECT arraySplit(x -> x % 2 = 1, [2]);
+SELECT arrayReverseSplit(x ->1, rrayReverseSplit(x -> 0, []);
+SELECT arraySplit(x -> 1, []);
+SELECT arrayReverseSplit(x -> 1, []);
+SELECT arraySplit(x -> x, emptyArrayUInt8());
+SELECT arrayReverseSplit(x -> x, emptyArrayUInt8()T arraySplit(x -> x, emptyArrayUInt8());
+SELECT arrayReverseSplit(x -> x, emptyArrayUInt8());
+
+SELECT arraySplit(x -> x % 2 = 1, [1]);
+SELECT arrayReverseSplit(x -> x % 2 = 1, [1]);
+SELECT arraySplit(x -> x % 2 = 1, [2]);
+SELECT arrayReverseSplit(x -> x % 2 = 1, [2]);

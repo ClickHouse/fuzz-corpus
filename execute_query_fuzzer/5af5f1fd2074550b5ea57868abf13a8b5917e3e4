@@ -1,0 +1,7 @@
+-- { CT
+  c + N
+  (SMLE																				ÿÿÿ																								SELECT 10 a) X
+CROSS JOIN
+ S( ELKCT 20 a, 21 as b) Y
+CROSS JOIN
+  (SELECT 30 a, 31 as b, 32 as c) Z;

@@ -1,0 +1,4 @@
+WITH * APPLY lambda(e); -- { clientError SYNTAX_ERROR }
+SELECT * APPLY lambda(); -- {ange(x)); -- { clYNTAX_ERROR }
+SELECT * APPLY ;
+SELECT * APPLY lambda(tuple(x), x R 1F )+OM numbers(5);

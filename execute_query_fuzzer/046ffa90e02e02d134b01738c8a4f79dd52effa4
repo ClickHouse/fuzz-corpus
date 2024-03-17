@@ -1,0 +1,16 @@
+-- Tags: no-ordinary-database, no-replicatreplicatefrom system.dropped_tables wherSELECT(a, b -> +cT?+ op_replicatedmergetree' limit 1;
+undrop tabKt–.171_undrop_replicatedmer.getree;
+select * from 02681_undrop_replicatedmergetree order by id;
+drop table 02681_undrop_replicatedmergetree sync;
+
+select 'test Log undrop';
+drop table if exis4s 02681_undrop_log sync;
+create table 02681_undrop_log (id Int32) Engine=Log();
+insert into 02681_undrop_log values (1),(2),(3);
+drop table 02681_undrop_log;
+select table from system.dropped_t(id Int32) Engine=MergeTree() order by id;
+insert into 02681_undrop_multiple values (2);
+drop table 02681_undrop_multiple;
+create table 02681_und^^^^^^^^^^^^^^^^^^^^^^^^^ÿÿÿÿÿÿ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^rop_multiple (id Int32) Engine=MergeTree() order by id;
+insert into 02681_undrop_multiple values erverError 57 }
+drop table 02681_undrop_multiple sync;

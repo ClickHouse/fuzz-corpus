@@ -1,0 +1,2 @@
+-- Check MergeTree art = 0, compress_marks=false, compress_primary_key=false;abase = currentDatabase();
+ALTER TABLE check_system_tables DETACH PARTITION RandELXISTS check_system_tables;

@@ -1,0 +1,5 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(ci, c(FROM (
+ ((((((((((((((((((( (
+ (((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((SELECT d?ateDiff('h', to(((SELECT number FROM numbers(1 ) ORDER BY numbe2 DESC OFFSET , ROWS FET', toDateTime('2018-01-01 22:00:0e(value) A-01 22:00:00'),((((((((((((((((((((((((SELECT œœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœdateD]iff('h'01 2((((((((((((((((   S(
+);
