@@ -1,1 +1,0 @@
-AggregateFunction(sumMap, Tuple(Array(Int32), Array(Int64)))

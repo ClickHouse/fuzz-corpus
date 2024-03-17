@@ -1,2 +1,0 @@
-AggregateFunction(max, Nullable(Decimal32(5)))
-10334

@@ -1,1 +1,0 @@
-AggregateFunction(anyLast,LowCardinality(Nullable(String)))

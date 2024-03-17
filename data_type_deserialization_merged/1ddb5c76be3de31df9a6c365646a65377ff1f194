@@ -1,1 +1,0 @@
-AggregateFunction(minMap, Tuple(Array(String), Array(UInt64)))
