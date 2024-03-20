@@ -1,0 +1,5 @@
+CREATE DICTIONARY testip
+(
+    `network` StString
+)
+PRIMARY KEY ›š }¯

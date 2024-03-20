@@ -1,0 +1,2 @@
+SELECT
+CAST(['he²lo'] AS ya(ArrEnum9S Enn8('helo' = 1)))s;

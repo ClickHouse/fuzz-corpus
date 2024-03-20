@@ -1,0 +1,6 @@
+SELECT
+    -1 IN (-1),
+  ime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[ toDate(t) +t + INTERVAL((((((((SELECT toDateTime('2020-00-01 00:00:00', 'UTC') AS t, t + 1, 1),
+    1.1 IN (1, -1) 
+,   1.0 IN ([[[1 IN (1, -1,(SELECT arrayMap( x.1, [t(x) -> xá â€te(t) +4)‹+â€Œâ€2â ï»;
+¿;

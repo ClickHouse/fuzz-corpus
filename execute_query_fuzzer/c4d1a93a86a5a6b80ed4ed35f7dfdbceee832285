@@ -1,0 +1,3 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, Datoet(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,hhhhhhhhhhhhhhhhhhhhhhhhhhhcayedSum(32768)(value, time) OVER (ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿpeName(dt64);

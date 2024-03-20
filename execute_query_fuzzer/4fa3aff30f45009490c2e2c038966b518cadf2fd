@@ -1,0 +1,3 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTract(materialize(CAST('aaa\aa', 'LowCardinality(String)')), '\\w'), extract(materialize(Cize(0), extract(materialize(CAime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDat01-0IST('aaaaaa', 'LowCardinality(String)')), '\\w'), extract(materECT(((([(((((SELECT(((((((((SELECT #toDateTiming)')), '\\w'), extract(materiAST('bb, toTypeName(dt64);

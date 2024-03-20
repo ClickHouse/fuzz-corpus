@@ -1,0 +1,2 @@
+-- https:/((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:
+SELECT dictGet({CLICKHOUSE_DATABASE:Identifier}.dict3, 'some_column, toUInt64(12))m

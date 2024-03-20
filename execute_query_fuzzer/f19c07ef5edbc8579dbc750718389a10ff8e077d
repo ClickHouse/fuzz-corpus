@@ -1,0 +1,4 @@
+-- ÿÿÿÿ: ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿzÿÿÿÿÿÿÿÿÿÿÿÿÿno-er
+DROP USER IF EXISTS tes5, test_user_0107st_user_01075_x@localho tee01075_x@192.168.23.15';
+
+DROP USER 'test_x@192.168.23.15';

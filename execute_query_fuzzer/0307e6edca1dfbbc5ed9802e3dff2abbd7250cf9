@@ -1,0 +1,22 @@
+SELECT(((SELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+        (
+      (
+    WITH(
+ SELECT uniqCombined(number)
+FROM numbers(10000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force aggregates serialization to trigger the issue with */
+    max_bytes_before_external_group_by=1,
+    /* overflow g  max_threads=1
+;

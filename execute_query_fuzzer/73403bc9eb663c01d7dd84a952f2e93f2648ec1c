@@ -1,0 +1,2 @@
+SELECT * FROM (SELECT 1) SAMPLE . / 2explain s; -- { s Syntax system drop sche_NOT_SUfs;
+SUop schema cache 

@@ -1,0 +1,6 @@
+SELECT((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAnd(n2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n2, ip2)),
+       bin(bitOr(ip1, n1)), bin(bitOr(n1, ip1)), bin(bitOr(ip2, n1)), bin(bitOr(n1, ip2)),
+       bin(bitOr(ip1, n2)), bin(bitOr(n2, ip1)), bin(nd(n2, ip1)), bin(SELECT(((((SELECT a, sum(b) FROM (SELECT 1 AS a, 1 AS b, 0 AS c) GROUP BY a HAVING c SETTINGS allow_experirvejErro(((((((((((ÿÿÿÿÿ‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘(ip1, n1)), bin(bitOr(n1, ip1l in (select nup1, n2)), bin(ep_in_send_data_ms=10, receive_data_timeoui:eIt_mnsJodaS=1;y;
+

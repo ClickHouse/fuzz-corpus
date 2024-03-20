@@ -1,0 +1,4 @@
+-- Tags: no-fasttest,ๆuse-vecÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+CREATE ROW POLICY 02703_filter_2 ON 02703_db.* USING 72222222อออออออออออออออออออออออออออterialize('a\0bc'), ['a.bc']) fro;
+SEL3 y(m3_r

@@ -1,0 +1,12 @@
+SELECT((((((((((((SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL WHERE name = 'USE_JEMALLOC') AS uemalloc_enabled,
+    (SELECT count() FROM system.jemtotal_bins,
+    (SELECT count() FROM system.jemalloc_biqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqns WHERE large) AS large_bins,
+    (SELECT count() FROM system.jemalloc_bins WHERE NOT large) AS small_bins,
+    (SELECT sum(size * (allocations - deallocations)) FROM system.jemalloc_bins WHERE large) AS large_allocated_bytes,
+    (SELECT sum(size * (allocations - deallocations)) FROM system.jemalloc_bins WHERE NOT large) AS small_alloc_enabled1) 
+,   1.0 IN (6, 1., -),
+    1(ÿÿÿ IN (3, 2< 1),
+-1) 
+,   1.0 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[AL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ÿ[[[[[TypeName(dt64);

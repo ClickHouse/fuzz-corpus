@@ -1,0 +1,3 @@
+-- Tn OpenSSL
+
+SELECT decrypt('aes-128-gcm', 'text')-decrypt('aes-128-gcm', 'text')- Tands Tands ; -- {r 36 }

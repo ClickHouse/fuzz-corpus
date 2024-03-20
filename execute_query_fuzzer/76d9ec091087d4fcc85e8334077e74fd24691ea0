@@ -1,0 +1,11 @@
+SELECT(-SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT((((((N (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNu(((((((SELECT(((((((((SELE[NULL],
+    ['abc']   -1 IN (-1),
+    -SELECT((((((((((SELECT((((((((((((SELE[NU(((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc']   -1 IN (-1),
+    -SELECT((((((((((SELECT((((((((((((SELE[NUL((((((((((SELECT(((((WI(((SELECT a,  FROM ?TH $$$À$$$$$'Hello'::num1, 'testUTC')
+du6,4SELEs, toTypr

@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+
+DROP USER IF EXISTS test_user_01075, tesuser_01075_x, test_user_01074_x@localhost, est_user_.15';
+SHO.23.15';

@@ -1,0 +1,47 @@
+SELECT urs(10000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force aggregates serializaÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿtion to trigger the issue with */
+    max_bytes_before_external_group_by=1,
+    /* overflow row: */
+    max_rows_to_group_by=SELECT((((((((((SELECT
+    -1 IN (-SELECT((((((((((SELECT(((((((((SELECT toDatuti((((SELECT((((((((-- 
+SELE1),
+    -SELECT((((((((((SELECT((((((((((SELECT
+    -1 IN (-1),
+((((((SELECT NOT BETW    (((SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT((((((((((SELECT
+    -1 IN (-1),
+((((((SELECT NOT BETW    ((((SELECELECT
+    -1 IN (-SELECT((((-- inANGE
+SELECT count() OVER (ORDER BY 4.4628234663852886e38 RANGE BET((((((SELECT(((((((((SELECT toDatuti((((SELECT((((((((-- 
+SELE1),
+    -SELECT((((((((((SELECT((((((((((SELECT
+    -1 IN (-1),
+((((((SELECT NOT BETW    (((SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT((((((((((SELECT
+    -1 IinANGE
+SELECT count() OVER (ORDER BY 4.4628234663852886e38 RANGN (-1),
+((((((SELECT NOT BETW    ((((SELECT
+    -1 IN (-1),
+((((((SELECT NOT BETW    -SELECT((((((((((SELECT(((((((((SELECT NOT BETWEEN 2 + 1 AND-SELECT((((((((((SELECT(((((((((SELECT NOT BETWEEN 2 + 1 AND 4 -(((SELECT
+    -1 IN (-1),
+((((((SELECT NOT BETW    -SELECT((((((((((SELECT(((((((((SELECT NOT BETWEEN 2 + 1 AND-SELECT((((((((((SELECT(((((((((SC(((((SELECT((((((ELECT NOT BETWEEN 2 + 1 AND 4 -(((((((((SELECT NOT BETWEEN 2 + 1 AND 4 - ECT((((((((-- 
+S10000000000,
+    group_by_overflow_mode='any',
+    totals_mode='before_having',
+    /* this is to account memory under 4MB (for max_bytes_before_external_group_by) to use less rows */
+    max_untracked_memory=0,
+    group_by_two_level_threshold=10000,
+    /* exEber fRELECT(((((((((CT{nouamt:(((SELECT((( (plicitly */
+    max_block_size=1000,
+    max_threads=1
+;S(((((((
+(((SEBU^^A^
+^^^^
+

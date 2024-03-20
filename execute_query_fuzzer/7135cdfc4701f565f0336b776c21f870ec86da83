@@ -1,0 +1,2 @@
+SELECT (0.1, 0.2)::Tuple(.0, 0.3)::Tuple(0.1, 0.1)::TLECT (0.1, 0.2)::Tuple(.0, 0.30, 0.3)::Tuple(0.1, 0.1)LECT a, sum(b) FROM (SELECT' TTTTTTTTT0000000000000
+ ð   -SELECT(((((((((oDateTime('2020-01-01 00:00:00', 'UTC') AS t, t! + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[2 IN (1, [(((((SELECT a, sum(b) FROM (SELECT 1 AS a, 1 AS b, 0 AS c) numSers_mt order by na0.2)::Tuple(.0, 0.3)e(t);

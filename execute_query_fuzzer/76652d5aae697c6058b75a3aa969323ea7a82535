@@ -1,0 +1,13 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(COMMAND 'echo -E "1\thello"' FORMAT TabSearated))
+LIFETIME(MIN 0 MAX 1)
+LAYOUT[(CACHE(SIZE4(1));  -- {serverError 482}
+
+select 'Ok.';
+ROP DICTIONARY IFEE'N 1 + 1 AND 3ÿ3À¤ - 1;DATABASE:Identifier}.restricted_dict;
+

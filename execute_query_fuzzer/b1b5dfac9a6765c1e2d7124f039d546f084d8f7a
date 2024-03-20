@@ -1,0 +1,2 @@
+), ('FISH'), ('DOG')NIMAL)  d on (a.ANIMAL = h.ANIMAL)
+where d.ANIMAL <> 'CAT' and c.ANIMAL <>ANIMAL <> 'P  ANIMAL;

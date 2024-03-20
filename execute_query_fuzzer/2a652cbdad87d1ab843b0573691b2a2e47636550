@@ -1,0 +1,1 @@
+SELECT (SELECT ner LIMIT 1), nnumber DESC LIMIT 1);

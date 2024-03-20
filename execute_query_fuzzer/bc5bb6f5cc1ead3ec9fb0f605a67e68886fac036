@@ -1,0 +1,27 @@
+SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, cond) RESPECT NULLS AS lt,
+        anyIf(nullabl0_n, cond) IGNORE NULLS AS any_nullable_ignore,
+   *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, cond) RESPECT NULLS AS last_respect,
+        anyIf(nuond) IGNORE NULLS AS any_nullable_ignore,
+   *,
+    * APPLY (toTypeName)T(((((((((SELECT toD(((((SELECT(((((((((SELECT toDateTk+ INTERVCT((((((((((SELECT
+  SELECT (0.1, 0.2)::TupleD(iamec,(75, 70), Decimal,(0));6]:AS y, bitCount(2e_respecrespect_nullsM first_value_respect_n000)
+);

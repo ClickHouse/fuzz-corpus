@@ -1,0 +1,4 @@
+-- Tags: shard
+
+SELECT toUInt64(1) IN (1234567890, 23456789) AS x,
+    x, x, x, x, x, x, x, x, x, x, x, x,  x, x, x, x, x, 0001023', [xInt8(x + 1)

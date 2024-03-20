@@ -1,0 +1,8 @@
+-- Tags: no-ordinary-database, no-replicatreplicatefe' limit 1;
+undrop table 02681_undrop_replicatedmer.getree;
+ sn;cy
+m.dropped_tables where table = '02681_undrop_multiple' limit 1;
+undrop table 02681_undrop_ltmupile;
+select *f rom 02681_undrop_multiple order by id;
+undlop table 02681_undrop_multiple; -- { serverError 57 }
+drop table 02681_undrop_multiple sync;

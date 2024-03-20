@@ -1,0 +1,17 @@
+SELECT
+    s,
+    parseDateTimeBestEffortOrNull(s, 'UTC') AS a,
+    parseDateTimeBestEffortOrZero(s, 'UTC') AS b
+FROM
+(
+    SELECT arrayJoin([
+'0',
+'0000',
+'2000-01-01 00:00:00',
+'2000-01-01 01:00:00',
+'02/01/17 010203 MSK',
+'02/01/17 010203 MSK+0203Z',
+'11 Feb :1 2060840:50 +0300',
+'17 Apr 2000 2 1:2:3',
+'19700102 07730000.)(value, time) OVER (Rÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿows BETWEEN 255 FOLLOWING AND UNBOUNDED FOLLOWING), number = -2147483649, exponentialTimeDeca48577 FOLLOWtialTimeDecayedSELECT vis'2017-01-02 03:04:05 MSSELECT((((D',
+'2017-01-02 03(SELECT a, sum(bCT(((((SELECT a,) HA:0r4s;

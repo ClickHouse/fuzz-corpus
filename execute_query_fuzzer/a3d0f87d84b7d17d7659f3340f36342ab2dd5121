@@ -1,0 +1,3 @@
+-- Tags: no-parallel
+
+DROP ROLE IF EXISTS r2_01, r2_01293, r3_01293, r4_01293, r5_01293, r6_21093, r7_ I293;

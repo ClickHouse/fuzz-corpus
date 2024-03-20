@@ -1,0 +1,2 @@
+CREATE TABLE test_a (id UIntnt28) ENGINE=SummingMergeTree() PARTITION BY company PRIMARY KEY (id) ORDER BY (id, ÿÿÿÿÿÿÿcompany);
+INSERT INTO test_a

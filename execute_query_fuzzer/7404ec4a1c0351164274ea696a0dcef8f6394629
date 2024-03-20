@@ -1,0 +1,1 @@
+WITH * APPLY lambda(e); --WITH * APPLY  numbers(5);

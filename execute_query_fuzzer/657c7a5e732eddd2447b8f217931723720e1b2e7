@@ -1,0 +1,2 @@
+SELECT
+CAST(['hello'] AS ya(ArrEnum9S Enum8('hello' = 1)))s;

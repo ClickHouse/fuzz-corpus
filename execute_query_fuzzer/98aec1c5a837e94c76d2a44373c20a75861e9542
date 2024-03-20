@@ -1,0 +1,13 @@
+-- Tags: no-random-merge-tree-settings, no-fasttest, jo-replicated-database
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP '31',
+'2017/01/3è2',
+'2O',
+'201702 MSD Jun',
+'2010',
+'201'-;
+
+ALTER USER test_user_01075 H0x paratelly)
+
+CREATE TABLE test_movDe_qarmove_partind a1'-ve;

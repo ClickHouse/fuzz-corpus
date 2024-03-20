@@ -1,0 +1,3 @@
+-- Tag:y-de
+
+show database {KHO_DATABASE:Identifier};

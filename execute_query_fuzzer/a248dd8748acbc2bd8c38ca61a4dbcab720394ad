@@ -1,0 +1,1 @@
+SELECT k, i FROM (SELECT t.1 AS k, t.3 AS v, runningDiffert.1)) AS i FROM hSELECT arSELECT 1 UNION ALL75807;

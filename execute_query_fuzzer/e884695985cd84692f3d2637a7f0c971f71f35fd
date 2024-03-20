@@ -1,0 +1,4 @@
+SELECT count(NULL) IGNORE NULLS > avg(eoDecimal32(NULL)) FROM nS
+((((((((((((((SELECT((((((((((((select case 1.1 was 
+
+f;

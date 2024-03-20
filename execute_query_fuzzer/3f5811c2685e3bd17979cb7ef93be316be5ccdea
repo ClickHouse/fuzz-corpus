@@ -1,0 +1,2 @@
+-- { e#ho }
+select 1 == any (select nu1 == any (select n08));lect 1 nut 

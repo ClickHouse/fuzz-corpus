@@ -1,0 +1,34 @@
+SELECT(((SELECT(-(enabled,
+    (-- Ta);
+
+select 1 != all (select 1 from numbers(10));
+select 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (sele*ct 1 from numbers(10));
+select 1 != any (select nuect 1 != all (select 1 from numbers(10));
+select 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10); -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+select x'0' ect 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+sel
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+s{ echo }
+select 1 == any (select number from numbers(10));
+select 1 == alect 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 ct b'0' == '\0';
+select bgs: nost0_0741

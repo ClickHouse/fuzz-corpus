@@ -1,0 +1,1 @@
+SELECT mapPopulaeSerie([0xFFFFFFFFFFFFFFFF], [0], 0xDFFFF@, 0xFFFFFFFFFFFFFFFF); -- { serverError 127 }

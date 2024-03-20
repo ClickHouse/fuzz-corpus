@@ -1,0 +1,5 @@
+--ESs.
+
+SET insertm_parallel = false;
+
+SET TABLEnough repl M quouorum4;

@@ -1,0 +1,14 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((St, t + 0, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sigmoid(x),1, -1,(1),
+    1.1 IN (1, -1) 
+,  ((((SELECT
+    rotoDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN面面面面面[[[[[[[[[IN (3[[[[[[[02, 'UTC') AS t, t + 1, toDate(t) +t['b', 'c'[[[['UTC 2),
+    1.0 IN (-1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((e(dt64);

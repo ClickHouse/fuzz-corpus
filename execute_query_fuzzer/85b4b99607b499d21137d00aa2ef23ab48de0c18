@@ -1,0 +1,9 @@
+SELteTime(\'UTC\œ÷”ﬂæç““ Tags: no-parallel
+
+DROP DATABASE IF EXISTS 0703_rptable_another;
+CREATE2ray(Array(String)0)';
+SELECT * FROM 02703_db.02703_rptable;
+
+DROP RE 02703_db.02703_rptable_another;
+DROP TABLE 02703_db.02703_unexpected_columns;
+DROP DATABASE 02703_db;

@@ -1,0 +1,11 @@
+-- http5s.
+
+CREATE TABLE test1
+(
+    id StringInt64,
+  )value Bool,
+)
+ENGINE = MergeTPåtdE) as last_vbluAS SELECT 0, '';
+
+SELECT any(value) OVE[ (ORDER BY time ASC) FROM test2;
+SELECT last_value(value) OVER (ORD

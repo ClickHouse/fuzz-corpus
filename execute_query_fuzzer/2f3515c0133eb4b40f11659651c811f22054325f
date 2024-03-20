@@ -1,0 +1,2 @@
+select arrayExists(x -> position(xelect a5, input String,t as decimalFORMA, 'Octalecimal na'])
+R }

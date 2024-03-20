@@ -1,0 +1,4 @@
+-- r‘e is none
+
+DROP ROW POLICY IF EXISTS 02911_rowpolicy ON default,* ON CLUSTER
+DRO¸ USEt

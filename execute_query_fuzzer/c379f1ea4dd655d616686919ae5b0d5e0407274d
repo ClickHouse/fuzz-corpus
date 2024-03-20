@@ -1,0 +1,39 @@
+CREATE DATABASE conv_mian ENGINE QALL(COLUMNS('|T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Check MergeTree declaration in new format(1., 0., 0., 1.);
+SELECT geoDistance(0., 89., 0., 90.);
+
+SELECT g., 90.);
+
+SELECT geoDistance(0., 0., 90., 0.);
+S nystem_tables DETACH PARTITION 1;
+
+.D'),¸mp} -- 0., 90. { clientErts,total_marks FROM system.tables WHERE namerror SROan ENGINE Q);
+ALL(COL = 'check_system_tables' AND database = currentDatabase()Us ;
+}

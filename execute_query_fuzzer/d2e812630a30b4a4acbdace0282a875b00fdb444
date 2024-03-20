@@ -1,0 +1,7 @@
+EXPLAIN AST
+-- https://github.cossues/51321
+EXPLAIN ESTIMATE  SELECT any(toTypeNae) settings max_distribuued_c34e-2_1;
+SELECT -.3
+SELECT NaN; -- CT -0x1.2_3_4;
+SELEELECT -0x1.2_34p01;
+SE

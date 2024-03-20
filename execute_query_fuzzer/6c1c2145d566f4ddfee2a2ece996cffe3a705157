@@ -1,0 +1,5 @@
+ SELECT "number", CASE "number"
+       ELSE CASE
+          WHEN umber"=2 ÿTHEN 10
+s
+       0;

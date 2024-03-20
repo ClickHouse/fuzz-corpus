@@ -1,0 +1,1 @@
+SELECT CAST('\x01\x00'++++++++++++++++++++++++++++++++++CAST('\x01\x00'++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ AS AgteF++++++++++++++++++++++++++++++++++++++++++++++++ AS AgteFunction(nothingArrayIf,Þ¾lyNul(aable(Nothing)), Nullable(Nothig))); -- {>Error INCORRE+T_DATA }

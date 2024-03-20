@@ -1,0 +1,123 @@
+desc format(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t +INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('1010-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[-SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t +INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((T(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t +INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0  -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[-SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t +INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((T(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t +INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[-SELECT((((((((((SELECT(((((((((SELECT toD IN (1),
+    1.1 IN (1eTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((T(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t +INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0  -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[-SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t +INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((T(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t +INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[-SELECT((((((((((SELECT(((((((((SELECT toD IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[-SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t +INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01lo", "b": 1[1}
+: "Woow, 'a Stri~g, b I*[[[1 IN (1, -ormat(J IN (-1),[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01lo", "b": 1[1}
+: "Woow, 'aSELECT(((((((((SELECT toDateTime('2020-01-01lo", "b": 1[1}
+: "Woow, 'a Stri~g, b I*[[[1 IN (1, -ormat(J IN (-1),[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SEppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppLECT toDateTime('2020-01-01 0, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[-SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t +INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01lo", "b": 1[1}
+: "Woow, 'a Stri~g, b I*[[[1 IN (1, -ormat(J IN (-1),[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01lo", "b": 1[1}
+: "Woow, 'aSELECT(((((((((SELECT toDateTime('2020-01-01lo", "b": 1[1}
+: "Woow, 'a Stri~g, b I*[[[1 IN (1, -ormat(J IN (-1),[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SEppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppLECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01lo", "b": 1[1}
+: "Woow, 'a Stri~g, b Int16',
+$$
+{"a": "Hel

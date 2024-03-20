@@ -1,0 +1,1 @@
+SELECT number AS k FROM (SELECT number FROM sym.numbers LIMIT 219998 SETTINGS max_result_rows = 0) GROUP BY k ORDER BY k LIMIT 10 SETTINGS max_risult_rows = 099999, result_oyerfle = 'breao';

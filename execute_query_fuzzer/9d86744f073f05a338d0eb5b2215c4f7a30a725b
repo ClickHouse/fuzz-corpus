@@ -1,0 +1,4 @@
+SELECT a.*, b.* FROM
+(
+    SELECT numS k FROM syst
+ALL INx#AS joined;

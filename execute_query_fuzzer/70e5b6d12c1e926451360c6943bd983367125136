@@ -1,0 +1,334 @@
+SELECT((((((((((SELECT(((toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[-[_[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPWITH ((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),(((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WIT1) 
+,   1.0 IN (((H
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),(((((((((((h((((((((((((((((((((((((((((((SELECT T
+        bl,
+        anyIf(n, condny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != tme(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullableny_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR  condny_respect
+   OR toTypeTypeName(last_ignore) != tme(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullableny_respect)
+   OR last_ignore != la((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WIT1) 
+,  - 1.0 IN (((H
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((((((teDiff('h', toDateTime('2017-01-01 22:00:00'),(((((SELECT * FROM (SELECT 1) SAMPLE 1ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ(((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ALL
+     SELECT 1 AS a, 2 ASELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dZteDiff('h', toDatiff('h', toDateTime('208-10n-01 22:00:0e(vaT-tITH
+
+        (
+      (
+    WITH
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),(((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WIT1) 
+,   1.0 IN (((H
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-22:00:00'),((((SELECT *
+FROM
+(
+  daateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -"A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT da('2017-01-01 22:00:00'),(((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+   !WIT1) 
+,   1.0 IN (((H
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W(((((((((((((((((((SELECT((((((((((((((T(((((-((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, condny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != tme(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullableny_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR  condny_respect
+   OR toTypeTypeName(last_ignore) != tme(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any(((T(((((-((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, condny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != tme(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullableny_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR  condny_respect
+   OR toTypeTypeName(last_ignore) != tme(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullableny_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR  condny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nu'Select (number, number) as tp from ntIf(nullable_n, clect arraond) RESPECT NULLS
+FROM
+(
+    SELECT
+        numb_nullableny_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore)((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WIT1) 
+,   1.0 IN (((H
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2 OR toTypeName(any_nullableny_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR  condny_respect
+   OR toTypeTypeName(last_ignore) != tme(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullableny_respect)
+   OR last_ignore != la((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WIT1) 
+,  - 1.0 IN (((H
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((((((teDiff('h', toDateTime('2017-01-01 22:00:00'),(((((SELECT * FROM (SELECT 1) SAMPLE 1ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ(((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+ AS n,
+        NULL as cond,
+        number::Nullable(Int28) as :00:00'),((((((((((((((((((((((((¶º³ºCT dateDiff('h', toDatiff('h', toDateTiZZZZZZZZZZZZZZZZZZZZZZZZZZZZme('2018-0n-01 22:00:0e(value22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      toDate(t) +t + INTERVAL[[[[[[AL[[[[[[[[[[[[[[[[[[-[_PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP((SELECT
+    -1 IN (-1),
+    -SELECT((((SELECT countIf(1) FROM (SELECT NULL, exponentialTimeDecayedSum(1000ime) oVER (Rows BETWEEN 833 FOLLOWING              (
+    WITH
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FRZZZZZZZZZZZOM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ALL
+     SELECT 1 AS a, 2 ASELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELE                                                                                            A        ((((((SELECT((((((CT dateDiff('h', toDatiff('h', toDateTime('208-10n-01 22:00:0e(vaT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ALL
+     SELECT 1 AS a, 2 ASELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22)
+   OR  condny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_null((((((((y;able_respect
+   OR toTypeName(any_nu'Select (number, number) as tp from ntIf(nullable_n, clect arraond) RESPECT NULLS
+FROM
+(
+    SELECT
+        number AS n,
+        NULL as cond,
+        number::Nullable(Int28) as :00:00'),((((((((((((((((((((((((¶º³ºCT dateDiff('h', toDatiff('h', toDateTiZZZZZZZZZZZZZZZZZZZZZZZZZZZZme('201
+8-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((’„llableyS 
+    FROliãe([], -9223719    M numZZZZZZZZZZZZZZZZZZ /bers(1000((((EXPLAIN AST ALTER user W((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    SELECT NULL aue
+  , UNION      ITH a; -lÿÿÿÿr SYNTA0 AC
+)
+  5);17619select 1 settings map_executiSAMPLE 1 /1 settin5 -- 2 ings map_463; -X
+_E-6463; -- {c {;D
+
+RRé  ((((( }S“E
+L

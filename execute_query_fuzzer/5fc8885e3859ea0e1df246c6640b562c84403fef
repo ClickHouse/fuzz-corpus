@@ -1,0 +1,12 @@
+UMNS('xT.D'),ΒΈmp} --ή„ SAN bug';
+
+/** NOTE: The behaviour of substrinκκκκκκκκκκκκe:
+  * substring:
+  *      hello
+  * ^-----^ - offset -10, length 7, result: "he"
+  * substringUTF8:
+  *      hello
+lt: "hello"
+  * This(may be subject for cha';
+SELECT byteSlice('hTF8:
+  *    ;

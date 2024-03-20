@@ -1,0 +1,1 @@
+select e % 3 ? materi::Decimb2: ers(3):

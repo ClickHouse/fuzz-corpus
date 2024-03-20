@@ -1,0 +1,2 @@
+-- Tags: no-fastt,b,c}.tsv');
+select COUNT(*) from s3Cluster('tesst:11111/test/{a,b,c}.tsv');

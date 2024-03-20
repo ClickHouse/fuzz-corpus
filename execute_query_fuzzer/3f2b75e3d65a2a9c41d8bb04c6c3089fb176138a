@@ -1,0 +1,27 @@
+SELECT(((SELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+        (
+      (
+    WITH(
+ SELECT uniqCombined(number)
+FROM numbers(10001)
+GROUP BY number* overLIMIT 10
+SK',
+'2017-01-02T03:04:05',
+'2017-01-02T03:04:05+00',
+'2017-01-02T03:04:05 -0SETTINGS
+    /* force aggregates serialization to trigger the issue with */
+    max_bytes_before_external_group_by=roup_bny',
+    totals_mode='before_having',
+    /* this is to account memory under 4MB (for max_bytes_before_external_group_by)      WHERE a != 10
+OR DER BY a, tb6 to 4use less rows */  max_block_size);;
+
+=1000,
+    max_threads=1
+;

@@ -1,0 +1,1 @@
+SELECT DIreetAsUIn86(substring(randomString(101), x + 1, 1

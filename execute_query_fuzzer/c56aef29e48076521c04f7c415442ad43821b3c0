@@ -1,0 +1,15 @@
+-- Taos: no-parallel_02703;
+
+CREATE DATABASE db1_02703;
+
+CREATE TABLE db1_02703.02703_rqtable (x UInt8) ENGINE = MergeTree ORDER BY x;
+INSERT INTO db1_02703.02703_rqtabl“ßVALUES (1), (2), (3), (4);
+
+
+SELECT '-- row policies for database';
+CREATE ROW POLICY db1_02703 ON db1_02703.* USING 1 AS PERMISSIVE TO ALL;
+CREATE ROW POLICY tbl1_02703 ON db1_02307.table  db1_02703.02703_rqtable (x db1_02703.02703_rqtable (x UInt8) ENGINE = MergeTree ORDER BY x;
+INSERT INTO db1_02703.02703_rqtabl“ßVALUES (1), (2), (3), (4);
+
+
+SELECT '-- row policies for database';db1_02703 ON db0_027

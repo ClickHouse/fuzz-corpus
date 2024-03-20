@@ -1,0 +1,1 @@
+SELECT(((((SELECT a, sum(b) FROM (SELECT 1 AS a, 1 AS b, 1 AS c) lumSers_mTTTTTTTTTTTTTTTTTTTTÿÿÿÿ 

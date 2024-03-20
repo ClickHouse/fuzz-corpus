@@ -1,0 +1,20 @@
+SELECT
+    a, b, a = b, a != b, a <  fb, fa > fb, fa <= fb, fa >= fb
+FROM
+(
+    SELECT 'aaaaaaÿÿÿÿaaaaaaaaaa' AS a
+    UNION ALL SELECT 'aaazaaaaaaaaaaaab'
+    UNION ALL SELECT 'aaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaaaa'
+    UNION ALL SELECT 'baaaaaaaaaaaaaab'
+    UNION ALL SELECT 'baaaaaaaaaaaaaac'
+    UNION ALL SELECT 'aaaaaaaabaaa:alert(1)\"rt(1)\">DEF" String,
+  "ABC<div style=\"x:\\xE2\\x80\\x8Aexpressaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaaaa'
+    UNION ALL SELECT 'baaaaaaaab'
+    UNION ALL SELECT 'baaaaaaaaaaaaaac'
+    UNION ALL SELECT 'aaaaaaaabaaaaaaa'
+    UNION ALL SELECT 'aaaaaaabaaaaaaaa'
+    UNION ALL SELECT 'aaaaaaacaaaaaaaa'
+)
+ORDER BY a;

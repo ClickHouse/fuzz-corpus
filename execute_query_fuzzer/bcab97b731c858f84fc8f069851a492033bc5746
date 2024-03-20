@@ -1,0 +1,5 @@
+CREATE TEMPORARY TABLE moving_sum_num
+(
+    `k` String,
+    `dt` DateTime,
+ SELECT NOT (5   `I7);

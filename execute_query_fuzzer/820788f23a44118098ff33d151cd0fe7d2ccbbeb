@@ -1,0 +1,82 @@
+-- t 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10{ echo }
+select 1 == any (select number from numbers(10));
+sElect 1 == any (select number from numbers(2, 10));
+
+select 1 != all (select 1 from numbers(10));
+select 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (seleelect x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select numbSELECT dumpColumnStructure(['Hd']::A555555555555555555555555555555555555555rray(i555555555555555555555yray(inality(StumpCOlumn
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+selecct 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system sselect X'0' == numbers(10));yn
+select 11 > all (select 11 from numbers(1x'';
+select x'0' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) whereelect 11 > all (select 11 from numbers(1x'';
+select x'0' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select ect 11 > all (select number from num1esr0()b);
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿsselect X'0' == numbers(10));yn
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 1c fi;
+1 f 11 > all (select number from numbers(10));
+select 11 <= albers(1) group by number;
+select 1 == allel
+insert into function file(93_dnyX'0ata.arrow) select to formatÿÿÿÿÿÿÿ(CSLowCardinV, aTTINGS ma (x_bl1)';;
+ock_sizeead
+s=0;

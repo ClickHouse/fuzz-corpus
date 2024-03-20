@@ -1,0 +1,3406 @@
+SET compile_e_1 (id UInt32) ENGINE = MergeTree ORDER BY (id);
+create table test_table_2 (id UInt32) ENGINE = MergeTree ORDE(b))) r FROM (SELECT 2 a, 2 b);
+SELECT (acos(a) <> atan(b)) and (not (acos(a) <> atan(b))) r FROM (SELECT 2 a, 2 b);LSE
+ETC (acos(a) <> atan(b)) and (notY (id);
+create table test_table_2 (id UInt32) ENGINE = MergeTree ORDE(b))) r FROM (SELECT 2 a, 2 b);
+SELECT (acos(a) <> atan(b)) and (notSELECT count(NULL) IGNORE NULLS > avg(SELECT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_234;
+SELECT +1_2_3_4;
+SELECT -1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELEC floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) withµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµ positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+ECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { s (acos(a) <> atan(b))) r erverError UNKNOWN_IDENTIFIER }
+sT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_234;
+SELECT +1_2_3_4;
+SELECT -1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELEC floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) withµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµ positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+ECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Pos 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- BinarSELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctiîës
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.eSL;_eE
+ECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SESELECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p._2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notatiNTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p._2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notatio -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN%_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34ˇˇˇˇˇˇˇˇNegative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELEPi      CT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _1000; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e 2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+SELECT count(NULL) IGNORE NULLS > avg(SELECT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_234;
+SELECT +1_2_3_4;
+SELECT -1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELEC floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) withµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµ positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+ECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+sT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_234;
+SELECT +1_2_3_4;
+SELECT -1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELEC floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) withµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµ positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+ECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SLECET -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Pos 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive s+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34ˇˇˇˇˇˇˇˇNegative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positelect -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select   ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Pos 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- BinarSELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctiîës
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.eSL;_eE
+ECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SESELECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p._2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notatio -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN%_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e1
+2;+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SEL;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e 2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SEL¬CT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; --h negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT ).3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SEFROM (SELECT 2 a, 2 b);LSE
+ETC (acos(a) <> b);
+SELECLECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _1000; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER } { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDE
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; NTIFIER }
+select 0xr = 1_1; -- {                                        ;serverError UNKNOWN_IDENTIF-- Negative floating point (with .) with poèitive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e 2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SEL¬CT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT on
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notatio -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN%_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34ˇˇˇˇˇˇˇˇNegative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELEPi      CT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _1000; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e 2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+SELECT count(NULL) IGNORE NULLS > avg(SELECT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_234;
+SELECT +1_2_3_4;
+SELECT -1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELEC floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) withµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµ positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+ECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+sT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_234;
+SELECT +1_2_3_4;
+SELECT -1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELEC floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) withµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµ positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+ECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Pos 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- BinarSELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctiîës
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.eSL;_eE
+ECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SESELECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p._2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notatio -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverLECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _1000; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e 2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SEL¬CT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;-1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notatio -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN%_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34ˇˇˇˇˇˇˇˇNegative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positelect -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Pos 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- BinarSELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctiîës
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.eSL;_eE
+ECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SESELECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p._2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notatio -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN%_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34ˇˇˇˇˇˇˇˇNegative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELEct 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Pos 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) `ith negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- BinarSELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctiîës
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.eSL;_eE
+ECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SESELECT 0x1.2_34p+01;
+SELEMT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _100OM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p._2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notatio -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN%_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34ˇˇˇˇˇˇˇˇNegative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3CT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _1000; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e 2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SEL¬CT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _1000; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+seN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p._2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R0; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notatio -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN%_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverErrT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notatio       n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e1
+2;+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SEL;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e 2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SEL¬CT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; --h negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT ).3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SEFROM (SELECT 2 a, 2 b);LSE
+ETC (acos(a) <> b);
+SELECLECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT n
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34ˇˇˇˇˇˇˇˇNegative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) wit34p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _1000; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER }
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e 2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SEL¬CT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; --h negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SEFROM (SELECT 2 a, 2 b);LSE
+ETC (acos(a) <> b);
+SELECLECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _1000; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT 1 AS _1000) FORMAT Null;
+select -_1; -- {SELECT -toUInt32(1) AS x, toTypeName(x) AS t
+FROM (SELECT -1 AS _1) FORMAT Null;
+select +_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating poieoDecimal32(NULL)) IGNORE NULLS, count() FROM numbers(1000) WITH TOTALSER } { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDE
+select 1_; -- { serverError Uzent (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; NTIFIER }
+select 0xr = 1_1; -- {                                        ;serverError UNKNOWN_IDENTIF-- Negative floating point (with .) with poèitive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e 2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-································21; -- Negative floating point (with .) with negative scientific notation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SEL¬CT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1øøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøøø;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex   ctions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_T 34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_pIE
+R 2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; (acos(a) <> atan(b)) and (not (acos(a) <-- {}
+ serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0xr> atan(b))) r FROM ˇˇˇˇˇˇ ¥(S = 1_1; -- { ;serverError UNKNOWN_IDENTIFIE
+R }ELECT 2 a
+, 2 b);

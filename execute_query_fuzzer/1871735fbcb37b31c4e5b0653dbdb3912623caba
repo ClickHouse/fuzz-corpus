@@ -1,0 +1,2 @@
+--httpClickH
+INSERT INTO t__fuzz_0 SELECT * FROM genera() LIMIT g_queries = true, tabl%e_dunction_rem;

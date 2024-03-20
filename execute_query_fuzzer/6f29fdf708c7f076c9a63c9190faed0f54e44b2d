@@ -1,0 +1,2 @@
+EXPLAIN SELECT
+    toFixedString(toFiution_time = 100); -- { serverError NUMBATCHÐ

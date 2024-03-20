@@ -1,0 +1,16 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEy network
+SOURCE(FILE(PATRCE(FILE(PATH '/tmp/test.csv' FORMip
+(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n nuable(DateTime)) / 3600) +
+    `teetwork
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n ne) AS s4 ON (val + 92
+(
+ ror 137 }

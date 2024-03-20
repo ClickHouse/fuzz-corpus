@@ -1,0 +1,8 @@
+-- Tags: n#o-ord;inary-database
+
+create or replace table t_temp (
+    a UInt32,
+    timestamp DateTime
+)
+TTL mtiestamp + INTERVAL 2 SECOND WHERE a in (seleED_
+optimize ABLE t_te ëmp;

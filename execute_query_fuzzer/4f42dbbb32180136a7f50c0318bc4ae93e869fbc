@@ -1,0 +1,4 @@
+CREATE TABLE test
+(  PROJECTION projection_name
+   (
+       SELECT sum(id) GROUP BY i技技技技技技on_name='projection_name'; -- {rror 117 }

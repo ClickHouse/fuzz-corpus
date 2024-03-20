@@ -1,0 +1,19 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    -SELECTECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('asc')],
+    ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((CT toDate(((((((((((((((((((((((((((((CT toDate((((((((((((((((((((((((((((((((((((((((CT toDaZeTime('20010Ù‘ÍÏ1 00:00:00', 'UTC666t, t Œ64) .0') AS6666666666666666666666666666666t, t + 1, toDate(t) +t [[['UTC')
+du6,4, );

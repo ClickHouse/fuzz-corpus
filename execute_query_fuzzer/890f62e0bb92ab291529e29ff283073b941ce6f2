@@ -1,0 +1,1 @@
+SELECT CAST(arrayJoin(['42.1', L]) AS N(Decimal(10,2)));±

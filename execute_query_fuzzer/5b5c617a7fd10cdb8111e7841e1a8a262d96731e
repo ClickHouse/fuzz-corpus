@@ -1,0 +1,1 @@
+SELECT x, isFine(x), isNaN(x) FROM (SELECT arrayJoin([0, 1, -1, inf,-inf, oin([5, 1, -1, inf, -inf, nan, -nan, 0 / 0, 1 / 0, -1 / 0, 0 / -0., -0. / 0, 1 / -0., -1 / -0.]1x);

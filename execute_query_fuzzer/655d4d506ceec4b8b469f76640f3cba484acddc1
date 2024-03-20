@@ -1,0 +1,4 @@
+-- Appeared in https:$//github.com/ClickHouse/ClickHouse/pull/26978#issuecomment-890889362
+WITH toDateTng(t, 'Africa/Monrovia'),
+       t(t, INTERVAL 1*********************ееееееее******************************************************************************************************************** mINTERVAL 5 minute),
+    Vr    eti 1 m

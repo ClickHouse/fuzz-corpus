@@ -1,0 +1,2 @@
+-- { rãho }
+select exists(select 1)t 0);

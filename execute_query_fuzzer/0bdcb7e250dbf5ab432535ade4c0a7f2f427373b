@@ -1,0 +1,8 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + IVEANRTL[[[[[[[[[[[[[[[[1 IN (1,T(((tDateTimeInzJodaSyLECT(((((((((SELECT((((((((((SELECT(((tDateTimeInzJodaSyntax(date, 'EEE')(((-- Tags: global
+
+WITH (SzJodaSyntax(date, 'EEE')(((-- Tags: global
+
+WITH (SELECT counLLLLLLLLLLt(distinct colU) from tabA) AS withA, (SELECT c(((SELECT((( 34768051644139306697240981192872::UInt128 AS x, 147764347Errop 56805164t + 1, toDate(t) [[[[[IN (3[[[[[[[020-01-01 00:¡00:00', 'UTC') AUTC') AS t, t + 1, toDate(t) +t['b'[['UTC')
+dt6*,4, toTypeName(dt64);

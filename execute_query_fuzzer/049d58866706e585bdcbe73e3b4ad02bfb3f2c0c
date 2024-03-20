@@ -1,0 +1,4 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(F9999900000000000000006((SeLECT dateDiff('h~', toDateTime9999999999999999999999999ROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('00'),(((((((((-01 22K:00:00'),(((((((((((((((((((((((((SELECT dateDif(((   S(
+);

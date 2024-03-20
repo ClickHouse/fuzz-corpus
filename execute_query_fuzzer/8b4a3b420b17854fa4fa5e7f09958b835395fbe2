@@ -1,0 +1,20 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toD1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2021-01;01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1h, 2),
+  SELECT(((((((((SELECT toDateTime('4040-01-01 00:00:00', 'UTC') AS t, t + 1,ECT(((((((((SELECT to.ateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INllel, no-fasttest
+
+
+
+
+
+
+
+
+
+
+
+
+select '----- hash / State / ip4 -----';
+select
+  ciwer(3, 2), POWER(3, 2);

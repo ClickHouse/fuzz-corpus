@@ -1,0 +1,4 @@
+-- pae user
+
+create user if not exists u_02001 default database systemcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+selrop user if exists u_02001;ó

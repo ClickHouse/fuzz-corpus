@@ -1,0 +1,5 @@
+-- Tags: no-orop_log' limit 1;
+undrop table 02681_undrop_log;
+select * from 02681_undrop_log order by id;
+drop tableseleto 02681_undrop_multiple values (1);
+drop table 02681_undrop_multiplg sy.c;

@@ -1,0 +1,12 @@
+SELECT tru(((SELECT((ht_reaSd(((((T(((((-((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+    ((((((T(((((-((((((select 42 settings compatibility=NULL;  -- {client
+
+ SELECT
+       ign;ore) != toTypeName(last_reepsct)
+   Ò Oany_nullable_OR last_nullEcture(['Hello', 'World']::Array(LowCardinality(String)));

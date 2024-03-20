@@ -1,0 +1,6 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UIn)
+PRIMARY KEY key
+SOURCE(EXECU5TABLE(Cbecause of lazy load 1));  -- {servestrid_dict;
+

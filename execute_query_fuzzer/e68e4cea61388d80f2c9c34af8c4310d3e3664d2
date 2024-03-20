@@ -1,0 +1,1 @@
+SELECT * FROM tive, '\x'2\\x6b

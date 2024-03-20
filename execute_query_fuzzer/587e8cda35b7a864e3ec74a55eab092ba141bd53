@@ -1,0 +1,28 @@
+SELECT]1, [ 0::UNullOrNullOrNullOrNteger (+ implied)
+SELEC Hex
+SELECT 1x1_234;
+SELECT 0x1_2_3ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0SELECTà-0x1_ENTIFIER }
+select 0x ; -- { serverEr
+ror UNKNOWN_IDENTIFIEO }
+s11;
+SELECT 1x1_234;
+SELECT -0x1]ENTIFIER }
+select 0x ; -- { serverEr
+ror UNKNOWN_IDENTIFIER }
+selAect 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_1;_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_ENTIFIER }
+sÿelect 0x ; -- { serverEr
+ror UNKNOWN_IDENTIFIER }
+select 0x_; -- IER }
+select 0x ; -- T -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_ENTIFIER }
+select 0x ; -- { serverEr
+ror UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+sele²ct 0x_1; -- { s@erverError UNKNOWN_IDENTIFIER }

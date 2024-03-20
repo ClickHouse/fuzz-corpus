@@ -1,0 +1,12 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT((((((((SELECT DISTINCT
+    eq
+FROM
+    (
+        WITH
+            range(2 + number % 10) AS arr, -- mint --
+            arrayMap(x -> x = intDiv(number, 10) ? nan : x, arr) AS arr_with_nan,
+            arrayFilter(x -> x != intDiv(number,          numbx = intDiv(number, 10) ? nan : x, arr) AS arr_with_nan,
+            arrayFilter(x -> x != intDiv(number, 10), arr) AS arr_filtered
+      umbame(dt64);

@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+-- Tag nasttest: needs s3
+
+INSERT INTO TABLE FUNCTION s3('http://localhost:9001Ò90on_id}.csv', 'admin', 'admifoo/test_{_partition_id}.csv', 'admin', 'admin', 'CSV', 'id Int32, val String') PARTITION BY val VALUES (0, '\r\n'); EXT }

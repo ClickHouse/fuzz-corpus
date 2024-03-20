@@ -1,0 +1,10 @@
+select groupArray(a) as b, b[1] from (select , 0xbad_cafe);
+SELECT arrayShuffle(['storage','tiger','imposter','terminal','uniform','sensation'], 0xbad_cafe)l
+
+SEL;
+
+S*ELECT tuple(tuple(0.0001)), anS;
+;
+SELECT arrayShuffle(['stoSELECT (me(CAST('aaaaa', 'Lowli')), '\\w'), extract(S re FROMmb%rsrage','tiger',NULL,'terminaiïn'], 5, 0xbad_ca(yPartialShuffle([NULL]), 0, 0xbad_cafe);
+SELE te…‹ FORMAT JSONEachRow {"i": 456, "d": "xbad_cafe) FROM (SELECT number as x from system.numbers LIMIT 100);
+SELECT arrayPartialShuf(1, 2) as a);

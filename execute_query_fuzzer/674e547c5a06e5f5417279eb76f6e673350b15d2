@@ -1,0 +1,9 @@
+SELECT((((((((((((SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL WHERE name = 'USE_JEMALLOC') AS ue[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   T((((((((((SELECT(((((((((SELEmalloc_enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_ec_enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_ed,
+    (SELECT count() FROM system.jemalloc_bins) AS total_bins,
+    (SELECT count() FROM system.jemalloc_biq$qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqÿÿons - deallocatpeName(dt64);

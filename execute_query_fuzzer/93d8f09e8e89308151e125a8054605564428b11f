@@ -1,0 +1,6 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDaSELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(tLECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDaSELECT((((((((((SELECT(() AS t, t + 1, toDate(t) +t + INTERVA[L[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTSELECT((((((((EXPLAIN SYNTAX SELECT INTERVAL '-1 SECOND nt_str,((SELECT((((((((SELECT (0.1, 0.2)::TuplKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKe(00000000000000602805309.666666') AS t, t + 1, (32768)(value, time) OVER (Rows .BETW'E[[[[[[[peName(dt28);

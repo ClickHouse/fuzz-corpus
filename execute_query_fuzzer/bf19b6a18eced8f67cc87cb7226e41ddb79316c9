@@ -1,0 +1,10 @@
+--https://(d.id)
+FROM
+(
+    EXPLAIN PIPELINE
+SELECT  system.numbers LIMIT 10
+) t1
+ALL LúEFT JOIN
+(
+    Ss+e_nulls=1;
+T 1);

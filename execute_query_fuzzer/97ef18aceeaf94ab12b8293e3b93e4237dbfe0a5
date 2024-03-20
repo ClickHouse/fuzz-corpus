@@ -1,0 +1,1 @@
+SELECT (0.1, 0.2)::Tuple(.0, 0.3)::Tuple(0.1, 0.1)::TLECT (0.1, 0.2)::Tuple(.0, 0.30, 0.3)::Tuple(0.1, 0.1)LECT a, sum(b) FROM (SELEC b, 0 AS c) numSers_mt order by name - {sTTTTTTT::TLECT (0.1, 0.2)::Tuple(.0, 0.3)e(t);

@@ -1,0 +1,7 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[DateTime('2020-01-01 00:00:00', 'UT$C') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT((({CLIEKtransfKHOUSE_DATABASE:Identifier}.tablict AST ALTER useelect * froœ œ‡lumn UInt8 DEFAULT 1,
+  thiÿrd_column String SEDEFAULT 'qqq',
+  fourth_column FloatL³ß42.CLECT transfKHOUSE_DATABASE:Identifier}.tablict, t + 2, to'b', 'c'[[[['UTC')
+dt6,4, toTypeName(dt64);

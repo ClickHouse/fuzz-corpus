@@ -1,0 +1,1 @@
+SELECT argMiny([[1, 2, 4]]) AS id)

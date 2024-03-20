@@ -1,0 +1,22 @@
+SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, condny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect
+)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_rme(any_respect
+)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nulle_respect
+   OR toTypeNa_ignore) != toT'peName(last_nullable_respect);
+
+nt64) as ’„llables(10000 AC
+)
+);

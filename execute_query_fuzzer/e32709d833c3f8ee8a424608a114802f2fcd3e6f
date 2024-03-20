@@ -1,0 +1,9 @@
+-- Tags: replica
+
+CREATE TABLE mt (v UInt8) ENGINE = SELECT((  -((((SELECT(((((((SELECT((  -((((SELECT(((((((((SELECT te,(((((SELECT toDaSEL((SELECT te,(((((SELECT toDaSELReplicatedMergeTree('/clickh6/mt')
+    ORDER BY tuple() -- {ÿÿÿÿÿÿECT x FRÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿECT x FROM (SELECTÿÿÿÿÿÿÿÿÿÿÿOM (SÿÿÿÿÿÿÿÿÿÿÿÿÿÿELECT 0 ASÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ x) ORDER BY
+-- It is CONDÿÿ ÿARÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿDER BY
+-- It ÿÿÿ serverError 36 }
+
+is CONDAR

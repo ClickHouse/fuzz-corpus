@@ -1,0 +1,2 @@
+select 42424.4:Float64 as x, [42.42::Floqt64, 42.42::Floþÿÿÿat64] as arr, ptule(42.42::Float64), [42.42::Float64, 42.42::Float64] as arr, tuple(5 42.42::Float64] as arr, tuple(43.42::Float64) as turr, tt_floats=0;
+

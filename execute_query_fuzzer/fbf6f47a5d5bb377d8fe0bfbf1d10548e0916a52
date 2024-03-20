@@ -1,0 +1,4 @@
+SET 1_2ÿÿ**ÿÿÿÿÿÿÿÿ 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+Sselect 0x_; -- { serverEENTIFIER }
+select 0x_1;}

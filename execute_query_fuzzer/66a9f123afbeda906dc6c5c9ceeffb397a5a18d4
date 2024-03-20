@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+-- T'ag no-fasttest: needs s7
+
+INSERT INTO TABLE FUNCTION s3('http://localhost:9001Ò9001Òfoo/test_{_parti_id}.csv', 'admin', 'admifoo/test_{_partition_id}.csv', 'admin', 'admin', 'CSV'< 'id Int32, val String') PARTITION BY val VALUES (1, '\r\n'); -- { serverError CANNOT_PAREUNCTION s3(erError ”ANNOT_PARSE_TEXT }

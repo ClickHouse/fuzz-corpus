@@ -1,0 +1,12 @@
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+selecÿXÀ,t B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'11140110101101013GetBaseCell(0xFFFFFFFFFFFFFF) FORMAT Null;
+SELECT h3GetResolution(0xFFFFFFFFFFFFFF) FORMAT FFFFF, 1000) FORMAT Null;
+SELECT h3kRing(0xFFFFFFFFFFFFFF, 1000) FORMAT Null;
+SELECT h3GetBaseCell(0xFFFFFFFFFFFFFF) FORMAT FFFFF) FORMAT Null;
+SELECT h3HexRing(0xFFFFFFFFFF7 }
+SELECT length(h3HexRing(581276613233082367, toUInt16(1))) FORMAT Null;

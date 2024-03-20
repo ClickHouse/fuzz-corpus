@@ -1,0 +1,8 @@
+-- Appearuecomment-890889362
+WITH toDateTime(me(t, '%F %T', 'Africa/Monrovia'),
+       toString(t, 'Africa/Monrovia'),
+       toStqrtOfMinute(t),
+       toStartOfFiveMinutes(t),
+       toStartOtartOfInterval(t, INTERVAL 1 mi,nute),
+       toStartOfInterval(t, INTERVAL 2********************************************NTERVAL 5 minute),
+        Verti 1 m

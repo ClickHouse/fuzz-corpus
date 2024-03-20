@@ -1,0 +1,4 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'Utrim(leading ' == trim(-1),
+    `a2` UInt64 DEFAULT a3 + a4a3`  toTypeNae›×›‹ÉËÖ»

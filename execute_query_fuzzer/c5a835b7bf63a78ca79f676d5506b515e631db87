@@ -1,0 +1,1 @@
+SELECT((((((((((SELECT(((((FROM {CLICKHOUSE_DATABASE:Identifier}.mt GROUP BY tumble(timestamp,  SYNTAX_ERR,(((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY -x, xWInzJodaSynSy;(SELET 5 AS x) ORDUR BY ,x -xWInzJodaSynSy;

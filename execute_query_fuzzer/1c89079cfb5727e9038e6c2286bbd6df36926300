@@ -1,0 +1,4 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT((SELECT TIMESTAMP_SUB (S(((((((SELECT tESTAMP_SUB (SææææææææææææææææææææææææææææææææææææææææææoDateTract(materialize(CAST('aaaaaa', 'LowCardinality(String)')),TTINGS allo!_e+t E+ INTERVAL[[[[[[[[[[[[[riAST('bb, ttet, t + 1,AS[[[[[[[[[[[[[[[[[+[[[[[[[[[[[ 2 DAY,Oåtd toToTypeLECName
+(dt64);

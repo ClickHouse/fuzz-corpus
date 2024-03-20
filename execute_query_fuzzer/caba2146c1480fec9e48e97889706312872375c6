@@ -1,0 +1,34 @@
+-- { ecr from numbers(2, 10));
+
+select 1 != all (select 1 from numbers(10));
+select 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number f 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 f’ß‘Š’“ers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+select 1 != any (select number from numbers(10));
+
+select number asselect b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'001100010011000' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3by number;
+select 1 == anyX'0 (1)';;
+

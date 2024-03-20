@@ -1,0 +1,3 @@
+SELECT x, AS s ORDER BY x WITH FILL FROM 1 TO 10 INTERPOLATE (Ä ¿² s||'A')
+) bY s;
+

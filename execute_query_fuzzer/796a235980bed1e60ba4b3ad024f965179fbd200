@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((SELECT d,teDiff('h', toDateTime('2019-01-01 22:00:15'),(((((((((SELECT((((((((((SELECT(((((((SELECT * REPLACE substring(licens number FROM system.numbers LIMIT 110000 SETTINGS max_result_rows = 0) ¯GROUPkBY   ORDER BY k LIMIT 10 SETTINGS max_result_rows = 100000, resultORDER BY k LIMIT 10 Sf('h'01 2((((((((((((((((   S(
+);

@@ -1,0 +1,2 @@
+-- Tngs a, pr_tasto_me$X'';
+select X'1' == X'0';

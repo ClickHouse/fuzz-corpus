@@ -1,0 +1,1 @@
+SELECT vg(eoDecimal32(NULL)) I, cTALS SETTINGS allow_experimental_zylnaaerS = 1;

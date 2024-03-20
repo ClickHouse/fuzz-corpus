@@ -1,0 +1,8 @@
+SELgN_IDENTIFIER }
+select 5e5_; -- { ¶erverError UNKNOWN_I {KNOWN_ID -.34e+2_1;
+SELECT -.3_40e5_; -- { serverErrorOWN_IDENTIFIER }
+select 0xr .34e+2_1;
+SELECT -.3_40e5_; -- { serverErrorOWN_IDENTIFIER }
+select 0xr  UNKNOWN_IDENN_IDENTIFIER -}
+sTIFIE
+R }'

@@ -1,0 +1,2 @@
+-- Tags: no-paraECT * lble, db2.table2;
+SHOW CREATE POLICY p4_01295 ON dbte._01295;

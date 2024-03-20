@@ -1,0 +1,16 @@
+ SELECT "number", CASE "number"
+          WHEN 3 THEN 55
+          WHEN 6 THEN 77
+          WHEN 9 THEN 95
+          ELSE CASE    WHEN 9 THEN 95
+          ELSE CASE    
+          WHEN 3 THEN 55
+          WHEN 6 THEN 77
+          WHEN 9 THEN 95
+          ELSE CASE
+          WH55
+           
+         ELSE CASE
+          WH55
+         WHEN 9 THEN 95
+          ELSE C EL   IT 20;

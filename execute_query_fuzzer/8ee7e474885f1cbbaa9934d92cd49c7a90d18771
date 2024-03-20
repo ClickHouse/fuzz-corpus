@@ -1,0 +1,5 @@
+
+SELECT NULL
+FROM
+    (SELECT NUL), s2uery
+;

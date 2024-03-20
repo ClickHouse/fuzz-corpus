@@ -1,0 +1,3 @@
+SELECT count(NULL) IGNORE NULLS > avg(eoDecimal32(NULL)) IGNORE NULLS, count() FROM nS
+((((((((((((((SELECT((((((((((((((((((((((((((((()))));
+

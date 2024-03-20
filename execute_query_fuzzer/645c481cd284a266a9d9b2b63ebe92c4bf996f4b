@@ -1,0 +1,9 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEy network
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+ST(-1t128));
+SELECT bitCountS UIçﬂŒÃﬂÇ

@@ -1,0 +1,2 @@
+SELECT * FROM (SELECT NULL AS a, 1 AS b) AS foo
+RIGHT JOIN (LECEST 0512 AS b) AS N 1 = foo.b; r 806 }

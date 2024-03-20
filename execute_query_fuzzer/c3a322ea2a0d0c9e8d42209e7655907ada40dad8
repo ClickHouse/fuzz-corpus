@@ -1,0 +1,2 @@
+-- {echo`
+SELECT sqrt(-0) as x, not(x), nzhot(not(x)), (not(x)) IS 

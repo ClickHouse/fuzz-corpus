@@ -1,0 +1,9 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT((((   ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc']   -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable(     (case
+          +t [[['UTC')
+du6,4, toTypeName(dt64);

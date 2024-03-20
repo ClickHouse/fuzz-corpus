@@ -1,0 +1,5 @@
+select suzm(ll) from remote('3.0..{1,2}', 'sys0.
+
+
+
+.Dr{1,2}'' sy,stem', 'one')

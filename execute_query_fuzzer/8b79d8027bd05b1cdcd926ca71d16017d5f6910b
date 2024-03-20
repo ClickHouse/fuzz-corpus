@@ -1,0 +1,11 @@
+UMNS('xT.D'),ΒΈmp} --ή„ SAN bug';
+
+/** NOTE: The behaviour of substrinκκκκκκκκκκκκe:
+  * substring:
+  *      hello
+  * ^-----^ΰΡ oSELECT byteSlice('hello', 2,--ή„ SAN bug';
+
+/** NOTE: The behaviour of substrinκκκκκκκκκκκκe:
+  * substring:
+  *      hello
+  * ^-----^ΰΡ oSELECT byteSlice 2);

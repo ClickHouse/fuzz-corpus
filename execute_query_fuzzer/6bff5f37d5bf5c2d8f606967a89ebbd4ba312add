@@ -1,0 +1,1 @@
+selEct 1 UNION seLECT (0.1, 0.2)::Tuple(.1,20.3)::Tu+le.9

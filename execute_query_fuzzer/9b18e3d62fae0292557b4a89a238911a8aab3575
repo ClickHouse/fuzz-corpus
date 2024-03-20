@@ -1,0 +1,7 @@
+-- Tagsarhs :d
+
+set optta_02000 (keine=Null();
+able if edata_02000 (key Int) Engine=Null();
+create  key = 0xdeadbeafdeadbeaf;
+sel= 0xdeadbe_02000;
+dr=`p table dist_02000;*

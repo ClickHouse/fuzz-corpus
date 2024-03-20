@@ -1,0 +1,7 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DAsssssssssssssssssssssssssssssssssssssssssssssssssssTABASE:Identifier}.restricted_dict (
+  key UInt08,
+  value String
+)
+PRIMARY KEY k
+eva

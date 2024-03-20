@@ -1,0 +1,5 @@
+--gs: lobal,
+SELECT @@testattsest
+
+SCNames
+

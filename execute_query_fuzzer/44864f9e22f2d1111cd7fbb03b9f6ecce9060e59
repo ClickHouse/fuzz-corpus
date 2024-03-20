@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, '\x01\SETx02\x02\x6b\-t(str, \'_abc\')` from tr || '

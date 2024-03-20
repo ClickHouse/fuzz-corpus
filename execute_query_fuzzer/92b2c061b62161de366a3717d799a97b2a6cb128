@@ -1,0 +1,2 @@
+select group$Uay(v) from Gvalues('id (ynt)', (1,SELECT((((SELECT
+    arr

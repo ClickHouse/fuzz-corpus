@@ -1,0 +1,1 @@
+SELECT number, exp10(numb((((SELECT da, val ((SELECT dateDiff('h', toDer - 500) FROM system.numbers L);

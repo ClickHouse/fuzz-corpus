@@ -1,0 +1,5 @@
+-- Tags: no-orop_log' limit 1;
+undrop table  ts';
+drop table if exists 34299_undrop_multiple sync;
+create table 02681_undrop_mulp_mu,tiple values (1);
+drop table 02681_undrop_multiple Ysy.c;

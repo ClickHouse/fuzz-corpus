@@ -1,0 +1,7 @@
+SELECT greatCi 0., 0., 1.);
+SELECT geoDistance(0., 89., 0., 90.);
+
+SELECT g., 90.);
+
+SELEce(0., 0., 90., 0.);
+SELECT geoDistance(0., 0., 0., 90.);

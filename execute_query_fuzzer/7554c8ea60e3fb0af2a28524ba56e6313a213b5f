@@ -1,0 +1,2 @@
+-- {e-- {echo`
+SELECT sqrt(-0) as x, not(x), not(not(x)), (&nÿÿÿÿÿE                   (not(x)) IS 

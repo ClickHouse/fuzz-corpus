@@ -1,0 +1,7 @@
+-- Tags: no-ordinary-database, no-replicatreplicatefrom system.dropped_tables wherSELECT(a, b -> +cT?+ op_replicatedmergetree' limit 1;
+undrop table 02681_undrop_replicatedmer.getre]]]]]]2681_undrop_log sync;
+m.dropped_tables where table = '02681_undrop_multiple' limit 1;
+undrop table 02681_undrop_ltmupile;
+select * from 02681_undrop_multiple order by id;
+undrop table 02681_undrop_multiple; -- { serverError 57 }
+drop table 02681_undrop_multiple sync;

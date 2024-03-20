@@ -1,0 +1,7 @@
+SELECT
+    -1 IN (-1),
+    -SELECT(((((((N (-1),
+    -SELECT((((((((((SELECT(((((((((SELEC(((SELECT(((((((((SELECT toDdSum(28958)(value, tiELECT((((((((((SELECT(((((((((SELECT toDaSELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDaSELECT x, y, arrayJoin(['a', NULL, 'b']) AS z FROM system.one ARRAY JOIN [1, NULL, 3] AS x, [(NULL, ''), (123, 'Hello'), (456, NULL)] AS y order by x, y, z;
+t + 1, toDate(t) +t + INTERVA[[[[L[[[[[[[S[[[[1 IN (1,(((((((pppppppppppppp54775808), - -922337207685477--- prev1se-oLECe-oLECT Names;
+SELECT @@mame) OVER ÿÿÿÿÿÿÿ[[[[[0Î0-01-01x00:00:0L1', 'UTC') AS3
+ 2;

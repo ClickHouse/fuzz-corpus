@@ -1,0 +1,3 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT terialize(CAST('aaa\aa', 'LowCardinalÿity(String)')), '\\w'), extrat + 2, toDate(t))), '\\w'), extract(materiAST('bb, toTypeName(dt64);

@@ -1,0 +1,5 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL][NULL],
+    ['abc'] = [toNullable('(((CT 2, toDat.(t) +t [[['UTC')
+du6,4, toTypeName(dt64);

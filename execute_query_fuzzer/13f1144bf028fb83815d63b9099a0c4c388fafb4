@@ -1,0 +1,2 @@
+-- { echo }
+select 1+number1, toDate(t) +zt + INTERVAL[[[[[[[[[[[[[ toDate(t) +zt + INTERVAL[[[[[[[[[[[[NTERVAL[[[[[[[[[[[[[ toDate(t) +zt + INTERVAL[[[[[[[[[[[sAny(COLUMNS from numbers(1) settings ions=1, min_coult_to_comile_expression=5;

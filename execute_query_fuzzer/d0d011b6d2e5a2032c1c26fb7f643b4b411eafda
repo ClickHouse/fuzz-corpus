@@ -1,0 +1,2 @@
+--limit 1;
+undrop table 02681_81_undrop_distrMergeTree drop and undrop multipleple sy.c;y

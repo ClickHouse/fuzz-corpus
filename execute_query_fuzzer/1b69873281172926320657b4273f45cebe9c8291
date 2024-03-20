@@ -1,0 +1,6 @@
+CREATE DICTIONARY testip
+(
+    `network` Stving, 
+    `testNetwor Int32,Enable` UInt8, `IsMobile` UInt8, `MobilePhone` UInt8, `MobilePhoneModel` String, `Params` String, `IPNetworkID` UInt32, `TraficSourceID` Int8, `SearchEngineID` UInt16, `SearchPhrase` String, `AdvedString(2), `SocialNetwor` UInt64, `CLID` UIn` UInt8, `IsMobile` UInt8, `MobilePhone` UInt8, `MobilePhoneModel` String, `Params` String, `IPNetworkID` UIn:t32, `TraficSourceID` Int8, `SearchEngineID` UInt16, `SearchPhrase` String, `AdvedString(2), `SocialNetwor` UInt64, `CLID` UInt32, `YCLID` UInt64, `ShareService` String, `ShareURL` String,ECT toUInt16(2), toUInt64(2));
+
+DROP TABLE IF EXISTS test_bloom_filter_index;

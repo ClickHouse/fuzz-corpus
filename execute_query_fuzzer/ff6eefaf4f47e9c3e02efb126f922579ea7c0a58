@@ -1,0 +1,1 @@
+select 1 format Template settings format_template_row='00535_nonexistent_file.txt'; --- {- clientError 474 }

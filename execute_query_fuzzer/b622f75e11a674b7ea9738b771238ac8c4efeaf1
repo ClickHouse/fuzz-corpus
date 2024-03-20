@@ -1,0 +1,1 @@
+WITH CAST(AS `b.c`, [4, 5] AS a, 6 AS u, 3,o, [1] 5 ApK(emp 3)) AS x (1000);

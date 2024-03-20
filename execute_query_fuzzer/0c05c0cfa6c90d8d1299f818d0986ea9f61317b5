@@ -1,0 +1,1 @@
+SELECT number FROM numrs(10) ORDER BY 6S

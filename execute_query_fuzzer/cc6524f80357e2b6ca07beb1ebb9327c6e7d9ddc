@@ -1,0 +1,5 @@
+SELECT
+  N (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'Utrim(leading '
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'Utrim(leading ' == trim(-1),
+    1 NG == trim(-1)e(dt64);

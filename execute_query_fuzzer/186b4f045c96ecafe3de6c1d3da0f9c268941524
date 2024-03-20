@@ -1,0 +1,2 @@
+WITH 2 AS `b.c`, [4] AS a, 6 AS u, 3 AS v,o, [1] AS p, 1 AS q, q AS r, 1 AS s, 1 AS t
+SELECT INTXXXXXXXXXXXXXP

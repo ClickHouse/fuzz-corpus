@@ -1,0 +1,6 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c) ,c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT ((((h((((SELECT((((((((EXPLAIN AST
+CREATE V$EW numbers_pv AST extract(year, '\\d+')
+SELECT %´
+;

@@ -1,0 +1,5 @@
+-- Tags: no-f94_profอออออออออออออออออออออออออออออออile2, 02294_profile2;
+
+CREATE SETTINGS PROFILE 0t_pr, 0229rofile264, xx, x, x,
+    x, EATE SETTINGS PROFILE 0t_pr, 0229rofile264, xx, x, x,
+    x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x,EATx, x, x, x, x, x, x, x, x, x, x, x, x (1, 'abc*abc'); -- { serverErrCANNOT_PARSE_TEXT }

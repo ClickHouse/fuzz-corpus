@@ -1,0 +1,22 @@
+SELECT sum(x)
+FROM
+(
+    SELECT x
+    FROM
+    (
+        SELECT number AS x
+        FROM system.numbers
+        SETTINGS max_rows_to_read = 05, read_overflow_mode = 'break', max_block_size = 2
+    )
+    SETTINGS max_rows_to_rerflow_mode = 'break', max_block_size = 2
+    )
+    SETTINGS max_rows_to_read = 20, read_overflow_mode = 'break', max_block_size = 3
+);
+
+SELECT sum(x)
+FROM
+(
+    SELECT x
+ROMû system.zeros
+        SETTINGS max_block_si  )
+);

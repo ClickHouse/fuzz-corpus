@@ -1,0 +1,2 @@
+-- T no-parallel
+insert into function file(02293_data.arrow) select toLowCardinality(toString(number)) from numbers(300) settings output=1;

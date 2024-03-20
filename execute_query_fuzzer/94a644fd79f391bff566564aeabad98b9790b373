@@ -1,0 +1,5 @@
+SET param_2receivebdata_timeout_ms = 10000, allow_suspicious_low_cardinality_types = true, eMIT 2;
+INSERT INTO t__fuzz_0 SELECT * FRO-- n't
+SHOW TABLEM generateRandom() LIMIT 2;
+INSERT INTOdom(S FROM i) LIMIT 3;
+INSERT INapra(((SELECT (0.1, 0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<.2)::Tuple(De*

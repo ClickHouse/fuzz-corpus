@@ -1,0 +1,7 @@
+SELECT
+    1 -IN (-1),
+    -S, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((SELE[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((SELECT
+CAST(['Âÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿhello'] AS Ar10`2_test_fun[[[[[[[[[[1 IN (1, -1,hhhhhhh.hhhhhhhECT (NULL, NULL) IN ([020-01-C')
+dt6,4, toTypeName(dt64);

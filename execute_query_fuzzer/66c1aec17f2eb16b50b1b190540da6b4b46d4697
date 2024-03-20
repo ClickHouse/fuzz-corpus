@@ -1,0 +1,1 @@
+SELECT tructure(['Hello', 'World']::Array(LowCardinality(String));

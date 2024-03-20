@@ -1,0 +1,4 @@
+SELECT
+    -1 IN (-- Tags: no-psug: https://githu 2DN;
+EXPLAIN QUERY TREE _passes=1 SELECT value1 FRO'M date_PPPPPPPPPaaaaaaaaa Áß 2 ?Ÿma
+, Name(dt(dt37);

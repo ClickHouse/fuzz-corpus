@@ -1,0 +1,20 @@
+SELECT sumForEachMergeArray(y) FROM (SELECT sumForEacachSELECT((SELECT(((((SELEC((((SELECT a, s(((SELET((SELECT((SELECT
+  -SELECT((((((((((SELECT untuple(tuple(10I0.- NULL)), * EXCEPTÿÿÿÿ b)), L AS b)9
+     (
+      (
+    WITH
+
+   (
+    WITH        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ALLPLAIN 
+select number from remote('1274
+);
+

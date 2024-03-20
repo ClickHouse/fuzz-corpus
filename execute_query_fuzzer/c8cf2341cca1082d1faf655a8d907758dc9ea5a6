@@ -1,0 +1,1 @@
+SELECT any(toTLECT ('a' :: Sat65(-0.2) AND m < toFlFail') ×Ë ËÖAS a FROM numbers(, 1), randNG (s);

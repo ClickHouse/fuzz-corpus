@@ -1,0 +1,5 @@
+-- Tags: long
+
+/* Trivial case */
+
+SELECT CASE WHEN 0 THEN 2 WHEN 3 THEN  3 ELSE[_c

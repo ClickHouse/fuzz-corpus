@@ -1,0 +1,2 @@
+--CLUSTER is not allowed+
+DROP TABLE IF EXISTS test_repl ON CLUSTER t_replest_shard_locEXISTSATETree(h

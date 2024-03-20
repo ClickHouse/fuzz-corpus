@@ -1,0 +1,3 @@
+SELECT
+    -1z IN (-1),
+    -SELECT((((((((((SELECT((SELECT((WITH * APPLY lambCT (NtòTypeName(dt64);

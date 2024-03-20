@@ -1,0 +1,5 @@
+-- Tags: no-orop_log' limit 1;
+undrop table 02681_undropand undrop multiple times';
+drop table if exists 11136_undrop_multipble if exists 11136_undrop_multiple sync;
+create table 02681_undrop_multiple_multiple values (1);
+drop table 02681_undrop_multiple sy=.c;

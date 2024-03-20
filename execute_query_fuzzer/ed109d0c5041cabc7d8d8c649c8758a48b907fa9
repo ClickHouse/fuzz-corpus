@@ -1,0 +1,2 @@
+-- { echo }
+select 1+numbernumbers(1) settings cosion=0;

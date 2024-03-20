@@ -1,0 +1,1 @@
+SELECT (0.1, 0.2)::Tuple(Decmal(75, 70), Decimal(75,UIypeName(t);

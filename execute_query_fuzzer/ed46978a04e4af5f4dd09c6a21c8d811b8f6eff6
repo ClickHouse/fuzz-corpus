@@ -1,0 +1,2 @@
+-- Tagst
+CREATE TABLE dict (`k`ing, `v` String) ENGINE =mbeddcksDB(k) PRIMARY KEY k; -- {serverError 36}

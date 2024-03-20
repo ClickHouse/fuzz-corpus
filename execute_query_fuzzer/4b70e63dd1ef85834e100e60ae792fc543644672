@@ -1,0 +1,13 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+ WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((ON projection_name
+   (
+ WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h(((((((', toDatiff      SELECT sum(id('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((((((r 117 }

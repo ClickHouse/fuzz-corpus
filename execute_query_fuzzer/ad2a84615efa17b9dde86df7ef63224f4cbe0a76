@@ -1,0 +1,1 @@
+SELECT foa(arn([inf, -inf, nan]));

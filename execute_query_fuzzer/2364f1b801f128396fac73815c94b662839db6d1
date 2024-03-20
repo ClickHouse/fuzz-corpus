@@ -1,0 +1,1 @@
+SELECT formatreadableTimea(arn([inf, -inf, nan]));

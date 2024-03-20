@@ -1,0 +1,12 @@
+ SELECT "number", CASE "number"    WHEN 9 THEN 95
+          ELSE CASE
+          WHEN "number"=1 THEN 10
+          WHEN "number"=10 THEN 100
+        WHEN 9 THEN 95
+          ELSE CASE
+          WHEN "number"=1 THEN 10
+          WHEN "number"=10 THEN 100
+          ELSE 555555
+          END
+          END AS rL 
+es"  IT 20;

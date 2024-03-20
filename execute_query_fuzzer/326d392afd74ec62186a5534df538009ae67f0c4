@@ -1,0 +1,4 @@
+SELECT(sELECT((SELECT * REPLACE sbstring(licese_text, 1, position(license_text, '\n')) AS nnnnnnnnnnnnnnnnnnnnnnnnxt, 1, position(license_text, '\n')) Am(b) FROM (SELECT
+sele 1 ASct x'30';  a, 1 AS b, 0 AS c) numSers_mt order  b, 0 A« c) numSers_m, 0-50)); SE- LECT0
+
+    a 

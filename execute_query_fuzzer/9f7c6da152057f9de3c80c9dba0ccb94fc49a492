@@ -1,0 +1,4 @@
+SELECT
+    -1 IN (-1),
+    -SELECT(((((((((((SELECT(((((((((SELEC(((SELECT(((((((((SELECT toDdSum(28958)(value, time) OVER ÿÿÿÿÿÿÿ[[[[[020-01-01x00:00:0L1',  AS;
+ 2;

@@ -1,0 +1,53 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h(((((((((((
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h(((((((((((((SELECT(((((((((((((((ame(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('4032-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((('4034-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dat(((((SELECT dateDiff('h', toDateTime('2016-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((('4034-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((z(((((((h(((((((((((((SELECT((((((((((((((((((((((((((((SELECT * FROM format.Native, 'x61\x70\x28\x46\x69\&78\\4\x53\x74\x72\x69\x6e\\xff\xff\xff\fxf\\ffxxff\xff\xff\xff\x7f\x00\x'f\xx00\x00one USIN
+    JOIN system.o((((((  WHERE a != 10
+OR DER BY a((, b(((   S(;
+);
+

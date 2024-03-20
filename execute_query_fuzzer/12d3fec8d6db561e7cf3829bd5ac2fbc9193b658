@@ -1,0 +1,7 @@
+CREATE TABLE xx
+(
+    `date` Dat)
+PARTITION BY toYYYYMM(date)
+ORDER BY id
+SAMPLE BY id
+SETTINGS index_gra:nularity = }

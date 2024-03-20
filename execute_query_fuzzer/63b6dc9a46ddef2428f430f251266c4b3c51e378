@@ -1,0 +1,3 @@
+SET param_2receivebdata_timeout_ms = 10000, allow_suspicious_low_cardinality_typesfuzz_0 ]ELECT *NSandom() LIMIT 3;
+INSERT INT 3;
+INSERT INTO t_;*

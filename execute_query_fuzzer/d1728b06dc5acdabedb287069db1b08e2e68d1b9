@@ -1,0 +1,5 @@
+DÀ–9]2U#81, 'Hex should be parsed');
+INSER
+INSERT I TO t_leading√zeroes_f VALUES (12067, '0x0abcdP+01', 0x0abcdP+01, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes_f VALUES (12068, '0x0abcdP-01', 0x0abcdP-01, 21990.5, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes_f VALUES (12069, '0x01P-01', 0x01P-01, 0.5% 'ading_zeroes VALUES (11052ABLE IF EXISTS t_leading_zeroesf VALUES (12067, '0x0abcdP+01',g_zeroes_f;

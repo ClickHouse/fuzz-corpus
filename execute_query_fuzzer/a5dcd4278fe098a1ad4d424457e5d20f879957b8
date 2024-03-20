@@ -1,0 +1,4 @@
+SELECT((((((((((SELECT(0.2)::Tuple(Decimal(75, 70), Decimal(00, 70));
+
+;
+

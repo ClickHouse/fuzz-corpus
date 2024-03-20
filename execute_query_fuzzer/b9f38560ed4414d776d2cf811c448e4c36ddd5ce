@@ -1,0 +1,38 @@
+--ACT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+ST 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notation
+SEe scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- N scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p1.2_34p-0_1;
+SELECTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_;--   se{rverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_=p2; -- { server12 22:33:44' as s, toDateTime(s) as datetime, toDateTime64(s, 6) as datetime64, toDate(s) as date, toDate32(s) as date32 SELECT formatDateTimeInJodaSyntax(datetime, 'GGG'), fo datetime64, toDate(s) as date, toDate32(s) as date32 SELECT formatDateTimeInJodaSyntax(datetime, 'aa'), formatDateTimeInJodaSyntax(datetime64, 'aa'), formatDateTimeInJodaSyntax(date, 'aa'), formatDateTimeInJodaSyntax(date32, 'aa');
+with '2018-01-12 22:33:44' as s, toDateTime(s) as datetime, toDateTime64(s, 6) as datetime64, toDate(s) as dat -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_=p2; -- { server12 22:33:44' as s, toDateTime(sDateTime(s) as datetime, toDateTime64(s, 6) as datetime64, toDate(s) as date, toDate32(s) as date32 SELECT formnJodaSyntax(datetime64, 'zzzz');
+
+with '2018-01-12 22:33:44' as s, toDateTime(s) as datetime, toDateTime64(s, 6) as datetime64, toDate(s) as date, toDate32(s) as date32 SELECT formatDateTimeInJodaSyntax(datetime, 'G123DDD'), formatDateTError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_ÿÿÿÿÿÿÿÿÿmÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ(start Integer, end Integer) engine = Memory;
+INSERT INTO tesNOWN_IDENTIFIER }
+select 1e5_;--   se{rverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_=p2; -- { server12 22:33:44' as s, toDateTime(s) as datetime, toDateTime64(s, 6) as datetime64, tELECT formatDateTimeInJodaSyntax(dateas date32 SELECT formatDateTimeInJodaSyntae, 'H'), formatDateTimeInJodaSyntax(datetime64, 'H'), foÿÿÿÿÿÿÿÿÿÿÿÿÿ}+

@@ -1,0 +1,4 @@
+-- This is a regression test for EINTR handlingTS TEMPORARY TABLE temp_tab;
+SHOW CREATE TEMPORARY TABLE tempSELECT * REPLACE substrSELe0riod_ns=1,
+    -- This is to use MultiplexedConnections
+    use_hedged_requests=0;

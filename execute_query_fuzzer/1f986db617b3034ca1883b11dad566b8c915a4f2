@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT 1 AS id, '' AS test) ASFT JOIN (SELECT tes AS test) AS b ON b.;

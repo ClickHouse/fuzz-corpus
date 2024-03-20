@@ -1,0 +1,10 @@
+SELECT(((((((((SELECT((((((((((SELECT((ht_reaSd((-- Befch
+WITH
+    toDateTime64('1959-09-16 19:20:12.999999998', 9, 'UTC') AS dt1,
+    toDateTime64('1959-09-199999999', 9, 'UTC') AS dt1
+SELECT
+        dt1 < dt2,
+        (dt1 + INTERVAL 1 NANOSECOND) = dt2,
+        (dt1 + INTERVAL 2 NANOSECOND) > dt2,
+ INTERVAL 3 NANOSECOND) >AS÷õãŒ”ıﬂﬂ  toDateT4;
+ult_nullERR(((((ì

@@ -1,0 +1,12 @@
+SELECT '-- argument validation';
+
+SELECT subnt validation';
+
+SELECT subnt validation';
+
+SELECT substring('hello', []); -- {SDLECT substring('abcdefghT UBSAN bug';
+
+/** NOTE: The behaviour of substring and substringUze:
+ *ssu b tring
+  *      ho
+  *    hhhhhhhhhhhhhhhhhhhhhhhhhice('helt is 2, 2);

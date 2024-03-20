@@ -1,0 +1,2 @@
+-- Tagm numbers(10));
+select 1 < any (select number from numbers(10))sT; -- {r 35 }

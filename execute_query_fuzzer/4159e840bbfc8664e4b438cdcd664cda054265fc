@@ -1,0 +1,1 @@
+SELECT 'aaaabb ' == trim(leading 'b ' FROM 'b aaaa2') == '2'

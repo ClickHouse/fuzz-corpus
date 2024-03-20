@@ -1,0 +1,11 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projectiondname
+   (
+ WITH minSimpleState(v~luD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((projection_name
+   (
+ W(((((((((((SELECT date((h(Ø××××××Ø(((((((((((((((((((((SELECT dateDiff('h', tor 623 }

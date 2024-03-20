@@ -1,0 +1,4 @@
+-- }
+SELECT * APPLY lambda(tuple(x), "\\"`\'><script>\\\\x20javascript:alert(ÏÖÃÈscript>", \n  "\\"`\'><script>\\\\xC2\\\\xA0javascript:alert(1)</", \n  "<img \\\\x47src
+EXISTS TABLE dE db00S _Adl
+*EXI01ABLE A

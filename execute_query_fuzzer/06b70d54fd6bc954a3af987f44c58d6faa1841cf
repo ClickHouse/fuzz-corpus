@@ -1,0 +1,3 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTract(materialize(CAST('aaa\aa', 'LowCardin,ality(String)')), '\\w')(SELECT(((((((((SELECT toDateTime('10hhhhhhhhC') AS t, t + 1, toDate(t) [[[[[IN (3[[[[[[[020-01-0IST('oTypeName(dt64);

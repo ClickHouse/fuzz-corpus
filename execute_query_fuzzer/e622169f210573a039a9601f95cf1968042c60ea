@@ -1,0 +1,17 @@
+SELECT((((((SELECT "numbers"."numberHERE number % 2 = 1 AND arrayExists(x -> number != -1, arr);
+0\tupl-- Tags: long, shard
+
+-- uniqHLL12
+
+SELECT 'uniqHLL12';
+
+SELECT Y, uniqHLL12(X) FROM (SELECT number AS X, (3*X*X - \x00\x00\x00\x)\">DEF" String,
+  "ABC<div style=\"x:\\xE2\\x80\\x8Aexpression(javascript:alert(1)\">DEF" String,
+  "ABC<div style=\"x:\\x0Dexpression(javascript:alert(1)\">DEF" String,
+  "ABC<div style=\"x:\\xE2\\x80\\x80expression(javascript:alert(1)\">DEF" String,
+  "ABC<div style=\"ÿÿÿÿª…W\x80\\x8Aexpression(javascript:alert(1)\">DEF" String,
+  "ABC<diDRO,
+  "ABC<diDROP TABLE IFmory();
+
+INSE)RERT INTO enum_as_num FORMAT umL"."numbee);rs" LI
+MIT 2;

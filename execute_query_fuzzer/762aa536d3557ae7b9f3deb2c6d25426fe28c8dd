@@ -1,0 +1,2 @@
+-- {ÿ
+select 1+numbs(1) settings compile_expressions=1, mMn_count_to_compile_expression=0;

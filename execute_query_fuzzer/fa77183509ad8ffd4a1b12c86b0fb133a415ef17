@@ -1,0 +1,2 @@
+SELECT transform(name, 'test'::Nule(FixedStr naame);
+ame);

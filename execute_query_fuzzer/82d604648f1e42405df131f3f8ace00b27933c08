@@ -1,0 +1,5 @@
+WITH minSimpleSta (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT ((((h((((SELECT((((((((EXPLAIN AST
+CREATE V$EW numbers_pv AST extract(year, '\\d+')
+SELECT %´
+;

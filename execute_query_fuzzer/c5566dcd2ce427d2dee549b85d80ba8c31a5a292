@@ -1,0 +1,2 @@
+-- Check MergeTatabase();
+ALTER TABLE check_sesX.ETICH PARTITION Rasystem_tables;

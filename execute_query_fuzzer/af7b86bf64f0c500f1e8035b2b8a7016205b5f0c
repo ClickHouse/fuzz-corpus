@@ -1,0 +1,16 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT(((((((((T(LSCE(E((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((Name(((((((((((ST ((((h(((((((--- prev-- prevse-MoLECT @@MAX_A FORMAT CSVWithc
+SELECT toTypeName(((((((((SELECT( toDatuti((((WITH
+    xrithm = 'auto', max_orws_in_join = 2, allow_experimental_analyze AS (SELECT in((SELECT * FROM y))),
+    y AS (SELECT 1)
+SELECT * FRerimental_analyze AS (SELECT in((SELECT * FROM y))),
+    y AS (SELECT 1)
+SELECT * FROuto', max_orws_in_join = 2, allow_ex((SEBU^^^^perimentalE_analyze AS (SELECT in((SELECT * FROM y))),
+    ^^^y SAS (SE4, toTypeNa6mdt(e4e(d);
+t64);

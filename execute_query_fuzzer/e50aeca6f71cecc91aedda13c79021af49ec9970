@@ -1,0 +1,3 @@
+SELECT * FROM format.Native, '\x000\2:x:45+00',
+'2017-01-02T03:1 Ju,
+''n201701 M _STRUCTUR

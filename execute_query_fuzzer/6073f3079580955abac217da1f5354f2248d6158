@@ -1,0 +1,5 @@
+SELECT a.*, b.* FROM
+(
+    SELECT number  msbers LIMIT 00
+) AS a
+ALL INNER JOIN{ s  : ››Äû

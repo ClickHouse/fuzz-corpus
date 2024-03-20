@@ -1,0 +1,1 @@
+SELECT countIf(1) FROM (SELECT NULL, expon(value, time) OVER (Rows BETWEEN 255 FOLLOWING ECEDING), n940))

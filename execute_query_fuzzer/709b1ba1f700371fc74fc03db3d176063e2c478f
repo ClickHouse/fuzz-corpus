@@ -1,0 +1,8 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT((((((((LS(E(((ECT(((((((((SELE['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = ((SELE[NULL],
+   SELECT(((SELECT (if(a.test == 'a', b.test, c.test)) as `a.test` FROM
+    (SELECT 0 AS id, 'a' AS test) a
+    LEFT JOIN (SELECT1 AS id, 'b' AS test) ;

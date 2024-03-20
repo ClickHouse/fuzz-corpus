@@ -1,0 +1,22 @@
+-- Tagsags: no-random-merge-tree-settings, no-fasttest,ECT((((((((((SELECT((((-- Tags: no-tsan
+select nu((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(ibtAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAnd(n2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n2, ip2)),
+       bin(bitOr(ip1, n1)), bin(bitOr(n1, ip1)), bin(bitOr(ip2, n1)), bin(bitOr(n1, ip2)),
+       bin(bitOr(ip1, n2)), bin(bitOr(n2, ip1)), bin(nd(n2, ip1)), bin(bitA(((((((((SELECT((((-- Tags: no-tsan
+select nu((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', SELECT((((((((((SELECT(((((((((SELECT toDateTime('5020- 1,EE'), formatDateTimeInJodanumber
+    WITH TOTALS
+ORDER numitAnd(n1, ip1)), bin(bitAnd(ip2,)), bin(bitOr(n2, ip1)), bin(nd(n2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n2, ip2)),
+ere number global in (select number from numbers(2nd(ip2, n2)), bin(bitAnd(n2, ip2)),
+ere number global in (select SEnumber from numbers(2))ã€€settings async_socket_for_remote=1, x(date, 'EEE'), formatDateTuse_hedged_requeLEsts = 1, sleep_in_send_data_ms=10, receive_data_timeouimeICT((((((((((SELECT(((((((((SELECT toDateTime('5020- 1,EE'), formatDat_mteTimeInJodanumber
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT jo-replicated-database
+-- Tag: no-;
+
+ALTR USER test_user_01075 HOST REGEXP '.*\.anotTRU01/31',
+'2017/017/01/31',
+'2017/01´´´´´´´?´´´´´´´´´´´è2',
+rmove_ptind active0/3è2',
+rmove_partind active;

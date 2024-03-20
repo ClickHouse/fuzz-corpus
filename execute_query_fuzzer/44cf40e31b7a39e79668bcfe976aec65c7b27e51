@@ -1,0 +1,1640 @@
+SELECT k % 7 AS k2, finalizeAggregation(uniqMergeState(state)), uniqMerge(stSELECT (materialize(0), extract(materialize(CAST('aaaaa', 'LowCardinality(String)')), '\\w'), extract(S re FRO -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- SpPositive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECTSELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex fractions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1S;
+ELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+S positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative f234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELNegative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_h positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e12;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) wi -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1S;
+ELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+S positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative f234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (witfic notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2
+;_1SELECTSELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex fractions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECTLECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; CT -3_4e12;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scieate) FROM (SELECT k, uniqState(ntific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECTSELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex fractions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1S;
+ELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+S positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1S;
+ELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+S positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative f234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4ECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notation
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT 34e21; -- Positive fl€?æ ng point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e12;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+2 -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex fractions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1S;
+ELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+S positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative f234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_h positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e12;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21;LECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (witfic notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2
+;_1SELECTSELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex fractions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SE-.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SE¥√CT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4ECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notation
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT 34e21; -- Positive fl€?æ ng point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative f234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4ECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notation
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT 34e21; -- Positive fl€?æ ng point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e12;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scieate) FROM (SELECT k, uniqState(ntific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECTSELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex fractions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1S;
+ELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+S positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative f234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4ECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notation
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT 34e21; -- Positive fl€?æ ng point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- PositivSELECT (0.1, 0.2)::Tuple(Decimal(7e floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e12;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+2 -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex fractions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1S;
+ELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+S positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative f234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_h positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e12;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) wi -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1S;
+ELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+S positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative f234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4ECT 2_2.3_4;
+SELECT 5, 70), Decimal(75,UInt16]:Array(Uﬂˇˇˇˇ::Nested(u UInt8, s String) AS t, toTypeName-12.34; -- Negative floating point with . notation
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT 34e21; -- Positive fl€?æ ng point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e12;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-SELECT s FROM (SELECT materialize('abc') AS s FROM system.numbers LIMIT 100) ORDER BY s DESC
+ntific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+2 -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELEC21; -- Negative f234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4ECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notation
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT 34e21; -- Positive fl€?æ ng point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e12;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+2 -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex fractions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1S;
+ELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+S positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative f234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_h positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e12;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2_1;
+SELECT -3_4e+2_1;
+SELECT -34e-21; -- Negative floating point with negative scientific notation
+SELECT -3_4e-21;
+SELECT -34e-2_1;
+SELECT -3_4e-2_1;
+SELECT 1.34e21; -- Positive floating point (with .) with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- (t)Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) wi -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; -- Negative floating point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1S;
+ELECT -.3_4e-2_1;
+SE;
+LECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- BinarCT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELion (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4e+2_1;
+SELECT -.34e-21; 

@@ -1,0 +1,1 @@
+SELECT aMax(n+ 1) FILTER(WHERE rgMax(number, number + 1) FILTER(WHERE nu[m

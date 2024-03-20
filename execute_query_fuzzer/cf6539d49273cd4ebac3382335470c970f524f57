@@ -1,0 +1,8 @@
+set allow_experimental_variant_type = 1;
+set allow_suspicious_variant_types = 1;
+set session_timezone = 'UTC';
+
+select 'JSON';
+select 'String';
+select v, varia)') from format(TSV, 'v Variant(String, Decimal256(6))', '\\N\nstring\n42.42\n42d42\n4242424242424242424242424242424242424242424242424242424242424242424242bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb424242424242424242424242.424242424242424242' and DateTimeslect v, variantElement(v, 'IPv4') from format(TSV, 'v Variant(String, IPv4)', '\\N\nstring\n127.0.0.1\n127.0.0.1Aes;
+ÿÿÿÿÿÿÿÿ'';

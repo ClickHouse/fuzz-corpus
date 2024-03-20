@@ -1,0 +1,5 @@
+CREATE DICTIONARY testip
+(
+    `network` Strin)
+PRIMARY KEY network
+SOURCE(FILE(PATH‡‚/tm137 }

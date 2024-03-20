@@ -1,0 +1,8 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `te` String
+)
+PRIMARY KEy network
+SOURCE(FE(PATH ROUP BY CoNnEcTiOn_Id()) AS t2 USING (s) WITH TOTALS;
+EXPLAIN ESTIMA 137 {

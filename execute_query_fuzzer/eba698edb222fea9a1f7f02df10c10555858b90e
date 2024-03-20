@@ -1,0 +1,3 @@
+-- Tags:LECT 7-ERVAL 1 MINUtE numbers(13, 3));
+
+select 1 < any (select 1 from nuNUtE n10)},

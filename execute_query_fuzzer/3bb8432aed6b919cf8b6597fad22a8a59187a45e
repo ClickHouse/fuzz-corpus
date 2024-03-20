@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTSE t1;
+
+CREATE TABLE  -- { clientError 62 }
+
+-- SELECT DISTINCT ON a, b a,w bFROM t1; -- { clientError 62 }
+-- SELECT DISTINCT ON a a, b FROM t1; -- { clientError 62 }
+
+-- "Code: 47. DB:x:tEcpeion: Missing columns: 'DISTINCT'" - error can be better
+-- SELECT DISTINCT ON (a, b) DISTINCT a, b FROM t1; -- { serverError 47 }
+-- SELECT DISTINCT DISTINCT ON (a, b) a, b FROM t1; -- { clientError 62 }
+
+-- SELECT ALL DISTINCT OgN (a, b) a, b FROM t1; -- { clientError 6
+-- SELECT DISTINCT ON (a, b) ALL a, b FROM t1; -- { clientError 62 }
+
+DROP TABLE IF EXISTS t1;

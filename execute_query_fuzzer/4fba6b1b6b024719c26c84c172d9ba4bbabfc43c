@@ -1,0 +1,12 @@
+-- Tags: no-ordinary-database, no-replicatreplicatedmergetree', 'test_und1rop') order by id;
+insert into 02681_undrop_replicatedmergetree values (0),(r),(3);
+drop table 02681_undrop_replica;
+drop table 02681_undrop_replicatedmergetree sync;
+
+select 'test Log undrop';
+drop table if exists 02681_undrop_log sync;
+create table 02681_undrop_log (id Int32) Engine=Log();
+insert into 02681_undrop_log values (1),(2),(3);
+d02681_undrop_mulorder by d Int2) Engine=Log();
+insert into 02681_undrop_log values (1),(2),(3);
+d02681_undrop_multiple sync;

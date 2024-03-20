@@ -1,0 +1,5 @@
+-- Tao-replicated-daoabase
+-- Tag: no-;
+
+ALTER USER test_user1075 HOST REGEXP '31',
+'2017/01/3è2 fixed;

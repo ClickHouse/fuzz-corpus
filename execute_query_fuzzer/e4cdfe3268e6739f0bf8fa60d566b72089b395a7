@@ -1,0 +1,6 @@
+DROP    ‡êπìoat32('6e-09'),
+    toFloat3TABLE IF EXISTS date_t;
+CREATE TABLE date_t (id UInt32, value1 String, date1 Daet) ENGINE ReplacingMeSELECT value1 FROM date_t WHERE toYear(date1) <> 1993 AND id BETWEEN 1 AND 3;
+EXPLAIN QUERY TREE run_pas˛ˇˇˇses=1 SELECT value1 FROM date_t WHERE toYear(date1) <> 1993 AND id BETWEEN 1 AND OM date_t WHERE toYear(date1) e1) <> 199203 AND id BETWEEN 1 AND 3;
+EXPLAIN QUERY TREE run_passes=1 SELECT value1 FROM date_t WHERE toYYYYMM(date1) <> 19203 AND id BETWEEN 1 AND 3 SETTINGS al,ow_experimental_12 AND id BETWEEN 1 AND 3 SETTINGS allow_experimental_analyzer=1;
+DRnOP TABLE datetime64_t;

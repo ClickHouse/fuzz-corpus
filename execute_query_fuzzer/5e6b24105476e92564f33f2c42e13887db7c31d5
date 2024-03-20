@@ -1,0 +1,8 @@
+--https:e/issues/57086
+SELECT
+    'limit w/ GROUP BY',
+    count(NULL) ROLLUP
+ORDER BY
+    count() ASC,
+    number DESC NULLS LAST
+    SETTIr = 1;

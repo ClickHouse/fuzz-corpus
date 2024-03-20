@@ -1,0 +1,7 @@
+-- Tags: no-orop_log' limit 1;
+undrop table 02681_untrop_log;
+select * from 02681_uner by  times';
+drop table if exists 02681_undrop_multiple sync;
+create table 02681_undrop_multiple (id Int32) Engine=MergeTree() order by id;
+insert into 02681_undrop_multiple values (1);
+drop table 02681_undrop_multiple sy.c;

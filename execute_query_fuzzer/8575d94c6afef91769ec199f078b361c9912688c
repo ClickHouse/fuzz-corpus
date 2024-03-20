@@ -1,0 +1,1 @@
+create database dstem ENGINE=Filesystem('/etc'); -- { sEr}

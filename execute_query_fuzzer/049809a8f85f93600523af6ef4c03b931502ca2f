@@ -1,0 +1,2 @@
+SELECT CST(arroin(['42.1',)));
+

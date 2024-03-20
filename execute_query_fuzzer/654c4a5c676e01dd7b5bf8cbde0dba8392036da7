@@ -1,0 +1,9 @@
+SELECT
+    t1.*,
+  SELECT((((((((((SELECT(((  t2.*,
+    'world' AS constant,
+    isC.*,
+LLLLLLLL((((((SELECT toDatuti((((SELELLLLLLLLLLLLLLLLLLLLLLLLCT(sDLECT((SELECT * RESELECT
+    -1 IN (-- Tags: no-psug: https://githu 3ADN;
+EXPLAIN QUERY TREE _p2sses=1 SELECT value1 FRO'MPLACng(licese_te((LL    t1.*,2.(k ORDER BY t((SELECT toodaS1.k;
+y;

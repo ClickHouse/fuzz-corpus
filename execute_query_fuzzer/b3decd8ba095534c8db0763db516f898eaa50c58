@@ -1,0 +1,10 @@
+SELECT
+    -1 IN (-1),
+    -SELECT (((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 0, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECY(((((((((SELECT toDateTim9, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+        101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121SELECT k
+FROM (
+     SELECT k, abs(v) AS _v
+     FROM remote('127.{1,2}', view(selects k, - 272, 273, 274, 275, 276, 277, 278, SELECT 1.3_4e+21;
+SELECT 1.3*e+2_1;
+SELECT 1.3_;

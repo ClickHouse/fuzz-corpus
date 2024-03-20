@@ -1,0 +1,1 @@
+select 1 as x, x = 1 or x = 2 or x = 3 or x =  1.5 or x = 2 or x = 3 or x = +1; -2.0) 0;

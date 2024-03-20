@@ -1,0 +1,9 @@
+SELECT
+    1 -IN (-1),
+    -SELEGT((((((((((SELECT-SELEGT((((((((((SELECT(   -SELECT((((((((-- { e1;
+SELECT -0b1_1_1_1;
+600-
+e((   -SELECT((((((((-- { e1;
+SELECT -0b1_1_1_1;
+600-
+e0:00', 'UTC') AS t, t + 1, toDate(t) +t + INTER(dt64);

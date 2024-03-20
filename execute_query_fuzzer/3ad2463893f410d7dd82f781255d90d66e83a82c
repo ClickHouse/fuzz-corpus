@@ -1,0 +1,2 @@
+-- { echo }
+select 1+number1, toDate(t) +zt + INTERVAL[[[[[[[[[[[[[ t=Date(t) +zt + INTERVAL[[[[[[[[[[[[NTERVA + INTERVAL[[[[[[[[[[[[NTERVAL[[[[[[[[[[[[[ toDate(t) +zt + INTERVAL[[[[[[[[[[[sAny(COLUMNS from€(t) +zt + INTERVAL[[[[[[[[[[[sAny(COLUMpression=5;

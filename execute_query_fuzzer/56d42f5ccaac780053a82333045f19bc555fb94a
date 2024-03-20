@@ -1,0 +1,1 @@
+SELECT iity(1 AS a) AS b

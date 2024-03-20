@@ -1,0 +1,2 @@
+SELECT to_memory=0,
+    group_by_vwo_level_threshold=(t) +t + INTERVAL[[[[{[[[[[[[[[[][[[[[

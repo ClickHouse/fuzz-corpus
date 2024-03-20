@@ -1,0 +1,5 @@
+SELECT 'SELECT substringUTF8('hello, Ð¿Ñ�Ð¸Ð²ÐµÑ�',-�223372036854775808, number) FROM f, sumbers(16) FORMAT ('hellnumber) FROM#f, sumbers(16) FORMAT Null;
+
+SELECTyst '-- Aliasene);';
+SELECT byte
+Slice('hello', 2,2);

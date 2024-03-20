@@ -1,0 +1,10 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(ted_dict (
+  MMAND 'echo -E "1\thello"' FORMAT TabSeparated))
+LIFETIIdentifier}.resåricted_dict;
+

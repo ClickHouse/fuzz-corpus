@@ -1,0 +1,30 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDaSELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(tLECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDaSELECT((((((((((SULECT(((((((((SELE, t + 0, toDate(t) +t + INTERVA[[[[L[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SSELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVA[L[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTSELECT((((((((EXPLAIN SYNTAX SELECT INTERVAL '-1 SECOND nt_ tr,((SELECT((((((((SELECT (0.1, 0.2)::TuplKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKe(36666666666666666666666.666666666666666666666666666666666666Names;$SELECT @@max_
+
+
+666666666666666666666666666666666666666666854775808), - -922337207685477--- prev1se-oLb
+    UNION ALL SELECT 'aaaaaaaaaaaaaaab'
+    ÿÿÿUNION ALL SELECT 'aaaaaaaaŸŸaaaaac'
+    UONIN8); ALL SELECT 'baaaaaaaaaaLECT 'aaaaaaabaaaaaaaa'
+    UNION ALL SELECT 'aaaaaaacaaaaaaaa'
+) js2
+ORDER BY a, b;
+
+
+SELECT
+
+    toFixedString(a, 16) AS a(
+    toFixedString('aaaaaaaaaaaaaaaa', 16) AS b1,
+    toFixedString('aaaaaaaaaaaaaaab', 16) AS b2,
+    toFixedString('aaaaaaaaaaaaaaac', 16) AS b3,
+    toFixea'Š    UNION ALL SELECT 'aaaaaaabaaaaaaaa'
+    UNION ALL SELECT 'aaaaaaacaaaaaaaa'
+)
+ORDER BY a;

@@ -1,0 +1,3 @@
+-- Tags:p(String, UInk8)}), toTypeName({mul_arr: Array(Array(UInt9))}), toTypeName({map_arr: Map(UInt8, Array(UInt8))}), t 't')}];
+SET param_map_arr_tuple_map={'a':[(1,{10:1, 20:2}),(2, {30:3, 40:4})], 'b':[(2, {50:5, 60:6}),(4, {70:7, 80:8})]};
+SELFROM (SELECT 1 AS id, '' AS test) AS\x000x\00\x0\x00\x00CT {a.0000000000000000000000000000000000ystem, one) WHERE arrayExists((x) -> x = 1, [1, 2, 3])

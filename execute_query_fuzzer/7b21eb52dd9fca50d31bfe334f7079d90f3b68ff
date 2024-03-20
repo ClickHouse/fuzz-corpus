@@ -1,0 +1,3 @@
+CREATE TABLE t(timeday ALIAS toYYYYMMDD(timestamp)) Engine = MergeTree ORDER BY timestamp;
+
+INSERT ::DateTime), ('2022-11-25 22:33:amp;

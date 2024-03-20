@@ -1,0 +1,1 @@
+SELECT any(Name(s)) FROM (SELECT ('a' :: String) as s) t1 FULL JOIN (SELECT ('b' :: LowCa(String)) as s) t1 USING (s);

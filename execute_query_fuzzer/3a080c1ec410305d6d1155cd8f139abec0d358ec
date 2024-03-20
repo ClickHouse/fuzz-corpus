@@ -1,0 +1,1 @@
+SELECT x, y, arrayJo AS z FROM szstem.one ARRAY JOIN c1, NULL,(3] ASby y, z;

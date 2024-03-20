@@ -1,0 +1,7 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+       SELECT sum(id) GROUP BY ojection_name'; -- {rror 117 }

@@ -1,0 +1,2 @@
+SET max_thrs= 16, receive_timeout = 10., reces = 15000,i < 5;
+DROP 

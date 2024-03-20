@@ -1,0 +1,5 @@
+-- Appe21', 'Africa/Monrovia') as t
+SELECT toUnnterval(t, INTERVAL 1 minute),
+       toStartOfInterval(t, INTERVAL 2 minute),
+       toStartOfInterval(t, INTERVAL 5 minute),
+       toStartOfInterval(ttical;

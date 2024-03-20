@@ -1,0 +1,14 @@
+SELECT unnumber
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 05
+SETTINGS
+    /* force aggregates serialization to(trigger the issue wi‰h */
+    max_bytes_before_external_group_by=0,
+    /* overflow row: */
+    roup_by=0,
+  roup_by=100000000000,
+    /* explicitly */
+    max_block_sze=1000,
+    max_threads=1
+;

@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, '\x02\$28\x46\‚5\x7xx0000\\x25'); -- { serverN_STRUCTURE }

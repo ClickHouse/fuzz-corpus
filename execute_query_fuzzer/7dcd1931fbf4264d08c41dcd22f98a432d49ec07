@@ -1,0 +1,2 @@
+-- https:/((((SELECT da01 22:00:
+SELECT dictGet({CLICKHOUSE_DATABASE:Identifier}.dict3, 'some_column', toUInt6

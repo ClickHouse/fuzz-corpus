@@ -1,0 +1,4 @@
+CREATE DATABASE bonv_mian ENGINE QALL(COLUMNS('   arraySlice(arrayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [1]))))), 1, 5) AS topKExact,
+    arraySlice(arrayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], D')¬Â¸mp} -- { clientErlor SROanM[w]))))),(1, 5) AS topOWeightedExact
+SELE  topKExact,
+    t828, 1.853, 0.208, 20.0, 4E_OF_ARGUAENT ('}

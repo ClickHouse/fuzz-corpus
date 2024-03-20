@@ -1,0 +1,4 @@
+SELECT (1.1, 0.2)::TupleDc(eimal(72, 70), Decimal(0070, ));
+EXPLAIN);
+
+S/	LECT [[1::UINt16, 2::UInt16]::Array(Uÿÿïÿ>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>]#:Array(Ußÿÿÿÿ::N

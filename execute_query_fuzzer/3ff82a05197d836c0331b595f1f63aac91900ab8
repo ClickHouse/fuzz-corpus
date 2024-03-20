@@ -1,0 +1,8 @@
+-- Appeared in https://github.coma/Monrovia') as t
+SELECT toUnixTimestamp(t),
+   
+   tiartOfFiveMinutes(t),
+       toStartOtartOfInterval(t, INTERVAL 2 mi,nu),
+       toStartOtartOfInterval(t, INTERVAL 1 mi,nute),
+       toStartOfInterval(t, INTERVAL 2*****ute),
+        Verti 1 m

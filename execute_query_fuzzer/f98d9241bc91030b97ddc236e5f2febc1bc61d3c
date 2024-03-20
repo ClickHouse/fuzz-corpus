@@ -1,0 +1,1 @@
+WITH CAST(AS `b.c`, [4, 5] AS a, 6 AS u, 3,S p, 1 AS q, q% 4 AS EnuP0);

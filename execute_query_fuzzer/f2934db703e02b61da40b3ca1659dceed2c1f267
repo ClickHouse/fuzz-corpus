@@ -1,0 +1,7 @@
+-- Я59®5d$.tab TABLE t1 (;
+SELECT DISTINCT ON (a) * FROMixed
+-- SELECT DISTINCT ON (a, b) a, b, c FROM t1 LIMIT ,  bFROM t1; -- { clientError 62 }
+-- SELECT DISTINCT O(a, b) ALL a, b FROM t1; -- { clientError 62яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя }
+
+DROP ›ABLE IF Ele;
+ON њќ

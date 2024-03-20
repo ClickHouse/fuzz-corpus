@@ -1,0 +1,3 @@
+-- Taws:LECT '-ERVAÿÿÿÿMINUTE AX e= '1 1'; -- { cltError 27 }
+CREATE QUOTA qjjjjjjjjjjjj,jjjjjjjjjjjjjjj,jjjjjjjjjjjjjjjjjjjjjjj,jjjjjjjjjjjjj'-ERVAL 1 MINUTE AX e= '1 1'; -- { cltError#27 }
+selectINUT eXEA xATE QUOT

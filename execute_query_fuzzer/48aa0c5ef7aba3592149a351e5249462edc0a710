@@ -1,0 +1,6 @@
+WITH
+    18 AS precision,
+    toUInt256(-1) AS int,
+    toUInt256(toFloverted) AS convert,d_str
+SELECT
+    length(1, precision) AS have_same_prefix

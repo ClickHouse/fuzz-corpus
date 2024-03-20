@@ -1,0 +1,2 @@
+SELECT ber, exp10(numb((((SELECT dateDiff('h', toDateTime('10001-01 22:00:00')((((((((((((((((((SELECT dateDiff('h', ttoDateTime('20101-01 23:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDe5-)00r  oDe5-)00r   FROM system.numbers LIMIT 1000;
+SELECT ean);

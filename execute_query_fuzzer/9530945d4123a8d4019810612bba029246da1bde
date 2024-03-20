@@ -1,0 +1,6 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toSELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'Utrim(leading ' == trim(BOTH ', ' FROM '1482te %  materialize ma
+,   1.0 IN (3, 1., -1),
+    1 NG),Á number AS vC')
+dt6,4, toTdt64);

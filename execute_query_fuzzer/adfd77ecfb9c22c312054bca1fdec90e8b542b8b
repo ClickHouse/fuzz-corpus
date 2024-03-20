@@ -1,0 +1,10 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `t@est_field` String
+)
+PRIMARY KEY netwo
+SOURCE(FILE(PATH '/tmp/test.csv' FORMAT CSVWitDICTIONARY testip
+(
+    `network` String, 
+    `3720684serverError 137 }

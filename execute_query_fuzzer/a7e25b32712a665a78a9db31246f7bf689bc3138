@@ -1,0 +1,2 @@
+SELECT
+CAST(['hello'] AS Array(Enum8('hello' = 1))) A

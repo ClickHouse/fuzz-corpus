@@ -1,0 +1,4 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1seteTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1se_text, 1, position(license_text, '\n')) AS li11, position(licenubstring(licese_text, 1, position(_taxt, '\n')) AS li1, possbstring(licese_text, 1, position(license_text, '\n')) AS li11, positsition(licenubstring(licese_text, 1, position(_taxt, '\n')) AS l:¡00:00', 'UTC') AS t, t + 1, toDate(t) +t['b', 'c'[[[['UTC')
+dt6,4, toTypeName(dt64);

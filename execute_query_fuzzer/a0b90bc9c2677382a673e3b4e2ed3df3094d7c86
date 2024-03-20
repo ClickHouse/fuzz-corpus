@@ -1,0 +1,19 @@
+SELECT _shard_num FROM cluster("{0\0\ect000op table test;
+0\0\0\ect0000;
+
+INSERT INTO test SA> 4292390314;
+drle test;
+0\0\0\ect00010;
+select co > 42\ect000op table test;
+0\0\0\ect0000;
+
+INSERT INTO ;
+0\0\0\ect0p00o table 0\ecte tesop table test;
+0\0\0\ect0000;
+
+INSERTæ¶±«°ß‹šst SALECT numFROM clusterAlt;
+0\0\0\ect000op table test;
+0\0\0\ecte test;
+0\0\0\ect0000;
+
+INTE RSINTO testÐ SALECT numFROM clusterAllReplicas("{default_cluster_macro}");

@@ -1,0 +1,6 @@
+-- EXPLAIN false));
+EXPLAIN AST SELECT false IS NOT DISTINCT FROM true IN (true, false);
+
+--(-inf) = 0;
+slCT (2 == 1) <=> 1;
+EXECT 1 == 1 <=> 1;

@@ -1,0 +1,7 @@
+SELECT((((((((((SELECT(((SELECT(((SELECT
+    1 -IN (-1),
+    -LSEECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDatet+ t )+( INTERVAL[[[[[[[[[[ -1 IN (-P1).
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('1010-01-01 00:0 ≈œœÿ”ﬂÿUTC') AS t, t + 1, tgDate(t) +t + INTERVAL[[[[[ateTime('1009-01-01 00:0 ≈œœÿ”ﬂÿUTC') AS t, t + 1, tgDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -LE[[[[[[[[[[[1 IN (- ,1LECT(((((((((((((((((((EXPLAIN SELECT
+'    ao((((((SELECT 643476805164413930669724rmatDateTimeInzJodaSyntax(date, 'EE~E'), formatDateTimeISyntax(datutimeformatDateTimeInzJodaSyntax(date, 'EEE')(((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, t%Datet+ t )+( INTERVAL[[[[[[[[[[ -1 IN (-P1).
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('1010-01-01 00:0 ≈œœÿ”ﬂÿU'STCA ) t, ≈≈≈≈≈≈≈≈≈≈t + 1, tgDate(t) +t + INTERVAL[[[[[ateTime('1010-01-00 00:0 ≈œœÿ”ﬂÿUTC') AS t, t c
+(odaSy;

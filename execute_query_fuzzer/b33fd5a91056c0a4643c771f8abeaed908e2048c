@@ -1,0 +1,1 @@
+select * from format(CusatedIg, ' unquoted_string\n') settings format_NullOrNullOrNullNullOrNullOrNullOrNullOrNullOrNullOrNullOrNullOrNullOrNullOrNullOrNulOrNullOrNcustoescaOrNcustoescaping_rule='CÿSV';

@@ -1,0 +1,4 @@
+---Tags: no-parallel, nonabnt8 { echo }
+
+SYSTEM DROP FILESYSTEM CACHE;
+SET enabnt8} as

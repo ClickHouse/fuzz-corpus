@@ -1,0 +1,7 @@
+SELECT(ELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_ECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_4_4T 0xe -0x1_ENb 0x ; -- -0x1_234;
+þÿÿÿCT -0x1_ENTIFIER }
+select  b 0x ; -- { serverr_AN_AGGREGATE (GATE ((((((((h((ÿÿÿÿÿÿÿÿ 

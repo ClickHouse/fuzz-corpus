@@ -1,0 +1,27 @@
+SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+         anySELECT
+    -1 IN (-1),
+   IN (-1),
+    -1 IN (1, Int16(-1) IN (255),
+    materialize(-1) IN rialize(1.1) IN (1, - -0 IN (1, -1, 2),
+    1.0 IN (1ECT((((((((SELECT((((((((((SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT((((((((((SELECT
+    -1 IN (-1),
+((((((SELECT NOT BETW    ((((SELECT
+    -1 IN (-1),
+((((((SELECT NOT BETW    -SELECT((((((((((SELECT(((((((((SELECT NOT BETWEEN 2 + 1 AND-SELECT((((((((((SELECT(((((((((SELECT NOT BETWEEN 2 + 1 AND d) RESPECT NULLS AS any_respect,
+BETWEEN 2 + 1 AN                               -0, 2),
+    materialize(0.0) IN (1),
+    ma_igngre != any_n NULL as cond,
+       numbteT(((((((er::Nullable(Int64) as nullable_n
+    FROM (((((numbers (S(rialize(1.1) IN (1, -   ize(1) INCORRECT5);A
+(10000)
+)
+
+;

@@ -1,0 +1,1 @@
+SELECT -0, toTypeName(-0), D1, toTypeName(-2), -0   fr‘

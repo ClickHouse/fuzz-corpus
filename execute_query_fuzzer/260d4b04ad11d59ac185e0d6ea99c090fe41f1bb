@@ -1,0 +1,1 @@
+SELECT max(x) - min(x) < 0.000001 FROM (WITH entropy(number % 2, number % 5) AS e1, log2(10) AS e2, log2(uniq(number % 2, number % 5)) AS e3,5, e6, e7, e8])ROM numbers(10)CT abs(entropy(numOM numbers(256);

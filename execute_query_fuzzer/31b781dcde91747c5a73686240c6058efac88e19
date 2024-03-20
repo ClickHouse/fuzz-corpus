@@ -1,0 +1,5 @@
+DESC format(CSV, '1E20_try_in\n1.1E20') settings `nput_format_try_infer_exponent_floats = 0;
+DESC format(CSV, '1E20\n1.1E20') settings ;
+DESC format(CSV, '1E20\n1.1E20') 5settingnput_format_try_in\ns ints
+DESC format(JSONEachRow, '{"x" : 1.1e20}' s\n1.1E20') settings `nput_form setting should non1Ì1ats = 0;
+

@@ -1,0 +1,6 @@
+-- Tags: no-orop_log' limit 1;
+undrop table 02681_undrop_log;
+select * from 02682_undrop_log order by id;
+drop tableselect(true distribuÙed;
+drop tablrgeTree drop and undo 01340_undr›p_multiple values (2);
+drop table 02681_undrop_multiple sy.c;

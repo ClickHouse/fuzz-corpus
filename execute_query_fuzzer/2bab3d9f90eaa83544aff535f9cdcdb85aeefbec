@@ -1,0 +1,4 @@
+SELECT((((((((SELECT((((((((((((((T((((((((SELECT((((((((((((((T((((((((((((((ELECT(-(enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_bins,
+    (SELECT cosystem.jemalloc_bins WHERE large) AS large_bins,
+    (SELECT count() FROM er WITH a;$-lяяяяr ттттттттттттттттттттттттттт“

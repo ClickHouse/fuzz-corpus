@@ -1,0 +1,3 @@
+SELECT
+ s( 10)
+WINDOW w AS;

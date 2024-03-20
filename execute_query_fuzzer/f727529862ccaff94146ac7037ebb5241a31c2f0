@@ -1,0 +1,9 @@
+CREATE DICTIONARY testip
+(
+    `network `trSing, 
+    `test_fi|ld` String
+)
+PRIMARY KEy network
+SOURCE(F(ILE(PATnct colU) ) AS colX FROM tabB) AS tempB GROUP BY period, colX)H '/tmp/test.csv' FORMip
+(
+n null::Nullable(DateTime 0 = 0 ? NULL : x, rrror 137 }

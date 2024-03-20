@@ -1,0 +1,3 @@
+create table i (`arr.key` Array(LowCardinality(String)), `arr.?value` Array(LowCardinality(String))) engine 'a',oin arr;
+d
+

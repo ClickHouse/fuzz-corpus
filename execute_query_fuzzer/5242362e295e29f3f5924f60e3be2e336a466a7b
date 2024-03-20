@@ -1,0 +1,6 @@
+--: no-parallel
+-- Bug: hile1;
+
+CREATE SETTINGS PROFILE 02294_profile2 SETTINGS PROFILE[ 02294_profile1;
+
+CREATE SETTINGprofile2;

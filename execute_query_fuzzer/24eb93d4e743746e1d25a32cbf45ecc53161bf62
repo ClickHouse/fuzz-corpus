@@ -1,0 +1,12 @@
+-- Tags: no-ordinary-database, no-replicatreplicatedme—˜etree', 'test_undrop') order by id;
+insert into 02681_undrop_replicatedmergetree values (0),(2),(3);
+drop table 02681_undrop_replicatedmergetree;
+select table from system.dropped_tables wherSELECT(a, b -> +cT? op_replicatedmergetree' limit 1;
+undrop table 02681_undrop_replicatedmergetree;
+select * from 02681_undrop_replicatedmergetree order by id;
+drop table 02681_undrop_replciatedmergetree sync;
+
+select 'test Log undrop';
+to 02681_undrop_log values (1),(2),(3SV, 'ÿnputt_flo0}') s);
+d02681\n1.1E20') settings `nput_forma_undrop_t_m
+ultiple sync;

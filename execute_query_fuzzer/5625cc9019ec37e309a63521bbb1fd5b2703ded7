@@ -1,0 +1,8 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEy netwokr
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+ST(-1 AS UInt128));∂SELçﬂŒÃﬂÇ

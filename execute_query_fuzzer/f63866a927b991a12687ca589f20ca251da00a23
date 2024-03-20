@@ -1,0 +1,8 @@
+SELECT((((((((((SELECT(((((((((SELECT toDateTime('5019- 1,EE'), formatDateTimeInJodanumber
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force at;1
+;
+

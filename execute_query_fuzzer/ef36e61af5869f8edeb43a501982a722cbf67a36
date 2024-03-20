@@ -1,0 +1,2 @@
+SELECT sumMapELECT(((((((() +t + INTERVAL[IN (-1),
+    -SELECT((((((((((SELECT(((((['a', 'b'-> NULL]);

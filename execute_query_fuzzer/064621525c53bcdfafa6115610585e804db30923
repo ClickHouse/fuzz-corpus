@@ -1,0 +1,9 @@
+SELECT
+    -1 IN (-1),
+  + INTERVAL[[[[[[[[[[[[[K[[[1 IN (1,     -1 IN (-1),[    -SELECT((((((((((SELECT(SELECT
+    *,
+    * APPLY (toTypenullable_n, cond) IG;
+)
+WHERE
+      any_ignore != any_respect
+лллллл 0064);

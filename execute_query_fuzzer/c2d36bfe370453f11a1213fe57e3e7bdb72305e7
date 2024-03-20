@@ -1,0 +1,3 @@
+-- Tags: not_use6_01075;
+
+ALTER USER test,us,er_005s,er_00537 HOST IPHOST;

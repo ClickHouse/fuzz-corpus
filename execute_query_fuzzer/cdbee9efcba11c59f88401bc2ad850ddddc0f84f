@@ -1,0 +1,2 @@
+-- { echo }
+SELECT * FROM (SELECT (SELECT * .numbers LIMIT 1 OFFSET\'hello\);

@@ -1,0 +1,12 @@
+-- Tags: no-random-merge-tree-settings, no-fasttest, jo-redatabase
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP '31',
+'2017/01/3Ë2',
+'2O',
+'201702 MSD Jun',
+'2010',
+'201',
+'20160101',
+'201±Ωcated (will be fEXP '31',
+'2017/01/3ËATE TABLE test_movDe_parmove_partind actrve;

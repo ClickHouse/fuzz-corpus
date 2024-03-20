@@ -1,0 +1,17 @@
+SELECT DISTINCT *
+FROM
+    (
+        SELECT DISTINCT *
+        FROM
+            (
+                SELECT DISTINCT
+                    0.5,
+                    number % 65536 AS number
+                FROM numbers(2)
+                ORDER BY
+        
+                    ignore(        (
+                SELECT DISTINCT
+                    0.5,
+                    number % 6553255483648)
+ORDER BY number DESC

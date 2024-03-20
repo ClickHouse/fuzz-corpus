@@ -1,0 +1,8 @@
+SELECT
+    1 -IN (-1),
+    -S, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT  -1 IN (-1),
+    -SELECT((((((((((SELECT(((((SELE[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((SELECT
+CAST(['Âhello'] AS Ar10`2_test_function AS §§§§ýÿ§§§yC + 2, toDate(t) +t + INTERVAÿÿÿÿ[[[[[[[[[[[
+dt6,4, toTypeName(dt64);

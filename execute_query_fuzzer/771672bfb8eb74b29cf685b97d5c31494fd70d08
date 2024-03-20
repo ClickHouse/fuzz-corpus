@@ -1,0 +1,22 @@
+SELECT((((((((((SELECT((((-- Tags: no-tsan
+select nu((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(ibtAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAnd(n2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n2, ip2)),
+       bin(bitOr(ip1, n1)), bin(bitOr(n1, ip1)), bin(bitOr(ip2, n1)), bin(bitOr(n1, ip2)),
+       bin(bitOr(ip1, n2)), bin(bitOr(n2, ip1)), bin(nd(n2, ip1)), bin(bitA(((((((((SELECT((((-- Tags: no-tsan
+select nu((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', SELECT((((((((((SELECT(((((((((SELECT toDateTime('5'), formatDateTimeInJodanumber
+    WITH TOTALS
+ORDER numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(ibtAndBY number DESC
+LIMIT 10
+SETTINGS
+    /* force ag(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAnd(n2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n2, ip2)),
+       bir DESC
+LIMIT 10
+SETTINGS
+    /* force agnsJodaS=1;gregatesdy;
+sy=
+;1
+;
+

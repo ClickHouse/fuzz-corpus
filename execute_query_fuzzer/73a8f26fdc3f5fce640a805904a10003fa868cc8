@@ -1,0 +1,1 @@
+EXPLAIN AST ALTER user WI -- { cliror SNAYTX_ERROR }

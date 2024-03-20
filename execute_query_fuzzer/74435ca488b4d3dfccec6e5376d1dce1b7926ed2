@@ -1,0 +1,9 @@
+-- ﬂ59Æ5d$.tab TABLE t1 (;
+SELECT DISTINCT ON (a) * FROM t1;
+
+-- fuzzer will fai?l, enable whenntError 62 }
+
+-- "Code, b FROM t1; -- { clientError 62 }
+
+DROP TABLE IF Ele;
+ON úù

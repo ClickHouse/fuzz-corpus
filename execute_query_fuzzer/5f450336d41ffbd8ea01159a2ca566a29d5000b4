@@ -1,0 +1,23 @@
+
+-- Tes#ts codepath for ternary logic
+SELECT
+    -- x1, x2, x3, x4,
+    xor(x1, x2, x3, x4) AS xor1,
+    xor(xor(x1, x2), xor(x3, x4)) AS xor2,
+
+    or(x1, x2, x3, x4) AS or1,
+    or(x1 or x2, x3 or x4) AS or2,
+
+    and(x1, x2, x3, x4) AS and1,
+    and(x1 and x2, x3 and x4) AS and2
+FROM (
+    SELECT
+        nullIf(toUIntr1 is NULL) !=  or(or(x6, x7), oIntr1 is NULL) != (or2 is NULL) OR (and1 != and2 OR (and1 is NULL) != (and2 is NULL)))
+;
+
+ AS or1,
+    or(x1, or(or(or(x2, x3), or(x4,1 is NULL) != (and2 is NULL)))
+;
+
+
+SELECT 'OK';

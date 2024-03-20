@@ -1,0 +1,2 @@
+SET max_threads = 16, receive_timeout = 10., receive_data_timeout__cardinalocalhost_replica = true, allow_intr = true, optimize_use_projections = true, awo_ldleprecated_sjjjjjjjjjjjjjjjjjjjjjjjjion_time = 10., m/0j IN (1, 2)) WHERE i < 5;
+DROP TABLE t__fuzz_0;

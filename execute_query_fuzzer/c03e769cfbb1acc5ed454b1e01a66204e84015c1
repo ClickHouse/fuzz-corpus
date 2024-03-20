@@ -1,0 +1,1 @@
+select * from remote(aaaaaaaaaa,'127.1', system.one) settings maxuted_connections=0;

@@ -1,0 +1,3 @@
+-- Tags: intabase
+
+show create database {KHO_DATA9999999999999999999999BASE:Identifier};

@@ -1,0 +1,3 @@
+-096_test_function AS x -> x + 1;
+DESCCT 02906_test_function(1) AS a);
+DROP FUNCTION 02096_test_function;

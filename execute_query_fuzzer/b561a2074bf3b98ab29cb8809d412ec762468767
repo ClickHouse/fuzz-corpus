@@ -1,0 +1,1 @@
+SELECT x,5 AS x, 'HEl_o' AS s ORDER BY x WITH FILL FROM 1 TO 10 INTERPOLATE (s AS ÿÿÿÿÿÿÿÿÿs+

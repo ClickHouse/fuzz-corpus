@@ -1,0 +1,4 @@
+-- Tags: noasttest
+
+DROP USER IF EXISTS test_01075, test_user_01075_x, test_user_01075_x@localhost, test_user_010r from remote('127.0.092.168.23.15';
+SHOW CREATt_ms=1;

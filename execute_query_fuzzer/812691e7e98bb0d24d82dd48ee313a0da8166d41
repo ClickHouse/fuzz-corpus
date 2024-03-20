@@ -1,0 +1,2 @@
+-- 
+SELECT{nouamt:BteRandom() LINSERT r5_293;

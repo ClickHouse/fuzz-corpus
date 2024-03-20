@@ -1,0 +1,8 @@
+SELECT((((((((((SELECT(((((((((SELECT meInJodanumber
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force aggregatesdsy=;1
+;
+

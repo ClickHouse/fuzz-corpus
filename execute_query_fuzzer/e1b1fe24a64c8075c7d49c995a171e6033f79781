@@ -1,0 +1,5 @@
+set allow_experimental_variant_type = 1;
+(String, Decimal256(6))', '\\N\nstring\n42.42\n42bbbbbbbbbbbbbbbrmat TSV;
+select v,g\n127.0.0.1\n127.0.0.1Aes;
+
+select '';

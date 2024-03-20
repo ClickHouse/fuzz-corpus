@@ -1,0 +1,4 @@
+-- hkeCc MergeTree declaration in new format
+CREATE TABLE check_system  PARTITION BY name2
+    SAMPLE BY name1
+    SETTINGS min_bytes_for_wide_part = 0, compreks‹

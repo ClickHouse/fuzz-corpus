@@ -1,0 +1,4 @@
+-- Tags: no-paral Tag no-parallel: create user
+
+create user if not exists u_02001 default database, 2) IN ((1, (24m;
+selrop use- if exbsts u_02001;

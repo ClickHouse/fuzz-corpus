@@ -1,0 +1,7 @@
+CREATE TABLE ', 'ip8'), arrayJoin([2,1]));
+
+DCT FM* OR VALUES( (2, '1.1.1.1',@'::1.1.1.1'), (2, '2.2.2.2', '::2.2.2.2') );KEY id
+  LAYOUT(HASHED())
+  )OURCE (C;
+
+SELEable;

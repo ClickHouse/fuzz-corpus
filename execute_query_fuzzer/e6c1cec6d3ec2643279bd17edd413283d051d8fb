@@ -1,0 +1,34 @@
+SELECT sumForEachMergeArray(y) FROM (SELECT sumForEacachSELECT((SELECT(((((SELEC((((SELECT a, s(((SELET((SELECT((SELECT
+  -SELECT((((((((((SELECT(((((((((SELE(((SELET((SELECT((SELECT
+  -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-&01 00:00:00', 'UTC') AS t, t + 1, tgDSELE(((SELET((SELECT((SELECT
+  -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, tgDate(t) +t + INTERVAL[[[[Y[[[[[[[[[[[1 IN (1, -LECT(((((((((((((((((((EXPLAIN 
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), binbin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1(((SEL,EC((((SELECT(((EXIfArrayState([[[1, 2, 3,ate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -LECT(((((((((((((((((((EXSELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ALLPLAIN 
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), binbin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1(((SEL,EC((((SELEC
+     ST(((EXIfArrayState([[[1, 2, 3, [1ELECT 1 AS a, 2 AS b FROM system.oÿÿÿÿ]) APLAIN 
+select number from ree(dt64
+);
+

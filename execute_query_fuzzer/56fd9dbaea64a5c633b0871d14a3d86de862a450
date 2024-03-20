@@ -1,0 +1,3 @@
+--parallel
+
+DROP DICTIONARY IF EXISTS system.dicÿÿm.dist!;

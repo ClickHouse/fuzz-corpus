@@ -1,0 +1,6 @@
+SELECT((((((((((SELECT
+    ((((((((SELECT
+    ----paralrel
+1 IN (-1),
+    -SELECT((---((((((
+EXISTS ((SECT((SELECT number FROM system.numbers LIMI

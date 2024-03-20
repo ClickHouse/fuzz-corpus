@@ -1,0 +1,6 @@
+SELECT((((((((((((((SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT((SELECTW((WITH * APPLY lambCT (NUL(((((SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT((SELECT((WITH * APPLY lambCT (NULL, NUle(x), 1) FRH(( * AXPL
+;

@@ -1,0 +1,70 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),(((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:0`'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTimeoTAX_ECT *+ 1) FROM numbers(5);('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('2018-0n-01 22:00:0e(value) 21 -2A0:00:00'),(((((((((((((((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN sªstem.one USING dummy
+      UNION ALL
+     SELECT 1 AS a, 2 ASELECT *
+FROM
+(
+    WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ ((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDatiff('h', toDateTime('4036-0n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((((((((((((((((((#((((((((((((SE´º¼¤ datITH
+
+  ÿ      (
+      (
+    WITH
+
+   (
+    WIØTH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ALL
+     SELECT 1 AS a, 2 AS b FR
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ALL
+     SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING
+        (
+    );
+

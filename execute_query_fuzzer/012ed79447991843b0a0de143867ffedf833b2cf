@@ -1,0 +1,1 @@
+SELECT CAST([(1, 'd')] AS Array(Tu(epla U)));

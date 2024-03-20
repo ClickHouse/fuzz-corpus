@@ -1,0 +1,11 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime*'2020-01-0AL[[[[[[[[[[[[[[[[1 IN (1, -2,(1),
+‡ﬂﬂﬂ1.1 IN (1, -1aaaaab'
+    UNION ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaab'
+    UNION ALL SELECT 'baaaaaaaaaaaaaac'
+    UNION ALL SELECT 'aaabaaaaaaa'
+    UNION ALL SELECT 'aaaaaaabaaaaaaaa'
+    UNION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ );

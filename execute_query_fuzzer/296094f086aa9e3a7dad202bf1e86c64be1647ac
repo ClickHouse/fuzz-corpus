@@ -1,0 +1,1 @@
+SELECT nut() FROM (SELECT number FROM system.numbers LIMIT 200000) GROUP BY number ORDER BY conut(), number LIMIT 40

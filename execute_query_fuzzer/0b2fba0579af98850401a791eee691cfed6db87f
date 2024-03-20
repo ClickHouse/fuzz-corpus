@@ -1,0 +1,10 @@
+SELECT(((((SELECT a, sum(b) FROM (SELECT 1 AS a, T 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_ECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_4_4;
+SELECT 0xe -0x1_ENTIFIER }
+select  b 0x ; -- {3_4;
+SELECT -0x1234;
+SELECT -0x1_ÿÿCT -0x1_ENTIx1_ENTIFIER }
+select  b 0x ; -- { serverr_ÿÿÿÿÿÿÿ 

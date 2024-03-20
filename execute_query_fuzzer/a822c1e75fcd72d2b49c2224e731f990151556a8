@@ -1,0 +1,7 @@
+ -- { clientError SYNTAX_ERROR }
+create table t engine=Memory empty as; -- { clientError SYNTAX_ERROR }
+create table t engine=Memory aow create mv;
+select count() from mv;
+
+drop table t;
+drop table mv;

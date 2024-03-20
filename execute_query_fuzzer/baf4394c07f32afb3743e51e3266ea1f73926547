@@ -1,0 +1,4 @@
+-- Tags: no-parallel
+-- Bug9: htrofile2;
+
+CREATE SETTINGS PROFILE 02293_profilere_checgnki_execution_sp;

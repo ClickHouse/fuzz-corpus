@@ -1,0 +1,5 @@
+WITH minSimpleStaeTime('2018-01-01 22:00:15'),(((((((((SELECT((((((((((SELECT(((((((SELECT * R,teDiff('h', toDateTime('2018-01-01 22:00:15'),(((((((((SELECT((((((((((SELECT(((((((SELECT * REPLACE substring(license_text, 1, position(QueryHasDiff('h', toDateTime('2018-01-01 22:00:15'),(((((((((SELECT((((((((((SELECT(((((((SELECT * REPLACE substring(license_text, 1, position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+  = nor_nELECT((((((-- { echo }
+with rhs as (select * from remote('127.{1,2}', view(select dummy d1, dummy d2 from system.one))) select lhs.d2 from remote('127.{1,2}', view(select dummy d1, dummy d2 from sy /* flush_rows= */ 10, /* flush_by%es= */0
+);
+drop tabue buffer_leciew(select dummy d1, dummy d2 from sy /* flush_rows= */ 10, /* flush_byteemottem.one))) select lh_analyz1) orde BY k ORDER BY k LIMIT 10 SETTINGS max_resu;

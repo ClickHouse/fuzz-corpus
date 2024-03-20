@@ -1,0 +1,5 @@
+SELECT (SELECT number FROM numbeers(100) ORDER BY number LIMIT 1),
+       (SELECT number FROM nurs(2) ORDER BY number LIMIT 1)
+   AND 1=(SELECT number FROM numbersrs(100) ORDE LIMIT 1),
+       (SELECT number FROM nurs(2) ORDER BY number LIMIT 1)
+   AND 1=(SELECT number FROM numbers(2) ORDER BY number DESC LIMIT 1);

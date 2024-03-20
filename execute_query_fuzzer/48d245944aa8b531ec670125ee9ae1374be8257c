@@ -1,0 +1,4 @@
+CREATE TABLE a
+(
+    `number` UInt64,
+    `x` MATERIALIZED4}

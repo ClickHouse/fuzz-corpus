@@ -1,0 +1,11 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(CAT TabSeparated))
+LIFETIME(MIN 0 MLICKHOect 'Ok.';
+
+DROP D{CLICKHOUSE_DATABASE:Identifier}.restricted_dict;
+

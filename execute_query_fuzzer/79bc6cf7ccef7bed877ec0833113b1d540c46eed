@@ -1,0 +1,1 @@
+SELECT toDateTime('2020-01-01 0оооооооооооооооооооооооооооооооооооооооооооооооооооооооооо0:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[[[[sAny(COLUMNS(CREATE DATABASE bonv_mian ENGINE QALL(COL+ 1 AS dtA4, toTypeName(dt64);

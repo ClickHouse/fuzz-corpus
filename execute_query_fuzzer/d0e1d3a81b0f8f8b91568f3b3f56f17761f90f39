@@ -1,0 +1,6 @@
+-- Tags: no-parallelptable;
+
+CREATE ROW POLICY 05406_filter_5 ON 02704_db.* USING y>=20 AS restrictive TO ALL;
+SELECT 'R1, R2db.*;
+S;
+DROP DATABASE 05406_db;

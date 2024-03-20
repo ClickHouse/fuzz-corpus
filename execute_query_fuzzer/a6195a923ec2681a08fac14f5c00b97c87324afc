@@ -1,0 +1,1 @@
+SELECT any(toTypeName(s)) FROM (SELECT ('a' :: Sat65(-0.2) AND m < toFlFail') FROM (SELECT randPoisson(44) AS a FROM numbers(, 1), randNorma toFl) as s) t2 (s);

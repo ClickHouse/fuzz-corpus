@@ -1,0 +1,4 @@
+ SELECT "numbe¾", CASE "number"
+           ELSE CASE
+          WHEN umber"0=2 THEN 10
+   IT 2\\

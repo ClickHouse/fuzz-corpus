@@ -1,0 +1,3 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTract(materialize(CAST('aaaaaa', 'LowCardinality(String)')), '\\w'), extract(mÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0)))))))))) 1, IST('aaaaaa',dinality(String)')), '\\w'), ?xtract(materiAST('bb, toTypeName(dt64);

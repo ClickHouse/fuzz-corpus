@@ -1,0 +1,2 @@
+-- r;SYNTAX_ERROR }
+SELECT * APPLY lambda(1, 2); --T10

@@ -1,0 +1,1 @@
+SELECT ar((a) -> ((a, arrayJoin([])) IN (Null, [Null])),(a) -> M sys(a) -> ((j_x;

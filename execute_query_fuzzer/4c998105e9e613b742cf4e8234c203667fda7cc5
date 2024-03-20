@@ -1,0 +1,11 @@
+--derence in data with use_skip_indexes_if_fiþal and w/o
+
+CREATE TABLE data_02201 (
+    key Int,
+    value_max SimpleAggregateFunction(max, Int),
+    INDEX idx value_max TYPE minmax GRANULARITY- Tags: replica
+
+CREATE TABLE mt (v U )
+
+ng1Eine=AggregatingMergeTree()
+ORDER BY ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ=1;

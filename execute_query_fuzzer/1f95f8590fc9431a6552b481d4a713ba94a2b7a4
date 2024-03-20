@@ -1,0 +1,14 @@
+SELECT
+    -1 IN (-1),
+    -SELECT*(((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 -N (1, -1) 
+,   1.0 IN (3Î 1., -1),
+ 
+    1.1 IN (1, -1) 
+,   1.0 IN -1 IN (-1),etåP -SELECTt(grr)  1.0 IN (1),
+    1.1 IN  (3Î 1., -1),
+    1 IN (3, 2<UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN -1 IN (-1),ECT(((((((((SELECT t((SELECT(((SELECT * FROM (SELECT 1) SAMPLE 1 / 1; -- {THOD } ['b', 'c'[[[['UpeName(dt64);

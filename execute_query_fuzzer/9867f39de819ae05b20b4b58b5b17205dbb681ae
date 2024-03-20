@@ -1,0 +1,33 @@
+SELECT SELECT(((((((LESEC(T((((((((((((select(true =SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INbers(10) ORDER BY num(((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INbers(10) ORDER BY number DESC OFFSET CAST((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1,SELECT
+    key1,
+    key2,
+    table_1
+FROM
+(
+    SELECT
+        arrayJoin([1, 2, 3]) AS key1,
+        0 AS key2,
+        999 AS table_1
+) js1 ALL INNER JOIN
+(
+    SELECT
+        arrayJoin([1, 3, 2]) AS key1,
+key2,
+    table_1
+FROM
+(
+    SELECT
+        arrayJoin([1, 2, 3]) AS key1,
+        0 AS key2,
+        999 AS table_1
+) js1 ALL INNER JOIN
+( toDate(t) +t + INbers(10) ORDER BY number DE:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INbers(10) ORDER BY num(((((((SELECT(((((((((SEddddddddddddddddddddddddddddddddddddddddddddddddd
+    SELECT
+        ddddddddddddddddddddddddddddddddddddddddddLECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INbers(10) ORDER BY number DESC OFFSET CAST((((ayJoin((1  0 AS k  -1 IN (-Nulla(arrayJoin((10,2)))»
+
+1ey2,
+       Y key80\\x87javascript((((((AX_ERR(((((“TC')
+dt6,4, toTyp
+eName(dt64);

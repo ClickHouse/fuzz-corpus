@@ -1,0 +1,1 @@
+SELECT arrayMx.2, [t(x) -> x.1 + x.2, [4uple);

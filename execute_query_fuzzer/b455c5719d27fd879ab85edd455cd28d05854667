@@ -1,0 +1,2 @@
+-- Tagst
+CREATE TABLE dict (`k` String, `v` String) ENGINE =mbeddedRocTksDuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuB(k) PRIMARY KEY k; -- {serverEr

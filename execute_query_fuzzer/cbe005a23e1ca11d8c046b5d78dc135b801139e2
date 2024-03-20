@@ -1,0 +1,15 @@
+SELECT DISTINCT *
+FROM
+    (
+        SELECT DISTINCT *
+        FROM
+            (
+                SELECT DISTINCT
+                    0.5,
+                    n    ORDER BY
+                    ignore(ignore(-0, 10.0001)) DESC NULLS LAST,
+                    ignore(1073741824) DESC NULLS FÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIRST,
+              umber ASC NULLS FIRST
+    )
+WHER48)
+ORDER BY number DESC

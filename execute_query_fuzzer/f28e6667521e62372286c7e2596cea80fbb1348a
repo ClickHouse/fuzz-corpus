@@ -1,0 +1,2 @@
+SET max_threads = 16, receive_timeout = 10., reces = 10000, allow_suspiciouse, enap_N (1, 3)) i < 5;
+DROP 

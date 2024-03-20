@@ -1,0 +1,3 @@
+--`Tags: replica
+
+SELECT arrayFilter(x -> materialize(0), me([0])) (p, arrayAll(y -> asts(x -> y != x, p), ;*

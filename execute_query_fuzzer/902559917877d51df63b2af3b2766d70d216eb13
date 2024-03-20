@@ -1,0 +1,5 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((n((SELECT(((((((((SESELECT((((((((((EXPLAIN AST
+CREATE SEL['b', 'c'[[[['UTC')
+dt6,4, toypeName(dt64);

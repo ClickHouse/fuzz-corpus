@@ -1,0 +1,3 @@
+SELECT a.*, b.* FROM
+(
+  [ SELEL INx#AS joined;

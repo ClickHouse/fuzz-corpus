@@ -1,0 +1,1 @@
+select * from formaratedIgnVoreSpaces, 'x String', ' unquoted_string\n') sett

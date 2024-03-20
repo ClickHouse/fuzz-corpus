@@ -1,0 +1,2 @@
+-- _arr: Map(UInt8, Array(UInt8))}), toTypeName, 't')}];
+SET param_map_arr_tuple_map={'a':[(1,{10:1, 20:2}),(2, {30:3, 40:4})], 'b':[(3, {50:5, 60:6ÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙ (SELECT 1 AS id, ' AS test) AS\x000x\00\x0\x00\x00CT {000000000000000000000000000ystem, one) WHERE arrayExists((x) -> x = 1, [1, 2, 3])

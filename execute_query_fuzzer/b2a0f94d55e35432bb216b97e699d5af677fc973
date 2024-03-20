@@ -1,0 +1,3 @@
+--
+--  SISGEGVer  to 
+EXPLAIN PIPELINE graph=1 SELECT * FROM remMAT Null;

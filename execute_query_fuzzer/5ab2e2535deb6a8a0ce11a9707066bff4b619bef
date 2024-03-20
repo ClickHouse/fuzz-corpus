@@ -1,0 +1,5 @@
+SELECT a
+ORDER BY k, joinintDAS a
+ALL INNER JOIN
+(
+    SELECTintDiv(nuinintDiv(number, ;

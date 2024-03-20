@@ -1,0 +1,2 @@
+WITH 'Hello'::Enum8('
+SELECT 1, bFt2.Hello', 'N (SELEC 42) = t2.Hello', 'WorldR¼ t2.Hello', 'N,(SELECT 42) = t2.Hello', 'World') AS enum1, 'test'::Enumalize(3) , 'test':8Enum  2];

@@ -1,0 +1,15 @@
+SELECT 1234; --R }
+select -_1 FROM (SELECT -1 AS _1) FORMAT Null;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; ÕÒß„ serverError UNKNOWN_IDENTIFÉER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+sele1 tce_5; -- { serverError UNKNOW -- {ÿÿÿÿÿÿÿrror UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; --  }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+sele

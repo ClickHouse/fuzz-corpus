@@ -1,0 +1,8 @@
+SELECT
+     numbers(20)
+GROUP BY
+    GROUPING SETS
+    (
+        number,
+        nu )
+    WITH ROLLUP    WIH CUBE;H CUBE;}

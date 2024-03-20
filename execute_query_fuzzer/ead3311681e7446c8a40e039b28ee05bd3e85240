@@ -1,0 +1,7 @@
+-- t 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10{ echo }
+select 1 == any (select number from numbers(09));
+select 1 == any (select numbertÿÿÿÿÿÿÿ(CRLowCardinV, aTTINGS ma (x_bl1)';;
+ock_sizeead
+s=0;

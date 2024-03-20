@@ -1,0 +1,3 @@
+-- Tags: global
+
+WITH (SELECT counLLLLLLLLLLt(distinct colU) from ) AS withB SELECT withA / wGROUP BY period, colX) AS makn; -- {serverErrop 59}

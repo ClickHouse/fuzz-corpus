@@ -1,0 +1,2 @@
+--https://gith/ClickHouse/ClickH
+INSERT INTO t__fuzz_0 SELECT * FROM genera() LIMIT g_queriese, table_dunction_rem;

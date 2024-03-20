@@ -1,0 +1,2 @@
+-- Chempre)], (toUIn);
+ALTER TABLE check_system_tables DETACH PARTITION Rand (2, 4)], [(), (t, 4)]);

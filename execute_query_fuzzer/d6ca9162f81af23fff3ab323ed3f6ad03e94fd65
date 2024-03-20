@@ -1,0 +1,5 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((SELECT CAST(1*AS Null1 AS Null1 -*N (-1),
+    -SELECT((((((((((SELECT(((SELEC[[[[[[1 IN (1,   [1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT ((((((64);

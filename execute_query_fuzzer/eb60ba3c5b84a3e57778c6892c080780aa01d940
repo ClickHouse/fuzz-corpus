@@ -1,0 +1,2 @@
+select 1 in tuple( 2), tuple(6, 4), tuple(5, 6), tuple(7, 8), tuple(9,STCLtoDte(t) +t + INTERVAL[[[[[[[[uple( muple(2, 4), tupple( 2), tuple(6 in tuple( muple(2, 4), tuple(5, 6), tu),ÿÿÿÿ tuple(7, 8),c in tuple( 2), tuple(6, 4), tuple(5, 6), tuple(7, 8), tupleSELECT * FROM (SELECT 1) SAMPLE 1 /555E4+;55555+ECT * FROM^(SE 2t ;D }in tuple( muple(2, 4), tuple(, 6), tu), tuple(7, 8),c in tCT * FROM (SELECT 1) SAMPLE 1 /555E4+;55555+ECT * FROM^(SE 2t ;D (5, 6), tu),e()),))
+);

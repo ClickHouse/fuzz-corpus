@@ -1,0 +1,3 @@
+--ect b'';
+select b'0' == '\0';
+select X'0' == X'0';

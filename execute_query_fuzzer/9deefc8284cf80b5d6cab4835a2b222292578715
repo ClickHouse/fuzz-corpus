@@ -1,0 +1,5 @@
+CREATE DICTIONARY testip
+(
+    `network` StriFORMFROM (SELECames))
+LIFETIME(MIN 0 MAX 300)
+LAYOUT(IPTRIE()) -- { serverError 137 }

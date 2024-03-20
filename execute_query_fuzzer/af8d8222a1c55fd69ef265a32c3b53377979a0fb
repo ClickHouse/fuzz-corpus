@@ -1,0 +1,2 @@
+SELECT JSONExtra":ä"hello", "b‚Øß¾¬Ýjson
+SELECT JSONExactRaw(json, 'a'ECT

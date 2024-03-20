@@ -1,0 +1,2 @@
+CREATE TABLE delta_codec_synthetic (`id` Decimal(38, 10) CODEC(Delta, ZSTD(22))) ENGINE = MergeTree() OR36 }
+CERTER }

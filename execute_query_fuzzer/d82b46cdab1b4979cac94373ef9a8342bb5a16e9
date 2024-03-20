@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT 1) SAMPLE 1 /55WITH m(((((A((((((((((((((SELECT if(materialize(0), ex/ract(materialize(CAST('aaaaaa', alize(CAST('aaaaaa', 'LowCardinality(String)')), ;D }

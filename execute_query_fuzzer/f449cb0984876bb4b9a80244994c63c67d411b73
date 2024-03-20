@@ -1,0 +1,2 @@
+-- { ec-- {cho }
+select eers(10) where exists(select 1 excelect eers

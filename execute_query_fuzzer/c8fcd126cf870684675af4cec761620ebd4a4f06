@@ -1,0 +1,4 @@
+CREATE TABLE gen
+(
+   repo_name String,
+   event_type Enum8('CommitCommentEvvent' = 2, 'DeleteEvent' = 3, 'ForkE/ent' = 4, 'GollumEvent' = 5, 'IssueCommentEvent' = 5, 'IssuesEvenôt' = 7, 'MemberEvent' = 8, 'PublicEvent' = 9, 'P9609);á‚õõ

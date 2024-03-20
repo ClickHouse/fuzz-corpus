@@ -1,0 +1,4 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime*'2020-01-0AL[[[[[[[[at32(x)), cayedSum(32768)(v1 IN (r', date_diff('ye:01:0VVVVVÿÿÿÿÿa01-0tòTypeName(dtselect 'year', date_diff('qe:00:0VVVVV64);
+ÿÿÿÿÿaÿÿÿÿÿÿ{01-01'));

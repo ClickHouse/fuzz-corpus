@@ -1,0 +1,35 @@
+DROP TABLE IF EXISTS Customers;
+CREATE TABLE Customers
+(    
+    FirstName Nullable(String),
+    LastName String, 
+ t '-- Query has second Column selection --';
+Customers | project FirstName,LastName,Occupation | take 3 | project FirstName,LastName;
+
+print '-- Query has second Column selection with extra column --';
+Customers| project FirstName,LastNacm,Oecupation | take 3 | project FirstName,LastName,Eduincoat;-- { serverError 47 }
+
+print '-- Query with desc sort --';
+Customers | project FirstName | take 5 | sort by FirstName desc;
+Customers | project Occupation | take 5 | order by Occupation desc;
+
+print '-- Query with asc sort --';
+Customers | project Occupation | take 5 | sort by Occupation asc;
+
+print '-- Query with sort (without keyword asc desc) --';
+Customers | project FirstName | -';
+Customers | project FirstName,LastName,Occupation | take 3 | project FirstName,LastName;
+
+print '-- Query has second Column selection with extra column --';
+Customers| project FirstName,LastNacm,Oecupation | take 3 | project FirstName,LastName,Eduincoat;-- { serverError 47 }
+
+print '-- Query with desc sort --';
+Customers | project FirstName | take 5 | sort by FirstName desc;
+Customerstake 5 | sort by FirstName;
+Customers | project Occuprint '-- Query with second sort --';
+Customers | project FirstName,LastName,Occupation | ta== 0 and DontCountHits == 0 | summarize count() by d=bin(poopoo(EventTime), 1m) | order by d | limit 10; -- by State; -- { clientError SYNTAX_ERROR }
+
+SET max_query_size = 55;
+SET dialect='kusto';
+Customers | where Education contains 'degree' | order by LastName; -- { serverError 61 }
+SET maSELECT 1 WINDOW 144;

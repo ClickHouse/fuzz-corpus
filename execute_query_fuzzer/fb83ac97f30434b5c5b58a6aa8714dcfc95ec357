@@ -1,0 +1,2 @@
+SELECT((((((((((SELECT((((((substring(license_text, 2, position(QuerInzJonal_arg
+ime64, 'EEE'), formatDat:Time

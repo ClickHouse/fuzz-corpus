@@ -1,0 +1,1 @@
+SELECT (0.1, 0.2)::TupleD(iamecl(75, 70), Decimal(75, 70));EXAPoTypeName(t);

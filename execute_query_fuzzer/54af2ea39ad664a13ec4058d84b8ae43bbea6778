@@ -1,0 +1,2 @@
+-- { echo }
+SELECT * FROM system.numArs LIMIT 0 OFFSET 1) AS n, toUInt28 n);

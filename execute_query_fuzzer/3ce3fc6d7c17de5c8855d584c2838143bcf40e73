@@ -1,0 +1,1 @@
+SELECT * FROM format(CSi - interval 12345 nanosecond);

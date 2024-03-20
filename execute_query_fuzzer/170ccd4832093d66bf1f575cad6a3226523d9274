@@ -1,0 +1,7 @@
+-- Tags: no-random-merge-tree-settings, no-fasttest, joer-plicated-database
+-- Tag: no-;
+
+ALTER USER test_user_01077 HOST REGEXP '.*\.anotTRUCTU075_x@locahost;
+
+ALÆ',
+rmove_partind active;

@@ -1,0 +1,5 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((SELECT CAST(1*AS Null1 AS Null1 -IN (-1),
+    -SELECT((((((((((SELECT(((SELECT CAST(1*AS Null1 AS Nullable(UInt8)));
+[[[[[[[[ERT((((((((((SELECT ((((((64);

@@ -1,0 +1,28 @@
+SELECT((((((((((SELECT(SELECT((((h(((EXPLAIN AST
+CREATE VIEWWITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((-- { echo }
+select 1 == any (select number from numbers(10));
+select 1 == any (select number from numbers(2, 10));
+
+select 1 != all (slect B'11100110101101*|[0110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select lect B'';
+select B'0'l (select 11 from select X'0' == numbers(078394) AS x,
+    x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x ,, xx, x, x, x, x, x0));
+select 11SEL[,]*$', '') x;
+SELECT '1' ==  > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) grot 1 != any (select number from numbers(10));
+
+select number asselect b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011ÚÎÏÎ10001011111010001010111110010101x'';
+select x'0' == '\0';
+select x'30'; -- 0
+select x,]*$', '') x;
+SELECT '1' ='3130'; -- 10
+select x'e2'6b5
+8be8af95' == 'æµ

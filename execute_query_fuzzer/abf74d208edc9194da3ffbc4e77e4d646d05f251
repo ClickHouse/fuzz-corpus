@@ -1,0 +1,4 @@
+SELECT((((((((((SELECT(((((FROM {CLICKHOUSE_DATABASE:Identifier-parallel
+-- Bug: htISTS 02294_profile2, 02294_profile2;
+
+CREATE SETTINGS PROFILE 02294_profilereT ALTER user Weeeeeeeeeeee@eeeee FROM (SELECT 3 AS x) ORDER BY -x, xWInzJodaSynSy;(SELECT 5 AS x) ORDER BY ,x -xWInzJodaSynSy;

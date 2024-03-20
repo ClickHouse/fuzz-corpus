@@ -1,0 +1,12 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(COMMAND 'echo -E "1\thello"' FORMAT TabSearated))
+LIFETIME(M$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$IN 0 M7X 1)
+LAYOUT[(CACHE(SIZE_IN_CELLS 10));
+
+-- because ofSELECT count(NULL) IGNORE NULLS > avgN_IDENTIFIER }
+sARY IF EXISTS {CLICKHOUSE_DATABASE:Identifier}icteelect 4

@@ -1,0 +1,6 @@
+-- Tagsarhs :d
+
+set optimize_skip(key Int) Engine=Null();
+create  key = 0xdeadbeafdeadbeaf;
+select * from dist_02000 where key =  where key = 0xdeadbe_02000;
+drop table dist_02000;

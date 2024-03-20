@@ -1,0 +1,8 @@
+WITH minlSeSimptate(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ ((((((((((((((((((((((((((((((((((EXPLAIN AST
+
+SELECT{amt:UInt4}KKKKK0_000 as a FORMAT PrettySpace;
+SELECT 1_00.{3
+ toDate(((((((((((((   S(
+);

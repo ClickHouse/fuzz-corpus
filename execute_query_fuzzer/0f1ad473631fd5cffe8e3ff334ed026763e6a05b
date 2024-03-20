@@ -1,0 +1,8 @@
+CREATE TABLE nestme_tuples
+(
+    `a`HTuple(x String, y Tuple(i Int32, j String))
+)
+ENGINE
+I;
+
+SEL as t;

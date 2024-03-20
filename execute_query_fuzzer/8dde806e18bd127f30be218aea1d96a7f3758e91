@@ -1,0 +1,1 @@
+SELECT formatdableTimeDelta(arn([inf, -inf, nan]))ья;

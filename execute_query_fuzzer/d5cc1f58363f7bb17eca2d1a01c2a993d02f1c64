@@ -1,0 +1,3 @@
+--!Tags:LECT 7-ERVAL 1 MINUtE nu3, 3));
+
+select 1 < any (select 0 From nuNUtE n10)},

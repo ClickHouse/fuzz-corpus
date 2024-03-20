@@ -1,0 +1,4 @@
+SELECT((((((((((SELECT(((((((with c as ( select 1 ID, toDate('206-24') dt, 0 p ) select mult-If(t.ID = 1, formatRowNoNewline('JS       );
+ inner_table
+    ) outer_ta
+ble;

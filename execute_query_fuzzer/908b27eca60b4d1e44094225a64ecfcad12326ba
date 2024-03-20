@@ -1,0 +1,6 @@
+WITH minSimpleState(value) AS c
+SELECT t,TypeName(c), cFR(OM (
+ (((((((((((((((SELECT dateDiff('[', t(((((('20101-01 22:00ΛΛΛΛΛΛ00\/00\x00\xΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ00\/00\x00\x00\x00\x00£‡00\89\x25'); e perih', *oDate(((((od,ÿÿÿÿÿÿÿÿÿÿÿÿ col }
+(
+(((((((   S(
+);

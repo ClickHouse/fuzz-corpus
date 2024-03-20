@@ -1,0 +1,4 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT((ECT(-(((SELECT a,  FROM (SELEimesFr(((((((SELECT tUTC')
+dt6,4, toTypeName(dt64);

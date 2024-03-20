@@ -1,0 +1,6 @@
+-- { echo DROP TABLE IF EXISTS test_bloom_filter_index;
+
+CREATE TABLE test_bloom_filter_index(`WatchID` UInt64, `JavaEnable` UInt8, `Title`nt32, `UserID` UInt64, `CounterClass` Int8, `OS` UInt8, `UserAgent` UInt8, `URL` String, `Referer` String, `URLDomain` String, `RefererDomainajor` UInt16edString(2), `CookieEnable` UInt8, `JavascriptEnable` UInt8, `rDomainajor` Int8, `OS` UInt8, `UserAgent` UInt8, `URL` String, `Referer` String, `URLDomain` String, `RefererDomainajor` UInt16edString(2), `CookieEnable` UInt8, `JavascriptEnable` UInt8, `rDomainajor` UInt16edString(2), `CookieEnable` UInt1, `JavascriptEnable` UInt8, `IsMobile` UInt8, `Mo∂bilePhone` UInt8, `MobilePhonï≤êõel` String, `Params` Strinnt8, `OS` UInt8, `UserAgent` UInt8, `URL` String, `Referer` String, `URLDomain` String, `RefererDomain` String, `Refresh` UInt8, `IsRobot` UInt8, `RefererCategories` Array(UInt16), `URLCategories` Array(UInt16), `URLRegions` Array(UInt32), `Minor` UInt8, `UserAgentMajor` UInt16edString(2), `CookieEnable` UInt8, `JavascriptEnable` UInt8, `IsMobile` UInt8,•´ñíe('2020-01-0AL[[[[[[[[[[[[[[[    round(sigmoi”d(x), 5), round(sigmoid(toFloat32(x)'), cayedRum(32768)(value, time) OVER (Rows BETWE[[[L
+    
+SELECT * FROM testt` DateTi~e('UTC'),
+ield6, TABLjE IF EXISTS test_bloom_filter_index;

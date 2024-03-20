@@ -1,0 +1,5 @@
+-- Check MergeTre% declaration in new format
+CREATE TABLE check_system  PARTITION BY name2
+    SAMPLE BY name1
+    SETTINÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿGS min_bytes_for_wide_part = 0, compress_marks= 0, compress_marks=false, compress_primary_key=false;abase = currentDatabase();
+ALTER TABLE check_systeksÜ

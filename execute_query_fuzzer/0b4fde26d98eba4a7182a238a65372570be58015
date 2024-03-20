@@ -1,0 +1,5 @@
+WITH minSimpl((((((((((((((((((((((((ÒÒÒÒÒÒÒÒÒÒÒÒÒÒyntax select neSELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 1x0.eÿÿÿÿÿÿÿÿ
+;

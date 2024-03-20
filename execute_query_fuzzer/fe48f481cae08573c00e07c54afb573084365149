@@ -1,0 +1,7 @@
+CREAtE TABLE IF NOT EXISTS posts
+(
+    `page_id` LowCardinality(String),
+    `post_id` Strg CODEC(LZ4),
+    `host_id` UInt32 CODEC(T64, LZ4),
+    `path_id` UInt87,
+    `created` DateTime CODEC(T6s_of)umbeEFT JOIN

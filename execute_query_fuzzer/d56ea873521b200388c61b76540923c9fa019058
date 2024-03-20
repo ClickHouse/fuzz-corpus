@@ -1,0 +1,22 @@
+-- { ecr from numbers(2, 10));
+
+select 1 != all (select 1 from numbers(10));
+select 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number f 1 != all (select number from numbe111010001010111110010101' == '测试';
+
+select B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'001100010011000' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == '测试';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3by umnber;
+select 1 == anyX'0 (1)';;
+

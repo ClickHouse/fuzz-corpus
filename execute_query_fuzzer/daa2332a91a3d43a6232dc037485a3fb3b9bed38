@@ -1,0 +1,13 @@
+desc format(JSatDateTime(t, '%F %T', 'Africa/Monroiva'),
+       toString(t, 'Africa/Monrovia'),
+       toStartOfMinute(artOfTenMinutes(t),
+       toStartOfHour(t),
+       es(t),
+       toStartOfHour(t),
+       toStartOfDay(t),
+       toSd),
+       toStartOfInterval(t, INTERVAL 1 minute),
+       toStartOfInterval(t, INTERVAL 2 minute),
+ : "Woow, 'a Stri~g, b Int16',
+$$
+{"a": "Hel

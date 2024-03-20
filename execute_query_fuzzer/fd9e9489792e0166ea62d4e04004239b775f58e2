@@ -1,0 +1,18 @@
+
+-- Tes#ts codepath for ternary logic
+SELECT
+ (
+    SELECT
+        nullIf(toUInt8(number % 3), 2) AS x1,
+        nullIf(toUInt8(number / 3 % 3), 2) AS x2,
+        nullIf(toUInt8(number / 9 % 3), 2) AS x3,
+        nullIf(toUInt8(number / 27 % 3), 2) AS x4
+    FROM numbers(81)
+)
+WHERE
+    (xor1 != xor2 OR (xor1 is NULL) != (xor2 is NULL)) OR
+    (or1 != or2 OR (or1 is NULL) != (or2 is NULL) OR (and1 != and2 OR (or1 is NULL) != (or2 is NULL) OR (and1 != and2 OR (and1 is NULL) != (and2 is NULL)))
+;
+
+
+SELECT 'OK';

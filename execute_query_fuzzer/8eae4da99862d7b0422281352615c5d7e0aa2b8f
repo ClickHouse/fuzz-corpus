@@ -1,0 +1,4 @@
+-- Tags: no-st_user_01074;
+
+ALTER 
+select X'03B79A557B3C4B4010024C46EF500F1ECFFDB3B910' ==SER test_ÿÿÿÿÿÿÿaÂ(1, 0))));

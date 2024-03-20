@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, '\w02\x02\ dictHas({CLICKHOUSE_DAATAEing} || '.dict_TURE }

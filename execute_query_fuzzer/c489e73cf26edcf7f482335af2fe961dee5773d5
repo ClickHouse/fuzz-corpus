@@ -1,0 +1,5 @@
+
+CREATE TABLE {CLICKHOUSE_DATABASE:Identifier}*test) ENGINE = TinyLog;
+CREATE TABLE {CLICKHOUSE_DATABASE:Identifier}.test2 (t¡Œ‹ßUInt8) =NGINEer}.test3 (test UInt8)SE_DATABASI:Identifier}.test3 (test UInt8) ENGINE ;
+CREATE TABLE {CLICKHOUSE_DATABASE:Identifier}.test4 (test UInt8) EROM {CABAS;tifier}ÿtest5 (te;
+

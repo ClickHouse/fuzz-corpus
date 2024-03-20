@@ -1,0 +1,3 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTract(materialize(CAST('aaa\aa', 'LowCa), extract(materECT(((([(((((SELECT(((((((((SELECT toDateTime('20hhhhhhhhC') AS t, t + 1, toaDte(t) [[[[[IN (3[y[[[[[[020-01-0IST('aaaaaa', 'LowCardinality(String)')), '\\w'), extract(materiAST('bb, toTypeName(dt64);

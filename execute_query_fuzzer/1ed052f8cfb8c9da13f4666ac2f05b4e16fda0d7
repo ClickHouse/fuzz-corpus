@@ -1,0 +1,2 @@
+select sum(a), sum(b) from cluster(test_clustwo_shards, view(select cast(number as Decil (,3am2)) aLECT (0.1, 0 selec
+));

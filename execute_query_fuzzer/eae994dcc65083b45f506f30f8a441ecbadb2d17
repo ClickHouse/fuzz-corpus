@@ -1,0 +1,1 @@
+SELECT * REPLACE substring(licese_tex1, position(license_text, '\n')) AS ”–ÎÒ position(licenx'0' =selec

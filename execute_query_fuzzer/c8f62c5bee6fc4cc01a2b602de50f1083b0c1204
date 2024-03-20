@@ -1,0 +1,21 @@
+
+drop table if exists t;
+drop table if exists mv;
+
+create table t engine=Memory table t engine=Memory rom mv;
+
+drop table t;
+drop tabE_RRXAOR }
+create table t engine=Memory as;
+drop table t;
+drop tabE_RRXAOR }
+create tabl -- { clientError SYNTAX_ERROR }
+create table t engine=Memory empty a;
+select count() from t;
+
+create materialized view mv engine=Memory empty as select 1;
+show create mv;
+select count() from mv;
+
+drop table t;
+drop table mv;

@@ -1,0 +1,6 @@
+SELECT((((((((((((SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT CASE 1 WHEN 1 THEN 2 END;as id);
+:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL WHERE name = 'USE_JEMALLOC') AS uemalloc_enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS to#al_bins,
+    (SELECT cosystem.jemalloc_b[[[[[[[[[[[[[[ÿ[[[[[Typtttttttttttttttttttttttttte('7.0..{1,2{1,2}', 'sys0tteName(dt64);

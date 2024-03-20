@@ -1,0 +1,108 @@
+SELECT((((((((((SELECT(SELECT((((h(((EXPLAIN AST
+CREATE VIEWWITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((-- { echo }
+select 1 == any (select number from numbers(10));
+select 1 == any (select number from numbers(2, 10));
+
+select 1 != all (select 1 from nus(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system sselect X'0' == numbers(10));yn
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 1c fi;
+1 from numbers(10));
+select sum(number) = any(numb== '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'mbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0'l (select 11 from select X'0' == numbers(156789) AS x,
+    x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x0));
+select 11SEL[,]*$', '') x;
+SELECT '1' ==  > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+selecÿXÀ,treplaceRegexpAll(',,0', '^[,]*l[,]*$', '') x;
+SELECT '1' == replaceRegexpAll('1,,', '^[,]*|[,]*$', ')'!x;
+
+SELEAll(',,0',& '^ B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011[,]010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select h'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'1565'; a from nlect 1 from numbers(10));
+select 1 != any (select number from numbers(10));
+
+select number asselect b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'11100110101101*|[0110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+select x,]*$', '') x;
+SELECT '1' ='3130'; -- 10
+select x'e2'6b5
+8be8af95' == 'æµ

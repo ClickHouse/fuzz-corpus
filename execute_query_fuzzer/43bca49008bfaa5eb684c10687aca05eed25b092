@@ -1,0 +1,12 @@
+SELECT((((((((((SELECT
+    -1 IN1),
+    -SELECT((((((((((SELECT((((((((((SELECT
+    -1 IN (-1),
+    -SELLECT(((((((((SEL (-1),
+    -SELECT((((((((((SELECT(((((((((SEL (-1),
+    -SELECT((((((((((SELECT((((((((((SELECT
+    -1 IN (-1),
+    -SEL((((((((SELECT
+    -1 IN (-1),
+    -SELLECT(((((((((SELECT NOT BETWEEN 2 + 1 AND 4 -(((((((((SELECT FOT BETWEEN 2 ÿÿÿ)+ 1 AND 4 -  2 + 1(A
+

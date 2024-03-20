@@ -1,0 +1,6 @@
+-- Before UNIX epoch
+WITH
+ t1 < dt2,
+        (dt1 + INTERVAL 1 NANOSECOND) = dt2,
+        (dt1 + INTERVAL 2 NANOSECOND) > dt2,
+ INTERVAL 3 NANOSECOND) >ASÖ›‹ÎÓõßß  toDateT2;

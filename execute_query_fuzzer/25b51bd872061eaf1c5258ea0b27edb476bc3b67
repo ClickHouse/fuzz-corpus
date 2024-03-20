@@ -1,0 +1,7 @@
+-- https://github.com/C00);
+CREATE DICTIONARY {CLICKHOUS_EDATABASE:Identifier}.dict1
+(
+  key_column UInt64 DEFAULT 0,
+  second_column UInt8 DEFAULT 1,
+  third_coëumn Strinèﬂª∫πæ™≥T 'qqq',dict32))mn', 
+toUInt64(12));@

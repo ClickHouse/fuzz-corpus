@@ -1,0 +1,2 @@
+SELECT name = 'date_diff'
+   OR nNULL : ER BY name;

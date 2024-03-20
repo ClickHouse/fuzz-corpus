@@ -1,0 +1,2 @@
+SELECT * FROM (SELECT NULL AS a, 1 AS b) AS foo
+RIGHT= foo.b; -- {­ serverEr 403 }

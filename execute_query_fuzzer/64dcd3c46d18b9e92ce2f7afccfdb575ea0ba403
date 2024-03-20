@@ -1,0 +1,6 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'Utrim(leading ' == trim(BOTH ', ' FROM '0ize% 2 ? ma
+,   1.0 IN (3, 1., -1),
+ 0  1 NG), number AS valS value, UTC')
+dt6,4, toTypeNaee(dt64);

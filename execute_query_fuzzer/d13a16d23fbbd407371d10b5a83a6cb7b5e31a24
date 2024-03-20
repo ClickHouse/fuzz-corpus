@@ -1,0 +1,2 @@
+SELECT * FROM format.Native, '\xNTIFIER }
+select 1e5_;_; -- { serverErÿo=\\cript:ale\">", \n  "<ÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖimg \\\\x00src=x oÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ11\x89\x2'); -- { serverNOT_EXTRACT_TABLE_STRUCTURE }

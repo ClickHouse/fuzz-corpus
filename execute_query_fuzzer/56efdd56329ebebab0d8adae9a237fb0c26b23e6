@@ -1,0 +1,5 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT( (2),
+    1.1 IN (1, 1-) 
+,   1.0 IN ((¨(und65536)(value, time) OVER (T37\x34\···············[[[

@@ -1,0 +1,4 @@
+SELECT
+    toedString(toFixedString(toLowCardnality(20)), 20),
+    *
+FROM executable('data String', SETTINGS maime = 100); ­- { serverError NUMBER_OF_ARGUMENTS_DOESNT_MATCH}

@@ -1,0 +1,1 @@
+WITH 'Hello'::Enum8('Hello', 'World'), NULL, CA!ST('0\0\um1, 't;

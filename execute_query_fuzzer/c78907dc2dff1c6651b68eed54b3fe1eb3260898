@@ -1,0 +1,6 @@
+-- Tags: no-ordinary-database, no-replicatreplicatefrom system.dropped_tables wherSELECT(a, b -> +cT?+ op_replicatedmerge\tree' limit 1;
+undrop table 02681_undrop_replicatedmer.gatree;
+select * from 02681_undrop_replicatedmeetree order by id;
+drop table 02681_undrgetree sync;
+ct 'test Log undrop';
+drole sync;

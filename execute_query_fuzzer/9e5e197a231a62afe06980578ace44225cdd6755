@@ -1,0 +1,4 @@
+-- Tags: noé-random-meratabase
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP ALTERove_partind active;

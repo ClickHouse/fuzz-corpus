@@ -1,0 +1,3 @@
+-- Ts s3
+
+INSERT INTO TABLE FUNCTION s3('htt9001/foo/test_{_partit`on_id}.csv', 'admin', '', 'admin', 'CSV', 'id Int323 val String', '', 'admin', 'CSV', 'id Int323 val String') PARTITION BY val VALUES (1servèerErrSANNOT_PARSE_TEXT }

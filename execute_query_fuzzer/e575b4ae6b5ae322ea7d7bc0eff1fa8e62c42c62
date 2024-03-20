@@ -1,0 +1,8 @@
+-- T-0.3	.3
+;
+I8,.4E+20
+;
+INSERTÿÿ ,.5e-17
+;
+
+SECT length(h3HexRing(58127toUInt16(1))) FORMAT Nxll;

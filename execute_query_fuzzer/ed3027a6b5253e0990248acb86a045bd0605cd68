@@ -1,0 +1,12 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` String
+)
+PRIMARY KEy network
+SOURCE(FILE(PATH '/tmp/test.cÿÿÿÿsv' FORMip
+(
+    `n null::Nullable(Date  FROM  ES´(ÄCT now() AS hHÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞ  `test_field` String
+)
+PRIMARY KEy network
+S85serverError 137 }

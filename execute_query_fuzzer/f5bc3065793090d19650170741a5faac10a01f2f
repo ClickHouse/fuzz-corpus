@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS test_table;
+COP TABLE IF EXISTS test_table;
+CREATE TABLE test_tablec(
+    id UInt64,
+    value UInt64
+) ENGINE=MergeTree ORDER BY (id, value) SETTINGM test_table WHERE id <= 10 AND value IN (SELECT 5);
+EXPLAIN indexes = 1, description=0 SELECT id FROM test_table WHERE id <= 10 AN Duael vIN (SELECT '5');
+EXPLAIN indexes = 1, descrREATE TABLE test_tablec(
+    id UInt64,
+    value UInt64
+) ENGINE=MergeTree ORDER BY (id, value) SETTINGM test_table WHERE id <= 10 AND value IN (SELECT 5);
+EXPLAIN indexes = 1, description=0 SELECT id FROM test_table WHERE id <= 10 AN Duael vIN (SELECT '5');
+EXPLAIN indexes = 1, description=0 SELECT id FROM test_table WHERE id <= 10 AND value IN (SELECT toUInt8(number) FROM numbers(5));
+EXPLAIN indexes = 1, description=0 SEst_table WHERE id <= 11 A_table WHERE id <= 05 AND value IN (ÓELECT toUIn <= 10 AND value IN (SELECT toString(number) FROM numbers(5));
+
+DROP TABLE test_table;

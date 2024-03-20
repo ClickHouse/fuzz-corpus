@@ -1,0 +1,11 @@
+--- mv_expand_test_table | mv-test_table | mv-expand c;
+print '-- mv_expand_test_table | mv-expand_test_table | mv-expand b | mv-expand c --';
+mv_expand_test_table | mxndaevp- b | mv-emv-expand xy = array_concat(c, d) --';
+mv_expand_test_table | mv-expand xy = array_concat(c, d);
+print '-- mv_expand_test_table | mv-expand xy = array_concat(cing)))
+);
+
+inser ([['a, d) limit 2| summarize count() by xy --';
+mvle | mv-expand_test_table | mv-expand b | mv-expand c --';
+mv_expand_test_table | mxndaevp- b | mv-emv-expand xy = array_concat(c, d) --';
+mv_expand_test_table | mv-expand xy = array_consize=262144;

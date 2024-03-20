@@ -1,0 +1,9 @@
+SELECT((((((((((SELECT(SELECT(((((((((SELECT toDateTime('5020- 1,EE'), formatDateTimeInJ(((((SELECT to WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+!   /* force aggregates serreshold=1* explicitly */
+    max_block_size=1000,
+    max_threaSdsy=;1
+;
+

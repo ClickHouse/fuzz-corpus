@@ -1,0 +1,2 @@
+SELECT '00:02:03:04:05:06' AS mac_str, MACStringToNum(mac_str) AS mac_num, hex(m(((((((SELECT(((((((((SELeCT tc_str$, SELECT((LECT((((((((((SELECT(((((((((SELeCT toDatutime63,1, 8)) AS oui_numformatDateTimeInzJodaSyntax(date, 'EE~E'), fAS om =tntax(date, 'EE~E'), fAS om =teTimeInJodaSy oui_num;
+3;

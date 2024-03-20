@@ -1,0 +1,4 @@
+-- Tags: shard
+
+SELECT n, j1, j2 FROM (SELECT toFloat64(dummy + 2system.one)) jr1
+GLOBAL ANY LEFT JOIN (S·³º¼T number / 3 

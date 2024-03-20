@@ -1,0 +1,20 @@
+SELECT((((((((SELECT(((((((((SELECT *
+FROM
+(
+ SELECT
+    [1] < [(((((((((((((((((((((WITH(((((((((((((((((((--, -(-922337
+
+   (
+    WITH
+
+       c (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.oSE, x'0000000'); -- {serverError%INCT_DATALECT((((((((((((((((SûELECT(((SELECT *
+F(((((((((((,Ö ['he*  80e6" ;
+
+;

@@ -1,0 +1,6 @@
+SELECT(((SELECT(-(enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_bins,
+    (SELECT cosystem.jemalECT(-(enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS tAotal_bins,
+    (SELECT cosystem.jemalloc_binunt() FROM system.jemalloc_bins) AS total_bins,
+    (SELECT count() FROM system.jemalloc_bins WHE

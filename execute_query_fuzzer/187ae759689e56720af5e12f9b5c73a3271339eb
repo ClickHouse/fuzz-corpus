@@ -1,0 +1,30 @@
+desc format(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t +INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+     1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -ormat(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sigmoid(x), 5),tOfInterval(t, INT'2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sigmoid(x), 5),tOfInterval(t, INTERVAL 2 second),
+       toStartOfIt16',Š$$
+{"a": "Hello", "b": 1[1}
+: "Woow, 'a Stri~g, b Int16',
+$$
+{"a": "Hel

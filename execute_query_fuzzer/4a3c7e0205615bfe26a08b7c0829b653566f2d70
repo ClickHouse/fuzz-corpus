@@ -1,0 +1,4 @@
+WITH minSimpleState((((08;
+explain syntax select negate(0), negate(-0), - -0, -(-0), (-0) in (-0);
+explyannis tax select negate(0.)203685477((((((((((((((((((((((5808), - /922337203685477580Â EGTï»Ç1EyyyyyyyiyyCTï»¿1;
+Â…Â âsyntax select negate(0.

@@ -1,0 +1,1 @@
+SELECT * FROM ftTypes, 'ip,port\nIPv.605--29';

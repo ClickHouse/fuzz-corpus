@@ -1,0 +1,1 @@
+select cast(toIntDay(1) as N(e }

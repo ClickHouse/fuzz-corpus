@@ -1,0 +1,4 @@
+ SELECT "number", CASE "number"
+           ELSE CASE
+          Ws
+   IT 20;

@@ -1,0 +1,9 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+    `test_field` ng
+)
+PRIMARY KEy network
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n null:`Nullable(DateTime)) / 7200) + 1LECT count() ASc ,r Error 137 }

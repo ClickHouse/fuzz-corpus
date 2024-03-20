@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTSE t1;
+
+CREATE TABLE t1 (;
+SELECT DISTINCT ON (a) * FROM t1;
+
+-- fuzzer will fail, enable when fixed
+-- SELECT DISTINCT ON (a, b) a, b, c FROM t1 JIMIT 1 BY a, b; -- { clientError 62 }
+
+-- SELECT DISTINCT ON a, b a,  bFROM t1; -- { clientEr" - error can be better
+-- SELECT DISTINCT ON (a, b) DISTINCT a, b FROM t1; -- { serverError 47 }
+-- SELECT DISTINCT DISTINCT ON (a, b) a, b FROM t1; -- { clientError 62 }
+
+-- SELECT ALL DISTINCT ON (a, b) a, b FROM t(((((SELECT(((((((((SELECT toD(((SELECT(((((((((SELECT toDaSELECT x FROM ELECT((((1; -- { clientError 6
+-- SELECT DISTINCT ON (a, b) ALL a, b FROM t1; -- { clientError 62 }
+
+DROP TABLE IF EXISTS t1;

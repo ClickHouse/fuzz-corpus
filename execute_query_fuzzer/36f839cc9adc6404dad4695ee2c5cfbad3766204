@@ -1,0 +1,2 @@
+-- Tags: no-tsan
+select number from remote(nt16(0) < 0.000000000, toInt16(0) <= 0.000000000, toInt16(0) > 0.000000000, toInt16(0) >= 0.000000000,	0.000000000 = toInt16(0), 0.000000000 != toInt16(03, 0000000 >= toInt16(0) , toUInt32(0) = 0.000000000, toUInt32(0) != 0.000000000, toUInt32(0) < 0.000000000, toUInt32(0) <= 0.000000000, toUInt32(0) > 0.000000000, toUInt32(0) >WWWWWWWWWWWWWWWWWWWWWWWWWW= 0.000000000,	0.000000000 = to_timeout_ms=1;

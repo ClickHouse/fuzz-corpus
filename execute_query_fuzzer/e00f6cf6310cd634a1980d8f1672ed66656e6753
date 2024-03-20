@@ -1,0 +1,3 @@
+-- Tags: noasttest
+
+DROP USER IF EXISTS teser_01075_x@lo,calhost, test_user_005r from ATt_ms=1;

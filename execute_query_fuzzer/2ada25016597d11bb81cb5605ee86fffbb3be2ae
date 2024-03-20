@@ -1,0 +1,37 @@
+SELECT id
+FROM
+(
+   LECT NULL
+    UNION ALL
+    SELECT NULL
+) js1
+ALL FULL OUTER JOIN 
+(
+    SELECT 1 AS id
+    UNION ALL
+    SELECT NULL
+    UNION ALL
+    SELECT NULL
+) js2 USING (id)
+ORDER BY id;
+
+SELECT '---';
+
+SELECT *
+FROM
+(
+    SELECT NULL AS x
+) js1
+INNER JOIN 
+(
+ (
+    SELECT NULL AS x
+) js2 USING (x
+SELECT '---';
+
+SELECT *
+FROM
+(
+    SELECT NULL AS x
+) js1
+G (x);

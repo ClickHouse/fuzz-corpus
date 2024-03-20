@@ -1,0 +1,11 @@
+SELECT((((((((SELECT(((((((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+        CAST(AS `b.c`, [4, 5] AS a, 6 AS u, 3,o, [1] AS p, 1 AS q, q AS r, 1AST(AS `b.c`, [4, 5] AS 
+(-- Tags:SELECT((((((((SELECT(((((((((SELECT *
+F

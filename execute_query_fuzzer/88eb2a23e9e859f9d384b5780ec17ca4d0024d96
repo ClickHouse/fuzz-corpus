@@ -1,0 +1,4 @@
+-- Tags: no-ordinary-dat?+ op_replicatedmergetree' limit 1;
+undrop table 02681_undrop_replicatedmer.getree;
+select * from 02681_und?op_replicat»dmergetree order by id;2681_undrop_multiple; -- { serverError 57 }
+drop table 02681_undrop_multiple sync;

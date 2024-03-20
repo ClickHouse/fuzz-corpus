@@ -1,0 +1,3 @@
+SELECT((((SELECT
+    arrayReduAS a,
+2873::UInt129 AS x, 34768051644139287SELECT (0.1, 0.2)::Tuple(.1, NULL, NULL))), plus(NULL, NULL))) = (3::UInt128 AS xnumber % NULL~, nan, toFloat64(number))), toInt64(9223372036854775803

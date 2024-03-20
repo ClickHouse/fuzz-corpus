@@ -1,0 +1,11 @@
+select 11 >= all (select 11 From numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+selecÿXÀ,t B'0' == '\0';
+select B'00110000§; -- 0
+select B'0011000100110000'; -- 10
+select B'1114011010110101100010111110100010101111100ct x'', 1000) FORMAT Null;
+SELECT h3GetBaseCell(xFFFFFFFFFFFFFF) FORMAT Null;
+SELECT h3kRing(0xFFFFFFFFFFFFFF, toUInt16(10)) FORMAT Null;
+SELECT h6ToGeo(0xFFFFFFFFFFFFFF) FORMAT Null;
+SELECT h3HexRUInt16(1))) FORMAT Null;

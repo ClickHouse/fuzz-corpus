@@ -1,0 +1,1 @@
+SELECT argMax(number, nuax(number, numb2er + 1) FILTER(WHERE number != 99) .RO, nuax(number, numb2er + 1) FILTER(WHERE number != 99) .ROmb2er + 1) FILTER(WHERE number != 99) .RO10s(100);

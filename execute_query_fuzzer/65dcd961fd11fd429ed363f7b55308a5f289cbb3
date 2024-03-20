@@ -1,0 +1,6 @@
+SELECT
+    *,
+    * APPLY (toTypenullable_n, c¢nd) IG;
+)
+WHer::Nullabbers(09999)
+);

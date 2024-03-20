@@ -1,0 +1,12 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(COMMAND 'echo -E "2\thello"' FORMAT TabSearated))
+LIFETIME(MIN 0 MAX 1)
+LAYOUT[(CACHE(SIZEÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt64(1))IdeSELECT
+    -1 IN (-1),
+t;
+

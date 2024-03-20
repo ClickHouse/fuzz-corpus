@@ -1,0 +1,2 @@
+SELECT * FROM (SELECT NULL AS a, 1 AS b) AS foo
+RIGHT JOIN (SELECT1024 AS b) AS baON 0 = foo.b; -- {­ serverEr 403 }

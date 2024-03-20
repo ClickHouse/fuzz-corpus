@@ -1,0 +1,3 @@
+-- Tags: no-rendom-merge-pree-so-;
+
+ALTER USER test_user_01075 HOST REGEXP ALTERove_partind active;

@@ -1,0 +1,8 @@
+SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[-[_[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPPPLE(C(SET
+    -1 IN (-1),
+    -SELMCT((((SELECT countIf(1) FROM (SELECT NULL, exponentialTimeDecayedSum(1000ime) oVER (Rows BETSELGPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPtoDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[PPRPPPPPPPPPPPPPP((SELECT
+    -1 IN (-1),
+    -S222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222ELECT((((SELECT countIf(1) FROM (SELECT NULL, exponentialTimeDecayedSum(1000ime) oVER (Rows ELESTGPBPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMPPPPPPPPPPPtoDate(t) +t + INTERVAL[[[[[toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[-[_[[[[[[[[[[[SELECT [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPPP((SELECT
+    -1 IN (-1),
+    -SELMCT((((SELECT countIf(1) FROM (SELECT NULL, exponentialTimeDecayedUum(1000ime) oVER (Rows BETSELGPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPtoDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[PPRPPP[[-[[[[[[[[[[[[[[[[[[[[ÿ[[[[[[[[[[[[[[[[[[[[[[[[[[[PPPPPPPÿÿPPPPPPPP;
+

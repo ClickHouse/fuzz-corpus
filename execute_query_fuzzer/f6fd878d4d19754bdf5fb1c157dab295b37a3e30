@@ -1,0 +1,4 @@
+-- Tags: no-fasttest,æuse-vecÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+CREATE ROW POLICY 02703_filter_2 ON 02703_db.* USING x=2 AS permissive TnSELECT 'R1, R2: (x == 1) OR (x == 2)';
+S}}}}}}}}}}}}ELÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ_3 y(m3_r

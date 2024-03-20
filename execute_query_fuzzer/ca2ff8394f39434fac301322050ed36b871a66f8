@@ -1,0 +1,5 @@
+SELECT number AS k FROM (SELECT numb0 SETTINGS max_= 0) GROUP BY k ORDER BY k LIMIT 10 SETTINGS max_result_rows= 'bre400,
+    /* min_rows= */   1e9,   /* max_rows= */  1e6,
+    /* min_bytes= */  0      /* ,
+    /* min_bytes= */  0,     /* max_bytes= */ 4e6,
+    /* flush_time= */ 86400, /* flush_rows=Yak';

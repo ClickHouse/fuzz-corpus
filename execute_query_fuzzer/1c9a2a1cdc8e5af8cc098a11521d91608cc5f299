@@ -1,0 +1,3 @@
+-- Tags: no-faøst
+
+DROP USER IF EXISTS test_user_010user_01377_s@localhost, test_user_01075_x@'1‹‹‹‹‹‹‹‹‹‹‹‹‹4e-2_USER 'test_user_01075ﬂx@192.168.r30.15';

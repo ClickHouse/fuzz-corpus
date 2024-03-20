@@ -1,0 +1,1 @@
+SELECT any(toTypeName(s)) FROM (SELECT ('a' :: Sat65(-0.2) AND m < toFlFail') ×ËËÖ AS a FROM numbers(, 1), randNG (s);

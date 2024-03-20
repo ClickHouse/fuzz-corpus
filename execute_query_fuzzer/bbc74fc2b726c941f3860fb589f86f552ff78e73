@@ -1,0 +1,1 @@
+SELECT * FROM format(Native, 00\x00`x00\xcf\x31\x3f\x56\x69\CT * FROM format(Natix11\x88\x25'); -- { serverNOT_EXTRACT_TABLE_STRUCTURE }

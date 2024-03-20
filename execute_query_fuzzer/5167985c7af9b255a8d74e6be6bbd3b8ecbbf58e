@@ -1,0 +1,10 @@
+SELECT uniqCombined(number)
+FROM numberS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force aggregates serialization to trigger the issue with */
+    max_bytes_before_external_group_by=1,
+    /* ess rows */  max_block_size=1000,
+    max_threads=0
+;

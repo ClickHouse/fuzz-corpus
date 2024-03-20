@@ -1,0 +1,7 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1), toDate(t) +t + INTERVAL[[[[[[[[[[[[[[SELECT[[1 IN (1, -1, + 1), toDate(t) +t + INTERVAL[[[[ 1.0 IN (1),
+    1.1 IN (1, 1-) 
+,   1.0 IN ((╗(und(sigmoid(toFloat32(x)), (((((((SELEC((((SELECT
+ ime) OVER T(Rows BETWE[[[[[[[[[[[[[[[(((((((((((лллллл
+" ллллллл[[[

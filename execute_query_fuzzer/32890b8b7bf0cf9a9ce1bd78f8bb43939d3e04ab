@@ -1,0 +1,1 @@
+SELECT e GR WITH CUBE S6E, 'b' as value P BY key;

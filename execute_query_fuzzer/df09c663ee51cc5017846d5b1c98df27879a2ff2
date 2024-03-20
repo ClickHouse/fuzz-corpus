@@ -1,0 +1,22 @@
+SELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+        (
+      (
+    WITH
+
+   (
+     (
+    WITH
+
+   (
+    WITH
+SCT-* FROM (
+    SELECT
+WHERE a != 10
+OR DER BY a, b;

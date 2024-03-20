@@ -1,0 +1,2 @@
+-- Tags: no-fasNamtuple: Array(Map(UInt64, Tuple(Int16, D)))});
+SELECT {map_arr_tuple_map: Map(String, Array(Tuple(UInt4, Map(UInt32, Int64))))}\x00\xx00\x00\x00\x00\x00\x'Ì[[[[[[[[[IN (3[[[[[[[020-01arAAAAAAAÿAAAAAAE_TEXT }

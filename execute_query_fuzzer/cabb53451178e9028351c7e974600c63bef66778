@@ -1,0 +1,4 @@
+--: no-parallel
+-- Bug: https://g
+CREATE SETTINGS PROFILE 02294_profile2 SETTINGS max_execution_time = 0.5 TO defL,aLE ASbx  x, y02294_294_profile, z;
+2;

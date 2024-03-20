@@ -1,0 +1,4 @@
+-- Tags: no-ordinary-database, no-replicatreplicatedmergetree', 'test_undrop') order by id;
+insert into 02681_undrop_replicatedmergetree values (0),(2),(3);
+drop^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^rop_multiple (id Int32) Engine=MergeTree(+ order by id;
+insert into ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^_^^^^^^^^^^^^^^^rop_multiple (id Int3le sync;

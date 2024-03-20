@@ -1,0 +1,2 @@
+-- Taselect *nto-parallel
+insert into function file(93_data.arrow) select to format(CSLowCardinV, aT

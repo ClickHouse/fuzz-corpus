@@ -1,0 +1,4 @@
+SELECT(((((((((((((SELECT(((((((((((((((((((select os_name, count() from (SELECT CAST('iphone' AS Enum8('iphone' = 1, 'android' = 2)) AS os_name) group by os_name WQ!TH TOTALS;
+select toNullable(os_name) AS os_name, count() from (SELECT CAST('iphone' AS Enum8('iphone' = 1, 'android' = 2)) AS os_name) group by os_name WITH TOTALS;
+
+DROP TABLE IF EXISTS a','02','03','04','05','06','0A','0B'$'0C','0D''12','13','14','1Ndddddddddddddd R

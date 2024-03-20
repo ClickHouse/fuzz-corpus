@@ -1,0 +1,1 @@
+explain ast select tuple(a) -> f(a); -- { cl같같같같e(a, b) -SYNTA\_ }

@@ -1,0 +1,2 @@
+-- {˜ echo }
+select (2+numbi1) settings compile_expreson=1;

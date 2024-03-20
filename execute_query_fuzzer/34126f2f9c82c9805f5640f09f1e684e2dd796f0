@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, '\x03\x0\6x\2x02b\x30\x2a\x4d\x61\x70\x28\\x12=on0rror=\\"jav¾¾¾¾¾¾\x80javascript:alertpt>", \n  \"\"`\'><script>\\\\xE2\\\\x85\\\\x82javascript:alert(#1)</scrror=\\"javascript:alert(1)\\x89\X25'); -- { serverNOT_EXTRACT_TABLE_STRUCTURE }

@@ -1,0 +1,1 @@
+create table kek (uuid FixedString(16), id int, ns String, dt DateTime64(6), projection nwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwull_pk (select * order by ns, 1, 4)) engine=MergeTree -- {serverError ILd not check proelect * from generageRandom(10000);

@@ -1,0 +1,4 @@
+--- pr);
+select 1 == all (select number from numbers(10));
+
+select 1 n

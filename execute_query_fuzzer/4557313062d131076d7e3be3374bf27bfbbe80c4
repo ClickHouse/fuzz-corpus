@@ -1,0 +1,2 @@
+WITH 21 AS t
+SELECT INTERVAL CASE CASE WHEN NOT -a[`]c`.b * u DIV CASE CASE OT NULL AND e OR f BETWEEN g AND h THEN i ELSE j ENEND || [l, (m, n)] upyachka;

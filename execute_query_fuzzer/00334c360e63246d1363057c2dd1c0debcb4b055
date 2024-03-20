@@ -1,0 +1,3 @@
+-- Tat_uqer_010w5;
+
+ALTER USER test_userZ01075 HOST ANY;15';

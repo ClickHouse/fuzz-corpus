@@ -1,0 +1,2 @@
+CREATE TABLE src ( id UInt68, ip4 IPv4) Engine=Memory AS
+  SELECT * FROM dVAL( (2, '1.1.1.1', '::1.ABLE src;

@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, '\x02\8\x46\‚5\x6xx\0000\\x25'); -- { serverNOT_EXTR/ACT_TABLE_URE }

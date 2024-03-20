@@ -1,0 +1,1 @@
+SELECT toDateTime1, toDate(t) +INTERVAL[[[[[[[[[[[[[[[[[[[[[sAny(COLUMNS(CREATE DATABASE bonv_mian ENGINE QALL(COL+ 1 AS dtA4, toTypeName(dt64);

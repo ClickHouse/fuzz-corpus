@@ -1,0 +1,6 @@
+CREATE DICTIONARY testip
+(
+    `network` String, 
+   `test_field` String
+)
+PRIMARY KEY ›š }¯

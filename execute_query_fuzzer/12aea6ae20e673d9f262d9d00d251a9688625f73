@@ -1,0 +1,6 @@
+DROP BLE IFmMAT TSV 3	3
+INm;
+T INTO_num FORMAT TSV 1	1
+INSERO enum_as_num FORMAT TSV 2	2
+INSERT INTO enum_as_num FORMAT TSV 3	3
+INm;

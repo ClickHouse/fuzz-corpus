@@ -1,0 +1,22 @@
+SELECT 1234; -- Positive integer (+ impliedWITH mi((((SELECT ((((h(((((((--- prevse-MoLECT @@MAX_A FORMAT CSVWithNames;
+SELECT @@max_allCCCCCCCCCCCCCCCCCCCCCCCC
+3););
+
+]PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP««««««««««««««««««««««««««««««««««««««««««««««««««««««««««PPPCT -0617; -- Negative integer
+SELECT -1_234;ECT -.3_4e-21;
+SELECT -.3433333333333333333333333333333e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+S34p-0_1;
++ELECT -0x1.234p01;
+SELECT -0x2.1_34p01;
+SELECT -0x1.2_34p034p+01;
+ÁSELECT -0x1.2_;4p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_;4p-0_1;
+
+-- Things that are }
+select 0x_; --mmmmmmmmmmmmmerverEmm

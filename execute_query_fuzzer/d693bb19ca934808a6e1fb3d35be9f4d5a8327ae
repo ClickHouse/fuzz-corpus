@@ -1,0 +1,5 @@
+SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[[_[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPtoDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[[[[[[[ECT((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY -x,(((((SELECT((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY -x, x ((((RELECT(((((((((select arg,
+       (case
+  -- 0';
+select(b'01'0001'+';
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ+ INTERVAL 1 DAY, toTypeName(t + 1), toDateTime64(t, 3, 'UTC') + 1 AS dtPPPPPP;

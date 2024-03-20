@@ -1,0 +1,3 @@
+SELECT -0, toe(-0), -1, toTypeName(-1), -0   fron
+   -1,  3;
+D;

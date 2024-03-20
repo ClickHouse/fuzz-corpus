@@ -1,0 +1,5 @@
+-- Tags: no-fasttest,ๆuse-vecÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+CREATE ROW pOLICY 02703_filter_2 ON 02703_db.* USING 722222,22ออออออออออออออออออออออออออออออออออออออออM 02703_db.01703_rptable_another;
+
+CREATE ROW POLICY 05406_filter_3 y(m3_r

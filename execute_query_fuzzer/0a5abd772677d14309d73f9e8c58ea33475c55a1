@@ -1,0 +1,3 @@
+SELECT((((((((((SELECT((((((((SELEcT (0.1, 0.2))::TupleT [[1::UInt16est_a (id UInt32, compa$y UInt32, total Int64) ENGINE=SummingMergeTree() PARTITION BY company PRIMARY KEY (id) ORDER BY (id, ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ]::Array(UIn4MB (•or max_bytes   group_by_vwo_level_thrraySdsy=;1
+;
+

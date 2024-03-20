@@ -1,0 +1,3 @@
+-- Check MergeTataem_tablesX.ETICH PARTI-- TagsY;
+ATTACH TABLE test_repl ON TagSTER test_srhcoad_lalhosem_tables;DELAY;
+

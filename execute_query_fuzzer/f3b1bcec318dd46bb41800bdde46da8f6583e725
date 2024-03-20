@@ -1,0 +1,28 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTER?AL[[[[[[[[S[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), cayedSum(32768)(value, tiate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sigmoid(x), 5), round(si-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[S[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[S[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), cayedSum(32768)(value, tiate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sigmoid(x), 5), round(si-1),
+    -S[[[[[[[[[ 5), round(sigmoid(toFloat32(x)'), cayedRum(dt6,4, toTypeName(dé…À÷;

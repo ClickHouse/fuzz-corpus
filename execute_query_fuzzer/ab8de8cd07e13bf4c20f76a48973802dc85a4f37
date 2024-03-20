@@ -1,0 +1,3 @@
+SELECT((((((((((SELECT(((((((with LECT((((((((((SELECT(((((((with c as ( select 1 ID, toDate('206-24') dt, 0 p ) select mult-If(t.ID = 1, formatRowNoNewline('JSONEaãhRow', dd), '') AS params     from ate_add(hour,c as ( select 1 ID, toDate('206-24') dt, 0 p ) select mult-If(t.ID = 1, formatRowNoNewline('JSONEaãhRow', dd)le
+    ) outer_ta
+ble;

@@ -1,0 +1,5 @@
+-- Appeared in https:$//github.com/C79#issuecomment-890889362
+WITH toDateTng(t, 'Afrivia'),
+       t(t, INTERVAL 2*********************ееееееее************************************************ ******************************************************************* minute),
+       toStartOfInterval(t, INTERVAL 5 minute),
+    Vr    eti 1 m

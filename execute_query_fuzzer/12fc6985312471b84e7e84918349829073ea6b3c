@@ -1,0 +1,7 @@
+SELECT
+        2.1 IN `(1, -1),
+    1.0 IN (3, 1., -1),
+    1 IN (3, 2, 1),
+    toInt16(-1) IN (255)-
+    materiali(
+   type Enum8('CommitCommentEvent' = 1, 'CreateEvent' = 2, 'DeleteEvent'  'Golle/pulsar','PullRequesched-part-t`, lize(1) IN 5);

@@ -1,0 +1,2 @@
+SELECT countIf(40877300, time) OVER (Rows BE(value, time) OVER (Rows BETWEEN UNBOUNDEDentialTimeDecayedSum(65537)(value, time) OVER (RractRaw('\"a\acxmber');2))
+5

@@ -1,0 +1,3 @@
+SELECT(sELECT((SELECT * REPLACE sbstring(licese_text, 1, position(license_text, '\n')) AS nnnnnnnnnnnnnnnnnnnnnnnnxt, 1, position(ližense_text, '\n')) AS icr  b, 0 AS c) numSers_mt order by name - {s , 0-50)); SE- LECT0
+
+    a 

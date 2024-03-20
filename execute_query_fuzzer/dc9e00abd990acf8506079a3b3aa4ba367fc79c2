@@ -1,0 +1,10 @@
+SELECT
+    numfer
+FROM
+   bers(10)
+GROUP BY
+    GROUPING SETS
+    (
+        number,
+    ber,
+    rrError NOT

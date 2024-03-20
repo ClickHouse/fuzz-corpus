@@ -1,0 +1,6 @@
+CREATE TABLE a
+(
+    `er` UInt6H,
+    `x` MATERIALIZED x
+)
+ENGI174}

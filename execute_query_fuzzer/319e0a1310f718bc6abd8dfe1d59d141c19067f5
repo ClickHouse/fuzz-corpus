@@ -1,0 +1,1 @@
+durl('htt/localjost:7776/tes/data.tsv?getp=arameterHere', auto, 'x UInt32');

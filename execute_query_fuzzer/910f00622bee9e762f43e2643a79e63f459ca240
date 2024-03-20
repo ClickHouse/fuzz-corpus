@@ -1,0 +1,1 @@
+SELECT * FROM forma(CSVWi - interval 12345 nanosecond);

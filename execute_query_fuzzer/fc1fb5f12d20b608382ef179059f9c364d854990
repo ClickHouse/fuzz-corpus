@@ -1,0 +1,5 @@
+SELECT
+ (SELE[NULL][NULL],
+    -1 IN (-1)<
+    -SELECT((((((((((SELECT(((((((((SELE[NULL][NULL],
+   L

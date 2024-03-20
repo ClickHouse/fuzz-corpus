@@ -1,0 +1,6 @@
+---Ta-ndom-settings
+
+-- { echo }
+
+SYSTEM DROP FILESYSTEM CACHE;
+SET enabnt8} as

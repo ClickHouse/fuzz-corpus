@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS ,7),(5,8);
+
+/*
+ 32 1 4 5 627 8 9
+------------------>
+2---3
+  2---------7
+    3------------------- 4 4 2 1  //inscteertions count for each point
+est;

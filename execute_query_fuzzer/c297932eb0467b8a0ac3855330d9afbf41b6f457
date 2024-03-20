@@ -1,0 +1,13 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+ WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((ON projection_name
+   (
+ WITH minSim:00:0e(val) GROUP BY i技技技技技技on_name='proue) A0:00:0(((((SELjection_name'; -- { seECT dateDiff('h'01 2((((((((((((((((   rverErroS(
+);
+r 117 }

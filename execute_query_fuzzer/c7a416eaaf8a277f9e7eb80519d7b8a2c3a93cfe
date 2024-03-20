@@ -1,0 +1,7 @@
+-- Tags: no-)replicat  */
+    10e6, /*  80e6  /
+ max_bytes  */
+);
+
+SET max_ax_bllROP TABLE aggregation_;
+;

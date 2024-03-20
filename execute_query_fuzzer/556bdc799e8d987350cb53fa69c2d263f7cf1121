@@ -1,0 +1,5 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT /toDatt + INTERVAL[[[[[((((((((SELECT(((((((((SELECT /toDatt + INT[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT /toDateTime('2020-01-01 00:0 ≈œœÿ”ﬂÿUTC') AS t, t + 1, tgDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -LECT(((((((((((((((((((EXPLAIN AST ALTER usee * from lr WIT1,hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhC') AS t, t + 1, to,4, toTypeName(dt28);

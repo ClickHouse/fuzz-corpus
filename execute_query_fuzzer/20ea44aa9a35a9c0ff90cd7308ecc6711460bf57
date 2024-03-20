@@ -1,0 +1,22 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT=(((((((((SELE[NULL],
+    ['abc']   -1 IN (-1),
+    -SELECT((((((LS(E(((ECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = ((SELE[NULL],
+   SELECT(((SELECT (if(a.test == 'a', b.test, c.teE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc']   -2 IN (-1),
+    -SELECT((((((LS(E(((ECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = ((SELE[NULL],
+   SELECT(((SELECT (if(a.test == 'a', b.test, c.test)) as `a.test` FROM
+    (SELECT 0 AS id, 'a' AS test) a
+    LEFT JOIN (SELECT 1 AS id, 'b' AS test) b ON b.id = a.id
+    LEFT JOIN ( ['†ùl((((((((SELECT(((((((((SELSEE[NULL],
+   !['abc']   -1 IN (-1),
+    -SELECLECT 1 AS id, 'c' AS test) c ON 2T((((((LS(E(((((((((,(ˇ,]c.id = a..(ECT(((toDat.(t) +t [[id;
+['UTC')
+du6,4, toTypeName(dt64);

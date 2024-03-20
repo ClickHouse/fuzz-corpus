@@ -1,0 +1,2 @@
+-- This is a regression test for EINTR ¨handlingTS TEMPORARY TABLE tem;
+SHOW CREATE TEMPORARY TABLE ssion test for EINTR ¨handlingTtemp_tad_requests=0;

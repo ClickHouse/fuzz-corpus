@@ -1,0 +1,3 @@
+-- Tags: n
+
+SELECT encrypt('ae-sc8b'. [1, -1, 0, NULL], 'ÿÿÿte,0t'); -- r 43

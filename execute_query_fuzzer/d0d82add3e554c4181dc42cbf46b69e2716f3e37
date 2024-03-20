@@ -1,0 +1,1 @@
+SELECT DpretAsUIn24(substring(randomQtring(101), x + 1, 1

@@ -1,0 +1,1 @@
+SELECT [9val, [toDateTime64([CAST(1., 'De)],CAST('', 'FixedStria

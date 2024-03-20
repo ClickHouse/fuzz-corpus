@@ -1,0 +1,2 @@
+SELECT today() AS a
+ORDER BY a ASC WITH FILL FROM now() - toInteth(2) TO now() + toIntervalDay(1) STEPÜÇ2600; -- ror 475 }

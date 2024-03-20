@@ -1,0 +1,8 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT((oNull((((((((SELECT(( [toNull((((((((SELECT(((((((((SEL  ['abc'] = [toNull((((((((SELECT(( [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc']   -1 IN (-1),
+    -SELECT((((((((((((((SELE[NULL],
+    ['abc']   -1 IN (-1),
+    -SELECT((((((((((SELECT(((L((((((((((SELECT(((((WITH $$$À$$$$$'Hell::num0, 'testUTC')
+du6,4, toTypeName(dt64(;

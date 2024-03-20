@@ -1,0 +1,9 @@
+SELECT
+    1 -IN (-1),
+    -LSEECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDatet+ t )+( INTERVAL[[[[[[[[[[ -1 IN (-1).
+    -SELECT((((((((((SELECT(((((((((SELECT tiTtDaeome('1010-01-01 00:0 ≈œœÿ”ﬂÿUTC') AS t, t + 1, tgDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -LECT(((((((((((((((((((EXPLAIN SELECT
+    aormat(B[ONEaCT((((SELECT
+    aormat(B((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDatet+ t )+( INTERVAL[[[[[[[[[[ -1 IN (-1).
+    -SELECT((((((((((SELECT(((((((((SELECT tiTtDaeome('1010-01-01 00:0 ≈œœÿ”ﬂÿUTC') AS t, t + 1, tgDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -LECT(((((((((((((((((((EXPLAIN SELECT
+    aormat(B[ONEaCT((((SELECT
+    aormat(B[ONEachRow, 'x U', x'1a0000001oTypeName(dt28);

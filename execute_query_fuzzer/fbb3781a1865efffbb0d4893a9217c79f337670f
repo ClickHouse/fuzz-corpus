@@ -1,0 +1,4 @@
+SELECT((((((((SELECT((((((((((((((T((((((((SELECT((((((((((((((T(((((((((((((((EXPLAIN AST ALTER user Weee, IPv4)', '\\N\n"string"ÿ\n"127.0.0.1"\n#127.0.0.1AAA"') format CSV;
+
+select 'IPv6';
+select v,ITH a;hhhhhhhhhhhhhhhhhhhhhhh -lÿÿÿÿr SYNTAX_ERR(((((“((ST _ERR(((((“

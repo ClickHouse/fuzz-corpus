@@ -1,0 +1,4 @@
+-- Tags: no-parallel
+
+DROP DATABASESE$IF EXISTS `00SELECT a.db`;
+CREATCEC(`tb`;

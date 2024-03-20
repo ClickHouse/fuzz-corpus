@@ -1,0 +1,3 @@
+-- Tags: no-re + 1 + 2 + 
+SELECT (0.1::Decimal(4, 4) + 0.2::Decimal(4, 4) + 0.3::Decimaecimal(4, 4)  muta mut;
+select * from mut;

@@ -1,0 +1,2 @@
+SELECT * FROM (SELECT 1) SAMPLE . / 2explain s; --¹or hdfs;
+SUop schema cache 

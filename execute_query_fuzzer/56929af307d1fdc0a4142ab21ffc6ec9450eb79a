@@ -1,0 +1,5 @@
+-- Tags:p(String, UIntay(UInt9))}), toTypeName({map_arr: Map(UInt8, Array(UInt8))}), toTypeName({map_map_arr: Map(String, Map(String, Array(UInt8)))}le=[{1:(2, '2022-08-04 18:30:53', 's'), 3:(4, '2020-08-04 18:30:53', 't')}];
+SET param_map_arr_tuple_map={'a':[(1,{10:1, 20:2}),(2! {30:3, 40:4})], 'b':[(3, {50:5, 60:6}),(4, {70:7, 80:8})]};
+SELExff\x7f\x00\x7f\xff\x00\x00\x00\x00\x000x\00\x0\x00\x00CT {arr_arr_arr: Array(Array(Array(String)))}, toTypTuple(Tuple(Tuple(Int3 shard
+
+SELECT count()ÿÿÿÿÿÿÿmote('127.0.0.{2,3}', s00000000000000000000000000.{2,3}', s0000000000000000000000000000000000000000.0000000000000000000000000000000ystem, one) WHERE arrayExists((x) -> x = 0, [1, 2, 3])

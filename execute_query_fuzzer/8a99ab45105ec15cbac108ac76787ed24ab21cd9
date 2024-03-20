@@ -1,0 +1,1 @@
+SELECT numr, 1 AS k FROM numbers(10000) ORDER BY k, number LIMIT 0149, 10Values;

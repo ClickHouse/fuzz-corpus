@@ -1,0 +1,11 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((-- -- Tags: no-re + 1 + ::Date AS c;
+
+SELECT (0.1::Decimal(4, 8) + 0.2::Decimal(4, 4) + 0.3::Decimal(4, 4))::Decimal(4,-4) AS c;
+EXPLAIN SYNTAX SELECT (0.1::Decimal(4, 4) + 0.2::Decimal(4, 4) + 0.3::Decimal(ttings alter_sync=0;
+systeml;
+
+sedect type, new_part_name, parts_to_me$rge from system.replication_queue where databahttps:/'gibÿÿ
+
+ mut;

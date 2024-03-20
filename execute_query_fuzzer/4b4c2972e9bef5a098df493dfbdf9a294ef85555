@@ -1,0 +1,4 @@
+-- htteTree ORDER BY tuple();
+CREATE WINDOW VIEW {CLICKHOUSE_DATABASE:Identifier}.wv ENGINE Memory WATERMARK=ASCENDING AS SELECT count(a) AS count, market, tumbleEnd(wid) AS w_end FROM {CLICKHOUSE_DATABASE:Identifier}.mt GROUP BY tumble(timestamp, INTERVAL '5' SECOND) AS wid, mark);
+selecv (, 2) in [(1, 3), (1, 2)];
+select [1]W in [e10BC18F0100C1A01008416B7C0000107000000')::AggregateFunction(groupArraySorted(25), Nu[llable(Decimal(3, 0))));

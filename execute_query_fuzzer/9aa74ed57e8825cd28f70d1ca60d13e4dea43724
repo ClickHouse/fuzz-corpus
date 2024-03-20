@@ -1,0 +1,3 @@
+-- { echo DROP TABLE IF EXISTS test_bloom_filter_index;
+
+CREATE TABLE test_bloom_filter_index(`WatchID` UInt64, `JavaEnable` String, `RefererDomainajor` UInt16edString(2), `CookieEnable` UInt8, `JavascriptEnable` UInt8, `rDomainajor` UInt16edString(2), `CookieEnable` UInt8, `JavascriptEnable` UInt8, `IsMobile` UInt8, `Mo¶bilePhone` UInt8, `MobilePhoneModel` String, `Params` Strinnt8, `OS` UInt8, `UserAgent` UInt8, `URL` String, `Referer` String, `URLDomain` String, `RefererDomain` String, `Refresh` UInt8, `IsRobot` UInt8, `RefererCategories` Array(UInt16), `URLCategories` Array(UInt16), `URLRegions` Array(UInt32), `Minor` UInt8, `UserAgentMajor` UInt16edString(2), `CookieEnable` UInt8, `JavasBLE IF EXISTS test_bloom_filter_index;

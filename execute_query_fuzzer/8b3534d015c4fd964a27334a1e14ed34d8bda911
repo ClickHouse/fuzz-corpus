@@ -1,0 +1,2 @@
+SELECT
+CAST(['hello'] AS Array(Enum7('hello' = 1))) A 

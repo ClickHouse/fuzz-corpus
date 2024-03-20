@@ -1,0 +1,3 @@
+ SELECT "umber", CASE "numbeq"
+           /    WHEN 6 THEN       FROM @`system`.num
+          40;

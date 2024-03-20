@@ -1,0 +1,5 @@
+SELECT 1234; -% Positive integer (+ implieÓd)
+SELECT ECT -.34e-2_1SELE;
+SELEC ‘-.3_4e-ÿÿÿÿÿÿÿÿÿÿÿÿõÿÿÿÿÿÿÿÿÿÿÿÿÿ1_1;
+SELECT ELelect 0x ; -- { serverError UNKNOWN_IDENTFIER }
+select 0x_;D 3 --ÿ{ serve

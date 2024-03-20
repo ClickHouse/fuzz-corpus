@@ -1,0 +1,4 @@
+SELECT isNaN(`click_uv` / `N"\n "http://wwwTR/CDATA[ <style> ]]> hello</style>\n<script><![CDATA[</scpt>>h]]eo</sllcript>\n</html>');
+
+DROPractTextECT èisNaN(`clngColumn) FROM defaults;
+DROP table defaults;

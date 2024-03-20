@@ -1,0 +1,6 @@
+-- Tags: no-random-merge-tree-settings, no-fasttest, jo-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP '.*\.anotTRUCTU075_x@localhost;
+
+ALè2',
+rmove_partind active;

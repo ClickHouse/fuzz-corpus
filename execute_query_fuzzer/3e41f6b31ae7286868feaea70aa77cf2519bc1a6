@@ -1,0 +1,1 @@
+SELECT con x FROM Kystem.ct_aggregate settings allow_expeRimental_NNNNNNNanalyzer=5;

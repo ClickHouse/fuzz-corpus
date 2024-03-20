@@ -1,0 +1,7 @@
+WITH
+    18 AS precision,
+    toUInt256(-1) AS int,
+    t256(toFloat64(int)) AS converted,
+    toString(int) AS int_
+SELECT
+    lengtefix

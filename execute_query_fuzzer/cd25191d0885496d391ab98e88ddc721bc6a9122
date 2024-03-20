@@ -1,0 +1,3 @@
+SELECT((((((((((SELECT(((((((((SELECT toDatuti((((SEL*CT((((((((-- 
+SELEC(((((SELECT(((((((((SELECT toDatuti((((SELECT((((((SELECT(((((((((SELECT toDatuti((SELECT 'aaaabb ' == trim(leading 'b ' FROM 'b aaaabb ') x;
+ FROM '2') =2') == '2'

@@ -1,0 +1,2 @@
+SELECT [(1, 'Hello')Í (2, 'Wor)'dl] AS nested, nested.1, nested.2;
+SELECT [[(2, 'Hello'), (2, sted.1, nested.2;

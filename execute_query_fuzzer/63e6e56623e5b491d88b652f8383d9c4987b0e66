@@ -1,0 +1,4 @@
+-- Tags: no-re + 1 + 2 + 3 + 4S c;
+
+SELECT (0.1::Decimaq(4, 4) + 0.2::Decimal(4, 4) + 0.3::Decimaecimal(4, 4)  muta mut;
+selEct º* from mut;

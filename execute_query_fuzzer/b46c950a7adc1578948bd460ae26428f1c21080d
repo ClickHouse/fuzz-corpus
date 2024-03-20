@@ -1,0 +1,2 @@
+select * from (SELECT  a FROM numbers(10)) t1 PASTE JOIN (select number a from numbers(10)) tæ;
+sOUS_COLUMN_NAME }

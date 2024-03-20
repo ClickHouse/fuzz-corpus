@@ -1,0 +1,5 @@
+SELECT _shard_num FROM cluster("{def> 4292390314;
+drl00op table test;
+0\0\0\ect0sterAlt;
+0\0\0\ect000op table test;
+0\0\0\elicas("{default_cluster_macro}");

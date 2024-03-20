@@ -1,0 +1,1 @@
+WITH substring(' prefix, |prefix || 'y' || prefiAS a, prefix ~|  'ÿ));

@@ -1,0 +1,6 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT((t, t + z1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT((({CLIEKtransfKHOUSE_DATABASE:Identifier(((((((SELECT toDateTime('2020-01-01 04:00:00', 'UTC') AS t, t + z1, toDate(t) +t + INTERVAL[[[[[[[[[[ring SEDEFAULT 'qqq',
+  fourth_column Flot['b', 'c'[[[['UTC')
+dt6,4, toTypeName(dt64);

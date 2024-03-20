@@ -1,0 +1,3 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECTNTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 渓面面面面[[[

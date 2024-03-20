@@ -1,0 +1,4 @@
+CREATE TABLE tab
+(
+    `fo` Array(Lolity(String)),
+    INDEXø NS Null;

@@ -1,0 +1,2 @@
+WITH 'Hello'::Enum8('He8', NULL))), t'LL
+TALS;

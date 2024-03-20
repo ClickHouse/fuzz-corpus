@@ -1,0 +1,5 @@
+SELECT a.*, b.* FROM
+(
+    SELECT number0
+) AS a
+ALL INNER JOIN{ s  : ››Äû

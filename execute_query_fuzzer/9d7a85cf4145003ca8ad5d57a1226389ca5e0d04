@@ -1,0 +1,77 @@
+SELECT 123[aN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_*2_3_4;
+SELECT -T -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1„_111;
+SEL; -- Positive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +124;
+SELECT -1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELECT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SEL point (with .) with negative scientific notation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -3_.4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_*2_3_4;
+SELECT -T -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELECT -INF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT 0b1_1_1_1;
+SELECT -0IFIER }

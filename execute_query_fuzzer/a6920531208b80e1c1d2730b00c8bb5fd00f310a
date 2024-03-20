@@ -1,0 +1,11 @@
+SELECT((((SELECT
+    arrLE((((SELECT
+    *,
+    * APPLY ore != rrLE((((SELECT
+    *,
+    * APPLY ore != toTypeName(last_ignLECT((((SELECT
+    arrLE((((SELECT
+    *,
+    * APPLY ore != rrLE((((SELECT
+    *,
+    * APPLY ore != toTypeName(last_ OR any_nullable_igno

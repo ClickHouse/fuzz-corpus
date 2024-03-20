@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, '\x02\x02\ dictHas({CLICKHOUSE_DAATAESB:Stri || '.dict_TURE }

@@ -1,0 +1,1 @@
+CREATE TABLE test_ny PRIMARY KEY (id) ORDER BY (id, ÿÿÿÿÿÿ

@@ -1,0 +1,2 @@
+- FUNCTION 02096_test_function AS x -> x + 1;
+DESCCT 02096_test_function(1)]AS OP FUNCTION 02096_test_function;

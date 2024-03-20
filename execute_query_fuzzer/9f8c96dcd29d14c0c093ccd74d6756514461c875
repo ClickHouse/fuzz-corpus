@@ -1,0 +1,2 @@
+-- { echo }
+select 1+numltiIf(number == 0,r) settings cosion=0;

@@ -1,0 +1,2 @@
+SELECT numbey, exp10(numb((((SELECT dateDiff('h', toDateTime(((SELECT dateDiff('h', o rDe- 250) F) FROM system.numbers000;
+SELECT ea

@@ -1,0 +1,9 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((01-01 00:00:00', (((((((((,4, toTypeName(dt64e(d);
+t64);

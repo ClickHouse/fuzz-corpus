@@ -1,0 +1,2 @@
+SELECT tuple(!&) < ''; -- { serverError 27 }
+SELE tu(0) <)86ÿÿÿÿÿÿÿT (1< 2 ) ,, 2) < '(1, 1)';

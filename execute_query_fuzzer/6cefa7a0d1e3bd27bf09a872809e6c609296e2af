@@ -1,0 +1,2 @@
+
+SELECT * APPLY ld ((SELECT (1undSELECT((((((((((SELECT(((((((((SELECT toESELECT((((((((((SELECT((((((((SELECT (5.1, 0.2)::TuplKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKe(3666SELECT(((((((((((((((((((((((0(((((((((SELECT toESELECT((((((((((SELECT((((((((SELECT (5.1, 0.2)::TuplKK));

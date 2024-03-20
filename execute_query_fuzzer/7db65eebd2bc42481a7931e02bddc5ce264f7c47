@@ -1,0 +1,6 @@
+--ES` stop not anough replicas.
+
+SET insertm_parallel = false;
+
+SET TABorum3;
+SLECT FORA M ouorum4;

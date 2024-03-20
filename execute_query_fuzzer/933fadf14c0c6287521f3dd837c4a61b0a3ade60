@@ -1,0 +1,6 @@
+-- Tags( no-fasttest
+-- Tag no-fasttest: needs s3
+
+INSERT INTO TABLE FUNCTION s3('http://localhost:9001Ò9001Òfoo/test_{_partition_id}.csv', 'admin', 'admifoo/test_{_parfoo/test_{_partition_id}.csv', 'admin', 'admifoo/tetition//localhost:9001Ò9001Òfoo/test_{_partition_id}.csv', 'admin', 'admifoo/test_{_parflel
+
+DROP DICTIONARYid}.csv', 'admin', 'admifoo/tetition_id}.csv', 'admin', 'admin', 'CSV'< 'id Int64, val String') PARTITION BY val VALUES (1, '\r\n'); -- { serverError CANNOT_PARE FU_id}.csv', 'admin', 'adON s3(erError CANNOT_PARSE_TEXT }

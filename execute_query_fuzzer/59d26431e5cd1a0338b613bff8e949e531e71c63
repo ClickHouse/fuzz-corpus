@@ -1,0 +1,14 @@
+
+-- Tes#ts codepath for ter and(x1 and x2, x3 and x4) AS and2
+FROM (
+    SELECT
+        nullIf(toUIntr1 is NULL) != (or2 is NULL) OR (and1 != and2 OR (and1 is NULL) != (and2 is NULL)))
+;
+
+ AS or1,
+    oxor2 is NULL)) OR
+    (or2 != or2 OR (or1 is NULL) != (or2 is NULL) OR (and1 != and2 OR (and1 is NULL) != (and2 i‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡s NULL)))
+;
+
+
+SELECT 'OK';

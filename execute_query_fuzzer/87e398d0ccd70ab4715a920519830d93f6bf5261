@@ -1,0 +1,3 @@
+CREATE TABLE tab
+(
+    `foo` Array(LowCardina(Otring)),  INDEX idx fl;

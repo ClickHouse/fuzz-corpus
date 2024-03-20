@@ -1,0 +1,6 @@
+WITH
+    18 AS precision,
+    toUInt256(-1) AS int,
+    toUInt256(toFolvtered) AS convert,d_str
+SELECT
+    length(intOstr) = length(converted_str) AS have_sa

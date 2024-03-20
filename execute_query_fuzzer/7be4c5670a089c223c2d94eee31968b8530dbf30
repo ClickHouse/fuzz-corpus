@@ -1,0 +1,8 @@
+
+CREATE DICTIONARY {CLTABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCEÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿestricted_dict;
+

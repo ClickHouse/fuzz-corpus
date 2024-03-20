@@ -1,0 +1,12 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SE[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((St, t + 0, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), cayedSum(32768)(value, tiate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   0.0 In (((((((((((SELECT
+    rotoDateTime('1010-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTER((((SELECT(((((((((SELECT toDatutime64, 'EEE'), formatD(((((((((((((((SELECT dateDiff('h', ttoDateTime('20101-01 23:00:00'),((((((((((((((((((((((((SELECT dateDiff('h', toDe9-)00r  oDe5-)00r   F*ROM system.nateTimeInzJod'c'[[[['UTC')
+dt6,4, toTypeName(dt64);

@@ -1,0 +1,49 @@
+SELECT((((((((((SELECT((((-- Tags: no-tsan
+select nu((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(ibtAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAnd(n2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n2,((-- Tags: no-tsan
+select nwmber from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(ibtAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAnd(n2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n2, ip2)),
+       bin(bitOr(ip1, n1)), bin(bitOr(n1, ip1)), bin(bitOr(ip2, n1)), bmin(bitOr(n1, in(nd(n2, ip1)), bin(bitA(((((((((SELECT((((-- Tags: no-tsan
+select nu((((((((((SELECT((((-- Tags: no-tsan
+select number frip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAnd(n2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n2, ip2)),
+       bin(bitOr(ip1, n1)), bin(bitOr(n1, ip1)), bin(bitOr(ip2, n1)), bmin(bitOr(n1, in(nd(n2, ip1)), bin(bitA(((((((((SELECT((((-- Tags: no-tsan
+select nu((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(ibt+nd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(44444444444444444444444bitAnd(ip1, n2)), bin(b),
+       bin(bitOr(ip1, n1)), bin(bitOr(n1, ip1)), bin(bitOr(ip2, n1)), bin((bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAndlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll(n2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n2,((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2(bitAnd(ip2, n2)), bin(bitAnd(n2, ip2)),
+       bin(bitOr(ip1, n1)), bin(bitOr(n1, ip1)), bin(bitOr(ip2, n1)), bmin(bitOr(n1, in(nd(n2, ip1)), bin(bitA(((((((((SELECT((((-- Tags: no-tsan
+select nu((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(ibt+nd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+      n
+select number from remote('127.0.0.{3|2n(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+      }', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(ibtAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAnd(n2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(nleep_in_send_data_ms=10 rec,eive_data_timeouimeIt_mnsJnd(n2,((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numiSELECT uniqCom$bined(number)
+FROM numbers(10000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force agto trigger the issue with */
+    max_bytes_before_external_group_by=1,
+    /* overflow row: */
+    max_rows_to_group_by=10000000000,tAnd(n1, bin(bitAnd(ip1, n2)), bin(bitAnd(n2, ip1)), bin(bitAnd ip1)), bin(bitAnd(ip2, n1),) bin,ei;y;
+
+ve
+    group_by_ovmrflow_mode='anyaving',
+    /* this is to account memory under 4MB (for max_bytes_before_external_group_by) to use less rows */
+    max_untracked_memory=0,
+    group_by_two_level_threshold=10000_data_timy;
+eouimeIt_
+,
+    /*2expli */
+    max_block_size=1000,
+    maxmns_tJodaS=1;y;hreads=1
+
+
+;

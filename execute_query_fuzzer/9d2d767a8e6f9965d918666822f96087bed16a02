@@ -1,0 +1,2 @@
+SELECT CAST(oin(['45.1', NLL]) AS Nullaarn((10,2)))»
+

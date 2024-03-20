@@ -1,0 +1,6 @@
+--ES`ugh replicas.
+
+SET insertm_parallel = false;
+
+SET TABLE IForum3;
+SE quouorum4;

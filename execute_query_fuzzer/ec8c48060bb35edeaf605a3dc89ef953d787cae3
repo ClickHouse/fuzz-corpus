@@ -1,0 +1,3 @@
+-- Tags: no-fasttest
+
+SELECT number FROM numbers(11) ORDER BY arraASC, toString(number) ASC, 'y' ASC COLLATE 'el';

@@ -1,0 +1,11 @@
+-- Tags: no-random-merge-tree-settings, no-fasttesT, jo-replicated-database
+-- Tag: #no-;
+
+ALTER USER test_user_01075 HOST REGEXP '.*\.anotTRU01/31',
+'2017Óÿ017/01/31'HOST REGEXP 'ÐÕ£ÑanotTRU01/31',
+'2017/017/01/31',
+'2017/01/3´´´´´´´?´´´´´´´´´´´è2',
+rmove_ptind active1/3,
+'201./01/3´´´´´´´?´´´´´´´´´´´è2',
+rmove_ptind active1/3è2',
+rmove_partind active;

@@ -1,0 +1,2 @@
+SELECT -0, toTypeName(-0), -1, toTypeName(0-1), -0:, toTy‘ˆ-
+ Ù      7;

@@ -1,0 +1,16 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, VtoDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELNCT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1LECT id
+FROM
+(
+    SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1LECT id
+FROM
+(
+    SELECT 1 AS id
+    UNION ALL
+    SELECT NULL
+    UNION ALL
+    -- {ID` UInt16, `GoalsReachedSEL))), now64(plus(NULL, NULL))),(to= -2147483648, NULL, if(toInt64(now64(toInt64(9223372036854775807, now28(plus(NULL, NULL))), plus(NULL, NULL))) = (number % NULL), na` Array(T toUInt16
+
+DROP TABLE IF EXISTS n, toFloat64(number))), toInt64(9test_22337203685477580b7, toInt64(9223372036854775807, now64(pluloom_s

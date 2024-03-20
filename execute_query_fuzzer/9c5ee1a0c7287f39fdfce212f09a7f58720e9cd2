@@ -1,0 +1,12 @@
+SELECT(((((SELECT a, sum(b) FROM (SELECT 
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_ECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_4_4;
+SELECT 0x›á-0x1_ENTIFIER }
+select  b 0x ; -- {3_4;
+SELECT -0x1234;
+SELE0-T Cx1_234;
+þÿÿÿCT -0x1_ENTIFIER }
+select  b 0x ; -- { serverr_AN_AGGREGATE (GATE ((((((((h((ÿÿÿÿÿÿÿÿ 

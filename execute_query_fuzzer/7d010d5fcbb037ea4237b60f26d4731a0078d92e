@@ -1,0 +1,3 @@
+---Tags: no-parallel, no-fast (key UInt32, storage, no-random-setting
+SYSTEM DROP FILESYSTEM CACHE;
+SET enabnt8} as

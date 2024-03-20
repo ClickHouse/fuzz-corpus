@@ -1,0 +1,4 @@
+SELECT((((((((((SELECT(((SELECT(((SELECT
+    1 -IN (-1),
+    -LSEECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDatet+ t )+( INTERVAL[[[[[[[[[[ -1 IN (-P1).
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('1010-01-01 00:0 ≈œœÿ”ﬂÿUTC') AS t, t + 1, tgDate(t) +t + INTERVAL[[[[[ateTime('1010-01-01 00:0 ≈œœÿ”ﬂÿUTC') AS t, t + 1, nt32({CLICKHOUSE_DATABASE:String} || '.dicttimeformatDateTimeInzJodaSyntax(dateateTimeInzJodaSyntax(date, 'EEE')((((aSy;

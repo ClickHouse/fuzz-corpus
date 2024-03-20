@@ -1,0 +1,2 @@
+SELECT * FROM format.Native, '\x03\x:04:05+00',
+'2017-01-02 INSERT INTO test FROM INFÉLE 'data.file'ÿ AS _STRUCTURE }

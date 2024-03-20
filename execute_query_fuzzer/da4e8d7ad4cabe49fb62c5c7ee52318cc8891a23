@@ -1,0 +1,21 @@
+SELECT *
+FROM
+h
+ #  WITH
+
+   (
+  (  WITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 2 AS a, 2 A from numbevalue limit 4 with ties) O08213401008ED706EA0A9F1300722ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ8Fÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ USING
+        (
+      SELECT 2 AS a4 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ALL
+     SELECT 1 AS a, 2 AS b FROM650BC18F7DE0B00FAAF43E7ect * from numbevalue limit 4 with ties) O08213401008ED706EA0A9F1300722ÿÿÿÿÿ a, b;

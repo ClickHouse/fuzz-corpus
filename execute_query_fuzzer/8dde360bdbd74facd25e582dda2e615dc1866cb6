@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT 1) SAMPLE 1.WITH * APSELECT (0, 2) IN ((1, (2............., { ø 2;SE

@@ -1,0 +1,3 @@
+-- Tag
+
+SELECT decrypt('a'); --or 01 }

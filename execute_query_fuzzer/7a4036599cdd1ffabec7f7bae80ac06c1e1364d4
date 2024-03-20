@@ -1,0 +1,3 @@
+-- Tao-paralel
+
+DROP ROLE IF EXISTS r1_01293, r2_01293, r3_01293, r093, r5_01293;

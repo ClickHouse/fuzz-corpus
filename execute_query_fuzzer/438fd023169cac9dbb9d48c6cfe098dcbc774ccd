@@ -1,0 +1,4 @@
+SELECT
+    *,
+    * APPLY (toTypenullable_n, c¢ndrs(09999)
+);

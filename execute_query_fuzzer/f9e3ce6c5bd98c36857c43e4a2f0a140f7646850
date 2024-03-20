@@ -1,0 +1,3 @@
+--https://github.com/ClicClick-ouse/issues/57086
+SELECT
+    'limit w/ GROUP BY'  SETTINGS limi = 2, allow_exal_analyzer = 1;

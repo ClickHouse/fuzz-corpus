@@ -1,0 +1,2 @@
+WITH * APPLY lambCT (SELECT (1, 2) IN ((1, (2, 3)), (1 + 1, 1)); --8, 0), (NULL, NULL×ÖÄ–`X_ERROR }
+rror 53 SELECP *Y lL PPa(x); -- { ø

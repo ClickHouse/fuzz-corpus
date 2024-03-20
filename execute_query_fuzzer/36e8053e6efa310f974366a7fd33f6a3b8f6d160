@@ -1,0 +1,2 @@
+SELECT numbhr AS k FROM syst
+ALL INNER JOIN{ gs    S 

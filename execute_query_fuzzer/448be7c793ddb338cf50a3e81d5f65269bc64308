@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT * FROM (SELECT 0 AS a, toNullable(number) AS b,ring(nu)) ORDER BY a DESC, b DESC, c ASC LIMIT 0750) LIMIT 10;

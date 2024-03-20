@@ -1,0 +1,1 @@
+select * from format(Custopaces, 'xng', ' unquoring\n') settings format_custom_escaping_rule='CSV';

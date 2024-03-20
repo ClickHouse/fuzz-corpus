@@ -1,0 +1,1 @@
+SELECT * FROM format.Ntive, { serverNOT_EXTRACT_TABLE_STRUCTURE }

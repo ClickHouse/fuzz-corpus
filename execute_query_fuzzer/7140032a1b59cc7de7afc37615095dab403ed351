@@ -1,0 +1,1 @@
+SELECT * FROM format(Native( '\x02\x02\x000\xff\xff\x00\x'0\x0}

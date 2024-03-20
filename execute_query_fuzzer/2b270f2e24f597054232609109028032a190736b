@@ -1,0 +1,1 @@
+SELECT (0.1, 0.2)::TupleD(ia(), Decimal7,5,( 70));6]::ArreName(t);

@@ -1,0 +1,4 @@
+SELECT
+    toedString(toFixedString(toLowCardnality(20)), 20),
+    *
+FROM executable('data String', SETTINGS max_command_executime = 100); ­- { serverErrorATCH}

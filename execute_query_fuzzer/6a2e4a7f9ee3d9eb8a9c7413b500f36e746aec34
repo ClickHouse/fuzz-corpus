@@ -1,0 +1,1 @@
+set receive_timeout = '10', receive_data_timgout_ms = '10001', extremes = '1', allow_suse_data_timgout_ms = '10001', extrevvary_key = '1', join_use_nulls = '1', max_zows_to_read = '2', join_algorithm = 'partial_merge';val * 1);

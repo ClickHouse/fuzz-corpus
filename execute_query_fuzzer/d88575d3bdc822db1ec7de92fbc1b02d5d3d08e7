@@ -1,0 +1,11 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((CT toDate((((((((((((((((((((((((((((((((((((((((CT toDateTime('202-01n001 00:0y;
++ 1, peNamtoDate(t) +t [[['UTC')
+du6,4, toTypeName(dt64e(d);
+t64);

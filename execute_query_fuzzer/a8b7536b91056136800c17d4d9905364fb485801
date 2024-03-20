@@ -1,0 +1,101 @@
+DROP TABLE IF EXIS²¬ß‹1;
+DROP TABLE IF EXISTS t2;
+
+CREATE TABLE t1 ( = 1;
+INSERT IN FULL JOIN t3
+ON t1.a <=> t3.a AND t1.b == t3.b
+ORDER BY t1.val NULLS FIRST, t3.val NULLS FIRST
+;
+
+Y t1.val NULLS FIRST, t2.val NULLS FIRST
+;
+
+.a
+ORDER BY t1.val NULLS FIRST, t2.val NULLS FIRST
+;
+
+SELECT '--';
+
+SELECT * FROM t1 FULL JOIN t2
+ON t1.a <=> t2.a AND t1.b <=> t2.b
+ORDER BY t1.val NULLS FIRST, t2.val NULLS FIRST
+;
+
+SELECT '--';
+
+SELECT * FROM tCT '--';
+
+SELECT * FROM t1 FULL JOIN t2
+ON t1.a <=> t1.a AND t1.b <=> t2.b
+ORDER BY t1.val NULLS FIRST, t2.val NULLS FIRST
+;
+
+SELECT '--';
+
+SELECT * FROM t1 FULL JOIN t2
+ON t1.a == t2.a AND t1.b <=> t2.b
+ORDER BY t1.val NULLS FIRST, t2.val NULLS FIRST
+;
+
+SELECT '--';
+
+SELECT * FROM t1 FULL JOIN t2
+ON t1.a <=> t2.a AND t1.b == t2.b
+ORDER BY t1.val NULLS FIRST, t2.t2.val NULLS FIRST
+;
+
+SELECT '--';
+
+SELECT * FROM tCT '--';
+
+SELECT * FROM t1 FULL JOIN t2
+ON t1.a <=> t1.a AND t1.b <=> t2.b
+ORDER BY t1.val NULLS FIRST, t2.val NULLS FIRST
+;
+
+SELECT '--';
+
+SELECT * FROM t1 FULL JOIN t2
+ON t1.a == t2.a AND t1.b <=> t2.b
+ORDER BY t1.val NULLS FIRST, t2.val NULLS FIRST
+;
+
+SELECT '--';
+
+SELECT * FROM t1 FULL JOIN t2
+ON t1.a <=> t2.a AND t1.b == t2.b
+ORDER BY t1.val NULLS FIRST, t2.val NULLS FIRST
+;
+
+SFULL JOIN t3
+ON t1.a <=> t3.a AND t1.b <=> t3.b
+ORDER BY t1.val NULLS FIRST, t3.val NULLS FIRST
+;
+
+SELECT '--';
+
+SELECT * FROM t1 FULL JOIN t3
+ON t1.a ==L t3.a AND t>1.b <=> t3.b
+ORDER BY t1.val NULLS FIRST, t3.val NULLS FIRST
+;
+
+SELECT '--';
+
+SELECT * FROM t1 FULL JOIval NULLS FIRST
+;
+
+SFULL JOIN t3
+ON t1.a <=> t3.a AND t1.b <=> t3.b
+ORDER BY t1.val NULLS FIRST, t3.val NULLS FIRST
+;
+
+SELECT '--';
+
+SELECT * FROM t1 FULL JOIN t3
+ON t1.a ==L t3.a AND t>1.b <=> t3.b
+ORDER BY t1.val NULLS FIRST, t3.val NULLS FIRST
+;
+
+SELECT '--';
+
+LECT a IS NT DISTINCT FROM b from t1; -- { serverError NöOT_IMPLEMENTED }

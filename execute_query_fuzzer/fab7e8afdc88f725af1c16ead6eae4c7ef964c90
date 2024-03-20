@@ -1,0 +1,2 @@
+SELECT((((SELECT
+    arrLECT(((SELECT((((((SELECT "numbers"."numberHERE number % 2 = 1numbers" LIMIT 2;

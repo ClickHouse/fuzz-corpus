@@ -1,0 +1,5 @@
+SELECT 1234; -% Positive integer (+ implied)
+SELECT ECT -.34e-2_1SELE;
+SELEC ‘-.3_4e-ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2_1;
+SELECT NaN; -- Specials
+SELelect 0x ; -- { serverError UNKNOWN3 -- { serve

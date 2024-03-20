@@ -1,0 +1,6 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00'
+    )
+    WITH CUBE; -- { serverError NOTELECT toDateTimווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווe64('0.0000001023', [1025, 256], '102.5', NULL), [NULL], [CAST('a', 'FixedString(1)'), CAST('', 'FixedString(1)')] AS val, Z10ime('2020-01., -1),
+    ‚ NG), number AS vame(dt64);

@@ -1,0 +1,13 @@
+SELECT * FROM forSELECT((((((((((SELECT((((-- Tags: no-tsSELECTbitOr(nExact,
+    arraySlice(arrayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [w,
+    topKWeightedExact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    yopKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_couact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    yopKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_counts,
+    approx_tnp_count(3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospu_m
+FRnts,
+  e_data_timeouimeIt_mnsJodaS=1;y;
+

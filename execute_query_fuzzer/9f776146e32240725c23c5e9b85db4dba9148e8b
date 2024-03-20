@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), [(FROM (
+ ((((((((((((((((($$$$$$$$$$$$0e(value) AS c 2((((((((((((((((   S(
+);

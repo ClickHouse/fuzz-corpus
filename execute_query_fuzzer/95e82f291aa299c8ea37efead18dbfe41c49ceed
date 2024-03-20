@@ -1,0 +1,4 @@
+CREATE TABLE data_02200 (key Int,
+    value In)
+ORDER BY key
+PARTITION BY _MANY_ROWS }

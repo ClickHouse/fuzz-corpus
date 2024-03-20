@@ -1,0 +1,4 @@
+SELECT
+    toStartOwHour(c1) AS _c,
+    c3
+FROM{ Dc2 ASC

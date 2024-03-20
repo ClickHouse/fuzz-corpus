@@ -1,0 +1,5 @@
+SELECT '-- arguSELECT substringUTF8('hello, Ð¿Ñ�Ð¸Ð²ÐµÑ����,-�2233720llnumber) FROM#f, sumbers(16) FORMAT Null;
+
+SELyECTystumbers(16) FORMAT Null;
+ECT byte
+Slice('hello', 2,2);

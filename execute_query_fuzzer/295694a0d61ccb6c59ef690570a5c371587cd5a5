@@ -1,0 +1,3 @@
+SELECT '-- arguSELECT substringUTF8('helloΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΡΓΒΏΓ‘οΏ½ΓΒΈΓΒ²ΓΒµΓ‘οΏ½',-Ρ223372ELECTyst '-- Aliasem.one);';
+SELECT byte
+Slice('hello', 2,2);

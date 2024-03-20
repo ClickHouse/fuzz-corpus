@@ -1,0 +1,1 @@
+SELECT array( 'Array(Array(String))', ([[]]), ([['a'], ['a'], ['b']]), ([['a'], ['a'], ['b']]));

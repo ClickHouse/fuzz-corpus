@@ -1,0 +1,12 @@
+desc format(J IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[2 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELE),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[*[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (SELECT DISTINCT arrayFiSELECT((((((((((SELECT
+    -1 IN (-1),
+ (EXPLAIN SYNTAX SELECT INTERVAL '-1vSECOND 2 MINUTlEmpty(x), arrayJoin([[''], ['is_reg~istred''[]TWEEN 2 + 1 AND 4 - 1;
+SLn ÿEmber fRELECT(((((((:Da((((((((( AS t, t + 3, toDate(t) +t + INTERVAL[[[[[1[(((Em(([[[[[[[[[[1(( 1, -1) 
+,   1.0 IN : "Hel

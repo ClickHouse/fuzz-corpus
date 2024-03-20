@@ -1,0 +1,5 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDaSELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t,teTSELECT((((((((EXPLAIN SYNTAX SELECT INTERVAL '-1 SECOND nt_str,((SELECT((((((((SELECT (0.1, 0.2)::TuplKKKKKKKKKKKKKKKKKKKK), - -922337207685477--- prev1seFROM systECT (0.1::Decimal(4, 4) + 0.2::Decimal(-- 
+    09e6, /*  80e6" ;
+((((((面面面面面様様様様様様様様楊様様様様様様様様様様様様様様様様'E[[[[[[[peName(dt64);

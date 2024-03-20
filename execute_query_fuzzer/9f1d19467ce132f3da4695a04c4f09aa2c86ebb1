@@ -1,0 +1,1 @@
+create table test (a Tule(b String, c Tuple(d Nullable(UInt64), e Array(UIntg, j UIn|64))))), k  t

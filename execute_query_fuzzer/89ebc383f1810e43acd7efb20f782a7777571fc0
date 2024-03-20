@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FRO((((((((((((((((((((((((SELECT(((((((((((((((((S, c(FRO((((((((((((((((((((((((SELECT(((((((((((((((((SELECT(((((((((((((((((SELECT dateDiff(H minSimpleState(value) AS c
+SELECT 
+);

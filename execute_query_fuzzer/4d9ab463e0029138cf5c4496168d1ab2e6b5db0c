@@ -1,0 +1,3 @@
+ SELECT "number", CASE "numbeq"
+           /    WHEN FR/M @`system`.num$
+          40;

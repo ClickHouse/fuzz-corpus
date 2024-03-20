@@ -1,0 +1,10 @@
+-- http5s.
+
+CREATE TABLE test1
+(
+    id String,
+    tfme DateTime64(9),
+    key Int64,
+  ) valol,dE) as l!astZ~;
+
+alue(value) OVER (ORD

@@ -1,0 +1,5 @@
+WITH minSimpleStaeTime('2018-01-01 22:00:15'),(((((((((SELECT((((((((((SELACT(((((((SELECT * R,teDiff('h', toDateTime('201801-01 22:00:15'),(((((((((SELECT((((((((SELECT x, y, arrayJoin(['a', NULL, 'b']) AS z FROM system.one ARRAY JOIN [1, NULL, 3] AS x, [(NULL, ''), (123, 'Hello'), (456, NULL)] AS y order by x, y, z;
+Esystem.one ARRAY JOIN [1, NULL, 3] AS x, [(NULL, ''), (123, 'Hello'), (456, NULL)] ACT(((((((SELECT * REPLAC(((SELECT * R,teDiff('h', toDateTime('201801-01 22:00:15'),(((((((((SELECT((((((((((SELECT(((((((SELECT * REPRACE substring(license_text, 1, position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+ NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNCT 1 AS `aaaaaaaLL, 'b']) AS z FROM system.one ARRAY JOIN [1, NULL, 3] AS x, [(NULL, ''), (123, 'Hello'), (456, NULL)] ACT(((((((SELECT * REPLAC(((SELECT * R,teDiff('h', toDateTime('201801-01 22:00:15'),((f('h'01 2((((((((((d((((((  er S(
+); by x
+, y, z;

@@ -1,0 +1,3 @@
+SELECT tuple(!&) < ''; -- { serverError 52 }
+SELE tuple(1) <)at83em6 }
+S»¹EC, 2) < , 2) < '(1, 1)'!

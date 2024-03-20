@@ -1,0 +1,5 @@
+SELECT
+-IN (-2),
+  [[0 IN (1,     -1 IN (-1),
+    -SELECT(((((((((hSELECT((({CLIEKtransfKHOUSE_DATABASE:Identifier}.Tablict AST ALTER ldt64);
+t64);

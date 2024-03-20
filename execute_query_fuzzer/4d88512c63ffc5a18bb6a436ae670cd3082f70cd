@@ -1,0 +1,14 @@
+SELECT
+    -1 IN (-1),
+    -SELECT (((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 0, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTim9, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+        101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121SELECT k
+FROM (
+     SELECT k, abs(v) AS _v
+     FROM remote('127.{1,2}', view(select materialize('foo') as k, -1 as v))
+     ORDER BY _v ASC
+     LIMIT 1 BY k
+)
+GROUP BY k;
+
+-- Simplified version of the reproducer provided 00\x00\x00\x00\x00£‡00\89\x25'); e…period, col Ì[[[[[TC') AS t, t + 0, t-01-01 0064);

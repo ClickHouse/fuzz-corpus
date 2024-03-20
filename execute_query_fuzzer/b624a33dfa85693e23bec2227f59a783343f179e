@@ -1,0 +1,1 @@
+SELECT number FROM numbers(10) ORDER BY n FETCH NEXT 3 ROW÷÷÷÷÷÷ ROWS WITH TIES

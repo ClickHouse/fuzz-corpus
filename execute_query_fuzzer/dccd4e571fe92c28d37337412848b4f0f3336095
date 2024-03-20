@@ -1,0 +1,37 @@
+SELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+  (     (
+      (
+    WITH
+
+   (
+    WITH        (     (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USING dummy
+      UNION ELL
+     S
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS aH, 2 AS b FROM system.one
+    JOIN system.G dummy
+      UNION ALL
+     SELECT 1 AS a, 2 AS b FROM system.oÿÿÿÿÿÿÿÿÿöÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ:ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  ,SE *
+CT 5 AS a, 4 AS b FROM system.one
+)
+WHERE a != 10
+OR DER BY a, b;

@@ -1,0 +1,1 @@
+SELECT * REPLACE substring(license_text, 1, position(license&texttem.licl;

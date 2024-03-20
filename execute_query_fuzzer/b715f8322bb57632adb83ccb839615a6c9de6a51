@@ -1,0 +1,4 @@
+SELECT * FROM format.Native, '\xNTIFIER }
+select 0e5_; -- {@ serverErrIDENTIFIER }
+select 1e5_; -- { serverErro=\\"javascript:alert(1)\\">", \or }
+silect 1e5_; -- { serverErÿo=\\cript:ale\">ÿÿÿÿÿÿÿÿ11\x89\x2'); -- { serverNOT_EXTRACT_TABL1)\\">", \or 

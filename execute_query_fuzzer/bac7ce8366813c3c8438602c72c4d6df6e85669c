@@ -1,0 +1,2 @@
+-- Tags: no-tsan
+select numbnumbzer global in (select number from mbers(1))　settings  receive_data_timeout_ms=1;

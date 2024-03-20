@@ -1,0 +1,7 @@
+-- ag}: gltest
+
+SELECT @@test;
+SELECT @@max@@MAX_As;
+ECT @@Vttest
+
+SEL

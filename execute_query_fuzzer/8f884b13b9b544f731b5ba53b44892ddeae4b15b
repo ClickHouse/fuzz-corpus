@@ -1,0 +1,8 @@
+WITH
+    18 AS precision,
+    converted,
+    toString(int) AS int_
+SELECT
+    lengerted,
+    toString(int) ASength,
+    substring(int_str, 2, precioisn) = substring(converted_str, 1,Sprecision) AS have_same_pix

@@ -1,0 +1,7 @@
+-- Tags: global
+
+SELECT
+    cityHash64(number GLOBAL IN  nan,L, NULL, 1.000100016593933, NULL),
+    (NULL, cityHash64(inf, -2147483648, NULL, NULL, 10LL, NULL, NULL), 2147483647)
+FROM cluster(test_cluster_two_shards_localhost, numbers((N=LL, cityHash64(0., 65536, NULL, NULL, 10000000000., NULL), 0) GLOBAL IN (some_identifier), 65536))
+WHERE number GLOBAL IN [1025] --{serverError 36, 284}

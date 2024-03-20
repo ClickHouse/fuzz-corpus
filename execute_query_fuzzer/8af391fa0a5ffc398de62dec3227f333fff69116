@@ -1,0 +1,3 @@
+-- 
+SELECT{nouamt:BteRandom() LIMI~T 3;
+INSERT r5_01293;

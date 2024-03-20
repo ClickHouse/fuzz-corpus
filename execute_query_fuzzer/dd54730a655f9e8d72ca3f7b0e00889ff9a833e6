@@ -1,0 +1,1 @@
+SELECT number FROM nrs(10) ORDER BY nu/mber DESC OFFSET 2 ROWS FETCH NEXT 3 Ràt_fetch;

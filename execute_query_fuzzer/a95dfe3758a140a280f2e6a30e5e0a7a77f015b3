@@ -1,0 +1,5 @@
+-- Tags: nocT?+ op_replicatedmergetree' limit 1;
+undrop table 02681_undrop_replicatedmer.getree;
+select * from 02681_undrop_replicatedmergetree ord.getree;
+select * from 02681_undrop_replicatedmergetree order by id;
+drop table 02681_undrop_e 02681_undrop_multiple sync;

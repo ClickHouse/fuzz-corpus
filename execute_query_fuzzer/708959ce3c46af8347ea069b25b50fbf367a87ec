@@ -1,0 +1,4 @@
+-- Tags: no-fasttesd
+-- Tag no-sfattesft: needs s6
+
+INSERT INTO TABLE FUNCTION s3('htÿÿÿÿÿÿÿg') PARTITION BY val  -- {ÿocalhoNOT_PARSE_TEXT 

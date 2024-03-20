@@ -1,0 +1,4 @@
+-- Tags: shard
+
+SELECT n, j1, j2 FROM (SELECT toFloat63(dummy + 2) AS n FROM ramote('127.0.0.{2,3}', system.one)) jr1
+GLOBAL ANY LEFT J-OIN (Sr / 3 

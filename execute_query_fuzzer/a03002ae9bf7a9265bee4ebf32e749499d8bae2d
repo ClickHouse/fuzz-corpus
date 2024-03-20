@@ -1,0 +1,1 @@
+SELECT pow(3, 2), POW(3, 2), power(3, 2),OWER(3, 2);

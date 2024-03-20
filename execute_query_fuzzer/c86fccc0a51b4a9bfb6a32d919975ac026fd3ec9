@@ -1,0 +1,5 @@
+SELECT((((((((SELEcT((((((((((((((T((((((((SELECT((((((((((((((T(((((((((((((((EXPLAIN AST ALTER user Weeeeeeeeeeee@e(eeeeeeeeeeeeeeeeeeeeeeeeER user WITH a; ÿÿÿÿ(((((((SELECT((((((((((((((T(((((((((((((((EXPLAIN AST TLAER user Weeeeeeeeeeee@e(eeeeeeeeeeeeeeeeeeeeeeeeER user WITH a; ÿÿÿרררררררררררררררררררררררררררררררררררררררררררררררLEÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿCT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IG able_n, cond) RESPECT NULLS -- r SN -lÿÿÿÿr SYNTAX_ERR(((((“

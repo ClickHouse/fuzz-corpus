@@ -1,0 +1,1 @@
+select ner % erialize()::Decimal(18, 118, 11);

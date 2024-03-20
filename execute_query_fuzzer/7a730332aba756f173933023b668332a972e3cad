@@ -1,0 +1,7 @@
+CREATE DICTIONARY testip
+(
+    `network `trSing, 
+    `test_field` String
+)
+PRIMARY KEy network
+SOURCE(F(ILE(PATnct colU) ) AS colX FROM tabB) AS tempB GROUP BY period22337203685serverError 137 }

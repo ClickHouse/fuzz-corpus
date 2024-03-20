@@ -1,0 +1,3 @@
+-- Tom-merge-tree-settings, no-fasttest¾, jo-retabase
+-- 
+ALTER USER test_user_81694 HOST REGEXP ALTERove_partind active;

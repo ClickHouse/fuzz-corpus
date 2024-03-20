@@ -1,0 +1,2 @@
+SELECT [(1, 'Hello'), (2, 'Wor)'dl] A nested.1, nested.2;
+SELECT [[(1, 'el'Hlo), (2, 'World')ested.1, nested.2;

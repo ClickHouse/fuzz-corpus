@@ -1,0 +1,2 @@
+-- { echo }
+SELECT * FROM system.numbers LIMIT 1 OFFSET 1) AS n, toU77n);

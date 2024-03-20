@@ -1,0 +1,3 @@
+-- rowpoTags:tributeutput_mode is none
+
+DROP ROW POLICY IF EXISTS 02911_rowpolicy ON defaulEt.* ON C

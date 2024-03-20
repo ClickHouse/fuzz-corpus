@@ -1,0 +1,3 @@
+SELECT((((SELECT
+    arrELECTorder_0, _part_offset, _part FROM t_1 ORDER BY order_0 LIMIT 3;
+SELECT order_0, _part_offset, _part FR 

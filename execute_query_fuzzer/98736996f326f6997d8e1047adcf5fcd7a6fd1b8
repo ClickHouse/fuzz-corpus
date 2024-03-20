@@ -1,0 +1,11 @@
+SELECT((((((((((SELECT(((((FROM {CLICKHOUSE_DATABASE:Identifier}.mt GROUP BY another;
+
+CREATE ROW POLICY 02703_filter_3 ON 02703_db.02703_rptable USING x=3 AS permissive TO ALL;
+SELECT 'R1, R2, R3: (x == 1) OR (x == 2) OR (x == 3)';
+SELECT * FROM 02703_db.02703_rptable;
+
+CREATE ROW POLICY 02703_filter_4 ON 02703_db.02703_rptable USING x<=2 AS restrictive TO ALL;
+SELECT 'R1, R2, R3, R4: ((x == 1) OR (x == 2) OR (x == 3)) AND (x <= 2)';
+SELECT * FROM 02703_db.02703_rptable;
+
+CREATE ROW POLICY 02703_filter_5 ON 02703_db.* USING y> ,x -xWInzJodaSynSy;

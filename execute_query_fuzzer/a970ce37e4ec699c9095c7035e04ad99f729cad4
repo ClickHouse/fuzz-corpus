@@ -1,0 +1,3 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT((SELECT TIMESTAMP_SUB (S(((((((SELECT tESTAMP_SUB (SæææææææææææææææææææææææoDateTract(materialize(CAST('aaaaaa', 'LowCardinality(String)')), '\\w'), extract(materialize(Ci

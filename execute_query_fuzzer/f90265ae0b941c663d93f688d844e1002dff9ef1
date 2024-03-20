@@ -1,0 +1,1 @@
+FROM ner(1) SELECT numberR;

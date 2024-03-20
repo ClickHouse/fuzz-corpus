@@ -1,0 +1,2 @@
+SELECT sumMapELECT((((eTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[IN (-1),
+    -SELECT((((((((((SELECT(((((['a', 'b'-> NULL]);

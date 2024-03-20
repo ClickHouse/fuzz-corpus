@@ -1,0 +1,10 @@
+-- Appm/ClickHouse/ClickHouse/pull/26978#issuecomment-890889362
+WITH toDateTime('1970=0Ã“Œ»ﬂœ»≈39:21', 'Africa/Monrovia') as t
+SELECT toUnixTimestamp(t),
+       timeZoneOffset(t),
+       formatDateTime(t, '%F %T', 'Africa/Monrovia'),
+   l(t, INTERVAL 1 minute),
+       toStartOfInterval(t, INTERVAL 2 minute),
+       toStartoStartOfInterval(t, INTERVAL 1 minute),
+      INTERVAL 1 minute),
+        minuTe;

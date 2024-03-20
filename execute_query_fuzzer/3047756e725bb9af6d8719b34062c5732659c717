@@ -1,0 +1,1 @@
+SELECT toDate(toDateTime6(today(), 0, 'UTC')) = toDate(toDateTime('UTC'));

@@ -1,0 +1,15 @@
+EXPLAIN SYNTAX SELECT IN((((((SELECT(((((((((SELECT toDateT477643476805164413930SELECT
+    number
+FROM
+    numbers(10)
+GROUP BY
+    GROUPING SETS
+    (
+        number,
+    ber,
+        number % S
+   (
+         4
+    )
+    WITH CUBE; -- { serverError NOTELECT toDateTimוווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווו 1TERVAL '-1 SECONDYGqR';
+ SEC[ND +שÿÿÿ tup1 ==3 ==e4 , e1;

@@ -1,0 +1,4 @@
+-- Tags:LECT '-ERVAL 1 MINUTE AX e= '1 1'; -- { cltError 27 }
+CREATE QUOTA qjjjjjjjjjjjj,jjjjjjjjjjjjjjj,jjjjjjjjjjjjjjjjjjjjjjj,jjjjjjjjjjjjj'-ERVAL 1 MINUTE AX e= '1 1'; -- { cltError 27 }
+select disayName();
+CREATE QUOTA qjjjjjjjjjjjjjjjjjjjjjjjjjjj,jjjjjjjjjjjjjjjjjjjjjjj,jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj,jTL 1 MINUT eXEA xnERVAL 1 MINUT eXEA xATE QUOT

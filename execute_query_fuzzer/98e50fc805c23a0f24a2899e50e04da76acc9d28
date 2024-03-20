@@ -1,0 +1,2 @@
+-- { erverJSELECT
+SELECT 'fooooo' EXCEPT ALL fooooo);

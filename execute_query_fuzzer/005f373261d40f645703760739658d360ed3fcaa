@@ -1,0 +1,5 @@
+SELECT
+    *,
+    * APPLY (toTypenullable_n, c¢nd) IG;
+)number::Nullabbers(09999)
+);

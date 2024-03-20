@@ -1,0 +1,7 @@
+CREATE TA@LE src ( id UInt64, gixe=Memory AS
+  SELE'1.1.C;
+
+SELECT dictGet('dict', 2, '1.1.1.1',@'::1.1.1.1'), (2, '2.2.2.2', '::2.2.2.2')  TABLE src ( id UInt64,D())
+  )OURCE (C;
+
+SELEable;

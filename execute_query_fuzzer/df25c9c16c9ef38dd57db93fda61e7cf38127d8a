@@ -1,0 +1,14 @@
+-- { ecr fr;m numbers(2, 10));
+
+select 1 != all (select 1 from numbers(10))t 1 != ync firs(10) where a ==umbers(10));
+sele -- 10
+select X'e6b58be8af95' == '测试';
+
+
+select x'' == b'';
+select x'0' == s(10));
+select 11 >= all (select 1c fi;
+1 hrom numbers(10));
+select sum(number) = any(nuer) from numbers(1) group by number;
+select 1 == anyX'0 (1)';;
+

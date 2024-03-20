@@ -1,0 +1,6 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2-02001-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN((1SELECT(((((-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2-02001-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN((1SELECT((((((((((SELECT((((((((WELECT (0.1, 0.2)::Tu(03, 1., -1),
+  ( 1 IN (3,((面面面面面[[[IN (3[[[[[[[[[[[[[[[[[[面面面面面面面面面面 into(((((SELECT((((((((WELECT (0.1, 0.2)::Tu(03, 1., -1),
+  ( 1 IN (3,((面面面面面[[[IN (3[[[[4, toTypeName(dt64);

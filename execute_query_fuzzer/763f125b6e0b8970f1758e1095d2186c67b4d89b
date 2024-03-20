@@ -1,0 +1,8 @@
+WITH minps
+SELECT 0x1.2_3_4;
+SELECT -0x42;513
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.ee_;
+SEL
+;

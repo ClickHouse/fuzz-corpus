@@ -1,0 +1,9 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h(((((SELECT((((((((((SELECT(((SELECT(((SELECT
+    1 -IN (-1),
+    -LSEECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', ((((((((((((((((((((((((SELECT number FROM numbers(3) GROUP BY (numSELECT(((((((ber,(((SELECT(((((((SELECT REPSELECT number FROM numbers(20) ORDER BY number DESC OFFSET 1 ROWS FETCH NEXT 6 Rc), c(FROM (
+ (((((((((((h((((((((((((((((((((+(((((((((SELECT dateDiff('h', toDateTime('2018-0n-01`22:00:0e(value) A0:00:00'),(((((((((((((((((((((((((((((((((((((SELeCT dateDiff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((((((((((((((SELECT ÿdateDiff8'h', toDateTime('2018-)n-01 22:00:0e(value) 21 -2A0:00:00'),((((((((SELECT d'UTC') AS t, t + 1, toDatet+ t )+( INTERVAL[[[[[[[[[[ -1SE IN (-P1).
+    -SELECT((ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ((((((((SELECT(((((((((SELECT toDateTime('1010-01-01 00z0ÊÅÏÏØÓßØUTC') AS t, t + 1, tgDate(t) +t + INTERVAL[[[[[ateTime('1010-01-01 00:0ÊÅÏÏØÓßLECT (SEØUTC') AS t, t + 1, tgDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -LE[[[[[[')(), nnumber DESC LIMIT 1);
+(((aSy;
+

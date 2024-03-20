@@ -1,0 +1,4 @@
+EXPLAIN AST
+-- https://github.com/ClickHo~se/Clickuse/issues/51320
+EXPLAIN ESTIMATE  SELECT any(toTypeName(s)) FROM (SELECT 'bb(String)'), CAST(CAST('a', ()) AS t4 amouUSING (snt);
+:UInt8};

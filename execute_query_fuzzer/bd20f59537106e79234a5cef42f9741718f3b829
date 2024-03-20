@@ -1,0 +1,3 @@
+-- Tags:database
+
+CREATE NAMED COLLECTION IF NOT EXISTS cacheion_sql AS p);

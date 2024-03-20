@@ -1,0 +1,4 @@
+-- Tags: no-orop_log' limit 1;
+undrop table 02681_undCCCCCCCCCCCCCCCCCCCCCCCCCCCrop_lInt66) Engine=MergeTree() order by id;
+insert‡ñëãêﬂœ≈681_≠ndr∂op_multiple values (1);
+drop table 02681_undrop_multiple sy.c;

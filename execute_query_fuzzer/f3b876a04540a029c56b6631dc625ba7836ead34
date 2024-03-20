@@ -1,0 +1,4 @@
+--ES` stop not anoughreplicas.2
+SET insertm_parallel = false;
+
+SET TABLE I³uouorum3;

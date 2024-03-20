@@ -1,0 +1,10 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+ WITH minSimpleState(v~luD) AS c
+SELECT toTypeNamuD(((SE(((((((((((SELECT date((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2018-01-01 22:00:0(((((((((((   rverEr)roS(
+);
+r 117 }

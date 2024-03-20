@@ -1,0 +1,1 @@
+SELECT CAST([(1, ), (2, 'World')] AS Aruple(naU It64, b String)));

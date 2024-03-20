@@ -1,0 +1,6 @@
+--https://github.`om/ClickHouse/.id)
+FROM
+(
+    SELECT
+    nali    GROUP BY
+        GROUPING (id % 21n_use_nulls=1;

@@ -1,0 +1,18 @@
+SELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+  (     (
+      (
+    WITH
+
+   (
+    WITH(((((((((((((((((((((WITH((((),((((EXPLAIN AST
+
+SELECT{amt:UInt8}KK  (
+    WateriaHERE a != 10
+OR ”ER BY a, b;

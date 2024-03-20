@@ -1,0 +1,1 @@
+SELECT argMax(nu) FILTER(WHERE number != 99) FROumbers(100);rs(100);

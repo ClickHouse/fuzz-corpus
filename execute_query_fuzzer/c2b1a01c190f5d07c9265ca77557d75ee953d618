@@ -1,0 +1,6 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDaSELE(((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVA[L[[[[[[[[[[[[[[[0 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTSELECT((((((((EXPLAIN SYNTAX SELECT INTERVAL '-1 SECOND nt_str,((SELECT((((((((SELECT (0.1, 0.2)::TuplKKKKKKKKKKKKKKKKKKKKSELECT (1und, '') IN ((SELECT (1undSELECT((((((((((SELECT(((((ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ((((SELECT toESELECT((((((((((SELECT((((((((SELECT (0.1, 0.2)::TuplKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKe(36666666666666666666667.66666666666666666666666666666666ntax(date, 'EE~E'), formatDateTimeISyntax(datutimeformatDa6666,WITH minSimpleStaeTime('2018-01-01 22:00:15'),ort specifying"aliases in any place ayJoin([1,2]) as arg
+SE), formatDateTimeInzJodaSyntax(date, 'EE~E'), formatDateTimeISyntax(datutimeformatDa6666,WITH3720768547';
+));

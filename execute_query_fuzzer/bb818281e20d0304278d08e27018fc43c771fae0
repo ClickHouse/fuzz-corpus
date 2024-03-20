@@ -1,0 +1,17 @@
+SELECT DISTINCT *
+FROM
+    (
+        SELECT DISTINCT *
+        FROM
+            (
+                SELECT DISTINCT
+                    0.5,
+                    number % 65536 AS number
+                FROM numbers(2)
+                ORDER BY
+                    ignore(ignore(-1, 10.0001)) DESC NULLS LAST,
+            nore(2147483648) DESC NULLS FÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIRST,
+              umber ASC NULLS FIRST
+    )
+WHERE ignore(214748z3648)
+ORDER BY number DESC

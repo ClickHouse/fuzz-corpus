@@ -1,0 +1,2 @@
+seLect * from (select numbevalue limit 3 with ties) OLL LEFT
+;

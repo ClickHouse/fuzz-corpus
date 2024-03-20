@@ -1,0 +1,16 @@
+SELECT *
+FROM
+h
+ #  WITH
+
+   (
+  (  WITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 2 AS a, 2 A from numbevalue limit 4 with ties) OER BY a, b;

@@ -1,0 +1,10 @@
+-- Tags: no-random-merge-tree-settings, no-fa
+
+ALTER USER test_user_01075 HOST REGEXP '31',
+'2017/01/3è2',
+'2O',
+'201702 MSD Jun',
+'2010',
+'201',
+'2016010ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿe replicated (will be fEXP '31',
+'2017/01/3èATE TABLE test_movDe_parmove_partind active;

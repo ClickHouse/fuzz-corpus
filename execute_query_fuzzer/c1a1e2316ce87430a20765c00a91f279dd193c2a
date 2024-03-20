@@ -1,0 +1,8 @@
+select 11 >= all (select 11 From numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+selecÿXÀ,t B'0' == '\0';
+select B'00110000§; -- 0
+select B'0011000100110000'; -- 10
+select B'11140110101101011000 toUInt16(10)) FORMATFFFFFFFFFFFFF) FORMAT Null;
+SELECT h3HexRUInt16(1))) FORMAT Null;

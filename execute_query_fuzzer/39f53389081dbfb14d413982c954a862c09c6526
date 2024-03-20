@@ -1,0 +1,20 @@
+Simplied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_n
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;ï¬º³ECTLECT -1_2.34;
+SELECT -1_2.3_4;
+SELET 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELEC\ 2_4e21;
+SELetåP34e2_1;
+SELECT 3_4e2_1;
+SE; --
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECTLECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT 34e21; --.) with n}

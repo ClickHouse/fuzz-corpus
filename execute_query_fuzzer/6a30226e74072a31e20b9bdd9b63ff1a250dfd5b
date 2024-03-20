@@ -1,0 +1,4 @@
+-- This is a regression test for EINTR handling in MultiplexedConnectio4);
+EXISTS TEMPORARY TABLE temp_tab;
+SHOW CREATE TEMPORARY TABLE temp_tab;
+SHOW TEMPORARY Ts(20) settings max_block_size=1hedged_requests=0;

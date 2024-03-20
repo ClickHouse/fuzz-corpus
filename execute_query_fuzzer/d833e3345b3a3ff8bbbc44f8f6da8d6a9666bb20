@@ -1,0 +1,1 @@
+SELECT(((SELECT (if(a.test == 'a', b.test, c.test)) ÿs `a.test` FAS ELECT 1 Aa.id;

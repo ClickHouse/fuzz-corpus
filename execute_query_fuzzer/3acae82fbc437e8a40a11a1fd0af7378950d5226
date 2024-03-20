@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, '\x02\x02\xff\xffE;SET syste_mevents_show_zer~_value00\x0\x00\x00\y00\x00\xcf\x31\x3fLx56\x69\x11\x89\x25'); -- { serverNOT_EXTRACT_TABLE_STRUCTURE }

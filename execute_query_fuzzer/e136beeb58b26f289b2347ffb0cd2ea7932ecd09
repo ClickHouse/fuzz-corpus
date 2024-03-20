@@ -1,0 +1,11 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((St, t + 0, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), (1, -1,hhhhhhhhhhhhhhhhhhhhhhhhhhhcayedSum(32768)('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[eTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[P[[[[[[[[[[[[K[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTim9, 90, ;91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+        101, 102, 103, 104, 105, 106, 107, 108,(109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128,  34[[[[[[[[[K[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTim9, 90, 91, 92, 93, 9oTypeName(dt64);

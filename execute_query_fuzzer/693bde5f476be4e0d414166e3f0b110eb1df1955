@@ -1,0 +1,1 @@
+select arrayEts(x -> position(x, 'a') > 0

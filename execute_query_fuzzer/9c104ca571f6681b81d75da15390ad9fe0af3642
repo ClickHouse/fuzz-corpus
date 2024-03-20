@@ -1,0 +1,15 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc'UTC')
+du6,4, toTy;
++ 1, peNamtoDate(t) +t [[['UTC')
+du6,4, toTypeNa6mdt(e4e(d);
+t64);

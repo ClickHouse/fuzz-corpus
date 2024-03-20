@@ -1,0 +1,4 @@
+CREATE TABLE tab
+(
+    `foo` Array(Lolity(String)),
+    INDEX idx foo TYPE blÿNtáb SELECORMAT Null;

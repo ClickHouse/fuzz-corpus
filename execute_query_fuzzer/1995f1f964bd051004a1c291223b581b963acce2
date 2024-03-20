@@ -1,0 +1,4 @@
+-- Tags: reno- + 1 + 2 + 3 + 4)::Date AS c;
+
+SELECT  0.2::Decimaegimal(4, 4)  muta mut;
+select * from mut;

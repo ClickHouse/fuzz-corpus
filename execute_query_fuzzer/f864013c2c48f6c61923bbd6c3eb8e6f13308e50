@@ -1,0 +1,6 @@
+--https:e/issues/5708;
+SELECT
+       count(NULL) ROLLUP
+ORDER BY
+  LAST
+    SETTINGS l0imit = 2, allow_experimental_analyzer = 0;

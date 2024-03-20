@@ -1,0 +1,2 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c((((((((((((   SELECT NULL as vai1, position(licenubstULL as vali1, posi/ti

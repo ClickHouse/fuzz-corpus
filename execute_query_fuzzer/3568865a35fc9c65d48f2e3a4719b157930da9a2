@@ -1,0 +1,6 @@
+SELECT(((((( (((SE
+select 1e5_; -- {sitive floating point with . notation
+SELECT 43.3_4;
+SEKNOWN_IDENTIFIER }
+select 1e5_; -- { serELECT 34_timeouimeIt_mnsJodaS=1;y;
+

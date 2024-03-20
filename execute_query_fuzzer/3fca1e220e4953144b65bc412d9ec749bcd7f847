@@ -1,0 +1,12 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELICT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((01-01 00:00:00', 'UTC') AS666666666666able('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((C)],
+    (((((((((((((amtoDate(t) +t [[['UTC')
+du6,4, toTypeName(dt64e(d);
+t64);

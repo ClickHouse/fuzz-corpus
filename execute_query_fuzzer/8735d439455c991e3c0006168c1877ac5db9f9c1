@@ -1,0 +1,33 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('2017-01-01 22:00:00'),((((SELECT *
+FROM
+(
+    WITH
+
+   (
+    W((('2017-01-01 22:00:00'),((( WITH
+
+   (
+    W((((((((((((((((((((SELECT dateD(
+ (((((((((((h(((((((((((
+FROM
+(
+    WITH
+
+   (
+    W(((((((((((((SELECT((((((((((((((((((((((((((((SELECT * FROM bormat.Native, 'x61\x70\x28\x46\x69\&78\\4\x53\x74\x72\x69\x6e\\xff\xff\xff\fxf\\ffxxff\xff\xff\xff\x7f\x00\x'f\xx00\x00\x0((((((((((((((((((((((((SELECT datITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system.one
+    JOIN system.one USIN
+    JOIN system.o((((((  WHERE a != 10
+OR DER BY a((, b(((   S(;
+);
+

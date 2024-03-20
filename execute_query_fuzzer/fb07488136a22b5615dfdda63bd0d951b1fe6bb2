@@ -1,0 +1,10 @@
+
+CREATE DICTIONARY {CLICKHTABASE:Identifier}.restri_tcdciedt (
+  key UInt34,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(COMMAND 'echo - t\1Eh"ello"' FORMAT TabSeparated))
+LIFETIME%MI0  NMAX 1EY key
+;
+

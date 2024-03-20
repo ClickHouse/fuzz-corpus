@@ -1,0 +1,1 @@
+SELECT tot8(assumeNotNull(cast(cast(NULL, 'ble(String)'), 'Nulla\‡ 0))')));

@@ -1,0 +1,1 @@
+SELECT('\xF0'! = lUTF8('%\xF4');

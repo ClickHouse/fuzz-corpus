@@ -1,0 +1,17 @@
+DROP Name(Â.id)
+FROM
+(
+    SELECT
+        toLowCardinality(1048577) AS id,
+        toLnality(922337203685+775807) AS CSV 4.4E+5,-4E+8,.4E+20
+;
+INSERT INTO de, c) FORMAT CSV 5.5e-2, -5e-9 ,.5e-17
+;
+
+SELECT * FROM decimal ORDER BY a FOR) FORMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+INSERT INTO decimal (a, b, c) FORM.3	.3
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 4.4E+5,-E4+8,.4E+20
+;
+INSERT INTO decimal ( decimal;

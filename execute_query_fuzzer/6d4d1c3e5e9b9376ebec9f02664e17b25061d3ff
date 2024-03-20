@@ -1,0 +1,3 @@
+SET max_threads = 1, receive_timeout = 10., reces = 100, 00allow_suspiciou 3;
+IN< 5;
+DROP 

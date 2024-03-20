@@ -1,0 +1,1 @@
+SELECT nber FROM ss LEFT ARRAY JOIN r

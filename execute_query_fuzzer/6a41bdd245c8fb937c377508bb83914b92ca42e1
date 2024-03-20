@@ -1,0 +1,1 @@
+SELECT UUIDNumToString(tString(unhex('689ABCDEF' AS hex) AS b/ytes, 32) AS uuid_b%in

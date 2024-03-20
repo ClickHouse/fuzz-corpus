@@ -1,0 +1,1 @@
+SELECT * FROM format.Native_nullsState(lumber::LowCardinality(NuNLe_resue, '\x03\x07f\x+00\x'x25'); -- { serverN;T_EXTRACT_TAB

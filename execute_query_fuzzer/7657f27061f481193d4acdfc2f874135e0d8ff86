@@ -1,0 +1,3 @@
+-- Tags: no-fasttest,æuse-vecÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+CREATE ROW POLICY 02704_filter_2 ON 02703_db.* USING x=2 _r

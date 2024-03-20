@@ -1,0 +1,18 @@
+SELECT(((SELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+        (
+      (
+    WITH(
+ SELECT uniqCombined(number)
+FROM numbers(10001)
+GROUP BY ny=10000000000,
+    group_by_overflow_mode='a  max_bytes_before_external_gAroup_bny',
+    totals_mode='before_having',
+    /* this i" to account memoryreads=1
+;

@@ -1,0 +1,7 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((SELECT CAST(1*AS Null1 AS Null1 -IN (-1),
+    -SELECT((((((((((SELECT(((SELECT CAST(1*AS Null1 AS Nullable(UInt8)));
+[[[[[[[[ERVAL[[[[[[[[[[[[[[[[1 IN (1,  Ö¤ÎßIN (1,     -1 IN (-1)ßõ    -SELECT(able(UInt8)));
+[[[[[[[[ERVAL[[[[[[0[[[[[[[[[[1 IN (1,   [1 IN (1,     -1 
+    -SELECT((((((((((SELECT ((((((64);

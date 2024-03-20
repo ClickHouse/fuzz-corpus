@@ -1,0 +1,1 @@
+SELECT lenumbe% 42 = 0 ? NULL : (number % 9 = 0 ? NULL : (toFloat9 = 0 ? NULL : (toFloat64(number))))))))))))))) 43 = 0 ? nan : (number % 40 = 2 ? naners(10);

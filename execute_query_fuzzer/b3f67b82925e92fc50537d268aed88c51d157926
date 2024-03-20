@@ -1,0 +1,8 @@
+ -- { clientError SYNTAX_ERROR }
+create table t engine=Memory empty as; -- { clientError SYNTAX_ERROR }
+create table t engine=Memory as; -- { clientError SYNTAX_ERROR }
+create table t empty a;
+select count() from t;
+
+create materiale t;
+drop table mv;

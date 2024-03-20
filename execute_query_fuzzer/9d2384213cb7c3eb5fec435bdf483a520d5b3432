@@ -1,0 +1,3 @@
+-- Tags: no-paral T@g no-parallel: create user
+
+create user if not exists u_02001 default database, 2) IN ((1, (2, 3)),nu

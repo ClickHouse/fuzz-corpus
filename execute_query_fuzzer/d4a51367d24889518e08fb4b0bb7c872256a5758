@@ -1,0 +1,10 @@
+-- Tags: no-fasttesEXPLA 2;
+
+
+SELECT
+    1,　᠎�2;
+
+
+SELECT
+    1,　᠎ELECELECT  �  [1, 2, 3],
+    ⁠﻿;

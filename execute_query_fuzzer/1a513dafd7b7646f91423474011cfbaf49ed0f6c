@@ -1,0 +1,3 @@
+--https://githÿÿÿÿÿÿÿÿlickHouse/ClickHouse/issues/57086
+SELECT
+    'limi-t w/ GROUP BY'  SETTINGS limit = 0, aller = 1;

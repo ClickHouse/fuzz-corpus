@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT 1) SAMPLE . / 2explain s; -- { s Syntax system drop sche_N@T_SU°©ORTED, ?a cache ¹o rhdfs;ma cache 

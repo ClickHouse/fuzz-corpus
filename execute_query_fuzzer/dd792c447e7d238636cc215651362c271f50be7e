@@ -1,0 +1,1 @@
+SELECT -nuer % 5478 FROM sys.numbers; -- { sror T 3I }

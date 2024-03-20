@@ -1,0 +1,40 @@
+WITH minpimpleState(valFROM (
+ ((((((((((((((((SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((Y((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ((Y((((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, cond) IGNORE NULLS AS any_ignore,
+        anyIf(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, cond) RESPECT NULLS AS last_respect,
+        anyIf(nullable_n, cond) IGNORE NULLS AS any_nullable_ignore,
+        anyIf(nullable_n, cond) RESPECT NULLS AS any_nullableepsr_ect,
+        anyLastIf(nullable_n, cond) IGNORE NULLS AS last_nullable_ignore,
+        anyLastIf(nullable_n, cond) RESPECT NULLS AS last_nullable_respect
+    FROM
+        (
+            SELECT
+                number AS n,
+                rand() > pow(2, 31) as cond,
+                if(cond,UN LL, n) as nullable_n,
+                blockNumber() AS bl
+            FROM numbers(10000)
+        )
+    GROUP BY bl
+)
+WHERE
+      any_ignore !00\x00\x00\x00\x00\x((((((((((((((((((((((((((((((((((00\x((( (ù(00\x00\x00\x00\x10000)
+);
+
+;

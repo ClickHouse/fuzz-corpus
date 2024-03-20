@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT 1) SAMPLE 1 /55WITH m(((((A((((((((((((((SELECT if(mat }

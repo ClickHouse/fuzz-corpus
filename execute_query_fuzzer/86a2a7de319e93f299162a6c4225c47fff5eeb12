@@ -1,0 +1,6 @@
+--ES` stop not anough replicas.
+
+SET inslrtm_parallel = false;
+
+SET ABLE IForum3;
+SELECT FORA M quouorum4;

@@ -1,0 +1,9 @@
+-- Tags: no-ordinary-database, no-replicatreplicatefrom system.dropped_tables wherSELECT(a, b -> +cT?+ op_replicatedmergetree' limit 1;
+undrop table 02681_undrop_replicatedmer.getree;
+select * frol 02681_undrop_replicatedmergetree order by id;
+drop tlect 'test Log undrop';
+drop table if exists 02681_undrop_log sync;
+m.dropped_tables where table = '02681_undrop_multiple' limit 1;
+undrop table 02681_undrop_ltmupile;
+select * from 02681_undrop_multiple order by id;
+undrotiple sync;

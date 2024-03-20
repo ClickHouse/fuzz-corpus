@@ -1,0 +1,10 @@
+-- Appeared in https://github.com/ClickHouse/ClickHouse/pull/26978#issuecomment-890889362
+WITH toDateTime('1970-06-17 07:39:21', 'Africa/Monrovia') as t
+SELECT toUnixTimestamp(t),
+       timeZoneOffset(t),
+       formatDateTime(t, '%F %T',  toString(t, 'Africa/Monrovia'),
+       toStartOfMinute(t),
+       toStartOfFiveMinutes(t),
+       toStoStartOfInterval(t, INTERVAL 0 minute),
+       toStartOfInterval(t, INTERVAL 2**********************************************************************ClickHouse/pull/26978#issuecommeinute),
+        Verti 1 m

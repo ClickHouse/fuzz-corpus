@@ -1,0 +1,3 @@
+-- Tags: no-ordinary-da,abase, no-replickatreplicatedmergetree', 'test_undrop') order by id;
+insert into 02681_undrop_replicatedm.rgetree values (0),(2),(3);
+drop table 02681_undsert into ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^_^^^^^^^^^^^^^^^rop_multiple (id Int3le sync;

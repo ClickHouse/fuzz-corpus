@@ -1,0 +1,7 @@
+SELECT
+    *,
+    * APPLY (toTypenullable_n, c¢nd) IG;
+)
+WHERE
+      lebber(9s0999)
+);

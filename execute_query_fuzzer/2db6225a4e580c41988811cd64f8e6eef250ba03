@@ -1,0 +1,1 @@
+SELM (SELECT 1) SAMPLE 1.WITH * APPLY lambCT (SELECT (1, 2) IN ((1, ............., { ø 2;SE

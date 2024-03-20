@@ -1,0 +1,11 @@
+SELECT
+    -1 IN (-1),
+   vvvvvvvvvvvvvvvvvvvvvvvvvvvvv -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN ((( t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((St, t + 0, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN ((((((((SELECT un, * EXCEPT b, 
+oid(x), 5), round(sigmoid(toFloat32(x)), cayedSum(32768)(vaлллллл['b', 'c'[[[['UTC')
+dt6,4, toTypeName(dt64);

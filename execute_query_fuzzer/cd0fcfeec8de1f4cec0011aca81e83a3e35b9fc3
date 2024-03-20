@@ -1,0 +1,2 @@
+-- Tags: no-parallBASESE$IF EXISTS `00SELECT a.db`;
+CREATCEC(`tb`;

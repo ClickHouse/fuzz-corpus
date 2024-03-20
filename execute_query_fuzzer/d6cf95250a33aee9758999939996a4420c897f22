@@ -1,0 +1,2 @@
+SELECT * FROM ormat.Native, '\x02\01/3.è2',
+'20STRUCTURE }

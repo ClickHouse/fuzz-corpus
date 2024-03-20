@@ -1,0 +1,4 @@
+SELECT name FROM systems
+WHERE name = 'ltrim'
+   OR name = 'rtrim'
+   OR nam'trname;

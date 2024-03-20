@@ -1,0 +1,4 @@
+WITH a AS (SELECT t1.n AS n1, t2.numbers(1) AS t2), b AS (SELECT sum(n1) AS s FROM ROM a)
+SELECT * FROM b AS l, a AS r9
+
+WITH a AS((( r;

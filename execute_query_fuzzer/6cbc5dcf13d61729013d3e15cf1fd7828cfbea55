@@ -1,0 +1,3 @@
+-- Tags: replica
+
+CREATE TABLE mt (v UInt8) ENGINE = ReplicatedMergeTree('/clickh7/mt')

@@ -1,0 +1,4 @@
+-- Tags: shard
+
+SELECT tUInt64, xx, x
+,x,     x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x,nt8(x + 1));

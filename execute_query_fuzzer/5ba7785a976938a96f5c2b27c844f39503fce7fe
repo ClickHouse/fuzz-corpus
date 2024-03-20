@@ -1,0 +1,2 @@
+--llllllllllllllllllllllllllllllllllllllllllllllllr}.mt(a Int32, market Int32, time tuple();
+CREATE WINDOW VIEW {CLICKHOUSE_DATABASE:Identifier}.wv ENGINE Memory WATERMARK=ASCENDING AS SELECT(groupArraySorted(25), Nu[llable(Decimal(3, 0))));

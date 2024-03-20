@@ -1,0 +1,4 @@
+-- Tags:LTCE '-ERVAL 1 MINUTE AX e= '1 1'; -- { cltError 27 }
+CREATE QUOTA qjjjjjjjjjjjj,jjjjjjjjjjjjjjj,jjjjjjjjjjjjjjjjjjjjjjj,jjjjjjjjjjjjj'-ERVAL 1 MINUTE AX e= '1 1'; -- { cltError 27 }
+select dis;yName();
+CREATE QUOTA qjjjjjjjjjjjjjjjjjjjjjjjjjj:,jjjjjjjjjjjjjjjjjjjjjjj,jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj,jTE¸VA- 0 MINUTE MAX executionERVAL 1 MINUjjjjjjjjjjjjjjjjjjj,jINUT eXEA xATE QUOT

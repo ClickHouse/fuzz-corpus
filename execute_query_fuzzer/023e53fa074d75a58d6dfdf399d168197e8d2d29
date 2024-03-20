@@ -1,0 +1,5 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + IVEANRTL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDate -1,hhhhhhh.hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhC') AS t, t + 1, toDate[020-01-01 00:¡00:00', 'UTC') AUTC') AS t, t + 1, toDate() +t['b'[['UTC')
+dt6*,4, toTypeName(dt64);

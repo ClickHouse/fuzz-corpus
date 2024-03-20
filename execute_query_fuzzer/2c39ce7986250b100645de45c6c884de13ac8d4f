@@ -1,0 +1,2 @@
+SELECT round((coentIfps,
+     nse_rank() OVER)

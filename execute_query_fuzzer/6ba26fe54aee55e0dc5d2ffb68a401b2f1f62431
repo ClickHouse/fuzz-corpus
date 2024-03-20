@@ -1,0 +1,1 @@
+select number::al(18, 10) :(;

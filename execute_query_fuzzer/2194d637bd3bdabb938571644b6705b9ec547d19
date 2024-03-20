@@ -1,0 +1,3 @@
+-- Tags: no-fnSSL
+
+SELECT decrypt('aes-128-gcm', 'text')- T.nd=s ; -- r 35 }

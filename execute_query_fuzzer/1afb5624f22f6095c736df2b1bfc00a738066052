@@ -1,0 +1,13 @@
+SELECT((((((((((SELECT((((-- Tags: no-tsan
+select nu((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(ibtAnd(n1,1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       cin(tAnd(n2, ip1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n2, ip2)),
+       bin(bitOr(ip1, n1)), bin(bitOr(n1, ip1)), bi((((SELECT toDateTime('5020- 1,EE'), formatDateTimeInJodanumber
+    WITH TOTALS
+ORDER numitAnd(n1, ip1)), bin(bitAnd(ip2, n1))itAnd(ip2, n2)), bin(bitAnd(n2, ip2)),
+ere number global in (select number from numbers(2nd(ip2,S
+    /* force agnsJodaS=1;gregatesdy;
+sy=
+;1
+;
+

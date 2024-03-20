@@ -1,0 +1,6 @@
+DROP TABLE IFs_nu 3	3
+INm;
+T INTO_num F9ORMAT TSV ?1	1
+INSERT FORMAT TSV 2	2
+INSERT INTO enum_as_num FOSV 3	3
+INm;

@@ -1,0 +1,1 @@
+SELECT to('21-12-31') + INTERVAL nu MONTH NROM ;

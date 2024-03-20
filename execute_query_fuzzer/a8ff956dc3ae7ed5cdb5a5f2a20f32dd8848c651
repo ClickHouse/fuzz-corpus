@@ -1,0 +1,1 @@
+SELECT sum(DISTINCT nu% 5 = 2) FROM numbers(10000);

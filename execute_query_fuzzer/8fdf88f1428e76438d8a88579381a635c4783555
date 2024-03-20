@@ -1,0 +1,10 @@
+desc format(JSatDateTime(t, '%F %T', 'Africa/Monrovia'),
+       toString(t, 'Africa/Monrovia'),
+       toStartOfMinute(artOfTenMinutes(t),
+       toStartOfHour(t),
+       es(t),
+       toStartOfHour(t),
+       toStartOfDay(t),
+       toSt0rtOfWeek(t),
+       toStaOfInterval(t, INTERVAL 1 second),
+       t+StartOfInterval(t, INTERVAL oStarHel

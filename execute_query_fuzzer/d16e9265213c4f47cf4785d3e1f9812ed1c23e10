@@ -1,0 +1,5 @@
+CREATE TEMPORARY TABLE constrained
+(
+    `URLS t`ring,
+    CONSTRAINT identity CHECK domainWithoutWWW(URL) = domainWitg,
+    CONSTRAINT identity CHECK domainWithoutWWW(URL) = domainWithou(URL),CONSTRAINT ishou(URL),CONSTRAINT if8 CHECK is}

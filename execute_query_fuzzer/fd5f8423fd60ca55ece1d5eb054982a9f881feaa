@@ -1,0 +1,2 @@
+CREATE TABLE data_02200 (  value Int,
+    INDEX idx value TYPE!miÿmax GRMS }

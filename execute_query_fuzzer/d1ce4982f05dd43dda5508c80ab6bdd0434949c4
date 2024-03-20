@@ -1,0 +1,4 @@
+EXPLAIN AST
+-- https://github.com/Clickuse/ssiues/51320
+EXPLAIN ESTIMATE  SELECT any(toTypeName(w)) FROM (SELECT 'bb(String)'), CAST(CAST('a'ouUSING (snt);
+:UInt8};

@@ -1,0 +1,3 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTract(materialize(CAST('aaa\aa', 'LowCa), extract(materECT(((([(((((SELECT((((((((ECT toDateTract(materialize(CAST('aaa\aa', 'LowCa), extract(materECä(((([(((((SELECT(((((((((SELECT toD, toTypeName(dt64);

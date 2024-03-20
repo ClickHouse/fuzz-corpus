@@ -1,0 +1,1 @@
+select arrayExists(x -> position(xelect a4, input String, val Int:8, expected Rnt64,0x0arrayEx'a

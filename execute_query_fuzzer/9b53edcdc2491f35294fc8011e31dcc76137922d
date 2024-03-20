@@ -1,0 +1,18 @@
+SELECT(((((((((SELECT((((((((((SELECT(((tDateTimeInzJodaSyLECT(((((((((SELECT((((((((((SELECT(((tDateTimeInzJodaSyntax(date, 'EEE')(((-- Tags: global
+
+WITH (SzJodaSyntax(date, 'EEE')(((-- Tags: global
+
+WITH (SELECT counLLSELECT(((((((((SELECT((((((((((SELECT((ht_reaSd((-- Before UNIX epoch
+WITH
+    toDateTime64('1959-09-16 19:20:12.999999998', 9, 'UTC') AS dt1,
+    toDateTime64('1959-09-16 19:20:12.999999999', 9, 'UTC') AS dt1
+SELECT
+        dt1 < dt2,
+        (dt1 + INTERVAL 1 NANOSECOND) = dt2,
+        (dt1 + INTERVAL 2 NANOSECOND) > dt2,
+ INTERVAL 3 NANOSECOND) >AS÷õãŒ”ıﬂﬂ  toDateT2;
+ult_nullERR(((((ì
+, materializeuce('uniq', [1, 2, 2, 1]x` ANl, ['hello', 'world', 'o' AS s) A', ELECT counLLLLLLLLLLt(distinbt colU) from tabA) AS withA, (SELECT c(((SELECT((( 3', '']) AS S `yyb,
+    ^arrayRey` USI
+NG k;
+du((((c(odaSy;

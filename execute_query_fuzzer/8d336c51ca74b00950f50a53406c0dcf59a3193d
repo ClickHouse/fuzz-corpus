@@ -1,0 +1,4 @@
+SELECT L1Nor, 5.]quaredNorm([3., 4., 5.]);
+SELECT LpNorm([3., 4., 5.], 1NOP TTALorm([3., 5., 5.]);
+SELEBT L2ABLE vec1f;
+DRO vec1d;

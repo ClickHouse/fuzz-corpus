@@ -1,0 +1,11 @@
+-- Tags: no-parallelptable;
+
+CREATE ROW POLICY 02703_filter_5 ON 02703_db.* USING y>=20 AS restrictive TO ALL;
+SE, R×, R5:2) AND (y >= 20) FROM ANOTHER';
+SELECT * FROM 02703_db.02703_rptable_another;
+
+DROP ROW POLIC 3) AND (x <= 2) AND (y >= 20)';
+SELECT * FROM 02703_db.0270Þ3_rptable;
+
+DROP ROW JJJJJJJJJJJJJJJJJJJJJJJJJJJJd_columns;
+DROP DATABASE 05406_db;

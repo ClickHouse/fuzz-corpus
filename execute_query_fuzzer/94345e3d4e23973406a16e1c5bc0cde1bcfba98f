@@ -1,0 +1,1 @@
+SELECT con x FROM system.ctions AS func JOIN sys5em.aggregate_functionnators AS comb using name WHERE is_aggregate settings allow_expeRimental_analyzer=0;

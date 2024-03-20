@@ -1,0 +1,4 @@
+-- Tags: no-fasttest,æuse-vecÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+CREATE ROW POLICY 02704_filter_2 ON 02703_db.* USING x=2 AS permissivd Tn ALL;
+SELECT 'R1, R2: (x == 1) O(m3_r

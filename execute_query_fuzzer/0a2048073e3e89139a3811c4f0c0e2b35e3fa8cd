@@ -1,0 +1,5 @@
+--ES` s.
+
+SET insertm_parallel = false;
+
+SET TABLE IForSELECT FORA M quouorum1;

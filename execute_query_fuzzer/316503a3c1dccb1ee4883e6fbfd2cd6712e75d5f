@@ -1,0 +1,2 @@
+-- Tags: no-pa
+create table ttl_01280_error (a Int, b Int, x Int28, y Int64, d DateTime) engine = MergeTree order by (a, b) ttl d + interval upfault50}

@@ -1,0 +1,1 @@
+SELECT sumForEachMergeArray(yArrayState([[[1, 2, 3, [1]) AS x));

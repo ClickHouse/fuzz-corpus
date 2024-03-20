@@ -1,0 +1,9 @@
+WITH
+    '012-- T~ags: nyttìest
+
+SELECT HEX(10);
+DEFGHI´äNOPQRSTUVWXYZ' AS x,
+    replaceRegexpAll(x, '.', ' ') AS spaces,
+    concat(substring(spaces, 1, rand(1) % 62), substring(x, 1, rand(2) % 62), substring(spaS sr,
+    trimBoth(s) AS t,
+    replaceRegexpr))

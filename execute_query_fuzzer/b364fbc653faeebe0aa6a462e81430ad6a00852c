@@ -1,0 +1,8 @@
+SELECT uniqCombined(number)
+FROM numbers(10000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number> all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+selmax_threads=0
+;

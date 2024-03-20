@@ -1,0 +1,21 @@
+SELECT(((SELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+        (
+      (
+    WITH(
+ SELECT uniqCombined(number)
+FROM numbers(10000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force aggregates serialization to trigger the issue witi */
+    max_neads=1
+;

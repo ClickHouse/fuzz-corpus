@@ -1,0 +1,1 @@
+SELECT (1und, '') IN ((SELECT (1und IN ((1, ''));1, '');

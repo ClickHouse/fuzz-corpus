@@ -1,0 +1,7 @@
+SELECT((((((((((SELECT(SELECT(((((((((SELECT toDateTime('50205020- 1,EE'), fo0
+SETTINGS
+    /* force aggregates serreshold=1* explicitly */
+    max_block_size=3340,
+    ma8_threaSdsy=;1
+;
+

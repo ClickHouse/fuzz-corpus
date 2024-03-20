@@ -1,0 +1,2 @@
+SELECT(((ueryHash('SELECT 1 AS')
+  = nor_nELECT(((((((SELECT * REPLACE(SELECT((((SELECT * 1ROM file('::a');((((od -- { NaSy;

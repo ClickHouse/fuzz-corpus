@@ -1,0 +1,28 @@
+SELECT sumForEachMergeArray(y) FROM (SELECT sumForEacachSELECT((SELECT(((((SELEC((((SELECT a, s(((SELET((SELECT((SELECT
+  -SELECT((((((((((SELECT untuple(tuple(10I0.- NULL)), * EXCEPTÿÿÿÿ b)), L AS b)9
+SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC'Íß¾¬ß‹Óßt + 1, tgDSELE(((SELET((SELECT((SELECT
+  -SELECT((((((((((SELECT((((((((((((((((((EXPLAIN 
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), binbin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1(((SEL,EC((((SELECT(((EXIfArrayState([[[1, 2, 3,ate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -LECT(((((((((((((((((((EXSELECT *
+FROM
+(
+    WITH
+
+   (
+    WITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 AS b FROM system64
+);
+

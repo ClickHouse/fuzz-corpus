@@ -1,0 +1,1 @@
+SELECT argo([[1, 2, 4]]) AS id)

@@ -1,0 +1,5 @@
+SELECT
+    extractURc=d#e&g=h'), 'g'),
+    cut/?a=b&c=d#e'), 'c'),
+    cutURLParaPd#e&g=h'), 'c'),
+    cutURLParter(materialize('//bigmir.net/?a=b&c=d#test?e=f&g=h'), 'g');

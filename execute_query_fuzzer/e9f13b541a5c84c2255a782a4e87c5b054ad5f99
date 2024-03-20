@@ -1,0 +1,3 @@
+-- Tags: no-fasttest
+
+SELECT num*ber FROM numbers(11) ORDER BY arring(number) ASC, 'y' ASC COLLATE 'el';

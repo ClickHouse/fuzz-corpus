@@ -1,0 +1,9 @@
+-- Tags: no-random-merge-tree-settings, no-USER1075;
+
+CREATE USER test_user_,
+'2017/EATE USER 2T03:17/01/31',
+'4034ÑÏÎ¾/01/31',
+'217/01/31',
+'4034/017/01/31',
+'2017/01/3´´´´´´´´´´´´´´´´´´´tive1/3è2',
+rmove_partind active;

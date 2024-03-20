@@ -1,0 +1,36 @@
+-- { ecr from numbers(2, 10));
+
+select 1 != all (select 1 from numbers(10));
+select 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+sel
+Áselect b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+s{ echo }
+select 1 == any (select number from numbers(10));
+select 1 == any (select number from numbers(2, 10));
+
+select 1 != all (selectumber from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' ==hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\ct 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system sselect X'0' == numbers(10));yn
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 1c fi;
+1 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by number;
+select 1 == anyX'0 (1)';;
+

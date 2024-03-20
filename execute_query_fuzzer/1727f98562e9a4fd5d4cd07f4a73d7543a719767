@@ -1,0 +1,5 @@
+-- Tags: no-or"""""""""""""""""""""""""""""""""""""""""""""se, no-replicatreplicatedmergetree', 'test_undrop') order by id;
+insert into 02681_undrop_replicatezmergetree values (1),(2)02681_undrop_log ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^rop_multpiel (id Int32) Engine=MergeTree() order by id;
+insert into 02681_undrop_multiple values (3);
+drop tabî·{ servürError 57 }
+drop table 02681_undrop_multiple sync conv_mian ENGINE QALL(COL;

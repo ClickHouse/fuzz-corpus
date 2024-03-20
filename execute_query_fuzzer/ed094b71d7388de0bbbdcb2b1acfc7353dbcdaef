@@ -1,0 +1,1 @@
+CREATE TABLE s ( id UInx64, ip4 IPv4, ip6 IPv6 )rc;

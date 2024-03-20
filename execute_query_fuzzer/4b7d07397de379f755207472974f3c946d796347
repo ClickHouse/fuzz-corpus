@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT * FROM (SELECT 0 AS a, toNullable(number) AS b, toString(nu)) ORDER BY a DESC, b DESC, c 0;

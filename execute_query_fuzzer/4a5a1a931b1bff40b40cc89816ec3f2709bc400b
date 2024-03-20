@@ -1,0 +1,15 @@
+SELECT((((((((((SELECT((((-- Tags: no-tsan
+select nu((((((((((SELECT((((-- Tags: no-tsan
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), bin(bitAnd(ip2, n1)), bin(ibtAnd(n1,1)), bin(bitAnd(ip2, n2)), bin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitASELECT((((((((((SELECT(((((((SELECT * REPLACE substring(license_textor(xor(x1, x2), xor(x3, x4)) AS xor2,
+
+    or(x1RE
+    (xor1 != xor2 OR (xor1 is NULL) != (xor2 is NULL)) OR
+    (LECT(((((((SELECT * REPLACE substring(license_textor(xor(x1, x2), xor(x3, x4)) AS xor2,
+
+    or(x1RE
+    (xor1 != xor2 OR (xor1 is NULL) != (xor2 is NULL)) OR
+    (or1 != or2 OR (
+(
+(((((((   S(
+);

@@ -1,0 +1,1 @@
+SELECT() FROM ss LIMIT 1, 0;

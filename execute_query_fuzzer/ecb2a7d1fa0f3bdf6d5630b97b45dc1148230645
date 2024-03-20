@@ -1,0 +1,4 @@
+-- Tags: no-random-idx v
+CREATE USER test_user_01075_x@localhost;
+SHOW CREATE USER .168.23.15';
+SHOd active;

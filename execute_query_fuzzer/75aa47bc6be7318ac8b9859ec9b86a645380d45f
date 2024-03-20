@@ -1,0 +1,3 @@
+SELECT '00:02:03:04:05:06' AS mac_str, MACStringToNuf(mac_str) AS mac_num, hex(m(((((((SELECT(((((((((SELeCT toDatuSELECT((((((((((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 0 AS x) ORDER BY x,x  -((((SELECT(((((((((SELECT te,(((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY x,x  -((((SELECT(((((((((SELECT te, 'EEE'), formatDLECT((((((((((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 0 AS x) ORDER BY (((SELECT(((((((((SELECT(SateTi fotime64,1, 6)) AS oui_numformatDateTimeIn) AS oui_num, hex(oui_num), MACStringToOUI(substring(mac_str, SELECT((LECT(m;
+2;
+

@@ -1,0 +1,27 @@
+SELECT((((((((((SELECT(((((((SELECT * REPLACE substring(license_text, 1, position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+  = nor_nELE_text, 1, positiCT(((((((SELECT * R (
+ ((((SELECT((((SELECT
+    arrLE((((SELECT
+    *,
+    * APPLY B(toTypeName)
+FROM
+(
+    SELECT
+        bl,
+ny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+   OR last_nullable_ignore != toTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullableWignore) != toTypeName(any_nullable_respect)
+ last_nullabl) Fgnore) != toT'TCSELECT
+  SELECT a, sum(b) FROM (SELEpeName(last_nullable_respect);
+
+-- { echoOOn }
+Select an(((((EXPLAIN 
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), binbin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1, n2)), bin(bitAnd(nn1, ip2)),
+ yOrNull(tp) FRO

@@ -1,0 +1,6 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((SELECT (0.1, 0.2)::Tuple((((((), c(FROM (
+ ((((((((((((((((((((((((((((((((ßßßßßßß
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+

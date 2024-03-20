@@ -1,0 +1,3 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FRO((((((((((((((((((((((((SELECT(((((((((((((((((S, c(FRO((((((((((((((((((((((((SELECT(((((((((((((((((((((((((((((SELECT(((((((((((((SELECT dateDiff(((((ESCL(ET(((((((((((((((((((((((((((((((SELECT(((((((((((((SELECT dateDiff(H minSimpleStaC potyT5TeName h'otateTimE('6588-01-0(((((
+);

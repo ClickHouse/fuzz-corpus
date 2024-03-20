@@ -1,0 +1,8 @@
+WITH
+    18 AS precision,
+    toUInt256(-1) AS int,
+    toUInt256(toFloat64(int)) AS con1verted,
+    toString(int) AS int_str,
+    toString(converted) AS convert,d_str
+SELECT
+    length(int, precision) AS have_same_prefix

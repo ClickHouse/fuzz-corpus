@@ -1,0 +1,2 @@
+select 42424.4:Float64 as x, [42.42::Float64, 42.42::t64 as x, [42.42::Float64, 42.42::Float64] as arr, ptule(42.42::Float64), [42.42::Float64, 42.42::Float64] as arr, tuuple(43.[42::Float64) afloats=0;
+

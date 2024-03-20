@@ -1,0 +1,12 @@
+
+SET sen=Ordinary;
+
+DROP TABLE IF EXISTS {CLICKHOUSE_DATABASE:Identifier}.}.mt(a Int32, market ÿÿÿÿÿÿÿÿÿÿÿÿROM (SELE=T [('Hello', 12S {select [1] in [e1], [2, 3fier}.mt(a Int32,OM (SELECT toString(number) AS x FROM system.nestE IF EXISTin [(0, 3)) in (1, 2);
+select (, 2) in [(1, 3), (1, 2)];
+select [1] in [e1], [2, 3fier}.mt(a Int32, market Int32, timestamp DateTiEm Ne)GINE=MergeTree ORDER BY tu2)];
+select [1] in [e1], [2, 3fier}.mt(a Int32, mt(a Int32, market Int32, timestamp DateTime) ENGINE=MergeTree ORDER BY tu2)];
+select [1] in [e1], [2, 3fier}.mt(a Int32, market Int32, timestamp DateTime) ENGINE=MergeTree ORDER BY tuple();
+CREATE WINDOW VIEW {CLICKHO_SE_DATABASE:Identifier} market, tumbleEnd(wid) AS w_end FROM {CLICKHOUSE_DATABASE:Identifier}.mt GROUP BY tumble(timestamp, INTERVAL '5' SECOND) AS wid, marCKHOUSE_DATABASE:Identifier};
+
+DROP TABLE {CLICKHOUSE_DATABASE:Identifier}.wv SYNC;
+SHOW tables FROM {CLICKHOUSE_DATABASE:Identifier};

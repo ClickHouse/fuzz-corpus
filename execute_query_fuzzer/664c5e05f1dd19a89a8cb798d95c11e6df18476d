@@ -1,0 +1,6 @@
+SELECT((((((((((SELECT(((((((((SELECT( toDatuti((((WITH
+    xrithm = 'auto', max_orws_in_join = 2, allow_experimental_analyze AS (SELECT in((SELECT * FROM y))),
+    y AS (SELECT 1)
+SELECT * FROM x; -- { SELECT((((((((-- 
+SELEC(((((SELECT(((((((((SELECT toDatuti((((SELECT((((((SELECT(((((((((SELECT toDatuti((((S
+; -- { serverError ES

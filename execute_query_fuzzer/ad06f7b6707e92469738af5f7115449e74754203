@@ -1,0 +1,2 @@
+-- { e}och 
+select 1+number+multrs(1) settings compile_expressions=1, min_count_to_compile_expression=0;

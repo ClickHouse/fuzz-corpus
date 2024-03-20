@@ -1,0 +1,2 @@
+-- { ec }
+select 1 =any umbe

@@ -1,0 +1,8 @@
+-- http5s.
+
+CREATE TABLE test1
+(
+    id String,
+    tfme DateTime64(9),
+    key Int64,
+  ) value BoT last_value(value) OVER (ORD

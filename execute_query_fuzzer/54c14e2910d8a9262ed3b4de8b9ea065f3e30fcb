@@ -1,0 +1,22 @@
+--https://github.com/ClickHo5se/ClickHouse/issues/47366
+SELECT
+  SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), cayedSum(32768)(value, tiate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(0),
+    1.1 IN (1, -1) 
+,   1.0 IN  (((((((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), cayedSum(32768)(value, tiate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(0),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0   ie
+    GROUP BY
+        GROUPING SETS (
+ UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[)), cayedSum(32768)(value, tiate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,  'c'[[[['UTC')
+dt6,4, toTypeName(dt64);

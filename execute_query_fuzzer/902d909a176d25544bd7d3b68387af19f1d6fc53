@@ -1,0 +1,15 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+ WITH mmnSimpleState(v~luD)×AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((projection_name
+   (
+ WITH minSimpleState(valuD
+(
+   `id` USrverEr)roS(
+);
+r 11Ï }

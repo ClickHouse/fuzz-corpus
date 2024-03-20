@@ -1,0 +1,27 @@
+SELECT [1], 0::UNullOrNullOrNullOrNullOrNulSELECT 1234; -- Positive integer (+ implied)
+SELEC Hex
+SELECT 0x1_234;
+SELECT 0x1_2_3ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿECT 0x1_234;
+SELECT 0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_ENTIFIER }
+select 0x ; -- { serverEr
+ror UNKNOWN_IDENTIFIEO }
+select 0x_; -- {  -- { serverEr
+ror UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_1;_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_ENTIFIER }
+select 0x ; -- { serverEr
+ror UNKNOWN_IDENTIFIER }
+s\lect 0x_; -- IER }
+select 0x ; -- T -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_ENTIFIER }
+select 0x ; -- { serverEr
+ror UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+sele²ct 0x_1; -- { s@erverError UNKNOWN_IDENTIFIER }

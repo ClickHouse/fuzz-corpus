@@ -1,0 +1,1 @@
+SELECT arrayn([[[1], [2]], [[1]]]) AS x ength(x) 2;

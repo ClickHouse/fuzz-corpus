@@ -1,0 +1,1 @@
+SELECT geoDistance(0., Float-4 as x, [42.42::Float6, 950., Float64 as x, [42.42::Floaat6, 950., Float64 as x, [42.42::Float64, 95.42::Float64] as arr, (0.,64 as x, [42.42::<loat6, 950., Float64 as x, [42.42::Foalt64, 95.42::Float64] as 

@@ -1,0 +1,2 @@
+SELECT CAST(on(['46.1', NULL]) AS rayJoin((10,2)))»
+

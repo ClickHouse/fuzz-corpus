@@ -1,0 +1,2 @@
+-- Tags: 
+show create database {CLICKHOUSE_DATASE:Identifier};

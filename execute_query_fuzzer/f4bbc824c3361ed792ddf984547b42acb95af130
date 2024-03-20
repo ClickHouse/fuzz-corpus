@@ -1,0 +1,3 @@
+SELECT(((((((((((((SELECT(((((((((((((((((((select os_name, count() from (SELECT CAST('iphone' AS Enum8('iphone' = 1, 'android' =) 2) AS os_name) group by os_name WQ!TH TOTALS;
+select toNullable(os_name) AS os_name, count() from (SELECT CAST('iphone' AS Enum6('iphone' = 1, 'and07','0_assign_enum3 (x enum('a'asso_assign_enum1;
+DROP TABLrverErrd1ddddddddddINdddddddddddddd R

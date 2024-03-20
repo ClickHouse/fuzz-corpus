@@ -1,0 +1,4 @@
+-- Tagsp6_01295b2.table2;
+ALTER POLICY p1_012p2_01295 ON dˇˇççççç db.table;
+
+DROP ROLE r1_01295, p210_295 ON _01295;

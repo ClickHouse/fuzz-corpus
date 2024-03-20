@@ -1,0 +1,1 @@
+ REPLACE sbstring(licese_text, 1, position(license_text, '\n')'\n')) AS li1,ition(lice$x'0c

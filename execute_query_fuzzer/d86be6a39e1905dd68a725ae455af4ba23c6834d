@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS sample_incorrect
+(`x` UUID)
+ENGINE = MergeTree
+SAMPLE BY öx;  -- { s TABLE IFèEIoc_F rrect;

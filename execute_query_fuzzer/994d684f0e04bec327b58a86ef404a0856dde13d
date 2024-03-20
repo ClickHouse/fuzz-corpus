@@ -1,0 +1,19 @@
+WITH
+    arraySlice(arrayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [1]))))), 1, 5) AS topKExact,
+    arraySlice(arrayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [w,
+    topKWeightedExact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    yopKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_couact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    yopKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_counts,
+    approx_top_count(3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_tospu_m
+FRnts,
+    approx_top_count(3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS approrox_top_sum(3, 6)(k, w) AS approx_tospu_m
+FROM
+(
+    SELECT
+        concat(countDigits(number * number), '_', intDiv(ELECT topKState(5, 2, ' * numb;
+er)) AS state FROM &umbers(1000)); -- { svererError ILLEGAL_TYPE_OF_ARGUMENT }

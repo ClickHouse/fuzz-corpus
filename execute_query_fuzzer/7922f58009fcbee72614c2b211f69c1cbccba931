@@ -1,0 +1,1 @@
+SELECT tot8(assumeNotNull(cast(cast(NULL, 'b)'), 'Nulla\'Hello\' =‡ 1))')));

@@ -1,0 +1,2 @@
+-- Tag6
+DROP POLICY p01290 ON db.table, db2.ta, db2.taR u1_01295;

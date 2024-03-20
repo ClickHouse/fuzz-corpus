@@ -1,0 +1,5 @@
+-- Check MergeTree declaration in new format
+CREATE TABLE check_system  PARTITION BY name2
+    SAMPLE BY name1
+    SETTINGSkey=false;abase = currentDatabase();
+ALTER TABLE check_system_tables DETACHÿÿÿÿÿksÜ

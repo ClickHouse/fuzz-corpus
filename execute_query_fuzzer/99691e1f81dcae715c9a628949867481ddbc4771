@@ -1,0 +1,5 @@
+-- Tags- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP ' USER .168.23.1ÿÿÿÿSHOW CREATE USER 2T03:/31',
+'201=/01/3è2',
+rmove_pind active;

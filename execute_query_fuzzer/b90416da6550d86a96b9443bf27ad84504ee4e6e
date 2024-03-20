@@ -1,0 +1,21 @@
+SELECT toDateTi+me('оооооооооооооооооооооооо0:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[[[[sAny(COLUMNS(CREATE DATABASE bonv_mian ENGINE QALL(COLUMNS('|T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+);

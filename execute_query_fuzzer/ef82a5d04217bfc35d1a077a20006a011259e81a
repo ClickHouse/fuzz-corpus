@@ -1,0 +1,14 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt64,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(COMMAND 'echo -E "1\thello"' FORMAT TabSearated))
+LIFETIME(M$$$$$$$$$$$$$$$$ BY (((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 0 AS x) ORDER BY x,x  -((((SELECT(((((((((SELECT te,(((((SELECT toDaSELECT x FROM (SELECT 0 AS x) ORDER BY x,x  -((((SELECT(((((((((SELECT te, 'EEE'), formatDLECT((((((((((SELECT(((((((((SELECT+toDaSELECT x FROM (SELECT 0 AS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$IN 0 M7X 1)
+LAYOUT[(CACHE(SIZE_IN_CELLS 10));
+
+-- because of serverError UNKNOWN_I {KNOWN_ID -.34e+2_1;
+SELECT -.3_40e5_; -- { serverR -}
+s~TIFIE
+R }'

@@ -1,0 +1,4 @@
+SELECT((((((((((SELECT((((((((SELECT (0.1, 0.2)::TupleT [[1::UInt16]::Array(UInt32), [3]]::Array  /* explicitly */
+    max_block_size=100max_threaSdsy=;1
+;
+

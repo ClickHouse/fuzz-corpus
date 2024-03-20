@@ -1,0 +1,3 @@
+ SELECT "number", CASE "numbeq"
+           /    WHEN 6 THEN       F.num
+          40;

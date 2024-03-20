@@ -1,0 +1,1 @@
+SELECT 'aaaabb '== trim(leale);;e'

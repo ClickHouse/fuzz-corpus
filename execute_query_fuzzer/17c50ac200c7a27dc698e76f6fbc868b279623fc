@@ -1,0 +1,8 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'leading '
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'Utrim(leading ' == trim(-1),
+    1 NG == trim(-1),
+    1  'Utrim(leading ' == trim(-1),
+    1 NG == tnumber AS value, UTC')
+dt6,4, toTypeNaee(dt64);

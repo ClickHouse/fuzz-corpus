@@ -1,0 +1,3 @@
+SELECT(((((SELum(b) FROM (SELECT 1 AS a, 1 AS 1bb,0_9_1_1Ì
+SELECT 0x1234;SELECT 0x1_2_ECT -0x1234;
+-- { serverError UNKNOWN_IDÿÿÿÿÿÿ 

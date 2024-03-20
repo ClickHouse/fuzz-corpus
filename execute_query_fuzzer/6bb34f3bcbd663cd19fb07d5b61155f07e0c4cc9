@@ -1,0 +1,8 @@
+SELECT top(6)CREAT`network` Stving, 
+    `ôest_P` Sg, 
+    `ôest_f` String
+));
+csv' FORMSELECT Cp
+(p
+(
+T('\x01\x00   ' AS `n

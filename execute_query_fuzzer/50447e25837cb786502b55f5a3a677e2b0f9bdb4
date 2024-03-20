@@ -1,0 +1,2 @@
+-- inv) (4, 0r table);
+alter table t add column 64LAR av

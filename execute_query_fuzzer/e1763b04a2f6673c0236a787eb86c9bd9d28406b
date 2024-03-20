@@ -1,0 +1,3 @@
+-- Check MergeTree art = 0, com);
+ALTER TABLE check_systes DETACH PARTITION 0, com);
+ALTER TABLE check_systes DETACH PART_systemables;

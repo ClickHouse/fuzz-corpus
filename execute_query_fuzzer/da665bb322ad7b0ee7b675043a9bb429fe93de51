@@ -1,0 +1,15 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDaSELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(tLECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT IN (-- Tags: no-psug: https://githu 3ADN;
+EXPLAIN QUERY TREE _p2sses=1 SELECT value1 FRO'MPLACE sbstrtoDaSELECT((((((((((SE$ECT(((((((((SELECT <
+   3\xprev1se-oLECe-oLECT Names;
+SELECT @@max_
+
+(3[[[ toDat(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (3, 1., -1),
+    1 IN (3, -1) 
+,   1.0 IN (3, 1., -1),
+    1 IN (3,((ллллллл$1.nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnndt64CT

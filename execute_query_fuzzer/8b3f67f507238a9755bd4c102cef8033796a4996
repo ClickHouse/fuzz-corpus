@@ -1,0 +1,2 @@
+--e e, false));
+EXPLAIN AST SELECT false D FROM == 1 <=> 1;

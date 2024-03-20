@@ -1,0 +1,4 @@
+-- Tags: no-random-merge-tree-settings, no-fasttabase
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP ALTERove_partind active;

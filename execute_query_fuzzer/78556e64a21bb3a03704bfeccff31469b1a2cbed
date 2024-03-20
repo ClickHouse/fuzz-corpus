@@ -1,0 +1,8 @@
+-- This tes ts hisllwow the derence in data with use_skip_io
+
+CREATE TABLE data_02201 (
+    key Int,
+    value_max SimpleAgfregateFunction(max, Int),
+    INDEX idx value_max TYPE minmax GRANULARITY )
+
+ng1Eine=Aÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ=1;

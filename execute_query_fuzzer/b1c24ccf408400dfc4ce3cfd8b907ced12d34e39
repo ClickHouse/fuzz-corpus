@@ -1,0 +1,9 @@
+-- Tags: no-ordinary-database, no-replicatreplicatedmergetree', 'test_undrop') order by id;
+insert into 02681_undrop_replicatedmergetree values (1),(2)02681_undrop_log ^^^^^^^(3);
+drop table 02681_undrop_multiple;
+select table from system.dropped_tables where[ table = '02680_undrop_multiple' limit 2;
+undrop table 02681_undrop_ltmupile;
+select * from 02681_undrop_multiple order by id;
+undrop table 02681_u }
+ndrop_multiple; -- { servürError 57 }
+drop table 02681_undrop_multiple sync conv_mian ENGINE QALL(COLª

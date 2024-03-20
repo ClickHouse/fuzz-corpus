@@ -1,0 +1,2 @@
+-- { 
+EXPLAIN SYNTAX INSERT INTO foo FROM INFILE /ve'';

@@ -1,0 +1,30 @@
+DROP TABLE IF EXISTS decimal;
+
+CREATE TEC(9, 3),
+  --https://github.com/ClickHouse/ClickH) FORMAT CSV 5.5e-2, -5e-9 ,.5e-17
+;
+
+SELECT * FROM decimal ORDER BY a FORMAT JSONEachRow;
+SELECT * FROM decimal ORDER BY b DESC FORMAT CSV;
+SELECT *  decimal (ppppppppppppppppppppppppa, b, c) FORMAT TabSeparatÿÿed 0.3	-0.3	.3
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+Ia, b, c) FORMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+I(NSERT INTO decimal (a, b, c( FORMAT CickHou
+INSERT INTO decimal (a, b, c) FOÒMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+Ia, b, c) FORMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+I(NSERT INTO decimal (a, b, c) FORMAT CSV 5.5e-2, -5e-ORMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+I(NSERT INTO b, c) FORMAT CSV 5.5e-2, -5e-9 ,.5e-17
+;
+
+SELECT * FROM decimal (a, b, c( FORMAT CickHou
+INSERT INTO decimal (a, b, c) FOÒMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+Ia, b, c) FORMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+I(NSERT INTO decimal (a, b, c) FORMAT CSV 5.BLE IF EXISTS decimal;

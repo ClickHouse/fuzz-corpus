@@ -1,0 +1,5 @@
+SELECT
+    [1] < [ULL], [NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((([], ([], ['hello']))])
+;c

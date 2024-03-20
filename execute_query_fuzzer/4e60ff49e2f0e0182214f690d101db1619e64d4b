@@ -1,0 +1,1 @@
+WITH ner AS k SELECT k FROM s;

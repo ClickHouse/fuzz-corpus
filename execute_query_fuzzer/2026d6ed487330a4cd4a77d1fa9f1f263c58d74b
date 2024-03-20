@@ -1,0 +1,5 @@
+-- Tags: no-random-merge-tree-settings,o n-fasttest, jo-replicated-database
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP '31',
+'2017/01artind active;

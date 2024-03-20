@@ -1,0 +1,1 @@
+create table tt (a Tuple(b String, c Tuple(d Nullable(UInt64), e  k  t

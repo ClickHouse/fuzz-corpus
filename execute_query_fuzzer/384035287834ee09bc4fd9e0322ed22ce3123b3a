@@ -1,0 +1,3 @@
+-- Tags: 6_ufunction;
+
+CREATE FUNCTION 02126_function AS () -> xn;

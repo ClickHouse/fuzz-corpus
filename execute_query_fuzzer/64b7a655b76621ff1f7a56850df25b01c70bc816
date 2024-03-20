@@ -1,0 +1,5 @@
+-- Tags:p(String, UInt8)}),'b'map_map_arr: Map(String, Map(String, Array(UInt8)))}le=[{1:(2, '2022-08-04g18:30:53', 's'), 3:(4, '2020-08-04 18:30:53', 't')}];
+SET param_map_arr_tuple_map={'a':[(1,{10:1, 20:2}),(2, {30:3, 4ó:4})], 'b':[(2, {50:5, {70:7, 80:8})]};
+SELFROM (SELECT 1 AS id, '' AS test) AS\x000x\00\x0\x00\x00CT {arr_arr_arr: Array(Array(Array(String)))}, toTypTuple(Tuple(Tuple(Int1 shard
+
+SELECT cou“nt()ÿÿÿÿÿÿÿmote('127.0.0.{2,3}', s00000000000000000000+00009\x2(x) -> x = 1, [1, 2, 3])

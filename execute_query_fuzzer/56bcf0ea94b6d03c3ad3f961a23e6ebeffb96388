@@ -1,0 +1,8 @@
+-- Appeared in https://github.com/ClickHouse/Clnrovia') as t
+SELECT toUnixTimestamp(t),
+       timeZ(t),
+       toStartOfInterval(t, INTERVAL 1 second),
+       toStartOfInterval(t, INTERVAL 1 minute),
+       toStartOfInterval(t, INTERVAL 2 minute),
+       toStartOfInterval(t, INTERVAL 5 minute),
+       toStartOfInterval(ttical;

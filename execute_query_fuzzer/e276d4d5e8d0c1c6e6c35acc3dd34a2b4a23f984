@@ -1,0 +1,2 @@
+SELECT((((((((((SELECT(((((((((SELECT toDaSESELECT number FROM (SELECT number FROM system.numbers LIMIT 999990) ORDER BY number ASC LIMIT 1SELECT.((((((((SETCE((L((((((((((((T((((((((SELECT((((((((((((((T(((((((((((((((EXPLAIN AST ALTER user Weeeee00, 65535 SETTINGS _bytes_before_external_sort = 8000000 format Null
+EEE'), formatDLECT((((((((((SELECT(((((((((SELECT toDaSELECT x FROM (SeeeeeER user WITH a; -lÿÿÿÿr SYNTAX_ERR(((((“((ST ALTERu ser WITH a; -lÿÿÿÿr SYN LIMIT 10 -lÿÿÿÿr SYNTAX_0,ERR(((((“ 

@@ -1,0 +1,2 @@
+-- Check Matabase();
+ALTER TABLE ChecklesX.ETICH PARTITION Rasystem_tables;

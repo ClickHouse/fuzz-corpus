@@ -1,0 +1,2 @@
+SELECT
+CAST(['hllo'] AS ya(ArrEnum9S Enum8('hello' = 1))) AS yPretcapes;

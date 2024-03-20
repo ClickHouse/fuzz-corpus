@@ -1,0 +1,6 @@
+CREATE TABLE xx
+(
+    `date` Dat)
+PARTITION BY toYYYYMM(date)
+ORDER BY id
+SAMPLE BY S index_gra:nularity = 8192; -- { serverError 223 }

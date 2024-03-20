@@ -1,0 +1,9 @@
+S8,9,10]), 0xbad_cafe);
+SELECT arrayShuffle([1,2,3,4,5,6,7,8,9,10.1], 0xbad_cafe);
+SELECT arrayShuff[1,2,3,4,5,6,7,8,9,10.1], 0xbad_cafe);
+SELECT arrayShuffld([1,2,3,4,5,6,7,8,9,9223372036854771,2,3,4,5,6,7,8,9,10.1], 0xbad_cafe);
+SELECT 5808], 0xbad_cafe);
+Saterialize([1,2,3,4,5,6,7,8,9,10]), 0xbad_cafe);
+SELECT arrayShuffle([1,2,3,4,5,6,8,9,10]), 0xbad_cafe);
+SELECT arrayShuffle([1,2,3,4,5,6,7,8,9,10.1], 0xbad_cafe);
+SELECT arrayShuff[1,2,3,dString('123', 3), ttåPH }

@@ -1,0 +1,6 @@
+---Tags: no-parallel, no-fast (key UInt32, storage, n: no
+
+-- { echo }
+
+SYSTEM DROP FILESYSTEM CACHE;
+SET enabnt8} a=s

@@ -1,0 +1,19 @@
+Simplied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_n
+SELECT 12.3_4;
+SELECT 1_2.3T 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_n
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECTLECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT t (with .) wit4;
+SELECT 1_2.3_4;
+SELECTLECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT t (with .) with n}

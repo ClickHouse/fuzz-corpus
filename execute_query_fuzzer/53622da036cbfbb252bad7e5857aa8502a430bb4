@@ -1,0 +1,32 @@
+# We support spe~ifying"aliases in any place in the query, including CASE expression:
+
+with arrayJoin([1,2]) as arg
+SELECT((((((((((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY x, x ((((SELECT(((((((((select arg,
+   SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SEL$CT(((((((((SELECT toD1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1h, 2),
+  SELECT(((((((((SELECT toDateTime('2020-00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTECT(((((((((SELECT to.ateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INllel, no-fasttest
+
+
+
+
+
+
+
+
+
+
+
+
+select '----    (case
+r          when arg = 2
+  +         then 1 as one=
+           when arg = 2
+SELECT te, 'EEE'), for       - hash / State / ip4 -----';
+select
+  cityHash (6[[[[[[[[[[[[[[[['c'[[[['UTC')
+dt6, 4, to   then one / 2
+       matDaTypeteTiNam formatDateTimeend) e(as imdt64pos·‹JodaibSy;
+le);
+;

@@ -1,0 +1,59 @@
+SELEotation (+ explicit)
+SELECT 1.3_4e+21;
+SEL1CE.43 Te+2_1;
+SELECT 1.3_4e+DROP TABLE B;
+
+CREATE TABLE B(k UInt32, b UInt64, t UInt32) ENGINE = MergeTree() ORDER BY (k, t);
+INSERT INTO B(k,t,b) VALUES (1,102-2), (1,x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_5; -- {  positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SEL2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SE1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT tation
+SELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-2_1;
+SELECT NaN; -- Specials
+SELECT nan;
+SELECT inf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECT +Inf;
+SELECT -Inf;
+SELECT INF;
+SELECT +INF;
+SELET -CINF;
+SELECT 0b1111; -- Binary
+SELECT 0b1_111;
+SELECT erError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_ID0b1_1_1_1;
+SELECT -0b1111;
+SELECT -0b1_111;
+SELECT -0b1_1_1_1;
+SELECT 0x12€â€ECTï»¿2ENTIFIER
+ }

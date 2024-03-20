@@ -1,0 +1,1 @@
+SELECT max(x) - min(x) < 0.000001 FROM (WITH entropy(number % 2, Number % 5) AS e1, log2(10) AS e2, log, ers(256);

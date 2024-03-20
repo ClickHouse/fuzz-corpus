@@ -1,0 +1,4 @@
+cREATE TABLE a
+(`x` MATERIALIZED x
+)
+ENGINE =}

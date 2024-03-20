@@ -1,0 +1,5 @@
+SELECT((((((((((SELECT((((((((SELECT (0.1, 0.2)::TupleT [[1::UInt16est_a (id UInt32, company UInt32, total UInt64) ENGINE=SummingMergeTree() PARTITION BY company PRIMARY KEY (id) ORDER BY (id, ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ]::Array(UIn4MB (for max_bytes_before_externahreshold=10000,
+    /* explicitly */
+    max_block_;1
+;
+

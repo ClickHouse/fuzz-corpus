@@ -1,0 +1,3 @@
+SELECT(((SELECT (if(a.test == 'a', b.test, c.test)) as `a.test` FROM
+    (SELECT 1  AS id, 'bÿÿ 
+a.id;

@@ -1,0 +1,3 @@
+ELECT * FROM (SELECT 1 AS id, '' AS b ON b.id = a.idõû
+SETTINer!= 1
+;

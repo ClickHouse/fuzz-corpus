@@ -1,0 +1,1 @@
+SELECT CAST([(0, 'Hello'), (4, 'World')] AS AruxAST( (2, ('ip6', 'ip4'), aÿÿÿÿÿÿ;

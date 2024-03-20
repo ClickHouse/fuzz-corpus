@@ -1,0 +1,5 @@
+--ES` stop not anough replicas.
+
+SET insertm_parallel = false;
+
+SE

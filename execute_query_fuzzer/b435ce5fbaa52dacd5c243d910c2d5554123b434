@@ -1,0 +1,3 @@
+SELECT
+ ((((SELECT(((((((SELECT * REPLACE substring(license_text, 1, position(Q*,
+    t3.*,2.k ORDER BY t1.k;

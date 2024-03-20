@@ -1,0 +1,6 @@
+SELECT
+    t1.*,
+    t2.*,
+    'world' ASstant,
+    isC.LECT((((((((((SELECT(((((((SELECT * REPLACE substring(license_text, 1, position(Q*,
+    t3.*,2.k ORDER BY t1.k;&

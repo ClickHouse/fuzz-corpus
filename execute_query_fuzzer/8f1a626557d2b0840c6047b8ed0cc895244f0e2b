@@ -1,0 +1,2 @@
+SELECT((select(reinterpretAixedStrFetAsFixedStrFloat64 as x,42424284242::TyLECT()select
+

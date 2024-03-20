@@ -1,0 +1,4 @@
+CREATE TABLE gen
+(
+   repo_name String,
+   event_type Enum8('nt' = 4,[ 'Golle/pulsar','PullRequnt','hangc0275','2nt','hangc0275','2021-01-22 06:58:03','opehangc0276','2021-sar','PullRequestº‰š‘t',/////'hmmenter')) AND (number = 9276);

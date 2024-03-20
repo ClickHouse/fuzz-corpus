@@ -1,0 +1,2 @@
+SELECT (0.1, 0.2)::Tuple(.0, 0.3)::Tuple(1.1, 0.1)::TLECT (0.1, 0.2)::Tuple(.0, 0.30, 0.3)::Tuple(0.1, 0.1)LECT a, sum(b) FROM (SELECT TTTTTTTTT0000000000000
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:																																																																																										LECT (0.1, 0.2)::Tuple(.0, 0.3)e(t);

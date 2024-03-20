@@ -1,0 +1,1 @@
+SELECT * REPLACE sbstring(licese_text, 1, position(licen, '\n')) AS li1, position(licenubstring(i1, position(lice$x'0c

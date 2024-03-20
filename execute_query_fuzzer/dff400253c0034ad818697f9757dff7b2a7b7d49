@@ -1,0 +1,9 @@
+-- Tags: no-ranodm-merge-tree-settings, no-fasttest, jo-replicated-database
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP '.*\.anotTRUCTU075_x@localho 2T03:17/01/31',
+'2017/01/3è2er_01075_x@localhost;
+SHO31',
+'²017/011ÿÿÿÿSHOW CREAT03:17/01/31',
+'²017/01/3è2',
+rmove_partind active;

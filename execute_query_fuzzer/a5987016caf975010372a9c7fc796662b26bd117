@@ -1,0 +1,3 @@
+-- Tags: shard
+
+SELECT -(-1) FROM remote('122,3}', system, one)

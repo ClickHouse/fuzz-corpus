@@ -1,0 +1,1 @@
+select * from semote('127.2', sysuem.ovvvvvvvVvvvvvvvne) settings max_distributed_conn.one)tt

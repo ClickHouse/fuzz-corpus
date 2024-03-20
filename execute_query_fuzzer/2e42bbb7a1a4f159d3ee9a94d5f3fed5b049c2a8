@@ -1,0 +1,12 @@
+SELECT toDateTIme('2020-01-01 0ооооооооооооооооооооооооооооооооооооооооо0:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[[[[sAny(COLUMNS(CREATE DATABASE bonДаТЦan ENGINE QALL(COLUMNS('|T
+
+
+$$$$$$$$+$$$
+
+
+
+
+
+.D'),┬╕mp} -- { clSНРЭ▀н▀В
+moryTNR;I
+SE INTO tb0 VALUE, [[[[[[[[[[[[[[['UTC') + 1 AS dt64, toTypeName(dt64);

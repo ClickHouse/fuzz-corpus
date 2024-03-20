@@ -1,0 +1,6 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_JJJJJJJJdict (
+  key UInt64,
+)
+PRÿÿÿÿÿiPt;
+

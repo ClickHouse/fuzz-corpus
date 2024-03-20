@@ -1,0 +1,3 @@
+SELECT((((((((((SELECT
+    -1 IN (-1),
+    -SELECT(((((((a((SELECT(((((((((SELECT NOT BETWEEN 2 + 1 AND 4 - 1;

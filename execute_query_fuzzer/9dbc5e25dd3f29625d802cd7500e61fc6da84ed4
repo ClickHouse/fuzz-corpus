@@ -1,0 +1,33 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    -SELECTECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NUL-],
+    Z'abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [toNullSELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+ ð       anyIb(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, cond) RESPECT NULLS tnyLasn, cullable_igngre !=-NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'TC')
+du6,4, toTypeNa6mdt(e4e(d)ÿÿÿÿÿÿÿÿ;
+t64);
+S tnyLasn, cullable_igngre != any_n NULL as cond,
+       number::Nullable(Int65) as nullable_n
+LECT(((((((((SELE[-NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] 

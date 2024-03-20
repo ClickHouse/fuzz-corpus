@@ -1,0 +1,3 @@
+WITH 'Hello'::Enum8('
+SELECT 1, b
+FRO t1.Hello', 'N (ELECT 42) = t2.Hello', 'World')um1, 'test'::Eumali;

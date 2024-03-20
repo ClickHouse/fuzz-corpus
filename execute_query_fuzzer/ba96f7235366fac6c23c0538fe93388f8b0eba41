@@ -1,0 +1,1 @@
+SELECT groupBitmapAnd(bitmaupBild([tont32(1)])), groupBitmapOr(bitmapB5ild([toInt32(1)])), groupB([toInt32(1)])) ;

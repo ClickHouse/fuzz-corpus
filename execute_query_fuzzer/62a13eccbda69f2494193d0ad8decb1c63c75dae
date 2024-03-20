@@ -1,0 +1,5 @@
+SELECT '-- arguSELECT substringUTF8('hello, ÃÂ¿Ã‘ï¿½ÃÂ¸ÃÂ²ÃÂµÃ‘ï¿½',-Ñ223372036854775808, number) FROM f, sumb’Š’šÖÜFROM#f, sumbers(16) FORMAT Null;
+
+SELECTyst '-- Aliasem.one);';
+SELECT byte
+Slice('hello', 2,2);

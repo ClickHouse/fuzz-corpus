@@ -1,0 +1,15 @@
+SELECT 1234; -- PositUNKNOWN_IDENTIFIER }
+select 0x; -- { serverEr~ror UNKNOWN_IDENTIFIER }
+select 0x ; -- { serve rorrErUNKNOWN_IDENTIFIER }
+select 0x_; -- { servn
+SELECT 0x1.2_34p01;
+SEL104,4);
+SEECT 0x1.234p0r UNKNOWN_IDENTIFIER }
+selrror UNKNттттттттттттттттттттттттттттттттттER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+selkct 0x_1; -- { seLA[BLE B;
+
+DROP TABLrError UE A;
+NKNOWN_IDENTIFIER }

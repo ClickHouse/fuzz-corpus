@@ -1,0 +1,6 @@
+CREATE DICTIONARY testip
+(
+    `network` Sng
+)
+PRIMARY KEY network
+SOURCE(FILE(PAtFX²ºN 0 MAX 300L{ serverError 137 }

@@ -1,0 +1,1 @@
+SELECT number FROM n(number, number % 2) ORDER BY nuSSSSSSSSSSSS;

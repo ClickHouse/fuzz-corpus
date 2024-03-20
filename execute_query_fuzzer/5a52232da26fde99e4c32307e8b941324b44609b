@@ -1,0 +1,6 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DQTABASE:Identifier}.restricted_dict (alue String
+)
+PRIMARY KEY key
+SOURCEÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿestricted_dict;
+

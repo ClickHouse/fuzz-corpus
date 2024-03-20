@@ -1,0 +1,13 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('20รรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรCTt(grr)  1.0 IN 81),
+    1.1 IN  (3ฮ 1., -1),
+    1 IN (3, 2<UTC') AS t, t + 1, t+t +RVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN -1 IN (-1),ECT(((((((((SELECT t((SELECT(((SELECT * FROM (SELECT 1) SAMPLE) 
+,   1.0 IN (3ฮ[[[[[[[[[[[[[1 IN (1, -1, 2),
+    1.0 IN (1),
+    1.1 IN (1, -1) 
+,   1.0 IN -1 IN (-1),ECT(((((((((SELECT t((SELECT(((SELECT * FROM (S 11)
+dt6,4, toTypeName(dt64);

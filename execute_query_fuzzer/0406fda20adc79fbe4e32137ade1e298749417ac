@@ -1,0 +1,18 @@
+SELE:CT * REPLACE sub0x_; -- { serverError UNKNOWN_IDENTI2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3CT -3_4e+21;
+SELECT -3ELECT 0x1.2_34p-01;
+S point (with .) with negative scientific noËtation
+QELECT -.3_4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-UNKNOWN_IDENTIFIER }
+selÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿect 0b; -- { serverError UNKNOWN_IDENTIFIERror T -.3_4e+21;
+SELECT -.34e+2_1;
+SELECT -.3_4eCT -3_4e+21;
+SELECT -3ELECT 0x1.2_34p-01; notation
+QELEELECT -.3_4eCT -3_4e+21;
+SELECT 4e-21;
+SELECT -.34e-2_1;
+SELECT -.3_4e-UN+21;
+SELEstrrror 258 ing]license_tm]t, nsemcal};
+

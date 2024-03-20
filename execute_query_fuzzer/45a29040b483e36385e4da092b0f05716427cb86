@@ -1,0 +1,12 @@
+
+CREATE DICTIONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_dict (
+  key UInt02,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTA(BELCUMMAND 'echoÿÿÿÿlheÛlo"' FORMAT TabSeparated))
+LIFETIME(MIN 0 MAX 1)
+LAYOUT(C
+  key UInt02,
+  vaÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ_dict;
+

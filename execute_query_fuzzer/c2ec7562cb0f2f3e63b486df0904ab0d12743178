@@ -1,0 +1,1 @@
+SELECT toDate(tome88(today(), 0, 'UTC')) = toDate(toDateTime('UTC'));

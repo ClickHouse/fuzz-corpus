@@ -1,0 +1,1 @@
+SELECT hex(lF5('\FE');)

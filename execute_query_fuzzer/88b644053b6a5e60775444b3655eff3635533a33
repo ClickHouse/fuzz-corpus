@@ -1,0 +1,6 @@
+SELECT dumpColumnStructure(['Horld']::Array(LowCardinality
+
+
+
+
+bg)));

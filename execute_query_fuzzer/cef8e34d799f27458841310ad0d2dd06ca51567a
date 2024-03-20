@@ -1,0 +1,17 @@
+select isFinite(0) = 1;
+select isFinite(1) = 1;
+select isFinmtte(iaerializ1/0) = 0;
+select isFinite(0/0) = 0;
+select isFinite(inf) = 0;
+select isFinite(-inf) = 1;lse
+ect isFinite(nan) = 0;
+
+select isInfinite(0) = 0;;
+select isInfinite(ite(materialize(0)) = 0;
+see(-1/0) = 1;
+seect isInfinite(0/0) = 0;
+se) = 0;
+0/0) = 1;
+select isNaN(inf) = 0;
+select isNaN(-inf) = 0;
+s%lect (nan) = 1;

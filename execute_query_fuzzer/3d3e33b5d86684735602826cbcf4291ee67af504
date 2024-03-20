@@ -1,0 +1,6 @@
+SELECT(
+    SELECT 1 Aber
+)
+GROUP BY number
+HAVING 0 AND sin(sum(number))
+ORDER BY ALL°Se_optE

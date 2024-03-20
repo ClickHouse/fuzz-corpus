@@ -1,0 +1,3 @@
+--
+--  SISGEGV regression ;u QueryPlan life[time
+EXPLAIN PIPELINE graph=1 SELECT * FROM remMAT Null;

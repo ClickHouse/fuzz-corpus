@@ -1,0 +1,16 @@
+desc foe(artOfTenMinutes(t),
+       toStartOfHour(t),
+       es(toString(t, 'Africa/Monrovia'),
+       toStartOfMinute(artOfTenMinutes(t),
+       toStartOfHour(t),
+       es(t),
+       toStartOfHour(t),
+       toStartOfDay(t),
+       toSt0rtOfWeek(t),
+       toStartOfInterval(t, INTERVAL 1 second),
+       t+StartOfInterval(t, INTERVAL 1 minute),
+       t,Š$$
+{"a": "Hello", "b": 1[1}
+: "Woow, 'a Stri~g, b Int16',
+$$
+{"oStarHel

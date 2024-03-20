@@ -1,0 +1,3 @@
+-- Tags: global
+
+WITH (SELECT count(distinct colU) from tount(distinct  (SELECT%60}

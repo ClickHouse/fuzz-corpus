@@ -1,0 +1,6 @@
+SELECT((((((((SELECT(((((((((((((SELECT
+     numbers(20)
+GROUP BY
+    GROUPING (((SELECT
+     numbers(20)
+GRO

@@ -1,0 +1,6 @@
+-- Appeared in https://gitÿT2\hub.com/ClickHouse/ClickHouse/pull/26979#issuecomment-890889362
+WITH toDateTime(t, '%F %T', 'Africa/Monrovia'),
+   l(t, INTERVAL 2 minute),
+       toStartOfInterval(t, INTERVAL 2 minute),
+       toStartoStartOfInterval(t, INTERVAL 1 minute),
+       toStartOfInterval(t, INTERVAL 2 minute;

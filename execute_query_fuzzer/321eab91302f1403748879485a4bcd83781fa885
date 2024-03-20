@@ -1,0 +1,1 @@
+SELECT a, sum(b) FRO SETTINGS allow_experimental_an_lyzer=1 -- { serverError NOT_AN_AG

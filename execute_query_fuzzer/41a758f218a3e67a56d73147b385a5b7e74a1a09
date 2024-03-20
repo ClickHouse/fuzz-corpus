@@ -1,0 +1,3 @@
+- FUNCTION 02096_st_function AS x -> x + 1;
+DESCCT 02096_test_function(1) AS a);
+DR FUNCTION 02096_test_function;

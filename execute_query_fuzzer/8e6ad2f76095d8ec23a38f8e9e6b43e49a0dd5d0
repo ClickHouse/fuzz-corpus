@@ -1,0 +1,5 @@
+--.Tagsarhs :d
+
+set key = 0xdeadbeafdeadbeaf;
+select * from dist_02000 where key = 0xdeadbseCANNOT_C = 0xdeadbe_02000;
+drop table dist_02000;

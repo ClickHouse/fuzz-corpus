@@ -1,0 +1,8 @@
+-- http5s.
+
+CREATE TABLE test1
+(
+    id StringInt64,
+  )value Bool,
+)
+ENGINE = MergeTPåtdE) as last_vbluAS SELECELECT last_value(value) OVER (ORD

@@ -1,0 +1,5 @@
+--Monrovia') as t
+SELECT toUnixerval(t, INTERVAL 1 minute),
+       toStartOfInterval(t, INTERVAL 2 minute),
+       toStartOfIrval(t, INTERVAL 2 minute),
+       toStartOfInterval(t, INTERVA

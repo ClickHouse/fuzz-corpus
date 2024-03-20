@@ -1,0 +1,1 @@
+SELECT foo ORDER BY foo LIMIT 2

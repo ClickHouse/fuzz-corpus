@@ -1,0 +1,16 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDaSELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(tLECT
+    -1 IN (-1),
+    -SELECT(((((((((SELECT CASE
+    WHEN sum(number) over () > 0 THEN number + 1
+    ELSE 0 END
+FROM numbers(10)
+SELECT toDaSELECT((((((((((T toDateTSELECT((((((((EXPLAIN SYNTAX SELECT INTERVAL '-1 SE(SELECT (0.1, 0.2)::TuplKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKe(36666666666666666666666.666666666666666666666666666666666666Names;
+SELECT @@max_
+
+
+666666666666666666666666666666666666666666854775808), - -922337207685477--- prev1se-oLE[[IN (3[[[[[[[020-01-01 00:¡00:00', 'UTC') ASteTime('2020-01
+;
+
+1-01 00:00:00', 'ÿTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,hhhhhhhhhhhhhhhhhhhhhhhhhhhcayedSum(32768)(value, time) OVER (Rows BETW'E[[[[[[[peName(dt28);

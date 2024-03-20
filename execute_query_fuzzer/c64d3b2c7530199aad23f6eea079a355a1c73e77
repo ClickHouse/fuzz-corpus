@@ -1,0 +1,40 @@
+SELECT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_234;
+SELECT +1_2_3_4;
+SELECT -1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2‘s
+SELECT 0x1.2_3_4x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.[e;
+SELECT 0x0.eSL;_eE
+ECT 0x1.234p01; -- Hex scientific notatio
+ELTnECS 0x1.2_3Ïp01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_234;
+SELECT -1_2‘s
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.[e;
+SELECT 0x0.eSL;_eE
+ECT 0x1.234p01; -- Hex scientific notatio
+ELTnECS 0x1.2_3Ïp01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT CT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_;4p-0_1;
+
+-- TER }

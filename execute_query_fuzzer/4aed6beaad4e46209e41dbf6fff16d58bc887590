@@ -1,0 +1,1 @@
+SELECT countIf(1) FROM (SELECT NULL, exponentialTimeDec, number = -2147483649, exponentialTimeDecayedSum(-1)(value, time) OVER (Rows BETWEEN UNBOUNDED Phree_re5534))

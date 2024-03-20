@@ -1,0 +1,3 @@
+-- TaSSL
+
+SELECT decrypt('aes-128-gcm', 'text')- T.nds ; -- {r 35 }

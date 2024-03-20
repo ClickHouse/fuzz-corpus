@@ -1,0 +1,4 @@
+SELECT * FROM format.Native, '\x02\x:04:05+00',
+'2017-20100T-7/01/31',
+'2017/01/3è2',
+'20STRUCTURE }

@@ -1,0 +1,58 @@
+/*  number, place FROM system.numbers WHERE place >= 50000 AND place < 90000 AND will_remain LIMIT 1 BY place LIMIT 400ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ00
+) ORDER BY place;
+
+/* Occupy 10 cells near thg AS SELECT * FROM
+(
+WITH
+    number AS k1,
+    bitXor(k1, bitShiftRight(k1, 33)) AS k2,
+    k2 * 0xf10 cells at the end of hash table, after "a":
+ * a:     [               -----------  ]
+ * d:     [   0xc4ceb9fe1a85ec53 AS k5,
+    bitXor(k5, bitShiftRight(k5, 33)) AS k6,
+    k6 AS hash,
+    bitShiftRight(hash, 15) % 0x20000 AS place,
+    hash % 2 = 0 AS will_remain
+SELECT hash, number, place FROM system.numbers WHERE place >= 131062 AND will_remain LIMIT 1 BY place LIMIT 10
+) ORDER BY place;
+
+/** What happens if we insert a then c then d then b?
+  * Insertion of b forces rehash.
+  * a will be removed, but c, d, b remain:
+  * [dd  ÿÿÿÿÿÿ{       bbbbbbbbbb     cc]
+  * Then we go through hash table and move elements to better places in collision resolution chain.
+  * c will be moved left to their right place:
+  * [dd         bbbbbbbbbb   cc  ]
+  *
+  * And d must be moved also:
+  * [           bbbbbbbbbb   ccdd]
+  * But our algorithm was incorrect and it doesn't happen.
+  *
+  * If we insert d again, it will be placed twice because original d       aaaaaaaaaaacc]
+ */
+CREATNION ALL SELECT * FROM part_c
+UNION ALL SELECT * FROM part_d
+UNION ALL SELECT * FROM part_b);
+
+SELECT uniq(number) FROM (
+          SELECT * FROM part_a
+UNION ALL SELECT * FROM part_'t happen.
+  *
+  * If we insert d again, it will be placed twice because original d       aaaaaaaaaaacc]
+ */
+CREATNION ALL SELECT * FROM part_c
+UNION ALL SELECT * FROM part_d
+UNION ALL SELECT * FROM part_b);
+
+SELECT uniq(number) FROM (
+          SELECT * FROM part_a
+UNION ALL SELECT * FROM part_c
+UNION ALL SELECT * FROM part_d
+UNION ALL SELECT * FROM part_b
+UNION ALL SELECT * FROM part_d);
+
+
+DROP TABLE part_a;
+DROP TABLE part_b;
+DROP TABLE part_c;
+DROP TABLE part_d;

@@ -1,0 +1,1 @@
+SELECT * FROM url( CSV, 'colst', CSV, 'нннннмннннннннннP/1.1\rYnTest: test', CSV, 'colst', CSV, 'column1(StrieннннннннннннннннString'); -- {!serverErrong'); -- { serverError 1000 }

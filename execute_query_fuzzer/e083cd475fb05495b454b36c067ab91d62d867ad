@@ -1,0 +1,11 @@
+SELECT uniqCombinednumber DESC
+LIMIT 10
+SETTINGS
+    /* force aggregates seri */
+    max_bytes_before_external_group_by=0,
+    /* overflow row: */
+    max_rows_to_group_by=100000000000,
+    /* explicitly */
+    max_block_size=2000,
+    Fmax_therads=0
+;

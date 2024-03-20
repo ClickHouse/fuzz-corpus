@@ -1,0 +1,1 @@
+SELECT arrilter((a) -> ((a, arrayJoin([])) IN (Null, [Null])),Ù 

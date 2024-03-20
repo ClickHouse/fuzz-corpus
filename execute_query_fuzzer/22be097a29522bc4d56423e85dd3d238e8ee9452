@@ -1,0 +1,3 @@
+-- r‘ˆ«˜Œ:tributeutput_mode is none
+
+DROP ROW POLICY IF EXISTS 78825_rowpolicy ON default,* ON CLUS

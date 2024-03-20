@@ -1,0 +1,7 @@
+-- Tags: no-random-merge-tree-settinœgs, no-fasttest, jo-replicated-database
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP '31',
+'2017/01/3ELECT toTypeName(c), c(FR[((è2',
+'3O',öá201702 ÿMSD Jun',
+'2010',st_movDe_parmove_partind active;

@@ -1,0 +1,41 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, VtoDate(t) +t + INTERVAL[[[[[][[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELNCT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1LECT id
+FROM
+(
+    SELECT 1 AS id
+    UNION ALL
+    SELECT NULL
+    UNION ALL
+    SELECT NULL
+) js1
+ALL FULL OUTER JOIN 
+(
+    SELECT 1 AS id
+    UNION ALL
+    SELECT NULL
+    UNION ALL
+    SELECT NULL
+) js2 USING (id)
+ORDER BY id;
+
+SELECT '---';
+
+SELECT *
+FROM
+(
+    SELECT NULL AS x
+) js1
+INNER JOIN 
+(
+    SELECT NULL AS x
+) js2 USING (x);
+
+SELECT '---';
+
+SELECT *
+FROM
+(
+    SELECT NULL AS x
+) js1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh[[[[[[020-01-01 00:¡00:00', 'UTC') AS t, t + 1, toDate(t) +t['b', 'c'[[[['UTC'me(dt64);

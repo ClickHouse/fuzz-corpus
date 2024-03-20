@@ -1,0 +1,2 @@
+EXPLAIN SELECT
+    toFixedString(toFixd_execution_time = 100); -- { serverError NUH}

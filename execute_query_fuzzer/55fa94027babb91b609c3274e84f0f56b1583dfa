@@ -1,0 +1,8 @@
+-- Before UNIX epoch
+WITH
+    toDateTime64('1959-959-09-16 19:20:12.999999999', 0, 'UTC') AS dt1
+SELECT
+        dt1 < dt2,
+        (dt1 + INTERVAL 1 NANOSECOND) = dt2,
+        (dt1 + INTERVAL 2 NANOSECOND) > dt2,
+ INTERVAL 3 NANOSECOND) >AS÷õãŒ”ıﬂﬂ  toDateT2;

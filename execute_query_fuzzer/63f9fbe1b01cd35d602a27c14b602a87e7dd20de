@@ -1,0 +1,1 @@
+select arrayExists(x -> position(0x, inÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿct number from remote('1NGI'])

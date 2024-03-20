@@ -1,0 +1,4 @@
+SELECT
+    imei('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t [[1 IN (1, -1,hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[ INTERVAL[[[[[[[[[[[[ELEC+ INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[ INTERVAL[[[[[[[[[[[[ELECT((((((((((((((T(((((((((((((((EXPLAIN AST ALTE¼R userERVAL[[[[[[[[[[[[[[[[1

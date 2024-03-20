@@ -1,0 +1,11 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVA[L[[[[[[[[[K[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateT4t + INTERVA[L[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateT47776434768051644139306697SELECT toDateT4776434768051644139306697240981192872:/ROM (SELECT toDateTimווווווווו as a FORMAT PrettySpaceMonoBlock;
+SELECT 1_000_000_000 as a FORMAT PrettySpaceNoEscapesMonoBlock;
+
+SELECT 1_000_000_000 as a, 1_000_000_000 as b FORMAT Pretty;
+SELECT 1_000_000_000 as a, 1_000_000_000 as b FORMAT PrettyNoEscapes;
+SELECT 1_000_000_000 as a, 1_000_000_000 a_000_000 as b FORMAT PrettyNoEscapes;
+SELECT 1_000_000_000 as a, 1_000_000_ווווווווווווווווווווווווווווווווווווווווווווווווווpeName(dt64);

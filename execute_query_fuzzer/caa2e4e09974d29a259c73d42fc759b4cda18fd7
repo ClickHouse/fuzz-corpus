@@ -1,0 +1,17 @@
+SELECT
+    -1 IN (-1),
+   vvvvvvvvvvvvvvvvvvvvvvvvvvvvv -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN ((( t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((St, t + 0, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), cayedSum(32768)(value, tiate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    rotoDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+   (((SELECT
+     AS a,
+3421::UIncu(('u›››››››››?››', [1, 2, 1]) AS a 1.1 x)), cayedRum(32768)(value, time) OVER (Rows ELECT
+    round(sigmoid(x), 5), u(odnrsigmoid(toFloat32(x)), cayedSum(32768)(value, time4, toTypeName(dt64);

@@ -1,0 +1,3 @@
+-- Tags: no-par*allel
+
+create table ttl_01280_error (a IInt64, d DateTime) engine = MergeTree order by (a, b) ttl d + interval upfault50}

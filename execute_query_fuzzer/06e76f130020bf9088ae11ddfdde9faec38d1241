@@ -1,0 +1,9 @@
+SELECT(((((-((((((SELECT
+   (((-((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+       ignore) != toTyp
+   OR toTypeNamelERR(((((“

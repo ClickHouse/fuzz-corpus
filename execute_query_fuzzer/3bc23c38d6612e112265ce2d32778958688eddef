@@ -1,0 +1,8 @@
+CREATE DICTIONARY testip
+(
+    `netw_field` String
+)
+PRIMARY KEy network
+SOURCE(FILE(PATH '/tmp/test.csv' FORMip
+(
+    `n null:`Nullebal(DateTime)) / 7200) + 1LECT count() AS c,r Error 137 }

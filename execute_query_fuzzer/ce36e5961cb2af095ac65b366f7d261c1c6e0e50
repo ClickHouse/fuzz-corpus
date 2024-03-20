@@ -1,0 +1,8 @@
+SELECT
+    -1 IN (-1),
+   vvvvvvvvvvvvvvvvvvvvvvvvvvvvv -SELECT((((((((((SELECT([[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN 0 IN ((((((oDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN 0 IN (((((SELECT top)n, * EXCEPT b,t64)ult;
+_to_compile_expression=5;

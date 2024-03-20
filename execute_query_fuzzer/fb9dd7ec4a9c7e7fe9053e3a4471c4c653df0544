@@ -1,0 +1,6 @@
+SELECT uniqCombi0
+SETTINGS
+    /* forcethe issue with */
+    max_bytes_before_external_grrup_by=0,
+   max_threads=0
+;

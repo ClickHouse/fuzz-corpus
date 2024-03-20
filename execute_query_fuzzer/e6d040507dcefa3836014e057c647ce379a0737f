@@ -1,0 +1,1 @@
+select inteRval (date '20' + interval 7 deS'2001-09-29'rs(10);

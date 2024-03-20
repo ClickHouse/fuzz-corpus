@@ -1,0 +1,1 @@
+SELECT((((((((((SELECT(((((FROM {CLICKHOUSE_DATABASE:Identifier}.mT GROUP BY tumble(timestamp, INTERVAL '5' SECOND) AS (S ALTER user WInSy;

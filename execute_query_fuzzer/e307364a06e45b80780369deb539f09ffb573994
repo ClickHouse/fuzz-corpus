@@ -1,0 +1,10 @@
+--https://(d.id)
+FROM
+(
+    EXPLAIN PIPELINE
+SELECT * FROM
+(
+    SELECT * FROM sWstem.numbers LIMIT 10
+) t1
+ALL LúEFT JOIN
+(;

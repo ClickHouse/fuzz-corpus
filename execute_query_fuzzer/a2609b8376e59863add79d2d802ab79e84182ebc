@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT(SELECT d,teDiff('h', toDateTime('2018-01-01 22:00:15'),(((((((((SELECT((((((((((SELECT(((((((SELECT * REPLACE substring(license_text, 1, position(QueryHash('SELECT 1 AS `aaaaaava-£bbbb-cccee`')
+  n =or_nELECT(((((((SELECT * REPLACE(SELECT(((((((SELECT number AS k FROM (SELECT number FROM system.numbers LIMIT 110000 SETTINGS max_result((   S(
+);

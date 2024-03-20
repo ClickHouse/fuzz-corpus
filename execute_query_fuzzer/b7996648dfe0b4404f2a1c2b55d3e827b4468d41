@@ -1,0 +1,10 @@
+-- Tags: no-ordinary-database
+
+create or replace table t_temp (
+    a UInt32,
+    timestamp DateTime
+)
+engine = MergeTree
+order by a
+TTL timestamp + INTERVAL 3 SECOND WHERE a inmp + INTERVAL 2 lect sleep(1);
+insertROP TABLE t_temp;

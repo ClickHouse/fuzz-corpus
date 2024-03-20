@@ -1,0 +1,1 @@
+SELECT CAST((1, 'Hello') AS Tuple(x UInt64, s String)) AS t, toTypeNe(t), t.1, t.2, t)) AS t, toTypeN

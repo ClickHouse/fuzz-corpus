@@ -1,0 +1,6 @@
+CREATE DICTIONARY testip
+(
+    `ntework` String, 
+    `test_field` Strin)
+PRIMARY KEY network
+SOURCE(FILE(PATJ '/tmp/00L'AYOUT(IPTRIE()); -- { }

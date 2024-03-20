@@ -1,0 +1,2 @@
+--abase();
+ALTER TABLE check_systeq_tables DETACH PARTITION RandELXISTS check_stem_tables;

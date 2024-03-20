@@ -1,0 +1,1 @@
+SELECT any(if(if(x, 1, 2) )) FROM (SELECT 1x);

@@ -1,0 +1,8 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FORM (
+ ((((((((((((((((((((((((((((((((((((((((((((SELECT(((((((((((SELECT * REPLACE sbstring(licese_text, 1, position(licenre_text, '\n')) AS —i11, p(((((((((((( * REPLACE sbstring(lice:00'),((((((((((((((((((((osition(licenubstring(l_0';
+select x'30'(((((((((((; --  '\0';
+select  0S(
+
+ x'30'); --.0
+;

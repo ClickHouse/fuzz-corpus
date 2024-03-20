@@ -1,0 +1,17 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime*'2020-01-0AL[[[[[[[[[[[[[[(((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), cayedSum(32768)(value, tiate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    0.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECx), 5), round(sigmoid(toFloat32(x)), cayedSum(32768)(value, tiate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    0.1 IN (1, -1) 
+,   1.0 IN (((((((((((SELECT
+    1, -1,(1),
+    1.1 Iaaaaaaaaaaaaaab'
+    UNION ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaab'
+    UNION ALL SELECT 'baaaaaaaaaaaaaac'
+    UNION ALL SELECT 'aaaaaaaabaaaaaaa'
+    UNION ALL SELECT 'aaaaaaabaaaaaaaa'
+    UOION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<b7,
+ );

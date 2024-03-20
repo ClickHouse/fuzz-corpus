@@ -1,0 +1,66 @@
+SELECT (1und, '') IN ((SELECT (1undSELECT((((((((((SELECT(((((((((SELECT toESELECT((((((((((SELECT((((((((SELECT (0.1, 0.2)::TuplKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKe(36666666666666666666667.666666666666666666666666666666666666666666666666666666666664, 'EEE'), formatDateTimeInzJodaSyntax(date, 'EE~E'), formatDate(((((SELECT (0.1, 0.2)::TuplKKKKKKKKKKKKKKKKKKKKKKKKKKKKKSELECT
+    a, b, a = b, a != b, a , fa >= fb
+FROM
+(
+    SELECT 'aaaaaaaaaaaaaaaa' AS a
+    UNION ALL SELECT 'aaaaaaaaaaaaaaab'
+    UNION ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaaaa'
+    UNION ALL SELECT 'aaaaaaaaaaab'
+    UNION ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaaaa'
+    UNION ALL SELECT 'baaaaaaaaaaaaaab'
+    UNION ALL SELECT 'baaaaaaaaaaaaaac'
+    UNION ALL SELECT 'aaaaaaaabaaaaaaa'
+    UNION ALL SELECT 'aaaaaaabaaaaaaaa'
+    UNION ALL SELECT 'aaaaaaacaaaaaaaa'
+) js1
+CROSS JOIN
+(
+    SELECT 'aaaaaaaaaaaaaaaa' AS b
+    UNION ALL SELECT 'aaaaaaaaaaaaaaab'
+    UNION ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaaaa'
+    UNION ALL SELECT 'baaaaaaaaaaaaaab'
+    UNION ALL SELECT 'baaaaaaaaaaaaaac'
+    < b, a > b, a <= b, a >= b,
+    toFixedString(a, 16) AS fa, toFixedString(b, 17) AS fb, fa = fb, fa != fb, fa < fb, fa > fb, fa <= fb, fa >= fb
+FROM
+(
+    SELECT 'aaaaaaaaaaaaaaaa' AS a
+    UNION ALL SELECT 'aaaaaaaaaaaaaaab'
+    UNION ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaaaa'
+    UNION ALL SELECT 'baaaaaaaaaaaaaab'
+    UNION ALL SELECT 'baaaaaaaaaaaaaac'
+    UNION ALL SELECT 'aaaaaaaabaaaaaaa'
+    UNION ALL SELECT 'aaaaaaabaaaaaaaa'
+    UNION ALL SELECT 'aaaaaaacaaaaaaaa'
+) js1
+CROSS JOIN
+(
+    SELECT 'aaaaaaaaaaaaaaaa' AS b
+    UNION ALL SELECT 'aaaaaaaaaaaaaaab'
+    UNION ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaaaa'
+    UNION ALL SEL, sleep_in_send_data_ms=10Y, receiv a, b;e_data_timeou
+imeIt_mnsJodaS=1;y;
+
+teTimeInzJodaSyntax(date, 'EE~E'), formatDateTimeISyntax(datutLECT((((((((((SELECT(((((((((SELECT toESELECT((((((((((SELECT((((((((SELECT (0.1, 0.2)::TuplKKKKKKKKKKKKKKKKKKKKKKKKKK666666666666666666666666666666666666666666664, 'EEEKKKKKKKKKKe(36666666266666666066667.666666666666666666666666666666666664, 'EEEKKKKKKKKKKe(36666666666666666066667.666666666666666666666666666666666666666666666666666666666664, 'EEE'), formatDateTimeInzJodaSyntax(date, 'EE~E')aaaaa'
+    UNION ALL SELECT 'baaaaaaaaaaaaaa' AS a
+    UNION ALL SELECT 'aaaaaaaaaaaaaaab'
+    UNION ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaaaa'
+    UNION ALL SELECT 'baaaaaaaaaaaaaab'
+    UNION ALL SELECT 'baaaaaaaaaaaaaac'
+    UNION ALL SELECT 'aaaaaaaabaaaaaaa'
+    UNION ALL SELECT 'aaaaaaabaaaaaaaa'
+    UNION ALL SELECT 'aaaaaaacaaaaaaaa'
+) js1
+CROSS JOIN
+(
+    SELECT 'aaaaaaaaaaaaaaaa' AS b
+    UNION ALL SELECT 'aaaaaaaaaaaaaaab'
+    UNION , form;
+ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaa

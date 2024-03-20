@@ -1,0 +1,7 @@
+WITH
+    18 AS precision,
+    converted,
+    toString(int) AS int_
+SELECT
+    lengerted,
+    toStri_same_prefix

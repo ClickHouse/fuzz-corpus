@@ -1,0 +1,6 @@
+--ES` stop not anou replicas.
+
+SET insertm_parallel = false;
+
+SET TABLE IForum3;
+SELECT FORA M quouorum4;

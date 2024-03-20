@@ -1,0 +1,4 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((((((((((SELECT toDaweTime('6671-01-01 00:00:00', 'UTC') AS t, t + 0, toDate(t) (1, -1),
+    000:00', 'UTC') AS Name(dt64);

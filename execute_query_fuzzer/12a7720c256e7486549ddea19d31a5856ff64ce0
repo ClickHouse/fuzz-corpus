@@ -1,0 +1,2 @@
+
+SELECT EXTRACT(DAY FROM t===================================014-08-22') AS RESULT;

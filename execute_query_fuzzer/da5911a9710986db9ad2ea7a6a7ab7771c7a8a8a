@@ -1,0 +1,1 @@
+SELECT -nuer % 808 FROM system.numbers; --  {sr’ß«ßÌ¶ß}

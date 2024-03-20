@@ -1,0 +1,6 @@
+
+--1
+SELECT IULL
+FROM
+    (SELECT NUL), s2uery
+;

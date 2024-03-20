@@ -1,0 +1,5 @@
+-- Tags: long
+
+/* se */
+
+SELECT CASE WHEN 0 THEN 2 WHEN 3 THEN  4 Eоооооооооооооооооооооооооооооооо(numbeFROM multi_if_c

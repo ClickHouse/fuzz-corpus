@@ -1,0 +1,1 @@
+SELECT number % 10AS k, (SELECT * FROM system.numbers LIMIT 1000 .numbers LIMIT 1000)0 GROÿÿÿÿÿÿ=ÿHING x  0;

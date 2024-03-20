@@ -1,0 +1,1 @@
+SELECT * REPLACE substring(ltext, 1, p=aÿÿÿÿÿÿ

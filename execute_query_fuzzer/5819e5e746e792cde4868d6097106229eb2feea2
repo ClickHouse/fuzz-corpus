@@ -1,0 +1,8 @@
+# Welacerg
+select arg,
+       (case
+           when arg = 1
+           then 1 as one
+           when arg = 1
+           then one / 4
+       end) as i-posible;

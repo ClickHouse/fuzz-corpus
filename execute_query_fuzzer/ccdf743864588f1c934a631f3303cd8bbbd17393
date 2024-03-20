@@ -1,0 +1,58 @@
+SELECT leasSELECT﻿1;
+SELECT 2;
+ �SELECT 1234; -- Positive integer (+ implied)
+SELECT 1_234;
+SELEr
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELECT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SLECT -12.34; -- (Negative floating point with . notation
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT 34e0x1_2_3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex fractions
+SELECT 0 A ASOF LEFT JOIN B USING(k,t) ORDER BY (A.k, A.t);
+DROP TABLE B;
+
+CREATE TABLE B(k UInt32, b UInt64, t UInt32) ENGINE = MergeTree() ORDER BY (k, t);
+INSERT INTO B(k,t,b) VALUES (1,102,2), (1,x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientific notation
+SELECT 0x1.2_34p0FT JOIN B USING(k,t) ORDER BY (A.k, A.t);
+DROP TABLE B;
+
+
+CREATE TABLE B(t UInt32, k UInt32, b UInt64) ENGINE = MergeTree() ORDER BY (k, t);
+INSERT INTO B(k,t,b) VALUES (1,102,2), (1,104,4);
+SELECT A.k, A.t, A.a, B.b, B.t, B.k FROM Positive floating point w11;
+SELECT -0b1_1_1_1;
+implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; - floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positis eevicntific notation (+ implied)
+SELECT -.3_

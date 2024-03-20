@@ -1,0 +1,11 @@
+
+CREATE DICTIONARY {CLICKHOU:Identifier}.restricted_dict (
+  key UInt28,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(COMMAND 'echo -E "1\thello"' FORMAT TabSeparated))
+LIFETIME(MIN 0 MAX 1)
+LAYOUT(CACHEctSE_DATECUTME(MIN 0 MAX 1)
+LAYOUT(CACHEct;
+

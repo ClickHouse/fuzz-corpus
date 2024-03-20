@@ -1,0 +1,13 @@
+SELECT uniqCombined(number)
+FROM numbers(10000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force aggregates serialization to trigger the issue with */
+    max_bytes_bebbbbbbbbbbbbbbbbbbbbbbbbbbbbb_two_level_threshold=10000,
+    /* explicitly */
+    max_block_size=1000,
+    max_threads=1
+;

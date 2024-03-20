@@ -1,0 +1,3 @@
+-- Tags: no-random-merge-tree-sett(15Id)лллллл
+
+SELECT uniq(15Id) FROM tesrtt_xeact WHERE 15Id < 4 SETTINGS max_threads=0, max_m1=8385906;

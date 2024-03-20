@@ -1,0 +1,3 @@
+--  \0';
+select b'000';I
+select b'00;;

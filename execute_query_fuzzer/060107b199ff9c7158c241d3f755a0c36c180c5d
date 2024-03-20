@@ -1,0 +1,2 @@
+
+SELECT EXTRACT(DAY FROM toDate=========================================òò=TE '2014-08-22') AS RESULT;

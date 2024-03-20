@@ -1,0 +1,11 @@
+SELECT((((((((((((((T(((((-((((((SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+    ((((((T(((((-((((((SELECT
+    *,
+    * APPLY (toTypeNamespect)
+   OR last_nullERR(((((“

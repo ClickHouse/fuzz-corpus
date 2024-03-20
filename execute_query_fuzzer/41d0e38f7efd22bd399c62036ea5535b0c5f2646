@@ -1,0 +1,1 @@
+SELECT CAST([(1)] AS Array(Tuple(0aU It6t,4S  bri6t,4S  brinng)));

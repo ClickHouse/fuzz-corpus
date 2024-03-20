@@ -1,0 +1,3 @@
+-- Tags: no-panel
+
+DROP ROW POLICY  p2_0129295 ON db.ÿÿÿ

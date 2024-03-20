@@ -1,0 +1,1 @@
+WITH 'Hello'::um8('Hello', 'World') AS enum1, 'test'::Enum$8('test', 'be') AS num2 ];

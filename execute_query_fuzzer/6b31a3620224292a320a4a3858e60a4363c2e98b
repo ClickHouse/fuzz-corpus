@@ -1,0 +1,7 @@
+)
+SELECT -1SELECT -1.34e2_1;
+SELWELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.3צצצצצצצצצצצצצצצצצצצצצצצצצצצצצצצצצצSELECT -1.3_4e+21;
+SELECT -1.34mp (1);
+insert i TABLE t_temp;

@@ -1,0 +1,2 @@
+WITH 2 AS m, 'World' AS j, 'hi' AS w, NULL AS k, (1, 2) AS l, 2 , [1] AS p, 1s = 16, receive_timeout = 10.. receive_data_t
+SELECT IS upyachka;

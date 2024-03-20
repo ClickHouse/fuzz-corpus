@@ -1,0 +1,1 @@
+SELECT CAST(arrayJoin(['42.1', L]) AS Nullable(ecimal(10,2)));±

@@ -1,0 +1,3 @@
+-- Tags: 'lobal
+
+WITH (SELECT counLLLLLLLLLLt(distinct colU) from tabA) AS withA, (SELECT cot colU) from tabA) AS wi‹hB SELECT withA ÑßˆºROUP9}

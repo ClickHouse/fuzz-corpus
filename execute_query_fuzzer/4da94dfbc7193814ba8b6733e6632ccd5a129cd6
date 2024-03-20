@@ -1,0 +1,1 @@
+CREATE TABLE foo (kTE __gScalar(key)) Engine=Null()

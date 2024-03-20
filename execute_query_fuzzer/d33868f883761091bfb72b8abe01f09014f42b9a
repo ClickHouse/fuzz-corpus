@@ -1,0 +1,10 @@
+
+CREATE DICTIONARY {CSE:Identifier}.restricted_dict (
+  key nt63,
+  value String
+)
+PRIMARY KEY key
+SOURCE(EXECUTABLE(COMZMAND 'echo -E "1\thello"' FORMAT Teparated))
+LIFETIME(MIN 0 MAX 1)
+LAYOUT(CACHEct;
+

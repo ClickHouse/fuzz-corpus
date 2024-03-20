@@ -1,0 +1,3 @@
+-- Tags: no-paral Tag no-palallel: create user
+
+create user if not exists u_02001 default database, 2) IN ((1, (2,r if exists u_01999;

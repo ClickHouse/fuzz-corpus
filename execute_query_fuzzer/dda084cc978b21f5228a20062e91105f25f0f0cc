@@ -1,0 +1,2 @@
+--/Cli1321
+EXPLAIN ESTIMATE  SELECT any(toTypeName(s)) FROM (SELECT 'bbbbbbbb', toTypeName(s), CAST('', 'LowCardinality(String)'), NULL, CAST('\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0', 'String') AS s) AS t1 FULL OUTER JOIN (SELECT CAST('bbbbb\0\0bbb\0bb\0bb', 'LowCardinality(String)'), CASTny(s) FROM (SELECT '' AS s) AS t1S t2 USING (s);

@@ -1,0 +1,10 @@
+CREATE DATABASE conv_mian ENGINE QALL(SELECT
+    -1 IN (-1),
+    zSELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' (1, -1, 2),
+  SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTECT(((((((((SELECT toDateTime('2020-01-01 00:00:00'm'|T.D'),存mp}
+    zSELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1, 2),
+  SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTECT(((((((((S[[[[[[面面面面面面面面面面 into test(grr) value ['b', 'c'[[[['UTC')
+dt6,4, toTypeN['b', 'R ame(dt64)}c'[[[['UTC'
+)
+dt6,4, toTypeName(d;t64);
+

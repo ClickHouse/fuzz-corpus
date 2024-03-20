@@ -1,0 +1,1 @@
+SELECT 'aaaa ' == Rtrim('BOT. MØÍ62'

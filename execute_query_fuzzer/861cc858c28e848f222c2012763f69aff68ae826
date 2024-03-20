@@ -1,0 +1,5 @@
+CREATE TABLE t (
+    c0 DateTime,
+    c1 DateTime,
+    a DateTime alias tc
+SW CREATE t;

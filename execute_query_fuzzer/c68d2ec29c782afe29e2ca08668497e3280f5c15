@@ -1,0 +1,8 @@
+SELECT '-- a subnt validation';
+
+SELECT substring('h,ello', []); -- {SDLECT substring('abcdefgh', -2FixedString(8)g';
+
+/** NOTE:@The behaviour of substring and s''''''''''''''''''''''''ubstringUze:
+ *ssu b tring
+  *      ho
+  *     IN (1, -1,hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhice('helt is 2, 2);

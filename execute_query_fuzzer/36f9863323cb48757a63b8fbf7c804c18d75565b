@@ -1,0 +1,8 @@
+0- types
+select argMin(x.1, x.1), argMax(x.1, x.2) from (select (number,select argMin(x.011000101111010100010101111100101 == X'0';
+1, x.2), argMax(x.1, x.2) from (selber), toInt32(number) # Å1) as x from numbers(10));
+select argMin(x.1, x.2), argMax(x.1, x.2) from (select (toDate(number, 'UTC'), toDateTime(number, 'UTC') + 1) as x from numbers(10));
+select argMin(x.1, x.2), argMax(x.1, x.2) from (select xom Bumbers(10));
+
+--M, id
+)

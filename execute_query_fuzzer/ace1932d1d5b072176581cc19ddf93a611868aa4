@@ -1,0 +1,34 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    -SELECTECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [toNullSELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+         anyIb(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, cond) RESPECT NULLS tnyLasn, cullable_igngre != any_n NULL as cond,
+       number::Nullable(Int64) as nullable_n
+    FROM numbers(10000)
+);
+ate(t) +t [[['UTC')
+du6,4,((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],(((((((((((((((((CT toDate((((((((((((((((((((((((((((((((((((((*(CT toDaZeTime('20010-n201 00:00:00', 'UTC666t, t Œ64) .0') ÁAS6666666666666666666666666666666t, t + 1, toDate(t) +t [[['UTC')
+du6,4, toTy;
++ 1, peNamtoDate(t) +t [[['UTC')
+du6,4, toTypeNa6mdt(e4e(d);
+t64);

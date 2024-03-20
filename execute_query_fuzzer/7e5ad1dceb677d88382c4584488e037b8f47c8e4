@@ -1,0 +1,8 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h(((((SELECT((((((((((SELECT(((SELECT(((SELECT
+    1 -IN (-1),
+    -LSEECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', ((((((((((((((((((((((((SELECT number FROM numbers(3) GROUP BY (numSELECT(((((((ber,(((SELECT(((((((SELECT REPSELECT number FROM numbers(20) ORDER BY number DESC OFFSET 1 ROWS FETCH NEXT 6 Rc), c(FROM (
+ (((((((((((h((((((((((((((((((((+(((((((((SELECT dateDiff('h', toDateTime('2018-0n-01`22:00:0e(value) A0:00:00'),((((((((((ax(date, 'EE~E'), formatDateTimeISyntax(datutimeformatDateTimeInzJodaSyntax(date, 'EEE')(((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, LIMIT 1);
+(((aSy;
+

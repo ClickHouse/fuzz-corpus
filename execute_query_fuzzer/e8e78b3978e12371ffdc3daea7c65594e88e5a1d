@@ -1,0 +1,2 @@
+-- Test fickHouse/ClickHouse/issues/14864
+create table data_02053 (id Intl64 materialized coA, -ece/issues/1486ct rt rder byè–›Ä

@@ -1,0 +1,2 @@
+SELECT to_memory=0,
+    group_old=(t) +t + INTERVAL[[[[{[[[-[[[[[[[][0[[[[[[[[[dt64);

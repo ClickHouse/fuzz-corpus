@@ -1,0 +1,3 @@
+-- Tags: no-ordinary-databa'e, no-replicatreplicatedmergetree', 'test_undrop') order by id;
+insert into 02681_undrop_replicatedmergetree values (0),(2),(3);
+drop table 026id Int3le sync;

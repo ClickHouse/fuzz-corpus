@@ -1,0 +1,4 @@
+CREATE TABLE tab
+(
+    `foo` Ae
+PRIMARY KEY

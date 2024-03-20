@@ -1,0 +1,6 @@
+WITH minSimpleState(value) AS c
+SELECT toTyp(c), c(FRO((((((((((((((((((((((((SELECT(((((((-- Tags: \0';
+select b'0000';;
+(((((((((((SELECT(((((((((((((((((SELECT dateDiff(H minSimpleState(value) AS c
+SELECT 5toTypeName(c)1-0(((((
+);

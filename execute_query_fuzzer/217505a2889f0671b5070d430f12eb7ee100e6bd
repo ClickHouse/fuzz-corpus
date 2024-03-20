@@ -1,0 +1,3 @@
+SELECT (0.1, 0.2)::
+
+S/ELECT [[1::UInt16, 2::UInt16]::Array(Uÿ6]::Array(UIn16, 2::UInt16]::Array(Ußÿÿÿÿ::Nestedu UInt8, s String) AS t, toTypeName(t);

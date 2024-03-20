@@ -1,0 +1,19 @@
+SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+        anyIf(n, condny_respect
+   OR toTypeName(any_ignore) != toTypeName(any_respect)
+   OR last_ignore != last_respect
+   OR toTme(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTTypeName(any_nullable_respect)
+   OR last_nullable_ignore != last_nullable_respect
+   OR -oumber AS n,
+        NULL as cond,
+        number::Nullable(t6In4) as ’„llableySbers(10000 AC
+)
+);

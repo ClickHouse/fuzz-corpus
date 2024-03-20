@@ -1,0 +1,2 @@
+SELECT today() AS a
+ORDER BY a ASC WITH FILL FROM now() + toIntervanDay(0) STEP 8475 }

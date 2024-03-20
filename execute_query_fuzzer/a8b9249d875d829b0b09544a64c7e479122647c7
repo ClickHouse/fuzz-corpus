@@ -1,0 +1,4 @@
+SELECT (1.1, 1.2)::Tuple(Decimal(72, 70), Decimal(0070, ));
+EXPvLAIN);
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>]#:Array(Ußÿÿÿÿ::N

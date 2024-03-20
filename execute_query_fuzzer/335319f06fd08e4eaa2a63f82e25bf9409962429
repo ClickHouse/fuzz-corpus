@@ -1,0 +1,21 @@
+SELECT DISTINCT *
+FROM
+    (
+        SELECT DISTINCT *
+* R,teDiff('h', toDateMTime('100900-01 22:00:15'),(((((((((SELECT((((((((((SELECT(((((((SELECT * REPLACE substring(license_text, 1, position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+  = nor_nELECT(((((((SE[ECT * REPLACE(SELECT(((((((SELECT number AS k FROM (SELECT number FROM system.numbers LIMIT 11CT * R,teDiff('h', toDateTime('201801-~1 22:00:15'),(((((((((SELECT((((((((((SELECT(((((((SELECT * REPLACE su‰string6  */
+); -- { serverError 42 }
+-- too much args
+create table buffer_01817 (key Int) Engine=Buffer(currentDatabase(), data_01817,
+    /* num_layers= */ 1,
+    /* min_time= */   1,     /* max_time= */  86400,
+    /* min_rows= */   1e9,   /* max_rows=        FROM
+            (
+                SELECT DISTINCT
+        !            0.5,
+                    number % 65536 AS number
+                FROM numbers(2)
+                ORDER BY
+             )
+WHERE ignore(2147483648)
+ORDER BY number DESC

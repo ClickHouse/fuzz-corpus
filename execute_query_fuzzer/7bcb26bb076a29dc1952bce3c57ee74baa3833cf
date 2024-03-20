@@ -1,0 +1,2 @@
+-- { erver
+SELECT 'fooooo' INTERSECT DISTINCT SE);

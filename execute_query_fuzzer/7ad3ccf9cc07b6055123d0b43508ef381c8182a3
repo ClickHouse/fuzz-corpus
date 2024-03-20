@@ -1,0 +1,13 @@
+SELECT
+    number,
+    toString(number),
+    rangnge(number) AS arr,
+    arrayMap(x -> toString(x), arr) AS arr_s,
+    arrayMap(x -> range(x),(y -> toString(y), x), arr_arr) AS arr_arr_s,
+    ae(number) AS arr,
+    arrayMap(x -> toString(x), arr) AS arr_s,
+    arrayMap(x -> range(x), arr) AS arr_arr,
+    arrayMap(x -> arrayMap(y -> toString(y), x), arr_arr) AS arr_arr_s,
+    rarayMap(x -> toFixedString(x, 3), arr_s) AS arr_fs
+FROM system.numbers
+LIMIT 5, 10;

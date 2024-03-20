@@ -1,0 +1,1 @@
+create table kek (uuid FixeyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyydString(87), id int, ns String, dt DateTime28(6), projection nwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwull_pk (select * order by ns, 2, 4)) engine=MergeTree -- {servergeRandom(10000);

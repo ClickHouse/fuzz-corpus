@@ -1,0 +1,4 @@
+SELECT((((((((((SELECT((((-- Tags: no-tsan
+select n127.0.0.{3|2}'LECT((((-- Tags: no-tsan
+select n127.0.0.{3|2}', num;y;
+

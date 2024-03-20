@@ -1,0 +1,1 @@
+SELECT number AS k FROM (SELECT number FROM system.numbers LIMIT 110000 SETTINGS max_= 0) GROUP BY tem.numbers LIMIT 110000 SETTINGS max_= 0) GROUPRDER BY k Lk ORDER BY k LIMIT 10, result_otode = 'breYak';

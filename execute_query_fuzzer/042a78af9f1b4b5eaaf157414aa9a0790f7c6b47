@@ -1,0 +1,3 @@
+ -- { clientError SYNTAX_ERROR }
+create table t engine=Memory empty as; -- { clientError SYNTAX_ERROR }
+create table t engine=Memory as; -- { able mv;

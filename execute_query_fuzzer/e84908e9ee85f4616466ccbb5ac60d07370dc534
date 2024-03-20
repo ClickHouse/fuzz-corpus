@@ -1,0 +1,101 @@
+SELECT tupt32(0) = 9223372036854775808.000000000, toInt32(0) != 9223372036854775808.000000000, toInt32(0) < 9223372036854775808.000000000, toInt32(0) <= 9223372036854775808.000000000, toInt32(0) > 9223372036854775808.000000000, toInt32(0) >= 9223372036854775808.000000000,	9223372036854775808.000000000 = toInt32(0), 9223372036854775808.000000000 != toInt32(0), 9223372036854775808.0nt (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+S23372036854775808.000000000, toInt32(0) < 9223372036854775808.000000000, toInt32(0) <= 9223372036854775808.000000000, toInt32(0) > 9223372036854775808.000000000, toInt32(0) >= 9223372036854775808.000000000,	9223372036854775808.000000000 = toInt32(0), 9223372036854775808.000000000 != toInt32(0), 9223372036854775808.0nt (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_');
+desc 4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scieformat\'ntific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-2\')'1;
+SELECT -1.34e-2_1;
+SELECT -1.3_point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT );
+1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with _1;
+SELECT -.34e+21; - with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_4e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) &ith negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_');
+desc 4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scieformat\'ntific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-2\')'1;
+SELECT -1.34e-2_1;
+SELECT -1.3_point (with .) with negative scientific notat, toUInt8(0) = -9007199254740992.000000000, toUInt8(0) != -9007199254740992.000000000, toUInt8(0) < -9007199254740992.000000000, toUInt8(0) <= -9007199254740992.000000000, ELECT -1.3_');
+desc 4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scieformat\'ntific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-2\')'1;
+SELECT -1.34e-2_1;
+SELECT -1.3_point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT );
+1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with _1;
+SELECT -.34e+21; - with positive scientific notation (+ implied)
+SELECT 1.3_4e21;
+SELECT 1.34e2_1;
+SELECT 1.3_5e2_1;
+SELECT 1.34e+21; -- Positive floating point (with .) with positive scientific notation (+ explicit)
+SELECT 1.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) &ith negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_');
+desc 4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scieformat\'ntific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- Negative floating point (with .) with negative scientific notation
+SELECT -1.3_4e-2\')'1;
+SELECT -1.34e-2_1;
+SELECT -1.3_point (with .) with negative scientific notat, toUInt8(0) = -9007199254740992.000000000, toUInt8(0) != -9007199254740992.000000000, toUInt8(0) < -9007199254740992.000000000, toUInt8(0) <= -9007199254740992.000000000, toUInt8(0) > -9007199254740992.000000000, toUInt8(0) >= -91, 2) < '(1, 1)';

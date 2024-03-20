@@ -1,0 +1,16 @@
+SELECT DISTINCT *
+FROM
+    (
+        SELECT DISTINCT *
+        FROM
+            (
+                SELECT DISTINCT
+                    0.5,
+                    number % 65536 AS number
+                FROM numbers(2)
+                ORDER BY
+                    ignore(ignore(-1, 10.0001)) DESC NULLS LAST,
+                    ignore(2147483648) DESC NULLS FIRST,
+                    ignore(        (
+                SELECT DISTINCT
+                    0.5

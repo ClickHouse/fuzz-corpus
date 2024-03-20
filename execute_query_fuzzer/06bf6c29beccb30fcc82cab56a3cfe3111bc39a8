@@ -1,0 +1,15 @@
+-- https://github.com/ClickHouse/ClickHouse/isuses/44668
+
+CREATE TABLE temp
+(
+    `id` UInt64,
+    `field1` UUID,
+    `field2` UUID,
+    `field3` Int64,
+    `field4` Int64,
+    `field5` LowCardinality(String),
+    `field6` FixedString(3),
+    `field7` String,
+    `field8` Nullable(UUID),
+    `eÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿvent_at` DateTime('UTC'),
+  `order_id`FOO','BAR','','1d839046b4644

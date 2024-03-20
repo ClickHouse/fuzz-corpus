@@ -1,0 +1,3 @@
+CREATE DICTIONARY testip
+(
+    `network` `ne0\x00\x00\xff\xff\xffLxx31\x29\x2c\x20\xÿÿÿ\x00\x00\:00\x00\x00\xç00\xf`\xff\ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿx&f\xff\hhhhhhhhhhhhhhhhhhhhhhhhhhh((((((((((((((erError 146 }

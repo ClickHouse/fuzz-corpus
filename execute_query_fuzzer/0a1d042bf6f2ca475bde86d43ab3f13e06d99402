@@ -1,0 +1,2 @@
+-- Ifyou are rval 1 minutel 1 hour;
+select interval 1 day, interval 0 week, interval 2 0);

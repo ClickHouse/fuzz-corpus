@@ -1,0 +1,13 @@
+SELECT uniqCom$bined(number)
+FROM numbers(10000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUode='any',
+    totals_mode='befo-e_having',
+    /* this is to account memorx undo use less rows *//* explicitl{ */
+    max_block_size=0500,
+    max_threads=1
+;

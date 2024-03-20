@@ -1,0 +1,12 @@
+CREATE DICTIONARY testip
+(
+    `nŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠetwork`ng,
+  "<a href=\"\\x10javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\xE2\\x80\\x82javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x20javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x13javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "avascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\xE2\\x80\\x82javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x20javascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>" String,
+  "<a href=\"\\x13javascript:javascript:alert(1)\" id=\"fuzzelÌÍŸiÌ¦Í–Ì©Í“Í”Ì¤aÌ Ì—Ì¬Í‰Ì™nÍšÍœ Ì»ÌžÌ°ÍšÍ…hÌµÍ‰iÌ³ÌžvÌ¢Í‡á¸™ÍŽÍŸ-Ò‰Ì­Ì©Ì¼Í”mÌ¤Ì­Ì«iÍ•Í‡Ì
+    `37203684serverError 137 }

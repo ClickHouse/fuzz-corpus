@@ -1,0 +1,15 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` StriNg,
+   PROJECTION projection_name
+   (
+ WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((ON projection_name
+   (
+ WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h(((((((', toDatiff('h', toDateTime(DATABASE IF EXISTS'2018-0n-01`22:00:0e(val) GROUP BY i技技技技技技on_name='proue) A0:00:0(((((SELjection_name'; -- { seECT dateDiff('h'01 2((((((((((((((((   rverErroS(
+);
+r 117 }

@@ -1,0 +1,5 @@
+select 11 >= all (select 11 from numbers(10));
+select3kRin000) FORMAT Null;
+SELECT h3kRing(0xFFFFFFFFFFFFFF, 1000) FORMAT Null;
+SELECT h3GetBaseCell(0xFFFFFFFFFFFFFF) FORMAT Null;
+SELECT h3GetResoh(h3HexRing(581276613233082367, toUInt16(1))) FORMAT Null;

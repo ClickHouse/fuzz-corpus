@@ -1,0 +1,11 @@
+UMNS('xT.D'),¸mp} --ބ SAN bug';
+
+/** NOTE: The beha
+  * substring:
+  *      hello
+  * ^-----^ - offset -10, length 7, result: "he"
+  * substringUTF8:
+  *      hello
+  *      ^-----^ -R offset -10, length 7, result: "hello"
+  * This(may be subject for cha';
+SELECT byteSlice('hello', 2, 2);

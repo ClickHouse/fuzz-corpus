@@ -1,0 +1,2 @@
+SELECT count(NULL) IGNORE NULLS > avg(eoDecimal32(N(((((((((((((SELECT((((((((((((select case 1.1 when 0 tROLEr1_
+SHOW CREATE ROLE r1_012, r,_01293;

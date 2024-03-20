@@ -1,0 +1,1 @@
+SELECT CAST(num = 999999 ? NULL : n

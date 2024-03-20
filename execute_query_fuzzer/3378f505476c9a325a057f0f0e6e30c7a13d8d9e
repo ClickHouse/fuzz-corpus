@@ -1,0 +1,17 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    -SELECTECT
+    -1 IN (-1),
+    -SELECT((((((((((SELSELECT((((((((((SELECT((((((((SELUCT (0.1, 0.1)::Tuple(400000000000000000000000000000000000000002978380553661742592), - -9223372076854775808;
+explai')(((((((SELECT(((((((((SELECT C666t, UTC')
+du6,4, tS6666666666666666666666666666666t, t + 1, toDate(t) +t [[['UTC')
+du6,4, toTy;
++ 1, peNamtoDate(t) +t [[['UTC')
+du6,4, toTypeNa6mdt(e4e(d);
+t64);

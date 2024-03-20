@@ -1,0 +1,2 @@
+SELECT((select(reinterpretAsFixedStrFloat64 as x, [42.42:xedStrFloat664] ule(42
+

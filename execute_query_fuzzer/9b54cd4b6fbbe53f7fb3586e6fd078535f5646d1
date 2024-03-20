@@ -1,0 +1,9 @@
+WITH 'Hello'::Enum8('
+Y JOIN [materialize(3) IN
+
+SELECT *
+FROM (SELECT materialize(84) as a) as t1
+JOINes-128-gcm', [1024, 65535, NULL, NULL, 9223372036854775807, 1048576, NULL], 'text', 'key', 'IV'); --eate tablt:javascript:alert(1)>XXX</a>",ror /R\" \'\\"= alt=javascript:alert(1)//\\ûûSELECTûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûû, 'best') AS enum2 SEnum8('
+SELECT 1, b
+FROe',*en;
+um2];

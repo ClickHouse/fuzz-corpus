@@ -1,0 +1,5 @@
+
+
+CREATE TABLE mt (v UInt8) ENGINE = ReplicatedMergeTree('t')
+    ORDER BY tuple() -- { serverError 36 }
+

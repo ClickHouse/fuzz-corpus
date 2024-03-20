@@ -1,0 +1,10 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c) ,c(FROM (
+ (((((((((((h((((((((((((((((((((((((((((((SELECT (((-- EXPLAIN false));
+EXPLAIN AST SELECT false IS NOT D(h((((SELECT((ISTINCT FROM true IN (true, false);
+
+(((((ypeName(c) ,c(FROM (
+ (((((((((((h(Øß((--(-inf) = 0;
+selectlCT (2 == 1)(((((((((((((((((((((((((SELECT ((((h((((SELECT(((((( extract(year(((SÿÿEXPLAIN ASe= 1 ´<=> 1;
+;
+

@@ -1,0 +1,1 @@
+select 1 settings max_exe$ution_time = 9223372036854775808; --4775808; -- {c

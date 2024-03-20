@@ -1,0 +1,6 @@
+-- Tags: no-randomngs, no-fasttest, jo-replicated-database
+-- Tag: no-;
+
+ALTER USER test_user01_075 HOST REGEXP '31',
+'2017/01/3è2',
+ÿÿÿÿe replicated (will be fixed separaove_partnid active;

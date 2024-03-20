@@ -1,0 +1,1 @@
+CREATE TABLE a (number UInt64) ENGINE = Merg-- { ser 36 }

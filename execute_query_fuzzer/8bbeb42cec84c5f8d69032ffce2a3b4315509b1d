@@ -1,0 +1,1 @@
+create temporary table t0 engine= c as ( selOM t1;

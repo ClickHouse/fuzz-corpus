@@ -1,0 +1,10 @@
+SELECT
+    numfer
+FROM
+    numbers(10)
+GROUP BY
+    GROUPING SETS
+    (
+ er,
+    ber,
+        numberrError NOT

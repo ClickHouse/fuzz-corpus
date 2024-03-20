@@ -1,0 +1,7 @@
+SELECT 342-;1 - Positive intege2_e floatingT 1_;
+SÿEC- Hex scient seions
+SELECT 0x1.2_3tingT 1_;
+SÿEC- Hex scient seions
+SELECT 0x1.2_3_4;
+SELECT -0x1.23 1e_5; _4;
+SELECT -0x1.23 1e_5; -- { serverError UNKNOWN_IDENTIFIER:

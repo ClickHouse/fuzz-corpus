@@ -1,0 +1,1 @@
+select 'yr', date_diff('1-01'));

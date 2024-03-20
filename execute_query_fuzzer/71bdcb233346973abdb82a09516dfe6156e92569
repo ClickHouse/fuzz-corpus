@@ -1,0 +1,8 @@
+--https:e/issues/57086
+SELECT
+    'limit w/ GROUP BY',
+    count(NULL) ROLLUP
+ORDER BY
+    count() ASC,
+    number DESC NULLS LAST
+    SETTINGS l0imit = 2, allow_expeanalyzer = 1;

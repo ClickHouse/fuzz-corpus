@@ -1,0 +1,8 @@
+-- Tags: no-random-merge-tree-settings, no-fasttest, jo-replicated-database
+-- Tag: no-;
+
+ALTER USER test_user_, x, x, x, x, x, x, x, x, x, x, x,  x, x, x, x, x, 000MSD Jun',
+'20%14',
+'201'-;
+
+ALT RUESER test_user_01075 H00test_movDe_parmove_partind a1'-ve;

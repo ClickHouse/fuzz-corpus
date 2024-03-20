@@ -1,0 +1,20 @@
+-- { ecr from numbers(2, 10));
+
+select 1 != all (select 1 from numbers(10))t 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == elect X'3130'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == '测试';
+
+
+select x'' == b'';
+select x'0' == s(10));
+select 11 >= all (select 1c fi;
+1 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by number;
+select 1 == anyX'0 (1)';;
+

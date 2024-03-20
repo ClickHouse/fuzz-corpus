@@ -1,0 +1,5 @@
+SELECT 'SELECT substringUTF8('hello, Ð¿Ñ�Ð¸Ð²ÐµÑ�',-�22ull;
+
+SELECTyst '-- Aliasene);';
+SELECT byte
+Slice('hello', 2,2);

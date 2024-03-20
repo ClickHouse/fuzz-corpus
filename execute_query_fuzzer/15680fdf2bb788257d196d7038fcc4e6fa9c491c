@@ -1,0 +1,8 @@
+SELECT (2, '') IN (SELECT (2SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1.1 IN (1, -1) 
+,   1.0 IN (((((((((((St, t + 0, toDate(t) +t + INTERVAL((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[0 IN (1, -1,(SELECT arrayMap( x.1, [t(x) -> x.1 + x.2, [4uple);
+ + 0((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[2 IN (1, [(((((SELECT a, sum(b) FROM (SELECT TTTTTTTTT0000000000000
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00'[[[['U;;TC')
+dt6,4, toTypDate(t) +4);

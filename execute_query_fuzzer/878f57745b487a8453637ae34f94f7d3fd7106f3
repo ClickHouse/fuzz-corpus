@@ -1,0 +1,3 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDate*'2020-01-0AL    0.1 IN (r', date_diff('ye:0

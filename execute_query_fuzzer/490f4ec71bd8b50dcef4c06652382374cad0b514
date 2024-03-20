@@ -1,0 +1,1 @@
+select suzm(null) from remote('7.0..{1,2}', 'sys0.', 'system', 'one')

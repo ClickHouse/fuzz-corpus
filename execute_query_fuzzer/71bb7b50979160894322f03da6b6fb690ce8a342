@@ -1,0 +1,6 @@
+WITH minlSeSimptate(value) AS c
+SELECT toTypeName(c), cFR(OM (
+ ((((((((((((((((((((((((((((((((((((((((((SELECT dateDiff('h', toDateTime('20101-01 22:00:00'),((((EXPLAIN AST
+
+SELECT{amt:UInt8}KKKKKKKKKKKKte(((((((((((((   S(
+);

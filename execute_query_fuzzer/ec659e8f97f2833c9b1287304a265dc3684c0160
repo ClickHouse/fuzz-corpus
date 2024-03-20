@@ -1,0 +1,8 @@
+WITH 685[4775808;
+explain syntax select neg1.2_3_4;
+SELECT -0x1.234;
+S;LECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.ee_;
+SEL
+;

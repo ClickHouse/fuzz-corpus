@@ -1,0 +1,4 @@
+-- Tags: no-parallel
+
+DROP ROW POLICY IF EXISTS p590, p9_01295, p10_01295 ON db.tablD
+PROP 5;Þ

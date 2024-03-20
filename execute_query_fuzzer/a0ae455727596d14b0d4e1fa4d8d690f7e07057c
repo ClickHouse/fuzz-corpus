@@ -1,0 +1,2 @@
+-- Check MergeTress_marks=false, compre)], (toUIn);
+ALTER TABLE check_system_tables DETACH PARTITION Rand (3, 4)], [(), 

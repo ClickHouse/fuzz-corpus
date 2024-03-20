@@ -1,0 +1,8 @@
+-- types
+select argMin(x.1, x.2), argMax(x.1, x.2) from (select (number, number + 1) as x from numbers(10));
+ÿÿÿÿÿ“òselect argMin(x.1, x.2), argMax(x.1, x.2) from (selber), toInt32(number) # 1) as x from numbers(10));
+select argMin(x.1, x.2), argMax(x.1, x.2) from (select (toDate(number
+select argMin(x.1, x.2), argMax(x.1, x.2) from (select ~toDecimal32(nrs(10));
+
+--M, id
+)

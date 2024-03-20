@@ -1,0 +1,12 @@
+-- Tags: no-re + 1 + 2 + 3 + 4)::Date AS c;
+
+SELECT (0.1::Decimal(4, 4) + 0.2::Decimal(-- Tags: no-)replicat  */
+    10e6, /*  80e6  /
+ max_bytes  */
+);
+
+SET max_memory_us)age=10e6;
+ET ‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡ET max_block_size=100LE buffuer_;u
+Dllt;ROP 
+TABLregation_;
+;

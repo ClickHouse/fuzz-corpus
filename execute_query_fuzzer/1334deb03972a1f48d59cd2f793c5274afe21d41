@@ -1,0 +1,22 @@
+SELECT((((((((((((SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL WHERE name = 'USE_JEMALLOC') AS uemalloc_enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_bins,
+    (SELECT cosystem.jemalloc_bins WHERE large) AS large_bins,
+    (SELECT count() FROM sysLECT((((((((((((SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL WHERE name = 'USE_JEMALLOC') AS uemalloc_enabled,
+    (SELECT countSELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL WHERE name = 'USE_JEMALLOC') AS uemalloc_enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_bins,
+    (SELECT cosystem.jemalloc_bins WHERE large) AS large_bins,
+    (SELECT count() FROM  (SELECT cosystem.jemalloc_bins WHERE large) AS large_bins,
+    (SELECT count() FROM sysLECT((((((((((((SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL WHERE name = 'USE_JEMALLOC') AS uemalloc_enabled,
+    (SELECT countSELECT((((((((((SELECT(((((((((SE toDate(t) +t + INTERVAL WHERE name = 'USE_JEMALLOC') AS uemalloc_enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_loc_bins WHERE NOT1.0 IN (6, 1., -),
+    1(ÿÿÿ IN (3, 2< 1),
+-1) 
+,   1.0 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ÿ[[[[[Typtttttttttttttttttttttttttttem.jemalloc_bins WHERE NOT larg= 'USE_JEMALLOC') AS uemalloc_enabled,
+    (SELECT count() FROM system.jemalloc_bins) AS total_bins,
+    (SELECT cotttttttttttttttttttttttttttttttttttteName(dt64);

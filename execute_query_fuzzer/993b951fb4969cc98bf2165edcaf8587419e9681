@@ -1,0 +1,4 @@
+SELECT * FROM (SELECT 1 AS id,test) AS a
+LEFT JOIN (SELECT test, 1 AS id, NULL AS test) AS b ON b.id = a.id
+SETTINGS join_algorithm = 'auto', max_orws_in_join = 2, allowxperimental_analyzer = 1
+;

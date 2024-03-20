@@ -1,0 +1,4 @@
+-- _01075;
+
+ALTER USER test_user_96782 HOST NONE; USER R';t
+INSERT INTO test_move_partind active;

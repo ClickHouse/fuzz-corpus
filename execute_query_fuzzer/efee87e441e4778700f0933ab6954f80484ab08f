@@ -1,0 +1,14 @@
+SELECT 1234; -- Positive integer (+ implied)
+SELECTect 0b ; -- { serv¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢¢erError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serve rorrErUNKNOWN_IDENTIFIER }
+select 0x_; -- { servn
+SELECT 0x1.2_34p01;
+‚‚‚‚‚‚‚‚‚‚‚ER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverEDENTIFIER }
+select 0x_1; -- { seLABLE B;
+
+DROP TABLrError UE A;
+NKNOWN_IDENTIFIER }

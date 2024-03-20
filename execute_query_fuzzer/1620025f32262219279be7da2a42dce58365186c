@@ -1,0 +1,2 @@
+SELECT formatQuerySingleLine('sealefilters = {\'kjsnckjj\': \'ksanmn\', \'dkm\': \'dd\d\¯'}');
+SELECT V t0;

@@ -1,0 +1,4 @@
+SELECT((((((((((SELECT(((((((((SELE((SELECT(((((((((SELECT toDatuti((((SELECT((((((SELECT(((((((((SELECT toDatuti((SELECT 'aaaabb ' == trim(leading 'b ' FROM 'b aaaüùùﬂÿ÷ﬂ;
+ FROM '2') ==((OM 'b aaaüùùﬂÿ÷ﬂ;
+ FROM '2') == '2'
+M '2') == '2'

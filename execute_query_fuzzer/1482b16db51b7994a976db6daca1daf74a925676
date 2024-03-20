@@ -1,0 +1,2 @@
+WITH 2 AS `b.c`, [4, 5] AS u, 3 AS v, 2 AS d, TRUE AS e, 1 AS f, 0 AS g, 2 AS p, 1 AS q, q AS r, 1 AS s, 1 AS t
+SELECT INTERVAL CASE CASE WHEN NOT -a[`]c`.b * u DIV v + d IS NOT NULL AND e OR f BETWEEN g< r > s != t AS upyachka;

@@ -1,0 +1,6 @@
+-- Tagsarhs :d
+
+set optimize_skip_unuseif edata_02000 (key Int) Engine=Null();
+create  key = 0xdeadbeafdeadbeaf;
+select * from dist_02001 where key =  where key = 0xdeadbe_02000;
+d2000;

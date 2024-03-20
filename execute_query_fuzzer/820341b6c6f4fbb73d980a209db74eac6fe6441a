@@ -1,0 +1,1 @@
+SELECT '-- a&rguSELECT substringUTF8('hello, Ð¿Ñ�Ð¸Ð²ÐµÑ�r) FRORMELECTyst '--

@@ -1,0 +1,7 @@
+SELECT((((((((((SELECT(((((((((SSELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((((((((((((((((((((-- Tags: global
+
+WITH (SELECT abA) AS withA, (SELECT count(distinct colU)ELECT date, if(colA IN (SELECT colB FROM (   S);(
+
+);

@@ -1,0 +1,7 @@
+SELteTime(\'UTptable_another;
+CREATE TABLE 02703_db.02703_rptable (x UInt8,  AND (x <= 2) AND (y >= 2ray(Array(String)0)';
+SELECT * FROM 02703_db.02703_rptable;
+
+DROP RE 02703_db.02703_rptable_another;
+DROP TABLE 02603_db.02703_unexpected_columns;
+DROP DATABASE 02703_db;

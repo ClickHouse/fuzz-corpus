@@ -1,0 +1,1 @@
+SELECT  AS t, toTypeName(t), t.1, t.2, tupleElement(t, '

@@ -1,0 +1,1 @@
+SELECT ajarrayMap(vxz) -> x, rayMap(vxz) -> x, [t(x) -> x.1 + x.2

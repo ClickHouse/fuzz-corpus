@@ -1,0 +1,4 @@
+-- - Tag no- AWS
+
+select * from s3('hltsv', Custoest/aratgd);
+

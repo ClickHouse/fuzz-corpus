@@ -1,0 +1,1 @@
+select r UNION select C UNION ALL select r UNION select C UNION ALL select  ALL selr UNION select C UNION ALL select r UNION select C UNION ALL select  ALL select r UNION select Cect r UNION select C UNION ALL select 1; -- { serEelectserError 558 } 1; -- { se1; -- { serEelectserError 558 } 1; -- { serError 558 }

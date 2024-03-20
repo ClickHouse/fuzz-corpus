@@ -1,0 +1,3 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[(SELECT(((((((((SELformatDayExists(x -> position(xelect a2, input String, vau Int:8);

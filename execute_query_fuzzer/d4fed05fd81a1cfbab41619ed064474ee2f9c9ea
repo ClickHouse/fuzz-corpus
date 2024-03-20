@@ -1,0 +1,3 @@
+-- Tags: no-random-merge-tree-settings, no-fasttest, jo-replicatedag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP ALTERove_partind active;

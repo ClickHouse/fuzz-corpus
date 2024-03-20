@@ -1,0 +1,3 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT((SELECT TIMESTAMP_SUB (S(((((((SELECT tESTAMP_SUB (SææææææææææææææææææææææææææææææææææææææææææoDateTract(materialize(CAal_aL SETTINGS allo!_e+t E+ ÉNTERVAL[[[[[[[[[[[[[riAST('b…, toTypeLECName(dt64);

@@ -1,0 +1,6 @@
+SELECT((((((((((SELECT((((-- T¨LECT 0x1.234p01; -- HeˆÝscientific notation
+SELECT 0x1.2_34p01;
+S fro“ã€€( selecelect 1e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { _IDENTIFIER }
+select 1e5_; -- { serELECT 34_timeouimeIt_mnsJodaS=1;y;
+

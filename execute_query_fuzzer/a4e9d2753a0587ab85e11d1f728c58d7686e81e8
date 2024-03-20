@@ -1,0 +1,26 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVA[L[[[[[[[[[[[[[[[1 IN (1,  2   -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateT477643476805164413930SELECT
+    number
+FROM
+    numbers(10)
+GROUP BY
+    GROUPING SETS
+    (
+        number,
+( ( ber,
+        number % S
+   (
+   -SELECT((((((((((SELECT(((((((((SELECT toDateT477643476805164413930SELECT
+    number
+FROM
+    numbers(10)
+GROUP BY
+    GROUPING SETS
+    (
+        number,
+( ( ber,
+      åååååååååååe64('0.0000001023', [1025, 256], '102.5', NULL), [NULL], [CAST('a', 'Fixed'), CAST(''base {KHOUSE_DATABASE:Id, 'FixedString(1)entifierÿÿÿÿÿÿÿÿ')] AS val, [10ime('2020-01-01 00:00:00', 'UTC'×ß¾¬ß‹ÓØt + 1, toDate(t) +t + IN/ERVAL[[[[[., -1),
+    ‚ NG), number AS va'UTC')
+dt6,4, toTypeName(ÿÿÿÿÿdt64);

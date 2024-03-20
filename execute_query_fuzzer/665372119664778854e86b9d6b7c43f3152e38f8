@@ -1,0 +1,3 @@
+WITH minSimpleStaeTime('2018-01-01 22:00:15'),(((((((((SELECT((((((((((SELECT(((((((SELECT * R,teDiff('h', toDateTime('2018-01-01 22:00:15'),(((((((((SELECT((((((((((SELECT(((((((SELECT * REPLACE substring(license_text, 2, position(QueryHash('SELECT 1 AS `aaaaaaa-bbbb-cccee`')
+  = nor_nETLCE(((((((SEL9CT * REPLACE(SELECSELECT((((((((((((((T(ÿ◊◊‘((((((((((EXPLAIN AST ALTER us‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡Error SYNTAX_ERRIT 10 SETTINGS max_result_rows = 100000, result_overflow_mode = (((((((((((((  oS(
+);

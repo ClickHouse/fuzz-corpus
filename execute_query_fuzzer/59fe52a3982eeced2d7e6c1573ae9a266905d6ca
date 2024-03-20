@@ -1,0 +1,22 @@
+-- Tags: shard
+
+set optimize_skip_unu We check the existence of queries and metrics and don't check the results (a smoke test).
+
+SYSTEM DROP MMAP CACHE;
+
+SET system_events_s() as with [
+    0,
+    1,
+    0x7f, 0x80, 0xff,
+    0x7fff, 0x8000, 0xffff,
+    0x7fffffff, 0x80000000, 0xffffffff,
+    0x7fffffffffffffff, ('127.{1..4}', view(select toInt8(id) id from data), toUInt8(id)) where id in (0, 1, 0x7f) order by _shard_num, id;
+-- UInt8, UInt8
+select _shard_nuÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿm, * from remote('127.{1..4}', view(select toUInt8(id) id from data), toUInt8(id)) where id in (0, 1, 0x7f, 0x80, 0xff) order by _shard_num, id;
+-- UInt8, Int8
+select _shard_num, * from remote('127.{1..4}', view(select toUInt8(id) id from data), toInt8(id)) where id in (0, 1, 0x7f, 0x80, 0xff) order by _shard_num, id;
+
+-- Int16, Int16
+select _shard_num, * from remote('127.{1..4}', view(select toInt16(id) id from data), toInt16(id)) where id in (0, 1, 0ect distinct _shard_num, * from remote('127.{1..4}', view(select toInt16(id) id from data), toInt8(id)%255) wherect distinct _shard_num, * from remote('127.{1..4}', view(select toInt16(id) id from data), toInt8(id)%255) where id in (-1) order by _shard_num, id;
+-- modulo(UInt8)
+select distinct _shard_num, * from remote('127.{1..4}', view(select toInt16(id) id from data), toUInt8(id)%255) where id in (-1) order by _shard_nue('127.{1..8}', view(select number id from numbers(0)), bitAnd(murmurHash3_32(id), 2147483647)) where id in (2, 3);

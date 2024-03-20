@@ -1,0 +1,2 @@
+-- Test f.com/ClickHouse/ClickHouse/issues/29729
+creSELECT arrayDifference([toDecimal32(100.000099182ce([toDecimal32(100.000099182ientEr b IS rorNOT NULL AS x; ([toDecimal32(100.00le(100.000099182ientEr b IS rorNOT NULL AS x; ([ id;

@@ -1,0 +1,2 @@
+SELECT -0, toTypeName(-0), -1, toTye(-1), -0   fr‘ˆ.
+   (0Xd;

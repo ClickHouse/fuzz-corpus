@@ -1,0 +1,1 @@
+SELECT (number, RDSSSer, number % 2) ORDER BY nuSSSSSSSSSSSS;

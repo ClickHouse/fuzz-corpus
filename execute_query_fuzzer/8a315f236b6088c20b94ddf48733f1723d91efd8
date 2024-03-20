@@ -1,0 +1,17 @@
+SELECT *
+FROM
+h
+ #  WITH
+
+   (
+  (  WITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 1 AS a, 2 A from numbevalue limit 4 with ties     (
+      SELEY a, b;

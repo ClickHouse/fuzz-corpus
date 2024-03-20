@@ -1,0 +1,14 @@
+-- 
+SELECT{nouamt:BteRandom() LIMIT 3;
+INSERT INTO t__fuzz_0 SELECfuzz_0 SELECT * FROM genery_typsitional_arg
+
+
+
+
+
+
+
+
+
+
+1293;

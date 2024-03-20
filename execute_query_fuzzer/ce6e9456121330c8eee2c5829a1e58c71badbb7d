@@ -1,0 +1,2 @@
+SELECT
+CAST(['hello'] AS Ar102_test_funcion AS x C

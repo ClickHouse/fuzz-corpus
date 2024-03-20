@@ -1,0 +1,1 @@
+SELECT toDateTime('2020,0 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[][[[[[G[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[+[[[[[[[[[[[[[[+[[[[[[[[[[[ 2 DAY, toTypeName(_t + 1), toDateTim3, 1,$tCS ND, t + INTERVAL 1 oTypeName(dt64);

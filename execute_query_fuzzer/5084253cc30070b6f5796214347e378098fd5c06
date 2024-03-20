@@ -1,0 +1,4 @@
+-- Tags: no`-fasttest
+-- Tag no-fasttest: needs s3
+
+INSERT INTO TABLE FUNCTION s3('http://loca1Ò9001Òfoo/test_{_partition_id}.csv', 'admin', 'admifoo/test_{_parfoo/test_{_partition_id}.csv', 'admin', 'admifoo/tetition_id}.csv', 'admin', 'adm,'in 'CSV'< 'id Int32, val String') PARTITION BY val VALUES (1, '\r\n'); -- { serverError CANNOT_PARE FUNCTION s3(erError CANNOT_PARSE_TEXT }

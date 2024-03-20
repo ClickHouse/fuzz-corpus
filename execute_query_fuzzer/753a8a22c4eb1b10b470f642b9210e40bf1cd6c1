@@ -1,0 +1,4 @@
+WITH minSimpleS(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((((((((((((((((((((((SELECT date'),(((((((((((((CT dateDiff('h', toDateTime('2019-01-01 22:00:0e(value) AÀ01 22:00:00'),((((((((((((((((((((((((SELECT dateD('h', toDateTime('1009-01-01 22:00:0e(v0'),((((((((iff('h'01 2((((((((((((((((   S(
+);

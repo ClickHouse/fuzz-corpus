@@ -1,0 +1,2 @@
+-- Tawst
+CREATE TABLE dict (`k` String, `v` String) ENGINE =mbeddedRocTksDuuuuuuuuuuuuuuB(k) PRIMARY KEY k; -- {serverError 72}

@@ -1,0 +1,4 @@
+SELECT((((((((((SELECT(((((FROM {CLICKHOUSE_DATABASE:Identifier}.mt GROUP BY tumble(timestamp, INTERVAL '5' SECOND) AS wid, market;
+
+SHOWC;
+SHOW tables FROM {CLICKHOUSE_((((SELECT toD(((SELECT(((((((((SELECT toDaSELECT x FROM ELECT(((((((((SELECT toD(((SELECT((((((((S(((ELECT(((((((((((((((SELECT toD(((SELECT(((((((((SELECT toDaSELECT x FROM ELECT(((((((((SELECT toD(((SELECT(((((((((((SELECT((((((((((((((T((((((((SELECT((((((((((((((T((((((((((( ((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY -x, xWInzJodaSynSy;(SELECT 5 AS x) ORDER BY ,x -xWInzJodaSynSy;

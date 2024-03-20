@@ -1,0 +1,4 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((SELECT (0.1, 0.2)::TupleD(iamec,.07, 70), Decimal,(7', 70));6]::Array(lme
+(t);

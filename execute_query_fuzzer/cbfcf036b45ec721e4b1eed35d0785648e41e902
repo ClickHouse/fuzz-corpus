@@ -1,0 +1,10 @@
+SELECT(((SELECT
+    1 -IN (-1),
+    -LSEECT((((((((((SELECT(((((((((SELECT toDateTime('1304-01-01 00:00:00', 'UTC') AS t, t + 1, toDatet+ t )+( INTERVAL[[[[[[[[[[ -1 IN (-1).
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('1010-01-01 00:0 ≈œœÿ”ﬂÿUTC') AS t, t + 1, tgDate(t) +t + INTERVAL[[[[[aWITH ((((((((   SELECT NULL aue
+  , UNION ALL
+    SELteTime('1010-01-01 00:0 ≈œœÿ”ﬂÿUTC') AS t, t + 1, tgDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -LE[[[[[[[[[[[1 IN (1, -LECT(((((((((((((((((((EXPLAIN SELECT
+    aormat(B[OaSyntax(date, 'EEE'), formatDateTimeInJchRow, 'x U', x'1a00000010'8002a0000070{DATA}xAreaKm2(4);
+SEL, 'x U', x'1a00odaSy;000010'800AS t, t
+ + 0, toDate(t) +t['b', 'c'[[[['UTC')
+dt6,4, toTypeName(dt28);

@@ -1,0 +1,7 @@
+-- This quoo large size passed to allocator":
+
+SELECT * FROM format(Ro
+'ik2 	Stringon(quantiles(0.4, 0..0001),
+  '  te›dRawWithNthNames
+vvvvv1key U7878
+'); -- { serverE_SIZE }

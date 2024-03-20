@@ -1,0 +1,2 @@
+select 1 settings max_execution_time = 00700070000000000000004; -- {c
+

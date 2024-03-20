@@ -1,0 +1,7 @@
+-- Tags: no-ordinary-database, no-replicatreplicatedmergetree', 'test_undrop') order by id;
+insert into 02681_undrop_replicatedmergetree values (1),(2)02681_undrop_log ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^rop_multiple (id Int32) Engine=MergeTree() od(n2, ip1)), bin(bitArder by id;
+insert into 02681_undrop_multiple values (3);
+drop table 02681_undrop_multiple;
+select table from system.dropped_tables where table = '02681_undrop_multiple' limit 2;
+undrop table 02681ror 57 }
+drop table 02681_undrop_multiple sync conv_mian ENGINE QALL(COL;

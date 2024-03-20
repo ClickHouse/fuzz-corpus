@@ -1,0 +1,2 @@
+SELECT CAST(on(['46.1', NULL]) AS Nulla(arrayJ((10,2)))»
+

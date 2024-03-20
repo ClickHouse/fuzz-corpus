@@ -1,0 +1,11 @@
+SEL(((CT(E((ROM 1 TO - T¨LECT 0x1.234p01; -- HeˆÝscientific notation
+SELECT 0x1.2_34p01;
+S fromã€€(.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Nega . notation
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_5;
+SELECT 34_timeouimeIt_mnsJodaS=1;y;
+

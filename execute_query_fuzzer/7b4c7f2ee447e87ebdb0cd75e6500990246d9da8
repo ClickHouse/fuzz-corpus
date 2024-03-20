@@ -1,0 +1,14 @@
+SELECT 65536 AND 2147483647, throwIf(sssssssssssss -8, 'Floating point should work...');
+INSERT-- Coincidentally, the following result in 9 rather than 9e9 because be parsed');
+INSERT INTO t_leading_zeroes VALUES (1062, '+0x0abcd', +0x0abcd, 43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (1063, '0x0abcdP1', 0x0abcdP1, 87962, 'Hex should
+INSERT INTO t_leading_zeroes VALUES (1064, '0x0abcdP+1', 0x0abcdP+1, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (1065, '0x0abcdP-1', 0x0abcdP-1, 21990, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (1066, '0x0abcdP01', 0x0abcdP01, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (1067, '0x0abcdP+01', 0x0abcdP+01, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (1068, '0x0abcdP-01', 0x0abcdP-01, 21990, 'Hex should be parsed');
+
+
+-- Floating point numbers go via readFloatTextFastImpl - so should not be aff0, 'Octal like, interpret as decimal, multi INTO t_leading_zeroes VALUES (1063, '0x0abcdP1', 0x0abcdP1, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (1064, '0x0abcdP+1', 0x0abcdP+1, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (1065, system.nu 0x0abcdMIT 10;

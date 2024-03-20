@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, '\x07\x31\x29\x2c\20x\x49\SELECT cast64', toSE 6\x19\x11\x800\x00\x00\xcf\x31; - }

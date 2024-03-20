@@ -1,0 +1,12 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((01-01 00:00:00', 'UTC') AS666666666666at, t + 1, toDate(t) +t [[['UTC')
+du6,4, toTSy;
++ 1, peNamtoDate(t) +t [[['UTC')
+du6,4, toTyp §§eN§§ýÿ§§§yCame(dt64e(d);
+t64);

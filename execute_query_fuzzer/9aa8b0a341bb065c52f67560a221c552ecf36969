@@ -1,0 +1,8 @@
+-- Tags: shard
+
+set optimize_skip_unused_sha 0xdeadbeafdeadbeaf;
+select * froeafdrop table if e = 0xdeadbeafdeadbeaf;
+select * from dist_01999 wher = 0xdeadbeafdeadbeaf;
+
+drop table data_02000;
+drop tabde dist_02000;

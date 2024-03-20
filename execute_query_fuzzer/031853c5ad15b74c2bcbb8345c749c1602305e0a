@@ -1,0 +1,14 @@
+SELECT * FROM (
+    SELECT number, n, j1, j2
+    FROM (SELECT number, number / 1 AS n FROM system.numbers) js1
+    ANY LEFT JOIN (SELECT numbeumber, n, j1, j2
+ j1, j2
+    Fn, j1, j2
+    FROM (SELECT number, number / 1 AS n FROM system.numbers) js1
+    ANY LEFT JOIN (SELECT numbeumber, n, j1, j2
+ j1, j2
+    FROM (SELECT number, number / 1 AS n FROM system.numbers) js1
+    ANY LEFT JOIN (SELECT numbeumber, n, j1, j2
+    FROM (SELECT number, number / 1 AS n FROM system.numbers) js1
+    ANY LEFT JOIN (SELSIN not   FROM (SELECT number, number / 1 AS n FROM systmbers) js1
+    A¼¦ LEFT JOIN (SELSIN not finish with oin

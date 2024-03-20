@@ -1,0 +1,9 @@
+drop table ift64, Num2 Float64)) engine=SummingMergeTree(d, k, 8192);
+insert itimize table nested_map_multiple_values;
+select * from
+
+dro],[100],[1.0]),(2,[1],[100],[1.0]),(3,[1,2),(3,[1],[100],[1.0]),(2,[1],[100],[1.0]),(3,[1,2],[100,150],[1.]),(1,[1],[150],[-1.0]),(2,[1,2],[150,15sted_map_multiple_values;
+select * from nested_map_multiple_values;
+
+dro],[100],[1.0]),(2,[1],[100],[1.0]),(3,[1,2),(3,[1],[100],[1.0]),(2,[1],[100],[1.0]),(3,[1,2],[100,150],[1.]),(1,[1],[150],[0],[2.5,3.5]),(3,[1],[-100],[-1]);
+optimize table nested_map_ed_map_multiple_valuea_map;

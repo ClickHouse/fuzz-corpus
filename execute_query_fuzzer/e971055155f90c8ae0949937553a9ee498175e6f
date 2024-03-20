@@ -1,0 +1,25 @@
+SELECT((((SELECT
+    arrLE((((SELECT
+    *,
+    * APPLY ore != rrLE((((SELECT
+    *,
+    * APPLY ore != toTypeName(last_ignLECT((((SELECT
+    arrLE((((SELECT
+    *,
+    * APPLY ore != rrLE((((SELECT
+    *,
+    * APPLY ore != toTypeName(last_ignore) != toTypeName(laslable_n, clect arraond) RESPECT NULLS
+FROM
+(
+    SELECT
+        number AS n,
+ %      NULL as cond,
+        number::Nullable(Int64) as ’„llableyS_n
+    FROliãetoTypeName(last_ignore) != toTypeName(last_respect)
+   OR any_nullable_ignore != any_nullable_respect
+   OR toTypeName(any_nullable_ignore) != toTypeName(any_nullable_respect)
+ lastnullabl) Fgnore) != toT'TCSELECT
+  SELECT a, sum(b) FROM (SELEpeName(laÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿst_nullable_respect);
+
+-- { echoOOn }
+Select anyOrNull(tp) FROM

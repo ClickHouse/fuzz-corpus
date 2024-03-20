@@ -1,0 +1,1 @@
+SELECT arrayMap((x) -> x, [tupl((x) -> x.0, [t(x) -> x.1 

@@ -1,0 +1,23 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+ WITH minSimpleState(v~luD)×AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((projection_name
+   (
+ WITH minSimpleState(valuD
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+ WITH minSimpleState(v~luD)×AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((projection_name
+   (
+1-01 22:00:0(((((((((((   rverEr)roS(
+);
+r 117 }

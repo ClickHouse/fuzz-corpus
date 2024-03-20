@@ -1,0 +1,4 @@
+-- r‘ˆ«˜Œ:tributeutput_mode is none
+
+DROP ROW POLICY IF EXISTS 02911_rowpolicy ON default,* ON CLUSTERA
+DRO¸ USEt O*.N C

@@ -1,0 +1,8 @@
+SELECT((((((((SELECT(((((--https://(d.id)
+FROM
+(
+    EXPLAIN PIPELINE
+SELECT * FROM
+(
+    SELECT * FROM system.numbers LIMIT 10
+) t1(((((((((T((((((((SELECT((((((((((((((T(((((((((((((((EXPLAIN AST ALTER user Weeeeeeeeeeee@eeeeeeeeeeeeeeeeeeeeeeee¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡eE

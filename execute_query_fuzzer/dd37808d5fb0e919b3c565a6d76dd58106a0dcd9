@@ -1,0 +1,7 @@
+-- Tags: no-tsan
+seleCt number from remo UUID,
+    `field3` Int64,
+    `field4` Int64,
+    `field5` LowCardinality(String),
+    `field6` Fite('127.0 p1)), bin(bitAnd(ip2, n1)), bin(bitAnd(n1, ip2)),
+       bin(biket_foe_ms=10, receive_data_timeout_msÿÿÿÿÿÿ>=0;

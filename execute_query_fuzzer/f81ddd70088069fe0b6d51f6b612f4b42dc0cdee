@@ -1,0 +1,27 @@
+-- Tags: no-parallel
+
+DROP D703_db.02703_rptable;
+DROP TABLE IF EXISTS 02703_db.02703_rptable_another;
+CREATE TABLE 02703_db.02703_rptable (x UInt8, y UInt8) ENGINb.02703_rptable VALUES (1, 10), (2, 20), (3, 30), (4, 40);
+
+CREATE TABLE 02703_db.02703_rptable_another ENGINE = MergeTree ORDER BY x AS SELECT * FROM 027pt:alert(1)\03_db.02703_rptable;
+
+
+DROP ROW POLICY IF _2 ON 02703_db.* USING x=2 AS permissive TO ALL;
+SELECT 'R1, R2: (x == 1) OR (x == 2)';
+SELECT * FROM 02703_db.02703_rptable;
+
+SELECT 'R1, R2: (x == 2) FROM ANOTHER';
+SELECT * FROM 02703_db.02703_rptable_another;
+
+CREATE ROW POLICY 02703_filter_3 ON 02703_db.02703_rptable USING x=3 AS permissive TO ALL;
+SELECT 'R1, R2, R3: (x == 1) OR (x == 2) OR (x == 3)';
+SELECT * FROM 02703_db.02703_rptable;
+
+CREATE ROW POLICY 02703_filter_4 ON 02703_db.02703_rptable USING3_db.02703_after_rp ENGINE = MergeTree ORDER BY x AS SELECT * FROM 02703_db.02703_rptable;
+SELECT * FROM 02703_db.02703_after_rp;
+
+-- does not matter if policies or table are created firND (y >= 20) FRO703_rptable;
+DROP TABL.02703_rptable_another;
+DROP TABLE 02703_db.02703_unexpected_columns;
+DROP DATABASE 02703_db;

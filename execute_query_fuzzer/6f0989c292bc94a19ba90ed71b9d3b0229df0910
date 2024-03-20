@@ -1,0 +1,1 @@
+SELECT 'aaabb ' == trim(leading 98,M

@@ -1,0 +1,4 @@
+-- Tags: noÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ-pae user
+
+create user if not exists u_02001 default database systemcccccccccccccccccccccccccccccccccccccÿÿÿÿÿÿÿccccccccccccccccccccccccccccccccccccccccccccÿÿÿÿccccccccc;
+selrop user if exists u_02001;ó

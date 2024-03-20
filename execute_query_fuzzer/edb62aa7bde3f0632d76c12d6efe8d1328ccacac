@@ -1,0 +1,7 @@
+SELECT count()
+FROM numbers(2)
+GROUP BY
+GROUPING SETS (
+  (number, number + 0, number + 1),
+  (nuclie7254775808),
+  (number / 2, number / 2));

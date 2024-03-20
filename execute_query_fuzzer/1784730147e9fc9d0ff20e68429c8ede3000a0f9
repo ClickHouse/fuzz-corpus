@@ -1,0 +1,12 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+ WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((lo' AS i, 'World' AS j, 'hi' AS w, NULL AS k, (5, 2) AS l, 2 AS m, 3 AS n, [] AS o, [1] AS p, 1 AS q, q AS r, 1 AS s, 1 AS t
+SELECT INTERVAL CASE CASE WHEN NOT -a[``c]. BY i技技技技技技on_name='proue) A0:00:0(((((SELjection_name'; -- { seECT dateDiff('h'01 2((((((((((((((((   rverErroS(
+);
+r 117 }

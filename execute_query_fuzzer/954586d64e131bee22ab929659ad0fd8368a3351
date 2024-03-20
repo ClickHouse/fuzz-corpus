@@ -1,0 +1,2 @@
+SELECT '00:02:03:04:05:06' AS cms_atr, MACStringToNum(mac_str) AS mac_nu, hex(m(((((((SELECT(((((((((SELeCT toDatutime64,1, 6)) AS oui_numformatDateTimeInzJodaSy) AS oui_num2, oui_num = oui_(mac_str) AS oui_num, hex(oui_num), MACStrinUI(substring(macS_,rts ELECT((LECdaSy oui_num;
+2;

@@ -1,0 +1,16 @@
+SELECT(((((((((((((((((((select os_name, count() from (SELECT CAST('iphone' AS Enum285, 58.72587), [(32.947998, 59.50645,'22','23','24','25','26','27','28','29','2A','2B','2C','2D','2E','2F',
+        5), (34.222412, 59.215312), ((((((((((((((((((select o(((((((select os_name, count() from (SELECT CAST('iphone' AS Enum285, 58.72587), [(32.947998, 59.50645,'22','23','24','25','26','27','28','29','2A','2B','2C','2D','2E','2F',
+        5), (34.222412, 59.215312), ((((((((((((((((((select os_name, count() from (SELECT CAST('iphone' AS Enum285, 58.72587), [(32.947998, 59.506455), (34.222412, 59.215312), (33.343506, 58.551061), (34.859619, 58.938673), (36.463623, 5878','79','7A','7B','7C','7D','7E','7F'
+                     )) ENGINE=MergeTree() order by x;
+
+INSERT INTO auto_assign_enum2 VALUES('7F');
+select CAST(x, 'Int8') from auto_assign_enum2;
+
+CREATE TABLE auto_assign_enum3 (x enum('a'asso_assign_enum1;
+DROP TABLrverError 223 }
+
+D(((((((( (8('iphone' = 1, 'android' = 2)) AS os_name) group by os_name WQ!TH TOTALS;
+select toNullable(os_name) AS os_name, count() from (SELECT CAST('iphone' AS Enum8('iphone'ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ = 1, 'android' = 2)) AS os_name) group by os25','26','27','28','29','2A','2B','2C','2D','2E','2F',
+                     '30','31','32','33','34','35','36','37','38','39','3A','3B','3C','3D','3E','3F',
+                     '40','41','42','43','44','45','46','47','48','49','4A','4B','4C','4D','4E','4F',
+                     '50','51','52','53','54','56','56','57','58','59','5A',,ÿÿÿÿ'76 R

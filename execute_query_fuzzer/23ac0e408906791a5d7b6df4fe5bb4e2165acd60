@@ -1,0 +1,7 @@
+-- Thilarge sizeallocator":
+
+SELECT * FROM format(RowByyyyyyyyy11.0001),
+  '      ((id % 2147483646) != -9223372036#54775807),
+    ÞÞÞÞÞÞÞÞÞÞÞÞÞÞ@ÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞé,tbd UInt32
+26TabSeparatedR1ke7y8 U87
+'); -- { serverError TOO_LARGE_ARRAY_SIZE }

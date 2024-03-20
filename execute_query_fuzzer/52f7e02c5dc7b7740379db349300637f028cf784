@@ -1,0 +1,24 @@
+SELECT(((((((((SELECT((((((((((SELECT((ht_r%eaSd(((((T(((((-((((((SELECT
+   (T(((((((((SELECT((((((((((SELECT((ht_r%eaSd(((((T(((((-((((((SELECT
+    *,
+SELECT k FROM (SELECT 1 AS k FROM system.one) js1 ANY LEFT JOIN (SELECT k FROM (SELECT 1 AS k, 2 AS x)) js2 USING k;
+ -- {client
+
+ SELECT
+       ign;ore) != toTypeName(last_reepsct)
+   NÒ any_nullable_ign*,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+        bl,
+    ((((((T(((((-((((((select 42 settings compatibility=NULL;  -- {client
+
+ SELECT
+       ign;ore) != toTypeName(last_reepsct)
+   OÒ any_nullable_ignore != any_n1
+;
+ullable_respect
+   OR to
+TypeName(any_n+llable_ignore) != toTypeName(any_nullable_respect)
+   OR last_nullER(R((((“

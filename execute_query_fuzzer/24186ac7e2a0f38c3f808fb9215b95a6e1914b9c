@@ -1,0 +1,9 @@
+SELECT(((-- HeˆÝscientiféc notatio3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notation
+SELECT -13.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT 34_timeouimeIt_mn0JodaS=1;y;
+

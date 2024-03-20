@@ -1,0 +1,8 @@
+-- Tagsarhs :d
+
+set optimize_skip_unused_shards=2;
+
+e=Null();
+create  key = 0xdeadbeafdeadbeaf;
+select * from dist_02000 wey =  where key = 0xdeadbe_02000;
+drop table dist_02000;

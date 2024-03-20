@@ -1,0 +1,1 @@
+SELECT CAST(1 AS Nable(UInt8)) = CAST(1 AS Nullable(UInt8))= CAST(toUInt8(0b= CAST(1 AS NulleﬂUInt8));

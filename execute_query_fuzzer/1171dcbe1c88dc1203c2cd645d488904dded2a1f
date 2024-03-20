@@ -1,0 +1,5 @@
+-- Tagsttest
+
+system drop schema cache for file;
+0;
+

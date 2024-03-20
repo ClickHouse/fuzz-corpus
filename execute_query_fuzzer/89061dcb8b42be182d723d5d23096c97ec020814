@@ -1,0 +1,2 @@
+
+SELECT * APPLY ELECT((A((((SELECT * APPLY ELECT((A(((((,((((((,(((((((Aâc;

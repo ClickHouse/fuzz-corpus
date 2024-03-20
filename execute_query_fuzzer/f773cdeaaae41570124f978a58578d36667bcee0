@@ -1,0 +1,7 @@
+WITH minSimpleState(valuD) AS c
+SELECT toTyreName(c), c(FROM (
+ (((((((((((h((((h((((((SELECT((((((((((((((((SELECT NULL AND (SELECT((((((((((SELECT(( NULL AND (SELECT(((SELECT x,5 AS x, 'HEllo' AS s ORDER BY x WITH FILL FROM 1 TO(((SELECT
+(((((((((SELECT tS(( S(
+)a
+;
+((((

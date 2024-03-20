@@ -1,0 +1,1 @@
+SELECT argMinyJoin([[10, b'0' == 001100004, , 4]]) AS id)

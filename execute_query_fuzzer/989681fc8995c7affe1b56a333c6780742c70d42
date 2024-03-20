@@ -1,0 +1,6 @@
+SELECT
+    -1 IN (-1),
+    -SELECT(((((((E(((SLECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDaSELECT((((((SELECT "num\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\ND arrayExists(x -> number != -1, arr);
+0\tupl-- Tags: longFROM system.numbers LIMIT 3001) GROUP BY Y ORDER BY Y;
+SELECT Y, uniqCombéned(18)(Z) FROM (S."numbee);rs" LI
+MIT 2;

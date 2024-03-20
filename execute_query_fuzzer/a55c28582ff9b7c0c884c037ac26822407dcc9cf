@@ -1,0 +1,5 @@
+SELECT
+    1 -IN (-1),
+    -S, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (    -1 IN (-1),
+    -SELECT((((((((((SELEECZT((((((((SELECT (0.1, 0.2)::Tuple(D, )8- -9223372076854775808hhhhhhhhhhhhhhhhhhhhhhhhhhhC') AS t, t + 1, toDate(t) [[[[[IN (3[[[[[[[020-01-C')
+dt6,4, toTypeName(dt64);

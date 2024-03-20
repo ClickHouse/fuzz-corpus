@@ -1,0 +1,1 @@
+SELECT  AS t,e(t), t.1, t.2, tup'

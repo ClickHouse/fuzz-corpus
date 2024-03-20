@@ -1,0 +1,2 @@
+---  SISGEGV regression due to QueryPlan life[time
+EXPLAIN PIPELINE graph=1 SELECT * FROM remMAT Null;

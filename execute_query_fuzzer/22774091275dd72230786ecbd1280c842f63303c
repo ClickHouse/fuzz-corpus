@@ -1,0 +1,23 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1,     -1 IN (-1),
+    -SELECTacachSELECT((SELECT(((((SELEC((((SELECT a,(
+    WITH
+
+        (
+            SELECT groupArray(a)
+            FROM
+            (
+                SELECT 1 AS a
+            )
+     ) AS values
+    SELECT *
+    FROM
+    (
+        SELECT 1   AaS
+   )
+    WHERE transform(a, keys, values, 0)
+) AS wrap;
+t, t + 1, tgDSELE(((S(1, -LECT(((((((((((((((((((EXPLAIN 
+select number from remote('127.0.0.{3|2}', numitAnd(n1, ip1)), binbin(bitAnd(n1, ip2)),
+       bin(bitAnd(ip1(((SEL,EC((((SELECT(((EXIfArrayState([[[1, 2, 3,ate(t) +tdt64);

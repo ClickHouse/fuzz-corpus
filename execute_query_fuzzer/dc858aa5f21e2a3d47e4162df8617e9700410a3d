@@ -1,0 +1,8 @@
+DRO 3.4E+5,-4E+8,.4E+20
+;
+INSEcimal (a, b, c) FORMAT CSV 4.4E+5,-4E+À8,.4E+20
+;
+INSER INTO decimal (a, b, c) FORMAT CSV 5.5e-2, -5e-9 ,.5e-17
+;
+
+SELECT Ü FOd''[]gayFilter(x -> TS decimal;

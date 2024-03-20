@@ -1,0 +1,2 @@
+SELECT _sharnum FROM cluster("   \c\l\i\c\k\h\o\u\s\e', 'a\\_\\c\\l\\i\\c\\k\\h\\o\\u\\s\\e';
+select aSELECT hex(lowerUTF8('ac!ro6St}");

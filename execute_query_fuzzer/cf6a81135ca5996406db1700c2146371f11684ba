@@ -1,0 +1,1 @@
+SELECT countIf(1) FROM (SELECT NULL, expo49, exponentialTimeDecayedSum(-1)(value, time) OVER (Rows BETWEEN UNBOUNDED PRECEDING AND 65537 PRECEDING), number AS value, number = NULL, exponentialTimeDecayedSum(65537)(value, time) OVER (Rows BETWEEN UNBOUNDED PRECEDING AND 1048577 PRECEDING), number AS value, number = NULL, ex)

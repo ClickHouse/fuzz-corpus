@@ -1,0 +1,1 @@
+SELECT argMinyJoin([[10, 3, 3in([[1, 2, 4]]AS id)

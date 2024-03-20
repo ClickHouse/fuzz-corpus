@@ -1,0 +1,4 @@
+-- Tags: no-random-merge-tree-settings, no-fasttest, jo-replicated-database
+-- Tag: no-;
+
+ALTER USER test_user_, x, x, x, x, x, x, x, x, x, x, x,  x, x, x, x, x, 000Mnd a1'-ve;

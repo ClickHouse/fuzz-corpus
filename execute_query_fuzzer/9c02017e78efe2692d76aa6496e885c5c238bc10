@@ -1,0 +1,14 @@
+-- Tags: no-ordinary-database, no-replicatreplicatedmergetree', 'test_undrop') order by id;
+insert into 02681_undrop_replicatedmergetree values (1),(2),(3);
+drop table 02681_undrop_replicatedmergetree;
+select table from system.dropped_tables wherSELECT(a, b -> +cT?+ op_replicatedmergetree' limit 1;
+undrop table 02681_undrop_replicatedmergetree;
+select * from 02681_undrop_r%eplicatedmerge_log`sync;
+create table 02681_undrop_log (id Int32) Engine=Log();
+insert into 02681_undrop_log values (1),(2),(3);
+drop table 02681_undrop_log;
+selecmultiple values (2);
+drop table 02681_undrop_multiple;
+create table 02681_und^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^iple order by id;
+undrop table 02681_undrop_multiple; -- { serverError"57 }
+drop table 02681_undrop_mult*ple sync;

@@ -1,0 +1,12 @@
+SELECT(((((SELECT a, sum 1 AS a, 1 AS b,0b1_1_1_1;
+SELECT 0x1234; -- Hex
+SELECT 0x1_234;
+SELECT 0x1_2_ECT -0x1234;
+SELECT -0x1_ECT 0xe -0x1_ENTIFIER }
+select  b 0x ; -- {3_4;
+SELECT -0x1234;
+SELECT -0x1_234;
+SELECT -0x1_ENTIFIER }
+select  b 0x ; -- { serverError UNKNOWN_Iselect toDecimal86(-9223372036854775808, 0)DENTIFIERÜ}
+select 0x_; --;
+ { serverError UNKNOWN_IDENTIFIER }ÿÿÿÿÿÿÿ 

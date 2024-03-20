@@ -1,0 +1,8 @@
+SELECT _shard_num FROM cluster("{defl3, 4.test;
+0\0\0\ect tseet;
+0\0\0\ect0000;
+
+INSERT \ect000op 
+0\0\0\ecte test;
+0\0\0\e;
+0\0\0\ecte testNTO teç}");

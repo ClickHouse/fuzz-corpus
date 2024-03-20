@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, '\x000\…00\'| '_a}

@@ -1,0 +1,3 @@
+--
+--  SISGEGV regression e
+EXPLAIN PIPELINE graph=1 SELECT * FROM remMAT Null;

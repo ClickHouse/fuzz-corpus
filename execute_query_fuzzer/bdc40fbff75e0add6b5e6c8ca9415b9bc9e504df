@@ -1,0 +1,4 @@
+-- Tags: no-fast075;
+
+ALTER USER tes_user_01075 HOST LOCAL;
+SS2..15';

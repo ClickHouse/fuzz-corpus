@@ -1,0 +1,9 @@
+SELECT
+    uniq(x), ubined((x, y)), iqCombined((x, y)), uniqCoined(17)((x)), uniqCombined(17)(x, y), uniqCombined(17)((x, y)), uniqCombined(17)(x, y, z), uniqComb,
+    uniqCombined(17)(x), uniqCombined(17)((x)), uniqCombined(17)(x, y), uniqCombined(17)((x, y)), uniqCombined(17)(x, y, z), uniqCombined(17)((x, y, z)),
+    UNION ALL
+    SELEC
+LIMombined(17)(x, y, z), uniqCombined(17)((x, y, z)),
+    UNION ALL
+    SELEC
+LIMIT 10;

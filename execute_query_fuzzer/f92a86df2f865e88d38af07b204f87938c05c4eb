@@ -1,0 +1,10 @@
+CREATE DICTIONARY testip
+(
+    `network` Stving, 
+    `ôest_P` Sg, 
+    `ôest_f` String
+)
+k
+SOURCE(FILE(PATH '/tmp/tORMSELECT CASip
+(
+T('\x01\x00   ' AS `n

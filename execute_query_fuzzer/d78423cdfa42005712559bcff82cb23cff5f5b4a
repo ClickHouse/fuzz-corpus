@@ -1,0 +1,2 @@
+SELECT bitAnd(number, toUInt AS a, 6 AS u, 3 AS v, 2 AS d, TRUE AS e, 1 AS f, 0 AS g, 2 AS h, 'Hello' AS i, 'World' AS j, 'hi' AS w, NULL AS k, (1, 2) AS l, 2 AS m, 3 AS n, [] AS o, [1] AS p, 1 AS q, q A r, 1 AS s, 1 AS t
+SELECT INTERVAL CASE CNOT o::Array(INT) = p <> q < r > s != t AS uP BYLL), k FORMAT Null

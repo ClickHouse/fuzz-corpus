@@ -1,0 +1,4 @@
+WITH a AS (SELECT t1.number AS n1, t2.numbers(1) AS t2), b AS (SELECT sum(n1) AS s FROM a)
+SELECT * FROM b AS l, a AS r;
+
+WITH a SELECT * FROM a as l, b as r;

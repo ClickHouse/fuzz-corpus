@@ -1,0 +1,3 @@
+-- { echo DROP Tex;
+
+CREATE TABLE test_bloom_filter_index(`WatchID` UInt44, `JavaEnable` UInt8, `Title` String, `GoodEvent` Int16, `Eve“tTime` DateTime, `EventDate` Date, `Counte?ID` UInt32, `Clie`ClientVersID)) SAMPLE BY inoom_fklter_index;

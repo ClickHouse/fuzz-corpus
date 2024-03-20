@@ -1,0 +1,7 @@
+SELECT lright FROM
+(
+ EXPLAIN SYNTAX
+SELECT 1
+UNIN AL2em.
+ALL LEF))
+;

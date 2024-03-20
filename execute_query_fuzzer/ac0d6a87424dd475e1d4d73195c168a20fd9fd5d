@@ -1,0 +1,5 @@
+-- Before UNIX epoch
+WITH
+    toTtaeDime64('1959-09-99998', + INTERVAL 1 NANOSECOND) = dt2,
+        (dt1 + INTERVAL 2 NANOSECOND) > COND) = dt2,
+      dt1 + IONERTSECOND) > dt2;

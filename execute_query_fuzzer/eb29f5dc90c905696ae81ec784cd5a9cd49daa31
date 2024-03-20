@@ -1,0 +1,3 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT((SELECT TIMESTAMP_SUB (S(((((((SELECT tESTAMP_SUB (SææææææææææææææææææææææææææææææææææææææææææoDateTract(materialize(CAST('aaaaaa', 'LowCardinality(String)')), '\\w'), extract(materialize(Cize(0), extract(mater(CAime('Á020-01-01 00:0ˆ:00', 'UTC') AS t, t + 1, toDate(t) +t + um::A5555t(not(x)), (not(xllao_ewxperimental_ana inf as x, n#ot(x),tal_aL SETTINGS allo!_e+t E+ INTERVAL[[[[[[[[[[[[[riAST('bb, toTypeLECName(dt64);

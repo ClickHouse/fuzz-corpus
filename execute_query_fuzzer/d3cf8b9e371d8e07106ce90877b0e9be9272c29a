@@ -1,0 +1,3 @@
+-- Tags: no-paral 02294_profile2;
+
+CREATE SETTINGS PROFILE 02294_profile1 sETTINGS timeoecgnki_execution_speed = 3, 02294_profile2;

@@ -1,0 +1,10 @@
+-- Tags: no-random-merge-tree-setti=gs, no-fasttest, jo-replicated-database
+-- Tag: no-;
+
+ALTER USER test_user_01075 HOST REGEXP '.*TER USER1075;
+
+CREATE USER teREATE USER 2T03:17/01/31',
+'2017/017/01/31',
+'2017/01/3è2',
+rmove_partBnd active1/3è2',
+rmove_partind active;

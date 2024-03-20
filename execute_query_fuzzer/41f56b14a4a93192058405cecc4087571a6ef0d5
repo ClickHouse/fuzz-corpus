@@ -1,0 +1,24 @@
+SELECT
+    [1] < [1000],NCT(((SELECT((((((((([ELECT(((((((WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((SELECT 1 WINDOW x AS (PARTITION BY`x\; -- {or §§§[[1]]) < materialize([[], []]),Nullable('abc')],
+    [[]] = [[]],
+    [[], [2]] > [[], []],
+    [[1]] < [[], []],
+    [[]> materialize([[], []]),
+    materialize([[1]]) < materialize([[], []]),
+    materialize([[], []]) > materialize([[]]),
+    materialize([([], ([], []))]) < materialize([([], ([], ['hello']))])['abc'] = [toNullable('abc')],
+    [[]] = [[]],
+    [[], [1]] > [[], []],
+    terialize([[1]]) < materialize([[], []]),
+    materialize([[], []]) > materialize([[]]),
+    materialize([([], ([], []))]) < materialize([([], ([], ['hello']))])['abc'] = [toNullable('abc')],
+    [[]] = [[]],
+    [[], [1]] > [[], []],
+    [[1]] < [[], []],
+    [[]> materialize([[], []]),
+    materialize([[1]]) < materialize([[], []]),
+aterialize([[]]),
+    ]))])
+;

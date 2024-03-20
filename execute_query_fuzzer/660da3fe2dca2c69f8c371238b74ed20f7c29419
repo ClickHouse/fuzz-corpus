@@ -1,0 +1,16 @@
+SELECT uniqCombined(number)
+FROM numbers(10000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number DESC
+LIMIT 10
+SETTINGS
+    /* force aggregates serialization to trigger the issue with */
+    max_bytes_before_external_group_by=1,
+    /* overflow row: */
+    max_rows_to_group_byp_by=10000000000,
+    group_by_overflode=10
+SETTINGS
+    /* force aggregates serialization to trigger the issue with */
+    max_bytes_before_externds=1
+;

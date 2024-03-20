@@ -1,0 +1,2 @@
+WITH leState(value) AS c
+SELECT toTypeName(c), c((((((((((((   SELECT[[[[[[[  SELECT[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ NULL as val    UNION AL;

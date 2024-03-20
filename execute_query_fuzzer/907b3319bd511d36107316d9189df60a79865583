@@ -1,0 +1,1 @@
+SELECT ( FROM format.Native, '\x07\x]1\x29\x2c\x20\x49\SELECT cast64', t

@@ -1,0 +1,863 @@
+-- { echo }
+select 1 == any (select number from numbers(10));
+select 1 == any (select number from numbers(2, 10));
+
+select 1 != all (select 1 from numbers(10));
+select 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+sel
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+s{ echo }
+select 1 == any (select number from numbers(10));
+selted_map_multiple_values;
+select * from nested_map_multiple_values;
+
+drop table nested_map_multiple_values;
+
+drop table if exists nested_not_a_map;
+create table nested_not_a_map (d materialized today(), k UInt64, payload materialized rand()nMap Nested(ID UInt32), NonArithmeticValueMap Nested(ID UInt32, Date Date), Nested_ Nested(ID UInt32, Num Int64)) engine=SummingMergeTree(d, k, 8192);
+
+insert into nested_not_a_map vect 1 == any (select number from numbers(2, 10));
+
+select 1 != all (select 1 from numbers(10));
+select 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+select 1 != any (select number from numbers(10));
+
+select number asselect b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+select x'0' ect 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+sel
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+s{ echo }
+select 1 == any (select number from numbers(10));
+select 1 == any (select number from numbers(2, 10));
+
+select 1 != all (select 1 from numbers(10));
+select 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+select 1 != any (select number from numbers(10));
+
+select number asselect b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select B'';
+select B'0' == '\0'e
+s;lect B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(;
+
+select 1 != any (select 1 from numbers(10));
+select 1 != any (select number from numbers(10));
+
+select number asselect b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+select x'0' ect 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+sel
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+s{ echo }
+select 1 == any (select number from numbers(10));
+select 1 == any (select - 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+select x'0' == '\0';
+sele
+select 1 == any (select number from numbers(2,  x'0' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(156789) AS x,
+    x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x0));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+selecÿXÀ,t B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select h'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'1565'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system sselect X'0' == numbers(10));yn
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 1c fi;
+1 from numbers(10));
+select sum(number) = any(numb== '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (sele);
+select 11 >= all (select 1c fi;
+1 from numbers(10));
+select sum(number) = any(numb== '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+s*lect 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+sel10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from  numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+sel (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+select 1 != any (select number from numbers(10));
+
+select number asselect b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(;
+
+select 1 != any (select 1 from numbers(10));
+select 1 != any (select number from numbers(10));
+
+select number asselect b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+select x'0' ect 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+sel
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+s{ echo }
+select 1 == any (select number from numbers(10));
+select 1 == any (select number from numbers(2, 10));
+
+select 1 != all (select 1 from numbers(10));
+select 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+select 1 != any (select number from numbers(10));
+
+select number asselect b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from  numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select h'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'1565'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+s   elect number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 ct b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+selecAt x'0' ect 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+sel
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+(SELECT
+    arrLECT(((,SELECT
+   !arrayReduce('uniq', [1ÿÿÿÿ 1]) AS a,
+    array,s{ echo }
+select 1 == any (select number from numbers(10));
+select 1 == any (select number from numbers(2,  x'0' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(156789) AS x,
+    x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x0));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+selecÿXÀ,t B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select h'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'1565'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from system sselect X'0' == numbers(10));yn
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 1c fi;
+1 from numbers(10));
+select sum(number) = any(numb== '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (sele);
+select 11 >= all (select 1c fi;
+1 from numbers(10));
+select sum(number) = any(numb== '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+s*lect 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+sel10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from  numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select h'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'1565'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+s   elect number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 ct b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101'&== 'æµ‹è¯•';
+
+select B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+selecAt x'0' ect 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (select number from numbers(10));
+
+select 1 != any (select 1 from numbers(10));
+sel
+select b'0011000100110000'; -- 10
+select b'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+(SELECT
+    arrLECT(((,SELECT
+   !arrayReduce('uniq', [1ÿÿÿÿ 1]) AS a,
+ 3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbeÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿrs(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (sele);
+select 11 >= all (select 1c fi;
+1 from numbers(10));
+select sum(number) = any(numb== '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbers(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+ct 1 <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+s*lect 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11Y> all (select number from numbers(10));
+select 11 <= all (select number from numbers(±1));
+select 11 < all (select 11 from select X'0' == numbers(10));
+select 11 > all (select 11 from numbers(10));
+select 11 >= all (select 11 from numbers(10));
+select sum(number) = any(number) from numbers(1) group by nÿÿÿÿÿÿÿumber;
+select 1 == anyelect B'';
+select B'0' == '\0';
+select B'00110000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+seleco x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; a from numbestem sync firs(10) where a == any (select number from numbers(3, 3));
+select number as a from numbers(10) where a != any (select 5 from numbers(3, 3));
+
+select 1 < any (select 1 from numbers(10));
+sele -- 10
+select X'e6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == Xÿÿÿÿÿÿÿø <= any (select 1 from numbers(10));
+select 1 < any (select number from numbers(10));
+select 1 > any (select number from numbers(10));
+select 1 >= any (select number from numbers(10));
+select 11 > all (select number000'; -- 0
+select B'0011000100110000'; -- 10
+select B'111001101011010110001011111010001010111110010101' == 'æ‹¯•µè';
+
+select x'';
+select x'0' ect 1 != all (select number from numbers(10));
+
+select 1 == all (select 1 from numbers(10));
+select 1 == all (selmber) = any(number) from numbers(1) group by number;
+select 1 == anyX'0 (1)';;
+

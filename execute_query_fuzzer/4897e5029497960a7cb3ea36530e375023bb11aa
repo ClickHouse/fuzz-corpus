@@ -1,0 +1,2 @@
+select B'';
+select B'1' =ABLE t_temp;

@@ -1,0 +1,5 @@
+CREATE DICTIONARY testip
+(
+   `test_field` String
+)
+PRIMARY KEY ›š }¯

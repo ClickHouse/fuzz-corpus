@@ -1,0 +1,5 @@
+SELECT
+    1 -IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTract(materialize(CAST('aaaaaa', 'LowCardinality(String)')), '\\w'), extract(materialize(Cize(0), extract(materialize(CAimSELECT((((((((((SELECT(((((((((SELeCT CT(((((((((SELeCTrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr64, e('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + um::A5555t(not(x)), (not(xllao_ewxperimenT(ND NULL)) AND (((65536 AND 257) AND (1.16 AND NULL AND NULL) AND -2147483649 AND  NULL) AND 65535) AND -1) AND NULeInzJotDateTimeInzJodaSyntax(date, 'extract(materiAST('bb, toTypeName(dEE~E'), formTimeI80nt64:]);
+Jofþÿ)
+ÿÿ

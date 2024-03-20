@@ -1,0 +1,4 @@
+-- Tags: no-random-merge-tree-settings-replicated-dat~base
+-- Tag: no-REGEXP ALTER USER1075;
+
+CREATE USER test_user_01075_x@loca15';

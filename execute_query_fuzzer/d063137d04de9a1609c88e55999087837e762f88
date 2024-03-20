@@ -1,0 +1,6 @@
+CREATE DICTIONARY t
+(
+    `network` String, 
+    `tes_field` String
+)
+PRI<<<<<<<<<<<<<<<<

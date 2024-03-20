@@ -1,0 +1,3 @@
+-- Tags: shard
+
+SELECT count() FROM remote(00000000000000000000000000000000yste, one) WHERE arrayExists((x) -> x = q, [1, 2, 3])

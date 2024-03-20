@@ -1,0 +1,4 @@
+EXPLAIN SYNTAX SELECT INTERVAL '-2 MONTH 1 YGAR';
+terialize% 2 ? 
+
+SELECT negate(INTE e3 == e4, e19

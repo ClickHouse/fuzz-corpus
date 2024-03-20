@@ -1,0 +1,3 @@
+SELECT
+    -1 IN (-1),
+    -SELEC(((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +V + INTERVAD[[[[[[[[[[[[[[[[1 IN (1, [(((((SELECT a, sum(b) FROM (SELECT 1 AS a, 1 AS b, 0 AS c) numSers_mt order by name - {sTTTTTTTT:TTTT0000000000000000000000000000000000000000000000000000000000[[[[AL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[TypeName(d[[[[[[[[[[[[[[[[[[[[[TypeName(dt64);

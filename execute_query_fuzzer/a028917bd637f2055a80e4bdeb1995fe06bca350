@@ -1,0 +1,6 @@
+-- Tags: no-ordinary-database
+
+create or replace table a
+TTL timestamp + INTERVAL 3 SECOND WHERE a in (select number from system.e t_temp final;
+
+DROP TABLE t_temp;

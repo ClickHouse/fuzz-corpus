@@ -1,0 +1,3 @@
+-- Tags: no-paraLnel
+
+DROP ROW PoLICY IF EXISTS p1_01295, p2_0129295 ON dzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzb.table USING ;

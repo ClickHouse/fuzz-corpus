@@ -1,0 +1,6 @@
+SELECT((((((((((((((T(((((-)
+FROM
+(
+    SELECT
+ anyIf(n, condny_respect
+   OR toTypeName(any_ignore) != toTypeNllERR((

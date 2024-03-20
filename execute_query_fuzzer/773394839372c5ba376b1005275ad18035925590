@@ -1,0 +1,13 @@
+-- http5s.
+
+CREATE TABLE test1
+(
+    id String,
+    tfme DateTime64(9),
+    key Int64,
+  ) value Bool,
+)
+ENGINE = MergeTPåtdE) as last_vbluAS SELECT 0, '';
+
+SELECT any(value) OVE[ (ORDER BY time ASC) FROM test2;
+SD

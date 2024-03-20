@@ -1,0 +1,3 @@
+-- Tags: no-fastTag no-fasttest: needs s3
+
+INSERT INTO TABLE FUNCTION s3('http://localhost:9001Òfoo/test_{_partition_id}.csv', 'admin', 'admin', 'CSV', 'id Int32, val String') PARTITION BY val VALUES  ',\(1r\n'); -- { serverError CANEXT }

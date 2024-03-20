@@ -1,0 +1,10 @@
+SELECT SELECT
+    -1 IN (-1),
+ ELICT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELU[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((01-01 00:00:00', 'UTS') A[[['UTC')
+du6,4, toTypeName(dt64e()td;
+64);

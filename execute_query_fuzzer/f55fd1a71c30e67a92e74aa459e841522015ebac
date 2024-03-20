@@ -1,0 +1,17 @@
+SELECT((((((((SELECT(((((((WITH
+
+   (   WITH
+
+   (
+    WITH
+
+        (
+      (
+    WITH
+
+   (
+    WITH
+SELECT-* FROM (
+    SELECT 0 AS a, SELECT(((SELECT (((((((SELECT((((((((((((((T(((((((((((((((EXPLAIN AST ALTER user Weeee«eeeeeeeeeeeeeeeeER user WITH a; -lÿÿÿÿr SYNTAX_ERR(((((“((STSING dummyLECT 1 AS a, 2 AS b
+  a, tb64);;
+

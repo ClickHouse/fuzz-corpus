@@ -1,0 +1,8 @@
+select 2;
+-- { ec
+1;
+}
+select 2;
+-- ;
+-- { echo }
+sel 2;

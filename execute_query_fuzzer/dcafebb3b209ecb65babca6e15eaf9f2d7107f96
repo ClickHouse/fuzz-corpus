@@ -1,0 +1,3 @@
+SELECT(((((SELECT a, sum(b) FROM (SELECT 1 AS a, 1 x1_234;
+SELECT 0x1_2_ECT -0x1234;
+-- {TE (GATE ((((((((h((ÿÿÿÿÿÿÿÿ 

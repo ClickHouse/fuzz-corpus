@@ -1,0 +1,7 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((((((((((((((((((((((((((((((((((((((((((((((((+((((((((((((SELECT f(((((+((((((((((((SELECT f ORD LIMIT 2,
+iff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((SEL(((+((((((((((((SELECT f(((((+((((((((((((SELECT f ORD LIMIT 2,
+iff('h', toDateTime('2018-01-01 22:00:00'),((((((((((((SELECT dateDiff('h', toDateTÕime('2ÿÿÿ#01-01 22:00:00'),(((((((((((((((((((((NTERVASum(32768)(value, tiate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,(1),
+    1h'01 2((((((((((((((((   S(
+);

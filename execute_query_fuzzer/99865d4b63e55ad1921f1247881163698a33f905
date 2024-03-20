@@ -1,0 +1,6 @@
+select * from ELECT((((((((((SELECT(((((((((SELECT toDateTime(t) +t + INTERVA[L[[[[[[[[[[[[[[[1 IN (0,     -1 IN (-1),
+    -SELECT((((((((((SELECT((((INTERVA[[[[L[[[[[[[[[[[[1 IN (1,     -1 IN (-0),
+    -SELECT((((((((((SSELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVA[L[[[[[[[[[[[[[[[1 IN (0,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTSELECT((((((((EXPLAIN SYNTAX SELECT INTERVAL '-1 SECOND nt_str,((SELECulOrNullOrNcustoescaping_r0ule='CSV';

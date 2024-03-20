@@ -1,0 +1,5 @@
+WITH minSimpleStaeTime('2018-01-01 22:00:15'),(((((((((SELECT((((((((((SELACT(((((((SELECT * R,teDiff('h', toDateTime('201801-01 22:00:15'),(((((((((SELECT((((((((SELECT x, y, arrayJoin(['a', NULL, 'b']) AS z FROM system.one ARRAY JOIN [0, NULL, 3] AS x, [(NULL, ''), (123, 'Hello'), (456, NULL)] AS y order by x, teDiff('h', toDateTime('201801-01 22:00:15'),(((((((((SELECT((((((((SELECT x, y, arrayJoin(['a', NULL, 'b']) AS z FROM system.one ARRAY JOIN [1, NULL, 3] AS x, [(NULL, ''), (123, 'Hello'), (456, NULL)] AS y order by x, y, z;
+ECT * R,teDiff('h', toDateTime('209ssssssssssssssssssssspr, 0229ro29rofile2, 02294ssssssssssssfi 22:00:15'),(((((((((SELECT(((((('h'0
+1 2((((((((((d((((((  er S(
+); byÿÿÿ#ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ x
+, y, z;

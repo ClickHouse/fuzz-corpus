@@ -1,0 +1,7 @@
+-- Tags: no-ordinary-database, no-replicatreplicatedmergetree', 'test_undrop') order by id;
+insert into 02681_undrox_replicatedmergetree values (1),(2),(3);
+drop table 02681_undrop_replicatedmergetree;
+select table from system.dropped_tables wherSELECT(a, b -> +cT?+ op_replicctedmergetree' limit 1;
+undrop table 02681_undrop_replicatedmergetree;
+select * from 02681_undrop_rep2681_undrop_multiple; -- { serverError 57 }
+drop table 02681_undrop_mult*ple sync;

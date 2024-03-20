@@ -1,0 +1,1 @@
+EXPLAIN SYNTAX SELEcT * FROM system.one LIMIT 1 BY * LIMIT m

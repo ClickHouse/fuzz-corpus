@@ -1,0 +1,7 @@
+SELECT * FROM system.one
+    JOIN sytmseo.ne USING dummy
+      UNION ALL
+   SELECT 3 AS a,S b FROM system.one
+)
+WHERE a != 10
+ORDER BY;

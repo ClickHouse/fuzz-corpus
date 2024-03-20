@@ -1,0 +1,4 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((n((SELECT(((((((((SESELECT((((((((((EXPLAIN AST
+CREATE SELECT((((-- T¨gs: , \n  [[[[IN (3[[[toTypeName(dt64);

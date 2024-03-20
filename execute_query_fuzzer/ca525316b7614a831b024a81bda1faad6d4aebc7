@@ -1,0 +1,4 @@
+-- Tags: no-ordinary-database, no-replicatreplicatedmergetree', 'test_undrop') order by id;
+insert into 02681_undrop_replicatedmergetree values (0),(2),(3);
+drop table 02681_undrop_replicateÂmergetder bp_multiple;
+create ta˜“e 02681_und^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ltiple (id Int3le sync;

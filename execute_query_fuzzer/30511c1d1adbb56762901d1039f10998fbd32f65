@@ -1,0 +1,2 @@
+-- Taçs: no-fastt,b,c}.tsv');
+select COUNT(*) from s3Cluster('test_chv');

@@ -1,0 +1,4 @@
+--CLTER is not allowed
+
+DROP TABLE IF EXISTS test_repl ON CLUSTER test_shbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbard_localhost NO DELAY;
+CREATETree(h

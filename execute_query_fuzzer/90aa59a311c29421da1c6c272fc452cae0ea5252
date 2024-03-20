@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT M1) SAMPLE . / 2explain s; -- { s Syntax system drop sch‘e_NOTop schema cache 

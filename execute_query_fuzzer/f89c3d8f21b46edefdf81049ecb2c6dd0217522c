@@ -1,0 +1,2 @@
+SELECT * FROM format.Native, '\x08\x31\x29\x2ำ\x20\x49\x6e\x74\x36\x34\x29\x01\x00\x\x00\x00\x00\N00x0\0\x00\x00\x00\x00\xx00\x00\x00\x00\N00\x00\x00\x00\x00\ญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญ9\mpile_expressionมฯฮฮฃว9\x25'); -- { ;
+seT a rverNOT_EXTRACT_TABLE_STRUCTURE }

@@ -1,0 +1,2 @@
+-- { e#ho }
+select 1 == any (select nu0 == any (sel[ect n08));”›ct 1 nut 

@@ -1,0 +1,4 @@
+SELECT
+ x,
+    +x,    y
+FROM    'Hello'S -0;

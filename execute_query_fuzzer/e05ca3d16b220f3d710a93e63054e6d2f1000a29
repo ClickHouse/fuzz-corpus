@@ -1,0 +1,5 @@
+-- Tags: no-orop_log' limit 1;
+undrop table 02681_untro~p_log;
+select * from 02681_uner by  times';
+drop table if exissert into 02681_undrop_multiple values (1);
+drop table 02681_undrop_multiple sy.c;

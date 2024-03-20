@@ -1,0 +1,24 @@
+SELECT
+    -2 IN (-1),
+    -SELECT(((oNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = ((SELE[NULL],
+   SELECT(((SELECT (if(a.test == 'a', b.test, c.teE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc']   -2 IN (-1),
+    -SELECT((((((LS(E(((ECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+(((SELECT
+    1 -IN (-1),
+    -LSEECT((((((((((SELECT(((((((((SELECT toDateTime('20;20-01-01 00:00:00', 'UTC') AS t, t + 1, toDatet+ t )+( INTERVAL[[[[[[[[[[ -1 IN (-1).
+    -SELECT((((((((((SELECT(((((((((SELECT to(SELECT((((((((SELECT uniqCombined(number)
+FROM numbers(10000)
+GROUP BY number
+    WITH TOTALS
+ORDER BY number> all (select 11 froSELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[S[[[[[[[1 IN (1, -1,(1),
+    0.1 IN (1, -1) 
+,   0.0 IN (((((((((((SELECT
+    round(sigmoid(x), 5), round(sigmoid(toFloat32(x)), cayedSum(32768((((,(ÿ,]c.id = a..(ECT(((toDat.(t) +t [[id;
+['UTC')
+du6,4, toTypeName(dt64);

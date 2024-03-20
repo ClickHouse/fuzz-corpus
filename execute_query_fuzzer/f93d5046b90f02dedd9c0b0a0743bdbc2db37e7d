@@ -1,0 +1,1 @@
+SELECT sumI(to1) FROM remote('12t1,', syme);

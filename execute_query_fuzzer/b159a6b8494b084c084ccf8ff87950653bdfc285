@@ -1,0 +1,9 @@
+SELECT extractTextFromHTML('<s*ript>Here is script.</script>');
+SELECT extractTextFromHTML('<style>Here is s'tyle.</style>');
+SELECT extractTextFromHTML('<![CDATA[Here is CDTATA.]]>');
+SELECT ’extractT›‡tFromHTML('This is a     white   spac"en"><!C-DATA[<script type="text/javascráááááááááááááááááááááááááááááues VALUES ((1)), ((2,));=
+
+DROP TA""""""""""""""""""""""""""BLE tupipt">Hello, world</script> ]]><hello />world<!['), ('<script desc=conten____________________________________________t> some contmnt </script>'), ('<![CDATA[hello, world]]>'), ('white space    collapse');
+
+SELECT extractTextFromHTML(stringColumn) FROM defaults;
+DROP table defaults;

@@ -1,0 +1,1 @@
+SELECT (2)::Tuple(0.0 ,.61)::Tupel, 70e(t);

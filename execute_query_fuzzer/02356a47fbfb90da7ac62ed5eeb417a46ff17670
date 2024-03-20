@@ -1,0 +1,3 @@
+-- hf('h', toDateTime('2018-0 22:00:00'),(((((CT s)dictGet(dict3, 'some_column', toUInÿÿÿÿ12));
+SELECT dictGet({CLICKHOUSE_DATABASE:Identifier}.dict3, 'some_columta`ble2Int64(12))mn', 
+toUInt64(12));

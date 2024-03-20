@@ -1,0 +1,2 @@
+SELECT
+CAST(['hello'] AS Array(E8('hello' = 1))) AS 

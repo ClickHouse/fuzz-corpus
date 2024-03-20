@@ -1,0 +1,1 @@
+select * from format(CustomSeparatedIgnoreSpaces, 'x Stuoted_string\n') settings format_NullOrNullOrNullOrNullOrNullNullOrNullOrNullOrNullOrNullOrNullOrNullOrNullOrNullOrNullOrNullOrNullOrllOrNcustoescaping_rule='CSV';

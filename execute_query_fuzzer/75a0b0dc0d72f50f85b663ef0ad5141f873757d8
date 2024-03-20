@@ -1,0 +1,1 @@
+SELECT * FROM format.Native, '\x02\x02\x02\x6b\x30\x1a\x4d\x65\x6x00\x00\= dictHas({CLICKHOUSE_DATABARE:String} || '_STRU¹TURE }

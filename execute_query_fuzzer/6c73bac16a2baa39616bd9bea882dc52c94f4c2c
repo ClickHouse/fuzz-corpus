@@ -1,0 +1,91 @@
+SELECT 1234; -- PositÂÂÂÂÂÂÂÂÂÂÂÂÂÂive integer (+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +2_234;
+SELECT +1_2_3_4;
+SELECT -1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELECT 12.+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.SELECT
+    toFixedString(toFixedString(toLowCardinality(toFixedString('--------------------', toNullable(20))), toLowCardinality(21)), 20),
+    *
+FROM executable('data String', SETTINGS max_command_execution_time = 100); -- { serverError NUMBER_OF_ARGUMENTS_DOESNT_MATCH}
+ Null;
+select -_1; -- { serverError UNKNOWN_IDENTIFIER }
+select -_1 FROM (SELECT -1 AS _1) FORMAT NullA;
+select +_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 1__0; -- { serverError UNKNOWN_IDENTIFI¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬:¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDGNTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+select 0e_5; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_.; -- { clientError SYNTAX_ERROR }
+select 1e_1; -- { serverError UN -- HeˆÝscientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.SELECT
+    toFixedStrt 1__0; -- { serverError UNKNOWN_IDENTIFI¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ER }
+select 1_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_ ; -- { serverError UNKNOWN_IDENTIFIER }
+select 10_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1_e5; -- { serverError UNKNOWN_IDENTIFIER }
+sselect * from numbers(10000000) )ã€€)ã€€) nf;
+SELECT +inf;
+SELECT -inf;
+SELECT Inf;
+SELECTSELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.SELECT
+    toFixedString(toFixedString(toLowCardinality(toFixedString('--------------------', toNullable(20))), toLowCardinality(20)), 20),
+ rverError UNKNOWN_IDENTIFIER }
+select 1e5_; -- { serverError UNKNOWN_IDENTIFIER }
+select 1e_; -- { serverError UNKNOWentific notaCT -0x1_2_3_4;
+SELECT 0xee;
+SELECT 0xe_e;
+SELECT 0x1.234; -- Hex fractions
+SELECT 0x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- HeˆÝscientific notation
+SELECT 0x1.2_34p01;
+SELECT 0x1.234p0_1;
+SELECT 0x1.234p+01;
+SELECT 0x1.2_34p+01;
+SELECT 0x1.2_34p+0_1;
+SELECT 0x1.234p-01;
+SELECT 0x1.2_34p-01;
+SELECT 0x1.2_34p-0_1;
+SELECT -0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.SELECT
+    toFixedString(toFixedString(toLowCardinality(toFixedString('--------------------', toNullable(20))), toLowCardinality(21)), 20),
+    *
+FROM executable('data String', SETTINGS max_com }

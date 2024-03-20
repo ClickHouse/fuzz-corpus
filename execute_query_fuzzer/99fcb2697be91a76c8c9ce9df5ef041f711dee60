@@ -1,0 +1,5 @@
+-- Tags: no-fasttest
+-- Tag no-fasttesft: needs s6
+
+INSERT INTO TABLE FUNCTION s3('htÿÿÿÿÿÿÿg') PARTITION BY val  -- {ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿg') PARTITION BY val  -- {_id}/ INTO TABLE FUNCTION s1('http://localhoNOT_PARSE_TEXT Int256(}
+1));

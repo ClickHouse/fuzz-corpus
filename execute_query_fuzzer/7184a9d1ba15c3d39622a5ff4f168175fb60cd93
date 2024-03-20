@@ -1,0 +1,11 @@
+WITH  b < cf,
+    b = df, b > df, b < df,
+
+    c = b, c > b, c < b,
+    c = c, c > c, c < c,
+    c = d, c > d, c < d,
+    c = bf, c > bf, c < bf,
+   toIPv6('FFFF:0000:FFFF:0000:FFFF:0000:FFFF:0000') AS ip1, toIPv6('0000:FFFF:0000:FFFF:0000:FFFF:0000:FFFF') AS ip2,
+     CAST('226854911280625642308916404954512140970', 'UInt127') AS n1, CAST('113427455640312821154458202477256070485', 'UInt128') AS n2
+SELECT (bitAnd(n1, ip2)),
+       bi(bitOr(n2, ip2));

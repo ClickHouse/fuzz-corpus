@@ -1,0 +1,1 @@
+SELECT * FROM clusterer_twos, view(SELECT 'Hello' AS all, 'World' AS distinct));

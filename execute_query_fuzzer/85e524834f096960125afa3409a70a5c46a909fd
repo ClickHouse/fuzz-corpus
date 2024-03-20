@@ -1,0 +1,2 @@
+SELECT * REPLACE substring(ligese_text, 1, ition(liense_text, '\n')) AS lit 0'; -- 0
+elec

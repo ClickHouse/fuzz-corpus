@@ -1,0 +1,1 @@
+SELECT((WITH[ * APPLY lambCT (N(tuple

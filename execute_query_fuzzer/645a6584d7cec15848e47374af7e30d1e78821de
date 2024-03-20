@@ -1,0 +1,2 @@
+SELECT
+    ime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDaECT((((((((((SELECT(((((((((SELECT toDateTime('2019-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[ INTERVAL[[[[[[[[[[[[ELECT((((((((((((((T(((((((((((((((EXPLAIN AST ALTER user WeeeeeeeeeeeeeeeeeeeeEe(t) +t + INTERVAL[[[[[[[[[[[[[[[[1

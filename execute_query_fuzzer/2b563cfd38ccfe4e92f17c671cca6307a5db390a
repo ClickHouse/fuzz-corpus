@@ -1,0 +1,12 @@
+CREATE DATABASE conv_mian ENGINE QS('|T
+
+oStri(x, [1, 2]));
+
+
+
+
+
+
+
+
+D')-- { clie~tError ie~tError R }

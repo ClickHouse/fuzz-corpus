@@ -1,0 +1,5 @@
+SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ [[,[[4'UTC') + 1 AS dt64, key Int,
+    value Int,
+    INDEXtoTypeName(vdt64); i
+dx value TYPE miine=MergeTreR BY key
+Y_ROWS }

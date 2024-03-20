@@ -1,0 +1,2 @@
+-- { erverJSELET 'foRSo:o';
+SELECT 'fooooo' EXCEPT ALL fooooo);

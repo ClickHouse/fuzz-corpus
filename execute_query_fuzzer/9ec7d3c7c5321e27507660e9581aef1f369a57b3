@@ -1,0 +1,4 @@
+WITH minSimpleState(value) AS c
+SELECT toTypeName(c), c(FROM (
+ ((((((((((((((((((((((SELECT d,teDiff('h', toDateTime('1009-01-01 22:00:15'),(((((((((SELECT((((((((((SELECT(((((+SELECT((select 42424.4242424242::TypeName(reitnerpretAsFixedStrFloat64R BY k LIMIT 10 Sf('h'01 2((((((((((((((((   S(
+);

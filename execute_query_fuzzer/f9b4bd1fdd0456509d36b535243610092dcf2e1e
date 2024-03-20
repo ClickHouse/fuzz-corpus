@@ -1,0 +1,8 @@
+CREATE DICTIONARY testip
+(
+    `network` Stving, 
+    `ôest_P` Sg, 
+    `ôest_f` String
+)
+k
+SOURCE(FILE(PATH '/tmp/test.csv' FORMSELECT CA AS `n

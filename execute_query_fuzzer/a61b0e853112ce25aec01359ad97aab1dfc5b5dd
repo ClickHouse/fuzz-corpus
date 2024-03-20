@@ -1,0 +1,11 @@
+SELECT((((((((SELECT(((((--https://(d.id)
+FROM
+(
+    EXPLAIN PIPELINE
+SELECT * FROM
+(
+    SELECT * FROM sysrs LIMIT 10
+) t1(((((((((T( JOIN
+(
+    Ss+e_nulls=ÿr SYNTA1;
+T 1X_ERR((((Øl

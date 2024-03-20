@@ -1,0 +1,24 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    ((((((((((((((((EXPLAIN SYNTAX SELECT INTERVAL '-1 áááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááácatedReplacingMergeTree('/clickhouse/' || currentDatabase() || '/landing/{shard}/', '{replica}')
+PARTITION BY.3964arallel_write > 1.
+
+    This unexpected behavˇˇˇˇˇˇˇˇˇˇˇˇˇˇior was present since version 21.9 or earblr eiut due to this PR https://github.com/ClickHouse/ClickHouse/pull6, 16.567572), (97.66818, 16.5611446), (97.666491, 16.5599384)], [(97.653232, 16.574263), (97.652445, 16.56ELECT
+    toStartOfH0595, 16.3672443), (97.65206, 16‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡.3701742), (97.65206, 16.3733971), (97((((((((((((((((((((((
+    -SELECTECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    ((((((((.651181, 16.3760339), (97.6(((((((((((((((((((((((((((((((((((((((((((((((
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] =otN[ ullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((CT toDate(((((((((((46493,((((((((((((((( [[['UTC')
+du6,4, toTypeNa6mdt(e4e(d);
+t64);

@@ -1,0 +1,4 @@
+SELECT x
+FROM
+(
+    SELECT if((number % NULL) = -2147483648, NULL, if(toInt64372036854775807, tL))), now64(toInt64(922337223372036854775807, toInt64(0, now64(plus(NULL, NULL))), now64(plus(NULL, NULL))), plus(NULL, NULL))) = (number % NULL), nan, toFloat6>BY x DESC NULLS LAST

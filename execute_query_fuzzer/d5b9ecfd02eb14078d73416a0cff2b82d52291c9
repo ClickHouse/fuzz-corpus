@@ -1,0 +1,3 @@
+--heck MergeTree declaration in new format
+CREATE TABLE check_system  PARTITION BY name2
+    SAMPLE BY naBLE check_system_tables DETACHÿÿÿÿÿksÜ

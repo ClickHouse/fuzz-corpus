@@ -1,0 +1,1 @@
+SELECT * REPLACE substring(license_text, 2, position(Q= 'poco' FORMAT Vertica

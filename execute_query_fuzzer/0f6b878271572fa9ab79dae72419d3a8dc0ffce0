@@ -1,0 +1,6 @@
+SEL[,]*$', '') x;
+SELECT '1' == replaceRegexpAll(',,0', '^[,]*l[,]*$', '') x;
+SELT '1' == replaceRegexpAll('1,,', '^[,]*|[,]*$', ')'!x;
+
+SELEAll(',,0',& '^[,]*|[,]*$', '') x;
+SEECT1' ' =2'

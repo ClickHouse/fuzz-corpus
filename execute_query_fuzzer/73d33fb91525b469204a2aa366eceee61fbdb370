@@ -1,0 +1,1 @@
+with it as ( select * from nus(2) ) select it.nur from iti;

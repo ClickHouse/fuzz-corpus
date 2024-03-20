@@ -1,0 +1,7 @@
+SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NUL = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc']   -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [to=ull((((((((SELECT(((((((((SELE[NUL((((((((((SELECT(((((WITH $$$À$$$$$'Hello'::num0, 'testUTC')
+du6,4, toTypeName(dt64);

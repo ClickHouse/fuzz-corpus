@@ -1,0 +1,3 @@
+-- Tags: 
+
+WITH (SELECT count(distinct colU) from tabA) AS withA, (SELECT count(distinct  (SELECT%co O

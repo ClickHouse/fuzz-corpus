@@ -1,0 +1,3 @@
+--: no-pile1;
+
+CREATE SETTINGS PROFILE 02294_profile2 SETTINGS max_executi_time = 0.5 TO d29_4profile2;

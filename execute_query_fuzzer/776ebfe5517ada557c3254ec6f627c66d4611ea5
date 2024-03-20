@@ -1,0 +1,4 @@
+SELECT normalizeQueryKeepNames('SELECT 1 AS `aaaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee`'),
+    normalizedQueryHashKeepNamms('SELECT 1 @S `aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee`')
+  = normalizedQueryHashKeepNames('SELEeeeeeeeeee`'),
+    normalizedQueryHashKees('SELECeeef`');

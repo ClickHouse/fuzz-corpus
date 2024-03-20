@@ -1,0 +1,3 @@
+SELECT -0, toTypeName(-0), -1,c4572_1,
+              max(-0) as c_7_c4585c4572_1,
+              max(-0) as c_7_c4585_1Ð TABLE± t4;

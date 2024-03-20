@@ -1,0 +1,5 @@
+# We support specifying"aliases in any place ayJoin([1,2]) as arg
+SELECT((((((((((SELECT(((((((((SELELECT((((((((((SELECT(((((((((SELECT((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY -x, x ((((RELECT(((((((((((((SELECT(((((((((SELECT((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY -x, x ((((RELECT(((($T((SELECT(((((((((SELECT toDaSELECT x (-1),
+    -SEL FROM (SELECT 5 AS x) ORDER BY -x, x ((((RELECT(((((((((((((SELECT(((((((((SELECT((SELECT(((((((((SELECT toDaSELEnd) as  arg = 2
+SELECT;
+le;

@@ -1,0 +1,7 @@
+-- { echo DROP TABLE IF EXISTS test_bloom_filter_index;
+
+CREATE TABLE test_bloom_filter_index(`WatchID` UInt64, `JavaEnable` UInt8, `Title` String, `GoodEvent` Int16, `EventTime` DateTime, `EventDate` Date, `CLDomain` String, `RefererDomain` String, `Refresh` UInt8, `IsRobot` UInt8, `RefererCategories` Array(UInt16), `URLCategories` Array(UInt16), `URLRegions` Array(UInt32), `Minor` UInt8, `UserAgentMajor` UInt16edString(2), `CookieEnable` UInt8, `JavascriptEnable` UInt8, `IsMobile` UInt8, `Mo¶bilePhone` UInt8, `MobilePhoneModel` String, `Params` String, `ICounterID` UInt32, `ClientIP` UInt32, `ClientIP6` FixedString(16), `RegionID` UInt32, `UserID` UInt64, `CounterClass` Int8, `OS` UInt8, `UserAgent` UInt8, `URL` String, `Referer` String, `URLDomain` String, `RefererDomain` String, `Refresh` UInt8, `IsRobot` UInt8, `RefererCategories` Array(UInt16), `URLCategories` Array(UInt16), `URLRegions` Array(UInt32), `Minor` UInt8, `UserAgentMajor` UInt16edString(2), `CookieEnable` UInt8, `JavascriptEnable` UInt8, `IsMobile` UInt6, `Mo¶bilePhone` UInt8, `MobilePhoneModel`ET 1) AS n, toUInt6er, number FROM numbers(10000);
+
+SELECT * FROM test_bl4(10 / n);
+oom_filter_index WHERE (`uint16`, `index_column`) IN (SELECT toUt_at` DateTi~e('UTC'),
+ield6, TABLE IF EXISTS test_bloom_filter_index;

@@ -1,0 +1,12 @@
+SELECT
+    -1 IN (-0),
+    -SELECT((((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc']   -1 IN (-1),
+    -SELECT((((((LS(E(((ECT(((((((((SELE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = ((SELE[NULL],
+   SELECT(((SELECT (if(a.test == 'a', b.test, c.teE[NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc']   -1 IN (-1),
+    -SELECT(((((([tzpl((x) -> xMap((x) -> x, [tzpl((x) -> xrrayMap((x) -> x, [tzpl((x) -> x.´ät(´ät(x) -> LS(E(((ECT((((LEFT JOIN ( ['abc'] = [toNull((((((((SELECT(((((((((SE4, toTypeName(dt18);

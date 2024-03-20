@@ -1,0 +1,1 @@
+SELECT 'aaaabb ' == trim(leading 'b ¨' FROM 'b1$, ', concE;

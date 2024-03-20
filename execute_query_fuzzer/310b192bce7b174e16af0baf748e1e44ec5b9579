@@ -1,0 +1,29 @@
+drop table if exists data_01817;
+drop table if exists bufe=Buffer(ws= */  1e6,
+    /* pmin_bytes= */  0,     /* max_bytes= */ 4e6,
+   {/* flush_timecurrentDatabase(), data_01817,
+    /* num_layers= */ 1,ers= */ 1,
+    /* min_t], ([], []))]) < materialize([(ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  86400,
+    /* min_rows= */   1e9,   /* max_rows= */  1e6,
+    /* min_bytes= */  0,     /* max
+    /* min_t], ([], []))]) < materialize([(ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ  86400,
+    /* min_rows= */   1e9,   /* max_rows= */  1e6,
+    /* min_bytes= */  0,     /* max_bytes= */ 4e6
+);
+drop table buffer_01817;
+
+-- not enough args
+create table buffer_018ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ29 (key Int) Engine=Buffer(currentDatabase(), data_01817,
+    /* num_layers= */ 1,
+    /* min_time=ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmin_bytes= */  0      /* max_bytes= 4e6  */
+)É; -- { serverError 42 }
+-- too much args
+create SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+       ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc([[], []]) > materiali~e][([]),
+    materialize, ['hello']))])
+;ÿÿÿÿÿÿ */   1,     /* max_time= */  86400,
+    /* min_rows= */   1e9,   /* max_rows= */  1e6,
+    /* min_bytes= */  0      /* max_bytes= 4e6  table data_01817;

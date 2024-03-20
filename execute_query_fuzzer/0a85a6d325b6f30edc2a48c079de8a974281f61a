@@ -1,0 +1,2 @@
+SELECT  + INTERVAL[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[['UTC') + , toTypeName(d4);
+LEC

@@ -1,0 +1,35 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    ((((((((((((((((EXPLAIN SYNTAX SELECT INTERVAL '-1 áááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááááácatedReplacingMergeTree('/clio/ekschu' || currentDatabase() || '/landing/{shard}/', '{replica}')
+PARTITION BY.3964arallel_write > 1.
+
+    This unexpected behavˇˇˇˇˇˇˇˇˇˇˇˇˇˇior was present since version 21.9 or earblr eiut due to this PR https://github.com/ClickHouse/ClickHouse/pull/34780
+    when max_insert_delayed_streams_for_parallel_wrzite gets disabled by default the issue was mitigated.
+
+    This is what happens:
+
+    - 1st insert works for landing and mv tables
+    - 2nd insert gets first block 20220901 deduplicated and second one inserted in landing table
+    - 2nd insert is not inserting anything in mring
+)
+ENGINE = ReplicatedReplacingMergeTree('/clickhous(((((((((((((((((e/' || currentDatabase() || '/landing/{shard}/', '{replica}')
+ORDER BY (pk1, pk2, pk3, pk4);
+
+CREAT89598), (97.65639, 16.511SELECT(((((ueryHash('SELECT 1 AS `aaaaa.3584552), (97.68165, 16.3558182), (97.674619, 16.3496653), (97.667588, 16.3482003), (97.664072, 16.3502511), (97.659384, 16.3540599), (97.652353, 16.3578686), (97.649716, 16.3625565), (97.650595, 16.3672443), (97.65206, 16‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡.3701742), (97.65206, 16.3733971), (97((((((((((((((((((((((
+    -SELECTECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [HtoNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    ((((((((.651181, 16.3760339), (97.6(((((((((((((((((((((((((((((((((((((((((((((((
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] =otN[ ullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((CT toDate(((((((((((46493,((((((((((((((( [[['UTC')
+du6,4, toTypeNa6mdt(e4e(d);
+t64);

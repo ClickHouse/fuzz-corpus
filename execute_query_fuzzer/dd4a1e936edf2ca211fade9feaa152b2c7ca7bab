@@ -1,0 +1,1 @@
+SELECT number FROM ns(10) ORDER BY number DESC OFFSET WITHch;

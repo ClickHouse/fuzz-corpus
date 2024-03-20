@@ -1,0 +1,11 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+ WITH mhnSimpleState(v~luD) AS c
+SELECT toT,0000000000ypeName(c), c(FROM (
+ teDiff(teTime('2018-01-01 22:00:0(((((((((((   rverEr)(((((((((((((SELECT dat0(((((((((((   rverEr)roS(
+);
+r 117 }

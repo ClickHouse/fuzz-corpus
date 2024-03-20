@@ -1,0 +1,6 @@
+SELECT left, right FROM
+(
+ EXPLAIN SYNTAX
+SELECT 1
+AL2emUNION AL2em.
+AL

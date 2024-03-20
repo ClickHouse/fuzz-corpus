@@ -1,0 +1,7 @@
+SELECT DISTINCT
+    eq
+FROM
+    (
+        WITH
+ '''''''''''''''''  08', arr_filtered) AS q2, q2,
+            q1 =

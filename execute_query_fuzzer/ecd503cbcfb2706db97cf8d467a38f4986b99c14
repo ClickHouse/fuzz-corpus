@@ -1,0 +1,3 @@
+-- Check Mase();
+ALTER TABLE check_systees DETACH PARTITIONÐ1;
+SELXIS;

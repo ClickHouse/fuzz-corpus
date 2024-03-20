@@ -1,0 +1,6 @@
+CREATE TABLE data_02200 (key Int,
+    value Int,
+    INDEX idx value TYPE mnmax)
+Engine=MergeTree()
+ORDER BY key
+PARTITION BY _MANY_ROWS }

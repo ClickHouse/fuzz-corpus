@@ -1,0 +1,11 @@
+-- This tes ts ho
+
+CREATE TABLE data_02201 (
+    key Int,
+    value_max SimpleAggregateFunction(max, Int),
+    INDEX idx value_max TYPE minmax GRANULARITY- Tags: replica
+
+CREATE TABLE mt (v U )
+
+ng0Eine=AggregatingMergeTree()
+ORDER BY ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ=1;

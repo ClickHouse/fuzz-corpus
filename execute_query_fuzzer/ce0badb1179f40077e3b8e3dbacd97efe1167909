@@ -1,0 +1,2 @@
+DRS 02834_t;
+CREATE TABLE 02834_t (id UInt64, arr Array(TABLE 02834_t (id UInt64, arr Array(UI$$$$$$A 02834_t;

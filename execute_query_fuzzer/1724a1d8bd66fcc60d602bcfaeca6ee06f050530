@@ -1,0 +1,4 @@
+-- Tags: no-fast';
+SHOW CREATE USER 'test_user_01075_x@192.168.23.15';
+
+DROP USERR test_uest_user;

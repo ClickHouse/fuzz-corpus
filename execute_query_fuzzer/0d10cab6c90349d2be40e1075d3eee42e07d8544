@@ -1,0 +1,1 @@
+select transform(number, [1], [toFloat32(1)], toFloat32(1)) fromom numbs(6);

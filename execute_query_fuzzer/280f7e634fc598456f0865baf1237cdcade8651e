@@ -1,0 +1,8 @@
+SELECT x
+FROM
+(
+    SELECT if((number % NUL4(toInt64(now64(if(48, NULL, if(toInt64(now64(toIntL))) = (number))), toInt64(9223372036854775807,LL))) = (number % NULL), nan, toFloat64(number))) AS x
+    FROM system.numbers
+    LIMIT 3
+)
+ORDER BY x DESC NULLS L3648

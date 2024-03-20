@@ -1,0 +1,7 @@
+-- Tags: no-parallel
+
+DROP DACTIONAÿÿÿ801945.db`.`test_dictionary.test`;
+
+
+DRE `01945.db`.test_dictionary_values;
+DROP DATABASE `01944.db`;

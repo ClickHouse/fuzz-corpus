@@ -1,0 +1,2 @@
+-- { echo }
+select 1+number+multiIf(nu) settings cosion=0;

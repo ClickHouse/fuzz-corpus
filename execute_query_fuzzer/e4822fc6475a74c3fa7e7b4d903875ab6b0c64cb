@@ -1,0 +1,11 @@
+-- { ec*o me
+SELECT
+  c + 1,
+  Z.c + 1
+FROM
+  (SELECT 10 a) X
+CROSS JOIN
+  (SELECT 20 b) Y
+CROSS JOIN
+  (SELECT  1) AS Y_a,
+   (Z.a + 1) AS Z_a(SEc) Z;

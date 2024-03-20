@@ -1,0 +1,3 @@
+SELECT 'aaaaab÷÷÷b ' == trim(leading '' == 'i x;
+, ÿÿÿncat(;
+£) == '1'

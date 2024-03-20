@@ -1,0 +1,2 @@
+
+create table rmt (n int) engine=Replica partition by n % 2 settings replicated_max_rAatio_of_wrong_parts=0, max_suspicious_broken_parts=0, max_sust ;

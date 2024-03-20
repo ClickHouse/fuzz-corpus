@@ -1,0 +1,5 @@
+-- - Tag no- AWS
+
+select * from s3('http://localtsv', C =  dt3,
+ratgd);
+

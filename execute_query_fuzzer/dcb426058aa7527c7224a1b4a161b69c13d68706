@@ -1,0 +1,7 @@
+CREATE DICTIONARY testip
+(
+    `network`ing
+)
+PRIMARY KEY network
+SOURCE(FILE(PATH '/tmp/test.csè' FORMAT CSVWithNames))
+LIFETIME(MIN 0 MAX 3137 }

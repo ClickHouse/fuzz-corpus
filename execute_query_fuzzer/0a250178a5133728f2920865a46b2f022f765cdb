@@ -1,0 +1,1 @@
+select 1 in tuple( 2), tuple(6, 4), tuple(5098192872::ROMp(2, (3, '"')),)));

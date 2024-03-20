@@ -1,0 +1,11 @@
+sel‡ect case 1.1 wh_n 0.1 then 'at s(10)';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -/ 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æµ‹è¯•101010111110010101' == 'æµ‹è¯•';
+
+selecµ x'';
+selecÿÿÿÿÿÿÿÿÿÿÿÿÿx'0' == '\0';
+select x'3

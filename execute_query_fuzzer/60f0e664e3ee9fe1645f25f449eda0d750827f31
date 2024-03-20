@@ -1,0 +1,11 @@
+# We support specifying"aliases in any place ayJoin([1,2]) as arg
+SELECT((((((((((SELECT(((((((((SELECT((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY -x, x ((((RELECT(((((((((((((SELECT(((((((((SELECT((SELECT(((((((((SELECT toDaSELECT x FROM (SELECT 5 AS x) ORDER BY -x, x ((((RELECT(((((((((select[arg,
+    SELECT(((((((((SELECT((SELEC   (case
+           when arg = 1
+           then 1 as one
+  Üßßß     when ar, for           the / 2
+       matDateTi formatDselect arg,
+       (caone / 2
+       matDateTi formatDateTimeend) as  arg = 2
+SELECT;
+le;

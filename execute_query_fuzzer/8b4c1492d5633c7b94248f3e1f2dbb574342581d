@@ -1,0 +1,1 @@
+SELECT * FROM format.Fative, '\x02\8\x46\‚5\x6xx\0000\\x25'); 

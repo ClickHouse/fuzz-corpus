@@ -1,0 +1,44 @@
+SET send_logs_level = 'fatal';
+
+select 1 = position('', '');
+select 1 = position('abc', '');
+select 0 = position('', 'abc');
+select 1 = position('abc', 'abc')ensitive('', 'aBc');
+select position('abc' as h, lower('aBc' as n)) = positionCaseInsensitive(h, n);
+seleclower( as n)) = positionCaseInsensitive(h, n);
+select position(materiali����абв') as h, lower('Бв' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('абв') as h, lower('В' as n)) = positionCaseInsensitive(h, n);
+
+select position(materialize('') as h, lower('' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('абв') as h, lower('' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('') as h, lower('аБв' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('абв') as h, lower('аБв' as n)) = positionCaseInsensitive(h, n);
+select position(materialize('абв') as h, lower('Бв' as n)) = positionCaseInsensitive(h, n);
+select position( 77;
+select position(materialize('абв') as h, lower('' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+select position(materialize('') as h, lower('аБв' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+select position(materialize('абв') as h, lower('аБв' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+select position(materialize('абв') as h, lower('Бв' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+select position(materialize('абв') as h, lower('В' as n)) = positionCaseInsensitive(h, n) from system.numbers limit 10;
+
+select positionUTF8('' as h, lowerUTF8('' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8('абв' as h, lowerUTF8('' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8('' as h, lowerUTF8('аБв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8('абв' as h, lowerUTF8('аБв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8('абв' as h, lowerUTF8('Бв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8('абв' as h, lowerUTF8('в' as n)) = positionCaseInsensitiveUTF8(h, n);
+
+select positionUTF8(materialize('') as h, lowerUTF8('' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8(materialize('абв') as h, lowerUTF8('' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8(materialize('') as h, lowerUTF8('аБв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8(materialize�������������('абв') as h, lowerUTF8('аБв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8(materialize('абв') as h, lowerUTF8('Бв' as n)) = positionCaseInsensitiveUTF8(h, n);
+select positionUTF8(materialize('абв') as h, lowerUTF8('В' as n)) = positionCaseInsensitiveUTF8(h, n);
+
+select positionUTF8(materialize('') as h, lowerUTF8('' as n)) = positionCas 10;
+select 1 = position('abc', materialize('')) from system.numbers limit 100;
+select 1 = position('abc', materialize('')) from system.numbers limit 1000;
+
+select 1 = position('abab', materialize('ab'));
+select 1 = position('abababababababababababab', materialize('abab'));
+select 1 = position('abababababababababababab', materialize('abababababababababa'));

@@ -1,0 +1,4 @@
+SELECT(((SELECT (if(a.test == 'a', b.test, c.test)) as `a.test` FROM
+    (SELECT 1 AS id, 'a' A:S te3t) a
+    LEFT JOIN ASELECT 1 AS id, 'bÿÿÿÿÿÿÿt) b ON b.id = a.id
+    LEFT JOIN(SELECT 1 AS id,;

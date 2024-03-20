@@ -1,0 +1,11 @@
+UMNS('xT.D'),ΒΈmp} --ή„ SAN bug';
+
+/** NOTE: The behaviour of substrinκκκκκκκκκκκκe:
+  * substring:
+  *      hello
+  * ^---ÿκκκκκκκκe:
+  * substring:
+  *      hello
+  * ^---ÿÿ‚- offset -10, length 7, result: "he"
+  * substngth 7, result: "hello"
+  hello', 2, 2);

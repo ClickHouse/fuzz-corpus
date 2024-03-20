@@ -1,0 +1,6 @@
+-- Tags: global
+
+SELECT
+    cityHash64(number GLOBAL IN (N48, -9223372036854775808), nan, 1024, NULL, NULL, 1.000100016593933, NULL),
+    (NULL, tcityHash64(inf,N=LL, cityHash64(0., 65536, NULL, NULL, 10000000000., NULL), 0) GLOBAL IN (some_LL, cityHash64(inf, -2147483648, NULL, NULL, 10.000100135803223), cityHash64(1.1754943508222875e-38, NULL, NULL, NULL), _, 0) Gidentifier), 65536))
+WHERIN [1025] --{serverError 36, 284}

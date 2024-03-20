@@ -1,0 +1,1 @@
+SELECT (t1oHour(nELECT (toHour(now('Asi')) ))) 

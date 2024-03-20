@@ -1,0 +1,11 @@
+SELECT
+    -1 IN (-1),(1, -1hhhhhhhhhhhhhhhhhhh IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[(((((((((SELECT(((((((((SE[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT((((((((hhhhhhhhhhhhhhhhhhhhhhhhh IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[(((((((((SELECT(((((((((SE[[[[[1 IN (1,     -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh IN (-1),
+    -SELECT((hhhhhhhhh IN (-1),
+    -SELEC(SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) +t + INTERVAL[[[[[[[[[[[[[[[[1 IN (1, -1,hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh IN (-1),
+    -SELECT((hhhhhhhhh IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELECT PPPPPPPPPPPPP((SELECT
+    -1 t) +t + INTERVAL[[[[[[[[[[[[[[[[1

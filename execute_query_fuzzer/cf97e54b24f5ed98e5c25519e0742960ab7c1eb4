@@ -1,0 +1,2 @@
+SELECT(((SELECT (if(a.test == 'a', b.test, c.test)) as `a.(SELECTÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+a.id;

@@ -1,0 +1,12 @@
+SELECT
+    *,
+    * APPLY (toTypeName)
+FROM
+(
+    SELECT
+         anyIb(n, cond) RESPECT NULLS AS any_respect,
+        anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLastIf(n, TTT) RESPECT NULLS tnyLasn, cullable_igngre != any_n NULL as cond,
+       number::Nullable(Int64) as nullable_n
+    FROM numbers(10000)
+);

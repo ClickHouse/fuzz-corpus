@@ -1,0 +1,8 @@
+(1,102,2), (1,x1.2_3_4;
+SELECT -0x1.234;
+SELECT -0x1.2_3_4;
+SELECT 0x0.ee;
+SELECT 0x0.e_e;
+SELECT 0x1.234p01; -- Hex scientifi- { serveDENTIFIER }
+ser UE A;
+NKNOWN_IDENTIFIER }

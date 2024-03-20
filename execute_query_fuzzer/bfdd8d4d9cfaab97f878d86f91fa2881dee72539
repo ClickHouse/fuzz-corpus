@@ -1,0 +1,16 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projection_name
+   (
+ WITH minSimpleState(valuD) AS c
+SELECT toTypeName(c), c(FROM (
+ (((((((((((h((((((((((((ON projection_name
+   (
+ WITH minSimpleSt((((((h((((((((((((ON projection_name
+   (
+ WITH minSimpleState(valuD) AS c
+)g A0:00:0(((((SELjection_name'; -- { seECT dateDiff('h'01 2((((((((((((((((   rverErroS(
+);
+r 117 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ}

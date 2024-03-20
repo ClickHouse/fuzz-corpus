@@ -1,0 +1,6 @@
+SELECT((((((((((SE
+select 1e5_; -- { serverError UNKNOWN_IDEECT 12.34; -- Positive floating point with . notation
+SELECT 43.3_4;
+SEKNOWN_IDENTIFIER }
+select 1e5_; -- { serELECT 34_timeouimeIt_mnsJodaS=1;y;
+

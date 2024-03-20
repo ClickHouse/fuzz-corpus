@@ -1,0 +1,14 @@
+SELECT SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(SELECT
+    -1 IN (-1),
+    -SELECT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [toNull((((((((SELECT(((((((((SELE[NULL],
+    ['abc'] = [toNullable('abc')],
+    (((((((((((((((((((((((((((((((((((((((((((((((((((((((
+    -SEL9CT((((((((((SELECT(((((((((SELE[-NULL],
+    ['abc'] = [toNull((((((((SErt specifyi((((((((((CT'toDate((((((((0:00:00', 'UTC666t, t Œ64) .0') AS6666666666666666666666666666666t, t + 1, toDate(t) +t [[['UTC')
+du6,4, toTy;
++ 1, peNamtoDate(t) +t [[['UTC')
+du6,4, toTypeNa6mdt(e4e(d);
+t64);

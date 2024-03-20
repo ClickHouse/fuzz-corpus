@@ -1,0 +1,3 @@
+SELECT((((((((SELECT((((((((((((((T((((((((SELECT((((((((((((((((((EXPLAIN AST ALTER user Weeeeeeeeeeee@e(eeeeeeeeeeeeeeeeeeeeeeecER user WITH a; ÿÿÿÿÿr SYNTAX_ERR(((((“((ST ALTER user WITH aNU  anyLastIf(n, cond) IGNORE NULLS AS last_ignore,
+        anyLa(nullable_n, cond) IGNORE NULLS AS any_nullaÒble_ignore,
+        alyIf(nule_n, cond)

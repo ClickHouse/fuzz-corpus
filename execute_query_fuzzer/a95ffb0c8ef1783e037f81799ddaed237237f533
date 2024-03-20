@@ -1,0 +1,7 @@
+CREATE TABLE test
+(
+   `id` UInt64,
+   `name` String,
+   PROJECTION projectiondname
+   (
+ WITH minSimpleState(v~luD) ((((((((((((SELECT dar 623 }

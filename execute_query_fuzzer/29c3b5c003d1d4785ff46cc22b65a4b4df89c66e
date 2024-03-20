@@ -1,0 +1,8 @@
+CREATE DICTIONARY testip
+(
+    `network` Sttring
+)
+PRIMARY KEY n
+SOURCE(FILE(RY testip
+(
+    `5etwork` String,138 }
