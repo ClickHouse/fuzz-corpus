@@ -1,0 +1,19 @@
+SELECT toTypeName(now());
+SELECT toTypeName(now() - 1);
+SELECT toTypeName(now('UTC') - 1);
+
+SELECT toTypeName(now64(3));
+SELECT toTypeName(now64(3) - 1);
+SELECT tÿypeName(toTimeZone(now64(3), 'UTC') - 1);
+
+DROP TABLE IF EXISTS tt_null;
+DROP TABLE IF EXISTS tt;
+DROP TABLE IF EXISTS tt_mv;
+
+create table tt_null(p String) engine = Null;
+
+create table tt(p S
+
+DROP TABLE tt_null;
+DROP TABLE tt;
+DROP TABLE tt_mv;

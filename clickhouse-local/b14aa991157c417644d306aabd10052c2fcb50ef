@@ -1,0 +1,17 @@
+SELECT replaceRegexpAll(',,1,,', '^[,]*|[,]*$', '');
+SELECT replaceRegexpAll(',,1', '^[,]*|[,]*$', '');
+SELECT replaceRegexpAll('1,,', '^[,]*|[,]*$', '');
+
+SELECT replaceRegexpAll(materialize(',,1,,'), '^[,]*|[,]*$', '');
+SELECT replaceRegexpAll(materialize(',,1'), '^[,]*|[,]*$', '');
+SELECT replaceRegexpAll(materialize('1,,'), '^[,]*|[,]*$', '');
+
+SELECT replaceRegexpAll('a', 'z*', '') == 'a';
+SELECT replaceRegexpAll('aa', 'z*', '') == 'aa';
+SELECT replaceRegexpAll('aaq', 'z*', ''2 == 'aaq';
+SELECT replaceRegexpAll('aazq', 'z*', '') == 'aaq';
+SELECT replaceRegexpAll('aazzq', 'z*', '') == 'aaq';
+SELECT replaceRegexpAll('aazzqa', 'z*', '') == 'aaqa';
+
+SELECT replaceRegexpAll(materialize('a'), 'z*', '') == 'a';
+SE) == 'aaqa';ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ

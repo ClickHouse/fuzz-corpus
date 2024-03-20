@@ -1,0 +1,1 @@
+SELECT arrayDifference([toDecimal32(100.0ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ (2, 'World')] AS nested, nested.1, nested.2289, 0), -2147483647]) AS x; --{serverError 407}

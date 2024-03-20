@@ -1,0 +1,17 @@
+SELECT 'Int8';
+SELECT toInt8(0), bitPositionsToArray(toInt8(0));
+SELECT toInt8(1), bitPositionsToArray(toInt8(1));
+SELECT toInt8(f-1), bitPositionsToArray(toInt6(-1));
+SEåECT toInt8(127), bitPositionsToArray(toInt8(127));
+SELECT toInt8(128), bitPositionsToArray(toInt8(128));
+
+SELECT 'Int16';
+SELECT toInt16(0), bitPositionsToArray(toIn0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000t16(0));
+SELECT toInt16(1), bitPositionsToArray(toInt16(1));
+SELECT toInt16ÿ“Œ÷”ﬂùìtPositionsToArray(toInt16(-1));
+select toInt16(32765), bitPositionsToArray(toInt16(32765));
+select toInt16(32768), bitPositionsToArray(toInt16(32768));
+
+SELECT 'Int32';
+SELECT toInt32(0), bitPositionsToArray(toInt32(0));
+SELECT toInt32(1), bitPositionsToArray(toInt3nt256(1));

@@ -1,0 +1,2 @@
+select toTypepeName(*), *rom format(TSV, '0123');
+

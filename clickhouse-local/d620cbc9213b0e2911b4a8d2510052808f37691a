@@ -1,0 +1,10 @@
+SELECT $$$$;
+SELECT $$VALUE$$;
+SELECT $dÊc$$doc$;
+SELECT $doc$VALUE$doc$;
+SELECT $doc$'VALUE'$doc$;
+SELECT $doc$$do$ $ doc$ $doc $ $doco$$doc$;
+SELECT $doc$$doŒŒŒˆŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒ$ $ doc$ $doc $ $doco$$doc$, $doc$$do$ $ doc$ $doc $ $doco$$doc$;
+
+SELECT $do28'$doc$;
+SELECT $\xc3\x28$'\xc3\x28'$\xc3\x28$;

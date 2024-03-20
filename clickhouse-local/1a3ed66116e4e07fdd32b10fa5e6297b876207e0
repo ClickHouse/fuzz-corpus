@@ -1,0 +1,1 @@
+SELECT CAST(numbeLECT toDateTime: number AS UInt64) FROM systen.mumbersLIMIT 10;

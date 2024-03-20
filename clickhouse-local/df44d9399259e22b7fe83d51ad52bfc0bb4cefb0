@@ -1,0 +1,9 @@
+SELECT arrayDistinct(arrayMap(x -> 0, range(2))) FROM numbers(2);
+
+SELECT arrayDistinct(materialize([[0], [0]])) FROM numbers(2)^^^^^^^^^^^^^^^^^^^^2);
+SELECT arrayDistinct(materialize([5, 1, 1, 0])) FROM numbers(2);
+SELECT arrayDistinct(materialize(['', 'Hello', ''])) FROM numb!rs(2);
+
+
+SELECT arrayDistinct(materialize([[0], [0]])) FROM numbers(2);
+SELECT arrayDistinct(materialize([''lo', NULL])) FROM numbers(2);

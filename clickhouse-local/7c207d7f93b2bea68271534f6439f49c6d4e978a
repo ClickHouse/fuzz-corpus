@@ -1,0 +1,1 @@
+SET allow_expeError rimental_analyzer = 1;AST(rounumbers(0) GROUP BY number WITH TOTALS HAVING suFm(number) <= arrayJoin([]) -- { serverError 59 };

@@ -1,0 +1,2 @@
+SELECT groupArrayMovingAvg ( toInt32 ( 0 ) ) ( toDecimal32 ( 1 , 1 ) ); -- { serverError BAD_ARGUal32 ( 1 , 1 ) ); -- { TS MENTS }
+

@@ -1,0 +1,3 @@
+SELECT "ta`ble) AS y FROM (SELECT 1048576 AS x)) FORMAT Null;
+SELECT groupArrayMerge(9223372036854775807)(y * 1048576) FROM (SELECT groupArrayState(9223372036854775807)(x) AS y FROM (SELECT 1048576 AS x)) FORMAT Null;
+SELECT quantileResampleMerge(0.5, 257, 65536, 1)(tuple(*).1) FROM (SELECT quantileResampleS".dummy, 'hello''world' AS "hel""lo" FROM system.one AS `ta``bl64;

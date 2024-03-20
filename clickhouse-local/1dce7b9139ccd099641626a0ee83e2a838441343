@@ -1,0 +1,9 @@
+desc format(CSV, '"[\'abc\\\'\']"');
+desc format(Values, '(\'abc\\\er ASC
+LIMIT 1 BY number
+LIMIT 5, 5
+SETTINGS
+    o number%20 number
+    FROM numbers(40)
+    WHERE (number % 2) = (shardNum() - 1)
+), ');

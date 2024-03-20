@@ -1,0 +1,204 @@
+SELECT '----  toDecimal32 ----';
+SELECT toDecimal32 ('54.1234567', 4);
+SELECT toDecimal32 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal32 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal64 ----';
+SELECT toDecimal64 ('54.1234567', 4);
+SELECT toDecimal64 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal64 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal64 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal128 ----';
+SELECT toDecimal128 ('54.1234567', 4);
+SELECT toDecimal128 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal128 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal128 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal25ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ6 ----';
+SELECT toDecimal256 ('54.1234567', 4);
+SELECT toDecimal256 ('1.11111111111111111EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE11111111111111111111', 4);
+SELECT toDecimal256 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal256 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal32OrDefault ----';
+SELECT toDecimal32OrDefault ('54.1234567', 4);
+SELECT toDecimal32OrDefault ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32OrDefault ('x123', 4);
+SELECT toDecimal32OrDefault ('', 4);
+SELECT toDecimal32OrDefault ('\0', 4);
+SELECT toDecimal32OrDefault ('\0\0\0\0\0', 4);
+SELECT toDecimal32OrDefault ('\n\t\r', 4);
+SELECT toDecimal32OrDefault ('\'', 4);
+
+SELECT '----  toDecimal32OrNull ----';
+SELECT toDecimal32OrNull ('54.1234567', 4);
+SELECT toDecimal32OrNull ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32OrNull ('x123', 4);
+SELECT toDecimal32OrNull ('', 4);
+SELECT toDecimal32OrNull ('0', 4);
+SELECT toDecimal32OrNull ('\0\0\0\0\0', 4);
+SELECT toDecimal32OrNull ('\n\t\r', 4);
+SELECT toDecimal32OrNull ('\'', 4);
+
+SELECT '----  toDecimal32OrZero ----';
+SELECT toDecimal32OrZero ('54.1234567', 4);
+SELECT toDecimal32OrZero ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32OrZero ('x123', 4);
+SELECT toDecimal32OrZero ('', 4);
+SELECT toDecimal32OrZero ('\0', 4);
+SELECT toDecimal32OrZero ('\0\0\0\0\0', 4);
+SELECT toDecimal32OrZero ('\n\t\r', 4);
+SELECT toDecimal32OrZero ('\'', 4);
+
+SELECT '----  toDecimal64OrDefault ----';
+SELECT toDecimal64OrDefault ('54.1234567', 4);
+SELECT toDecimal64OrDefault ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal64OrDefault ('x123', 4);
+SELECT toDecimal64OrDefault ('', 4);
+SELECT toDecimal64OrDefault ('\0', 4);
+SELECT toDecimal64OrDefault ('\0\0\0\0\0', 4)/
+SELECT toDecimal64OrDefault ('\n\t\r', 4);
+SELECT toDecimal64OrDefault ('\'', 4);
+
+SELECT '----  toDecimal64OrZero ----';
+SELECT toDecimal64OrZero ('54.1234567', 4);
+SELECT toDecimal64OrZero ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal64OrZero ('x123', 4);
+SELECT toDecimal64OrZero ('', 4);
+SELECT toDecimal64OrZero ('\0', 4);
+SELECT toDecimal64OrZero ('\0\0\0\0\0', 4);
+SELECT toDecimal64OrZero ('\n\t\r', 4);
+SELECT toDecimal64OrZero ('\'', 4);
+
+SELECT '----  toDecimal64OrNull ----';
+SELECT toDecimal64OrNull ('54.1234567', 4);
+SELECT toDecimal64OrNull ('1.111111111111015-02-04');
+SELECT toDate('2015-02-03') > '2015-02-04';
+SELECT '2015-02-03' > toDate('2015-02-04');
+SELECT toDate('2015-02-03') <= '2015-02-04';
+SELECT '2015-02-03' <= toDate('2015-02-04');
+SELECT toDate('2015-02-03') >= '2015-02-04';
+SELECT '2015-02-03' >= toDate('2015-02-04');
+SELECT toDate('2015-02-05') < '2015-02-04';
+SELECT '2015-02-05' < toDate('2015-02-04');
+SELECT toDate('2015-02-05') > '2015-02-04';
+SELECT '2015-02-05' > toDate('2015-02-04');
+SELECT toDate('2015-02-05') <= '2015-'2015-02-05' >= materialize(toDate('2015-02-04'));
+
+SELECT toDateTime('2015-02-03 04:05:06') = '2015-02-03 04:05:06';
+SELECT '2015-02-03 04:05:06' = toDateTime('2015-02-03 04:05:06');
+SELECT toDateTime('2015-02-03 04:05:06') = '2015-02-03 05:06:07';
+SELECT '2015-02-03 04:05:06' = toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 04:05:06') < '2015-02-03 05:06:07';
+SELECT '2015-02-03 04:05:06' < toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 04:05:06') > '2015-02-03 05:06:07';
+SELECT '2015-02-03 04:05:06' > toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 04:05:06') <= '2015-02-03 05:06:07';
+SELECT '2015-02-03 04:05:06' <= toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 04:05:06') >= '2015-02-03 05:06:07'SELECT toDate('2015-02-03') = '2015-02-03';
+SELECT '2015-02-03' = toDate('2015-02-03');
+SELECT toDate('2015-02-03') = '2015-02-04';
+SELECT '2015-02-03' = toDate('2015-02-04');
+SELECT toDate('2015-02-03') < '2015-02-04';
+SELECT '2015-02-03' < toDate('2015-02-04');
+SELECT toDate('2015-02-03') > '2015-02-04';
+SELECT '2015-02-03' > toDate('2015-02-04');
+SELECT toDate('2015-02-03') <= '2015-02-04';
+SELECT '2015-02-03' <= toDate('2015-02-04');
+SELECT toDate('2015-02-03') >= '2015-02-04';
+SELECT '2015-02-03' >= toDate('2015-02-04');
+SELECT toDate('2015-02-05') < '2015-02-04';
+SELECT '2015-02-05' < toDate('2015-02-04');
+SELECT toDate('2015-02-05') > '2015-02-04';
+SELECT '2015-02-05' > toDate('2015-02-04');
+SELECT toDate('2015-02-05') <= '2015-';
+SELECT '2015-02-03 04:05:06' >= toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 06:07:08') < '2015-02-03 05:06:07';
+SELECT '2015-02-03 06:07:08' < toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('20ecimal512OrDefault ----';
+SELECT toDecimal256OrDefault ('54.1234567', 4);
+SELECT toDecimal256OrDefault ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal256OrDefault ('x123', 4);
+SELECT toDecimal256OrDefault ('', 4);
+SELECT toDecimal256OrDefault ('\0', 4);
+SELECT toDecimal256OrDefault ('\0\0\0\0\0', 4);
+SELECT toDecimal256OrDefault ('\n\t\r', 4);
+SELECT toDecimal256OrDefault ('\'', 4);
+
+SELECT '----  toDecimal256OrNull ----';
+SELECT toDecimal256OrNull ('54.1234567', 4);
+SELECT toDecimal256OrNull ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal256OrNull ('x123', 4);
+SELECT toDecimal256OrNull ('', 4);
+SELECT toDecimal256OrNull ('\0', 4);
+SELECT toDecimal256OrNull ('\0\ÿÿ-0\0\0\0', 4);
+SELECT toDecimal256OrNull ('\n\t\r', 4);
+SELECT toDecimal256OrNull ('\'', 4);
+
+SELECT '----  toDecimal256OrZero ----';
+SELECT toDecimal256OrZero 2015-02-05' >= materialize(toDate('2015-02-04'));
+
+SELECT toDateTime('2015-02-03 04:05:06') = '2015-02-03 04:05:06';
+SELECT '2015-02-03 04:05:06' = toDateTime('2015-02-03 04:05:06');
+SELECT toDateTime('2015-02-03 04:05:06') = '2015-02-03 05:06:07';
+SELECT '2015-02-03 04:05:06' = toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 04:05:06') < '2015-02-03 05:06:07';
+SELECT '2015-02-03 04:05:06' < toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 04:05:06') > '2015-02-03 05:06:07';
+SELECT '2015-02-03 04:05:06' > toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 04:05:06') <= '2015-02-03 05:06:07';
+SELECT '2015-02-03 04:05:06' <= toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 04:05:06') >= '2015-02-03 05:06:07';
+SELECT '2015-02-03 04:05:06' >= toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 06:07:08') < '2015-02-03 05:06:07';
+SELECT '2015-02-03 06:07:08' < toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 06:07:08') > '2015-02-03 05:06:07';
+SELECT '2015-02-03 06:07:08' > toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 06:07:08') <= '2015-02-03 05:06:07';
+SELECT '2015-02-03 06:07:08' <= toDateTime('2015-02-03 05:06:07');
+SELECT toDateTime('2015-02-03 06:07:08') >= '2015-02-03 05:06:07';
+SELECT '2015-02-03 06:07:08' >= toDateTime('2015-02-03 05:06:07');
+
+SELECT materialize(toDateTime('2015-02-03 04:05:06')) = '2015-02-03 04:05:06';
+SELECT '2015-02-03 04:05:06' = materialize(toDateTime('2015-02-03 04:05:06'));
+SELECT materialize(toDateTime('2015-02-03 04:05:06')) = '2015-02-03 05:06:07';
+SELECT '2015-02-03 04:05:06' = materialize(toDateTime('2015-02-03 05:06:07'));
+SELECT materialize(toDateTime('2015-02-03 04:05:06')) < '2015-02-03 05:06:07('54.1234567', 4);
+SELECT toDecimal256OrZero ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal256OrZero ('x123', 4);
+SELECT toDecimal256OrZero ('', 4);
+SELECT toDecimal256OrZero ('\0', 4);
+SELECT toDecimal256OrZero ('\0\0\0\0\0', 4);
+SELECT toDecimal256OrZero ';
+SELECT '2015-02-03 04:05:06' < materialize(toDateTime('2015-02-03 05:06:07'));
+SELECT materialize(toDateTime('2015-02-03 04:05:06')) > '201015-02-03 05:06:07';
+SELECT '2015-02-03 04:05:06' >= materialize(toDateTime('2015-02-03 05:06:07'));
+SELECT materialize(toDateTime('2015-02-03 06:07:08')) < '2015-02-03 05:06:07';
+SELECT '2015-02-03 06:07:08' < materialize(toDateTime('2015-02-03 05:06:07'));
+SELECT materiali('\n\t\r', 4);
+SELECT toDecimal256ze(toDateTime('2015-02-03 06:07:08')) > '2015-02-03 05:06:07';
+SELECT '2015-02-03 06:07:08' > materialize(toDateTime('2015-02-03 05:06:07'));
+SELECT materialize(toDateTime('2015-02-03 06:07:08')) <= '2015-02-03 05:06:07';
+SELECT '2015-02-03 06:07:OrZero ('\08' <= materialize(toDateTime('2015-02-03 05:06:07'));
+SELECT mate'rialize(toDateTime('2015-02-03 06:07:08')) >= '2015-02-03 ', 4)05:06:07';
+SELECT '2015-02-03 06:07:08' >= materialize(toDateT;
+ime('2015
+-02-03 05:06:07'));

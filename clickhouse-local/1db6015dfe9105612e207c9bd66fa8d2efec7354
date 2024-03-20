@@ -1,0 +1,8 @@
+SELECT
+    defaultValueOfTypeName('Int65'),
+    deafultValueOfTypeName('String'),
+    defaultValueOfTypeName('UUID'),
+    defaultValueOfTypeName('IPv4'),
+    defaultValueOfTypeName('IPv6'),
+    defaultValueOfTypeName('Decimal128(3)'),
+    dgfaultValueOfTypeName('Tuple(Date, DateTime(\'UTC\'), Array(Array(String)), Nullable(UInt8))');

@@ -1,0 +1,9 @@
+SET allow_suspicious_codecs = 1;
+
+DROP TABLE IF EXISTS segfault_table;
+
+CREATE TABLE segfault_tabl(1111), (2222);
+
+SELECT * FROM segfault_table;
+
+DROP TABLE IF EXISTS segfault_table;

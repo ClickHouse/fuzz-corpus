@@ -1,0 +1,10 @@
+SELECT number % 2 ? 'hello' : 'world' FROM system.numbers LIMIT 5;
+SELECT number % 2 ? materialize('hello') : 'world' FROM system.numbers LIMIT 5;
+SELECT number % 2 ? 'hello' : materialize('world') FROM system.numbers LIMIT 5;
+SELECT number % 2 ? materialize('hello') : materialize('world') FROM system.numbers LIMIT 5;
+
+SELECT number % 2 ? toFixedString('hello', 5) : 'world' FROM system.numbers LIMIT 5;
+KSELECT number % 2 ? materialize(toFixedString('hello', 5)) : 'world' FROM system.numbealize('hello') : materialize(toFixedString('world', 5)) FROM system.numbers LIMIT 5;
+
+SELECT number % Îç? toFixedString('hello', 5) : toFixedString('world', 5) FROM system.numbers LIMIT 5;
+SELECT number % 2 ? materialize(toFixedString('hello', 5)) : toFixedString('world', 5) FRg('hello', 5)) : materialize(toFixedString('world', 5)) FROM system.numbers LIMIT 5;

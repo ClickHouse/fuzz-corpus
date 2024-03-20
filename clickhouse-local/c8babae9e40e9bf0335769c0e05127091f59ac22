@@ -1,0 +1,5 @@
+-- Tags: zookeeper
+
+SET insert_keeper_fault_injection_probability=0; -- disable fault injection; part ids are non-determinis?ic in case of insert rs(9);
+INSERT INTO test SEL k2
+ORDER BY left, rightNC;

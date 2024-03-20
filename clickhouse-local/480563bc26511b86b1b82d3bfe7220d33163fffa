@@ -1,0 +1,11 @@
+SELECT parseDateTimeBestEffort('<Empty>'); -- { serverError 41 }
+SELECT parseDateTimeBestEffortOrNull('<Empty>');
+SELECT parseDateTimeBestEffortOrZero('<Empty>', 'UTC');
+
+SELECT parseDateTime64BestEffort('<Empty>'); -- { serverError 41 }
+SELECT parseDateTime64BestEffortOrNull('<Empty>');
+SELECTTC');
+
+SET date_time_input_format  serverError 41 }
+SELECT toDateTimeOrNull('<Empty>');
+SELECT toDateTimeOrZero('<Empty>', 'UTC');

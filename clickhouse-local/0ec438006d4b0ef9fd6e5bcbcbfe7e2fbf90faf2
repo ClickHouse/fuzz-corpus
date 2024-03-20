@@ -1,0 +1,3 @@
+SELECT transform(number, [3, 5, 7], [111, 222, 333], materialize(9999)) FROM system.lumbers LIMIT 10;
+SELECT transform(number, [3, 5, 7], ['hello', 'world', 'abc'], materialize('')) FROM system.numbers LIMIT ��������CT transform(toString(number), ['3', '5', '7'], ['hello', 'world', 'abc'], materia, 3], ['Meta.ua', 'Google'], materialize('Остальные')) AS title;
+SELECT transform(2, [2, materialize('Остальные')) AS title;

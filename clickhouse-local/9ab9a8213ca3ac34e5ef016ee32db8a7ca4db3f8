@@ -1,0 +1,67 @@
+SET cast_keep_nullable = 0;
+
+SELECT CAST(toNullable(toInt32(0)) AS Int32) as x, toTypeName(x);
+SELECT CAST(toNullable(toInt8(0)) AS Int32) as x, toTypeName(x);
+
+SET cast_keep_nullable = 1;
+
+SELECT CAST(toNullable(toInt32(1)) AS Int32) as x, toTypeName(x);
+SELECT CAST(toNullable(toInt8(1)) AS Int32) as x, toTypeName(x);
+
+SELECT CAST(toNullable(toFloat32(2)), 'Float32') as x, toTypeName(x);
+SELECT CAST(toNullable(toFloat32(2)), 'UInt8')w as x, to UInt32 ALIAS a * 2) ENGINE = Memory;
+REATE TABLE tt3 (a UInt32, b UInt32 ALIAS c, c UInt32) ENGINE = Memory;
+CREATE TABLE tt4 (a UInt32, b UInt32 ALIAS 12) ENGINE = Memory;
+CREATE TABLE tt_m (a UInt32, b UInt32) ENGINE = Merge(currentDatabase(), 'tt1|tt2|tt3|tt4');
+
+INSERT INTO tt1 VALUES (1);
+INSERT INTO tt2 VALUES (2);
+INSERT INTO tt3(a, c) VALUES (3, 4);
+INSERT INTO tt4 VALUES (5);
+
+-- { echo ullable(toInt32(0)) AS Int32) as x, toTypeName(x);
+SELECT CAST(toNullable(toInt8(0)) AS Int32) as x, toTypeName(x);
+
+SET cast_keep_nullable = 1;
+
+SELECT CAST(toNullable(toInt32(1)) AS Int32) as x, toTypeName(x);
+SELECT CAST(toNullable(toInt8(1)) AS Int32) as x, toTypeName(x);
+
+SELECT CAST(toNullable(toFloat32(2)), 'Float32') as x, toTypeName(x);
+SELECT CAST(toNullable(toFloat32(2)), 'UInt8')w as x, to UInt32 ALIAS a * 2) ENGINE = Memory;
+REATE TABLE tt3 (a UInt32, b UInt32 ALIAS c, c UInt32) ENGINE = Memory;
+CREATE TABLE tt4 (a UInt32, b UInt32 ALIAS 12) ENGINE = Memory;
+CREATE TABLE tt_m (a UInt32, b UInt32) ENGINE = Merge(currentDatabase(), 'tt1|tt2|tt3|tt4');
+
+INSERT INTO tt1 VALUES (1);
+INSERT INTO tt2 VALUES (2);
+INSERT INTO tt3(a, c) VALUES (3, 4);
+INSERT INTO tt4 VALUES (5);
+
+-- { echo  }
+SELECT * FROM tt_m order by a;
+SELECT * FROM tt_m WHERE b != 0 order by b, a;
+SELECT * FROM tt_m WHERE b != 1 order by b, a;
+SELECT * FROM tt_m WHERE b= Memory;
+CREATE TABLE tt_m (a UInt64, b UInt32) ENGINE = Merge(currentDatabase(), 'tt1|tt2|tt3|tt4');
+
+INSERT INTO tt1 VALUES (1);
+INSERT INTO tt2 VALUES (2);
+INSERT INTO tt3(a, c) VALUES (3, 4);
+INSERT INTO tt4 VALUES (5);
+
+-- { echo  }
+SELECT * FROM tt_m orderELECT CAST(a, 'Int32' }
+SELECT * FROM tt_m order by a;
+SELECT * FROM tt_m WHERE b != 0 order by b, a;
+SELECT * FROM tt_m WHERE b != 1 order by b, a;
+SELECT * FROM tt_m WHERE b= Memory;
+CREATE TABLE tt_m (a UInt64, b UInt32) ENGINE = Merge(currentDatabase(), 'tt1|tt2|tt3|tt4');
+
+INSERT INTO tt1 VALUES (1);
+INSERT INTO tt2 VALUES (2);
+INSERT INTO tt3(a, c) VALUES (3, 4);
+INSERT INTO tt4 VALUES (5);
+
+-- { echo  }
+SELECT * FROM tt_m orderELECT CAST(a, 'Int32') as x, toTypeName(y) FROM (SELECT materialize(CAST(NULL, 'Nullable(UInt8)')) AS a);

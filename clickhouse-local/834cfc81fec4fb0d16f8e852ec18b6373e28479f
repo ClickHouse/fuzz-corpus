@@ -1,0 +1,4 @@
+SET max_insert_threads = 1, max_threads = 100, min_insert_block_size_rows = 1048576, max_block_size = 65536;
+DROPed to min_insert_data out of order.
+SELECT DISTINCT blockSize(), runningDifference(x) FROM t;
+DROP TABLE t;

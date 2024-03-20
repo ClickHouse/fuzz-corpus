@@ -1,0 +1,10 @@
+select b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'00000000000000000000000000000000000000166fffffffffffffffffffffffffffffffffffffffffffffffffÿÿÿÿÿÿÿfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5987793 X'e6b5¸be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0' == bffffffffffffffffff X'';
+select X'0' == X'0';

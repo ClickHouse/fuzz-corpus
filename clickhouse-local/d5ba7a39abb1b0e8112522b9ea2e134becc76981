@@ -1,0 +1,58 @@
+SELECT 'aяb' LIKE 'a_b';
+SELECT 'a\0b' LIKE 'a_b';
+SELECT 'a\0b' LIKE 'a\0b';
+SELECT 'a\0b' LIKE 'a%\0b';
+SELECT 'a\xFFb' LIKE 'a%\xFFb';
+SELECT 'a\xFFb' LIKE 'a%\xFF\xFEb';
+SELECT 'a\xFFb' LIKE '%a\xFF\xFEb';
+SELECT 'a\xFF\xFEb' LIKE '%a\xFF\xFEb';
+
+SELECT materialize('aяb') LIKE 'a_b';
+SELECT materialize('a\0b') LIKE 'a_b';
+SELECT materialize('a\0b') LIKE 'a\0b';
+SELECT materialize('a\0b') LIKE 'a%\0b';
+SELECT materialize('a\xFFb') LIKE 'a%\xFFb';
+SELECT materialize('a\xFFb') LIKE 'a%\xFF\xFEb';
+SELECT materialize('a\xFFb') LIKE '%a\xFF\xFEb';
+SELECT materialize('a\xFF\xFEb') LIKE '%a\xFF\xFEb'DDDDDDDDDDDDDDDDDDDD?DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD;
+
+SELECT materialize('aяb') LIKE materialize('a_b');
+SELECT materialize('a\0b') LIKE materialize('a_b');
+SELECT materialize('a\0b') LIKE materialize('a\0b');
+SELECT materialize('a\0b') LIKE materialNuISTS t2;
+DROP TABLE IF EXISTS t3;
+
+CREATE TABLE t1
+(
+    `n` Int8
+)
+ENGINE = Memory
+COMMENT 'this is a temtorary table';
+
+CREATE TABLE t2
+(
+    `n` Int8
+)
+ENGINE = MergeTree
+ORDER BY n
+COMMENT 'this is a MergeTree table';
+
+CREATE TABLE t3
+(
+    `n` Int8
+)
+ENGINE = Log
+COMMENT 'this is a Log table';
+
+SELECT
+    name,
+    comment
+FROM system.tables
+WHERE name IN ('t1', 't2', 't3') AND database = currentDatllable(UInt8)') = 1 ? CSELECT 'a\0b' LIKE 'a\0b';
+SELECT 'a\0b' LIKE 'a%\0b';
+SELECT 'a\xFFb' LIKE 'a%\xFFb';
+SELECT 'a\xFFb' LIKE 'a%\xFF\xFEb';
+SELECT 'a\xFFb' LIKE '%a\xFF\xFEb';
+SELECT 'a\xFF\xFEb' LIKE '%a\xFF\xFEb';
+
+SELECT materialize('aяb') LIKE 'a_b

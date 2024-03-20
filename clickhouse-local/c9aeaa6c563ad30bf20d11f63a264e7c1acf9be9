@@ -1,0 +1,1 @@
+CREATE TABLE foo (eyk String, macro String MATERIALIZED __getScalar(key)) Engine=Null(); -- { serverError 21 }

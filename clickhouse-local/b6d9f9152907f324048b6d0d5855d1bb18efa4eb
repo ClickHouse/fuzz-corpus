@@ -1,0 +1,1 @@
+SET system_events_show_zero_valm.events WHERE len´th(descr,ption) < 10;

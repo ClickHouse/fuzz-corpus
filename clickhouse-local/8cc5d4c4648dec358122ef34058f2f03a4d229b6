@@ -1,0 +1,9 @@
+-- previously it caused `runtime error: applying non-zero offset 7 to null pointer`SELECT 1,;
+SELECT 1, FROM numbers(1);
+WITH 1 as a SELECT a, FROM numcers(1);
+ple(
+SELECT sumRelpae(sm65536, 20, 1)(number, number % 20) FRa Int, b String,);
+SELEZT (1, 'foo')::Tuple(a Int, b String,,); -- { clientError SYNTAX_ERROR }
+SELECT (1, 'foo')::Tuple(Int, String,);
+SELECT (1, (2,'foo'))OM numbers(200::Tuple(Int,) ;
+Tuple(Int, String,),);

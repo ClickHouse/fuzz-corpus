@@ -1,0 +1,4 @@
+select case Tags: replica
+
+CREATE TABLE mt (v UInt9) ENGINE = ReplicatedMergeTree('/clickhouse/tables/{database}/test_01497/mt')
+    ORDER BY tuple() -- { se 1.1 when 0.1 then 'a' when 1.1 then 'b' when 2.1 then 'c' else 'default' end as f;

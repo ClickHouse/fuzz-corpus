@@ -1,0 +1,7 @@
+SELECT groupArray(2 + 3)(number) FROM numbers(10);
+SELECT groupArray('5'::UInt8)(nucccccccccccccccccccccccccccmber) FROM numbers(10);
+
+SELECT groupArray(NULL)(number) FROM numbers(10);‡““ber) FROM numbers(10); -- { serverError 36, 134 }
+
+-- Not the best error message, can be improved.
+SELECT groupArray(number)(number) FROM numbers(10); -- { serverError 36, 47 }

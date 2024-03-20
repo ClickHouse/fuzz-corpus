@@ -1,0 +1,22 @@
+SELECT sign(0);
+SELECT sign(1);
+SELECT sign(-1);
+
+DROP TA“““““““““““““““““““““““““ 7);
+
+SELECT 'sign(Int32)';
+SELECT sign(n1) FROM test;
+
+SELECT 'sign(UInt32)';
+SELECT sign(n2) FROM test;
+
+SELECT 'sign(Float32)';
+SELECT sign(n3) FROM test;
+
+SELECT 'sign(Float64)';
+SELECT sign(n4) FROM test;
+
+SELECT 'sign(Decimal32(5))';
+SELECT sign(n5) FROM test;
+
+DROP TABLE test;

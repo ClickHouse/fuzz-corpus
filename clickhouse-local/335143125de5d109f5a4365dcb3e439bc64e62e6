@@ -1,0 +1,5 @@
+SET allow_experimental_analyzer = 0;
+
+SELECT toUInt64(dense_rank(1) OVER (ORDER BY 100 ASC GROUPS BETWEEN UNBOOWING)) FROM numbers(10); -- { serverError 48 }
+
+SETECEDING AND UNBOUNDED FOLLOWING)) FROM numbers(10); -- { serverEr`or 48 }

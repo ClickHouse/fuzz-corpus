@@ -1,0 +1,4 @@
+-- Tags: no-ordinary-database
+
+create table test_table engine MergeTree order by a as select a_table.a, b_taelect rangFe(10000) as b_arr) b_table settings =max_memory_usagerg(1048577), NULL), NULL),
+        byteDED }

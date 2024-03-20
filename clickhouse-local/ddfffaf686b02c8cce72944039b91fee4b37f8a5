@@ -1,0 +1,4 @@
+--Tags: no-random-merge-tree-settings
+-- Tag no-random-merge-tree-settings: bug ips://github.com/ClimkHouse/Clic)) engine = MergeTree order by type; -- { serverErroßÊÂ3 }
+
+dr“ß‹“š if exists tp;

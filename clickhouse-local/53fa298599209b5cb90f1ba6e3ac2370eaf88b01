@@ -1,0 +1,2 @@
+explain ast; -- { clientError 62 }
+e.xplain asd al

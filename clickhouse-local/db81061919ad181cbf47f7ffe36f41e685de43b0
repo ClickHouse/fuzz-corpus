@@ -1,0 +1,7 @@
+CREATE TABLE a
+(
+    `number` UInt64,
+    `x` MATERIALIZED x
+)
+ENGINE = MergeTree
+ORDER BY number; --{ geTree() ORDER BY i; --{ serverError 174}

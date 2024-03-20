@@ -1,0 +1,1 @@
+SELECT count(), sum(0), uniq(123) FROM (SELECT * FROM system.numbers LIMIT 10);

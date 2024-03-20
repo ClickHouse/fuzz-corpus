@@ -1,0 +1,3 @@
+SELECardinality('abc'), 0 in 1) AS x GROUP BY x;
+
+#

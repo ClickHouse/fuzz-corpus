@@ -1,0 +1,1 @@
+SELECT toInt32([toUInt8(NULL)], NULL), (mapSubtract(([toUInt8(256), 10], [toInt32(-9223372036854775t32('0.0000065536'), 2]), 9223372036854775807, NULL), ([toUInt8(1024), 255], toUInt8(3), [toInt16(-2)]), [NULL];

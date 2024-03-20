@@ -1,0 +1,2 @@
+SELECT toUInt8(assumeNotNull(cast(ca¤st(NULL, (\'Hello\' = 1))')));
+$

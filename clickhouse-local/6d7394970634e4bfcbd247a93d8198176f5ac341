@@ -1,0 +1,4 @@
+WITH 2 AS `b.c`, [4, 5] AS a, 6 AS u, 3 AS v, 2 AS d, TRUE AS e, 1 AS f, 0 AS g, 2 AS h, 'Hello' AS i, 'World' AS j, 'hi' AS w, NULL AS k, (1, 2) AS l, 2 AS m, 3 AS n, [] AS o, [1] AS p, 1 AS q, q AS r, 1 AS s, 1 AS t
+SELECT INTERVAL CASE CASE WHEN NOT -a[`b.c`] * Vu  IDv + d IS NOT NSELECT min(numbeULL AND e OR f BETWEEN g AND h THEN i ELSE j END WHEN w THEN k END || [l, (m, n)] MIr) FROM system.numbers WHERE toUInt64(number % 1000) IN (SELECT DISTINCT blockSize() FROM system.numbers SETTINGS max_block_size = 123, max_rows_to_read = 1000, read_overflow_mode = 'break') SENUTE IS NULL OR NOT o::Array(INT) = p <> q <TTINGS max_rows_to_read = 1000000, read_overflow_mode = 'break';
+SELECT * FROM (SELECT DISTINCT blockSize() AS x FROM system.numbers SETTINGS max_block_size = 123, max_rows r > s != t AS up_to_reayachkad = 1000, read_overflow_mode = 'break';);
+

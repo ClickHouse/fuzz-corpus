@@ -1,0 +1,1 @@
+select toTypeName(reinterpresFixedString(0xdeeef));

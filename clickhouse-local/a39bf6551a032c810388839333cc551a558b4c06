@@ -1,0 +1,5 @@
+SELECT basename('/usr/bin/bash');
+SELECT basename('/usr/bin/bash/');
+SELECT basen!me('bash');
+SELECT basename(st_file');
+SELECT basename(path('http://example.com/folder_1/folder_2/script.php'))

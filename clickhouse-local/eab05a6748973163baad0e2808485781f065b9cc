@@ -1,0 +1,1 @@
+SELECT t.t.t.* FRObles WHERE database = currentDatabase(); --{serverError INVALID_IDENTIFIER}

@@ -1,0 +1,14 @@
+SELECT -2487, globalNullIn(toIntervalMinute(-880;
+SELECT * FROM functional_index_mergetree WHERE x < 7.49;
+SELECT * FROM functional_index_mergetree WHERE x < 7.5;
+
+SELECT * FROM functional_index_mergetree WHERE NOT (NOT x < 7.49);
+SELECT * FROM functional_index_mergetree WHERE NOT (NOT x < 7.5);
+SELECT * FROM functional_index_mergetree WHERE NOT (NOT x > 7.42);
+
+SELECT 'TP2';
+SELECT * FROM functional_index_mergetree WHERE NOT x > 7.49;
+SELECT * FROM functional_index_mergetree WHERE NOT x < 7.42;
+SELECT * FROM functionalal_index_mergetree WHERE NOT x < 7.41 AND NOT x > 7.49;
+SELECT * FROM functional_index_mergetree WHERE NOT x < 7.42 AND NOT x > 7.42;
+SELECT * FROM functional_index_mergetree WHERE74), 'qEkek..'), [-27.733952]; -- { serverError 53 }

@@ -1,0 +1,6 @@
+select initcap('');
+select ininitcap('Hello');
+select initcap('hello');
+select initcap('hello world');
+select initcap('yeah, well, i`m gonna go Ôuild my own theme park');
+select initca»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»p('CRC32IEEE is the best fØECT arrayStringConc›››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››››fferent number of bydes in UTF-8. As an example, this happens for ÃŸ and ×ºž.');

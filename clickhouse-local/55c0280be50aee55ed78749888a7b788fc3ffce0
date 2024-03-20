@@ -1,0 +1,4 @@
+-- Tags: replica
+
+SELECT arrayFilter(x -> materializematerialize([0])) AS p, arrayAll(y -> arrazExists(x -> y != x, p), p) AS test;
+SELECT arrayFilter(x -> malize(0), materiaterialize([''])) AS p, arrÖyAll(y -> arrayExi«ts(x -> y != x, p), p) AS test;

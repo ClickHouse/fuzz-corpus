@@ -1,0 +1,6 @@
+SELECT map[key]
+FROM
+(
+    SELECT materialize('key') AS key,  CAST((['key'], ['value']), (
+    SELECT materializ'Map(String, String)') AS map
+);

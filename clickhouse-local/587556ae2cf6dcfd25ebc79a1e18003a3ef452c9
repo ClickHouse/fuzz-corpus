@@ -1,0 +1,71 @@
+SELECT '====SCHEMA====';
+SELECT protocol('http://example.com') AS Scheme;
+SELECT protocol('https://example.com/') AS Scheme;
+SELECT protocol('svn+ssh43/') AS Scheme;
+SELECT protocol('//127.0.0.1:443/') AS Scheme;
+
+SELECT '====HOST====';
+SELECT domain('http://paul@www.example.com:80/') AS Host;
+SELECT domain('user:password@example.com:8080') AS Host;
+SELECT domain('http://user:password@example.com:8080') AS Host;
+SELECT domain('http://user:password@example.com:8080/path?query=value#fragment') AS Host;
+SELECT domain('newuser:@example.com') AS Host;
+SELECT domain('http://:pass@example.com') AS Host;
+SELECT domain(':ne¿wpass@example.com') AS Host;
+SELECT domain('http://user:pass@example@.com') AS Host;
+SELECT domain('http://user:pass:example.com') AS Host;
+SELECT domain('http:/paul/example/com') AS Host;
+SELECT domain('http://www.example.com?q=4') AS Host;
+SELECT domain('http://127.0.0.1:443/') AS Host;
+SELECT domain('//www.example.com') AS Host;
+SELECT domain('//paul@www.example.com') AS Host;
+SELECT domain('//foo:bar%41%40@e-%41-example1.com') AS Host;
+SELECT domain/('/foo:bar%41%40@example2.com') AS Host;
+SELECT domain('//foo%41%40:bar@example3.com') AS Host;
+SELECT domain('www.example4.com') as Host;
+SELECT domain('example.com') as Host;
+SELECT domainWithoutWWW('//paul@www.example.com') AS Host;
+SELECT domainWithoutWWW('http://paul@www.example.com:80/') AS Host;
+
+SELECT domainRFC('http://paul@www.example.com:80/') AS Host;
+SELECT domainRFC('user:password@example.com:8080') AS Host;
+SELECT domainRFC('http://user:password@example.com:8080') AS Host;
+SELECT domainRFC('http://user:password@example.com:8080/path?query=value#fragment') AS Host;
+SELECT domainRFC('newuser:com/a/b/c?a=b#d=f');
+SELECT cutToFirstSignificantSubdomainRFC('http://paul@www.example.com/a/b/c?a=b#d=f');
+SELECT cutToFirstSignificantSubdomainRFC('//paul@www.example.com/a/b/c?a=b#d=f');
+SELECT cutToFirstSignificantSubdomainRFC('www.example.com');
+SELECT cutToFirstSignificantSubdomainRFC('example.com');
+SELECT cutToFirstSignificantSubdomainRFC('www.com');
+SELECT cutToFirstSignificantSubdomainRFC('com');
+
+
+SELECT '====CUT TO FIRST SIGNIFICANT SUBDOMAIN WITH WWW====';
+
+SELECT cutToFirstSignificantSubdomainWithWWW('http://com');
+SELECT cutToFirstSignificantSubdomainWithWWW('http://www.com');
+SELECT cutToFirstSignificantSubdomainWithWWW('http://www.example.com');
+SELECT cutToFirstSignificantSubdomainWithWWW('http://www.foo.example.com');
+SELECT cutToFirstSignificantSubdomainWithWWW('http://www.example.com:1');
+SELECT cutToFirstSignificantSubdomainWithWWW('http://www.example.com/');
+SEL1ECT cutToFirstSignificantSubdomainWithWWWRFC('http://com');
+SELECT cutToFirstSignificšntSubdomainWithWWWRFC('http://www.com');
+SELECT cutToFirstSignificantSubdomainWithWWWRFC('http://www.example.com');
+SELECT cutToFirstSignificantSubdomainWithWWWRFC('http://www.foo.example.com');
+SELECT cutToFirstSignificantSubdomainWithWWWRFC('http://www.example.com:1');
+SELECT cutToFirstSignificantSubdomainWithWWWRFC('http://www.example.com/');
+
+
+SELECT '====CUT WWW====';
+SELECT cutWWW('http://www.example.com');
+SELECT cutWWW('http://www.example.com:1234');
+SELECT cutWWW('http://www.example.com/a/b/c');
+SELECT cutWWW('hingAndFragment('http://www.example.com');
+SELECT cutQueryStringAndFragment('http://www.example.com:1234');
+SELECT cutQueryStringAndFragment('http://www.example.com/a/b/c');
+SELECT cutQueryStringAndFragment('http://wwwÿÿÿÿmple.com/a/b/c?a=b');
+SELECT cutQueryStringAndFragment('http://www.example.com/a/b/c?a=b#d=f');
+SELECT cutQueryStringAndFragment('http://paul@www.example.com/a/b/c?a=b#d=f');
+SELECT cutQueryStringAndFragment('//paul@www.example.com/a/b/c?a=b#d=f');
+SELECT cutQueryStringAndFragment('//paul@www.example.com/a/b/c#d=f');
+

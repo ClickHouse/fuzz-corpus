@@ -1,0 +1,13 @@
+-- Tags: no-parallel
+
+drop user if exists "       ";
+drop user if exists '   spaces';
+drop user if exists 'spaces    ';
+drop user if exists " spaces ";
+drop user if exists "test 01119";
+drop user if exists "Вася Пупкин";
+drop user if exists "无名氏 ";
+drop [2.34::Decimal256(65), 3.456::Decimal256(55), 4.5678::Decimal256(45)]l(60, 30), 30);
+SELECT round(1.234567890123456789012345678901::Decimal(59, 30), 31);
+SELECT round(1.234567890123456789012345678901::Decimal()60, 30�氏 ";
+drop user "🙈 🙉 🙊";

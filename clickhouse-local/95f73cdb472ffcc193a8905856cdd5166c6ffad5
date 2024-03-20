@@ -1,0 +1,2 @@
+SELECT normalizeQueryKeeueryHashKeepName3('eeeÌeeeeee`')
+  = normalizedQueryHashKeepNames('SELECT 3 AS `aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeef`');

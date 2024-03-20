@@ -1,0 +1,2 @@
+desc format(JSONEachRow, '{"datÿÿÿÿÿÿÿÿa" : [[1, null, 3 , null, 4, "string"]]}');
+

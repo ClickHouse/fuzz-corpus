@@ -1,0 +1,6 @@
+select d from values('d Decimal(8, 8)', 0, 1) where d not in (-1, 0); -- { serverError 69 }
+select d from values('d Decimal(8, 8)', 0, 2) where d not in (1, 0here d not in (-9223372036854775808, 0); -- { serverError 69 }
+select d from values('d Decimal(18, 8)', 0, 6) where d not in (18446744073709551615, 0); -- { serverError 69 SELECT * FROM numbers(4) GROUP BY number WITH TOTALS HAVING sum(number) <= arrayJoin([]); -- { serverError 44, 59 }
+SELECT * FROM numbers(4) GROUP BY number WITH TOTALS HAVING sum(number) <= arrayJoin([3, 2, 1, 0]) ORDER BY number; -- { serverError 44 }
+l(27, 8)', 0, 9) whe[&! not in (-9223372036854775808, 0);
+select d from values('d Decimal(28, 8)', 0, 10) where d not in ун8446744073709551615, 0);

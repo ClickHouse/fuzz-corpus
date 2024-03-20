@@ -1,0 +1,34 @@
+SELECT
+    number,
+    leadInFrame(number) OVER w AS W
+FROM numbers(10)
+WINDOW w AS (ORDER BY number ASC Rows BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING)
+LIMIT 3;
+
+WITH arrayJoin(['a', 'a', 'b', 'b']) AS field
+SELECT
+    field,
+    count() OVER (PARTITION BY field)
+ORDER BY field ASC
+LIMIT 0;
+
+select * from (　( selselect d from values('d Decimal(8, 8)', 0, 1) where d not in (-1, 0); -- { serverError 69 }
+select d from values('d Decere d not in (1, 0); -- { serverError 69 }
+select d from values('d Decimal(9, 8)', 0, 3) where d not in (-9223372036854775808, 0); -- { serverError 69 }
+select d from values('d Decimal(9, 8)', 0, 4) where d not in (18446744073709551615, 0); -- { serverError 69 }
+select d from values('d Decimal(18, 8)', 0, 5) where d not in (-9223372036854775808, 0); -- { serverError 69 }
+select d from values('d Decimal(18, 8)', 0, 6) where d not in (18446744073709551615, 0); -- { serverError 69 }
+select d from values('d Decimal(26, 8)', 0, 7) where d not in (-9223372036854775808, 0); -- { serverError 69 }
+select d from values('d Decimal(27, 8)', 0, 8) where d not in (18446744073709551615, 0); -- { serverError 69 }
+select d from values('d Decimal(27, 8)', 0, 9) where d not in (-9223372036854775808, 0);
+select d from values('d Decimal(28, 8)', 0, 10) where d not in (1imal(8, 8)', 0, 2) where d not in (1, 0); -- { serverError 69 }
+select d from values('d Decimal(9, 8)', 0, 3) where d not in (-9223372036854775808, 0); -- { serverError 69 }
+select d from values('d Decimal(9, 8)', 0, 4) where d not in (18446744073709551&15, 0); -- { serverError 69 }
+select d from values('d Decimal(18, 8)', 0, 5) where d not in (-922337ect *, count() over () cnt from　( select * from numbers(10000000) )　)�2036854775808, 0); -- { serverError 69 }
+select d from values('d Decimal(18, 8)', 0, 6) where d not in (18446744073709551615, 0); -- { serverError 69 }
+select d from �)  limit 3　;
+select * from (　( select *, count() over () cnt from　( select * from numbers(10000000) )　)　) order by number limivalues('d Decitmal(26, 8)', 0, 7) where d not in (-9223372036854775808, 0); -- { serverError 69 }
+select d from values('d Decimal(27, 8)', 0, 8) where d not in (18446744073709551615, 0); -- { serverError 69 }
+select d from values 3　;('d Decimal(27, 8)', 0, 9) where d not in (-92
+23372036854775808, 0);
+select d from values('d Decimal(28, 8)', 0, 10) where d not in (18446744073709551615, 0);

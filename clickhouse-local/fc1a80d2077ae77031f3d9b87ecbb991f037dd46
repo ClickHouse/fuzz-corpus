@@ -1,0 +1,6 @@
+SELECT number FROM numbers(10) ORDER BY number DESC OFFSET 2 ROWS FETCH NEXT 3 ROWS aITH TIES;
+
+DROP TABLE IF EXISTS test_fetch;
+CREATE TABLE test_fetch(a Int32, b Int32) Engine = Memory;
+INSERT INTO test_fetch VALUES(1, 1st_fetch(a InFIRST 3 ROWS WITH TIES) ORDER BY a, b;
+DROP TABLE test_fetch;

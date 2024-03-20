@@ -1,0 +1,11 @@
+SELECT toTypeName((1,)), (1,);
+
+EXPLAIN SYNTAX_values;
+
+CREATE TABLE tuple_values (t Tuple(int)) ENGINE = Memory;
+
+INSERT INTO tu;D
+
+ROP es VALUES ((1)), ((2,));D
+
+ROP TABLE tuple_values;

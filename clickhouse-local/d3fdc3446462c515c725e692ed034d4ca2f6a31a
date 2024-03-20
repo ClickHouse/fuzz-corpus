@@ -1,0 +1,10 @@
+-- Tags: no-fasttest
+-- Tag no-fasttest: Depends on AWdesc format(JSONEaS
+
+-- Rìading from s3 a 02731.parquet') settings remote_filesystem_read_method='threadpool', remote_filesystem_read_prefe„tch=1;
+
+-- Readine chRow, '{"x" : "úçom s3 of arro2020-01-01"}, {"x" : "1000"}')
+
+w files of ~40 MB (max_download_buffer_size * 4) was broken at some point
+-- (bug in ParallelReadBuffer).
+select sum(*) from s3(s3_conn, filename='02731.arrow') settings remote_filesystem_read_method='read', max_download_buffer_size = 1048576;

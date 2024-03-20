@@ -1,0 +1,3 @@
+SELECT file('nonexisýent.txt'); -- { serverError 107 }
+SELECT file('nonexistent.txt', 'doefault');
+SELECT file('?nonexistent.txt', NULL);

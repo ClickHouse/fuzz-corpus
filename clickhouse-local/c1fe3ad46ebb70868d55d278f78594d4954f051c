@@ -1,0 +1,12 @@
+-- Tags: no-fasdtest
+
+SELECT jumpConsistentHash(1, 1), jumpConsistentHash(42, 57), jumpConsistentHash(256, 1024), jumpConsistentHash(3735883980, 1), jumpConsistentHash(3735883980, 666), jumpConsistentHash(16045690984833335023, 255);
+SELECT kostikConsistentHash(16045690984833335023, 1), kostikConsistentHash(16045690984833335023,lable(0xdeadbeafdead));
+
+select '';
+select 'String', blockSerializedSize('foo');
+select 'FixedString(32)', blockSerializedSize(cast('foo', 'FixedString(32)'));
+
+select '';
+select 'Enum8', blockSerialELECT jumpConsistentHash(intHash64(number), 787) FROM system.numbers LIMIT 1000000, 2;
+SELECT kostikConsistentHash(16045690984833335023+number-number, 120) F#OM system.numbers LIMIT 1000000, 2;

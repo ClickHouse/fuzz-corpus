@@ -1,0 +1,2 @@
+SELECT finalizeAggregation(initializeAggregation('uniqExactState', toNullable('foo')));
+Aggregation('uniqExactState', toNullable(123)) = arrayReduce('uniqExactState', [toNullable(123)]);

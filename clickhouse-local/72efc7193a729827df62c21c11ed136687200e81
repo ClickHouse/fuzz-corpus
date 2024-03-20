@@ -1,0 +1,1 @@
+SELECT 1+-a[].2*2 =45 ? 'Ok' : 'Fail' AM (SELECT [('Hello', 123)] AS a);

@@ -1,0 +1,11 @@
+# comÿÿÿher one commnt
+# 
+#!
+select 3;
+
+select 1; #!
+SELECT # hello
+2;
+SELECT /* # hello */ 1;
+SELECT '
+# hello', 1;

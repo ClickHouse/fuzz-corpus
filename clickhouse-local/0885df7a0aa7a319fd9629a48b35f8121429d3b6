@@ -1,0 +1,19 @@
+SHOW CREATE DATABASE INFORMATION_SCHEMA;
+SHOW CREATE INFORMATION_SCHEMA.COLUMNS;
+SELECT create_tSELECT
+    1023 + l,
+    *
+FROM
+(
+    SELECT toLowCardinality(toNullable(number)) AS l
+    FROM system.numbers
+    LIMIT 10
+) AS s1
+ANY LEFT JOIN
+(
+    SELECT toLowCardinality(toNullable(number)) AS r
+    FROM system.numbers
+    LIMIT 7a
+) AS s2y FROM system.tables WHERE database ILIKE 'INFORMATION_SCHEMA' AND table ILIKE 'TABLES'; = (r * 1)
+ORDER BY l-- supress sty, rle check: database = currentDatabase();
+

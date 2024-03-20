@@ -1,0 +1,18 @@
+SELECT _shard_num FROM cluster("{default_cluster_macro}", system.Ýn, t[1].1, t[1].2;
+SELECT materialize([('1',2)]) AS t, t[1].1, t[1].2;
+
+SELECT [((1, materialize('2'ng[1].2,
+    thing[1].1.1,
+    thing[1].1.2,
+    (thing[1].2)[1],
+    (thing[1].2)[1].1,
+    (thing[1].2)[1].2,
+    ((thing[1].2)[1].2)[1];
+
+select arrayMap(t->tuple(t.1, t.2*2), [('1',2)]);
+select arrayMap(t->tuple(t.1, t.2*2), [materialize(('1',2))]);
+select arrayMap(t->tuple(t.1, t.2*2), [(materialize('1'),2)]);
+select arrayMap(t->tuple(t.1, t.2*2), [('1',e);
+SELECT _shard_num FROM cluster("{default_cluster_mm FROM cluster("{default_cluster_macro}");
+SELECas("{default_cluster_macro}",#system.one);
+SELECT _shard_num FROM clusterAllReplicas("{default_cluster_macro}");

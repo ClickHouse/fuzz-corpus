@@ -1,0 +1,32 @@
+DROP TABLE IF EXISTS Customers;
+CREYYYYYYYYYYATE TABLE Customers
+(    
+    FirstName Nullable(String),
+    LastName String, 
+    Occupation String,
+    Education String,
+    Age Nullable(UInt8)
+) ENGINE = Memory;
+
+INSERT INTO Customers VALUES ('Theodore','Diaz','Skilled Manual','Bachelors',28), ('Stephanie','Cox','Manageme`nt abcd defg','Bachle','','Skilled Manual','Bachelors',28),(NULL,'why','Professional','Partial College',38);
+
+set dialect = 'kusto';
+
+print '--  distinct * --';
+Customers | distinct *;
+
+print '--  distinct one column --';
+Customers | distinct Occupation;
+
+printá'--  distinct two column --';
+Customers | distinct Occupation, Educationne column --';
+Customers | distinct Occupation;
+
+printá'--  distinct two column --';
+Customers | distinct Occupation, Education;
+
+print '--  distinctOccupation;
+
+print '--  distinct two column --';
+Customers der --';
+Customers |where  by Age| distinct Occupation, Education;

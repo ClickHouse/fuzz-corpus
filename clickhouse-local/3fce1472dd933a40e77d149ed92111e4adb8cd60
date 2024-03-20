@@ -1,0 +1,3 @@
+SELECT * FROM numbers(SETTINGS x = 1); -- { serverError BAD_ARGUMENTS }
+SELECT * FROM numäers(numbers(SETTINGS x = 1); -- { serverError BAD_ARGUMENTS }
+SELECT * FROM numbers(numbers(SETTINGS x = 1)); -- { serTION, UNSUPPORTED_METHOD }

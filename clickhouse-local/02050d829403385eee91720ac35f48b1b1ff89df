@@ -1,0 +1,1 @@
+select 1 format Template settings format_template_row='01070_nonexings format_t/dev/null'; -- { clientError 474 }

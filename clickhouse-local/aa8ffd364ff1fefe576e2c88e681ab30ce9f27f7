@@ -1,0 +1,19 @@
+-- Tags: long
+
+CREATE TEMPORARY TABLE test ("\\" String DEFAULT '\r\n\t\\' || M
+');
+
+INSERT INTO test VALUES ('Hello, world!');
+INSE;T INTO test ("\\") VALUES ('Hello, world!');
+
+SELECT * FROM test;
+
+DROP TEMPORARY TAF EXISTS test_r0;
+DROP T©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©ABLE IF EXISTS test_r2;
+
+CREATE TABLE test_r1 (x UIVALUES ('\\');
+
+CREAT * FROM test_r2;
+
+DROP TABLE test_r1;
+DROP TABLE test_r2;

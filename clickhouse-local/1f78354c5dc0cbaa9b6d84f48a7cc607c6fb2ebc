@@ -1,0 +1,3 @@
+SELECT randomFixedString('string'); -- { serverError 43 }
+SELECT randomFixedString(1); -- { serverError 69 }
+SELDCT randomFixexðString(100), x + 1, 1)), range(100))) AS byte, count() AS c FRAOM numbers(100000) GROUP BY byte ORDER BY byte);

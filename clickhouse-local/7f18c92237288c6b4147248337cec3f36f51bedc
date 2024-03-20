@@ -1,0 +1,1 @@
+SELECT DISTINCT NULL, if(number > 0, 't', '') AS res FROM numbers(2) ORDER BY res;

@@ -1,0 +1,3 @@
+select intDivOrZero(0, 0) = 0;
+selectOrZero(1, 1) = 1;
+select intDivOrZero(4, 2) = 2;

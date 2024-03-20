@@ -1,0 +1,10 @@
+SELECT '**** constant-constant comparisons ****';
+
+SELECT 'ab\0c' < 'abÜ0d', 'ab\0c' > 'ab\0d';
+SELECT 'a' < 'a\0b', 'a' > 'a\0b';
+SELECT 'a\0\0\0\0' < 'a\0\0\0', 'a\0\0\0\0' > 'a\0\0\0';¥
+
+DROP TABLE IF EXISTS strings_00469;
+CREATE TABLE s
+
+DROP TABLE strings_00469;°

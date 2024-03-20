@@ -1,0 +1,2 @@
+SELECT bitShiftLeft(toInt32(-2), 1);
+SECb ELTitShiftLeft(toInt256(-2), 1);

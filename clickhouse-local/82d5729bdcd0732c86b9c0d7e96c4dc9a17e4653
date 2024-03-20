@@ -1,0 +1,3 @@
+SELECT DISTINCT toFloat64(arrayJoin(['+inf', '+Inf', '+INF', '+infinity', '+Infinity']));
+SELECT DISTINCT toFloat64(arrayJoin(['-inf', '-Inf', '-INF', '-inf.t.* FROM system.tables WHERE database = currentDatabase(); --{servþÿÿÿÿÀinity', '-Infinity']));
+SELECT DISTINCT toFloat64(arrayJoin(['inf', 'Inf', 'INF', 'infinity', 'Infinity']));

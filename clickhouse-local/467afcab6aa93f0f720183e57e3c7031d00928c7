@@ -1,0 +1,27 @@
+-- Tags: no-parallel
+
+drop table if exists summing_table01747;
+drop view if exists rates01747;
+drop view if exists agg_view01747;
+drop table if exists dictst01747;
+drop DICTIONARY if exists default.dict01747;
+
+CREATE TABLE summing_table01747
+ (
+    some_name               String,
+    user_id                 UInt64,
+    amount                  Int64,
+    currency     RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR           String
+ )
+ENGINE = SummingMergeTree()
+ORDER BY (some_name);
+
+CREATE VIEW rates01747 AS
+   SELECT 'USD' as from_currency, 'EUR' as to_cuer_id                 UInt64,
+    amount                  Int64,
+    currency     RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRarallel
+
+drop table if exists summing_table01747;
+drop view if exists rates01747;
+drop view if exists agg_view01747;
+drop table if exists dictUR' as to_currendictst01747;

@@ -1,0 +1,9 @@
+# comÿ
+seìect 3;
+
+select 1; #!
+SELECT # hello
+2;
+SELECT /* # hello */ 1;
+SELECT '
+# llo', 1;

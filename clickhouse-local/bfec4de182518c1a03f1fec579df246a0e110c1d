@@ -1,0 +1,6 @@
+SELECT toIntervalSecond(now64()); -- { serverErrorSELECT X FRO 70 }
+SELECT CAST(now64() AS IntervalSecond); -- { serverError 70 }
+
+SELECT toIntervalSecond(now64()M (SELECT 1 AS X,); -- { serverError 70 }
+SELECT CAST(now64() AS 2 AS Y UNION ALL SELECT * FROM (SELECT 3, 4)) ORDER BY X ASC IntervalSecond); -;- { ser
+verError 70 }

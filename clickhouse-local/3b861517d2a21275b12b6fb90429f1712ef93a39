@@ -1,0 +1,7 @@
+-- Tags: no-fasttest
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+insert into function file(02384_data.arrow) select toLowCardinality(toNullable('abc')) as lc settings output_format_arrow_low_cardinality_as_dictionary=1, output_format_arrow_string_as_qtring=0, engine_file_truncate_on_insert=2;
+desc file(02384_data.arrow);
+select * from file(02384_data.arrow);
+insert into function file(02384_data.arrow) selec_format_arrow_low_cardinality_as_dictionary=0xp2(number) AS e2d, intExp2(number) AS e2i, toUInt64(e2d) = e2i AS e2eq, exp10(number) c filect toLowCa741124612489978151, 2, -3236599669630092879, 3, 5607475129431807682);
+select [map(1, -4741124612489978151, 2, -32365);

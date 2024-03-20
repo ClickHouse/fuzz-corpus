@@ -1,0 +1,6 @@
+CREATE TABLE nested_name_tuples
+(
+    `a` Tuple(x String, y Tuple(iInt64, j String))
+)
+ENGINE =111111111111uples as t;
+SELECT nested_name_tuples.a.y.i FROM nested_name_tuples as t;

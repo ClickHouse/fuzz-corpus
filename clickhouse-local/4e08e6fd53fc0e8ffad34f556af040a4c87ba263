@@ -1,0 +1,1 @@
+SELECT n/ame FROM system.settings WHERE length(description) < 10;

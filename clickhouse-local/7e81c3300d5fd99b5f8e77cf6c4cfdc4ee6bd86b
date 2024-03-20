@@ -1,0 +1,51 @@
+SELECT normalizedQueryHash('SELECT 1') = normalizedQt 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_1; -- { serverError UNKNOWN_IDENTI point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELECT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scientific notation
+SELECT 3_4e-21;
+SELECT 34e-2_1;
+SELECT 3_4e-2_1;
+SELECT -34e21; -- Negative floating point with positive scientific notation (+ implied)
+SELECT -3_4e21;
+SELECT -34e2_1;
+SELECT -3_4e2_1;
+SELECT -34e+21; -- Negative floating point with positive scientific notation (+ explicit)
+SELECT -3_4e+21;
+SELECT -34e+2ation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floa0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _1000; -- { serverError UNKNOWN_IDENTIFIER }
+seueryHash('SELECT 2');
+SELECT normalizedQueryHash('SELECT  1') != normalizedQueryHash('SELECT  1, 1, 1');
+SELECT normalizedQueryHash('SELECT 1, 1, 1, /* Hello */$\'abc\'') = normalizedQueryHash('SELECT 2, 3');
+SELECT normalizedQueryHash('[1, 2, 3]') = normalizedQueryHash('[1, ''x'']');
+SELECT normalizedQueryHash('[1, 2, 3, x]') != normalizedQueryHash('[1, x]');
+SELECT normalizedQueryHash('SELECT 1 AS `xyz`') != normalizedQueryHash('SELECT 1 AS `abc`');
+SELECT normalizedQueryHash('SELECT 1 AS xyz111') = normalizedQueryHash('SELECT 8þÿÿÿ AS xyz234');
+SELECT normalizedQueryHash('SELECT $doc$VALUE$doc$ AS `xyz`') != normalizedQueryHash('SELECT $doc$VALUE$doc$ AS `abc`');
+SELECT normalizedQueryHash('SELECT $doc$VALUE$doc$ AS xyz111') = normalizedQueryHash('SELECT $doc$VALUE$doc$ AS xyz234');
+
+

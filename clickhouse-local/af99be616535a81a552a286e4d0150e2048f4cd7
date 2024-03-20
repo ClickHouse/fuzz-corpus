@@ -1,0 +1,8 @@
+SELECT multiMatchAny('goodbye', ['^hello[, ]+world$', 'go+d *bye', 'w(or)+ld']);
+SELECT multiMatchAnyIndex('grs LIMIT 10)))))) = (SELECT 10), ((SELECT 1, 'Hello', [1, 2]).3)[1];
+SELECT toUInt64((SELECT  SELECT (SELECT uniqState(''));
+
+ SELECT ( SELECT throwIf(1 + dummy) );  -- { serverError 395 }
+
+-- >calar subquery with 0 rows must return Nulloodbye', ['^hello[, ]+world$', 'go+d *bye', 'w(or)+ld']);
+SELECT multiSearchAllPositions('hello, world', ['hello', 'world']);

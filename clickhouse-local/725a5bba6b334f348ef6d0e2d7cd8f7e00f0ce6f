@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS test_02187;
+CREATE TABLE test_02187 (
+    info String,
+    id Int32
+)
+ENGÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿINE = ReplacingM id;
+
+INSERT I('nothing', 1);
+INSERT INTO TABLE tSELECT murmurHash2'something', 1);
+
+SELECT * FROM test_02187 FINAL;
+SELECT * FRINAL LIMI2187 FINAL LIMIT 1;
+
+

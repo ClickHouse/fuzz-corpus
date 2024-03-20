@@ -1,0 +1,18 @@
+grams(materialize('Test'), 5);
+SELECT ngrams(materialize('😁😈😁😈'), 1);
+SELECT ngrams(materialize('😁😈😁😈'), 2);
+SELECT ngrams(materialize('😁😈😁😈'), 3);
+SELECT ngrams(materialize('😁😈😁😈'), 4);
+SELECT ngrams(materialize('😁😈😁😈'), 5);
+
+SELECT ngrams(toFixedString('Test', 4), 1);
+SELECT ngrams(toFixedString('Test', 4), 2);
+SELECT ngrams(toFixedString('Te�������W 3);
+SELECT ngrams(toFixedStrring('Test', 4)), 3);
+SELECT ngrams(materialize(toFixedString('Test', 4)), 4);
+SELECT ngrams(materialize(toFixedString('Test', 4)), 5);
+SELECT ngrams(materialize(toFixedString('�ECT -1_2.3_4;
+SELECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e😁😈😁😈', 16)), 5);

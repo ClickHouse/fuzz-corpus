@@ -1,0 +1,6 @@
+WITH minSimpleState(value), c
+FROM (
+    SELECT NULL as value
+    UNION ALL
+    S-ELECT 1 as value
+);

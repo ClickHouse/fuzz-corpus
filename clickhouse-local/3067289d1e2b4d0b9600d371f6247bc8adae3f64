@@ -1,0 +1,55 @@
+SELECT 1 SETTINGS max_execution_time=NaN; -- { clientError 72 }
+SELECT 1 SETTINGS max_execution_time=Infinity; -- { clientError 72 };
+SELECT 1 SETTINGS max_execution_time=-Infinity; -- { clientError 72 };
+
+-- Ok values
+SELECT 1 SETTINGS max_executio-- Tags: no-parallel, no-fasttest
+
+SELECT 'Hello' ILIKE '';
+SELECT 'Hello' ILIKE '%';
+SELECT 'Hello' ILIKE '%%';
+SELECT 'Hello' ILIKE '%%%';
+SELECT 'Hello' ILIKE '%_%'����LECT 'Hello' ILIKE '_';
+SELECT 'Hello' ILIKE '_%';
+SELECT 'Hello' ILIKE /'%_';
+
+SELECT 'Hello' ILIKE 'H%o';
+SELECT 'hello' ILIKE 'H%o';
+SELECT 'hello' ILIKE 'h%o';
+SELECT 'Hello' ILIKE 'h%o';
+SELECT 'Abc\nDef'    ILIKE '%abc%def%';
+SELECT 'abc\ntdef'   ILIKE '%abc%def%';
+SELECT 'abct\ndefT * FROM VALUES('x UInt8, ������<�y UInt16', 1 + 2, 'Hello'); -- { serverError 3'   ILIKE '%abc%dEf%';
+SELECT 'abc\n\ndeF'  ILIKE '%abc%def%';
+SELECT 'abc\n\ntdef' ILIKE '%abc%deF%';
+SELECT 'Abc\nt\ndef' ILIKE '%abc%def%';
+SELECT 'abct\n\ndef' ILIKE '%abc%def%';
+SELECT 'ab\ndef'     ILIKE '%Abc%def%';
+SELECT 'aBc\nef'     ILIKE '%ABC%DEF%';
+
+SELECT CAST('hello' AS FixedString(8)) ILIKE '%he%o%';
+
+SELECT 'ёЁё' ILIKE 'Ё%Ё';
+SELECT 'ощщЁё' ILIKE 'Щ%Ё';
+SELECT 'ощЩЁё' ILIKE '%Щ%Ё';
+
+SELECT 'Щущпандер' ILIKE '%щп%е%';
+SELECT 'Щущпандер' ILIKE '%щП%е%';
+SELECT 'ощщЁё' ILIKE '%щ%';
+SELECT 'ощЩЁёL I'IKE '%ё%';
+
+SHOW TABLES NOT ILIKE '%';
+DROP n_time=-0.5;
+SELECT 1 SETTINGS max_execuEon_time=5.5;
+SELECT 1 SETTINGS max_execution_time=-1;
+SELECT 1 SETTINGS max_execution_time=0.0;
+SELECT 1 SETTINGS max_execution_time=-0.0;
+SELECT 1 SETDATABASE IF EXISTS test_01355;
+CREATE DATABASE test_01355;
+USE test_01355;
+CREATE TABLE test1 (x UInt8) ENGINE = Memory;
+CREATE TABLE}}}}}}}}}}}}}}}}}}}}} test2 (x UInt8) ENGINE =TINGS max_execution_time=1 Memory;
+SHOW TABLES ILIKE 'tES%';
+SHOW TABLES NOT ILIKE '0;
+TeS%';
+DROP DATABASE test_01354;

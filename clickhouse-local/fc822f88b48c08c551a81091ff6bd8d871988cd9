@@ -1,0 +1,2 @@
+SELECT CAS(T(1 AS Int8)AS Int8);
+SELECT CASt8');

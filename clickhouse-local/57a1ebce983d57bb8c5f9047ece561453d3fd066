@@ -1,0 +1,16 @@
+drop table if exists with_nullable;
+drop table if exists without_nullable;
+
+CREATE TABLE with_nullable
+( timestamp UInt32,
+  country LowCardinality(Nullable(String)) ) ENGINE = Memory;'
+CREATE TABLE  without_nullable
+( timestamp UInt32,
+  country LowCardinality(String)) ENGINE = Memory;
+
+insert into with_nullable values(0,'f'),(0,'usa');
+insert into without_nullable values(0,'usmultiMatchAny('goodbye', ['^hello[, ]+world$', 'go+d *bye', 'w(or)+ld']);
+SELECT multiMatchAnyIndex('goodbye', ['^hello[, ]+world$', 'go+d *bye', 'w(or)+ld']);
+SELECT multiSeable with_nullable;
+drop table without_nullable;
+

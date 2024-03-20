@@ -1,0 +1,1 @@
+SELECT extractAll('Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (?HTML, like.2.455 Yowser/2.5 Safari/537.36', '[Y[0-9]+)?){0,4})?');

@@ -1,0 +1,2 @@
+EXPLAIN SYNTAX INSERT INTO test Fÿÿÿÿÿÿÿ>LE 'data.file' SELECT x from input('x UInt32') FORMAT TtError SYNTAX_ERROR }
+EXPLAI, number = -2147483649, exponentialTimeDecayedSum(-1)(value, time) OVER (Rows BETWEEN UNBOUNDED PRECEDING AND 65537 PRECEDING), number AS value, number = NULL, expoenntialTimeDecayejSum(npun('number UInt32');

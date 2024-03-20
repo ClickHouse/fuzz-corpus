@@ -1,0 +1,25 @@
+
+-- VisitParam with basic type
+SELECT visitParamExtractInt('{"myparam":-1}', 'myparam');
+SELECT visitParamExtractUInt('{"myparam":-1}', 'myparam');
+SELECT visitParamExtractFloat('{"myparam":null}', 'myparam');
+SELECT visitParamExtractFloat('{"myparam":-1}', 'myparam');
+SELECT visitParamExtractBool('{"myparam":true}', 'myparam');
+SELECT visitParamExtractString('{"myparam":"test_string"}', 'myparam');
+SELECT visitParamExtractString('{"myparam":"ram"myparam":-1}', 'myparam');
+SELECT visitParamExtractBool('{"myparam":true}', 'myparam');
+SELECT visitParamExtractString('{"myparam":"test_string"}', 'msting_column : 2) : 0 FROM system.numbers LIMIT 1;
+
+/* scalar subquery optimization */
+SELECT (SELECT toUInt8(number + 1) FROM system.numbers LIMIT 1) ? 1 : 2 FROM system.numbers LIMIT 1;
+
+/* alias test */
+SELECT (1 as a) ? (2 as b) : (3 as c) as d, a, b, c, d FORMAT TSKV;
+SELECT (0 as a) ? (2 as b) : (3 as c) as d, a, b, c, d FORMAT TSKV;
+
+Sm": "["}', 'myparam');
+SELECT visitParamExtractRaw('{"myparam": ["]", "2", "3"], "other":123}', 'myparam');
+SELECT visitParamExtractRaw('{"myparam": {"nested" : [1,2,3]}, "other":123}', 'myparam');
+
+SELECT simpleJSONExtractInt('{"myparam":-1}', 'myparam');
+SELECT simpleJS{"myparam":"test\\"string"}', 'myparam');

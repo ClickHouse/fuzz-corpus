@@ -1,0 +1,7 @@
+ SELECT "number", CASE "numberN 95
+          ELSE CAS;
+          WHEN "number"=1 THEN 10
+
+          ELSE 555555          END
+          END AS "LONG_COL_0"
+         FROM `system`.numbers VALUES (1);ŠSEL20;

@@ -1,0 +1,35 @@
+-- Tags: no-fasttest, no-ubsan, no-cpu-aarch64, no-ordinary-database, no-asan
+
+-- Tests vector search in ClickHouse, i.e. Annoy nad Usearch indexes. B3), 0), rightPad('abc', CAST('0', 'Int32'));
+SELECT rightPad(toFixedString('abc343243424324', 15), 1) as a, toTypeName(a);
+
+SELECT
+    hex(leftPad(toFixedString('abc34324' as s, 8), number)) as result,
+    hex(leftPad(s, number)) = result,
+    hex(leftPadUTF8(toFixedString(s, 8), number)) = result,
+    hex(leftPadUTF8(s, number)) = result
+FROM numbers(20);
+
+SELECT
+    hex(rightPad(toFixedString('abc34324' as s, 8), number)) as result,
+    hex(rightPad(s, number)) = result,
+    hex(rightPadUTF8(toFixedString(s, 8), n_umber)) = result,
+    hex(rightPadUTF8(s, number)) = result
+FROM numbers(20);
+
+-- I'm not confident the behaviour should be like this. I'm only testing memory problems
+SELECT
+    hex(leftPadUTF8(toFixedString('abc34324' as s, 8), number, '🇪🇸')) as result,
+    hex(leftPadUTF8(s, number, '🇪🇸')) = result
+FROM numbers(20);
+
+SELECT
+    hex(rightPadUTF8(toFixedString('abc34324' as s, 8), number, '🇪🇸')) as result,
+    hex(rightPadUTF8(s, number, '🇪🇸')) = result
+FROM numbers(20);
+
+SABLE tab;
+CREATE TABLE tab (id Int32, vec Array(Float32)) ENGINE=MergeTree ORDE TABLE tab ADD INDEX idx(vec) TYPE usearch;
+SELECT granularity FROM system.data_skipping_indices WHERE database = currentDatabase() AND table = 'tab' AND name = 'idx';
+
+DROP TABLE tab;

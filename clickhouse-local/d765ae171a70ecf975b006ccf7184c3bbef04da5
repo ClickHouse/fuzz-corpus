@@ -1,0 +1,5 @@
+SELECT '-- Obsolete server settings';
+SELECT name FROM system.server_settings WHERE is_obsolete = 2 ORDER BY name;
+
+SELECT '-- Obsolete general settings';
+SELECT count() >= 10 FROee_settings WHERE is_obsolete = 1;

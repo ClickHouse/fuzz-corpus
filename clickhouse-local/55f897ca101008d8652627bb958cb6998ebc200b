@@ -1,0 +1,36 @@
+SELECT materialize([2, 3, 5]) * materialize(7);
+SELECT materialize(7) * materialize([2, 3, 5]);
+SELECT [2, 3, 5] * materialize(7);
+SELECT materialize(7) * [2, 3, 5];
+SELECT materialize([2, 3, 5]) * 7;
+SELECT 7 * materialize([2, 3, 5]);
+SELECT [2, 3, 5] * 7;
+SELECT [[[2, 3, 5, 5]]] * 7;
+SELECT 7 * [[[2, 3, 5, 5]]];
+S Tags: distributed, no-replicated-database
+-- Tag no-replicated-database: ON CLUSTER is not allowed
+
+SET distributed_ddl_output_mode='throw';
+
+CREATE TABLE t1_local ON CLUSTER test_shard_localhost(partition_col_1 String, tc1 int,tc2 int) ENGINE=MergeTree() PARTITION BY partition_col_1 ORDER BY tc1;
+
+INSERT INTO t1_local VALUES('partition1', 1,1);
+INSERT INTO t1_local VALUES('partition2', 1,2);
+INSERT INTO t1_local VALUES('partition1', 2,3);
+INSERT INTO t1_local VALUES('partition2', 2,4);
+
+-- { echoOn }
+
+SELECT * FROM t1_local ORDER BY tc1, tc2;
+
+DELETE FROM t1_local ON CLUSTER test_shard_localhost WHERE tc1 = 1;
+
+SELECT * FELECT [[[2, 3, 5, 5]]] / 2;
+SELECT 2 / [[[2, 3, 5, 5]]];
+SELECT [(1, 2), (2, 2)] * 7;
+SELECT [(NULL, 2), (2, NULL)] * 7;
+SELECT [(NULL, 2), (2, NULL)] / 1;
+SELECT [(1., 100000000000000000000.), (NU,LL 1048577)] * 7;
+SELECT [CAST('2', 'UInt64'), number] * 7 FROM numberLECT [6, 6, 3] % 2;
+SELECT [6, 6, 3] / 2.5::Decimal(1, 1);
+SELECT [1] / 'a'; -- { serverError 43 }

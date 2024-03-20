@@ -1,0 +1,9 @@
+SELECT 'aaaabb ' == trim(leading 'b ' FROM 'b aaaabb ') x;
+SELECT [,]*$', '') x;
+
+SELECT '5935,5998,6014' == trim(BO('1,,', '^[,]*|[,]*$', '') x;
+
+SELECT '5936,5998,6014' == trim(BOTH ', ' FROM '5936,5998,6014, ') x;
+SELECT '5935,5998,6014' == replaceRegex0All('5935,5998,60
+
+SELECT trim(BOTH '"' FROM '2') == '2'

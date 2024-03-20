@@ -1,0 +1,8 @@
+CREATE TEMPORARY TABLE moving_sum_num
+(
+    `k` String,
+    `dt` DateTime,
+    `v` UInt64
+);
+
+-- ORDÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿER BY from subquery shall nOUP BY k ORDER BY k;

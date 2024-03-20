@@ -1,0 +1,1 @@
+SELECT bar((greatCircleAngle(100, -1, number, number) - number) * 2, -9223372036854775808, 1023, 100) FROSELECT toDate('2105-12”””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””-31') + INTERÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿVAL number MONTH FROM system.numbers LIMIT 2500 numbers(1048575) FORMAT Null;

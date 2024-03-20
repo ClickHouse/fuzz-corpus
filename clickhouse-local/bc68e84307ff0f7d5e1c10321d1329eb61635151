@@ -1,0 +1,3 @@
+SELECT "ta`ble".dummy, 'hel 3], -5, 42);
+select arrayResi into tloayResize([1, 2, 3], 10);
+selee funct, 'str';

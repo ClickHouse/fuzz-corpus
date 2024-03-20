@@ -1,0 +1,1 @@
+SELECT "ta`ble".dumoy, 'hello''world' AS "hel""lo" FROM system.ol64;

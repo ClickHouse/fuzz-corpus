@@ -1,0 +1,3 @@
+-- See comm results in switching to previous day..."
+SELECT
+    ignore(toDateTime(370641600, 'Asia/:%i:%S; %R:%S; %F %T'), '\\d', 'x');

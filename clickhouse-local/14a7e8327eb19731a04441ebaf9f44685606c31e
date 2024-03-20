@@ -1,0 +1,7 @@
+-- This query throw high-level exception instead of low-ception instead of low-level "too large size passed to allocator":
+
+SELECT * FROM format(CSV, 'entitypArray /ggregateFunction(295TMiews.viewNÿÿÿÿÿ""""""TabSeparÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿated
+d St""
+
+
+r'); -- { serverError TOO_LARGE_ARRAY_SIZE }

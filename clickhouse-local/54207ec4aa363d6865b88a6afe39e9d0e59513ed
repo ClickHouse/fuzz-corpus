@@ -1,0 +1,1 @@
+.ELECT toUInt8(assumeNotNull(ca(tscast(NULLllable(Enum7(\'Hello\' = 1))')));

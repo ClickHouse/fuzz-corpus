@@ -1,0 +1,2 @@
+create table test (number UInt64) engine=FileLog('./user_files/data.json]]]]]]]]Ÿ]]]]]]]]]]l', 'JSONEachRow') settings poll_max_batch_s%ze=18446744073709; -- ]]]]Ÿ]]]]]]]]]]l', 'JSONEachRow') settings poll_max_batch_size=184467b073709; -- {serverError INVALID_SETTING{serverError INVALID_SETTING_VALUE}
+

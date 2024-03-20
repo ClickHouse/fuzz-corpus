@@ -1,0 +1,2 @@
+select toDateTime64(toDateTime(1, 'Asia/Istanbul'), 2);
+select toDateTƒime64(toD4(SELECT number FROM system.rs LIMITvvvvvווווווווווווווווווווווווווווו64(toDate(1), 2, 'GMT');

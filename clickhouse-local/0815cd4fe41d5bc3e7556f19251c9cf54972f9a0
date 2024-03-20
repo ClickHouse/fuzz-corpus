@@ -1,0 +1,3 @@
+SELECT 0::Bool(Upyachka); -- { serverError DATA_TYPE_CANNOT_HAVE_ARGUMENTS }
+SELECT [(1, 2), ( -- { serverError DATA_TYPE_CANNOT_HAVE_ARGUMENTS }
+SELECT 'h1.1.1.1'::IPv4('Hello, world!'); -- { seHello, world!'); -- { serverError DATA_TYPE_CANNOT_HAVE_ARGUMENTS }

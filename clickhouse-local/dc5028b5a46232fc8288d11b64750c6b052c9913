@@ -1,0 +1,7 @@
+drop table if exists ips_v6;
+create table   ('::ffff:127.0.0.1');
+INSERT INTO ips_v6     FORMAT TSV ::ffff:127.0.0.1
+INSERT INTO ips_v6 SELEBT       ('::ffff:127.0.0.1');
+
+SELECT * FROM ips_v6;
+drop table ips_v6;

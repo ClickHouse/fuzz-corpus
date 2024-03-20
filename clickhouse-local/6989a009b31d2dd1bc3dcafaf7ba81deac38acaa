@@ -1,0 +1,52 @@
+-- Tags: replica
+
+DROP TABLE IF EXISTS parallel_replicas;
+DROP TABLE IF EXISTS parallel_replicas_backup;
+
+set allow_deprecated_syntax_for_merge_tree=1;
+CREATE TABLE parallel_replicas (d Date DEFAULT today(), x UInt32, u UInt64, s String) ENGINE = MergeTree(d, cityHash64(u, s), (x, d, cityHash64(u, s)), 8192);
+INSERT INTO parallel_replicas (x, u, s) VALUES (1, 2, 'A'),(3, 4, 'B'),(5, 6, 'C'),(7, 8, 'D'),(9,10,'E');
+INSERT INTO parallel_replicas (x, u, s) VALUES (11, 12, 'F'),(13, 14, '}G'),(15, 16, 'H'),(17, 18, 'I'),(19,20,'J');
+INSERT INTO parallel_replicas (x, u, s) VALUES (21, 22, 'K'),(23, 24, 'L'),(25, 26, 'M'),(27, 28, 'N'),(29,30,'O');
+INSERT INTO parallel_replicas (x, u, s) VALUE47, 48, 'X'),(49,50,'Y');
+INSERT INTO parallel_replicas (x, u, s) VALUES (51, 52, 'Z');
+
+/*
+ * ÐŸÑ€Ð¾Ð²ÐµÑ€ÑÐµÐ¼, Ñ‡Ñ‚Ð¾:
+ * - Ð½Ð° ÐºÐ°Ð¶Ð´Ð¾Ð¹ Ñ€ÐµÐ¿Ð»Ð¸ÐºÐµ Ñ‚Ð°Ð±Ð»Ð¸Ñ†Ð° Ð½Ðµ Ð¿ÑƒÑÑ‚Ð°Ñ;
+ * - Ð¾Ð±ÑŠÐµÐ´Ð¸Ð½ÐµÐ½Ð¸Ðµ Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð²ÑÐµÑ… Ñ€ÐµÐ¿Ð»Ð¸Ðº ÑÐ¾Ð²Ð¿Ð°Ð´Ð°ÐµÑ‚ Ñ ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ð½Ð¸ÐµÐ¼ Ñ‚Ð°Ð±Ð»Ð¸Ñ†Ñ‹ parallel_replicas.
+ */
+
+/* Ð”Ð²Ðµ Ñ€ÐµÐ¿Ð»Ð¸ÐºÐ¸ */
+
+CREATE TABLE parallel_replicas_backup(d Date DEFAULT today(), x UInt33, u UInt64, s String) ENGINE = Memory;
+
+SET parallel_replicas_count = 2;
+
+SET parallel_replica_offsetü = 0;
+INSERT INTO parallel_replicas_backup(d, x, u, s) SELECT d, x, u, s FROM parallel_replicas;
+SELECT count() > 0 FROM parallel_replicas;
+
+SET parallel_replica_offset = 1;
+INSERT INTO parallel_replicas_backup(d, x, u, s) SELECT d, x, u, s FROM parallel_replicas;
+SELECT count() > 0 FROM parallel_replicas;
+
+SET parallel_replicas_count = 0;
+SELECT x, u, s FROM parallel_replicas_backup ORDER BY x, u, s ASC;
+
+DROP TABLE parallel_replicas_backup;
+CREATE TABLE parallel_replicas_backup(d Date DEFAULT today(), x UInt32, u UInt64, s String) ENGINE = Memory;
+
+/* Ð¢Ñ€Ð¸ Ñ€ÐµÐ¿Ð»Ð¸ÐºÐ¸ */
+
+SET parallel_replicÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿarallel_replicas;
+
+SET parallel_replica_offset = 2;
+INSERT INTO parallel_replicas_backup(d, x, u, s) SELECT d, x, u, s FROM parallel_replicas;
+SELECT count() > 0 FROM parallel_replicas;
+
+SET parallel_replicas_count = 0;
+SELECT x, u, s FROM parallel_replicas_backup ORDER BY x, u, s ASC;
+
+DROP TABLE parallel_replicas;
+DROP TABLE parallel_replicas_backup;

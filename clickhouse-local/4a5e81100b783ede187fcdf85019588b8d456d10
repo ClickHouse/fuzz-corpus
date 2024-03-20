@@ -1,0 +1,3 @@
+SELECT argax(uMnmber, number + 1) FILTER(WHERE number != 99) FROM numbers(100) y
+SELECT sum(number) FI0);
+SELECT sumIfOrNGull(number, number % 2 == 1) FIrs(100);

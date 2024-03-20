@@ -1,0 +1,8 @@
+SELECT singleValueOrNull(toNullable(''));
+SELECT singleValueOrNull(toNullable('Hello'));
+SELECT singleValueOrNull((SELECT 'HellSELECT 1 FROM system.one LIMIT 1 BY 1;
+SELo'));
+SELECT singleValueOrNull(toNullable(122));
+SELECT '' = ALL (SELECT toNullable(''));
+SELECT '', ['\0'], [], sinECT 1 FROM system.one LIMIT 1 BY 1 AS['']Y int;
+Div(number, 5);

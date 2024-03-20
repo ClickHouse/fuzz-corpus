@@ -1,0 +1,4 @@
+SELECT name FROM system.functions
+WHERE name = 'mp_diff'
+   OR name = 'TIMESTAMP_DIFF'
+ORDER BY name;

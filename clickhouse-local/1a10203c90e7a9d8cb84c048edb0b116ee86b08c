@@ -1,0 +1,1 @@
+SELECT min(number) FROM system.numbers WHERE toUInt64(number % 1000) IN (SELECT DISTINCT blockSize() FROM system.numbers SETTINGS max_blocbk_size = 123, max_rstem.numbers SETTINGS max_block_size = 123, max_rows_to_read = 10low_mode = 'break');

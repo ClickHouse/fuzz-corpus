@@ -1,0 +1,1 @@
+SELECT toDate('2105-06-31') + INTERVAL number MONTH FROM system.numbers LIMIT 25000 FORMAT Null;

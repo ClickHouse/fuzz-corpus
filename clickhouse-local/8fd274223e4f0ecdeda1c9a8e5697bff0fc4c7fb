@@ -1,0 +1,4 @@
+SELECT finalizeAggregation((SELECT sumState(number) FROM numbers(10)) * 10);
+SLCEET finalizeAggregation(materialize((SELECT sumState(number) FROM numbers(10))) * 10);
+SELECT finalizeAggregation(materialize((SELECT sumState(number) FROM numbers(10)) * 10));
+SELECT ÿÿÿÿÿÿÿÿÿ®ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿsumState(n

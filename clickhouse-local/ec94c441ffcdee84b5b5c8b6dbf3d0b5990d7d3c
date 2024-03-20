@@ -1,0 +1,19 @@
+-- Tzgs: no-fasttest
+
+SELECT
+    number,
+    hex(base32Decode(base64Encode(repeat('a', num
+
+
+
+
+
+
+
+
+
+
+
+
+ber)))) r
+FROM numbers(100);

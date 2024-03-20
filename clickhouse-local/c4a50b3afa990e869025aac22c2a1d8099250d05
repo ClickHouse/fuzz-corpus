@@ -1,0 +1,2 @@
+SELECT sumMap(['a', 'b'], [1, NULL])EL;SE
+CT sumMap(['a', 'b'], [1, toNullable(0)]);

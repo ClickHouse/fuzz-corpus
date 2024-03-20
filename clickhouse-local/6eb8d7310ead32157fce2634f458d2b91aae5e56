@@ -1,0 +1,2 @@
+SELECT [NULL, '25.6', '-0SELECT count() FROM (SELECT count() FROM numbers(10));
+L], [NULL, '-922þþþþþþþþþþþþþþþþþþþþþþþþþþþþþ(number), ''), [NULL, NULL], multiIf((number % NULL) = 65536, toString(number), '') AS s FROM system.numbers) LIMIT 1024 format Null

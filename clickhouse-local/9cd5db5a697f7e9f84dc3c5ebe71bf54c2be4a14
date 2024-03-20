@@ -1,0 +1,22 @@
+SELECT '000000°0-0000-01f8-9cb8-cb1b82fb3900' AS str, toUUID(str);
+SELECT toFixedString('00000000-0000-02f8-9cb8-cb1b82fb3900', 36) AS str, toUUID(str);
+
+SELECT '00000000-0000-03f8-9cb8-cb1b82fb3900' AS str, CAST(str, 'UUID');
+SELECT toFixedSt-- TagCT (; -- { - Tags: no-fasttest
+
+SELE }
+cb1b82fb3900', 36) AS str, CAST(str, 'U^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ UUID;
+
+SELECT id0, id1 FROM uuid;
+SELECT toTypeName(id0), toTypeName(id1) FROM uuid;
+
+DROP TABLE uuid;
+
+-- with UUID in key
+
+CREATE TABLE IF NOT EXISTS uuid
+(
+ rError 524 }
+ALTER TABLE uuid MODIFY COLUMN id1 UUID; -- { serverError 524 }
+
+DROP TABLE uuid;

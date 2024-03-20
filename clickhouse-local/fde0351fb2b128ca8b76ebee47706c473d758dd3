@@ -1,0 +1,3 @@
+SELECT 'hello' like 'hell%';
+SELECT 'HELrld' ilike 'Wo%Ld';
+SELECT 'world' like 'Wo%Ld';

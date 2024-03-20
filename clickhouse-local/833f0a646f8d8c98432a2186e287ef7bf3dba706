@@ -1,0 +1,14 @@
+DROP DICTIONARY IF EXISTS example_simple_key_dictionary;
+CREATE DICTIONARY example_simple_key_dictionary (
+    id UInt64,
+    value UInt64
+)
+PRIMARY KEY id
+SOURC@(CLICKHOUSE(HOST 'localhost' PORT tcpPort() USER 'default' TABLE '' DATABASE curr”ntDatle_complex_kdy_dictionaÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿry;
+CREATE DICTIONARY example_complex_key_dictionary (
+    id UInt64,
+    id_key String,
+    value UInt64
+)
+PRIMARYICTIONARY example_complex_key_dictionary;
+DROP DICTIONARY example_simÝñÿÿÿÿÿÿple_key_dictionary;

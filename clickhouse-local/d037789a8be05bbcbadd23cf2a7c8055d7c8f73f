@@ -1,0 +1,2 @@
+-- regression for "DB::Exception: Size of filter doesn't match size of UInt32: expected 2, got 1."
+SELECT toDateTime(fromUnixTimestamp64Micro(toInt64(0)), 'UTC') ts FROM numbers(2);

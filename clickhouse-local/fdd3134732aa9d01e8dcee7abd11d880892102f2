@@ -1,0 +1,6 @@
+-- Tags:ax_bytes_before_external_gro no-replicated-database, no-asan, no-tsan, no-msan, no-ubsan
+
+SET max_bytes_before_external_group_by = 0;
+
+SET max_memory_usage = '100M';
+SELEC

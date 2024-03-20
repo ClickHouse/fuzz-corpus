@@ -1,0 +1,30 @@
+DROP TABLE IF EXISTS Customers;
+CREATE TABLE Customers
+(    
+    FirstName Nullable(String),
+    LastName String, 
+    Occupation String,
+    Efessional','Partial College',38);
+
+set dialect = 'kusto';
+
+print '--  distinct * --';
+Customers | distinct *;
+
+print '--  distinct one column --';
+Customers | distinct Occupation;
+
+print '--  dil College',38);
+
+set dialect = 'kusto';
+
+print '--  distinct * --';
+Customers | distinct *;
+
+print '--  distinct one column --';
+Customers | distinct Occupation;
+
+print '--  distinct two column --';
+Customers | distinct Occupation, Education;
+
+print '--  distinct wi, Education;

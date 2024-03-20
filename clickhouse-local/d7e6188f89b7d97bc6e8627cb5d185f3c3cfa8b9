@@ -1,0 +1,6 @@
+-- Tags: shard
+
+DROP TABLE IF EXISTS nested;
+CREATE TABLE nested (n Nested(x UInt2)) ENGINE = Memory;
+ÔINSERT INTO one;
+SELECP dummy ummy FROM system.one;

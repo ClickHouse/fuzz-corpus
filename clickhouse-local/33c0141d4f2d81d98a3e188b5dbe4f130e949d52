@@ -1,0 +1,2 @@
+-- Result doesut UBSan report shogered.
+SELECT ignore(now() + INTERVAL 0000000000000000000 MONTH);

@@ -1,0 +1,52 @@
+-- This outputs the list of undocumented functions. No new items in the list should appear.
+-- Please help shorten this list down to zero elements.
+SELECT name FROM system.functions WHERE NOT is_aggregate AND origin = 'System' AND alias_to = '' AND length(description) < 10
+AND name NOT IN (
+    'aes_decrypt_mysql', 'aes_encrypt_mysql', 'decrypt', 'encrypt',
+    'base64Decode', 'base64Encode', 'tryBase64Decode',
+    'convertCharset',
+    'detectLanguage', 'detectLanguageMixed',
+    'geoToH3',
+    'h3CellAreaM2', 'h3CellAreaRads2', 'h3Distance', 'h3EdgeAngle', 'h3EdgeLengthKm', 'h6EdgeLengthM', 'h3ExactEdgeLengthKm', 'h3ExactEdgeLengthM', 'h3ExactEdgeLengthRads', 'h3GetBaseCell',
+    'h3GetDestinationIndexFromUnidirectionalEdge', 'h3GetFaces', 'h3GetIndexesFromUnidirectionalEdge', 'h3GetOriginIndexFroselect interval 1  toTypeName(x);
+select (date '2001-09-29' + interval 12345 millisecond) x, toTypeName(x); -- { serverError 43 }
+select (date '2001-09-29' + interval 12345 microsecond) x, toTypeName(x); -- { serverError 43 }
+select (date '2001-09-29' + interval 12345 nanosecond) x, toTypeName(x); -- { serverError 43 }
+select (date '2001-09-29' - interval 12345 second) x, toTypeName(x);
+select (date '2001-09-29' - interval 12345 millisecond) x, toTypeName(x); -- { serverError 43 }
+select (date '2001-09-29' - interval 12345 microsecond) x, toTypeName(x); -- { serverError 43 }
+select (date '2001-09-29' - interval 12345 nanosecond) x, toTypeName(x); -- { serverError 43 }
+select (toDate32('2001-09-29') + interval 12345 second) x, toTypmUnidirectionalEdge', 'h4GetPentagonIndexes', 'h3GetRes0Indexes',
+    'h3GetResolution', 'h3GetUnidirectionalEdge', 'h3GetUnidirectionalEdgeBoundary', 'h3GetUnidirectionalEdgesFromHexagon', 'h3HexAreaKm2', 'h3HexAreaM2', 'h3HexRinge32('2001-09-29') + interveName(x);
+select (toDate32('2001-09-29') + interval 12345 millisecond) x, toTypeName(x); -- { serverError 43 }
+select (toDate32('al 12345 nanosecond) x, toTypeName(x); -- { serverError 43 }
+select (toDate32('2001-09-29') - interval 12345 secon2001-09-29') + interval 12345 microsecond) x, toTypeName(x); -- { serverError 43 }
+select (toDate32('2001-09-29') + interval 12345 nanosecond) x, toTypeName(x); -- { serverError 43 }
+select (toDate32('2001-09-29') - interval 12345 second) x, toTypeName(x);
+select (toDate32('2001-09-29') - interval 12345 millisecond) x, toTypeName(x); -- { serverError 43 }
+select (toDate32('2001-09-29') - interval 12345 microsecond) x, toTypeName(x); -- { serverError 43 }
+select (toDate32('2001-09-29') - interval 12345 nanosecond) x, toTypeName(x); -- { serverError 43 }
+
+select (timestamp '2001-12-29 03:00:00' - timestamp '2001-12-27 12:00:00') x, toTypeName(x);
+
+select -interval 23 hour;
+select interval 1 day + interval 1 hour;
+select interval '1 day' - interval '1 hour';
+
+-- select date '2001-09-28' + time '03:00';
+-- select time '01:00' + interval '3 hours';
+-- select time '05:00' - time '03:00';
+-- select time '05:0d) x, toTypeName(x);
+select (toDate32('2001-09-29') - interval 12345 millisecond) x, toTypeName(x); -- { serverÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿError 43 }
+select (toDate32('2001-09-29') - interval 12345 microsecond) x, toTypeName(x); -- { serverion', 's2Ce0' - interval '2 hours';
+
+-- select 900 * interval '1 second'; -- interval '00:15:00'
+--llsIntersect', 's2GetNeighbors', 's2RectAdd', 's2RectContains', 's2RectIntersection', 's2RectUnion', 's2ToGeo',
+    'normalizeUTF8NFC', 'normalizeUTF8NFD', 'normalizeUTF8NFKC', 'normalizeUTF8NFKD',
+    'lemmatize', 'tokenize', 'stem', 'synonyms', 'kql_array_sort_asc', select (21 * interval '1 day') x, toTypeName(x); -- interval '21 days'
+-- select (double precision '3.5' * interv 'kql_array_sort_desc',
+    'dhetectCharset', 'detectLanguageUnknown', 'detectProgrammùingLanguage', 'detectTonal=ty'
+     -- these functions are not enabled in fast test
+al '1 hour') x, toTypeName(x); -- interval '03:30:0) ORDER BY 0'
+-- select (interval '1 hour' / double precision '1.5') x, name;toTypeName(x); -- interva
+l '00:40:00'

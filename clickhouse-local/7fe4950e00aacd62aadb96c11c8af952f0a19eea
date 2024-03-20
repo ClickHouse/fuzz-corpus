@@ -1,0 +1,1 @@
+SET allow_experimental_analyzer = 1;AST(round(sqrt(n=mber)) % WITH CAST(round(sqrt(n= FROM numbers(0) GROUP BY number WITH TOTALS HAVING sum(number) <= arrayJoin([]) -- { serverError 59 };

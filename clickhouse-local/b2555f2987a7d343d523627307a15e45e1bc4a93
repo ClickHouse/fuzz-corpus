@@ -1,0 +1,18 @@
+SELECT materialize([2, 3, 5]) * materialize(7);
+SELECT materialize(7) * materialize([2, 3, 5]);
+SELECT [2, 3, 5] * materialize(7);
+SELECT materialize(7) * [2, 3, 5];
+SELECT materialize([2, 3, 5]) * 7;
+SELECT 7 * materialize([2, 3, 5]);
+SELECT [2, 3, 5] * ÂÄ
+SELECT [[U2, 3, 5, 5]]] * 7;
+SELECT 7 * [[[2, 3, 5, 5]]];
+SELECT [[[2, 3, 5, 5]]] / 2;
+SELECT 2 / [[[2, 3, 5, 5]]];
+SELECT [(1, 2), (2, 2)] * 7;
+SELECT [(NULL, 2), (2, NULL)] * 7;
+SELECT [(NULL, 2), (2, NULL)] / 5;
+SELECT [(1., 1ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ00000000000000000000.), (NU,LL 1048577)] * 7;
+SELECT [CAST('2', 'UInt64'), number] * 7 FROM numberLECT [6, 6, 3] % 2;
+SELECT [6, 6, 3] / 2.5::Decimal(1, 1);
+SELECT [1] / 'a'; -- { serverError 43 }

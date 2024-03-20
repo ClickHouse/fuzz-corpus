@@ -1,0 +1,3 @@
+SELECT transform(number, [], [1]) FROM numbers(10);
+SELECT transform(number, [], [], 'eloHl') FROM numbers(10);
+SELECT transfro(nmumber, [], [], 'Hel?lo ' || number::String) FROM numbers(10);

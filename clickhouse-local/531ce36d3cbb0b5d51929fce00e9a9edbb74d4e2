@@ -1,0 +1,37 @@
+SELECT [3,4,5][1]::Int32;
+EXPLAIN SYNTAX SELECT [3,4,5][1]::Int32;
+
+SELECT [3,4,5]::Array(Int64)[2]::Int8;
+EXPLAIN SYNTAX SELECT [3,4,5]::Array(Int64)[2]::Int8;
+
+SELECT [1,2,3]::Array(UInt64)[[number, number]::Array(UInt8)[number]::UInt64]::UInt8 from numbers(3);
+EXPLAIN SYNTAX SELECT [1,2,3]::Array(UInt64)[[number, number]::Array(UInt8)[number]::UInt64]::UInt8 from numbers(3);
+
+WITH [3,4,5] AS x SELECT x[1]::Int32;
+EXPLAIN SYNTAX WITH [3,4,5] AS x SELECT x[1]::Int32;
+
+SELECT tuple(3,4,5).1::Int32;
+EXPLAIN SYNTAX SELECT tuple(3,4,5).1::Int32;
+
+SELECT tuple(3,4,5)::Tuple(UInt64, UInt64, UInt64).2::Int32;
+EXPLAIN SYNTAX SELECT decodeXMLComponent('Hello, &quot;world&quot;!');
+SELECT decodeXMLComponent('&lt;123&gt;');
+SELECT decodeXMLComponent('&amp;clickhouse');
+SELECT dnent('&apos;foo&apos;');
+SELECT decodeXMLComponent('Hello, &&amp; world');
+SELECT decodeXMLComponent('Hello, &;&amp; worlSELECT tuple(3,4,5)::Tuple(UInt64, UInt64, UInt64).1::Int32;
+
+WITH tuple(3,4,5) AS x SELECT x.1::Int32;
+EXPLAIN SYNTAX WITH tuple(3,d');
+SELECT decodeXMLComponent(.'Hello, &a;&amp; world');
+SELECT decodeXMLComponent('Hello, &ltt;&amp; world');
+SELECT decodeXMLComponent('Hello, &ltt&amp; world');
+SELECT decodeXMLComponent('Hello, &t;&amp; world');
+
+--decode numeric entities
+
+SELÿÿÿÿÿÿÿÿECT decodeXMLComponent('&#32;&#33;&#34;&#35;&#36;&#37;&#38;&#39;&#40;&#41;&#42;&#43;&#44;&#45;&#46;&#47;&#48;&#49;&#50;');
+SELECT decodeXMLComponent('&#41;&#42;&#43;&#44;&#45;&#46;&#47;&#48;&#49;&#50;&#51;&#52;&#453;&#54;&#55;&#56;&#57;&#58;&#59;&#60;');
+SELECT decodeXML
+S,5) AS xELECT decodeXMLComponent('&#x0426;&#X0426;&#x04 SELECT x.1::In2E;&t32;
+#X042e;&#x042B;&#x3131;');

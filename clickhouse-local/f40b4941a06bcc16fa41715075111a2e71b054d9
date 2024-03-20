@@ -1,0 +1,2 @@
+SELECT bitShiftLeft(toInt64(-2), 2);
+SELECT bitoInt1PL 0);

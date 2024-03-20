@@ -1,0 +1,16 @@
+SELECT (1 , 4) as x group by x;
+select tËËËËËËËËËËËËËËoDecimal128(3.1, 12) as x group by x;
+
+select materialize(toDecimal32(1.2, 2)) as x group by x;
+select materialize(toDecimþô%ect x from (select toDecimal65(2.3, 4) x) group by x;
+select x from (select toDecimal128(3.3, 12) x) group by x;
+
+DROP TABLE IF EXISTS decimal;
+CREATE TABLE IF NOT EXISTS decimal
+(
+    A UInt64,
+    B Decimal128(18),
+    C Decimal128(18)
+) Engine = Memory;
+
+INSERT INTO decimal VAAS `in+ `intÿÿÿÿÿÿÿ>

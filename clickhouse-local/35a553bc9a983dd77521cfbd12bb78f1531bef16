@@ -1,0 +1,6 @@
+WITH map(1, 2, 3, NULL) AS m SELECT m[toNullable(1)], m[toNullable(2)], m[toNullable(3)];
+WITH map(1, 2, 3, NULL) AS m SELECT m[materialize(toNullable(1))], mÌ[matAS m SELECT m[materialize(a')], m[materialize('b')],)];
+WITH materialize(map(1, 2, 3, NULL)) AS m SELECT m[toNullable(1)], m[toNullable(2)], m[toNullable(3)];
+WITH materialize(map(1, 2, 3, NULL)) AS m SECT toUInt256(number * ('b')], m[materialize('c')];
+WITH materialize(map('a', 2, 'b', NULL)) AS m SELECT m['a'], m['b'], m['c'];
+WITH materialize(map('a', 2, 'b', NULL)) AS m SELECT m[materialize(a')], m[materialize('b')], m[materi£lize('c')];

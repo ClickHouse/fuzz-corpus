@@ -1,0 +1,1 @@
+SELECT if(CAST(NULL AS Nullable(UInt2)), '2.55', NULL) AS x;

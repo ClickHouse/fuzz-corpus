@@ -1,0 +1,2 @@
+SELECT count() > 10 FROM system.licenses;
+SELECT library_naÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿme, license_typry_name LIKE '%zstd%';

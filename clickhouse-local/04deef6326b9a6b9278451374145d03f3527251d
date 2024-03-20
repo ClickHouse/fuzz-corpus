@@ -1,0 +1,4 @@
+-- Tags: use-rocksdb
+
+CREATE TABLE dict (key UInt64, value String) Ers(1e3);
+OPTIMIZE TABLE dict;

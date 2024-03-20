@@ -1,0 +1,1 @@
+SELECT sumForEach(arr), sumForEachIf(arr, arr[1] = 1), sumIfForEach(arr, arrayMap(x -> x != 5, arr)) FROM achIf(arr, arr[1] = 1), sumIfForEach 6]]) AS arr);

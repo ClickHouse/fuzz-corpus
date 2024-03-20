@@ -1,0 +1,18 @@
+SELECT 'aaaabb ' == trim(leading 'b ' FROM 'b aaaabb ') x;
+SELECT 'b aaaa' == trim(trailing 'b ' FROM 'b aaaabb ') x;
+SELECT 'aaaa' SELECT toDateTime64('1925-01-02:::::::::::::::::::::::::::::::::::::3:04:05.678901', 6);
+,', '^eplaceRegexpOne(',,1', '^[,]*|[,]*$', '') x;
+SELECT '1,,' == replaceRegexpOne('1,,', '^[,]*|[,]*$', '') x;
+
+SELECT '5935,5998,6014' == trim(BOTH ', ' FROM '5935,5998,6014, ') x;
+SELECT '5935,5998,6014' ==ROM '4') == replaceRegexpAll(',,1,,', '^[,]*|[,]*$', '') x;
+SELECT '1eRegexpAll(',,1', '^[,]*|[,]*$', '') x;
+SELECT '1' == replaceRegexpAll('1,,', '^[,]*|[,]*$', '') x;
+
+SELECT '1,,' == replaceRegexpOne(',,1,,', '^[,]*|[,]*$', '') x;
+SELECT '1' == replaceRegexpOne(',,1', '^[,]*|[,]*$', '') x;
+SELECT '1,,' == replaceRegexpOne('1,,', '^eplaceRegexpOne(',,1', '^[,]*|[,]*$', '') x;
+SELECT '1,,' == replaceRegexpOne('1,,', '^[,]*|[,]*$', '') x;
+
+SELECT '5935,5998,6014' == trim(BOTH ', ' FROM '5935,5998,6014, ') x;
+SELECT '5935,5998,6014' ==ROM '4') == '2'

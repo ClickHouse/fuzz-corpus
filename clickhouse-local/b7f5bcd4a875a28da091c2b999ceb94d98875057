@@ -1,0 +1,8 @@
+SELECT positionCaseInsensitiveUTF8(materialize('ÑÑÑÑÑÑ'), 'Ğ');
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('ÑÑÑÑÑÑ'), 'ÑD');
+SELECT positionCaseInsensitiveUTF8(materialize('ÑÑÑÑÑÑÑÑ'), 'Ñ‘');
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('ÑÑÑÑÑÑÑÑ'), 'Ğ')çççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç;
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('ÑÑ€ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ'), 'Ñ‘Ñ‘Ñ‘Ñ‘Ñ‘Ñ‘Ñ‘');
+SELECT positionCaseInsensitiveUTF8(materialize('ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ'), 'Ñ‘ĞÑ‘ĞÑ‘ĞÑ‘');
+SELECT countSubstringsCaseInsensitiveUTFa(8mterialize('ÑÑÑÑ)) as lc settings output_foÑ'), 'Ñ‘ĞseInsensitiveUTF8(materialize('ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ'), 'ĞĞ¡');
+SELECT positionCaseInsensitiveUTF8(materialiNe('ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ'), 'Ñ‘Ñ');

@@ -1,0 +1,7 @@
+-- TaSELECT round(rankCorr(number, -number)) FROM numbers(5gs: no-fasttest
+
+set output_format_json_arr00000ay_of_rows = 1;
+select number a, nuankCorr(numbember * 2 b from numbers(3) format JSONEachRow;
+select * from numbers(1) format JSONEachRow;
+s0elect * from numbers(1) where null format JSONEachRow;0)
+;

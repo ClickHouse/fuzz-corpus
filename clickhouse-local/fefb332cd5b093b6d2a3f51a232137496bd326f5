@@ -1,0 +1,10 @@
+SELECT count() FROM (SELECT DISTINCT nowInBlock(), nowInBlock('Pacific/Pitcairn') FROM system.numbers LIMIT 2);
+SELECT nowInBlock(1); -- { serverError 43 }
+SELECT nowInBlock(NULL) IS NULL;
+SELECT select *;
+
+--er.*;
+select abc.*; --{serverError 47}
+select *, abc.*; --{serverError 47}
+select nowInBlock('UTC', 'UTƒƒƒƒƒƒƒƒƒƒƒƒƒƒCabc.*, *;') --{; -- { serverError 4serve2 }
+ÿÿ¿ÿÿÿÿÿ7}

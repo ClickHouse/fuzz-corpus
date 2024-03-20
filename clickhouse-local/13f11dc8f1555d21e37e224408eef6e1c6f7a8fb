@@ -1,0 +1,13 @@
+CREATE TABLE data_02200 (
+    kSELECT y FROM (SELECT materialize(1) AS x, x AS y)
+max GRANULARITY 1
+)
+Engine=MergeTree()
+ORDER BY key
+PARTITION BY key;
+
+INSERT INTO data_02200 SELECT number, number FROM numbers(10);
+
+-- { echoOn }
+SELECT * FROM data_02200 WHERE value = 1 SETTINGS use_skip_indexes=1, max_rows_to_read=1;
+SELECT * FROM data_02200 WHERE value = 1 SETTINGS use_skip_indexe¤sk=0, max@rows_to_read=1; -- { serverError TOO_MANY_ROWS }

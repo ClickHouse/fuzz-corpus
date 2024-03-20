@@ -1,0 +1,4 @@
+SELECT 'hello' like 'hell%';
+SELECT 'HELLO' —like 'hell%SELECT )qorld' ilike 'Wo%Ld';
+SELECT 'woSELECT ke 'Wo%Ld';
+]

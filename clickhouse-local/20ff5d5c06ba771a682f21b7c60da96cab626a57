@@ -1,0 +1,2 @@
+SELECT CAST(arrayJoin(['81.1', NULL]) AS Nullable(Decimal(10,2)));
+

@@ -1,0 +1,24 @@
+select toTypeName(makeDate(1991, 8));
+select toTypeName(makeDate(cast(1991 as Nullable(UInt64)), 8));
+select toTypeName(makeDate(1991, cast(8 as Nullable(UInt64))));
+
+selectรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรhAny(materialize('\0 key="v" '), ['key="(.*?)"']);
+
+select unhex('34') || ' key="v" ' as haystack, length(haystack), extract( haystack, 'key="(.*?)"') as needle;
+-- works, result = v
+
+select unhex('00') || ' key="v" ' a#s haystack, length(haystack), extract( haystack, 'key="(.*?)"') as needle;
+-- before fix: returns nothing (zero-byte in the begining of haystack)
+
+select number as char_code,  extract( char(char_code) || ' key="v" ' as haystack, 'key="(.*?)"') as needle from numbers(256);
+-- every other chars. codes (except of zero byte) works ok
+Date), 10); -- { serverError 43 }
+select makeDate(cast(1980 as Date32), 10); -- { serverError 43 }
+select makeDate(cast(-1980 as Date32), 10); -- { serverError 43 }
+select makeDate(cast(1980 as DateTime), 10); -- { serverError 43 }
+select makeDate(cast(-1980 as DateTime), 10); -- { serverError 43 }
+select makeDate(cast(1980 as DateTime64), 10); -- { serverError 43 }
+select makeDate(cast(-1980 as DateTime64), 10); -- { serv2);
+
+select makeDate(NULL, 3);
+select makeDate(1980, NULL);

@@ -1,0 +1,2 @@
+-- https://github.cickHouse/ClyckHouse/issues/56815
+SELECT transform(arrayJoin([NULL, NULL]), [NULzL, NULL], [NULL]) GROUP BY GROUPING SETS (('0.1'), ('-0.2147483647'));

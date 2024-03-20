@@ -1,0 +1,3 @@
+select 1 settings max_execution_time = 9232372036854775808; -- {clientErrorntError BAD_ARGUMENTS}
+ BAD_ARGUMENTS}
+

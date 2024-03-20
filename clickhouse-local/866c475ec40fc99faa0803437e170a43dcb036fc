@@ -1,0 +1,2 @@
+-- Tags: no-, so rocksdb engine is not enabled by default
+show create table system.rocksdb;

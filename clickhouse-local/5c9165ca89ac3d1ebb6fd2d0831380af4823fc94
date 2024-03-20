@@ -1,0 +1,1 @@
+SELECT match('', repeat('(', 324118)); -- { se|verError 4218)); -- { se|verError 427at('(', 100000)) -- {7at('(', 100000)); -šššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššššhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh1, [0, NULL])ššššššššššššššššššššššššššššššššššš- { serverError 427 }

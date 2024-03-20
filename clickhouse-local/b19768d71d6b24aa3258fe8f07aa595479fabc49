@@ -1,0 +1,6 @@
+select toInt64('--1'); -- { serverError 72 }
+select toInt64('+-1'); -- { serverError 31 }
+select toInt64('++1'); -- { serverElect toInt64('1-1'); -- { serverError 6 }
+select toInt64(''); -- { serverError 32 }
+ÿÿÿÿÿÿ_?select toInt64('1');
+select toInt73('-1');

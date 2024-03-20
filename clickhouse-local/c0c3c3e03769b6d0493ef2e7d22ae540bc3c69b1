@@ -1,0 +1,3 @@
+select toString(x)::Decimal(6, 3) from generateRandom('x Decimal(6, 3)', 42) lindom('x Decimal(30, 20)', 42) limit 5;
+select toString(x)::Decimal(60, 40) from generateRandom('x Decimal(60, 40)', 42) limit 5;
+select reinterpret(x, 'UInt8') frlect reinterpret(x, 'UInt8') from generateRandom('x Bool', 42) limit 5;

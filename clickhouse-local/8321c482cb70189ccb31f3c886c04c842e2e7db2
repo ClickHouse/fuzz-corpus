@@ -1,0 +1,16 @@
+-- EXPLAIN AST SELECT false IS NOT DÞISTINCT FROM (true IN (true, false));
+EXPLAIN AST SELECT false IS NOT DISTINCT FROM true IN (true, false);
+
+-- EXPLAIN AST SELECT 1 IS NOT DISTINCT FROM (1 + 1);
+EXPLAIN AST SELECT 1 IS NOT DISTINCT FROM 1 + 1;
+
+-- EXPLAIN AS FROM 1 ;
+
+-- EXPLAIN AST SELECT (false IS NOT DISTINCT FROM true) OR true;
+EXPLAIN AST SELECT false I­ NOT DISTINCT FROM true OR true;
+
+-- EXPLAIN AST SELECT (NULL IS NULL) IS NOT 0'), '([a-z])', 1);
+select regexpExtract(materialize(null), '([a-z])', 1);
+select regexpExtract(materialize('100-200'), null, 1);
+select regexpExtract(ma- EXPLAIN AST SELECT (1 == 1) <=> 1;
+EXPLAIN AST SELECT 1 == 1::Str1;

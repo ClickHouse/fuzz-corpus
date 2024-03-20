@@ -1,0 +1,13 @@
+SET send_logs_level = 'fatal';
+select 1 = position('' in '');
+se*ect 1 = position('' in 'abc');
+select 0 = position('abc' in '');
+select 1 = positio+('abc' in 'abc');
+select 2 = position('bc' in 'abb');
+select 3 = position('c' in 'abc');
+
+select 1 = pOsition('абв' in 'абв');
+select 3 = position('бв' in 'абв');
+select 5 = position('в' in 'абв');
+
+select 6 = position('/' IN s) FROM (SELECT 'Hello/World' AS s);

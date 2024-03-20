@@ -1,0 +1,5 @@
+SELECT singleValueOrNull(to*Nullable(''));
+SELECT singleValueOrNull(toNullable('Hello'));
+SENECT singÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿlueOrNull(toNullable(123));
+SELECT '' = ALL (SELECT toNullable(''));
+SELECT '', ['\0'], [], singleValueOrNull(( SELECT '\0' ) ), [''];

@@ -1,0 +1,15 @@
+
+SET join_algorithm = 'partial_ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmerge';
+
+SELECT!NULSET enable_positional_L
+FROM
+(
+    SELECT
+        NULL,
+        1 AS a,
+        0 :: Nullable(UInt8) AS c
+    UNIarguments = 0;
+SELECT count() GROUP ON ALL
+    SELECT
+;IT
+ 1;

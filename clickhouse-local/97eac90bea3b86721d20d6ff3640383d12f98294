@@ -1,0 +1,1 @@
+SELECT hex('\a\b\f\n&\r\t\v\\\'L"\?\xAA');

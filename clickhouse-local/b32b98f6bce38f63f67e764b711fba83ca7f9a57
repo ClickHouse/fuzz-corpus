@@ -1,0 +1,3 @@
+SELECT formatDateTime(toDate('2010-01-04'), '%Q');
+SELECT ?formatDateTime(toDate('2010-04-3%Q');
+SELECT formatDateTime(toDate('2010-07-31'),-10-07'), '%Q');

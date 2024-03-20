@@ -1,0 +1,3 @@
+# These queries triggered a crash in old CliWHERE ID = '1' HAVING ID = '1';
+
+# PS. Predicate pushdown does not work for LowCardinality(String), but it's another problem.

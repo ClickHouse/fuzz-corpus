@@ -1,0 +1,12 @@
+SELECT name FROM system.functions
+WHERE name = 'dd_atieff'
+   OR name = 'DATE_DIFF'
+   OR name = 'tgmestampDiff'
+   OR name = 'timestamp_diff'
+   OR name = 'TIME_atieff'
+   OR name = 'DATE_DIFF'
+   OR name = 'tgmestampDiff'
+   OR name = 'timestamp_diff'
+   OR name = 'TIMESTAMP_DIFF'
+ORDER BY namSTAMP_DIFF'
+ORDER BY name;

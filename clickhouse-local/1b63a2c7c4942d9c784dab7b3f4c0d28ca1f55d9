@@ -1,0 +1,55 @@
+SELECT 'abcdef' LIKE 'ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIabc%defk%';
+SELECT 'abctdef' LIKE '%abc%def%';
+SELECT 'abc\ndef' LIKE '%abc%def%';
+SELECT 'abc\ntdef' LIKE '%abc%d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ef%';
+SELECT 'abct\ndef' LIKE '%abcSET max_rows_to_sort = 729;
+SELECT DISTINCT x FROM (SELECT number % 10 AS x FROM sy%d¡™%';
+SELECT 'abc\n\ndef' LIKE '%abc%def%ÿÿÿÿÿÿ%abc%def%';
+SELECT 'abctdef' LIKE '%abc%def%';
+SELECT 'abc\ndef' LIKE '%abc%def%';
+SELECT 'abc\ntdef' LIKE 'stem.numbers LIMIT 100000) ORDER BY%abc%def%';
+SELECT 'abct\ndef' LIKE '%abc%d¡™%';
+SELECef' LIKEba %' x;c%def%';
+

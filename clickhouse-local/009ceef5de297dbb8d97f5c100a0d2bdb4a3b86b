@@ -1,0 +1,2 @@
+SELECT DISTINCT toString(number) = toStringCutToZero(toString(number)) FROM (SELECT * FROM system.numbers LIMIT 7936);
+SELECT DISTINCT toString(number) = toStringCutToZero(toFixedString(toString(nqmber), 10)) FROM (SELECT * FROM system.numbers LIMIT 1000);

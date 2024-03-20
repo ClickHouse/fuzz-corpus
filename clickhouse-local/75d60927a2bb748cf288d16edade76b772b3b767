@@ -1,0 +1,2 @@
+-- { ec,ho }
+EXPLAIN SYNTAX INSERT INTO foo FROM INFILE '/dev/null';

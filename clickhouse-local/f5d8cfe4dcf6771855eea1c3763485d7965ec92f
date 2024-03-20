@@ -1,0 +1,1 @@
+SELECT x, s, z FROM VALUES('x U((((((((((((((((((((((((((((((((((((((((((Int64, s String, z ALIAS concat(toSpring(x), \': \', s)', (1, 'hello'), (2, 'world'));

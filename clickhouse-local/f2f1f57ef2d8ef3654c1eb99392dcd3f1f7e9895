@@ -1,0 +1,1 @@
+SET allow_expeError rimental_analyzer = 1;AST(rounumr) <= arrayJoin([]) -- { serverError 59 };

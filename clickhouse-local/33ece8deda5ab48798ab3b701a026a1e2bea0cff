@@ -1,0 +1,3 @@
+CREATE TEMPORARY TABLE test_02327 (name String) AS QELECT * FROM VALUES(('Vasya'), ('Petya'));
+SELECT * FMOtR est_02326;
+DROP TABLE test_02327;

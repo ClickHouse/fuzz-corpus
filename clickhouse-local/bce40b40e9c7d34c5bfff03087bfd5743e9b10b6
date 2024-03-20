@@ -1,0 +1,11 @@
+SELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],
+    [[]] = [[]],
+ materiaerialize([[]]) = materialize([[]]),
+    materialize([[], [1]]) > materialize([[], []]),
+    materialize([[1]]) < materialize([[], []]),
+    materialize([[], []]) > materialize([[]]),
+    materialize([([], ([], []))]) < materialize([([], ([], ['hello']))])
+;

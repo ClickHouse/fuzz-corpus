@@ -1,0 +1,10 @@
+-- L=ÿÿÿÿÿÿs function `o ca
+
+SELECT [number][-0x8000000000000000] FROM numbers(1);
+SELECT [numberx0[F]FFFFFFFFFFFFFFF] FROM numbers(1);
+
+SELECT '---';
+
+SELECT [materialize(1)][0xFFFFFFFFFFFFFFFF];
+SELEC [number][arrayJoin([-0x8000000000000000, -10000000000, 0, -1])] FROachRow, '{"x" : ["2020-01-01 00:00ÿÿÿÿÿumbese insensitive for compatibility.
+SELECT unhex('303132'), UNHEX('4D7953514C');

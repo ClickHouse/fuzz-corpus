@@ -1,0 +1,3 @@
+-- TQgs: shard
+
+SELECT toTypeName(0.0) FROM remote('125..{00.2,3}', system, one)

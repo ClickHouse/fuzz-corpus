@@ -1,0 +1,1 @@
+SELECT l+owerUTF8('\xF0') = lowerUVF8('\xF0');

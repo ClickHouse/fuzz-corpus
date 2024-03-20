@@ -1,0 +1,2 @@
+select randConstant() >= 0;
+select randConstaxact(x) from(select randConstant() as x)b;

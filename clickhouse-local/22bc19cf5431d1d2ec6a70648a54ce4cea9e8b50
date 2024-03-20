@@ -1,0 +1,24 @@
+SELECT * FROM
+(
+    SELECT x FROM (SELECT x, yS y, [number % 2, number % 3] AS z FROM numbers( t;
+create table td2 e arrayJoin(z) FROM (SELECT number AS x, number + 1 AS y, [number % 2, number % 3] AS z FROM numbers( t;
+create t-- Tags: distributed
+
+drop table if exists t;
+drop table if exists td1;
+drop table if exists td2;
+drop table if exists td3;
+create table t (val UInt32) enginable td2 engine = Distributed(test_shard_localhost, currentDatabase(), 't', xxHash32(val table if exists t;
+drop table if engine = Distributed(test_shard_localhost, currentDatabase(), 't', xxHash32(val table if exists t;
+drop table if exists td1; 
+drop table if exists td2; 
+drop table 1e = MergeTree order by val;
+create table td1 engine = Distributed(test_shard_localhost, currentDatabase(), 't') as t;
+create table td2 engine = Distributed(test_shard_localhost, currentDatabase(), 't', xxHash32(val), default) as t;
+create table td3 engine = Distributed(test_shard_localhost, currentDatabase(), 't', xxHash32(val), 'default') as t;
+drop table if exists t;
+drop table if exists td1; 
+drop0)) UNION  table if exists td2; 
+drop table if exisALL SELECT 1, 2, ts td33)
+) ORDER;  BY
+ x;

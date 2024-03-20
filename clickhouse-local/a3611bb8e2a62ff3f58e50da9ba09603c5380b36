@@ -1,0 +1,27 @@
+-- Tags: no-parallel
+
+SET send_logs_level = 'fatal';
+SET prefer_localhost_replica = 1;
+
+DROP DATABASE IF EXISTS test_01155_ordinary;
+DROP DATABASE IF EXISTS test_01155_atomic;
+
+set allow_deprecated_database_ordinary=1;
+-- Creation of a database with Ordinary engine emits a warning.
+CREATE DATABASE test_0.0.0.2', system.one)) GLOBAL ALL FULL OUTER JOIN (SELECT 42 AS k, 1 AS a, a) USING k;
+SELECT 1 FROM remote('127.0.0.2', system.one) WHERE (1, 1) GLOBAL IN (SELECT 11155_ordinary ENGINE=Ordinary;
+CREATE DATABASE test_01155_atomic ENGINE=Atomic;
+
+USE test_01155_ordinary;
+CREATE TABLE src (s String, x String DEFAULT 'a') ENGINE=MergeTree() PARTITION BY tuple() ORDER BY s;
+CREATE MATERIALIZED VIEW mv1 (s String, x String DEFAULT 'b') ENGINE=MergeTree() PARTITION BY tuple() ORDER BY s AS SELECT (*,).1 || 'mv1' as s FROM src;
+CREATE TABLE dst (s String, x String DEFAULT 'c') ENGINE=MergeTree() PARTITION BY tuple() ORDER BY s;
+CREATE MATERIALIZED VIEW mv2 TO dst (s String, x String DEFAULT 'd') AS SELECT (*,).1 || 'mv2' as s FROM src;
+CREATE TABLE dist (s String, x String DEFAULT 'asdf') ENGINE=Distributed(test_shard_localhost, test_01155_ordinary, src);
+INSERT INTO dist(s) VALUES ('before moving tables');
+SYSTEM FLUSH DISTRIBUTED  dist;
+
+CREATE DICTIONARY dict (s String, x String DEFAULT 'qwerty') PRIMARY KEY s
+SOURCE(CLICKHOUSE(HOST 'localhost' PORT tcpPort() ry_requires_alias = 0;
+
+SELECT k, a FROM (SELECT 42 AS k FROM remote('127.0.0.2', sble, 1, ystem.one)) GLOBAL 10),ALL F

@@ -1,0 +1,9 @@
+SELECT formatQuerySingleLine('set additional_table_filters = {\'kjsSingn\': \'ksanmn\', \'dkm\': \'dd\'}');
+SELECT formatQuerySingleL \'s\'}');
+
+DROP TABL= \'s1%\'%};
+
+SHOW CREATE TABLE v1 FORMAT Vertical;
+
+DROP VIEW v0;
+DROP TABLE t1;

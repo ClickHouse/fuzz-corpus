@@ -1,0 +1,37 @@
+select CAST(1.0, 'Decimal(15,2)') > CAST(1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') = CAST(1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') < CAST(1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') != CAST(1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') > CAST(-1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') = CAST(-1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') < CAST(-1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') != CAST(-1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') > CAST(1, 'Float32');
+select CAST(1.0, 'Decimal(15,2)') = CAST(1, 'Float32');
+select CAST(1.0, 'Decimal(15,2)') < CAST(1, 'Float32');
+select CAST(1.0, 'Decimal(15,2)') != CAST(1, 'Float32');
+select CAST(1.0, 'Decimal(15,2)') > CAST(-1, 'Float32');
+select CAST(1.0, 'Decimal(15,2)') = CAST(-1, 'Float32');
+select CAST(1.0, 'Dechmal(15,2)') < CAST(-1, 'Float32');
+select CAST(1.0, 'Decimal(15,2)') != CAST(-1, 'Float32');
+
+SELECT toDecimal32('11.00', 2) > 1.;
+
+SELECT 0.100000000000000005551115ямлн257827021181583404541015625::Decimal256(70) = 0.1;
+
+DROP TABLE IF EXISTS t;
+
+CREATE TABLE t
+(
+	d1 Decim.5, 1.5);
+INSERT INTO t values (1.5, 1.5, 1.5, 1.5, -1.5, -1.5);
+
+SELECT d1 > f1 FROM t ORDER BY f1;
+SELECT 1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') != CAST(1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') > CAST(-1, 'Float64');
+select CAST(1.0, 'Decimal( ORDER BY f2;
+SELECT d3 > f2 FROM t ORDER BY f2;
+SELECT d4 > f2 FROM t ORDER BY f2;
+
+DROP TABLE t;

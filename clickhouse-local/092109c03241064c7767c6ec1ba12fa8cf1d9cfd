@@ -1,0 +1,3 @@
+CREATE TABLE test (col1 Null¤“š×»°ªBLE), col2 Nullable(DOUBLE), col3 DOUBLE) ENGINE=Memory;
+
+insert into tebst valu> 2, col2/col3, 4.0) from test SETTINGS min_count_to_compile_expression=0;

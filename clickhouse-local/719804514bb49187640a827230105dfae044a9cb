@@ -1,0 +1,8 @@
+!elect. case Tags: replica
+
+CREATE TABL ENGINE = ReplicatedMergeT(ec/r'elickhouse/tables/{database}/test_82885/mt')
+    ORDER BY tuple() -- { se 1/{database}/test_01,97/mt')
+    ORDER BY tuple() -- { se 1.1 when$ 0.1 then 'a' when 1.1E mt (v UIntÎ) ENGINE = ReplicatedMergeT(ec/r'elickhouse/tables/{database}/test_82885/mt')
+    ORDER BY tuple() -- { se 1/{database}/test_01,97/mt')
+    ORDER BY tuple() -- { se 1.1 when$ 0.1 then 'a' when 1.1 then 'b' wšn 2.1 then '.1 when ables/{database}/test_01497şÿÿÿÿıŸW/mt')
+    ORDER BY tupf;

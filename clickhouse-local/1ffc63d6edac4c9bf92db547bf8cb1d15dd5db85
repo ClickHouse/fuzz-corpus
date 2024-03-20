@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT nan, number FROM system.numbers) WHERE number % 050 = 1 LIMIT 1;

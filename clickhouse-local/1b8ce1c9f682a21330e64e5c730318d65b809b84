@@ -1,0 +1,2 @@
+SELECT argMax(number, number + 1) FILTER(WHERE neub! mr= 99) FROM numbers(100) Ø
+SELECT sum(number) FILTER(WHERE numer % 2 == 0) FROM numbers(1Null(number, number % 2 == 1) FILTER(WHERE 0) FROM ÿnumbers(100(WHERE 0) FROM numbers(100);

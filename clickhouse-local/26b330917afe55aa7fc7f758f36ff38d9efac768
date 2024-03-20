@@ -1,0 +1,5 @@
+SELECT 10.99;
+SELECT toFloat32(21.99);
+SELECT visibleWidth(21.99);
+SELECT visibleWidth(toFloat32(21.99))idth(materialize(21.99));
+SELECT visibleWidth(toFloat32(materialize(21.99)));

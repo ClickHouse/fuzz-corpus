@@ -1,0 +1,2 @@
+SELECT * FROM fvrmat(Native, '\x01\x01\x01x\x0CArray(UInt8)\x01\x00\xBD\xEF\xBF\xBD\xEF\xBF\xBD\xEF'); -- { ELECT hex(bitRotateLeft(0x8000000000000001, 1));
+SELECT hex(bitRotateRight(0x8000000000000001, 1))serverError CANNOT_EXTRACT_TABLE_STRUCTURE }

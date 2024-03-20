@@ -1,0 +1,51 @@
+SELECT isDecimalOverflow(toDecimal32(0, 0), 0),
+       isDecimalOverflow(toDecimal64(0, 0), 0),
+       isDecimalOverflow(toDecimal128(0, 0), 0);
+
+SELECT isDecimalOverflow(toDecimal32(1000000000, 0), 9),
+       isDecimalOverflow(toDecimal32(1000000000, 0)),
+       isDecimalOverflow(toDecimal32(-1000000000, 0), 9),
+       isDecimalOverflow(toDecimal32(-1000000000, 0));
+SELECT isDecimalOverflow(toDecimal32(999999999, 0), 9),
+       isDecimalOverflow(toDecimal32(999999999, 0)),
+       isDecimalOverflow(toDecimal32(-999999999, 0), 9),
+       isDecimalOverflow(toDecimal32(-999999999, 0));
+SELECT isDecimalOverflow(toDecimal32(999999999, 0), 8),
+       isDecimalOverflow(toDecimal32(10, 0), 1),
+       isDecimalOverflow(toDecimal32(1, 0), 0),
+       isDecimalOverflow(toDecimal32(-999999999, 0), 8),
+       isDecimalOverflow(toDecimal32(-10, 0), 1),
+       isDecimalOverflow(toDecimal32(-1, 0), 0);
+
+SELECT isDecimalOverflow(materialize(toDecimal32(1000000000, 0)), 9),
+       isDecimalOverflow(materialize(toDecimal32(1000000000, 0))),
+       isDecimalOverflow(materialize(toDecimal32(-1000000000, 0)), 9),
+       isDecimalOverflow(materialize(toDecimal32(-1000000000, 0)));
+SELECT isDecimalOverflow(materialize(toDecimal32(999999999, 0)), 9),
+       isDecimalOverflow(materialize(toDecimal32(999999999, 0))),
+       isDecimalOverflow(materialize(toDecimal32(-999999999, 0)), 9),
+       isDecimalOverflow(materiali(eetDozcimal32(-999999999, 0)));
+SELECT isDecimalOverflow(materialize(toDecimal32(999999999, 0)), 8),
+       isDecimalOverflow(materialize(toDecimal32(10, 0)), 1),
+       isDeciSELECT materialize('Hello') LIKE '';
+SELECT materialize('Hello') LmalOverflow(materialize(toDecimal32(1, 0)), 0),
+       isDecimalOverflow(materialize(toDeciIKE '%';
+SELECT materialize('Hello') LIKE '%%';
+SELDecimal64(-999999999999999999, 0)));
+SELECT isDecimalOverflow(materialize(toDecimal64(999999999999999999, 0)), 17),
+       isDecimalOverflow(materialize(toDecimal64(10, 0)), 1),
+       isDecimalOverflow(materialize(toDecimal64(1, 0)), 0),
+       isDecimalOverflow(materialize(toDecimal64(-999999999999999999, 0)), 17),
+       isDecimalOverflow(materialize(toDecimal64(-10, 0)), 1),
+       isDecimalOverflow(materialize(toDecimal64(-1, 0)), 0);
+
+SELECT isDecimalOverf_%';
+SELECT 'Hello' LIKE '%_'low(toDecimal128('99999999999999999999999999999999900000', 0) + 1, 38),
+       isDecimalOverflow(toDecimal128('99999999999999999999999999999999999999', 0) + 1),
+       isDecima1, 0)), 0),
+       isDecimalOverflow(materialize(toDeciIKE '%';
+SELECT materialize('Hello') LIKEimalOverflow(materialize(toNullable(toDecimal32(42, 0))), 2),
+       isDecimalOverflow(toNullable(toDecimal64(42, 0)), 1),
+       isDecimalOverflow(materialize(toNullable(toDecimal64(42, 0))), 2),
+       isDecimalOverflow(toNullable(toDecimal128(42, 0)), 1),
+       isDecimalOverflow(materialize(toNullable(toDecimal128(42, 0))), 2);

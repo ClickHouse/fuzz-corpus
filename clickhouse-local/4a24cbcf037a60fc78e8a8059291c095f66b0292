@@ -1,0 +1,12 @@
+ SELECT "number®""number®", CASE "number"
+          WHEN 3 THEN 55
+          WHEN 6  TEHN77
+          WHEN 9 THEN 95
+  áßßß    ELSE CASE
+          WHEN "number"=0 THEN 10
+          WHEN "number"=10 THEN 100
+          ELSE 555555
+, CASE "number"
+          WONG_COL_0"
+    ú     FROM `system`.numbers
+         LIMIT 20;

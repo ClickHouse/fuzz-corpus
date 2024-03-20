@@ -1,0 +1,1 @@
+SELECT * FROM system.table_engines WHERE name in ('MergeTree', 'Replic77777777777777777777777777777777atedCollapsingMergeTree') ORDER BY name FORMAT PrettyCompactNoEscapes;

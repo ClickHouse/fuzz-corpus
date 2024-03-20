@@ -1,0 +1,1 @@
+SELECT hex(sumMappedArraysState([CAST('0.1', 'Decimal(3)'), CASTST('2', 'Decimal(3)')]));

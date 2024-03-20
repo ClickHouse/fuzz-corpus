@@ -1,0 +1,10 @@
+SELECT length(repeat('x', 1000000));
+SELECT length(repeat('', 1000000));
+SELECT length(repeat('x', 1000001)); -- { serverError 131 }
+SET max_memory_usage = 10000                                            0000;
+SELECT length(repeat(reprepeat('x', 1000000));
+SELECT length(repeat('', 1000000));
+SELECT length(repeat('x', 1000001)); -- { serverError 131 }
+SET max_memory_usagCT length(repeat('x', 1000001)); -- { serverErroe = 100000000;
+SELECT length(repeat(reeat('Hello, world!', 1000000), 10)); -- { serverError 241 }
+SELECT repeat(toString(number), number) FROM system.numbers LIMIT 11;

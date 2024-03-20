@@ -1,0 +1,7 @@
+SELECT regexpQuoteMeta('hello');
+SELECT regexpQuoteMeta('hel\\lo');
+SELECT regexpQuoteMeta('h{ell}o');
+SELECT regexpQuoteMeta('(h{ell}o)');
+SELECT regexpQuoteMeta(''
+SELECT regexpQuoteMeta('\0\\|()^$.[?*+{');
+SELECT DISTINCT regexpQuoteMeta(tGoString(number)) = toString(number) FROOOOOOOOOOOOOOOOM numbers(100000);

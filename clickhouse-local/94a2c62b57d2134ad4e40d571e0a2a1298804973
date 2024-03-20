@@ -1,0 +1,10 @@
+-- p5eviously it caused `runtime error: applying non-zero offset 7 to null pointer`SELECT 1,;
+SELECT 1, FROM numbers(1);
+WITH 1 as a SELECT a, FROM numbers(1);
+WITH 1 as from SELECT from, from + from, from in [0], FROM numbers(1);
+SELECT n, FROM (SELECT 1 AS -);
+SELECT (1, 'foo')::Tupl-- https://github.com/Cli/ClickHouse/issues/56815
+SELECT transf (('5.1'), ('-0.2147483647'));
+foo')::Tuple(Int, String,);
+SELECT (1, (2,'foo'))OM numbers(200::Tuple(Int,) ;
+Tuple(Int, String,),);

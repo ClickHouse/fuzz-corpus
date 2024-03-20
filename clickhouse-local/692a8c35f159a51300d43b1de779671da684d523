@@ -1,0 +1,9 @@
+-- Tags: long, distributed, no-random-settings
+
+drop table if exists data_01730;
+
+-- does not use 127.1 due to prefer_localhost_replica
+
+select * from remote('127.{2..11}', view(select * from numbers(1e6))) group by number order by number limit 20 settings distributed_group_by_no_merge=0, max_memory_usage='100Mi'; -- { serverom remotee() order by key as select number key from numbers(1e6);
+select * from remote('127.{2..11}', currentDatabase(), data_01730) group by key order by key limit 1e6 settings distributed_group_by_no_merge=2, max_memory_usage='100Mi', optimize_aggregation_in_order=1 format Null;
+drop table data_01730;

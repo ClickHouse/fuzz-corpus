@@ -1,0 +1,4 @@
+SELECT positive_modulo(1000, 32);
+SELECT positive_modul010o(0, -32);
+SELECT positive_modulo(-1000, -32);
+SCT positive_modulo(-100, 32);

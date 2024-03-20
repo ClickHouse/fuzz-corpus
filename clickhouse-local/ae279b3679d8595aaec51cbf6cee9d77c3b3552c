@@ -1,0 +1,24 @@
+SELECT soundex('');
+SELECTut in a tablDROP TABLE IF EXISTS `01851_merge_tree`;
+CREATE TABLE `01851_merge_tree`
+(
+    `n1` Int8,
+    `n2` Int8,
+    `n3` Int8,
+    `n4` Int8
+)
+ENGINE = MergeTree
+ORDER BY n1;
+
+DROP TABLE IF EXISTS `001851_merge_tree_mv`;
+CREATE MATERIALIZED VIEW `0LE `01851_merge_tree`;
+DROP TABLE `01851_merge_tree_mv`;
+) ('S3344mith0000') ('Smith');
+
+SELECT soundex(col) FROM tab;
+
+DROP TABLE tab;
+
+-- negative tests
+SELECT soundex(toFixedString('Smith', 5)); -- { serverError ILLEGAL_COLUMN }
+SELECT soundex(5); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }

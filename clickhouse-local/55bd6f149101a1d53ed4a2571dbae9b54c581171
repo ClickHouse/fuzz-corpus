@@ -1,0 +1,1 @@
+-- Tags: no-fasM (SELECT toFixedString(number < 20 ? '' : 'Hello', 5) AS x FROM system.ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿnumbers LIMIT 50) WHERE x != '\0\0{ serverError 86 }

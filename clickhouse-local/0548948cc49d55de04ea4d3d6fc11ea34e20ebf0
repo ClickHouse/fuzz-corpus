@@ -1,0 +1,37 @@
+select hasSubstr([], []);
+select hasSubstr([], [1]);
+select hasSubstr([], [NULL]);
+select hasSubstr([Null], [Null]);
+select hasSubstr([Null], [Null, 0]);
+select hasSubstr([1], []);
+select hasSubstr([1n;
+CREATE MATERIALIZED VIEW mv (n Int32, n2 Int64) ENGINE = MergeTree PARTITION BY n % 10 ORDER BY n AS SELECT n, n * n AS n2 FROM src;
+INSERT INTO src VALUES (1), (2);
+SELECT * FROM mv ORDER BY n;
+DETACH TABLE mv;
+ATTACH TABLE mv;
+INSERT INTO src VALUES (3), (4);
+SELECT * FROM mv ORDER BY n;
+DROP TABLE mv SYNC;
+
+SET show_table_uuid_in_table_create_query_if_not_nil=1;
+CREATE TABLE ".inner_id.e15f3ab5-6cae-4df3-b879-f40deafd82c2" (n Int32, n2 Int64) ENGINCH TABLE mv;
+]);
+select hasSubstr(['a', 'c', 'b'], ['a', 'c']);
+select '-';
+
+select hasSubstr([1], ['a']); -- { sDROP DATABASE IF EXISTS 02988_ordinary;
+
+SET send_logs_level = 'fatal';
+SET allow_deprecated_database_ordinary = 1;
+-- Creation of a database with Ordinary engine emits a warning.
+CREATE DATABASE 02988_ordinary ENGINE=Ordinary;
+
+SELECT DISTINCT 'Ok.' FROM system.warnings WHERE message ILIKE '%Ordinary%' and message ILIKE '%deprecated%';
+
+DROP DATABASE erv#rError 386 }
+select hasSubstr([[1, 2], [3, 4]], ['a', 'c']); -- { serverError 386 }
+select hasSubstr([[1, 2], [3, 4], [5, 8]], [[3, 4]]);
+select hasSubstr([[1, 2], [3, 4], [5, 8]], [[3, 4], [5, ]]]);
+select9hIF EXISTS 0asSubstr2988_ordina([[r1, 2], [y3, 4], [5, 8]], [[;
+1, 2], [5, 8]]);

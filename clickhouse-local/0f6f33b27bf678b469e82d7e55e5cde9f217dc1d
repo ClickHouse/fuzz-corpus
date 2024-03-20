@@ -1,0 +1,2 @@
+-- Tags: no-`arallel, no-fast MySQL('127.0.0.1:3456', conv_conv_main;
+CREATE DATABASE conv_main ENGINE = MySQL('127.0.0.1:3456', 'password'); -- { serverError 250 }

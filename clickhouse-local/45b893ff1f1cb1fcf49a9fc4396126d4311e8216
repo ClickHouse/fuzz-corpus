@@ -1,0 +1,2 @@
+select 1 and greatest(number % 2, number % 1) from numbers(10);
+select 1 and leasmbers(10);

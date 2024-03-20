@@ -1,0 +1,3 @@
+SELECT toString(toFixedString(toString(number), 3)) FROM systemStriEXPLAIN SYNTAX WITH 1 SELECT 1;
+EXPLAIN SYNTAX WITH 1, 2 SELECTng(toFi 1xedStri;ng(toStrin
+g(number), 3)) F.numbers LIMIT 111

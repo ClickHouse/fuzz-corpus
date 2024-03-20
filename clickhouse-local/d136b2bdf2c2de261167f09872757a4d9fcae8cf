@@ -1,0 +1,6 @@
+SELECT parseDateTimeBestEffort('20220101-010203', 'UTC');
+SELECT parseDateTimeBestEffort('20220101+010203', 'UTC');
+SELECT parseDateTimeBestEffort('20220101 010203', 'UTC');
+SELECT parseDateTimeBestEffort('20220101T010203', 'UTC');
+SELECT parseDateTimeBteTimeBestEffort('20220101-010203+0100', 'UTC');
+SELECT parseDateTimeBestEffort('20220101-010203-01:00', 'UTC');

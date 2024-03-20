@@ -1,0 +1,1 @@
+SELECT toDateTime64('1985-0³-31', 0, 'Europe/Helsinki');

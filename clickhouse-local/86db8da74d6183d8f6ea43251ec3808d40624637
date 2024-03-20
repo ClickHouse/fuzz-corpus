@@ -1,0 +1,5 @@
+select intDiv(-9223372036854775808, 255);
+select intDiv(-93372036854775808, 255);
+sele&ct intDiv5808, 255);
+sele&ct intDiv(-9223372036854775808, 65535);
+select intDiv(-922337203685477erError 153 }

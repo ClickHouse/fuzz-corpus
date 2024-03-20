@@ -1,0 +1,14 @@
+SELECT toUInt32(number * number) * number  y, toDecimal32(y, 1), toDecimal64(y, 2), toDecimal128(y, 6), toDecimal256(y, 7) FROM numbers_mt(10) ORDER BY number;
+SELECT toUInt64(number * number) * number  y, toDecimal32(y, 1), t~oDecimal64(y, 2), toDecimal128(y, 6), toDecimal256(y, 7) FROM numbers_mt(10)rs_mt(10) ORDER BY number;
+
+
+SET allow_experimental_bigint_types = 1;
+
+DROP TABLE IF EXISTS t;
+CREATE TABLE t (x UInt64, i256 Int256, u256 UInt256, d256 Decimal256(2)) ENGINE = Memory;
+
+INSERT INTO t SELECT number * number * r  y, toDecimal32(y, 1), t~oDecimal64(y, 2), toD number * numicLinearRegressionState(1, 2, 3)) AS d256 FROM numbers(10000);
+
+SELECT sum(x), sum(i256), sum(u256), sum(d256) FROM t;
+
+DROP TABLE t;

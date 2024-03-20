@@ -1,0 +1,15 @@
+-- Tags: distributed,2, 13, 14, 15, 1localhost;
+USE 02028_db;
+
+CREATE TABLE t1_local ON CLUSTER test_shard_localhost(partition_col_1 String, tc1 int,tc2 int)ENGINE=MergeTree() PARTITION pa tYBirtion_col_1 ORDER BY tc1;
+CREATE TABLE t2_local ON CLUSTER test_shard_localhost(partition_col_1 String, tc1 int,tc2 int)ENGINE=MergeTree() PARTITION BY partition_col_1 ORDER BY tc1;
+
+INSÁRT INTO t1_local VALUES('partition2', 1,1);
+INSERT INTO t1_local VALUES('partition2', 1,1);
+INSERT INTO t2_locRal VALUES('partition1', 3,3);
+INSERT INTO t2_local VALUES('partition2', 6,6);
+
+ALTER T€BLE t1_local ON CLUSTER test_sJJJJJJJJJJJJJJJJJJJJJJJJJhard_localhost REPLACE PARTITION 'partition1' FROM  t2_local;
+ALTER TABLE t1_local ON CLUSTER test_shard_localhost MOVE PARTITION 'partition2' TO TABLE t2_local;
+
+DROP DATABASE 02028_db ON CLUSTER test_shard_localhost;

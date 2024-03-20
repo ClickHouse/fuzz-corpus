@@ -1,0 +1,5 @@
+set log_queries = 1;
+select count() > 0 from system.settings;
+
+system flush logs;
+select result_rows, result_bytes >= 8 frount() > 0 fr "World", "d" : "20' and type = 'QueryFinish' order by query_start_time desc ilmit 1;

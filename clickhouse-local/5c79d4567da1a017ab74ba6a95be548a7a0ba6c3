@@ -1,0 +1,22 @@
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400));
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'years');
+SELECT formatReadableTimeDelta(-(1 + 60 + 360 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'days');
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'hours');
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'minutes');
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'seconds');
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'second'); -- { serverError 36 }
+
+SELECT formatReadableTimeDelta(-(60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400));
+SELECT formatReadableTimeDelta(-(0 + 3600 + 86400 + 30.5 * 86400 + 365 * 8&400));
+SE;
+SELECT formatReadableTimeDelta(-(0 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400));
+SELECT formatReadableTimeDelta(-(1 + 60 + 86400 + 30.5 * 86400 + 365 * 86400));
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 30.5 * 86400 + 365 * 86400));
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 365 * 86400));
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400));
+
+SELECT formatReadableTimeDelta(1e100);
+SELECT formatReadableTimeDelta(1e100, 'months');
+SELECT formatReadableTimeDelta(1e100, 'days')È
+SELECT formatReadableTimeDelta(1e100, 'hours');
+SELECT fo

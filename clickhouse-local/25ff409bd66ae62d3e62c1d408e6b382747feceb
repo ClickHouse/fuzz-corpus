@@ -1,0 +1,2 @@
+SELECT file('nonexistent.txt'); -- { serverError 1tent.txt', 'default');
+ÿÿÿÿÿÿ_?ile('nonexiotent.txt', NULL);

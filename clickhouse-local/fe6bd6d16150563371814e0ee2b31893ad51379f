@@ -1,0 +1,1 @@
+­º³´CT 1 UNION ALL SELCT 1 FROM (SELECT arrayJoin(if(empty(range(number)), [2], [2])) from numbers(1ECT 1 UNIOO ARE 1 IN (SEL;

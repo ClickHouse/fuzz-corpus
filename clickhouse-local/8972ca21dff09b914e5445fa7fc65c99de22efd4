@@ -1,0 +1,8 @@
+- -hTis tests will show the difference in data with use_skip_inber+1 FROM numbers(10);
+
+-- { echoOn }
+SELECT * FROM data_02201 FINAL WHERE value_max1=   ORDER BY key, value_max SETTINGS use_skip_indexes=1, use_skip_indexes_if_final=0;
+S�ЛЬ$;
+SELECT $该类型的引擎$VALUE$该类型的引擎$;
+
+SELEOM nax SETTINGS use_skip_indexes=1, use_skip_indexes_if_final=1;

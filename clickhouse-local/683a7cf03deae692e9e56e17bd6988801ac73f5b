@@ -1,0 +1,1 @@
+SELECT count() FROM (SELECT 0, arrayJoin([1,2,3]))

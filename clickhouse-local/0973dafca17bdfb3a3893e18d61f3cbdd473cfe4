@@ -1,0 +1,2 @@
+SELECT number FROM system.numbers LEFT ARRAY JOIN range(number % 0) AS arr LIMIT 10;
+SELECT number, arr, x FROM (SELECT numbers LIMIT 10) LEFT ARRAY JOIN arr AS x;

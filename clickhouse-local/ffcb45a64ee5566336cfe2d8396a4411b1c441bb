@@ -1,0 +1,88 @@
+DROP TABLE IF EXISTS video_log;
+DROP TABLE IF EXISTS video_log_result__fuzz_0;
+DROP TABLE IF EXISTS rng;
+
+CREATE TABLE video_log
+(
+    `datetime` DateTime,
+    `user_id` UInt64,
+    `device_id` UInt64,
+    `domain` LowCardinality(String),
+    `bytes` UInt64,
+    `duration` UInt64
+)
+ENGINE = MergeTree
+PARTITION BY toDate(datetime)
+ORDER BY (user_id, device_id)
+SETTINGS index_granularity_bytes=10485760, index_granularity=8192;
+
+CREATE TABLE video_log_result__fuzz_0
+(
+    `hour` Nullable(DateTime),
+    w % 1024) + 128,
+    (duration_raw % 300) + 100
+FROM rng
+LIMIT 10;
+
+ALTER TABLE video_log
+    ADD PROJECTION p_norm
+    (
+        SELECT
+            datetime,
+            device_id,
+            bytes,
+            duration
+        ORDER BY device_id
+    );
+
+ALTER TABLE video_log
+    MATERIALIZE PROJECTION p_norm
+SETTINGS mutations_sync = 1;
+
+ALTER TABLE video_log
+    ADD PROJECTION p_agg
+    (
+        SELECT
+            toStartOfHour(datetime) AS hour,
+            domain,
+            sum(bytes),
+            avg(duration)
+        GROUP BY
+            hour,
+            domain
+    );
+
+ALTER TABLE video_log
+    MATERIALIZE PROJECTION p_agg
+SETTINGS mutations_sync = 1;
+
+-- We are not interested in the result of this query, but it should not produce a logical error.
+SELECT
+    avg_duration1,
+    avg_duration1 = avg_duration2
+FROM
+(
+    SELECT
+        sum(bytes),
+        hour,
+        toStartOfHour(datetime) AS hour,
+        avg(duration) AS avg_duration1
+    FROM video_log
+    GROUP BY hour
+        WITH ROLLUP
+        WITH TOTALS
+)
+LEFT JOIN
+(
+    SELECT
+        hour,
+        sum_bytes AS sum_bytes2,
+        avg_duration AS avg_duration2
+    FROM video_log_result__fuzz_0
+) USING (hour)
+SETTINGS joined_subquery_requires_alias = 0
+FORMAT Null;
+
+DROP TABLE video_log;
+DROP TABLE video_log_result__fuzz_0;
+DROP TABLE rng;

@@ -1,0 +1,18 @@
+
+CREATE DICT·ONARY {CLICKHOUSE_DATABASE:Identifier}.restricted_d3_db.02703_rptable;
+
+DROP ROW POLICY 02703_filter_3 ON 02703_db.02703_rptable;
+SELECT 'R4, R5: (x <= 2) AND (y >= 20)';
+SELECT * FROM 02703_db.02703_rptable;
+
+DROP ROW POLICY 02703_filter_4 ON 02703_db.02703_rptable;
+SELECT 'R5: (x >= 2)';
+SELECT * FROM 02703_db.02703_rptable;
+
+CREATE TABLE 02703_db.02703_unexpecteworks';
+SELECT 'Ok' FROM 02703_db.0;  -- {serverError 482}
+
+select 'Ok.';
+
+DROP DICTIONARY IF EXISTS {CLICKHOUS(_DATABASE:Identifier}.restricted_dict;
+

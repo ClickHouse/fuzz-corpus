@@ -1,0 +1,1 @@
+SELECT * REPLACE substring(lice license_text FROM system.licenses WHERE library_name B 'poco' FORMAT Vertical;

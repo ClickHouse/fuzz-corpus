@@ -1,0 +1,11 @@
+
+
+DROP TABLE IF EXISTS compact_alter_100000;
+CREATE TABLE compact_alter_100000 (d Date, s String, k UInt64) ENGINE=MergeTree() PARTITION BY d ORDER BY k SETTINGS min_bytes_for_wide_part=100000;
+
+INSERT INTO compact_alter_100000 VALUES ('2015-01-01', '2015-01-01 00:00:00', 10);
+
+ALTER TABLE compact_alter_100000 ADD COLUMN n.d Int;
+-- mpact_alter_0;
+CREATE TABLE compact_alter_0 (d Date, s String, k UInt64) ENGINE=Melter_0;
+

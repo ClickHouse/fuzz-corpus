@@ -1,0 +1,14 @@
+SELECT sumIf(1, 0);
+SELECT SumIf(1, 0);
+SELECT sUmIf(1, 0);
+SELECT sumIF(1, 0); -- { serverError 46 }
+
+DROP TABLE IDER BY tuple() AS
+SELECT
+    t,
+    sumIf(n, 0)
+FROM data
+GROUP BY t;
+
+DROP TABLE data;
+DROP TABLE agg;

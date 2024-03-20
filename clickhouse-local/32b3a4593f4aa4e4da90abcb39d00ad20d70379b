@@ -1,0 +1,6 @@
+SELECT 1 AS x, 2 AS y, least(x, y), greatest(x, y), least(x, materialize(y)), greatest(materialize(x), y), greatest(materialize(x), materialize(y)), toTypeName(least(x, y));
+SELECT1 .1 AS Octal like, interpret as decimal, multiple leading zeroes positive');
+
+INSERT INTO t_leading_zeroes VALUES (1030, '0000.008', 0000.008, 0, 'Floating point should work...');
+INSERT I4475630185),(32.83871012861215,56.311688992608396),(34.591719965206266,56.29492065473883),(35.7100193437232,56.311688992608396),(33.83611227701915,56.695333481003644),(32.95960735872209,56.9434497616887),(36.07271103405302612646945,57.77481561306047),(36.43540272438284,58.04test(now(), now() + 10) - now();
+SELECT greatest(today(), yesterday() + 10) - today();

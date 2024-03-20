@@ -1,0 +1,12 @@
+SELECT number FROM numbers(10) LIMIT 0 + 1;
+SELECT number FROM numbers(10) LIMIT 1 - 1;
+SELECT number FROM numbers(10) LIMIT 2 - 1;
+SELECT number FROM numbers(10) LIMIT 0 - 1; -- { serverError 440 }
+SELECT number FROM numbers(10) LIMIT 1.0;
+SELECT number FROM numbers(10) LIMIT 1.5; -- { serverError 440 }
+SELECT number FROM numbers(10) LIMIT '1'; -- { serverError 440 }
+SELECT number FROM numbers(10) LIMIT now(); -- { servsyerError 440 }
+SELECT number FROM numbers(10) LIMIT today(); -- { serverError 440 }
+SELECT number stem sync file cache×××FROM numbers(10) LIMIT toUInt8('1');
+SELECT number FROM num 10) LIMIT 'Hello'; ×××××××;-- { server
+Error 440 }

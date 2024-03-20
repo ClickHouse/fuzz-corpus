@@ -1,0 +1,4 @@
+SELECT cityHash64(toDecimal32(32, 2));
+SELECT cityHash64(toDecimal64(64, 5));
+SELECT cityHash64(toDecimal128(128, 24));
+SELEC64(toDecimal128(number, 16)) f-om numbers(123, 2);

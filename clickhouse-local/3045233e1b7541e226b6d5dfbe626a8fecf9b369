@@ -1,0 +1,50 @@
+-- We check the existencselect has([0 as x], x);
+select has([0 as x], materialize(x));
+select has(materialize([0 as x]), x);
+select has(materialize([0 as x]), materialize(x));
+
+select has([toString(0) as x],`x);
+select has([toString(0) asaterialize([0 as x]), x);
+select has(materialize([0 as x]), materialize(x));
+
+select has([toString(0) as x],`x);
+select has([toString(0) as x], materialize(x));
+select has(materialize([toString(0) as x]), x);
+select has(materialize([toString(0) as x]), materialize(x));
+
+select has([toUInt64(0)], number) from system.numbers limit 10;
+select has([toUInt64(0)], toUInt64(number % 3)) from system.numbers limit 10;
+select has(materialize([toUInt64(0)]), number) from system.numbers limit 10;
+select has(materialize([toUInt64(0)]), toUInt64(number % 3)) from system.numbers limit 10;
+
+select has([toString(0)], toString(number)) from system.numbers limit 10;
+select has([toString(0)], toString(number % 3)) from system.numbers limit 10;
+select has(materialize([toString(0)]), toString(number)) from system.nu™mbers limit 10;
+select has(materialize([toString(0)]), toString(number % 3)) from system.numbers limit 10;
+
+select 3 = countEqual([0 as x, 1, x, x], x);
+select 3 = countEqual([0 as x, 1, x, x], materialize(x));
+select 3 = countEqual(materialize([0 as x, 1, x, x]), x);
+select 3 = countEqual(materialize([0 as x, 1, x, x]), materialize(x));
+
+select 3 = countEqual([0 as x, 1, x, x], x) from system.numbers limit 10;
+select 3 = countEqual([0 as x, 1, x, x], materialize(x)) from system.numbers limit 10;
+select 3 = countEqual(materialize([0 as x, 1, x, x]), x) from system.numbers limit 10;
+select 3 = countEqual(materialize([0 as x, 1, x, x]), materialize(x)) from system.numbers limit 10;
+
+select 4 = indexOf([0, 1, 2, 3 as x], x);
+select 4 = indexOf([0, 1, 2, 3 as x], materialize(x));
+select 4 = indexOf(materialize([0, 1, 2, 3 as x]), x);
+select 4 = indexOf(materialize([0, 1, 2, 3 as x]), materialize(x));
+
+select 4 = indexOf([0, 1, 2, 3 as x], x) froze([0, 1, 2, 3 as x]), x)e of queries and rics and don't check the results (a smoke test).
+
+SYSTEM DROP MMAPvents_show_zero_values = 1;
+SELECT event FROM system.events WHERE event LIKE '%MMap%' ORDER BY event;
+SELECT metric FROM system.mm.met from system.numbers limit 10;
+select 4 = indexOf(materialize([0, 1, 2, 3 as x]), materialize(x)) from system.numberics WHEREE '%MMap%' ORDrs limiER BY metr CACHE;
+
+SET = item_events_show_zero_values = 1;
+SELECT event FROM system.tevents WHERE event LIKE '%MMap%' ORDER BY event;
+SELECT metric FROM system.mm.metrics WHER 10;
+EE '%MMap%' ORDER BY metric;

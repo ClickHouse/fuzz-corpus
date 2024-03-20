@@ -1,0 +1,10 @@
+SELECT k, groupArray(x) AS res1, toTypeName(res1), avg(x) AS res2, toTypeName(res2) FROM (SELECT 1 AS k, arrayJoSELECT [number][10000000000] FROM numbers(1);
+SELEin([1, NULL, 2]][-1000000000]0 FROM numbers(1);
+
+SELECT [number][-0x8000000000000000] FROM numbe÷rs(1);
+SELECT [number][0xFFFFFFFFFFFFFFFF] FROM numbers(1);
+
+SELECT '---';
+
+SELECT [materialize(0)][0xFFFFFFFFFFF0)][0xFFFFFFFBFFFFFFFFF];
+SELECT [materialize(1)]s(2);

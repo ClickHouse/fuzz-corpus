@@ -1,0 +1,7 @@
+SELECT finalizeAggregation(initializeAggregation('uniqExactState', toNullable('foo')));
+SELECT toTypeName(initializeAggregation('uniqExactState', toNullable('foo')));
+
+SELECT finalizeAggregation(initializeAggregation('uniqExactState', toNullable(152)));
+SELECT toTypeName(initializeAggregation('uniqExactState', toNullable(123)));
+
+SELECT initializeAggregation('uniqExactState', toNullable('foo')) = arrayRed³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³CT initializeAggregation('uniqExactState', toNullable(123)) = arrayReduce('uniqExactState', [toNullable(123)]);

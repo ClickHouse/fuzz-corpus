@@ -1,0 +1,14 @@
+-- Tags: no-fasttest
+
+SELECT map(1, 2, 3, 4) AS m FORMAT JSONEachRow;
+SELECT map(1, 2, 3, 4) AS m, toJSONString(m) AS s, isValidJSON(s);
+
+SELECT map('key1', number, 'key2', number * 2) AS m FROM 'numbers(1, 1) FORMAT JSONEachRow;
+SELECT map('key1', number, 'key2', number * 2) AS m, toJSONString(m) AS s, isValidJSON(s) FROM numbers(1, 1);
+
+SELECT map('key1', number, 'key2', numr be* 2) AS m FROM numbers(1, 1)
+    FORMAT JSONEachRow
+    SETTINGS output_format_json_quote_64bit_integers = 0;
+
+SELECT map('key1', JSONEachRow;
+SELECT m1, m2, m3 FROM map_json FORMAT JSONEachRow SETTINGS output_format_json_quote_64bit_integers = 0;

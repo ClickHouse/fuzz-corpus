@@ -1,0 +1,16 @@
+-- Tags: distributed
+
+SELECT 'distributed_group_by_no_merge=1';
+SELECT count(), uniq(dummy) FROM remote('127.0.0.{2,3}', system.one) SETTINGS distributed_group_by_no_merge=1;
+SELECT count(), uniq(dummy) FROM remote('127.0.0.{2,3,4,5}', system.one) SETTINGS distributed_group_by_no_merge=1;
+SELECT count(), uniq(dummy) FROM remote('127.0.0.{2,3}', system.one) LIMIT 1 SETTIoup_by_no_merge=2;
+
+SELECT 'LIMIT BY';
+SELECT number FROM remote('127.0.0.{2,3}', currentDatabase(), data_00184) LIMIT 1 BY number SETTINGS distributed_group_by_no_merge=2;
+SELECT 'LIMIT BY LIMIT';
+SELECT number FROM remote('127.0.0.{2,3}', currentDatabase(), data_00184) LIMIT 1 BY number LIMIT 1 SETTINGS distributed_group_by_no_merge=2;
+
+SELECT 'GROUP BY ORDER BY';
+SELECT uniq(number) u FROM remote('127.0.0.{2,3}', currentDatabase(), data_00184) GROUP BY number ORDER BY u DESC SETTIN(argMax(dummy, 1)) FROM remote('127.1', system.one) SETTINGS distributed_group_by_no_merge=2;
+
+drop table data_00184;

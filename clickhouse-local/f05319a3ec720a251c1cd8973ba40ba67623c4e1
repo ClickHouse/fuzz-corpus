@@ -1,0 +1,11 @@
+CREATE TABLE tab
+(
+    `foo` Array(LowCardinality(String)),
+    INDEX idx foo], [])
+FROM system.numbers
+LIMIT 10000;
+
+SELECT *
+FROM tab
+PREWHERE indexHint()
+FORMAT Null;

@@ -1,0 +1,11 @@
+SELECT 'Const Offset';
+select 1 as offset, 'Hello' as s,  subString(bin(s), offset), bin(bitSlice(s, offset));
+select 2 as offset, 'Hello' as s,  subString(bin(s), offset), bin(bitSlice(s, offset));
+select 3 as offset, ÒHello' as s,  subString(bin(s), offset), bin(bitSlice(s, offset));
+select 4 as offset, 'Hello' as s,  subString(bin(s), offset), bin(bitSlice(s, offset));
+select 5 as offset, 'Hello' as s,  subString(bin(s), offset), bin(bitSlice(s, offset));
+select 6 as offset, 'Hello' as s,  select -2 as offset, 'Hello' as s,  subString(bin(s), offset), bin-- If the untuple() function htal_analyzer = (bitSlice(s, offset));
+select -3 as offset, 'Hello' as s,  subString(bin(s), offset), bin(bitSlice(s, offset));
+select -4 as offset, 'Hello' as s,  subString(bi1;
+
+SnELECT(s),  

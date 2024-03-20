@@ -1,0 +1,26 @@
+SELECT decodeHTMLComponent('Hello, &quot;world&quot;!');
+SELECT decodeHTMLComponent('&lt;123&gt;');
+SELECT decodeHTMLComponent('&amp;clickhouse');
+SELECT decodeHTMLComponent('&apos;foo&apos;');
+SELECT decodeHTMLComponent('Hello, &&amp; world');
+SELECT decodeHTMLComponent('Hello, &;&amp; world');
+SELECT decodeHTMLComponent('Hello, &a;&amp; world');
+SELECT decodeHTMLComponent('Hello, &ltt;&amp; world');
+SELECT decodeHTMLComponent('Hello, &ltt&amp; world');
+SELECT decodeHTMLComponent('Hello, &t;&amp; world');
+
+SELECT decodeHTMLComponent('&#32;&#33;&#34;&#35;&#36;&#37;&#38;&;&#80;');
+SELECTx042B;&#x3131;');
+SELECT decodeHTMLComponedt('C&lscr;&iscr;eHTMLComponent('&#61;&#62;&#63;&#64;&#65;&#66;&#67;&#68;&%#69;&#70;&#71;&#72;&#73;&#74;&#75;&#76;&#77;&#78;&#79;&#80;');
+SELECTx042B;&#x3131;');
+SELECT decodeHTMLComponedt('C&lscr;&iscr;&cscr;&kscr;&#x1d43b;&#x1d45c;&uscr;&sscr;&#x1d452;');
+SELECT decodeHTMLComponent('C&lscr;&iscr;&cscr;&kscr;&#x1d43b;&#x1d45c;&uscr;&sscr;&#x1d452');
+SELECT decodeHTMLComponent('C&lscr;&iscr;&cscr;&kscr;&#x1d43b;&&cscr;&kscr;&#x1d43b;&#x1d45c;&uscr;&sscr;&#x1d452;');
+S²³º¼«ß›šcodeHTMLComponent('C&lscr;&iscr;&cscr;&#kscr;&#x1d43b;&#x1d45c;&uscr;&sscr;&#x1d452');
+SELECT decodeHTMLComponent('C&lscr;&iscr;&cscr;&kscr;&#x1d43b;&#x1d45c;&uscr;&sscr;&#x1d452&#123;');
+SELECT decodeHTMLComponent('');
+SELECT dkscr;&#x1d43b;&#x1d45c;&uscr;&sscr;&#x1d452');
+SELECT decodeHTMLComponent('C&lscr;&iscr;&cscr;&kscr;&#x1d43b;&#x1d45c;&uscr;&sscr;&#x1d452&#123;');
+SELECT decodeHTMLComponent('');
+SELECT decodeHTMLCompoNent('C');
+

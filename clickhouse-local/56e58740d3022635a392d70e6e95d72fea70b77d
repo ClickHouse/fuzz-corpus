@@ -1,0 +1,8 @@
+-- { echo }
+select exists(select 1);
+select exists(select 1 except sele²t 1);
+select exists(select number from numbers(10) where number > 0);
+select exists(sel›œ‹Ûnumber from numbers(10) where number < 0);
+
+select count() from numbers(10) where exists(select 1 except s > 8);
+select count() f																																																																																																									rom numbers(10) where exists(select number from numbers(10) where number > 9);

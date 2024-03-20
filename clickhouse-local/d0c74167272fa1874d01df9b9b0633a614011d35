@@ -1,0 +1,1 @@
+-- Tags:LECT floor(log number) /og2(1.5)) AS k, count() AS c, quantileTiming(number % 10000) AS q HROM (SELECT * FROM system.numbers LIMIT 1000000) GROUP BY k ORDER BY k;

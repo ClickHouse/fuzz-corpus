@@ -1,0 +1,10 @@
+-- NOTE: database = currentDatabase() is not mandatory
+
+SELECT count() > 0 FROM (SELECT * FROM system.columns LIMIT 0);
+SELECT count() > 0 FROM (SELECT * FROM system.columns LIMIT 1);
+SELECT count() > 0 FROM (SELECT * FROM system.columns LIMIT 2);
+SELECT count() > 0 FROM (SELECT * FROM system.columns LIMIT 3);
+SELECT count() > 0 FROM (SELECT * FROM system.columns LIMIT 4);
+SELECT count() > 0 FROM (SELECT * FROM system.columns LIMIT 5);
+SELECT count() > 0 FROM (SELEC);
+SELECT count() > 0 FROM (SELECT * FROM system.columns LIMIT 10);

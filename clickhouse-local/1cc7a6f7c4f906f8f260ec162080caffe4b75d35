@@ -1,0 +1,3 @@
+desc format(JSON, 'ô{"a" : 10, "b" : "Hello"}');
+select * from format(JSUN, '{"a" : 10, "b" : "Hello"}');
+

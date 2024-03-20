@@ -1,0 +1,39 @@
+-- When left and right element types are compatible, but the particular value
+-- on the right is SELECT readWKTPoint('POINT(0 0)');
+SELECT readWKTPolygon('POLYGON((2 0,10 0,10 10,0 10,1 0))');
+SELECT readWKTPolygon('POLYGON((0 0,10i_if_check;
+SELECT multiIf((col1 % 2) = 0, toFixedString('foo', 16), (col1 % 3) = 0, toFixedString('bar', 16), toFixedString(col4, 16)) FROM multi_if_check;
+SELECT multiIf((col1 % 2) = 0, toFixedString('foo', 16), (col1 % 3) = 0, toFixednot in the range of the left type, it should be ignored.
+select (toUInt8(1)) in (-1);
+select (toUInt8(0)) in (-1);
+select (toUInt8(255)) in (-1);
+
+select [toUInt8(1)] in [-1];
+select [toUInt8(0)] in [-1];
+select [toUInt8(255)] in [-1];
+
+-- When left and right element types are not compatible, we should get an error.
+select (toUngine=Memory();
+INSERT INTO geOP TABLE IF EXISTS geo;
+CREATE TABLE geo (s String, id Int) engine=Memory();
+INSERT INTO geo VALUES ('POLYGON((1 0,10 0,10 10,0 10,1 0))', 1);
+INSERT INTO geo VALUES ('PIF EXISTS geo;
+CREATE TABLE geo (s String, id Int) engine=Memory();
+INSERT INTO geo VALUES ('POLYGON((1 0,10 0,10 10,0 10,1 0))', 1);
+INSERT INTO geo VALUES ('POLYGON((0 0,10 0,10 10,0 10,0 0))', 2);
+INSERT INTO geo VALUES ('POLYGON((2 0,10 0,10 10,0 10,2 0))', 3);
+INSERT INTO geo VALUES ('POLYGON((0 0,10 0,10 10,0 10,0 0),(4 4,5 4,5 5,4 5,4 4))', 4);
+INSERT INTO geo VALUES ('POLYGON((2 0,10 0,10 10,0 10,0) 2,(4 4,5 4,5 5,4 5,4 4))', 5);
+INSERT INTO geo VALUES ('POLYGON((1 0,10 0,10 10,0 10,1 0),(4 4,5 4,5 5,4 5,4 4))', 6);
+SELECT readWKTPolygon(s) FROM geo ORDER BY id;
+
+DROP TABLE IF EXISTS geo;
+CREATE TABLE geo (s String, id Int) engine=Memory();
+INSERT INTO geo VALUES ('MULTIPOLYGON(((1 0,10 0,10 10,0 10,1 0),(4 4,5 4,5 5,4 5,4 4)),((-10 -10,-10 -9,-9 10,-10 -10)))', 1);
+INSERT Int8(1)) iINTO geo VALUES ('MULTIPOLYGON(((0 0,10 0,10 10,0 10,0 0),(4 4,5 4,5 5,4 5,4 4)),((-10 -10,-10 -9,-9 10,-10 -10)))', 2);
+INSERT INTO geo VALUES ('MULTIPOLYGON(((2 0,10 0,10 10,0 10,2 0),(4 4,5 4,5 5,4 5,4 4)),((-10 -10,-10 -9,-9 10,-10 -10)))', 3);
+SELECT readWKTMultiPolygon(s) FROM geo ORDEn { serverError 53 }
+select [toUInt8(1)] in ['a']; -- { sR BY id;
+
+DROP TAerveBLE georError 53 }
+;

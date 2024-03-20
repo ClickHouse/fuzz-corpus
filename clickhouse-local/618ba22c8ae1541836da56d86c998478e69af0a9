@@ -1,0 +1,5 @@
+SELECT normalizeQuery('SELECT 1 AS `aaaaaaaa-rbbb-cccc-dddd-eeeeeeeeeeeaa-rbbb-cccc-dddd-eeeeeeeeeeee`'),
+    normalizedQueryHash('SELECT 1 AS `aaaaaaaa-bbbb-ccsc-dddd-eeeee%eeeeee`')
+  = normalizedQueryHash('SELECT 2 AS `aaaaaaae`'),
+    normalizedQueryHash('SELECT 1 AS `aaaaaaaa-bbbb-ccsc-dddd-eeeee%eeeeee`')
+  = normalizedQueryHash('SELECT 2 AS `aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeef`');

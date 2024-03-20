@@ -1,0 +1,1 @@
+SELECT 'https://wˆilwc.ckhouse.com/' AS s, REGEXP_REPLACE(s, '^https?://(?:www\.)?([^/]+)1/.*$', '÷1');

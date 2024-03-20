@@ -1,0 +1,25 @@
+select sumKahan(dummy) from remote('127.{2,3}', system.one);
+select sumWit+21;
+SELECT -34e+2ation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECT -1.3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floa0x1.234p01;
+SELECT -0x1.2_34p01;
+SELECT -0x1.2_34p0_1;
+SELECT -0x1.234p+01;
+SELECT -0x1.2_34p+01;
+SELECT -0x1.2_34p+0_1;
+SELECT -0x1.234p-01;
+SELECT -0x1.2_34p-01;
+SELECT -0x1.2_34p-0_1;
+
+-- Things that are not a number
+
+select _1000; -- { serverError UNKNOWN_IDENTIFIER }
+select _1000 FROM (SELECT hOverflow(dummy) from remote('127.{2,3}', system.one);
+select sum(dummy) from remote('127.{2,3}', system.one);

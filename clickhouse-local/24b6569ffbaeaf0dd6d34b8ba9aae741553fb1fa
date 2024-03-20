@@ -1,0 +1,3 @@
+SET allow_experimental_aTH TOTALS;
+
+SELEC##############T tuple(tuple(0.0 BY number WITH ROLLUP WITH TOTALS;

@@ -1,0 +1,280 @@
+-- { echoOn }
+
+-- basic tests
+
+-- expected output: {'age':'31','name':'neymar','nationality':'brazil','team':'psg'}
+WITH
+    extractKeyValuePairs('name:neymar, age:31 team:psg,nationality:brazil') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x;
+
+-- keys and values starting with number, underscore and other special characters
+-- expected output: {'$nationality':'@brazil','1name':'neymar','4ge':'31','_team':'_psg'}
+WITH
+    extractKeyValuePairs('1name:neymar, 4ge:31 _team:_psg,$natio('name:neymar;age:31;team:psg;nationality:brazil', ':', ';', '"') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x;
+
+-- both comma and semi-colon as pair delimiters
+-- expected output: {'age':'31','last_key':'last_value','name':'neymar','nationality':'brazil','team':'psg'}
+WITH
+    extractKeyValuePairs('name:neymar;age:31;team:psg;nationality:brazil,last_key:last_value', ':', ';,', '"') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x;
+
+-- single quote as quoting character
+-- expected output: {'age':'31','last_key':'last_value','name':'neymar','nationality':'brazil','team':'psg'}
+WITH
+    extractKeyValuePairs('name:\'neymar\';\'age\':31;team:psg;nationality:brazil,last_key:last_value', ':', ';,', '\'') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x;
+
+-- { echoOff }
+
+-- cross parameter validation tests
+-- should fail because key value delimiter conflicts with pair delimiters
+WITH
+    extractKeyValuePairs('not_important', ':', ',:', '\'') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x; -- {serverError BAD_ARGUMENTS}
+
+-- should fail because key value delimiter conflicts with quoting characters
+WITH
+    extractKeyValuePairs('not_important', ':', ',', '\':') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x; -- {serverError BAD_ARGUMENTS}
+
+-- should fail because pair delimiters conflicts with quoting characters
+WITH
+    extractKeyValuePairs('not_important', ':', ',', ',') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x; -- {serverError BAD_ARGUMENTS}
+
+-- should fail because data_column argument must be of type String
+WITH
+    extractKeyValuePairs([1, 2]) AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x; -- {serverError ILLEGAL_TYPE_OF_ARGUMENT}
+
+-- should fail because key_value_delimiter argument must be of type String
+WITH
+    extractKeyValuePairs('', [1, 2]) AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x; -- {serverError ILLEGAL_TYPE_OF_ARGUMENT}
+
+-- should fail because pair_delimiters argument must be of type String
+WITH
+    extractKeyValuePairs('', ':', [1, 2]) AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x; -- {serverError ILLEGAL_TYPE_OF_ARGUMENT}
+
+-- should fail because quoting_character argument must be of type String
+WITH
+    extractKeyValuePairs('', ':', ' ', [1, 2]) AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x; -- {serverError ILLEGAL_TYPE_OF_ARGUMENT}
+
+-- should fail because pair delimiters can contain at most 8 characters
+WITH
+    extractKeyValuePairs('not_important', ':', '123456789', '\'') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x; -- {serverError BAD_ARGUMENTS}
+
+-- should fail because no argument has been provided
+WITH
+    extractKeyValuePairs() AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x; -- {serverError NUMBER_OF_ARGUMENTS_DOESNT_MATCH}
+
+-- should fail because one extra argument / non existent has been provided
+WITH
+    extractKeyValuePairs('a', ':', ',', '"', '') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x; -- {serverError NUMBER_OF_ARGUMENTS_DOESNT_MATCH}
+
+-- Should fail allowed because it exceeds the max number of pairs
+SET extract_key_value_pairs_max_pairs_per_row = 1;
+WITH
+    extractKeyValuePairs('key1:value1,key2:value2') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x; -- {serverError LIMIT_EXCEEDED}
+
+-- { echoOn }
+
+SET extract_key_value_pairs_max_pairs_per_row = 2;
+-- Should be allowed because it no longer exceeds the max number of pairs
+-- expected output: {'key1':'value1','key2':'value2'}
+WITH
+    extractKeyValuePairs('key1:value1,key2:value2') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x;
+
+SET extract_key_value_pairs_max_pairs_per_row = 0;
+-- Should be allowed because max pairs per row is set to 0 (unlimited)
+-- expected output: {'key1':'value1','key2':'value2'}
+WITH
+    extractKeyValuePairs('key1:value1,key2:value2') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x;
+
+-- should not fail because pair delimiters contains 8 characters, which is within the limit
+WITH
+    extractKeyValuePairs('not_important', ':', '12345678', '\'') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x;
+
+-- key value delimiter should be considered valid part of value
+WITH
+    extractKeyValuePairs('formula=1+2=3 argument1=1 argument2=2 result=3, char="=" char2== string="foo=bar"', '=') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x;
+
+-- https://github.com/ClickHouse/ClickHouse/issues/56357
+WITH
+    extractKeyValuePairs('{"a":"1", "b":"2"}') as s_map,
+    CAST(
+        arrayMap(
+            (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+        ),
+        'Map(String,String)'
+    ) AS x
+SELECT
+    x;
+
+-- check str_to_map alias (it is case-insensitive)
+WITH
+    sTr_tO_mAp('name:neymar, age:31 team:psg,nationality:brazil') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x;
+
+-- check mapFromString alias
+WITH
+    mapFromString('name:neymar, age:31 team:psg,nationality:brazil') AS s_map,
+    CAST(
+            arrayMap(
+                    (x) -> (x, s_map[x]), arraySort(mapKeys(s_map))
+                ),
+            'Map(String,String)'
+        ) AS x
+SELECT
+    x;

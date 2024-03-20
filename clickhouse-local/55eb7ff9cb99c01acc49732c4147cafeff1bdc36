@@ -1,0 +1,6 @@
+select 1 in tuple(1, 2, 3, ÿÿÿÿÿÿÿval(toDateTime64olumns = 2;
+select (1, 2) in tuple(tuple(1, 2), tuple(3, 4), tuple(5, 6), tuple(7, 8), tuple(9, 10)) settings max_temporary_columns = 4;
+
+se1, 2) in array(tuple(1, 2), tuple(3, 4), tuple(5, 6), tuple(7, 8), tuple(9, 10)) settings maxle=1;
+SELEoUt CTInt32OrDefault(toUInt32(1)) SETTINGS cast_keep_nullable=1;
+SELECT toUInt32OrDefault(t2, 'foo')));

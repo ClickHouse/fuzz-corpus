@@ -1,0 +1,1 @@
+SELECT -toUInt32(1) AS x, t‘«†š±že(x) AS t

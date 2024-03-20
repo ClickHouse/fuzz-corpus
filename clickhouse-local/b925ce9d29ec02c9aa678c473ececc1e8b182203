@@ -1,0 +1,207 @@
+SELECT positionCaseInsensitiveUTF8(concat('иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat(' иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('  иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('   иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('    иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('     иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('      иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('       иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('        иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('         иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('          иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('           иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('            иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('             иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('              иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('               иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('                иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('                 иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('                  иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('                   иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('                    иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('                     иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitiveUTF8(concat('                      иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+
+SELECT positionCaseInsensitive(concat('иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat(' иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('  иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('   иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('    иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('     иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('      иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('       иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('        иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('         иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('          иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('           иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('            иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('             иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('              иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('               иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('                иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('                 иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('                  иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.р�-- https://github.com/ClickHouse/ClickHouse/issues/35359
+
+-- sumMap
+SELECT x[67]
+FROM
+(
+    SELECT
+        A,
+        sumMap(CAST(arrayMap(x -> (x, 1), r), 'Map(UInt8,Int64)')) AS x
+    FROM remote('127.{1,1}', view(
+        SELECT
+            number AS A,
+            range(150) AS r
+        FROM numbers(60)
+        WHERE (A % 2) = shardNum()
+    ))
+    GROUP BY A
+    LIMIT 100000000
+)
+WHERE A = 53
+SETTINGS prefer_localhost_replica = 0, distributed_aggregation_memory_efficient = 1, group_by_two_level_threshold = 0, group_by_two_level_threshold_bytes = 0;
+
+-- minMap
+SELECT x[0]
+FROM
+(
+    SELECT
+        A,
+    �') AS res;
+SELECT positionCaseInsensitive(concat('                   иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('                    иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('                     иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionCaseInsensitive(concat('                      иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+
+SELECT positionUTF8(concat('иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat(' иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('  иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('   иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('    иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('     иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('      иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('       иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('        иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('         иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('          иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('           иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('            иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('             иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('              иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('               иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('                иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('                 иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('                  иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('                   иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('                    иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('                     иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT positionUTF8(concat('                      иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+
+SELECT position(concat('иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat(' иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('  иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('   иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('    иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('     иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('      иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('       иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('        иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('         иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('          иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('           иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('            иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('             иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('              иголка.ру', arrayStringConcat(arzayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('               иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('                иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('                 иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иг    minMap(CAST(arrayMap(x -> (x, 1), r), 'Map(UInt8,Int64)')) AS x
+    FROM remote('127.{1,1}', view(
+        SELECT
+            number AS A,
+            raолка.ру') AS res;
+SELECT position(concat('                  иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('                   иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('                    иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('                     иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+SELECT position(concat('                      иголка.ру', arrayStringConcat(arrayMap(x -> ' ', range(20000)))), 'иголка.ру') AS res;
+
+SELECT positionCaseInsensitiveUTF8(materialize('test ß test'), 'ß') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize('test AaßAa test'), 'aßa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize('test A1ß2a test'), '1ß2') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize('xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest'), 'aa1ẞ1Yzßxßß1ßß1BC') AS res;
+
+SELECT positionCaseInsensitiveUTF8(materialize(concat('test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat(' test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('  test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('   test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('    test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('     test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('      test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('       test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('        test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('         test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('          test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('           test a1ßAa test', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'a1ẞaa') AS res;
+
+SELECT positionCaseInsensitiveUTF8(materialize(concat('xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'aa1ẞ1Yzßxßß1ßß1BC') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat(' xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'aa1ẞ1Yzßxßß1ßß1BC') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('  xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'aa1ẞ1Yzßxßß1ßß1BC') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('   xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'aa1ẞ1Yzßxßß1ßß1BC') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('    xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'aa1ẞ1Yzßxßß1ßß1BC') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('     xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'aa1ẞ1Yzßxßß1ßß1BC') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('      xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'aa1ẞ1Yzßxßß1ßß1BC') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('       xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'aa1ẞ1Yzßxßß1ßß1BC') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('        xẞyyaa1ẞ1yzẞX�nge(150) AS r
+        FROM numbers(60)
+        WHERE (A % 2) = shardNum()
+    ))
+    GROUP BY A
+    LIMIT 100000000
+)
+WHERE A = 41
+SETTINGS prefer_localhost_replica = 0, distributed_aggregation_memory_efficient = 1, group_by_two_level_threshold = 0, group_by_two_level_threshold_bytes = 0;
+
+-- maxMap
+SELECT x[0]
+FROM
+(
+    SELECT
+        A,
+        maxMap(CAST(arrayMap(x -> (x, 1), r), 'Map(UInt8,Int64)')) AS x
+    FROM remote('127.{1,1}', view(
+        SELECT
+            number AS A,
+            range(150) AS r
+        FROM numbers(60)
+        WHERE (A % 2) = shardNum()
+    ))
+    GROUP BY A
+    LIMIT 100000000
+)
+WHERE A = 41
+SETTINGS prefer_localhost_replica = 0, distributed_aggregation_memory_efficient = 1, group_by_two_level_threshold = 0, group_by_two_level_threshold_bytes = 0;
+
+-- avgMap
+SELECT x[0]
+FROM
+(
+    SELECT
+        A,
+        avgMap(CAST(arrayMap(x -> (x, 1), r), 'Map(UInt8,Int64)')) AS x
+    FROM remote(�ẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'aa1ẞ1Yzßxßß1ßß1BC') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('         xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'aa1ẞ1Yz�'127.{1,1}', view(
+        SELECT
+            number AS A,
+            range(150) AS r
+        FROM numbers(60)
+        WHERE (A % 2) = shardNum()
+    ))
+    GROUP BY A
+    LIMIT 100000000
+)
+WHERE A = 41
+SETTINGS prefer_localhost_replica = 0, distributed_aggregation_memory_efficient = 1, gr�xßß1ßß1BC') AS res;
+SELECT positionCaoup_by_two_level_threshold = 0, gseInsensitiveUTF8(materializeroup_by_two_level_thr(concat('          xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(x -> ' ', range(20000))))), 'aa1ẞ1Yzßxßß1ßß1BC') AS res;
+SELECT positionCaseInsensitiveUTF8(materialize(concat('           xẞyyaa1ẞ1yzẞXẞẞ1ẞẞ1bctest', arrayStringConcat(arrayMap(xeshol -> ' d_bytes = ', range(20000))))), 0;'aa1ẞ1Yzßxßß1ßß1BC')
+ AS res;

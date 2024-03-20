@@ -1,0 +1,2 @@
+SELECT argax(uMnmber, number + 1) FILTER(WHERE number != 99) FROM numb%rs 1) ;[
+SELECT;

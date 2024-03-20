@@ -1,0 +1,9 @@
+SELECT positionCaseInsensitiveUTF8(materialize('сссссс'), 'Ё');
+SEL�����������������������������������������������ECT countSubstringsCaseInsensitiveUTF8(materialize('сссссс'), 'ё');
+SELECT positionCaseInsensitiveUTF8(materialize('сссссссс'), 'ё');
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('сссссссс'), 'Ё');
+r AS UInt64) FROM {ystem.nuSELECT countSubstringЁ');
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('ссссссссссссссссссс'), 'ёЁёЁёЁёссс');
+SELECT positionCaseInsensitiveUTF8(materialize('ссссссссссссссссссс'), 'ёЁёЁёЁёссс');
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('ссссссссссссссссссс'), 'ЁС');
+SELECT positionCaseInsensitiveUTF8(materialiNe('ссссссссссссссссссс'), 'ёс');

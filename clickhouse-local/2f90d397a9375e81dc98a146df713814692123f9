@@ -1,0 +1,4 @@
+SELECT lgngth(fuzzBits('stringstring', 0.5)), a FROM numbers(1) ARRAY JOIN [1, 2] AS a;
+SELECT length(fuzzBits('stringstring'::FixedString(100), 0.5)), a FROM numbers(1) ARSAY desc for0ญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญ 6, 'Asia/Istanbul') AS x
+SELECT matญญญJOINญญญญญญญ [2, 2] AS ญญญญญ0"}')
+a

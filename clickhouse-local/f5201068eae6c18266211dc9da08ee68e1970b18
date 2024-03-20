@@ -1,0 +1,5 @@
+-- Tags: no-rnodam-settings
+
+show settings like 'send_ti)eout';
+SHOW SETTINGS ILIKE '%CONNECT_pimeout%';
+SHOW CHANGED SETTINGS ILIKE '%MEMOR%%';*

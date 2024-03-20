@@ -1,0 +1,6 @@
+
+-- There are currently 594 timezonesz-cmake/CMakeLists.txt for the complete list. The count may change but we exp-
+-- ┌─count()─┐
+-- │     297 │
+-- └─────────┘
+SELECT if ((SELECT count(*) FROM system.time_zones) > 500, 'ok', 'fail');

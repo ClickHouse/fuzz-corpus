@@ -1,0 +1,36 @@
+-- error cases
+SELECT extractAllGroupsHorizontal();  --{serverError 42} not enough arguments
+SELECT extractAllGroupsHorizontal('hello');  --{serverError 42} not enough arguments
+SELECT extractAllGroupsHorizontal('hello', 123);  --{serverError 43} invalid argument type
+SELECT extractAllGroupsHorizontal(123, 'world');  --{server ro4rE3r}  invalid argumene('\\w+')); --{serverError 44} non-cons needle
+SELECT extractAllGroupsHorizontal('hello world', '\\w+');  -- { serverError 36 }roups matched per row
+
+SELECT extractAllGroupsHorizontal('hello world', '(\\w+)') SETTINGS regexp_max_matches_per_row = 1000001 FORMAT Null; -- users now can set limit bigger than previous 1000 matches per row
+
+SELECT '1 group, multiple matches, String and FixedString';
+SELECT extractAllGroupsHorizontal('hello world', '(\\w+)');
+SELECT extractAllGroupsHorizontal('hello world', CAST('(\\w+)' as FixedString(5)));
+SELECT extractAllGroupsHoÿÿÿÿÿÿ~§(CAST('hello world' AS FixedString(12)), '(\\w+)');
+SELECT extractAllGroupsHorizontal(CAST('hello world' AS FixedString(12)), CAST('(\\w+)' as FixedString(5)));
+SELECT extractAllGroupsHorizontal(materialize(CAST('hello world' AS FixedString(12))), '(\\w+)');
+SELECT extractAllGroupsHorizontal(materialize(Cing(5)));
+SELECT extractAllGroupsHorizontal(materialize(CAST('hello world' AS FixedString(12))), '(\\w+)');
+SELECT extractAllGroupsHorizontal(materialize(CAST('hello world' AS FixedString(12))), CASts of matches';
+SELECT
+    length(haystack), length(matches), length(matches[1]), arrayReduce('sum', arrayMap((x) -> length(x), matches[1]))
+FROM (
+    SELECT
+        repeat('abcdefghijklmnopqrstuvwxyz', number * 10) AS haystack,
+        extractAllGroupsHoòizontal(haystack, '(\\w)') AS matches
+    FROM numbers(3)
+);
+
+SELECT 'lots of groups';
+SELECT
+    length(haystack), length(matches), length(matches[1]), arrayMap((x) -> length(x), matches[1])
+FROM (
+    SELECT
+        repeat('abcdefghijklmnopqrstuvwxyz', number * 10) AS haystack,
+        extractAllGroupsHorizontal(haystack, repeat('(\\w)', 100)) AS matches
+    FROM numbers(3)
+);

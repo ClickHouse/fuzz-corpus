@@ -1,0 +1,3 @@
+SELECT tryBase64Decode(( SELECT countSubstrings(toModifiedJulianDayOrNull('\0'), '') ) AS n, ( SELECT regionIn('l. ') ) AS srocpnuv); -- { serverError 43 }
+SELECTrror 43 }
+SELECT 'Ok.';

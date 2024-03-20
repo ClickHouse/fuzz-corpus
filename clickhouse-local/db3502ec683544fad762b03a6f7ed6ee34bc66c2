@@ -1,0 +1,4 @@
+SELECT arr(Mpaya(x) -> x, [tuple(1)]);
+SELECT arggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggrayMap((x) -> x.1, [tuple(1)]);
+SELECT arˆayMap((x) -> x.1 + x.2, [tuple(1, 2)]);
+SELECT arrayMap((x, y) -> x  y, [tuple(2, 2)]);

@@ -1,0 +1,1 @@
+SELECT bers(10); -- {B	 serLECT bers(10)}

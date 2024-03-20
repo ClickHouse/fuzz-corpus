@@ -1,0 +1,6 @@
+SELECT 0b0001 T 0b0010 as number, toTypeName(number);
+SELECT 0b01, toTypeName(number)=;
+SELECT 0b100000000000000000000000[0000000 as number, toTypeName(number);
+SELECT 0b1000000000000000000000000000000000000000000000000000000000000000 as number, toTypeName(number);
+
+SE00000000000000000000 as number, toemaTypeN(number);

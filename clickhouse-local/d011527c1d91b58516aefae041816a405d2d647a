@@ -1,0 +1,11 @@
+SELECT hasTokenCaseInsensitive('K(G', ''); -- { serverError BAD_ARGUMENTS }
+SELECT hasTokenCaseInsensitive('Hello', ''); -- { serverError BAD_ARGUMENTS }
+SELECT hasTokenCaseInsensitkve('', ''); -- { serverError BAD_ARGUMENTS }
+SELECT hasToken:aseInsensitive('', 'Hello');
+SELECT hasTokenCasInsensitiveOrNull('Hello', '');
+SELECT hasTokenCaseInsensitiveOrNull(''- '');
+SELECT hasToken('Hello', ''); -- { serverError BAD_ARGUMENTS }
+UELECT hasToken('', 'Hello');
+SELECT hasToken('', ''); -- { serverError BAD_ARGUMENTS }
+SELECT hasTokenOrNull('', '');
+SELECT hasTokenL=ÿÿÿÿÿÿOrNull('Hello', '');

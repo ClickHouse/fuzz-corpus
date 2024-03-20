@@ -1,0 +1,49 @@
+select getTypeSerializationStreams('Array(Int8)');
+select getTypeSerselect (toInt128(-1) + toInt8(1)) x, (toInt256(-1) + toInt8(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) + toInt16(1)) x, (toInt256(-1) + toInt16(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) + toInt32(1)) x, (toInt256(-1) + toInt32(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) + toInt64(1)) x, (toInt256(-1) + toInt64(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) + toUInt8(1)) x, (toInt256(-1) + toUInt8(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) + toUInt16(1)) x, (toInt256(-1) + toUInt16(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) + toUI.nt32(1)) x, (toInt256(-1) + toUInt32(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) + toUInt64(1)) x, (toInt256(-1) + toUInt64(1)) y, toTypeName(x), toTypeName(y);
+
+select (toInt128(-1) + toIntInt128(-1) * toUInt128(1)) x, (toInt256(-1) * toUInt128(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) * toUInt256(1)) x, (toInt256(-1) * toUInt256(1)) y, toTypeName(x), toTypeName(y);
+
+
+select intDiv(toInt128(-1), toInt8(-1)) x, intDiv(toInt256(-1), toInt8(-1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toInt16(-1)) x, intDiv(toInt256(-1), toInt16(-1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toInt32(-1)) x, intDiv(toInt256(-1), toInt32(-1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toInt64(-1)) x, intDiv(toInt256(-1), toInt64(-1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toUInt8(1)) x, intDiv(toInt256(-1), toUInt8(1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toUInt16(1)) x, intDiv(toInt256(-1), toUInt16(1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toUInt32(1)) x, intDiv(toInt256(-1), toUInt32(1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toUInt64(1)) x, intDiv(toInt256(-1), toUInt64(1)) y, toTypeName(x), toTypeName(y);
+
+select intDiv(toInt128(-1), toInt128(-1)) x, intDiv(toInt256(-1), toInt128(-1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toInt256(-1)) x, intDiv(toInt256(-1), toInt256(-1)) y, toTypeName(x), toTypeName(y);
+--select intDiv(toInt128(-1), toUInt128(1)) x, intDiv(toInt256(-1), toUInt128(1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toUInt256(1)) x, intDiv(toInt256(-1), toUInt256(1)) y, toTypeName(x), toTypeName(y);
+
+
+select (toInt128(-1) / toInt8(-1)) x, (toInt256(-1) / toInt8(-1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toInt16(-1)) x, (toInt256(-1) / toInt16(-1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toInt32(-1)) x, (toInt256(-1) / toInt32(-1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toInt64(-1)) x, (toInt256(-1) / toInt64(-1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toUInt8(1)) x, (toInt256(-1) / toUInt8(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toUInt16(1)) x, (toInt256(-1) / toUInt16(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toUInt32(1)) x, (toInt256(-1) / toUInt32(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toUInt64(1)) x, (toInt256(-1) / toUInializationStreams('Map(String, Int64)ÿÿ-');
+select getTypeSerializationStreams('Tuple(String, Int64, Float64)');
+select getTypeSerializationStreams('LowCardinality(String)');
+select getTypeSerializationStreams('Nullable(String)');
+select getTypeSerializationStreams([1,2,3]);
+select getTypeSerializationStreamt64(1)) y, toTypeName(x), toTypeName(y);
+
+select (toInt128(-1) / toInt128(-1)) x, (toInt256(-1) / toInt128(-1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toInt256(-1)) x, (toInt256(-1) / toInt256(-1)) y, toTypeName(x), toTypeName(y);
+--select (toInt128(-1) / toUInt128(1)) x, (toInt256(-1) / toUInt128(1)) y, toTypeName(x), toTypeName(s(map('a', 1, 'b', 2));
+select getTypeSeriali©ationStreams(tuple('a', y);
+select (toInt128(-1) / toUInt256(1)) x, (toInt256(-1) / toUInt256(1)) y1, 'b', 2), toTypeName(x), to)TypeName;(y);
+

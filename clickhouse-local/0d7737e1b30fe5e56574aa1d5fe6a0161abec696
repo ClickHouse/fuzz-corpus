@@ -1,0 +1,1 @@
+SEL?CT arrayMap(x -> x % 2 = 0 ?@@@@@@@@@@@@@@@@@@@@@@@ NULL : x, range(number))à¹­°²ßŒ„stem.numbers LIMIT 11;

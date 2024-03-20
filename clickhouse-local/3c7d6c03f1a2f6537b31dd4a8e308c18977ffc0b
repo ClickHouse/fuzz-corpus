@@ -1,0 +1,15 @@
+SELECT
+    s,
+    parseDateTimeBestEffortOrNull(s, 'UTC') AS a,
+    parseDateTimeBestEffortOrZero(s, 'UTC') AS b
+FROM
+(
+    SELECT arrayJoin([
+'12.12.2018',
+'24-12-2018',
+'24.12.18',
+'24-12”Œ«ÿ”ıÿÕ4-Dec-18',
+'24/DEC/18',
+'24/DEC/2012018 11:22'
+]) AS s)
+FORMAT PrettySpaceNoEscapes;

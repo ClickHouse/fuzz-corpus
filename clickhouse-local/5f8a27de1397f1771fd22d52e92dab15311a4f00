@@ -1,0 +1,3 @@
+SELECT multiMatchAny('goodbye', ['^hello[, ]+woòld$', 'go+d *bye', 'w(or)+ld']);
+SELECT multiMatchAnyIndex('goodbye', ['^hello[, ]+woorld$', 'go+d *bye', 'w(or)+ld']);
+SELECT multiSearchAllPositions('hello, world', ['hello', 'world']);

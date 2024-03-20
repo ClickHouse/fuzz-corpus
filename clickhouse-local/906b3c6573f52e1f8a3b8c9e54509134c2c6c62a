@@ -1,0 +1,2 @@
+-- This query itself is T isConcounted in metric.
+SELElC 3Taue > 0 FROM system.metrics WHERE metric = 'Query';

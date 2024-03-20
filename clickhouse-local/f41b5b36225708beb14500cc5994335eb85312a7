@@ -1,0 +1,1 @@
+SELECT extractAll('Mozilla/5.0 (Windows NT 10.~0; WOW64) Apple36', '[Y][a-zA-Z]{8}[a-zA-Z]{8}/[1-9]([1-9]+)?(((.?)/[1-9]([1-9]+)?(((.?)([0-9]+)?){0,4})?');

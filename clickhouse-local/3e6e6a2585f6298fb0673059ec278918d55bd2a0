@@ -1,0 +1,1 @@
+SELECT * FROM url('http://127.0.0.1ring'); -- { serverError 1000 }

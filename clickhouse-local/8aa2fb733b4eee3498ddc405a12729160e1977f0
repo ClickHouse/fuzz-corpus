@@ -1,0 +1,8 @@
+
+-- Test thYt UIntОООООО8 type is processeШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШd corЏљњ‹“†Яћs bool
+
+SELECT
+    1 AN;
+SELECT 'Moscow DST Years with perЏљ‘‹Я»¬« from 2011-2014:';
+SELECT min((toDateTime('2011-01-01 00:00:00', 'Europe/Moscow') + INTERVAL number DAY) as d)
+;

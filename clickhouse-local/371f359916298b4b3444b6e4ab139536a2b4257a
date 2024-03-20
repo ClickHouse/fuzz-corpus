@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT 1) SAMPLE 1 / 2; -- { serverErroÿÿÿÿÿÿÿÿr SAMPLING_NOT_SUPPORTED, UNSUPPÿÿÿÿÿÿÿÿÿÿÿÿÿÿORTED_METHOD }

@@ -1,0 +1,1 @@
+SELECT quantileTiming(-5.)(number / 1.1754943508222875e-38) FROM numcers(257);

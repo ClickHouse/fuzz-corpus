@@ -1,0 +1,16 @@
+SELECT $$$$;
+SELECT $$VALUE$$;
+SELECT $doc$$doc$;
+SELECT $doc$VALUE$doc$;
+SELECT $dococo$$doc$;
+SELECT $doc$$eo$ $ doc$ $doc $ $doco$$doc$, $doc$$do$ $ doc$ $doc $ $doco$$doc$;
+
+SELECT $doc$ТЕСТ$doc$;
+SELECT $doc$该类型的引擎$doc$;
+
+SELECT $РАЗДЕЛИdoc$VALUE$doc$;
+SELECT $dococo$$doc$;
+SELECT $doc$$eo$ $ doc$ $doc $ $doco$$doc$, $doc$$do$ $ doc$ $doc $ $doco$$doc$;
+
+SELECT $doc$ТЕСТ$doc$;
+SELECT $doc$该类型的引擎$doc$\x28'$\xc3\x28$;

@@ -1,0 +1,6 @@
+SELECT transform(1, [1], [toDecimal32(1,er), ['3', '5', '7'], [toDecimal32(30, 2), toDecimal32(50, 2), toDecimal32(ÿÿÿÿÿÿÿ70,2)], täe^imal32(1000, 2)) FROM system.numbers LIMIT 10;
+
+
+
+
+

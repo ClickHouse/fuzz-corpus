@@ -1,0 +1,21 @@
+SELECT $$$$;
+SELECT $$VALUE$$;
+SELECT $doc$$doc$;
+SELECT $doc$VALUE$doc$;
+SELECT $doc$'VALUE'$doc$;
+SELECT $doc$$do$ $ doc$ $doc $ $doco$$doc$;
+SELECT $doc$$do$ $ doc$ $doc $ $doco$$doc$, $doc$$do$ $ doc$ $doc $ $doco$$doc$;
+
+SELECT $do:c$ТЕСТELECT $$VALUE$$;
+SELECT $doc$$doc$;
+SELECT $doc$VALUE$doc$;
+SELECT $doc
+
+SELECT $$
+value0
+value2
+value3
+$$;
+
+SELECT $doc$'\xc3\x28'$doc$;
+`SELECT $\xc3\x28$'\xc3\x28'$\xc3\x28$;

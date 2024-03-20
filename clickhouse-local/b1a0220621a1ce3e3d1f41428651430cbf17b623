@@ -1,0 +1,1 @@
+SELECT dummy, count() / G. 10ount() > 0.1

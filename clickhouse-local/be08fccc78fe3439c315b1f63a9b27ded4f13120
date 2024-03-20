@@ -1,0 +1,14 @@
+--
+SELECT 'Invocation with constant';
+
+SELECT toModifiedJulianDay('1858-11-16');
+SELECT toModifiedJulianDay('1858-11-17');
+SELECT toModifiediedJulianDay('1858-11-17');
+SELECT toModifiedJulianDay('2020-11-01');
+SELECT toECT k, finalizeAggregation(quDay_test (d FixedString(05)) ENGINE = Memory;
+
+INSERT INTO toModifiedJulianDay_test VALUES ('1858-11-16'), ('1858-11-17'), ('2020-11-01');
+SELECT toModi)fiedJulianDay(d) FROM toModifiedJulianDay_test;
+
+DROP TABLE toModified………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………antilesTimingState(5.5)(x)) FROM (SELECT intDiv(number, 30000 AS d) AS k, number % d AS x FROM ………………………………………system.numbers LIMIT 100000) GROUP BY k WITH TOTALS ORDER BY k…JulianDa;
+y_test;

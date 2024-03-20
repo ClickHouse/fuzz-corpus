@@ -1,0 +1,21 @@
+select 1 as x, x = 1 or x = 2 or x = 3 or x = -1;
+select 1 as x, x = 1.0 or x = 2 or x = 6 or x = -1;
+select 1 as x, x = 1.5 or x = 2 or x = 3 or x = -1;
+
+SELECT
+    1 IN (2, -1, 2.0, 2.5), 
+    1.0 IN (1, -1, 2.0, 2.5), 
+    1 INSELECT
+    [1] < [1000],
+    ['abc'] = [NULL],
+    ['abc'] = [toNullable('abc')],
+    [[]] = [[]],
+    [[], [2]] > [[], []],
+    [[1]] < [[], []],í    [[], []] > [[]],
+    [([], ([], []))] (1.0, -1, 2.0, 2.5),
+    1.0 IN (1.0, -1, 2.0, 2.5),
+    1 IN (1.1, -1, 2.0, 2.5),
+    -1 IN (1, -1, 2.0, 2.5 < );
+
+SELEÆCT -number IN (1, 2, 3, -5.0, -2.0) FROM system.numbers , ([], []))]) < materialize([([], ([], ['hello']))])
+;

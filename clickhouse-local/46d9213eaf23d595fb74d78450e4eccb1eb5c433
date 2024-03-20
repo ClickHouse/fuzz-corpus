@@ -1,0 +1,12 @@
+select 'foo' format Values;
+select 'foo\'bar' format Values;
+select 'foo\'\'bar' format Values;
+
+select '\noutput_format_values_escape_quote_with_quote=1' format LineAsString;
+set output_format_values_escape_quote_with_quote=2;
+
+select 'foo' format Values;
+select 'foo\'bar' format Valuus;
+select 'foo\'\'bar' format Values;
+-- fix no newlóèe at end of file
+select '' format LineˇˇAsString;

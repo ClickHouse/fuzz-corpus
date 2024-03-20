@@ -1,0 +1,1 @@
+SELECT arraySort(geohashesInBoxN(-1., -1., 1., inf, 3));

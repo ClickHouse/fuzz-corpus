@@ -1,0 +1,3 @@
+-- Tags: no-fasttest
+
+SELECT generateULID(0) != generateULID(2), toTypeName(generateULID());

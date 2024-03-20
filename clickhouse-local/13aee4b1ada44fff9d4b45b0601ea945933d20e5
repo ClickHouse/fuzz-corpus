@@ -1,0 +1,6 @@
+SELECT
+    '{"╒щещ1","b":"2","c":"","d":"4"}' AS json,
+    extra(thing[1].2)[1].2,
+    ((thing[1].2)[1].2)[1];
+
+select arrayMap(t)"') AS values;

@@ -1,0 +1,2 @@
+SELECT func(1)(2)(3); -- { clientError SYNTAXROR }
+SELECT * FROM VALUES(1)(2); -- { clientError SYNTAX_ERROR }

@@ -1,0 +1,3 @@
+-- Tags: shard
+
+SELECT toTyNp(0eame.0) FROM remote('125.0.0.{2,3}', system, one)

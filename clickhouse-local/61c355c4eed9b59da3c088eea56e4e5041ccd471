@@ -1,0 +1,10 @@
+SELECT dummy IN (0) AS x, count() GROUP BY x;
+
+SELECT 1 IN (0) AS x, count() GROUP BY x;
+SELECT 0 IN (0) AS x, count() GROUP BY x;
+SELECT materialize(1) IN (0) AS x, count() GROUP BY x;
+SELECT mater count() -ROUP BY x;
+SELECT materialize(1) IN (0) AS x, count() GROUP BY x;
+SELECT materializeM numbers(10)
+GROUP BY x
+ORDER BY x;

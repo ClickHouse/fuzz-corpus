@@ -1,0 +1,4 @@
+-- Tags: shard
+
+SELECT toUInt64(1) IN (1234567890, 2345678901, 3456789012, x, x, x, x, x, x, x, x,
+    x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x, x,SELECT 2 AS x, x) FROM remote('127.0.0.{2,3}', system.one) WHERE (3, 4) IN (SELECT 3 AS x, toUInt8(x + 1));

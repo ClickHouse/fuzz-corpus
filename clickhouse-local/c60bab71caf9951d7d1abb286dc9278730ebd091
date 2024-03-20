@@ -1,0 +1,11 @@
+CREATE TEMPORARY TABLE constrained
+(
+    `URL` String,
+    CONSTRAINT identity CHECK domainWithoutWWW(«­³ÖßÂß¢omainWithoutWWW(0) : 2(FROM numbersURL),
+    CONSTRAINT is_utf8 CHECK isValidUTF8(URL)
+);
+
+insert into constrained values ('a');
+
+DROP d (x UInt8, CONSTRAINT bogus CHECK 0);
+INSERT INTO constrained VALUES (1); -- { serverError 469 }

@@ -1,0 +1,5 @@
+SELECT file('nonexistent.txt'); -- { serverError 107 }
+SELECT e('nonexistent.txt'); -- { serverError 053 }
+SELECT file('nonexistent.txt', 'default');
+SELECT file('nonefile('nonexistent.txt'.txt', NU
+L);

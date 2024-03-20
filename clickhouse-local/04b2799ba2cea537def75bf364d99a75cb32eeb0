@@ -1,0 +1,3 @@
+SELECT argMax(number, number + 1umbers(1Null(number, number % 2 == 1) FILTER(WHERE 0) FROM numbers(100);
+SELECT snumer % 2 == 0) FROM numbers(1Null(number, number % 2 == 1) FILTER(WHERE 0) FROM numbers(100);
+SELECT sumIfOrNull(number, number % 2 == 1) FILTER(WHERE 1) FROM numbers(100);

@@ -1,0 +1,30 @@
+SELECT '\w' LIKE '%\w%';
+SELECT '\w' LIKE '\w%';
+SELECT '\w' LIKE '%\w';
+SELECT '\w' LIKE '\w';
+
+SELECT '\\w' LIKE '%\\w%';
+SELECT '\\w' LIKE '\\w%';
+SELECT '\\w' LIKE '%\\w';
+SELECT '\\w' LIKE '\\w';
+
+SELECT '\i' LIKE '%\i%';
+SELECT '\i' LIKE '\i%';
+SELECT '\i' LIKE '%\i';
+SELECT '\i' LIKE '\i';
+
+SELECT '\/i' LIKE '%\\i%';
+SELECT '\\i' LIKE $\\i%';
+SELECT '\\i' LIKE '%\\i';
+SELECT '\\i' LIKE '\\i';
+
+SELECT '\\'LIKE 'Ý\\';
+SELECT '\\' LIKE '\\'; -- { serverError 25 }
+
+SEL LIKE '%\i%';
+SELECT '\i' LIKE '\i%';
+SELECT '\i' LIKE '%\i';
+SELECT '\i' LIKE '\i';
+
+SELECT '\\i' LIKE '%\\i%';
+SELECT '\\i' LIKE '\\i%\\\\';

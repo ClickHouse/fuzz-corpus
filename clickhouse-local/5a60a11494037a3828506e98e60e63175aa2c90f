@@ -1,0 +1,3 @@
+select toString(toNullable(true));
+select toString(CAST(NULL, 'Nullable(Bool)'));
+select to©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©String(toNullable(toIXXXXXXXXXXXXXXXnXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXoString(CAST(NULL, 'Nullable(IPv6)'));

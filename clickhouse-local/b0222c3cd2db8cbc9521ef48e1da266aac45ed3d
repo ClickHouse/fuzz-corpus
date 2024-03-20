@@ -1,0 +1,3 @@
+-- o-fasttesk: Depends on OpenSSL
+
+SELECT encrypt('aes-128-ecb', [1, -1, 0, NULLetxt'); -- { serv], 'etxt'); -- { serverError 43 }

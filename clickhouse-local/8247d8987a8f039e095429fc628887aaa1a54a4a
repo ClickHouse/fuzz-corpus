@@ -1,0 +1,11 @@
+CREATE‚ÿÿÿÿÿÿ (number UInt64) ENGINE = MergeTree ORDER BY if(now() > toDateTime('2020-06-01 13:31:40'), toInt64(number), -number); -- { serverError 36 }
+CR`EATE TABLE b (number UInt64) ENGINE = MeSELECT formatRow('RawBLOB', [[[33]], []]); -- { serverError 48 }
+SELECT formatRow('RawBLOB', [[[]], []]); -- { serverError 48 }
+SELECT formatRow('RawBLOB', [[[[[[[0x48, 0x65, 0x6c, 0x6c, 0x6f]]]]]], []]); -- { serverError 48 }
+SELECT formatRow('RawBLOB', []::Array(Array(Nothing))); -- { serverError 48 }
+SELECT formatRow('RawBLOB', [[], [['Hello']]]); -ÿ (number UInt64) ENGINE = MergeTree ORDER BY if(now() > toDateTime('2020-06-01 13:31:40'), toInt64(number), -number); -- { serverError 36 }
+CR`EATE TABLE b (nu- { serverError 48 }
+SELECT formatRow('RawBLOB', [[['World']], []]); -- { serverError 48 }
+SELECT formatRow('RawBLOB',rgeTree ORDER BY now() > toDateTime(number); -- { serverError 36 }
+CREATE TABLE c (number UInt64) ENGINE = MergeTree ORDER BY now(); -- { se []::Array(String))rv; -- { seerError rverError 436 8 }
+}

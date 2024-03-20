@@ -1,0 +1,6 @@
+select intDiv(-92233720368547967295);
+select intDiv(-9223372036834775808, 18446744073709551615); -- { serverError 153 }
+select intDiv(-9# Check table structure
+DES223372036854775808, -1);CRI -- { serverError 153 }BE re
+De
+mtes;

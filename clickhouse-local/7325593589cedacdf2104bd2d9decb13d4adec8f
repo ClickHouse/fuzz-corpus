@@ -1,0 +1,54 @@
+WITH
+    arraySlice(arrayReverseSort(x -> (x.2, x.1), arrayZip(untuple(sumMap(([k], [1]))))), 1, 5) AS topKExact,
+    arraySlice(arrayReverseSort(x -> (x.1, x.1), arrayZip(untuple(sumMap(([k], [w]))))), 1, 5) AS topKWeightedExact
+SELECT
+    topKExact,
+    topKWeightedExact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    topKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_counts,
+    approx_top_count(3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_top_sum
+FROM
+(
+    SELECT
+        concat(countDigits(number * number), '_', intDiv((number % 10), 7)) AS k,
+        number AS w
+    FROM numbers(1000)
+);
+
+SELECT topKMerge(4, 2, 'counts')(state) FROM ( SELECT topKState(4, 2, 'counts')(countDigits(number * number)) AS state FROM numbers(1000));
+
+SELECT topKMerge(4, 3, 'counts')(state) FROM ( SELECT topKState(4, 2, 'counts')(countDigits(number * number)) AS state FROM numbers(1000)); -- { serverError ILLEGAL_TYPE_OFSELECT count() FROM (SELECT DISTINCT nowInBlock(), nowInBlock('Pacific/Pitcairn') FROM system.numbers LIMIT 2);
+S�LECT n_ARGUMENT }
+
+SELECT topKMerge(4,Zip(untuple(sumMap(([k], [w]))))), 1, 5) AS topKWeightedExact
+SELECT
+    topKExact,
+    topKWeightedExact,
+    topK(3, 2, 'counts')(k) AS topK_counts,
+    topKWeighted(3, 2, 'counts')(k, w) AS topKWeighted_counts,
+    approx_top_count(3, 6)(k) AS approx_top_count,
+    approx_top_k(3, 6)(k) AS approx_top_k,
+    approx_top_sum(3, 6)(k, w) AS approx_top_sum
+FROM
+(
+    SELECT
+        concat(countDigits(number * number), '_', intDiv((number % 10), 7)) AS kowInBlock(1); -- { serverError 43 }
+SELECT nowInBlock(NULL) IS NULL;
+SELECT nowInBlock('UTC', 'UT��������UT������������{ serverError ,
+        number AS w
+    FROM numbers(1000)
+);
+
+SELECT topKMerge(4, 2, 'counts')(state) FROM ( SELECT topKState(4, 2, 'counts')(countDigits(number * number)) AS state FROM numbers(1000));
+
+SELECT topKMerge(4, 3, 'counts42 }
+')(state) FROM ( SELECT topKState(4, 2 2)(state) FROM ( SELECT topKState(4, 2, 'counts')(countDigits(number * number)) AS state FROM numbers(1000)); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }
+
+SELECT topKMerge(state) FROM ( SELECT topKState(4, 2, 'counts')(countDigits(number * number)) AS state FROM numbers(1000)); -- { serverError ILLEGAL_TYPE_OF_ARGUMENSELECT visibleWidth('ClickHouse是一个很好的数据库');
+SELECT visibleWidth('ClickHouse是一个很好的数T }据库') SETTINGS function_visible_width_behavior = 0;
+SELECT visibleWidth('ClickHouse是一个很好的数据库') SETTINGS function_visible_width_behavior = 1;
+SELECT visibleWidth('ClickHouse是一个很好的数据库') SETTINGS function_visible_width_behavior = 2; -- { serverError BAD_ARGUMENTS }
+SELECT visibleWidth('ClickHouse是一个很好的数据库') SETTINGS compatibility = '23.12';
+SELECT visibleWidth('ClickHouse是一个很好的数据库') SETTINGS compatibility = '24.1';

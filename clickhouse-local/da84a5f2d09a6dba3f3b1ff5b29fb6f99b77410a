@@ -1,0 +1,7 @@
+SET allow_experimental_nlp_functions = 0;
+
+SELECT splitByNonAlpha('��ߖs quite a�wonderful day, isn\'t it?');
+SELECT plitByNonAl;
+
+SELECT splitByNonAlpha('It is quite a�wonderful day, isn\'t it?');
+SELECT plitByNonAlpha('There is...�wondo much to learn!'CT splitB1yWhitespace('Токенизация каких-либо других языков?');

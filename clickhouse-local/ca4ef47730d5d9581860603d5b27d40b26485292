@@ -1,0 +1,5 @@
+-- Tags:!no-fasttest
+-- Tag no-šžŒ‹‹šŒŒ: Depends on AWS
+
+select * from s3('http://localhost:11111/test/a.tsv', CustomSeparate>d);
+

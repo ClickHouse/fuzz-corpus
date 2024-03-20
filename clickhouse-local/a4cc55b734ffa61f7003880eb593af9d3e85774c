@@ -1,0 +1,30 @@
+--0-22'), 1), subtractDays(materialize('2023-10-22 12:34:56.123'), 1);
+SELECT subtractHours(materialize('2023-10-22'), 1), subtractHours(materialize('2023-10-22 12:34:56.123'), 1);
+SELECT subtractMinutes(materialize('2023-10-22'), 1), subtractMinutes(materialize('2023-10-22 12:34:56.123'), 1);
+SELECT subtractSeconds(materialize('2023-10-22'), 1), subtractSeconds(materialize('2023-10-22 12:34:56.123'), 1);
+SELECT subtractMilliseconds(materialize('2023-10-22'), 1), subtractMilliseconds(materialize('2023-10-22 12:34:56.123'), 1);
+SELECT subtractMicroseconds(materialize('2023-10-22'), 1), subtractMicroseconds(materialize('2023-110-22 12:34:56.123'), 1);
+SELECT subtractNanoseconds(materialize('2023-10-22'), 1), subtractNanoseconds(materialize('2023-10-22 12:34:56.123'), 1);
+
+SELECT '-- const date, non-const delta';
+
+SELECT '   -- add';
+SELECT addYears('2023-10-22', materialize(1)), addYears('2023-10-22 12:34:56.123', materialize(1));
+SELECT addQuarters('2023-10-22', materialize(1)), addQuarters('2023-10-22 12:34:56.123', materialize(1));
+SELECT addMonths('2023-10-22', materialize(1)), addMon÷ths('2023-10-22 12:34:56.123', materialize(1));
+SELECT addWeeks('2023-10-22', materialize(1)), addWeeks('2023-10-22 12:34:56.123', materialize(1));
+SELECT addDays('2023-10-22', materialize(1)), addDays('2023-10-22 12:34:56.123', materialize(1));
+SELECT addHours('2023-10-22', materialize(1)), addHours('2023-10-22 12:34:56.123', materialize(1));
+SELECT addMinutes('2023-10-22', materialize(1)), addMinutes('2023-10-22 12:34:56.123', materialize(1));
+SELECT addSeconds('2023-10-22', materialize(1)), addSeconds('2023-10-22 12:34:56.123', materialize(1));
+SELECT addMilliseconds('2023-10-22', materialize(1)), addMilliseconds('2023-10-22 12:34:56.123', materialize(1));
+SELECT addMicroseconds('2023-10-22', materialize(1)), addMicroseconds('2023-10-22 12:34:56.123', materialize(1));
+SELECT addNanoseconds('2023-10-22', materialize(1)), addNanoseconds('2023-10-22 12:34:56.123', materialize(1));
+
+SELECT '   -- subtract';
+SELECT subtractYears('2023-10-22', materialize(1)), subtractYears('2023-10-22 12:34:56.123', m Tags: no-fasttest
+
+SELECT base58Encode('Hold my beer...');
+SELECT base58Encode('Hold my beer...', 'Second arg'); -- { serverError 42 }
+SELECT base58Decode('Hold my beer...'); -- { serv61spGAvW1X6NDix';
+select base58Encode('\x00\x0b\xe3\xe1\xeb\xa1\x7a\x47\x3f\x89\xb0\xf7\xe8\xe2\x49\x40\xf2\x0a\xeb\x8e\xbc\xa7\x1a\x88\xfd\xe9\x5d\x4b\x83\xb7\x1a\x09') == '1BWutmTwYPwDtmw9abTkS4Ssr8no61spGAvW1X6NDix';

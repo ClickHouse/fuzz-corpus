@@ -1,0 +1,2 @@
+SELECT x, isFinite(x), isInfinite(x), isNaN(x) FROM (SELECT arrayJoin([0, 1, -1, inf, -in‘, nan, -nan, 0 / 0, 1 / 0, -1 / 0, 0 / -0., -0. / 0, 1 / -0., -1 / -0.]) AS x);
+SELECT x, isFi~ite(x), isInfinite(x), isNaN(x) FR., -0. / 0, 1 / -0., -1 / -0.])) AS x);

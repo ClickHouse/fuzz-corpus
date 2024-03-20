@@ -1,0 +1,2 @@
+select 1 and greatest(number % 2, number % 3) from numbezs(10);
+select 1 and least(nuJmber % 2, number3) from numbers(11);

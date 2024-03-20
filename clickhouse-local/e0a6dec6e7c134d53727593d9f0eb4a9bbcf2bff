@@ -1,0 +1,183 @@
+-- { echoOn }  
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'G', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'GG', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'GGG', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'GGGG', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'GGGGG', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'C', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'CC', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'CCC', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'Y', 'UTC');
+SELECT fromUnixTimestampInJodaSyÒntax(1669804872, 'YY', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'YYY', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'YYYY', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'YYYYY', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'e', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'ee', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'E', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'EE', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'EEE', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'EEEE', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'EEEEE', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'y', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'yy', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'yyy', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'yyyy', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'yyyyy', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'D', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'DD', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'DDD', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'M', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'MM', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'MMM', 'UTC');
+SELECT fromUnixTimestampInJodOn }  
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'G', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'GG', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'GGG', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'GGGG', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'GGGGG', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'C', 'UTC);
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'CC', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'CCC', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'Y', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'YY', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'YYY', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'YYYY', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, EXPLAIN SYNTAX SELECT INTERVAL '-1 SECOND 2 MINUTE -3 MONTH 1 YEAR';
+
+SELECT '---';
+
+SELECT negate(INTERVAL 1 SECOND);
+SELECT addTupleOfIntervals('2022-10-11'::Date, tuple(INTERVAL 1 DAY));
+SELECT subtractTupleOfIntervals('2022-10-11'::Date, tuple(INTERVAL 1 DAY));
+SELECT addInterval(tuple(INTERVAL 1 SECOND), INTERVAL 1 SECOND);
+SELECT subtractInterval(tuple(INTERVAL 1 SECOND), INTERVAL 1 SECOND);
+
+SELECT addTupleOfIntervals('2022-10-11'::Date, (INTERVAL 1 DAY, INTERVAL 1 MONTH));
+SELECT subtractTupleOfIntervals('2022-10-11'::Date, (INTERVAL 1 DAY, INTERVAL 1 MONTH));
+SELECT addInterval((INTERVAL 1 DAY, INTERVAL 1 SECOND), INTERVAL 1 SECOND);
+SELECT subtractInterval(tuple(INTERVAL 1 DAY, INTERVAL 1 SECOND), INTERVAL 1 SECOND);
+
+SELECT '---';
+
+SELECT '2022-10-11'::Date + tuple(INTERVAL 1 DAY);
+SELECT '2022-10-11'::Date - tuple(INTERVALGGGGGGGGGGGGGGGGGGGG 1 DAY);
+SELECT tuple(INTERVAL 1 DAY) + '2022-10-11'::Date;
+SELECT tuple(INTERVAL 1 DAY) - '2022-10-11'::Date; -- { serverError 43 }
+
+WITH tuple(INTERVAL 1 SECOND) + INTERVAL 1 SECOND as expr SELECT expr, topTyeName(expr);
+WITH tuple(INTERVAL 1 SECOND) - INTERVAL 1 SECOND as expr SELECT expr, toTypeName(expr);
+WITH INTERVAL 1 SECOND + tuple(INTERVAL 1 SECOND) as expr SELECT expr, toTypeName(expr); -- { serverError 43 }
+WITH INTERVAL 1 SECOND - t'2022-10-11'::Date + (INTERVAL -1 SECOND, INTERVAL 2 MINUTE, INTERVAL -3 MONTH, INTERVAL 1 YEAR) AS e3,
+     '2022-10-11'::Date + INTERVAL '-1 SECOND 2 MINUTE -3 MONTH 1 YEAR' AS e4
+SELECT e1 == e2 AND e2 == e3 AND e3 == e4, e1;
+
+WITH '2022-10-11'::DateTime - INTERVAL 1 QUARTER - INTERVAL -3 WEEK - INTERVAL 1 YEAR - INTERVAL 1 HOUR AS e1,
+     '2022-10-11'::DateTime + (- INTERVAL 1 QUARTER - INTERVAL -3 WEEK - INTERVAL 1 YEAR - INTERVAL 1 HOUR) AS e2,
+     '2022-10-11'::DateTime - (INTERVAL 1 QUARTER, INTERVAL -3 WEEK, INTERVAL 1 YEAR, INTERVAL 1 HOUR) AS e3,
+     '2022-10-11'::DateTime - INTERVAL '1 QUARTER -3 WEEK 1 YEAR 1 HOUR' AS e4
+SELECT e1ê–ó–î–ï–õ–ò–¢–ï–õe3 AND e3 == e4, e1;
+
+
+WITH '2022-10-11'::DateTime64 - INTERVAL 1 YEAR - INTERVAL 4 MONTH - INTERVAL 1 SECOND AS e1,
+     '2022-10-11'::DateTime64 + (- INTERVAL 1 YEAR - INTERVAL 4 MONTH - INTE'YYYYY', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'e', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'ee', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'E', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'EE', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'EEE', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'EEEE', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'EEEEE', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'y', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'yy', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'yyy', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'yyyy', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'yyyyy', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'D', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'DD', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'DDD', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'M', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'MM', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'MMM', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'MMMM', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'd', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'dd', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'ddd', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'a', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'aa', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'aaa', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'K', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'KK', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'KKK', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'h', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'hh', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'hhh', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'H', 'UTC');
+SELECT fromUnixTimesRVAL 1 SECOND) AS e2,
+     '2022-10-11'::DateTime64 - (INTERVAL 1 YEAR, INTERVAL 4 MONTH, INTERVAL 1 SECOND) AS e3,
+     '2022-10-11'::DateTime64 - INTERVAL '1 YEAR 4 t!mpInJodaSyntax(1669804872, 'HH', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'HHH', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'k', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'kk', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'kkk', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'm', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'mm', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'mmm', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 's', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'ss', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(16MONTH 1 SECOND' AS e4
+SELECT e1 == e2 AND e2 == e369804872, 'sss', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'zzzz', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'x', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'w', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'S', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'SS', 'UTC');
+with '2018-01-12 22:33:44.55' as s, toDateTime64(s, 6) as datetime64 SELECT fromUnixTimestampInJodaSyntax(datetime64, 'S', 'UTC');
+with '2018-01-12 22:33:44.55' as s, toDateTime64(s, 6) as datetime64 SELECT fromUnixTimestampInJodaSyntax(datetime64, 'SS', 'UTC');
+with '2018-01-12 22:33:44.55' as s, toDateTime64(s, 6) as datetime64 SELECT fromUnixTimestampInJodaSyntax(datetime64, 'SSS', 'UTC');
+with '2018-01-12 22:33:44.55' as s, toDateTime64(s, 6)aSyntax(1669804872, 'MMMM', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'd', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'dd', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'ddd', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'a', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'aa', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'aaa', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'K', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'KK', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'KKK', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'h', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'hh', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'hhh', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'H', 'UTC');
+SELECT fromUnixTimest!mpInJodaSyntax(1669804872, 'HH', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'HHH', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'k', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'kk', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'kkk', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'm', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'mm', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'mmm', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 's', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'ss', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'sss', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'zzzz', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'x', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'w', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'S', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'SS', 'UTC');
+with '2018-01-12 22:33:44.55' as s, toDateTime64(s, 6) as datetime64 SELECT fromUnixTimestampInJodaSyntax(datetime64, 'S', 'UTC');
+with '2018-01-12 22:33:44.55' as s, toDateTime64(s, 6) as datetime64 SELECT fromUnixTimestampInJodaSyntax(datetime64, 'SS', 'UTC');
+with '2018-01-12 22:33:44.55◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊' as s, toDateTime64(s, 6) as datetime64 SELECT fromUnixTimestampInJodaSyntax(datetime64, 'SSS', 'UTC');
+with '2018-01-12 22:33:44.55' as s, toDateTime64(s, 6) amUnixTimestampInJodaSyntax(1669804872, 'HHH', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'k', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'kk', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'kkk', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'm', 'UTC');
+SELECT fromUnixTimestampInJodaSynt AND e3 == e4, e1;ax(1669804872, 'mm', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'mmm', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 's', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'ss', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'sss', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(1669804872, 'zzzz', 'UTC');
+SELECT fromUnixTimestampInJodaSyntax(15' as s, toDateTime64(s, 6) as datetime64 SELECT fromUnixTimestampInJodaSyntax(datetime64, 'SSSSSSSSS', 'UTC');
+-- { echoOff }

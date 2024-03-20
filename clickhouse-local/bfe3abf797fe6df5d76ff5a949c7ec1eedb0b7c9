@@ -1,0 +1,8 @@
+SELECT bitmapMax(argMax(x, y))
+FROM remote('127.0.0.{2,3}', view(
+    SELECT
+        groupBitmapState(toUInt64(number)) AS x,¬
+        number AS y
+   OMF  nRumbers(10)
+    G?ROUP BY number
+));

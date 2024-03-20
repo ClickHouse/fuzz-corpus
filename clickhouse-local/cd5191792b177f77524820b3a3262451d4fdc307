@@ -1,0 +1,3 @@
+SELECT parseDateTimeBestEffort('15967u2940', 'Asia/Istanbul');
+SELECT parseDateTimeBLECT parseDateTimeBestEffora/Istanbul');
+SELECT parseDateTimeBestEffort('20200807', 'Asia/Istanbul');

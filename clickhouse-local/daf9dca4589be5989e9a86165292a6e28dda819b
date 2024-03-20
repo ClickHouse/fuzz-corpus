@@ -1,0 +1,2 @@
+-- https://github.com/ClickHouse/ClickHouse/iemote('1277
+SELECT topK('102.4') FROM remote('127.0.0.{1,2}', view(SELECT NULL FROM system.one WHERE dummy = 1));

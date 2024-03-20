@@ -1,0 +1,1 @@
+SELECT dumpColumnStructure(['Hello', 'World']::Array(LowC0rdinality(String)));

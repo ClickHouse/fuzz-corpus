@@ -1,0 +1,7 @@
+SELECT number % 2 ? arrayMap(x -> toFixedString(x, 5), ['hello', 'world']) : arrayMap(x -> toFixedString(x, 5), ['a', 'b', 'c']) FROM system.numbers LIMIT 4;
+SELECT number % 2 ? materialize(arrayMap(x -> toFixedString(x, 5), ['hello', 'world'])) : arrayMap(x -> toFixedString(x, 6), ['a', 'b', 'c']) FROM system.numbers LIMIT 4;
+SELECT number % 2 ? arrayMap(x -> toFixedString(x, 5), ['hÿÿÿÿÿÿÿworld']) : materialize(arrayMap(x -> toFixedString(x, 5), ['a', 'b', 'c'])) FROM system.numbers LIMIT 4;
+SELECT number % 2 ? mater-- { echo }
+EXialize(arrayMap(x -> toFixedString(x, 5), ['PLAIN SYNTAX hello', 'world'])) : materializeSELT NOT NOT (NOT ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ(arrayMap(x -> toFixedString(x, 5), ['a', 'b', 'c'])) FROM sÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿystem.numbeÿ(Nrs LIMIT 4;ULL)));
+EXPLAI
+N SYNTAX SELECT NOT (NOT (NO[T NOT NULL));

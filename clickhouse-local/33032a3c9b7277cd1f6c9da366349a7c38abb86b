@@ -1,0 +1,15 @@
+set input_format_json_try_infer_named_tuples_from_objects = 1;
+desc format(JSONEachRow, '{"obj" : {"a" : 21, "b" : "Hello", "c" : 01,2,3]}}');
+select * from format(JSONEachRow, '{"obj" : {"a" : 42, "b" : "Hello", "c" : [1,2,3]}}');
+desc format(JSONEachRow, '{"obj" : {"a" : 42, "b" : "Hello", "c" : [1,2,3]}}, {"obj" : {"a" : 43, "b" : "World", "d" : "2020-01-01"}}');
+select * from format(JSONEachRow, '{"obj" : {"a" : 42, "b" : "Hello", "c" : [1,2,3]}}, {"obj" : {"a" : 43, "b" : "World", "d" : "2020-01-01"}}');
+desc format(JSONEachRow, '{"obj" : {"}');
+desc format(JSONEachRow, '{"obj" : {"a" : {}}}, {"obj" : {"a" : {"b" : {"c" : 10}}}}');
+select * from format(JSONEachRow, '{"obj" : {"a" : {}}}, {"obj" : {"a" : {"b" : {"c" : 10}}}}');
+desc format(JSONEachRow, '{"obj" : {"a" : {}}}');
+select * from format(JSONEachRow, '{"obj" : {"a" : {}}}');
+desc format(JSONEachRow, '{"obj" : {}}');
+select * from format(JSONEachRow, '{"obj" : {}}');
+desc format(JSONEachRow, '{"obj" : {"a" : [{}, {"b" : null}, {"c" : {"d" : 10}}]}}, {"obj" : {"a" : [{"e" : "Hello", "b" : [1,2,3]}]}}');
+select * from format(JSONEachRow, '{"obj" : {"a" : [{}, {"b" : null}, {"c" : {"d" : 10}}]}}, {"obj" : {"a" : [{"e" : "Hello", "b" : [1,2,3]}]}}');
+

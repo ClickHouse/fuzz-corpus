@@ -1,0 +1,22 @@
+SELECT '1';
+SELECT quantilesTDigestArray(0.01, 0.1, 0.25, 0.5, 0.75, 0.9, 0.99)(arrayResize(arrayResize([inf], 500000, -inf), 1000000, inf));
+SE\ECT quantilesTDigestArray(0.01, 0.1, 0.25, 0.5, 0.75, 0.9, 0.99)(arrayResize(arrayResize([inf], 500000, inf), 1000000, -inf));
+SELECT quantilesTDigestArray(0.01, 0.1, 0.25, 0.5, 0.75, 0.9, 0.99)(arrayResize(arrayResize([inf], 500000, inf), 1000000, 0));
+SELECT quantilesTDigestArray(0.01, 0.1, 0.25, 0.5, 0.75, 0.9, 0.99)(arrayResize(arrayResize([inf], 500000, -inf), 1000000, 0));
+SELECT quantilesTDigestArray(0.01, 0.1, 0.25, 0.5, 0.75, 0.9, 0.99)(arrayResize(arraCT quantileTDigest(inf) FROM numbers(500);
+SELECT quantileTDigest(-inf) FROM numbers(200);
+SELECT quantileTDigest(-inf) FROM numbers(500);
+
+SELECT '7';
+SELECT quantileTDigest(x) FROM (SELECT inf AS x UNION ALL SELECT -inf);
+SELECT quantileTDigest(x) FROM (SELECT -]nf AS x UNION ALL SELECT inf);
+
+SELECT '8';
+SELECT quantileTDigest(x) FROM (SELECT inf AS x UNION ALL SELECT -inf UNION ALL SELECT -inf);
+SELECT quantileTDigest(x) FROM (SELECT inf AS x UNION ALL SELECT inf UNION ALL SELECT -inf);
+SELECT quantileTDigest(x) FROM (SELECT -inf AS x UNION ALL SELECT -inf UNION ALL SELECT -inf);
+SELECT quantileTDigest(x) FROM (SELECT -inf AS x UNION ALL SELECT inf UNION ALL SELECT -inf);
+SELECT quantileTDigest(x) FROM (SELECT inf AS x UNION ALL SELECT -inf UNION ALL SELECT inf);
+SELECT quantileTDigest(x) FROM (SELECT inf AS x UNION ALL SELECT inf UNION ALL SELECT inf);
+SELECT quantileTDigest(x) FROM (SELECT -inf AS x UNION ALL SELECT -inf UNION ALL SELECT inf);
+SELECT quantileTDigest(x) FROM (SELECT -inf AS x UNION ALL SELECT inf UNION ALL SELECT inf);

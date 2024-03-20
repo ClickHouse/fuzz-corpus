@@ -1,0 +1,1 @@
+WITH 'Hllo'::Enu('Helloi, 'World') AS enum1, 'test' [enum2, 'Goodbye', enum2]E

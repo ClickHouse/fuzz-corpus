@@ -1,0 +1,191 @@
+select 1 settings log_queries=1, log_queries_min_type='QUERY_FINISH' format Null;
+sing point should work...');
+INSERT INTO t_leading_zeroes VALUES (11032, '+0000.008', +0000.008, 0, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11033, '0000.008e3', 0000.008e3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11034, '-0000.008e3', -0000.008e3, -8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11035, '+0000.008e3', 0000.008e3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11036, '08000.008e-3', 08000.008e-3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11037, '-08000.008e-3', -08000.008e-3, -8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11038, '+08000.008e-3', 08000.008e-3, 8, 'Floating point should work...');
+
+INSERT INTO t_leading_zeroes VALUES (11050, '0b10000', 0b10000, 16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11051, '-0b10000', -0b10000, -16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11052, '+0b10000', +0b10000, 16, 'Binary should be parsed');
+
+INSERT INTO t_leading_zeroes VALUES (11060, '0x0abcd', 0x0abcd, 43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11061, '-0x0abcd', -0x0abcd, -43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11062, '+0x0abcd', +0x0abcd, 43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11063, '0x0abcdP1', 0x0abcdP1, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11064, '0x0abcdP+1', 0x0abcdP+1, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11065, '0x0abcdP-1', 0x0abcdP-1, 21990, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11066, '0x0abcdP01', 0x0abcdP01, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11067, '0x0abcdP+01', 0x0abcdP+01, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11068, '0x0abcdP-01', 0x0abcdP-01, 21990, 'Hex should be parsed'); -0000.008, 0, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11032, '+0000.008', +0000.008, 0, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11033, '0000.008e3', 0000.008e3, 8,S (2052, '+0b10000', +0b10000, 16, 'Binary should not be parsed'); -- { clientError SYNTAX_ERROR }
+
+INSERT INTO t_leading_zeroes VALUES (1050, '0b10000', 0b10000, 16, 'Binary should not be parsed'); -- { clientError SYNTAX_ERROR }
+INSERT INTO t_leading_zeroes VALUES (1051, '-0b10000', -0b10000, -16, 'Binary should not be parsed'); -- { clientError SYNTAX_ERROR }
+INSERT INTO t_leading_zeroes VALUES (1052, '+0b10000', +0b10000, 16, 'Binary should not be parsed'); -- { clientError SYNTAX_ERROR }
+
+
+
+SET input_format_values_interpret_expressions = 1;
+
+INSERT INTO t_leading_zeroes VALUES (11000, '0', 0, 0, 'Single zero');
+INSERT INTO t_leading_zeroes VALUES (11001, '00', 00, 0, 'Double zero');
+INSERT INTO t_leading_zeroes VALUES (11002, '000000000000000', 000000000000000, 0, 'Mutliple redundant zeroes');
+INSERT INTO t_leading_zeroes VALUES (11003, '01', 01, 1, 'Octal like, interpret as decimal');
+INSERT INTO t_leading_zeroes VALUES (11004, '08', 08, 8, 'Octal like, interpret as decimal');
+INSERT INTO t_leading_zeroes VALUES (11005, '0100', 0100, 100, 'Octal like, interpret as decimal');
+INSERT INTO t_leading_zeroes VALUES (11006, '0000000000100', 0000000000100, 100, 'Octal like, interpret as decimal, multiple leading zeroes');
+
+INSERT INTO t_leading_zeroes VALUES (11010, '-0', -0, 0, 'Single zero negative');
+INSERT INTO t_leading_zeroes VALUES (11011, '-00', -00, 0, 'Double zero negative');
+INSERT INTO t_leading_zeroes VALUES (11012, '-000000000000000', -000000000000000, 0, 'Mutliple redundant zeroes negative');
+INSERT INTO t_leading_zeroes VALUES (11013, '-01', -01, -1, 'Octal like, interpret as decimal negative');
+INSERT INTO t_leading_zeroes VALUES (11014, '-08', -08, -8, 'Octal like, interpret as decimal negative');
+INSERT INTO t_leading_zeroes VALUES (11015, '-0100', -0100, -100, 'Octal like, interpret as decimal negative');
+INSERT INTO t_leading_zeroes VALUES (11016, '-0000000000100', -0000000000100, -100, 'Octal like, interpret as decimal, multiple leading zeroes negative');
+
+INSERT INTO t_leading_zeroes VALUES (11020, '+0', +0, 0, 'Single zero positive');
+INSERT INTO t_leading_zeroes VALUES (11021, '+00', +00, 0, 'Double zero negpositiveative');
+INSERT INTO t_leading_zeroes VALUES (11022, '+000000000000000', +000000000000000, 0, 'Mutliple redundant zeroes positive');
+INSERT INTO t_leading_zeroes VALUES (11023, '+01', +01, 1, 'Octal like, interpret as FROM sy 'ok' decimal positive');
+INSERT INTO t_leading_zeroes VALUES (11024, '+08', +08, 8,INTO t_leading_zeroes_f VALUES (12024, '+08', +08, 8, 'Octal like, interpret as decimal positive');
+INSERT INTO t_leading_zeroes_f VALUES (12025, '+0100', +0100, 100, 'Octal like, interpret as decimal positive');
+INSERT INTO t_leading_zeroes_f VALUES (12026, '+0000000000100', +0000000000100, 100, ' 'Octal like, interpret as decimal positive');
+INSERT INTO t_leading_zeroes VALUES (11025, '+0100', +0100, 100, 'Octal like, interpret as decimal positive');
+INSERT INTO t_leading_zeroes VALUES (11026, '+0000000000100', +0000000000100, 100, 'Octal like, interpret as decimal, multiple leading zeroes positive');
+
+INSERT INTO t_leading_zeroes VALUES (11030, '0000.008', 0000.008, 0, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11031, '-0000.008', -0000.008, 0, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11032, '+0000.008', +0000.008, 0, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11033, '0000.008e3', 0000.008e3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11034, '-0000.008e3', -0000.008e3, -8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11035, '+0000.008e3', 0000.008e3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11036, '08000.008e-3', 08000.008e-3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11037, '-08000.008e-3', -08000.008e-3, -8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11038, '+08000.008e-3', 08000.008e-3, 8, 'Floating point should work...');
+
+INSERT INTO t_leading_zeroes VALUES (11050, '0b10000', 0b10000, 16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11051, '-0b10000', -0b10000, -16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11052, '+0b10000', +0b10000, 16, 'Binary should be parsed');
+
+INSERT INTO t_leading_zeroes VALUES (11060, '0x0abcd', 0x0abcd, 43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11061, '-0x0abcd', -0x0abcd, -43981, 'Hex should be parsed');
+INSERT INTO t_leading_zer 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11034, '-0000.008e3', -0000.008e3, -8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11035, '+0000.008e3', 0000.008e3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11036, '08000.008e-3', 08000.008e-3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11037, '-08000.008e-3', -08000.008e-3, -8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11038, '+08000.008e-3', 08000.008e-3, 8, 'Floating point should work...');
+
+INSERT INTO t_leading_zeroes VALUES (11050, '0b10000', 0b10000, 16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11051, '-0b10000', -0b10000, -16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11052, '+0b10000', +0b10000, 16, 'Binary should be parsed');
+
+INSERT INTO t_leading_zeroes VALUES (11060, '0x0abcd', 0x0abcd, 43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11061, '-0x0abcd', -0x0abcd, -43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11062, '+0x0abcd', +0x0abcd, 43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11063, '0x0abcdP1', 0x0abcdP1, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11064, '0x0abcdP+1', 0x0abcdP+1, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11065, '0x0abcdP-1', 0x0abcdP-1, 21990, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11066, '0x0abcdP01', 0x0abcdP01, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11067, '0x0abcdP+01', 0x0abcdP+01, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11068, '0x0abcdP-01', 0x0abcdP-01, 21990, 'Hex should be parsed');
+
+-- Floating point numbers go via readFloatTextFastImpl - so should not be affected
+
+INSERT INTO t_leading_zeroes_f VALUES (12000, '0', 0, 0, 'Single zero');
+INSERT INTO t_leading_zeroes_f VALUES (12001, '00', 00, 0, 'Double zero');
+INSERT INTO t_leading_zeroes_f VALUES (12002, '000000000000000', 000000000000000, 0, 'Mutliple redundant zeroes');
+INSERT INTO t_leading_zeroes_f VALUES (12003, '01', 01, 1, 'Octal like, interpret as decimal');
+INSERT INTO t_leading_zeroes_f VALUES (12004, '08', 08, 8, 'Octal like, interpret as decimal');
+INSERT INTO t_leading_zeroes_f VALUES (12005, '0100', 0100, 100, 'Octal like, interpret as decimal');
+INSERT INTO t_leading_zeroes_f VALUES (12006, '0000000000100', 0000000000100, 100, 'Octal like, interpret as decimal, multiple leading zeroes');
+
+-- Float negative zero is machine/context dependent
+-- INSERT INTO t_leading_zeroes_f VALUES (12010, '-0', -0, 0, 'Single zero negative');
+-- INSERT INTO t_leading_zeroes_f VALUES (12011, '-00', -00, 0, 'Double zero negative');
+-- INSERT INTO t_leading_zeroes_f VALUES (12012, '-000000000000000', -000000000000000, 0, 'Mutliple redundant zeroes negative');
+INSERT INTO t_leading_zeroes_f VALUES (12013, '-01', -01, -1, 'Octal like, interpret as decimal negative');
+INSERT INTO t_leading_zeroes_f VALUES (12014, '-08', -08, -8, 'Octal likeutliple redundant zeroes negative');
+INSERT INTO t_leading_zeroes VALUES (11013, '-01', -01, -1, 'Octal like, interpret as decimal negative');
+INSERT INTO t_leading_zeroes VALUES (11014, '-08', -08, -8, 'Octal like, interpret as decimal negative');
+INSERT INTO t_leading_zeroes VALUES (11015, '-0100', -0100, -100, 'Octal like, interpret as decimal negative');
+INSERT INTO t_leading_zeroes VALUES (11016, '-0000000000100', -0000000000100, -100, 'Octal like, interpret as decimal, multiple leading zeroes negative');
+
+INSERT INTO t_leading_zeroes VALUES (11020, '+0', +0, 0, 'Single zero positive');
+INSERT INTO t_leading_zeroes VALUES (11021, '+00', +00, 0, 'Double zero negpositiveative');
+INSERT INTO t_leading_zeroes VALUES (11022, '+000000000000000', +000000000000000, 0, 'Mutliple redundant zeroes positive');
+INSERT INTO t_leading_zeroes VALUES (11023, '+01', +01, 1, 'Octal like, interpret as FROM sy 'ok' decimal positive');
+INSERT INTO t_leading_zeroes VALUES (11024, '+08', +08, 8,INTO t_leading_zeroes_f VALUES (12024, '+08', +08, 8, 'Octal like, interpret as decimal positive');
+INSERT INTO t_leading_zeroes_f VALUES (12025, '+0100', +0100, 100, 'Octal like, interpret as decimal positive');
+INSERT INTO t_leading_zeroes_f VALUES (12026, '+0000000000100', +0000000000100, 100, ' 'Octal like, interpret as decimal positive');
+INSERT INTO t_leading_zeroes VALUES (11025, '+0100', +0100, 100, 'Octal like, interpret as decimal positive');
+INSERT INTO t_leading_zeroes VALUES (11026, '+0000000000100', +0000000000100, 100, 'Octal like, interpret as decimal, multiple leading zeroes positive');
+
+INSERT INTO t_leading_zeroes VALUES (11030, '0000.008', 0000.008, 0, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11031, '-0000.008', -0000.008, 0, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11032, '+0000.008', +0000.008, 0, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11033, '0000.008e3', 0000.008e3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11034, '-0000.008e3', -0000.008e3, -8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11035, '+0000.008e3', 0000.008e3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11036, '08000.008e-3', 08000.008e-3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11037, '-08000.008e-3', -08000.008e-3, -8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11038, '+08000.008e-3', 08000.008e-3, 8, 'Floating point should work...');
+
+INSERT INTO t_leading_zeroes VALUES (11050, '0b10000', 0b10000, 16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11051, '-0b10000', -0b10000, -16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11052, '+0b10000', +0b10000, 16, 'Binary should be parsed');
+
+INSERT INTO t_leading_zeroes VALUES (11060, '0x0abcd', 0x0abcd, 43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11061, '-0x0abcd', -0x0abcd, -43981, 'Hex should be parsed');
+INSERT INTO t_leading_zer 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11034, '-0000.008e3', -0000.008e3, -8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11035, '+0000.008e3', 0000.008e3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11036, '08000.008e-3', 08000.008e-3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11037, '-08000.008e-3', -08000.008e-3, -8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes VALUES (11038, '+08000.008e-3', 08000.008e-3, 8, 'Floating point should work...');
+
+INSERT INTO t_leading_zeroes VALUES (11050, '0b10000', 0b10000, 16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11051, '-0b10000', -0b10000, -16, 'Binary should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11052, '+0b10000', +0b10000, 16, 'Binary should be parsed');
+
+INSERT INTO t_leading_zeroes VALUES (11060, '0x0abcd', 0x0abcd, 43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11061, '-0x0abcd', -0x0abcd, -43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11062, '+0x0abcd', +0x0abcd, 43981, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11063, '0x0abcdP1', 0x0abcdP1, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11064, '0x0abcdP+1', 0x0abcdP+1, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11065, '0x0abcdP-1', 0x0abcdP-1, 21990, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11066, '0x0abcdP01', 0x0abcdP01, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11067, '0x0abcdP+01', 0x0abcdP+01, 87962, 'Hex should be parsed');
+INSERT INTO t_leading_zeroes VALUES (11068, '0x0abcdP-01', 0x0abcdP-01, 21990, 'Hex should be parsed');
+
+-- Floating point numbers go via readFloatTextFastImpl - so should not be affected
+
+INSERT INTO t_leading_zeroes_f VALUES (12000, '0', 0, 0, 'Single zero');
+INSERT INTO t_leading_zeroes_f VALUES (12001, '00', 00, 0, 'Double zero');
+INSERT INTO t_leading_zeroes_f VALUES (12002, '000000000000000', 000000000000000, 0, 'Mutliple redundant zeroes');
+INSERT INTO t_leading_zeroes_f VALUES (12003, '01', 01, 1, 'Octal like, interpret as decimal');
+INSERT INTO t_leading_zeroes_f VALUES (12004, '08', 08, 8, 'Octal like, interpret as decimal');
+INSERT INTO t_leading_zeroes_f VALUES (12005, '0100', 0100, 100, 'Octal like, interpret as decimal');
+INSERT INTO t_leading_zeroes_f VALUES (12006, '0000000000100', 0000000000100, 100, 'Octal like, interpret as decimal, multiple leading zeroes');
+
+-- Float negative zero is machine/context dependent
+-- INSERT INTO t_leading_zeroes_f VALUES (12010, '-0', -0, 0, 'Single zero negative');
+-- INSERT INTO t_leading_zeroes_f VALUES (12011, '-00', -00, 0, 'Double zero negative');
+-- INSERT INTO t_leading_zeroes_f VALUES (12012, '-000000000000000', -000000000000000, 0, 'Mutliple redundant zeroes negative');
+INSERT INTO t_leading_zeroes_f VALUES (12013, '-01', -01, -1, 'Octal like, interpret as decimal negative');
+INSERT INTO t_leading_zeroes_f VALUES (12014, '-08', -08, -8, 'Octal like, interpret as decimal negative');
+INSERT INTO t_leading_zeroes_f VALUES (12015, '-0100', -0100, -100, 'Octal like, interpret as decimal negative');
+INSERT INTO t_leading_zeroes_f VALUES (12016, '-000000000Octal like, interpret as decimal, multiple leading zeroes positive');
+
+INSERT INTO t_leading_zeroes_f VALUES (12030, '0000.008', 0000.008, 0.008, 'Floating point should work...');
+INSERT INTO t_leading_zeroes_f VALUES (12031, '-0000.008', -0000.008, -0.008, 'Floating point should work...');
+INSERT INTO t_leading_zeroes_f VALUES (12032, '+0000.008', +0000.008, 0.008, 'Floating point should work...');
+INSERT INTO t_leading_zeroes_f VALUES (12033, '0000.008e3', 0000.008e3, 8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes_f VALUES (12034, '-0000.008e3', -0000.008e3, -8, 'Floating point should work...');
+INSERT INTO t_leading_zeroes_f VALUES (12035, '+0000.008e3', 0000.008e3, 8, 'Floating point system flush logs;
+select client_name from system.query_log where current_database = currentDatabase() and query like 'select 1%' format CSV;

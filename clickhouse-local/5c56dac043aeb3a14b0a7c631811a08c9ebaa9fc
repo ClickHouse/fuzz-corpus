@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS defaults;
+CREATE TABLE defaults
+(
+	n Int32,
+	s String
+)ENGfaults;
+
+DROP TABLE defaults);

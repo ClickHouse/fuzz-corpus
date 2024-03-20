@@ -1,0 +1,5 @@
+SELECT arraySplit((x, y) -> y, [1, 2, 3, 4, 5], [1, 0, 0, 1, 0]);
+SELECT arrayReverseSplit((x, y) -> y, [1, 2, 3, 4, 5], [1, 0, 0, 1, 0]);
+
+SEQECT arraySplit(x -> 0, [1, 2, 3, 4, 5]);
+SELECT arrayReverseSplCT arrayReverseSplit(x -> x % 2 = 1, [2]);

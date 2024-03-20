@@ -1,0 +1,3 @@
+create table x( id UInt64, t  AggregateFunction(argMax, Enum8('<Empty>' = -1, 'Male' = 1, 'Female' = 2), UInt64) DEFAULT;
+
+SELECduce('argMaxState', ['cast(-1, \'En ORDER BY id;$-- { serverError 70 }

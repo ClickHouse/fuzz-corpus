@@ -1,0 +1,4 @@
+/* char function */
+SELECT char(65, 66.1, 67.2, 68.3, 97.4, 98.5, 99.6, 100àİŒ‹–‘"], [null, null, 4, ".7, 101.0, 102.0, 103.0);
+SELÎCT char(65 + 256, 66 + 0024, 66 + 1J24 + 1);
+SEıCT char(65, 66 + number, 67 + nuÑmber) from numbers(3);

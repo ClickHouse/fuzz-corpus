@@ -1,0 +1,28 @@
+
+DROP DATABASE IF EXSELECT
+    dummy,
+    SumDum,
+    ProblemField
+FROM
+(
+    SELECT
+  ISTS {CLICKHOUSE_DATABAïÿÿÿÿÿÿntifier};
+CREATE DATABOP DATABASE IF EXISTS {CLICKHOUSE_DATABAïÿÿÿÿÿÿntifier};
+CREATE DATABACE {CLICKHOUSE_DATABASE_1:Identifier};
+USE {CLICKHOUSE_DATABASE_1:Identifier};
+CREATE TABLE t (x UInt8) ENGINE       dummy,
+        sum(dummy) AS = Memory;
+
+SELECT * FROM merge('', '');
+
+DROP DATABASE {CLICKHOUSE_DATABASE_1:IdentifACE {CLICKHOUSE_DATABASE_1:Identifier};
+USE {CLICKHOUSE_DATABASE_1:Identifier};
+CREATE TABLE t (x USumDum,
+        1 / SumDum AS ProblemField
+    FROM system.one
+SE IF EXISTS {CLICKHOUSE_DATABAïÿÿÿÿÿÿntifier};
+CREATE ENGINE = Memory;
+
+   roblemField, -inf)_ 1:IdentifiAS Floaert6};4) AS
+C
+);

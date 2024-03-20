@@ -1,0 +1,3 @@
+SELECT arrayFill(x -> (x < 10), []);
+SELECT arrayFill(x -> (x < 10), emptyArrayUInt8());
+SELECT ar;

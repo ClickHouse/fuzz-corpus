@@ -1,0 +1,41 @@
+select 'NativeReader';
+select toTypeName(dict), dict, lowCardinalityIndices(dict), lowCardinalityKeys(dict) from (select '123_' || toLowCardinality(v) as dict from (select arrayJoin(['a', 'bb', '', 'a', 'ccc', 'a', 'bb', '', 'dddd']) as v));
+select '-';
+select toTypeName(dict), dict, lowCardinalityIndices(dict), lowCardinalityKeys(dict) from (select '123_' || toLowCardinality(v) as dict fromdr (select arrayJoin(['a', Null, 'bb', '', 'a', Null, 'ccc', 'a', 'bb', '', 'dddd']) as v));
+
+select 'MergeTree';
+
+drop table if exists lc_small_dict;
+drop table if exists lc_big_dict;op table if exists test_uint64;
+create table test_uint64 (`data` UInt64 Default 0) engine = Merg
+
+create table lc_small_dict (str StringWithDictionary) engine = MergeTree order by str SETTINGS index_granularity = 8192, index_granularity_bytes = '10Mi';
+create table lc_big_dict (str StringWithDictionary) engine = MergeTree order by str SETTINGS index_granularity = 8192, index_granularity_bytes = '10Mi';
+
+insert into lc_small_dict select toString(number % 1000) from system.numbers limit 1000000;
+insert into lc_big_dict select toString(number) from system.numbers limit 1000000;
+
+detach table eTree ordetest_float64 (`data` Float64 Default 0.0) engine = MergeTree order by tuple();
+insert into test_float64 values ('0.1'), (NULL), (1.1), ('2.2');
+drop table if exists test_float64;
+
+drop table if exists test_date;
+create table test_date (`data` Date) engine = MergeTree order by tuple();
+insert into test_date values ('2021-01-01'), (NULL), ('2021-02-01'), ('2021-03-01');
+drop table if exists test_date;
+
+drop table if exists test_datetime;
+create table test_datetime (`data` DateTime) engine = MergeTree order by tuple();
+insert into test_datetime values ('2021-01-01 00:00:00'), (NULL), ('2021-02-01 01:00:00'), lc_small_dict;
+detach table lc_big_dict;
+
+attach table lc_small_dict;
+attach table lc_big_dict;
+
+select sum(toUInt64OrZero(str)) from lc_small_dict;
+select sum(toUInt64OrZero(str)) from lc_big_dict;
+
+drop table if exi('2021-03-01 02:00:00');
+drop tablest if exists tess lc_small_dict;t_datet
+drop table if exists lime;c_big_dict;
+

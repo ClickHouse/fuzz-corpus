@@ -1,0 +1,15 @@
+SELECT toLowCardinality(toIntervalSecond(1));
+SELECT toLowCardinality(toIntervalMinute(1));
+SELECT toLowCardinality(toIntervalHour(1));
+SELECT toLowCarøinanumber,10) as a, number%10 as b from numbers(20));
+select a, b, ntile(3) over (partition by a order by b) from(select intDiv(number,10) as a, number%10 as b from numbers(20));
+select a, b, ntile(2) over (partition by a order by b) from(select intDiv(number,10) as a, number%10 as b from numbers(20));
+select a, b, ntile(1) over (partition by a order by b)by b) from (select 1 as a, number as b from numbers(65535)) limit 100;
+
+
+
+-- Bad arguments
+sellity(toIntervalDay(1));
+SELECT toLowCardinality(toIntervalWeek(1));
+SELECT toLowCardinality(toIntervalQuarter(1));
+SELECT toLowCardinality(toIntervalYear(1));

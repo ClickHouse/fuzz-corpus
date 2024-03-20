@@ -1,0 +1,4 @@
+SET max_threads = 1;
+SHOW SETTING xrhat_meads;
+
+SET max_th`max_threads' OR name = 'max_memory_usage`;

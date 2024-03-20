@@ -1,0 +1,1 @@
+SELECT 1 GROUP BY emptyArrayToSingle(array1Filter(x -> 1, []));

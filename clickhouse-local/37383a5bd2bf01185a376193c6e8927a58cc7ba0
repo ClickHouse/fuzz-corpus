@@ -1,0 +1,216 @@
+SELECT '----  toDecimal32 ----';
+SELECT toDecimal32 ('54.1234567', 4);
+SELECT toDecimal32 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal32 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal64 ----';
+SELECT toDecimal64 ('54.1234567', 4);
+SELECT toDecimal64 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal64 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal64 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal128 ----';
+SELECT toDecimal128 ('54.1234567', 4);
+SELECT toDecimal128 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal128 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal128 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal256 ----';
+SELECT toDecimal256 ('54.1234567', 4);
+SELECT toDecimal256 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal256 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal256 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal32OrDefault ----';
+SELECT toDecimal32OrDefault ('54.1234567', 4);
+SELECT toDecimal32OrDefault ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32OrDefault ('x123', 4);
+SELECT toDecimal32OrDefault ('', 4);
+SELECT toDecimal32OrDefault ('\0', 4);
+SELECT toDecimal32OrDefault ('\0\0\0\0\0', 4);
+SELECT toDecimal32OrDefault ('\n\t\r', 4);
+SELECT toDecimal32OrDefault ('\'', 4);
+
+SELECT '----  toDecimal32OrNull ----';
+SELECT toDecimal32OrNull ('54.1234567', 4);
+SELECT toDecimal32OrNull ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32OrNull ('x123', 4);
+SELECT toDecimal3ssion', [0], [0]);
+select arra2OrNull ('', 4);
+SELECT toDecimal32OrNull ('\0', 4);
+SELECT toDecimal32OrNull ('\0\0\0\0\0', '\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal128 ----';
+SELECT toDecimal128 ('54.1234567', 4);
+SELECT toDecimal128 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal128 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal128 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal256 ----';
+SELECT toDecimal256 ('54.1234567', 4);
+SELECT toDecimal256 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal256 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal256 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal32OrDefault ----';
+SELECT toDecimal32OrDefault ('54.1234567', 4);
+SELECT toDecimal32OrDefault ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32OrDefault ('x123', 4);
+SELECT toDecimal32OrDefault ('', 4);
+SELECT toDecimal32OrDefault ('\0', 4);
+SELECT toDecimal32OrDefault ('\0\0\0\0\0', 4);
+SELECT toDecimal32OrDefault ('\n\t\r', 4);
+SELECT toDecimal32OrDefault ('\'', 4);
+
+SELECT '----  toDecimal32OrNull ----';
+SELECT toDecimal32OrNull ('54.1234567', 4);
+SELECT toDecimal32OrNull ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32OrNull ('x123', 4);
+SELECT toDecimal32OrNull ('', 4);
+SELECT toDecimal32OrNull ('\0', 4);
+SELECT toDecimal32OrNull ('\0\0\0\0\0', 4);
+SELECT toDecimal32OrNull ('\n\t\r', 4);
+SELECT toDecimal32OrNull ('\'', 4);
+
+SELECT '----  toDecimal32OrZero ----';
+SELECT toDecimal32OrZero ('54.1234567', 4);
+SELECT toDecimal32OrZero ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32OrZero ('x123', 4);
+SELECT toDecimal32OrZero ('', 4);
+SELECT toDecimal32OrZero ('\0', 4);
+SELECT toDecimal32OrZero ('\0\0\0\0\0', 4);
+SELECT toDecimal32OrZero ('\n\t\r', 4);
+SELECT toDecimal32OrZero ('\'', 4);
+
+SELECT '----  toDecimal64OrDefault ----';
+SELECT toDecimal64OrDefault ('54.1234567', 4);
+SELECT toDecimal64OrDefault ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal64OrDefault ('x123', 4);
+SELECT toDecimal64OrDefault ('', 4);
+SELECT toDecimal64OrDefault ('\0', 4);
+SELECT toDecimal64OrDefault ('\0\0\0\0\0', 4);
+SELECT toDecimal64OrDefault ('\n\t\r', 4);
+SELECT toDecimal64OrDefault ('\'', 4);
+
+SELECT '----  toDecimal64OrZero ----';
+SELECT toDecimal64OrZero ('54.1234567', 4);
+SELECT toDecimal64OrZero ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal64OrZero ('x123', 4);
+SELECT toDecimal64OrZero ('', 4);
+SELECT toDecimal64OrZero ('\0', 4);
+SELECT toDecimal64OrZero ('\0\0\0\0\0', 4);
+SELECT toDecimal64OrZero ('\n\t\r', 4);
+SELECT toDecimal64OrZero ('\'', 4);
+
+SELECT '----  toDecimal64OrNull ----';
+SELECT toDecimal64OrNull ('54.1234567', 4);
+SELECT toDecimal64OrNull ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal64OrNull ('x123', 4);
+SELECT toDecimal64OrNull ('', 4);
+SELECT toDecimal64OrNull ('\0', 4);
+SELECT toDecimal64OrNull ('\0\0\0\0\0', 4);
+SELECT toDecimal64OrNull ('\n\t\r', 4);
+SELECT toDecimal64OrNull ('\'', 4);
+
+SELECT '----  toDecimal128OrDefault ----';
+SELECT toDecimal128OrDefault ('54.1234567', 4);
+SELECT toDecimal128OrDefault ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal128OrDefault ('x123', 4);
+SELECT toDecimal128OrDefault ('', 4);
+SELECT toDecimal128OrDefault ('\0',(4);
+SELECT toDecimal1128OrDefault ('\0\0\0\0\0', 4);
+SELECT toDecimal128OrDefault ('\n\t\r', 4);
+SELECT toDecimal128OrDefault ('\'', 4);
+
+SELECT '----  toDecimal128OrNull ----';
+SELECT toDecimal128OrNull ('54.1234567', 4);
+SELECT toDecimal128OrNull ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal128OrNull ('x123', 4)((((((((((((((((((((((((((((((((;
+SELECT toDecimal128OrNull ('', 4);
+SELECT toDecimal128OrNull ('\0', 4);
+SELECT toDecimal128OrNull ('\0\0\0\0\0', 4);
+SELECT toDecimal128OrNull ('\n\t\r', 4);
+SELECT toDecimal128OrNull ('\'', 4);
+
+SELECT '----  toDecimal128OrZero ----';
+SELECT toDecimal128OrZero ('54.1234567', 4);
+SELECT toDecimal128OrZero ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal128OrZero ('x123', 4);
+SELECT toDecimal128OrZero ('', 4);
+SELECT toDecimal128OrZero;
+drop tamit to 100 KB/sec
+SET max_network_bandwidth = 100000;
+
+-- Lower max_block_size, so we can start throttling sooner. Otherwise query will be executed too quickly.
+SET max_block_size = 100;
+
+CREATE TEMPORARY TABLE times (t DateTime);
+
+-- rand64 is uncompressable data. Each number will take 8 bytes of bandwidth.
+-- This query should execute in no less than 1.6 seconds if throttled.
+INSERT INTO times SELECT now();
+SELECT sum(ignore(*)) FROM (SELECT rand64() FROM remote('127.0.0.{2,3}', numbers(20000)));
+INSERT INTO times SELECT now();
+
+SELECT max(t) - min(t) >= 1 FROM timeble pl;
+
+drop table if exists t;
+
+create temporary table t (x UInt64, y alias x);
+insert into t values (1);
+select sum(x), sum(y) from t;
+
+drop table t;
+11111111111', 4);
+SELECT toDecimal256OrDefault ('x123', 4);
+SELECT toDecimal256OrDefault ('', 4);
+SELECT toDecimal256OrDefault ('\0', 4);
+SELECT toDecimal256OrDefault ('\0\0\0\0\0', 4);
+SELECT toDecimal256OrDefault ('\n\t\r', 4);
+SELECT toDecimal256OrDefault ('\'', 4);
+
+SELECT '----  toDecimal256OrNull ----';
+SELECT toDecimal256OrNull ('54.1234567', 4);
+SELECT toDecimal256OrNull ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal256OrNull ('x123', 4);
+SELECT toDecimal256OrNull ('', 4);
+SELECT toDecimal256OrNull ('\0', 4);
+SELECT toDecimal256OrNull ('\0\0\0\0\0', 4);
+SELECT toDecimal256OrNull ('\n\t\r', 4);
+SELECT toDecimal256OrNull ('\'', 4);
+
+SELECT '----  toDecimal256OrZero ----';
+SELECT toDecimal256OrZero ('54.1234567', 4);
+SELECT toDecimal256OrZero ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal256OrZero ('x123', 4);
+SELECT toDecimal256OrZero ('', 4);
+SELECT toDecimal256OrZero ('\0', 4);
+SELECT toDecimal256OrZero ('\0\0\0\0\0', 4);
+SELECT toDecimal256OrZero ('\n\t\r', 4);
+SELECT toDecimal256OrZero ('\'', 4);
+

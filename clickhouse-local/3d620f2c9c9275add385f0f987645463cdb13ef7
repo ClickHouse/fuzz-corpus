@@ -1,0 +1,3 @@
+SELECT normalizeQueryKeepNames('SELECT 1 AS `aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee`'),
+    normalizedQueryHashKeepNames('SELECT 1 AS `aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee 
+)` '= normalizedQueryHash[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[KeepNames('SELECT 2 AS `aaa;

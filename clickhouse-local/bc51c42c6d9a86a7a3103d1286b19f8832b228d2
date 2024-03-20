@@ -1,0 +1,4 @@
+SELECT
+    toStartOfHour(-01 01 BY
+    _c1 ASC,
+    c2 ASC

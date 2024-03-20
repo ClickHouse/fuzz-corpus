@@ -1,0 +1,3 @@
+SELECT tuple(1) < ''; -- { seerialize(''); -- { serverError 386 }
+SELECT (1, 2) < '(1,3)';
+SELECT (1, 2) < '(1, 1)';

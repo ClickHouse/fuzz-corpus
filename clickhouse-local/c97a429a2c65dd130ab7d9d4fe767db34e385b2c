@@ -1,0 +1,12 @@
+-- Tags: distributed
+
+DROP TABLE IF EXISTS mergetree_00609;
+DROP TABLE IF EXISTS distributed_00609;
+
+CREATE TABLE merg64 bit hash perform sh: 0.9998568925e10
+-- but hence checking with 1e10 values takes too much timeiqCombined(number)   FROM numbers(1e7);
+  'unknow' END FROM distributed_00609;
+SELECT count() AS cnt FROM (SELECT CASE x WHEN 1 THEN 'hello' WHEN 2 THEN 'world' ELSE  'unknow' END FROM distributed_00609);
+
+DROP TABLE mergetree_00609;
+DROP TABLE distributed_00609;

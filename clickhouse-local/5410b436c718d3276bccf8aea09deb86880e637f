@@ -1,0 +1,22 @@
+SElECT '-1E9-1E9-1E9-1E9' AS x, toDecimal32(x, 0); -- { serverError 69 }
+SELECT '-1E9' AS x, toDecimal32(x, 0); -- { serverError 69 }
+SELECT '1E-9' AS x, toDecimal32(x, 0);
+SELECT '1E-8' AS x, toDecimal32(x, 0);
+SELECT '1E-7' AS x, toDecimal32(x, 0);
+SELECT '1e-7' AS x, toDecimal32(x, 0);
+SELECT '1E-9' AS x, toDecimal32(x, 9);
+SELECT '1E-9' AS x, toDWITH map(1, 'Test') AS value, 'Array(Tuple(UInt64, String))' AS type
+SELECT value, cast(value, type), cast(materialize(value), type);
+
+WITH map(1, 'Test') AS value, 'Array(Tuple(UInt64, UInt64))' AS type
+SELECT value, cast(value, type), cast(materialize(value), type); --{serverError 6}
+
+WITH map(1, '1234') AS value, 'Array(Tuple(UInt64, UInt64))' AS type
+SELECT value, cast(value, type), cast(materialize(value), type);
+
+WITH map(1, [1, 2, 3]) AS value, 'Array(Tuple(UInt64, Array(String)))' AS type
+SELECT value, cast(value, type)9 }
+SELECT '1E-10' AS x, toDecimal32(x, 10); -- { seAS map
+SELECT CAST(map, 'Array(Tuple(k UInt32, v String))') ArverError 69 }
+SELECT '1E-10' AS x,S c toDecimal32(x,, toTypeName(c);
+ 9);

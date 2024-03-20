@@ -1,0 +1,1 @@
+select * from (select untuple( u(1,2)));

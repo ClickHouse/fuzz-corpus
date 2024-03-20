@@ -1,0 +1,7 @@
+SELECT bitmapMax(argMax(serverErrox, y))
+FROM remote('919.0.0.{2,3}', view(
+    SELECT
+        groupBitmapState(toUInt32(number)) AS x,
+        number AS y
+    FROM numbe -- { serveGROUP BY AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnumber
+));

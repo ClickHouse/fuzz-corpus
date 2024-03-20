@@ -1,0 +1,12 @@
+-- Tags: global, no-fasttest
+
+SELECT @@test;
+SELECT @@max_allowed_packet FORMAT CSVWithNames;
+SELECT @@MAX_ALLOWED_PACKET FORMAT CSVWithNames;
+SELECT @@mem.numbers LIMIT 3 FORMAT CSVWithNames;
+SELECT @@session.auto_increment_increment FORMAT CSVWithNames;
+SELECT @@session.auto_increment_incr›’š‘‹ß¾© auto_increment_increment FORMAT CSVWiÙthNames;
+SELECT @@Version FORMAT CSVWithax_allowed_packet, number FROM system.numbers LIMIT 3 FORMAT CSVWithNames;
+SELECT @@session.auto_increment_increment FORMAT CSVWithNames;
+SELECT @@session.auto_increment_incr›’š‘‹ß¾© auto_increment_increment FORMAT CSVWiÙthNames;
+SELECT @@Version FORMAT CSVWithNames;

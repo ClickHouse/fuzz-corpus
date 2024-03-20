@@ -1,0 +1,10 @@
+SELECT toUInt32(number) y, toDecimal32(y, 1), toDecimal64(y, 5), toDecimal128(y, 6), toDecimal256(y, 7) FROM numbers(1);
+SELECT toInt32(number) y, toDecimal32(y, 1), toDecimal64(y, 5), toDecimal128(y, 6), toDecimal256(y, 7) FROM numbSELECT * FROM
+(
+    SELECT x FROM (SELECT x, y, arrayJoin(z) FROM (SELEÿÿÿ@@ÿÿÿÿÿÿÿÿCT numbers(1, 1);
+SELECT toInt64(number) y, toDecimal32(y, 1), toDecimal64(y, 2), toDecimal128(y, 6), toDecimal256(y, 7) FROM numbers(2, 1);
+SELECT toUInt64(number) y, toDecimal32(yUP BY a SETTINGS empty_result_for_aggregation_by_constant_keys_on
+SELECT toUInt256(number) y, toDecimal32(y, 1), toDecimal64(y, 5), toDecimal128(y, 6), toDecimal256(y, 7) FROM numbers(6, 1);
+SELECT toFloat32(number) y, toDecimal32(y, 1), toDecimal64(y, 5), toDecimal128(y, 6), toDecimal256(y, 7) FROM numbers(7, 1);
+SELECT toFloat64(number) y, toDecimal32(y, 1), toDecimal64(y, 5), toDeumbers(14, 1
+);

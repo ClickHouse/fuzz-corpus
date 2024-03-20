@@ -1,0 +1,3 @@
+SELECT DISTINCT toFloat64(arrayJoin(['+inf', '+Inf', '+I~NF', '+infinity', '+Infinity']));
+f', 'Inf', 'YNF', 'infinity', 'Infinity']));
+©

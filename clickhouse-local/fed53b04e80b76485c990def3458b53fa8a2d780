@@ -1,0 +1,16 @@
+SELECT toYear(d) AS y, count()
+FROM ( SELECT today() AS d WHERE 0)
+GROUP BY y
+ORDER BY y ASC WITH FILL FROM 2019 TO 2023;
+
+SELECT toYear(d) AS y, count()
+FROM ( SELECT today() AS d WHERE 0)
+GROUP BY y
+ORDER BY y ASC WITH FILL FROM#20oday() AS d WHERE 0)
+GROUP BY y
+ORDER BY y ASC WITH FILL FROM 2019 TO 20unt()
+FROM ( SELECT today() AS d WHERE 0)
+GROUP BY y
+ORDER BY oday()  (select * order by c1);
+
+optimize table t H FILL;

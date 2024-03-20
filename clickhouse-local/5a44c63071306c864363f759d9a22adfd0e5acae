@@ -1,0 +1,302 @@
+SET allow_create_index_without_type=0;
+CREATE INDEX idx_tab1_0 on tab1 (col0); -- { serverError INCORRECT_QUERY }
+SET allow_create_index_without_type=1;
+CREATE INDEX idx_tab1_0 on tab1 (col0);
+CREATE INDEX idx_tab1_1 on tab1 (col1);
+CREATE INDEX idx_tab1_3 on tab1 (col3);
+CREATE INDEX idx_tab1_4 on tab1 (col4);
+CREATE INDEX idx_tab2_0 ON tab2 (col0 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col0 DESC,col1 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col0 DESC,col1 DESC,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col0 DESC,col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col0 DESC,col3);
+CREATE INDEX idx_tab2_0 ON tab2 (col0 DESC,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col0 DESC,col4);
+CREATE INDEX idx_tab2_0 ON tab2 (col0);
+CREATE INDEX idx_tab2_0 ON tab2 (col0,col1 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col0,col1 DESC,col3);
+CREATE INDEX idx_tab2_0 ON tab2 (col0,col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col0,col3 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col0,col3);
+CREATE INDEX idx_tab2_0 ON tab2 (col0,col3,col1 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col0,col3,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col0,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col0,col4);
+CREATE INDEX idx_tab2_0 ON tab2 (col0,col4,col3 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1 DESC,col0 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1 DESC,col0);
+CREATE INDEX idx_tab2_0 ON tab2 (col1 DESC,col0,col3 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1 DESC,col0,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1 DESC,col3 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1 DESC,col3 DESC,col0);
+CREATE INDEX idx_tab2_0 ON tab2 (col1 DESC,col3);
+CREATE INDEX idx_tab2_0 ON tab2 (col1 DESC,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1 DESC,col4);
+CREATE INDEX idx_tab2_0 ON tab2 (col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col1,col0 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1,col0 DESC,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1,col0,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1,col3 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1,col3);
+CREATE INDEX idx_tab2_0 ON tab2 (col1,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1,col4 DESC,col0 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col1,col4 DESC,col3);
+CREATE INDEX idx_tab2_0 ON tab2 (col1,col4);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col0 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col0 DESC,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col0);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col0,col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col0,col4);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col1 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col1,col4);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col4 DESC,col1 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col4 DESC,col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col3 DESC,col4);
+CREATE INDEX idx_tab2_0 ON tab2 (col3);
+CREATE INDEX idx_tab2_0 ON tab2 (col3,col0 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col3,col0 DESC,col1 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col3,col0 DESC,col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col3,col0);
+CREATE INDEX idx_tab2_0 ON tab2 (col3,col1 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col3,col1 DESC,col0 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col3,col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col3,col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col3,col4);
+CREATE INDEX idx_tab2_0 ON tab2 (col4 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col4 DESC,col0 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col4 DESC,col0);
+CREATE INDEX idx_tab2_0 ON tab2 (col4 DESC,col0,col1 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col4 DESC,col0,col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col4 DESC,col1 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col4 DESC,col1 DESC,col0 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col4 DESC,col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col4 DESC,col3 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col4 DESC,col3 DESC,col0);
+CREATE INDEX idx_tab2_0 ON tab2 (col4 DESC,col3);
+CREATE INDEX idx_tab2_0 ON tab2 (col4);
+CREATE INDEX idx_tab2_0 ON tab2 (col4,col0 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col4,col0 DESC,col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col4,col0);
+CREATE INDEX idx_tab2_0 ON tab2 (col4,col1 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col4,col1 DESC,col3 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col4,col1 DESC,col3);
+CREATE INDEX idx_tab2_0 ON tab2 (col4,col1);
+CREATE INDEX idx_tab2_0 ON tab2 (col4,col3 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col4,col3 DESC,col0 DESC);
+CREATE INDEX idx_tab2_0 ON tab2 (col4,col3);
+CREATE INDEX idx_tab2_1 ON tab2 (col0 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col0 DESC,col1 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col0 DESC,col1);
+CREATE INDEX idx_tab2_1 ON tab2 (col0 DESC,col3 DESC,col4);
+CREATE INDEX idx_tab2_1 ON tab2 (col0 DESC,col3);
+CREATE INDEX idx_tab2_1 ON tab2 (col0 DESC,col3,col1);
+CREATE INDEX idx_tab2_1 ON tab2 (col0 DESC,col4 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col0 DESC,col4);
+CREATE INDEX idx_tab2_1 ON tab2 (col0);
+CREATE INDEX idx_tab2_1 ON tab2 (col0,col1 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col0,col1);
+CREATE INDEX idx_tab2_1 ON tab2 (col0,col1,col4 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col0,col3 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col0,col3 DESC,col1);
+CREATE INDEX idx_tab2_1 ON tab2 (col0,col3 DESC,col4);
+CREATE INDEX idx_tab2_1 ON tab2 (col0,col3);
+CREATE INDEX idx_tab2_1 ON tab2 (col0,col4 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col0,col4);
+CREATE INDEX idx_tab2_1 ON tab2 (col1 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col1 DESC,col0 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col1 DESC,col0 DESC,col3);
+CREATE INDEX idx_tab2_1 ON tab2 (col1 DESC,col0);
+CREATE INDEX idx_tab2_1 ON tab2 (col1 DESC,col3 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col1 DESC,col3);
+CREATE INDEX idx_tab2_1 ON tab2 (col1 DESC,col4 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col1 DESC,col4 DESC,col3,col0 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col1);
+CREATE INDEX idx_tab2_1 ON tab2 (col1,col0 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col1,col0);
+CREATE INDEX idx_tab2_1 ON tab2 (col1,col3 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col1,col3 DESC,col0 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col1,col3);
+CREATE INDEX idx_tab2_1 ON tab2 (col1,col3,col4);
+CREATE INDEX idx_tab2_1 ON tab2 (col1,col4);
+CREATE INDEX idx_tab2_1 ON tab2 (col1,col4,col3);
+CREATE INDEX idx_tab2_1 ON tab2 (col3 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col3 DESC,col0 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col3 DESC,col0 DESC,col1);
+CREATE INDEX idx_tab2_1 ON tab2 (col3 DESC,col0 DESC,col4 DESC,col1);
+CREATE INDEX idx_tab2_1 ON tab2 (col3 DESC,col0);
+CREATE INDEX idx_tab2_1 ON tab2 (col3 DESC,col0,col1 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col3 DESC,col1 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col3 DESC,col1);
+CREATE INDEX idx_tab2_1 ON tab2 (col3 DESC,col4 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col3);
+CREATE INDEX idx_tab2_1 ON tab2 (col3,col0 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col3,col0);
+CREATE INDEX idx_tab2_1 ON tab2 (col3,col1 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col3,col1);
+CREATE INDEX idx_tab2_1 ON tab2 (col3,col4 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col3,col4 DESC,col0 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col3,col4);
+CREATE INDEX idx_tab2_1 ON tab2 (col4 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col4 DESC,col0);
+CREATE INDEX idx_tab2_1 ON tab2 (col4 DESC,col1 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col4 DESC,col1);
+CREATE INDEX idx_tab2_1 ON tab2 (col4 DESC,col3 DESC,col1 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col4 DESC,col3);
+CREATE INDEX idx_tab2_1 ON tab2 (col4);
+CREATE INDEX idx_tab2_1 ON tab2 (col4,col0 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col4,col0);
+CREATE INDEX idx_tab2_1 ON tab2 (col4,col1 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col4,col1);
+CREATE INDEX idx_tab2_1 ON tab2 (col4,col3 DESC);
+CREATE INDEX idx_tab2_1 ON tab2 (col4,col3 DESC,col1);
+CREATE INDEX idx_tab2_2 ON tab2 (col0 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col0 DESC,col1 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col0 DESC,col1);
+CREATE INDEX idx_tab2_2 ON tab2 (col0 DESC,col3);
+CREATE INDEX idx_tab2_2 ON tab2 (col0 DESC,col3,col1);
+CREATE INDEX idx_tab2_2 ON tab2 (col0 DESC,col4 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col0 DESC,col4);
+CREATE INDEX idx_tab2_2 ON tab2 (col0);
+CREATE INDEX idx_tab2_2 ON tab2 (col0,col1 DESC,col3);
+CREATE INDEX idx_tab2_2 ON tab2 (col0,col1);
+CREATE INDEX idx_tab2_2 ON tab2 (col0,col3);
+CREATE INDEX idx_tab2_2 ON tab2 (col0,col4 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col0,col4 DESC,col1 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col0,col4 DESC,col3 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col0,col4);
+CREATE INDEX idx_tab2_2 ON tab2 (col1 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col1 DESC,col0 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col1 DESC,col0 DESC,col3 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col1 DESC,col0);
+CREATE INDEX idx_tab2_2 ON tab2 (col1 DESC,col0,col3 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col1 DESC,col0,col4);
+CREATE INDEX idx_tab2_2 ON tab2 (col1 DESC,col3 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col1 DESC,col3 DESC,col0);
+CREATE INDEX idx_tab2_2 ON tab2 (col1 DESC,col3);
+CREATE INDEX idx_tab2_2 ON tab2 (col1 DESC,col4 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col1 DESC,col4);
+CREATE INDEX idx_tab2_2 ON tab2 (col1);
+CREATE INDEX idx_tab2_2 ON tab2 (col1,col0 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col1,col0);
+CREATE INDEX idx_tab2_2 ON tab2 (col1,col3 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col1,col3,col0);
+CREATE INDEX idx_tab2_2 ON tab2 (col1,col4 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col1,col4);
+CREAùTE INDEX idx_tab2_2 ON tab2 (col3 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col3 DESC,col0 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col3 DESC,col0);
+CREATE INDEX idx_tab2_2 ON tab2 (col3 DESC,col1);
+CREATE INDEX idx_tab2_2 ON tab2 (col3 DESC,col4 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col3 DESC,col4);
+CREATE INDEX idx_tab2_2 ON tab2 (col3);
+CREATE INDEX idx_tab2_2 ON tab2 (col3,col0 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col3,col0);
+CREATE INDEX idx_tab2_2 ON tab2 (col3,col1 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col3,col1 DESC,col0);
+CREATE INDEX idx_tab2_2 ON tab2 (col3,col1);
+CREATE INDEX idx_tab2_2 ON tab2 (col3,col4);
+CREATE INDEX idx_tab2_2 ON tab2 (col4 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col4 DESC,col0 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col4 DESC,col1 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col4 DESC,col1);
+CREATE INDEX idx_tab2_2 ON tab2 (col4 DESC,col3 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col4 DESC,col3);
+CREATE INDEX idx_tab2_2 ON tab2 (col4);
+CREATE INDEX idx_tab2_2 ON tab2 (col4,col0 DESC);
+CREATE INDEX idx_tab2_2 ON tab2 (col4,col0,col3);
+CREATE INDEX idx_tab2_2 ON tab2 (col4eaks');
+select n, firstLine(text) from 02815_first_line_vector order by nb2_3 ON tab2 (col0 DESC,col4 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col0 DESC,col4 DESC,col3);
+CREATE INDEX idx_tab2_3 ON tab2 (col0);
+CREATE INDEX idx_tab2_3 ON tab2 (col0,col1 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col0,col1);
+CREATE INDEX idx_tab2_3 ON tab2 (col0,col3 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col0,col4 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col0,col4 DESC,col1 DESC,col3);
+CREATE INDEX idx_tab2_3 ON tab2 (col0,col4 DESC,col3);
+CREATE INDEX idx_tab2_3 ON tab2 (col0,col4);
+CREATE INDEX idx_tab2_3 ON tab2 (col1 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col1 DESC,col0,col3);
+CREATE INDEX idx_tab2_3 ON tab2 (col1 DESC,col3 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col1 DESC,col3);
+CREATE INDEX idx_tab2_3 ON tab2 (col1 DESC,col4 DESC);
+CREATE INDEX idx_tab2_3 ON tx\n'), (3, 'single ab2 (col1 DESC,col4 DESC,col0);
+CREATE INDEX idx_tab2_3 ON tab2 (col1 DESC,col4 DESC,col3);
+CREATE INDEX idx_tab2_3 ON tab2 (col1);
+CREATE INDEX idx_tab2_3 ON tab2 (col1,col0 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col1,col3 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col1,col3);
+CREATE INDEX idx_tab2_3 ON tab2 (col1,col4 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col1,col4);
+CREATE INDEX idx_tab2_3 ON tab2 (col3 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col3 DESC,col0 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col3 DESC,col0 DESC,col4);
+CREATE INDEX idx_tab2_3 ON tab2 (col3 DESC,col0);
+CREATE INDEX idx_tab2_3 ON tab2 (col3 DESC,col1);
+CREATE INDEX idx_tab2_3 ON tab2 (col3 DESC,col1,col4);
+CREATE INDEX idx_tab2_3 ON tab2 (col3 DESC,col4 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col3 DESC,col4,col1);
+CREATE INDEX idx_tab2_3 ON tab2 (col3);
+CREATE INDEX idx_tab2_3 ON tab2 (col3,col0 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col3,col0);
+CREATE INDEX idx_tab2_3 ON tab2 (col3,col1 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col3,col1 DESC,col4 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col3,col1);
+CREATE INDEX idx_tab2_3 ON tab2 (col3,col4 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col3,col4);
+CREATE INDEX idx_tab2_3 ON tab2 (col4 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col4 DESC,col0 DESC,col1 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col4 DE;
+SC,col0 DESC,col3 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col4 DESC,col0,col1 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col4 DESC,col1 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col4 DESC,col1);
+CREATE INDEX idx_tab2_3 ON tab2 (col4 DESC,col3,col0);
+CREATE INDEX idx_tab2_3 ON tab2 (col4);
+CREATE INDEX idx_tab2_3 ON tab2 (col4,col0 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col4,col1 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col4,col3 DESC);
+CREATE INDEX idx_tab2_3 ON tab2 (col4,col3 DESC,col0 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col0 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col0 DESC,col1 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col0 DESC,col1);
+CREATE INDEX idx_tab2_4 ON tab2 (col0 DESC,col3 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col0 DESC,col4 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col0 DESC,col4 DESC,col3);
+CREATE INDEX idx_tab2_4 ON tab2 (col0 DESC,col4);
+CREATE INDEX idx_tab2_4 ON tab2 (col0);
+CREATE INDEX idx_tab2_4 ON tab2 (col0,col3 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col0,col3);
+CREATE INDEX idx_tab2_4 ON tab2 (col0,col4 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col1 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col1 DESC,col3 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col1 DESC,col4 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col1);
+CREATE INDEX idx_tab2_4 ON tab2 (col1,col0 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col1,col4 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col1,col4);
+CREATE INDEX idx_tab2_4 ON tab2 (col3 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col3 DESC,col0 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col3 DESC,col1);
+CREATE INDEX idx_tab2_4 ON tab2 (col3 DESC,col4 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col3 DESC,col4);
+CREATE INDEX idx_tab2_4 ON tab2 (col3);
+CREATE INDEX idx_tab2_4 ON tab2 (col3,col0);
+CREATE INDEX idx_tab2_4 ON tab2 (col3,col1);
+CREATE INDEX idx_tab2_4 ON tab2 (col3,col4 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col3,col4);
+CREATE INDEX idx_tab2_4 ON tab2 (col4 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col4 DESC,col0 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col4 DESC,col1);
+CREATE INDEX idx_tab2_4 ON tab2 (col4 DESC,col3 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col4 DESC,col3 DESC,col1 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col4 DESC,col3);
+CREATE INDEX idx_tab2_4 ON tab2 (col4 DESC,col3,col0 DESC,col1 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col4);
+CREATE INDEX idx_tab2_4 ON tab2 (col4,col0 DESC);
+CREATE INDEX idx_tab2_4 ON tab2 (col4,col0);
+CREATE INDEX idx_tab2_4 ON tab2 (col4,col1 DE

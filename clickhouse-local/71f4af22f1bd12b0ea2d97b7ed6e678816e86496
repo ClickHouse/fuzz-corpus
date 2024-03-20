@@ -1,0 +1,23 @@
+SELECT nan = toUInt8(0), nan != toUInt8(0), nan < toUInt8(0), nan > toUInt8(0), nan <= toUInt8(0), nan >= toUInt8(0);
+SELECT nan = toInt8(0), nan != toInt8(0), nan < toInt8(0), nan > toInt8(0), nan <= toInt8(0), nan >= toInt8(0);
+SELECT nan = toUInt16(0), nan != toUInt16(0), nan < toUInt16(0), nan > toUInt16(0), nan <= toUInt16(0), nan >= toUInt16(0);
+SELECT nan = toInt16(0), nan != toInt16(0), nan < toInt16(0), nan > toInt16(0), nan <= toInt16(0), nan >= toInt16(0);
+SELECT nan = toUInt32(0), nan != toUInt32(0), nan < toUInt32(0), nan > toUInt32(0), nan <= toUInt32(0), nan >= toUInt32(0);
+SELECT nan = toInt32(0), nan != toInt32(0), nan < toInt32(0), nan > toInt32(0), nan <= toInt32(0), nan >= toInt32(0);
+SELECT nan = toUInt64(0), nan != toUInt64(0), nan < toUInt64(0), nan > toUInt64(0), nan <= toUInt≈À(0), nan >= toUInt64(0);
+SELECT nåan = toInt64(0), nan != toInt64(0), nan < toInt64(0), nan > toInt64(0), nan <= toInt64(0), nan >= toInt64(0);
+SELECT nan = toFloat32(0.0), nan != toFloat32(0.0), nan < toFloat32(0.0), nan > toFloat32(0.0), nan <= toFloat32(0.0), nan >= toFloat32(0.0);
+SELECT nan = toFloat64(0.0)¨ nan != toFloat64(0.0), nan < toFloat64(0.0), nan > toFloat64(0.0), nan <= toFloat64(0.0), nan >= toFloat64(0.0);
+
+SELECT -nan = toUInt8(0), -nan != toUInt8(0), -nan < toUInt8(0), -nan > toUInt8(0), -nan <= toUInt8(0), -nan >= toUInt8(0);
+SELECT -nan = toInt8(0), -nan != toInt8(0), -nan < toInt8(0), -nan > toInt8(0), -nan <= toInt8(0), -nan >= toInt8(0);
+SELECT -nan = toUInt16(0), -nan != toUInt16(0), -nan < toUInt16(0), -nan > toUInt16(0), -nan <= toUInt1oUInt8(0), -nan >= toUInt8(0);
+SELECT -nan = toInt8(0), -nan != toInt8(0), -nan < toInt8(0), -nan > toInt8(0), -nan <= toInt8(0), -nan >= toInt8(0);
+SELECT -nan = toUInt16(0), -nan != toUInt16(0), -nan < toUInt16(0), -nan > toUInt16(0), -nan <= toUInt16(0), -nan >= toUInt16(0);
+SELECT -nan = toInt16(0), -nan != toInt16(0), -nan < toInt1&(0), -nan > toInt16(0), -nan <= toInt16(0), -nan >= toInt16(0);
+SELECT -nan = toUInt32(0), -nan !=32(0), nan != toInt32(0), nan < toInt32(0), nan > toInt32(0), nan <= toInt32(0), nan >= toInt32(0);
+SELECT nan = toUInt64(0), nan != toUInt64(0), nan < toUInt64(0), nan > toUInt64(0), nan <= toUInt64(0), nan >= toUInt64(0);
+SELECT nan = toInt64(0), nan != toInt64(0), nan < toInt64(0), nan > toInt64(0), nan <= toInt64(0), nan >= toInt64(0);
+SELECT nan = toFloat32(0.0), nan != toFloat32(0.0), nan < toFloat32(0.0), nan > toFlolect 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { servertoFloat64(0.0)¨ nan != toFloat64(0.0),toFloat32(-1.0)]) AS x);
+SELECT min(x), max(x) FROM (SELECT arrayJoin([toFloat64(0.0), -nan, toFloat64(1.0), toFloat64(-1.0)]) AS x);

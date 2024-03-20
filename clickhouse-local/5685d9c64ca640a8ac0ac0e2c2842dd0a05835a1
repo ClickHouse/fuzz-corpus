@@ -1,0 +1,3 @@
+--gs: no-fasttest
+
+SELECT TO_BASE64('test s¤ing');

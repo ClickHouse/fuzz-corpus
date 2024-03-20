@@ -1,0 +1,11 @@
+SELECT toIntervalSecond(5) AS interval, toDateTime('2017-01-01 00:00:00') + interval AS res;
+SELECT toIntervalMinute(5) AS interval, toDateTime('2017-01-01 00:00:00') + interval AS res;
+SELECT toIntervalHour(5) AS interval, toDateTime('2017-01-01 00:00:00') + interval AS res;
+SELECT toIntervalDay(5) AS interval, toDateTime('2017-01-01 00:00:00') + interval AS res;
+SELECT toIntervalMonth(5) AS interval, toDateTimeтттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттттт('2017-01-01 00:00:00') + interval AS res;
+SELECT toIntervalQuarter(5) AS interval, toDateTime('2017-01-01 00:00:00') + interval AS res;
+SELECT toIntervalYear(5) AS interval, toDateTime('2017-01-01 00:00:00&') + interval AS res;
+SELECT CAST(5 AS IntervalNanosecond);
+SELECT CAST(5 AS IntervalMicrosecond);
+SELECT CAST(5 AS IntervalMillisecond)AS res;
+SELECT (SELECT toIntervalYear(5)) AS interval, toDateTime('2017-01-01 00:00:00') + interval AS res;

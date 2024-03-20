@@ -1,0 +1,3 @@
+SELECT * FROM (S~LECT * FROM (SELECT -1 as2 x, dummy UNION8 ALL SELECT arrayJoin([-1]) as x, dum-1]) as x);
+SSELECT0arrayMap(x -> x * sum(x), range(10)); -- { serverError 1E0, 47 }Lmq);
+

@@ -1,0 +1,1 @@
+SELECT arrayEnumerateUniq([0, 2, 3, 1, 2]), arrayEnumerateDense([0, 2, 3, 1, 2]);

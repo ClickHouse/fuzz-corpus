@@ -1,0 +1,3 @@
+-- Tags: no-fasttest
+
+SELECT DATE(toDateTime('2016-06-ç 23:00:00'));

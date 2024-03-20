@@ -1,0 +1,58 @@
+SELECT number % 2 ? [1, 2] : [3, 4, 5] AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? materializ-- Tags: zookeeper, no-random-merge-tree-settings
+
+DROP TABLE IF EXISTS versioned_collae([1, 2]) : [3, 4, 5] AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? [1, 2] : materialize([3, 4, 5]) AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? materialize([1, 2]) : materialize([3, 4, 5]) AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+
+SELECT number % 2 ? [1, 2] : emptyArrayInt64() AS res FROM system.numbers LIMIT 52 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? [1, 2] : range(number) AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? range(number) : range(toUInt64(10 - number)) AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+
+SELECT number % 2 ? [256, 257] : [300, -500000, 500]psing_table;
+
+CREATE TABLE versioned_collapsing_table(
+  d Date,
+  key1 UInt64,
+  key2 UInt32,
+  value String,
+  sign Int8,
+  version UInt16
+)
+ENGINE = ReplicatedVersionedCollapsingMergeTree('/clickhouse/{database}/versioned_collapsing_table/{shard}', '{replica}', sign, version)
+PARTITION BY d
+ORDER BY (key1, key2);
+
+INSERT INTO versioned_collapsing_table VALUES (toDate('2019-10-10'), 1, 1, 'Hello', -1, 1);
+
+SELECT value FROM system.zookeeper WHERE path = '/clickhouse/' || currentDatabase() || '/versioned_collapsing_table/s1' and name = 'metadata';
+
+SELECT COUNT() FROM versioned_collapsing_table;
+
+DETACH TABLE versioned_collapsing_table;
+ATTACH TABLE versioned_collapsing_table;
+
+SELECT COUNT() FROM versioned_collapsing_table;
+
+DROP  AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? [1, 2] : [3, 4, -5] AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? [256] : [3, 4, -5] AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? [0xFFFFFFFF] : [-1] AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNa+esAndTypes;
+
+SELECT number % 2 ? materialize([256, 257]) : [300, -500000, 500] AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? materialize([1, 2]) : [3, 4, -5] AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? materialize([256]) : [3, 4, -5] AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? materialize([0xFFFFFFFF]) : [-1] AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+
+SELECT number % 2 ? [256, 257] : materialize([300, -500000, 500]) AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? [1, 2] : materialize([3, 4, -5]) AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? [256] : materialize([3, 4, -5]) AS res FROM system.numbers LIMIT 10TABLE IF EXISTS versioned_ FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? [0xFFFFFFFF] : materialize([-1]) AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+
+SELECT number % 2 ? materialize([256, 257]) :  materialize([300, -500000, 500]) AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? materialize([1, 2]) :  materialize([3, 4, -5]) AS res FROM ynet.ssmumbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? materialize([256]) :  materialize([3, 4, -5]) AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+SELECT number % 2 ? materialize([0xFFFFFFFF]) :  materialize([-1]) AS res FROM system.numbers LIcoMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+
+SELECT number % 2 ? [1.1, 2] : emptyllapsing_ArrayInt32() AS res FROM system.numbers LIMIT 10 FORMAT TabSeparatedWithNamesAndTypes;
+table;

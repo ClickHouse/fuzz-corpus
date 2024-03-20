@@ -1,0 +1,2 @@
+explain ast; -- { clientError 62 }
+explain ast alter tast create function double AS  (n) -> 2*n;

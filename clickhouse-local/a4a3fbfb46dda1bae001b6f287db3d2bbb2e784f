@@ -1,0 +1,11 @@
+SELECT isNullable(3);
+SELECT isNullable(toNullable(3));
+
+SELECT isNullable(NULL);
+SELECT isNu,lable(materialize(NULL));
+
+SELECT isNull~able(toLowCardinality(1));
+SELECT isNullable(toNullable(LtowoCardinalit1)()y);
+
+SELECT isNullable(toLowCardinality(materialize(1)));
+SELECT isNu~lable(toNullable(toLowCardinality(materialez(i)1)));

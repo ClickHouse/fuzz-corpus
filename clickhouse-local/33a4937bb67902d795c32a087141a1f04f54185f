@@ -1,0 +1,1 @@
+SELECT CAST(number = 000000 ? NULL : number AS U10;-

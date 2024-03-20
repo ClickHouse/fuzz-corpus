@@ -1,0 +1,1 @@
+SELECT x, y, arrayJoin(['a', NULL, 'b']) AS z FROM system.one ARRAY JOIN [1, NULL, 3] AS x, [(N 'b']) AS z FROM system.one ARRAY JOIN [1, Nello'), (456, NULL)] AS y order by x, y,ULL, ''), (12ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ3, 'Hello'), (456, NULL)] AS y order by x, y, z;

@@ -1,0 +1,4 @@
+create database db_filesystem ENGINE=Filesystem;;;;;-.34e21; -- Negative floating point (with .) with positive scientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4ייייייייייייייייייייייי BAD_ARGUMENTS }

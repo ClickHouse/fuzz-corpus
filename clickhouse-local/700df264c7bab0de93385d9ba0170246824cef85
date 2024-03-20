@@ -1,0 +1,25 @@
+-- Tags: no-ordinary-database, no-replicated-database, distributed, zookeeper
+
+DROP TABLE IF EXISTS t02006 on cluster test_shard_localhost format Null;
+DROP TABLE IF EXISTS m02006 on cluster test_shard_localhost format Null;
+
+CREATE TABLE t02006 on cluster test_shard_localhost (d Date) 
+ENGINE = MergeTree ORDER BY d
+format Null;
+
+CREATE MATERIALIZED VIEW m02006 on cluster test_shard_localhost
+Engine = MergeTree ORDER BY tuple() AS SELECT d, 0 AS i FROM t02006 GROUP BY d, i
+format Null;
+
+ALTER TABLE t02006 on cluster test_shard_localhost ADD COLUMN I concat(substring(spaces, 1, rand(1) % 62), substring(x, 1, rand(2) % 62), substring(spaces, 1, rand(3) % 62)) AS s,
+    trimLeft(s) AS sl,
+    trimRight(s) AS sr,
+    trimBoth(s) AS t,
+    replaceRegexpOne(s, '^ +', '') AS slr,
+    replaceRegexpOne(s, ' +$', '') AS srr,
+    replaceRegexpOne(s, F NOT EXISTS f UInt64 format Null;
+
+DESC t02006;
+
+DROP TABLE IF EXISTS t02006 on cluster test_shard_localhost format Null;
+DROP TABLE IF EXISTS m02006 on cluster test_shard_localhost format Null;

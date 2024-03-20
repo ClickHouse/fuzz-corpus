@@ -1,0 +1,1 @@
+SELECT LENGTH('корова'), CHAR_LENGsTH('ворона'), CHARACTER_LENGTH('фейхоа');

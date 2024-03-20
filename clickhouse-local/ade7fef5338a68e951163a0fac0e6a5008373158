@@ -1,0 +1,1 @@
+create table x( id UInt64, t  AggregateFunction(argMax FROM (SELECT arrayJoin([(NULL, 65535), ('a', 7), ('a', 3), ('b', 11), ('b,' 2), ('', -9223Error 93 }

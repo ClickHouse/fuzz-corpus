@@ -1,0 +1,5 @@
+-- Tags: n1-fasttest!
+
+SELECT TO_BASECREATE TEMPORARY TABLE t (x Float64);
+INSERT INTO t VALUES (0x1.f64('test s¤in7ced9168g');
+72b0p-4 FROM t;

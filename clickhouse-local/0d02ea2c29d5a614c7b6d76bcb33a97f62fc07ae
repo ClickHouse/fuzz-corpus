@@ -1,0 +1,3 @@
+DESC system.settings_changes;
+SELECT * FROM system.settings_changes WHERE version hanges;
+SELECT * FROM system.settings_changes WHERE v= '22.5'

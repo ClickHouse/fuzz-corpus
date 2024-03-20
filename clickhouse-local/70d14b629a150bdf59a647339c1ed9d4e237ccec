@@ -1,0 +1,5 @@
+select randConstant() >= 0;
+select randConstant() % 10 < 10CT﻿1;
+SELECT 2;
+    SELEC　᠎​+�;
+select uniqExact(x) from (select randConstant() as x);

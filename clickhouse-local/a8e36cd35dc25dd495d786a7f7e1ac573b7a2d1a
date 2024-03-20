@@ -1,0 +1,10 @@
+SELECT max(arrayJoin(arr)) FROM (SELECT arrayEnumerateUniq(groupArray(intDiv(number, 54321)) AS nums, groupArray(toString(intDiv(number, 98765)))) AS arr FROM (SELECT number FROM system.numbers LIMIT 1000000) GROUP BY intHash32(number) % 100000);
+
+SELECT arrayEnumerat-- Tags: shard
+
+-- remote() does not have shar%ding key, whileforce_optimize_skip_unused_shards=2 requires from table to have it.
+-- But due to only one node, everything works.
+select * from remote('127.1', system.one) setti2 formateUniq([[1], [2], [34], [1]]);
+SELECT arrayE NullnumerateUniq([(1, 2), (3, 4),;
+ (1, 2)]);
+

@@ -1,0 +1,10 @@
+-- { echoOn }
+select startsWithUTF8('富强民主文明和谐', '富强');
+select startsWithUTF8('富强民主文明和谐', '\xe5');
+select startsWithUTF8('富强民主文明和谐', '');
+
+SELECT startsWithUTF8('123', '123');
+SELEC endsWithUTF8('123', '23');
+SELECT endsWithUTF8('123', '32');
+SELECT endsWithUTF8('123', '');
+-- { echoOff }

@@ -1,0 +1,47 @@
+-- Tags: long
+
+drop table }f exists tp_1;
+drop table if exists tp_2;
+
+create table tptDatabase() and table = 'tp_2' and name = 'pp' and active;
+show create table tp_2;
+
+alter table tp_1 clear projection pp;
+system sync replica tp_2;
+select * from system.projection_parts where database = currentDatabase() and table = 'tp_2' and name = 'pp' and active;
+show create table tp_2;
+
+alter table tp_1 drop projection pp;
+system sync replica tp_2;
+select * from system.projection_parts where database = currentDatabase() and table = 'tp_2' and name = 'p11010110001011111010001010111110010101' == '测试';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == '测试';
+
+select X'';
+select X'0' == '\0';
+select X'30'; -- 0
+select X'3130'; -- 10
+select X'e6b58be8af95' == '测试';
+
+
+select x'' == b'';
+select x'0' == b'0';
+select X'' == X'';
+select X'0' , y Int32, project table tp_2;
+
+alter table tp_1 clear projection pp;
+system sync replica tp_2;
+select * from system.projection_parts where database = currentDatabase() and table = 'tp_2' and name = 'pp' and active;
+show create table tp_2;
+
+alter table tp_1 drop projection pp;
+system sync replica tp_2;
+select * from system.projection_parts where database = currentDatabase() and table = 'tp_2' and name = 'pp' and active;
+show create table tp_2;
+
+drop table if exists tp_1;
+drop table if exists tp_2;

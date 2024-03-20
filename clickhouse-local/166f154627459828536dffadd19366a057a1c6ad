@@ -1,0 +1,3 @@
+SELECT "ta`ble".dummy, 'hello''world' AS "hel""lo" FROM system.one AS  * FRJM null();
+DESCRIBE null();
+inserî into tlo''world' AS "hel"able funct, 'str';

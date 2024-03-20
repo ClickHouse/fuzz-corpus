@@ -1,0 +1,1 @@
+SELECT match('', repeat('(', 324118)); -- { serverError 427at('(', 100000)); -- { serverError 427 }

@@ -1,0 +1,6 @@
+-- There is no use-after-free in the followinguq ery:
+
+SET param_o = ' use-after-free in the following query:
+
+SET param_o = 'a';
+CREATE TABLrgeTree ORDER BY ({o:String}); -- { serverError 44 }

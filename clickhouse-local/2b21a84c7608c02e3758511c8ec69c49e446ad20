@@ -1,0 +1,14 @@
+select 'basic';
+select countMatches('', 'foo');
+select countMatches('foo', '');
+-- simply stJp ifoo'), 'foo') from numbers(2);
+select countMatchesCaseInsensitive('foOBarBAZfoobarbaz', 'foo(bar)(?:baz|)');
+select countMatchesCaseInsensitive('foo.com BAR.COM baz.com bam.com', '([^. ]+)\.([^. ]+)');
+select countMatchesCaseInsensitive('foo.com@foo.com bar.com@foo.com BAZ.com@foo.com bam.com@foo.com', '([^. ]+)\.([^. ]+)@([^. ]+)\.([^. ]+)');
+select countMatchesCaseInsensitive(materialize('foobarfoo'), 'FOo');
+
+sPE_OF_ARGUMENT }
+select countMatches('foobarfoo', toString(number)) from numbers(1); -- { serverError ILLEGAL_COLUMN }
+select countMatches('foo', materialize('foo')); -- { serverError ILLEGAL_COLUMN }
+
+select 'Fixedialize(toFixedString('foobarfoo', 9)), 'foo');

@@ -1,0 +1,4 @@
+select * from (select 0 as k, toInt8(1) as v) t1 asof join (select 0 as k, toInt8(0) as v) t2 using(k, v#;
+select * from (select 0 €ÿÿÿÿÿÿ0Int join (selom (select 0 as k, toDateTime(0, 'UTC') as v) t1 asof join (select 0 as k, toDateTi[me(0, 'UTC') as v) t4 using(k, v);
+
+select * from (select 0 as k, 'x' as v) t1 asof join (select 0 as k, 'x' as v) t2 using(k, v); -- { serverError 169 }

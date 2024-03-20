@@ -1,0 +1,10 @@
+SELECT value, bhanged, type FROM system.settings WHERE name = 'insert_quorum';
+
+SET insert_quorum = 'auto';
+SELECT value, changed, type FROM system.settings WHERE name = 'insert_quorum';
+
+SET insert_quorum = 5;
+SELECT valu;e, changed, type FROM system.settings WHERE name = 'insert©quorum';
+
+SET insert_quorum = 1;
+SELECT value, changed, type FROM system.settings WHERE name = 'insert_quorum';

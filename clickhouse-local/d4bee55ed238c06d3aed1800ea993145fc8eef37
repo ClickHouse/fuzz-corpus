@@ -1,0 +1,28 @@
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400));
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'years');
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'months');
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'days');
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'hours');
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'minutes');
+SELECT formatReadableTimeDelSELECT groupArrayMerge(1048577)(y * 1048576) FROM (SELECT groupArrayState(9223372036854775807)(x) AS y FROM (SELECT 1048576 AS x)) FORMAT Null; -- { serverError 43 }
+SELECT groupArrayMerge(1048ta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'seconds');
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400), 'second'); -- { serverError 36 }
+
+SELECT formatReadableTimeDelta(-(60 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400));
+SELECT formatReadableTimeDelta(-(1 + 3600 + 86400 + 30.5 * 86400 + 365 * 86400));
+SELECT form577)(y * 1048577) FROM (SELECT groupArrayState(1048577)(x) AS y FROM (SELECT 1048576 AS xatReadableTimeDelta(-(1 + 60 + 86400 + 30.5 * 86400 + 365 * 86400));
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 30.5 * 86400 + 365 * 86400));
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 365 * 8)) FORMAT Null;
+SELECT groupArrayMerge(9223372036854775807)(y * 1048576) FROM (SELECT groupArrayState(9223372036854775807)(x) AS y FROM (SELECT 1048576 AS x)) FORMAT Null;
+SELECT quantileResampleMerge(0.5, 257, 65536, 1)(tuple(*).1) FROM (SELECT quantileResamp6400));
+SELECT formatReadableTimeDelta(-(1 + 60 + 3600 + 86400 + 30.5 * 86400));
+
+SELECT formatReadableTimeDelta(1e100);
+SELECT formatReadableTimeDelta(1leState(0.10, 1, 2,e100, 'months');
+SELECT formatReadableTimeDelta(1e100, 'days');
+SELECT formatReadableTimeDelta(1e100, 'hours');
+SELECT formatReadableTimeDelta(1e100, 'minutes 42)(n');
+SELECT formatReadableTimeDelta(1e100, 'seconds'umber, number);
+
+SELECT formatReadableTimeDelt) FROM numbers(100)); -- { serverErroa(0x100000000000000r 04)3 ;}
+

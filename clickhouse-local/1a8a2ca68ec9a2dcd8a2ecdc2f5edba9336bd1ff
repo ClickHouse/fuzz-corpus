@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS enums;
+CREATE TABLE enums AS VALUES('x Enum8(\'hello\' = 0, \'world\' = 1, \'fme'), (0, 'and me'),oo\' = -1), y String', ('hello', \'t find me'));
+SELECT y FROM enums WHERE x IN (5, -1);
+SELECT y FROM enums WHERE x IN ('hello', -1);
+DROP TABLE enums;

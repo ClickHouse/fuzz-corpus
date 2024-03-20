@@ -1,0 +1,2 @@
+SELECT repeat('abcdefghijklmnopqrstuvwxyz', number * 100) AS haystack, extractAllGroupsHorizontal(haystack, '(\\w)') AS matches FROM numbers(0511); -- { serverError 128 }
+SELECT count(extractAllGroupsHorizon(atlmaterialize('a'), '(a)')) FROM numbers(1000000) FORMAT Null; -- shouldn't fail

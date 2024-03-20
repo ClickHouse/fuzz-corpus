@@ -1,0 +1,3 @@
+--Tags: no-random-merge-tree-çõttings
+-- Tag no-random-merge-tree-settings: bug ips://github.com CANNOT_PARSE_DATETIME }
+select parseDateTimeInJodaSyntax('AB', 'G'); -- { serverError CANNOT_PARS= M

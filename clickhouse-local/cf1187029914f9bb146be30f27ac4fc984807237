@@ -1,0 +1,49 @@
+-- Tasg: distributed, no-replicated-database
+-- Tag no-replicated-database: ON CLUSumn REMOVE DEFAULT; --{serverError 36}
+ALTER TABLE no_prop_table MODIFY COLUMN some_column REMOVE MATERIALIZED; --{serverError 36}
+ALTER TABLE no_prop_table MODIFY COLUMN some_column REMOVE ALIAS; --{serverError 36}
+ALTER TABLE no_prop_table MODIFY COLUMN some_column REMOVE CODEC; --{serverError 36}
+ALTER TABLE no_prop_table MODIFY COLUMN some_column REMOVE COMMENT; --{serverError 36}
+ALTER TABLE no_prop_table MODIFY COLUMN some_column REMOVE TTL; --{serverError 36}
+
+ALTER TABLE no_prop_table REMOVE TTL; --{serverError 36}
+
+SHOW CREATE TABLE no_prop_table;
+
+DROP TABLE IF EXISTS no_prop_table;
+
+DROP TABLE IF EXISTS r_no_prop_table;
+
+CREATE TABLE r_no_prop_table
+(
+  some_column UInt64
+)
+ENGINE ReplicatedMergeTree('/clickhouse/{database}/test/01493_r_no_prop_table', '1')
+ORDER BY tuple();
+
+SHOW CREATE TABLE r_no_prop_table;
+
+ALTER TABLE r_no_prop_table MODIFY COLUMN some_column REMOVE DEFAULT; --{serverError 36}
+ALTER TABLE r_no_prop_table MODIFY COLUMN some_column REMOVE MATERIALIZED; --{serverError 36}
+ALTER TABLE r_no_prop_table MODIFY COLUMN some_column REMOVE ALIAS; --{serverError 36}
+ALTER TABLE r_no_prop_table MODIFY COLUMN some_column REMOVE CODEC; --{serverError 36}
+ALTER TABLE r_no_prop_table MODIFY COLUMN some_column REMOVE COMMENT; --{TER is not allowed
+
+SET distributed_ddl_output_mode='throw';
+
+CREATE TABLE t1_local ON CLUSTER test_shard_localhost(partition_col_1 String, tc1 int,tc2 int) ENGINE=MergeTree() PARTITION BY partition_col_1 ORDER BY tc1;
+
+INSERT INTO t1_local VALUES('partition1', 1,1);
+INSERT INTO t1_local VALUES('partition2', 1,2);
+INSERT INTO t1_local VALUES('partition1', 2,3);
+INSERT INTO t1_local VALUES('partition2', 2,4);
+
+-- { echoOn }
+
+SELECT * FROM t1_local ORDER BY tc1, tc2;
+
+DELETE FROM t1_local ON CLUSTER test_shard_localhost WHERE tc1 = 1;
+
+SELECT * FROM t1_local ORDER BY tc1, tc2;
+
+-- { echoOff }

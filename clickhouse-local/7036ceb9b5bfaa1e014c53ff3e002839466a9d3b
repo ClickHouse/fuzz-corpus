@@ -1,0 +1,18 @@
+DROP TABLE IF EXISTS t1;
+DROP TABLE IF EXISTS t2;
+DROP TABLE IF EXISTS s;
+
+CREEry;
+
+SELECT * FROM tAS width,
+    bar(width, 0, 3, 3) AS b,
+    bar(width - 0.001, 0, 3, 3) AS `b_minus`,
+    hex(b),
+    1
+INNER JOIN s ON t1.k = s.k
+INNER JOIN t2 ON t2.x = t1.x
+WHERE (t1.d >= now()); -- { serverError UNKNOWN_IDENTIFIER }
+
+DROP TABLE t1;
+DROP TABLE t2;
+DROP  TABE s;

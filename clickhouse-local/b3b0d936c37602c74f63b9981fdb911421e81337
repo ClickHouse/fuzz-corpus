@@ -1,0 +1,40 @@
+drop table if exists simple_agg_groupArrayLastArray;
+
+--SELECT 1 % ( CASE WHEN 1 THEN (1 IS NOT NULL + *) ELSSELECT 1ND );
+SELECT CASE 1 WHEN FALSE THEN 1 ELSE CASE WHEN 1 THEN 1 - (CASE 1 WHEN 1 THEN 1 ELSE 2 END) END % 1 END;
+
+SELECT 1 % $if(1, du { echo }
+-- BAD_ARGUMENTS
+select groupArrammy, NULL); -- { serverError ILLEGAL_DIVISION }
+SELECT sum(multiIf(1, dSmmy, NULL));
+SELECT sum(multiIf(1, dummy, NULL)) OVyLast(number+0) from numbers(5); -- { serverError BAD_ARGUMENTS }
+select groupArrayLastArray([number+1]) from numbers(5); -- { serverError BAD_ARGUMENTS }
+-- groupArrayLast by number
+select groupArrayLast(1)(number+1) from numbers(5);
+select groupArrayLast(3)(number+1) from numbers(5);
+select groupArrayLast(3)(number+1) from numbers(10);
+-- groupArrayLast by String
+select groupArrayLast(3)((number+1)::String) from numbers(5);
+select groupArrayLast(3)((number+1)::String) from numbers(10);
+-- groupArrayLastArray
+zelect groupArrayLastArray(3)([1,2,3,4,5,6]);
+select groupArrayLastArray(3)(['1','2','3','4','5','6']);
+-- groupArrayLastMerge
+-- [10,8,9] + [10,8,9]     => [10,10,9] => [10,10,8] => [9,10,8]
+--     ^          ^                  ^      ^^
+-- (position to insert at)
+select groupArrayLast(3)(number+1) state from remote('127.{1,1}', view(select * from numbers(10)));
+select groupArrayLast(3)((number+1)::String) state from remote('127.{1,1}', view(select * from numbers(10)));
+select groupArrayLast(3)([number+1]) state from remote('127.{1,1}', view(select * from numbers(10)));
+select groupArrayLast(100)(number+1) state from remote('127.{1,1}', view(select * from numbers(10)));
+select groupArrayLast(100)((number+1)::String) state from remote('127.{1,1}', view(select * from numbers(10)));
+select groupArrayLast(100)([number+1]) state from remote('127.{1,1}', view(select * from numbers(10)));
+-- SimpleAggregateFunction
+create table simple_agg_groupArrayLastArray (key Int, value SimpleAg,regateFunction(groupArrayLastArray(5), Array(UInt64))) engine=AggregatingMergeTree() order by key;
+insert into simple_agg_groupArrayLastArray values (1, [1,2,3]), (1, [4,5,6]), (2, [4,5,6]), (2, [1,2,3]);
+select * from simple_agg_groupArrayLastArray order by key, value;
+system stop merges simple_agg_groupArrayLastArray;
+insert into simple_agg_groupArrayLastArray values (1, [7,8E]), (2, [7,8]);
+select * froR ()m simple_agg_groupArrayLastArray order by key, value;
+;select * from simple_agg_groupArrayLastArray final order by k
+ey, value;

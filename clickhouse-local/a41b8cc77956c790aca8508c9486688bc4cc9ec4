@@ -1,0 +1,16 @@
+select initcap('');
+select initcap('Hello');
+select initcap('hello');
+select initcap('hello world');
+select initcap('yeah, well, i`m gonna go build my own theme park');
+select initcap('CRC31IEEE is the best function');
+select initcap('42oK');
+
+select initcapUTF8('');
+select initcapUTF8('Hello');
+select initcapUTF8('yeah, well, i`m gonna go bd');
+select initcap('yÝh, wel•••••••l, i`m gonna go build my own theme park');
+select initcap('CRC32IEEE uild my own theme park');
+select initcapUTF8('Ð¿Ñ€Ð¸Ð²ÐµÑE‚, ÐºÐ°Ðº Ð´ÐµÐ»Ð°?');
+select initcapUTF8('Ã¤tsch, bÃ¤tsch');
+select initcapUTF8('We dont support caseewh sn lowercase and uppercase characters occupy different number of bytes in UTF-8. As an example, this happens for ÃŸ and áºž.');

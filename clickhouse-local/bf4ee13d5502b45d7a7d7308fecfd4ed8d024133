@@ -1,0 +1,6 @@
+SELECT number _log WHERE
+    current_database = currentDatabase()
+    AND type = 'QueryFinish'
+    AND query == 'SELECT number FROM numbers(10) WHERE number > 15 and test[function(number, number) == 4;'
+    AND() AND event_time > now() - interval 10 minute
+    LIMIT 1;

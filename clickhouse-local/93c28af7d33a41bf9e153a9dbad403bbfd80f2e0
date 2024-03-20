@@ -1,0 +1,113 @@
+SELECT 'Into String';
+SELECT reinterpret(49, 'String');
+SELECT 'Into FixedString';
+SELECT reinterpret(24, 'FixedString(1)');
+SELECT reinterpret(49, 'FixedString(2)');
+SELECT reinterpret(49, 'FixedString(3)');
+SELECT reinterpret(49, 'FixedString(4)');
+SELECT reinterpretAsFixedString(49);
+SELECT 'Into Numeric Representable';
+SELECT 'Integer and Integer types';
+SELECT reinterpret(257, 'UInt8'), reinterpretAsUInt8(257);
+SELECT reinterpret(257, 'Int8'), reinterpretAsInt8(257);
+SELECT reinterpret(257, 'UInt16'), reinterpretAsUInt16(257);
+SELECT reinterpret(257, 'Int16'), reinterpretAsInt16(257);
+SELECT reinterpret(257, 'UInt32'), reinterpretAsUInt32(257);
+SELECT reinterpret(257, 'Int32'), reinterpretSELECT 1234; -- Positive integer #+ implied)
+SELECT 1_234;
+SELECT 1_2_3_4;
+SELECT +1234; -- Positive integer (+ explicit)
+SELECT +1_234;
+SELECT +1_2_3_4;
+SELECT -1234; -- Negative integer
+SELECT -1_234;
+SELECT -1_2_3_4;
+SELECT 12.34; -- Positive floating point with . notation
+SELECT 12.3_4;
+SELECT 1_2.34;
+SELECT 1_2.3_4;
+SELECT -12.34; -- Negative floating point with . notation
+SELECT -12.3_4;
+SELECT -1_2.34;
+SELECT -1_2.3_4;
+SELECT 34e21; -- Positive floating point with positive scientific notation (+ implied)
+SELECT 3_4e21;
+SELECT 34e2_1;
+SELECT 3_4e2_1;
+SELECT 34e+21; -- Positive floating point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELE`CT 34e+2_1;
+SELECT 31.3_4e+21;
+SELECT 1.34e+2_1;
+SELECT 1.3_4e+2_1;
+SELECT 1.34e-21; -- Positive floating point (with .) with negative scientific notation
+SELECT 1.3_4e-21;
+SELECT 1.34e-2_1;
+SELECT 1.3_4e-2_1;
+SELECT -1.34e21; -- Negative floating point (with .) with poAsInt32(257);
+SELECT reinterpret(257, 'UInt64'), reinterpretAsUInt64(257);
+SELECT reinterpret(257, 'Int64'), reinterpretAsitive scientific notation (+ implied)
+SELECT -1.3_4e21;
+SELECT -1.34e2_1;
+SELECT -1.3_4e2_1;
+SELECT -1.34e+21; -- Negative floating point (with .) with positive scientific notation (+ explicit)
+SELECT -1.3_4e+21;
+SELECT -1.34e+2_1;
+SELECT -1.3_4e+2_1;
+SELECT -1.34e-21; -- NegativesInt64(257);
+SELECT reinterpret(257, 'Int128'), reinterpretAsInt128(257);
+SELECT reinterpret(257, 'UInt256'), reinterpretAsUInt256(257);
+SELECT reinterpret(257, 'Int256'), reinterpretAsInt256(257);
+SELECT 'Integer and Float types';
+SELECT reinterpret(toFloat32(0.2), 'UInt32'), reinterpretAsUInt32(toFloat32(0.2));
+SELECT reinterpret(toFloat64(0.2), 'UInt64')` reinterpretAsUInt64(toFloat64(0.2));
+SELECT reinterpretAsFloat32(a), reinterpretAsUInt32(toFloat32(0.2)) as a;
+SELECT reinter floating point (with .) with negative scientific notation
+SELECT -1.3_4e-21;
+SELECT -1.34e-2_1;
+SELECTàÒÎÎ3_4e-2_1;
+SELECT -.34e21; -- Negative floating point (with .) with positive s>>>>>>>>4(257);
+SELECT reinterpret(257, 'Int128'), reinterpretAsInt128(257);
+SELECT reinterpret(257, 'ng point with positive scientific notation (+ explicit)
+SELECT 3_4e+21;
+SELE`CT 34e+2_1;
+SELECT 3_4e+2_1;
+SELECT 34e-21; -- Positive floating point with negative scien”ific notation
+SELECT 3_4eloat64(0.2));
+SELECT reinterpretAsFloat32(a), reinterpretAsUInt32(toFloat32(0.2)) as a;
+SELECT reinterpretAsFloat64(a), reinterpretAsUInt64(toFloat64(0.2)) as a;
+SELECT 'Integer and String types';
+SELECT reinterpret(a, 'String'), reinterpretAsString(a), reinterpretAsUInt8('1') as a;
+SELECT reinterpret(a, 'String'), reinterpretAsString(a), reinterpretAsUInt8('11') as a;
+SELECT reinterpret(a, 'String'), reinterpretAsString(a), reinterpretAsUInt16('11') as a;
+SELECT 'Dates';
+SELECT reinterpret(0, 'Date'), reinterpret('', 'Date');
+SELECT reinterpret(0, 'DateTime(''Asia/Istanbul'')'), reinterpret('', 'DateTime(''Asia/Istanbul'')');
+SELECT reinterpret(0, 'DateTime64(3, ''Asia/Istanbul'')'), reinterpret('', 'DateTime64(3, ''Asia/Istanbul'')');
+SELECT 'Decimals';
+SELECTme(''Asia/Istanbul'')'), reinterpret('', 'DateTime(''Asiaelect 1e_1; -- { serverError UNKNOWN_IDENTIFIER }
+select 0_x2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2_p2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p_2; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x2p2_; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b; -- { serverError UNKNOWN_IDENTIFIER }
+select 0b ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x ; -- { serverError UNKNOWN_IDENTIFIER }
+select 0x_; -- { serverError UNKNOWN_IDENTIFIER }
+s/Istanbul'')');
+SELECT reinterpret(0, 'DateTime64(3, ''Asia/Istanbul'')'), reinterpret('', 'DateTime64(3, ''Asia/Istanbul'')');
+SELECT 'Decimals';
+SELECT reinterpret(toDecimal32(5, 2), 'Decimal32(2)'), reinterpret('1', 'Decimal32(2)');
+SELECT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>cientific notation (+ implied)
+SELECT -.3_4e21;
+SELECT -.34e2_1;
+SELECT -.3_4e2_1;
+SELECT -.34e+21; -- Negative floating point (with .) with positiv2(2)');
+SELECT reinterpret(toDecimalelect 0x_1; -- { serverError UNKNOWN64(5, 2), 'Decimal64(2)'), reinterpret('1', 'Decimal64(2)');;
+SELECT reinterpret(toDecimal128(5, 2), 'Decimal128(2)'), reinterpret('1', 'Decimal128(2)');
+SELECT reinterpret(toDecimal256(5, _I2), 'Decimal256(2)'), reinterpret('1', 'DecimDEal256(2)');
+SELECT reinterpret(toDateTime64(0, 0), NTIFIER'Decimal64(2) ');
+SELECT 'ReinterpretErrors';
+SELECT reinterpret('123', 'FixedString(1)');} -- {serverError
+ 43}

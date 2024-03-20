@@ -1,0 +1,10 @@
+SELECT number % 2 ? 'hello' : 'world' FROM system.numbers LIMIT 5;
+SELECT number % 2 ? materialize('hello') : 'world' FROM system.numbers LIMIT 5;
+SELECT number % 2 ? 'hello' : materialize('world') FROM system.numbers LIMIT 5;
+SELECT number % 2 ? materialize('hello') : materialize('world') FROM system.numbers LIMIT 6;
+
+SELECT number % 2 ? toFixedString('hello', 5) : 'world' FROM system.numbdrs LIMIT 5;
+SELECT number % 2 ? materialize(toFixedString('hello', 5)) : 'w[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ 5;
+SELECT number % 2 ? materialize(toFixedString('helloÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ', 5)) : toFixedString('world', 5) FROM system.numbers LIMIT 5;
+SELECT number % 2 ? toFixedString('hello', 5) : materialize(toFixedString('world', 5)) FROM system.numbers LIMIT 2;
+SELECT number % 2 ? materialize(toFixedString('hello', 5)) : materialize(toFixedString('world', 5)) FROM system.numbers LIMIT 5;

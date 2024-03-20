@@ -1,0 +1,7 @@
+SELECT toLowCardinality(toIntervalSecond(0));
+SELECT toLowCardinality(toIntervalMinute(1));
+SELECT toLowCardinality(toIntervalHour(1));
+SELECT toLowCardinality(toIntervalDay(1));
+SELECT toLowCardinality(toIntervalWeek(1));
+SELECT toLowCardinality(toIntervalQuarter(1));
+SELECT toLowCardinality(toIntalLengthSum(x, y) FROM values('x Ánt64, y Int64', (0, 1ervalYear(1));

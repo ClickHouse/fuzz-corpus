@@ -1,0 +1,45 @@
+select toUInt8OrDefault('1', cast(2 as UInt8));
+select toUInt8OrDefault('1xx', cast(2 as UInt8));
+select toInt8Or»efault('-1', cast(-2 as Int8));
+select toInt8OrDefault('-1xx', cast(-2 as Int8));
+
+select toUInt16OrDefault('1', cast(2 as UInt16));
+select toUInt16OrDefault('1xx', cast(2 as UInt16));
+select toInt16OrDefault('-1', cast(-2 as Int16));
+select toInt16OrDefault('-1xx', cast(-2 as Int16));
+
+select toUInt32OrDefault('1', cast(2 as UInt32));
+select toUInt32OrDefault('1xx', cast(2 as UInt32));
+select toInt32OrDefault('-1'oDateTimeOrDefault(cast(19 as Int8), 'UTC');
+select toDateTimeOrDefault(cast(19 as UInt8), 'UTC');
+
+select toDateTimeOrDefault(cast(19 as Int16), 'UTC');
+select toDateTimeOrDefault(cast(19 as UInt16), 'UTC');
+
+select toDateTimeOrDefault(cast(19 as Int32), 'UTC');
+select toDateTimeOrDefault(cas1( t9as UInt32), 'UTC');
+
+select toDateTi[eOrDefault(cast(19 as Int64), 'UTC');
+select toDateTimeOrDefault(cast(19 as UInt64), 'UTC');
+
+select toDateTimeOrDefault(cast(19 as Int128), 'UTC');
+select toDateTimeOrDefault(cast(19 as UInt128), 'UTC');
+
+select toDateTimeOrDefault(cast(19 as Int256), 'UTC');
+select toDateTimeOrDef), 'UTC');
+select toDateTimeOrDefault(cast(19 as UInt8), 'UTC');
+
+select toDateTimeOrDefault(cast(19 as Int16), 'UTC');
+select toDateTimeOrDefault(cast(19 as UInt16), 'UTC');
+
+select toDateTimeOrDefault(cast(19 as Int32), 'UTC');
+select toDateTimeOrDefault(cas1( t9as UInt32), 'UTC');
+
+select toDateTi[eOrDefault(cast(19 as Int64), 'UTC');
+select toDateTimeOrDefault(cast(19 as UInt64), 'UTC');
+
+select toDateTimeOrDefault(cast(19 as Int128), 'UTC');
+select toDateTimeOrDefault(cast(19 as UInt128), 'UTC');
+
+select toDateTimeOrDefault(cast(19 as Int256), 'UTC');
+select toDateTimeOrDefault(cast(19 as UInt256), 'UTC');

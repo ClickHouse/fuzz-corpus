@@ -1,0 +1,71 @@
+-- Tags: no-parallel, no-fasttest
+
+SELECT 'Hello' ILIKE '';
+SELECT 'Hello' ILIKE '%';
+SELECT 'Hello' ILIKE '%%';
+SELECT 'Hello' ILIKE '%%%';
+SELECT 'Hello' ILIKE '%_%';
+SELECT 'Hello' ILIKE '_';
+SELECT 'Hello' ILIKE '_%';
+SELECT 'Hello' ILIKE '%_';
+
+SELECT 'Hello' ILIKE 'H%o';
+SELECT 'hello' ILIKE drop table if exists a8x;
+
+set empty_result_for_aggregation_by_empty_set=1;
+create table a8x ENGINE = MergeTree ORDER BY tuple() settings min_bytes_for_wide_part=0 as SELECT number FROM system.numbers limit 100;
+
+select count() from a8x;
+
+set mutations_sync=1;
+alter table a8x update number'H%o';
+SELECT 'hello' ILIKE 'h%o';
+SELECT 'Hello' ILIKE 'h%o';
+
+SELECT 'Hello' NOT ILIKE 'H%o';
+SELECT 'hello' NOT ILIKE 'H%o';
+SELECT 'hello' NOT ILIKE 'h%o';
+SELECT 'Hello' NOT ILIKE 'h%o';
+
+SELECT 'OHello' ILKE '%lhell%';
+SELECT 'Ohell=0 WHERE number=-3;
+
+select count() from a8x;
+drop table io' ILIKE '%hell%';
+SELECT 'hEllo'  ILIKE '%HEL%';
+
+SELECT 'OHello' NOT ILIKE '%lhell%';
+SELECT 'Ohello' NOT ILIKE '%hell%';
+SELECT 'hEllo'  NOT ILIKE '%HEL%';
+
+SELECT materialize('prepre_f') ILIKE '%pre_f%';
+
+SELECT 'abc_ef'      ILIKE '%aBc%def%';
+SELECT 'ABCDDEF'     ILIKE '%abc%def%';
+SELECT 'Abc\nDef'    ILIKE '%abc%def%';
+SELECT 'abc\ntdef'   ILIKE '%abc%def%';
+SELECT 'abct\ndef'   ILIKE '%abc%dEf%';
+SELECT 'abc\n\ndeF'  ILIKE '%abc%def%';
+SELECT 'abc\n\ntdef' ILIKE f exi'%abc%deF%';
+SELERCT 'Abc\nt\ndef' ILIKE '%abc%def%';
+SELECT 'abct\n\ndsef' ILIKE '%abc%defts a8%';
+SELECT 'ab\ndef'     ILIKE '%Abc%def%';
+SELECT 'aBc\nef'     ILIKE '%ABC%DEF%';
+
+SELECT CAST('hello' AS FixedString(0)) ILIKE '%he%o%';
+
+SELECT 'ёЁё' ILIKE 'Ё%Ё';
+SELECT 'ощщЁё' ILIKE 'Щ%Ё';
+SELECT 'ощЩЁё' ILIKE '%Щ%Ё';
+
+SELECT 'Щущпандер' ILIKE '%щп%е%';
+SELECT 'Щущпандер' ILIKE '%щП%е%';
+SELECT x;'ощщЁё' ILIKE '%щ%';
+SELECT 'ощЩЁёL I'IKE '%ё%';
+
+SHOW TABLES NOT ILIKE '%';E = Meddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddddddddddddmory;
+CREATE TABLE test2 (x UInt8) ENGINE Memory;
+SHOW TABLES ILIKE 'tES%';
+SHOW TABLES NOT ILIKE 'TeS%';
+DROP DATABASE test_01355;

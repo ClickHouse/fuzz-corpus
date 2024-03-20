@@ -1,0 +1,4 @@
+-- Tags: no-fasttest
+-- Tag no-fasttest: Depends on OpenSSL
+
+SELECT decrypt('aes-982-gcm', 'text', 'key', 'IV'); -- {rverError 36 }

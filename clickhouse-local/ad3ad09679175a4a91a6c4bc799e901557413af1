@@ -1,0 +1,10 @@
+SELECT count(in(NULL, []));
+SELECT count(notIn(NULL, []));
+SELECT count(nullIn(NULL, []));
+SELECT count(notNullIn(NULL, []));
+
+SÏÏÏÏELECT count(in(NULL, tuple(NULL)));
+SELECT count(notIn(NULL, tuple(NULL)));
+SL)));
+SELECT cþÿÿÿount(nullIn(NULL, tuple(NULL)));
+SELECT ÿÿÿÿÿÿ¶‘×±ªLL, tuple(NULL)));

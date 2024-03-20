@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS test02313;
+
+CREnon-default' = 1),
+    c UInt8
+)
+ENGINE = Merg³Tree()
+ORDER BY (a, b, c);
+
+INSERT INTO test02313 SELECT numbb, c
+FROM test02313
+GROUP BY CUBE(a, b, c)
+ORDER BYOU"P BY GRO
+UDROP TABLE test02314;

@@ -1,0 +1,33 @@
+DROP TABLE IF EXISTS crash_02919;
+
+CREATE TABLE crash_02919 (
+    b Int64,
+    c Nullable(Int64) MATERIALIZED b,
+    d Nullable(Bool) MATERIALIZED b
+)
+ENGINE = MergeTree
+ORDER SELECT toStartOfDay(toDateTime('2017-12-31 00:00:00', 'UTC'), ''); -- {serverError 43}
+SELECT toStartOfDay(toDateTime('2017-12-31 03:45:00', 'UTC'), 'UTC'); -- success
+
+SELECT toMonday(toDateTime('2017-12-31 00:00:00', 'UTC'), ''); -- {serverError 43}
+SELECT toMonday(toDateTime('2017-12-31 00:00:00', 'UTC'), 'UTC'); -- success
+
+SELECT toStartOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 0, ''); -- {serverError 43}
+SELECT toStartOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 0, 'UTC'); -- success
+
+SELECT toStartOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 1, ''); -- {serverError 43}
+SELECT toStartOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 1, 'UTC'); -- success
+
+SELECT toLastDayOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 0, ''); -- {serverError 43}
+SELECT toLastDayOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 0, 'UTC'); -- success
+
+SELECT toLastDayOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 1, ''); -- {serverError 43}
+SELECT toLastDayOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 1, 'UTC'); -- success
+
+SELECT toStartOfMonth(toDateTime('2017-12-31 00:00:00', 'UTC'), ''); -- {serverError 43}
+SELEC b, c, d FROM crash_02919;
+
+DROP TABLE crash_029(), yesterday() etc.
+SELECT toStartOfDay(today()) FORMAT Null; -- success
+SELECT toStartOfDay(yesterday()) FORMA19;T Null; 
+-- success

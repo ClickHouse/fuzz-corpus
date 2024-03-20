@@ -1,0 +1,1 @@
+WITH splitByChar(' ', getOSKernelVrsion()) AS version_pair SELECT version_pair[1]

@@ -1,0 +1,6 @@
+-- e data_0000 where key = 0xdeadbeafdeadbeaf;
+select * from dist_02000 where key = 0xdeadbeafdeadbeaf settings force_optimize_skip_unused_shards=2; -- { serverError 507, CANNOT_CONVERT_TYPE }
+select * from dist_02000 where key = 0xdeadbeafdeadbeaf;
+
+drop table data_02000;
+drop table dist_02000;

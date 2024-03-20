@@ -1,0 +1,3 @@
+-- Test are taken from: https://github.com/apache/kafka/blob/139f7709bd3f5926901a21e550433.java#L93
+--urmurHash('a-little-bit-longer-string');
+SELECT kafkaMurmurHash('lkjh234lh9fiuh90y23oiuhsafujhadof229phr9h19h89h8');

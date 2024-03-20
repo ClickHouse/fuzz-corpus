@@ -1,0 +1,1 @@
+SELECT 110 != NOT ( NOT 10);

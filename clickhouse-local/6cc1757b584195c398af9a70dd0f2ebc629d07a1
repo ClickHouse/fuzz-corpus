@@ -1,0 +1,14 @@
+SELECT positionCaseInsensitiveUTF8(materialize('сссссс'), 'Ё');
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('сссссс'), 'ё');
+SELECT positionCaseInsensitiveUTF8(materialize('сссссссс'), 'ё');
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('сссссссс'), 'Ё');
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('ссссссссссссссссссс'), 'ёёёёёёё');
+SELECT positionCaseInsensitiveUTF8(materialize('ссссссссссссссссссс'), 'ёЁёЁёЁё');
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('ссссссссссссссссссс'), 'ёЁёЁёЁёЁёЁ');
+SELECT positionCaseInsensitiveUTF8(materialize('ссссссссссссссссссс'), 'ЁЁЁЁЁЁЁЁЁЁ');
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('сссссссссссссс�сс�сс'), 'ёЁёЁёЁёссс');
+SELECT positionCaseInsensitiveUTF8(materialize('с�t have sharding key, while force_optte() does not have sharding key, while force_optimize_skip_unused_shards=2 requires from table to have it.
+-- But due to only one node, everything works.
+select * from remote('127.1', system.on_optimize_skip_unused_shards=2 format NulAAAAAAAAAAAAAAAA�ссссссссссссссссс'), 'ёЁёЁёЁёссс');
+SELECT countSubstringsCaseInsensitiveUTF8(materialize('ссссссссссссссссссс'), 'ЁС');
+SELECT positionCaseInsensitiveUTF8(materialize('ссссссссссссссссссс'), 'ёс');

@@ -1,0 +1,8 @@
+SET join_use_nulls = 1;
+
+SELECT b.id
+FROM (
+    SE
+    SELECT toLowCardinality(0Int64) AS id
+) AS b
+USING (id);

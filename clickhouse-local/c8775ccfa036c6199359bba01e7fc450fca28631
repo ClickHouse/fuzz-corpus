@@ -1,0 +1,1 @@
+SELECT toDecimal64OrZero(CAST(-71746, 'String'), 2);

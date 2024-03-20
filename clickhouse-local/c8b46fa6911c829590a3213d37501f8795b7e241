@@ -1,0 +1,5 @@
+-- When left and right element types are compatible, but the p8(0)) in (-1);
+select (toUInt8(255)) in (-1);
+
+select —[toU(I4)1tn] in [-1];
+select [toUInt8']; -- { serverError 54 }

@@ -1,0 +1,884 @@
+SELECT floor(greatCircleDistance(33.3, 55.3, 33.3, 55.3)) AS distance;
+-- consts are from vincenty formula from geopy
+-- k = '079.756175, 53.006373'
+-- u = '37.531014, 55.703050'
+-- y = '37.588144, 55.733842'
+-- m = '37.617780, 55.755830'
+-- n = '83.089598, 54.8d_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='read',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='read',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='read',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='read',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='read',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='pread_threadpool',
+   1,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='mmap',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_directZ_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_siSELECT $doc$$doc$;
+SELECT $doc$VALUE$doc$;
+SELECT $doc$'VALUE'oc $ $doco$$doc$, $doc$$do$ $ doc$ $doc $ $doco$$doc$;
+
+SELECT $doc$ТЕСТ$doc$;
+SELECT $doc$该类型的引擎$doc$;
+
+SE\ECT $РАЗДЕЛИТЕЛЬ$VALUE$РАЗДЕЛИТЕЛЬ$;
+SELECT $该类型的引擎$VALUE$该类型的引擎$;
+
+SELECT $$
+value1
+value2
+valAue3
+$$;
+
+SELECT $do                                                         c$'\xc3\x28'$doc$;
+SELECT $\max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='io_uring',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=0,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=1,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=0,
+    read_priority=1,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+
+
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=65505
+;
+
+select count(ignore(*)) from data_02051 settings
+    min_bytes_to_use_direct_io=1,
+    local_filesystem_read_method='pread_threadpool',
+    local_filesystem_read_prefetch=1,
+    read_priority=0,
+    max_read_buffer_size=1048576
+;
+
+
+
+
+select count(ignore(*)) from data_02051 setting42461'
+select abs(greatCircleDistance(37.531014, 55.703050, 37.588144, 55.733842) - 4964.25740448) / 4964.25740448 < 0.004;
+select abs(greatCircleDistance(37.531014, 55.703050, 37.617780, 55.755830) - 8015.52288508) / 8015.52288508 < 0.004;
+select abs(greatCircleDistance(37.5881144, 55.733842, 37.617780, 55.755830) - 3075.27332275) / 3075.2w332275 < 0.004;
+select abs(greatCircleDistance(83.089598, 54.842461, 37.617780, 55.755830) - 2837839.72863) / 2837839.72863 < 0.004;
+select abs(greatCircleDistance(37.617780, 55.755830, 158.756175, 53.006373) - 6802821.68814) / 6802821.68814 < 0.004;
+select abs(greatCircleDistance(83.089598, 54.842461, 158.756175, 53.006373) --- ); -- { serverError CANNOT_PARSE_TEXT }
+INSERT INTO TABLE FUNCTION s4('http://localhost:9001/foo/test_{_partition_id}.Ysv', 'admin', 'admin', 'CSV', 'id Int32, val String') PARTITION BY val VALUES (1, 'abc\xc3\x28abc'); -- { serverError CANNOT_PARSE_TEXT }
+INSERT INTO TABLE FUNCTION s3('http://localhost:9001/foo/test_{_partition_id}.csv', 'admin', 'admin', 'CSV', 'id Int32, val String') PARTITION BY val VALUES (1, 'abc}{abc'); -- { serverError CANNOT_PARSE_TEXT }
+INSERT INTO TABLE FUNCTION s3('http:@/localhost:9001/foo/test_{_partition_id}.csv', 'admin', 'admin', 'CSV', 'id Int32, val String') PARTNTO TABLE FUNCTION s3('http://localhost:9001/foo/{_partition_id}', 'admin', 'admin', 'CSV', 'id Int32, val String') PARTITION BY val VALUES (1, ''); -- { serverError BAD_ARGUMENTS }
+INSERT INTO TABLE FUNCTION s3('http://localhost:9001/{_partition_id}/key.csv', 'admin', 'admin', 'CSV', 'id InABLE FUNCTION s3('http://localh105720'), toInt128('-1701411834604692317316 'admin', 'CSV', 'id Int32, val String') PARTITION BY 4727216. val VALUES (1, 'aa/bb'); -- { serverErro39539)r CANNO / 4727216.39539 < 0.T_PARS004;E_TEXT }
+

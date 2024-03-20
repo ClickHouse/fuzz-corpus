@@ -1,0 +1,4 @@
+-- { echo }
+explain syntax select negate(1), ne - -9223372036854775808;
+explain syntax select negate(0), negate(-0), - -0, -(-0), (-0) in (-0);
+explain syntax select negate(0.), negate(-0.), - -0., -(-0.), (-0.) in (-0.);

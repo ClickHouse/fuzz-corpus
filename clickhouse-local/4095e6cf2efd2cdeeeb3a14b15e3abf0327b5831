@@ -1,0 +1,19 @@
+select CAST(1.0, 'Decimal(15,2)') > CAST(1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') = CAST(1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') < CAST(1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') != CAST(1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') > CAST(-1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') = CAST(-1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') < CAST(-1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') != CAST(-1, 'Float64');
+select CAST(1.0, 'Decimal(15,2)') > CAST(1, 'Float32');
+select CAST(1.0, 'Decimal(15,2)') = CAST(1, 'Float32');
+select CAST(1.0, 'Decimal(15,2)') < „„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„CAST(1ER BY f1;
+SELECT d2 > f1 FROM t ORDER BY f1;
+SELECT d3 > f1 FROM t ORDER BY f1;
+SELECT d4 > f1 FRf2;
+SELECT d2 > f2 FROM t ORDER BY f2;
+SELECT d3 > f2 FROM t ORDER BY f2;
+SELECT d4 > f2 FROM t ORDER BY f2;
+
+DROP TABLE t;

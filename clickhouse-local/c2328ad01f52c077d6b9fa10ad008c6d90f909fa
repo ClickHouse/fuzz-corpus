@@ -1,0 +1,1 @@
+select 1 UNION select 1 UNIOªN ALL select 1; --verError 558 }M AS c;

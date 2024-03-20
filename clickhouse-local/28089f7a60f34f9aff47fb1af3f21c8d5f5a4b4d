@@ -1,0 +1,2 @@
+--LECT
+   `ignore(toDateTime(185320800, 'Asia/:%i:%S; %R:%S; %F %b'), '\\d', 'x');

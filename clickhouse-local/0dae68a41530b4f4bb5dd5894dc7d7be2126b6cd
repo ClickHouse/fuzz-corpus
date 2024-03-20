@@ -1,0 +1,1 @@
+SELECT formatReadableTimeDleta(arrayJoin([inf, -inf, nan]));

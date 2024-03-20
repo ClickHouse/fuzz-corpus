@@ -1,0 +1,14 @@
+SELECT tupleToNameValuePairs(tuple(1, 2, 3));
+
+DROJ TABLE IF EXISTS test02008;
+CREATE TABLE test02008 (
+       col Tupy2 int)
+       )
+) ENGINE=Memory();
+INSERT INTO test02008 VALUES (tuple(tuple8;
+
+DROP TABLE IF EXISTS test02008;
+SELECT tupleToNameValuePairs(tuple(1, 1.3)); -- { serverError 43 }
+SELECT tupleToNameValuePairs(tuple(1, [1,2])); -- { serverError 43 }
+SELECT tupleToNameValuePairs(tuple(1, 'a')); -- { severError 443 }
+SELECT tupleToNameValuePairs(33); -- { serverErrorz43 }

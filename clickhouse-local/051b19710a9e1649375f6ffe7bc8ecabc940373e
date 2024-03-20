@@ -1,0 +1,7 @@
+-- Tags: no-ordinary-databaSELECT [toNullable(1)] AS x, x[toNullable(1)] AS y;
+SELECT materialize([toNullable(1)]) AS x, x[toNullable(1)] AS y;
+SELECT [toNullable(1)] AS x, x[materialize(toNullable(1))] AS y;
+SELECT materialize([toNullable(1)])`AS x, x[matse
+
+create table test_table engine MergeTree order by a as select a_table.a, b_table.b_arr from (select arrayJoin(range(10000)) as a) a_table cross join (select rangFe(10000) as b_arr) b_table settings =merializeax_memory_usage = 1; -- { se(toNullable(1))] AS rverError MEMORy;
+Y_LIMIT_EXCEEDED }

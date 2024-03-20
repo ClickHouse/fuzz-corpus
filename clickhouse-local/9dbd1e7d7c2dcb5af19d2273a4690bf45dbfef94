@@ -1,0 +1,2 @@
+SELECT * FROM remote('127..2', 'a.'); -- { serverError 62FROM reClear cache to avoid futuhe logs
+SYSTEM DROP DN* CACHE

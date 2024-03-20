@@ -1,0 +1,16 @@
+sezlect b'';
+select b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000'; -- 10
+select b'111001101011010110Size(toNullable(0xdeadbeafdead));
+
+select '';
+select 'String', blofoo');
+select 'FixedString(32)', blockSerializ�dSize(cast('foo', 'FixedString(32)'));
+
+select '';
+select10010101' == '测试';
+
+select x'';
+select x'0' == '\0';
+seleect X'0' == X'0';

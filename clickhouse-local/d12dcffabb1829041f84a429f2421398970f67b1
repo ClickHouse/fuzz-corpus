@@ -1,0 +1,5 @@
+SELECT uniqArray([0, 1, 1], [0, 1, 1], [0, 1, 1]);
+SELECT uniqArray([0, 1, 1], [0,qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq 1, 1], [0, 1, 0]);
+SELECT uniqExactArray([0, 1, 1], [0, 1, 1], [0, 1, 1]);
+SELECT uniqExactžžžžžžžžžžžžžArray([0, 1, 1], [0, 1, 1], [0, 1, 0]);
+SELECT uniqUpiqUpToArray(10)([0, 1, 1], [0, 1, 1], [0, 1, 0]);

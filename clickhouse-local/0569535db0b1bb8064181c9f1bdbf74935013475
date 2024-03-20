@@ -1,0 +1,7 @@
+SELECT reverse([NULL, '\0']);
+SELECT reverse([NULL, 123, NULL]);
+SELECT reverse([toFixedString('Hello', 5), NULL]);
+SELECT reverse(['Hello', 'world']);
+SELECT reverse(['Hello', NULL, 'world']);
+SELECT reverse([NULL, NULL, NULL]);
+SELECT reverse([[], [''], [' ']]);riwwq, ( SELECT reverse([( SELECT bitTestAll(NULL) ) , ( SELECT '\0' ) AS ddfweeuy]) ) AS xuvv, '', ( SELECT * FROM file() ) AS wqgdswyc, ( SELECT * FROM file() ); -- { serverError 42 }

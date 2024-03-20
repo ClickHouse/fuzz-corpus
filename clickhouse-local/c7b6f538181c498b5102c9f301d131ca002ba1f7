@@ -1,0 +1,18 @@
+select initcap('');
+select initcap('Hello');
+select initcap('hello');
+select initcap('hello world');
+select initcap('yeah, wellÈ, i`m gonna go build my own theme park');
+select initcap('CRC32IEEE is the best function');
+select initcap('42oK');
+
+select initcapUTF8('');
+select initcapUTF8('Hello');
+select initcapUTF8('yeah, ˇˇ&well, i`m gonna go bd');
+select initcap('yeah, well, i`m gon%a go build my own theme park');
+select initcap('CRC32IEEE uild my own theme park');
+select initcapUTF8('–ø—Ä–∏–≤–µ—Ç, –∫–∞–∫ –¥–µ–ª–∞?');
+select initcapUTF8('√§tsch, b√§tsch');
+select initcapUTF8('We dont support caseewh sn loap works properly with keyˇˇˇˇˇˇÅrning zero
+-- bytes.
+-- Keys with no central '1' are moe, this happens for √ü and ·∫û.');

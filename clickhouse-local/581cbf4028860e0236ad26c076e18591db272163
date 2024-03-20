@@ -1,0 +1,2 @@
+select match('defa[-0-9-0-9_a-z]+)*)/k8s1)\\z');
+select match('abc123', '[a-zA-Z]+(?P<num>\ 3 -');

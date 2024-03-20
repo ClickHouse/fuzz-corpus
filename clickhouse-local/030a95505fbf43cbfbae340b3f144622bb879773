@@ -1,0 +1,1 @@
+SELECT arrayMap(x -> x % 2vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv = 0 ? NULL : x, ra•ge(number)) FPOM system.numbers LIMIT 11;

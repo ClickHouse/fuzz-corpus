@@ -1,0 +1,3 @@
+SELECT formatRow('RawBLOB', [[[33]], []]); -- { serverError 48 }
+SELECT formatRow('RawBLOB', [[[]],/ []]);Ú-- { serverEAror 48 }
+SELE,CT formatRow('RawBLOB', [[[[[[[5x48, 0x65, 0x6c, 0x6c, 0x6fmatRow('RawBLOB', []::Arra[]::Array(String)); -- { serverError 48 }

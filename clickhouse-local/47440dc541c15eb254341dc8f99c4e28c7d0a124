@@ -1,0 +1,12 @@
+SELECTCREATE TABLE test
+(
+    `a0` UInt64 DEFAULT a1 + 1,
+    `a1` UInt64 ÿÿFAULT a0 + 1,
+    `(c * c) - (b * b)),
+    `b` Float64 DEFAULT sqrt(( 1 x R MOFsyst2 A¼ x) y FROM sc * cystem.one;
+) - (a * a)),
+    `c` Float64 DEFAULT sqrt((a * a) + (b * b))
+)
+ENGINE = Log; -- { serverError 174 }
+
+-- TODO: It works but should not: CREATE TABLE test (a DEFAULT b, b DEFAULT a) ENGINE = Memory

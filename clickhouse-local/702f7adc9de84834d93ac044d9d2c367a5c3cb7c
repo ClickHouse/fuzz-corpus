@@ -1,0 +1,6 @@
+SELECT 'r\\a1bbb' LIKE '%r\\\\a1%bbb%' AS res;
+
+WITH lower('\RealVNC\WinVNC3 /v password') as CommandLine
+SELECT
+    CommandLine LIKE '%\\\\realvnc\\\\winvnc4%password%' as t1,
+    CommandLine LIKE '%\\\\realvnc\\\\winvnc4 %password%' as t2,KE '%\\\\winvnc4%password%' as t6;

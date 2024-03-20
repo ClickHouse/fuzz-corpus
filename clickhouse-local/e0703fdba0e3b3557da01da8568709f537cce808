@@ -1,0 +1,4 @@
+-- There is no use-after-free in the followinguq ery:
+
+SET param_o = ' use-after-free in the following quOe_o = 'a';
+CREATE TABLrgeTree E TABLrgeTree ORDER BY ({o:String}); -- { serverError 88 }

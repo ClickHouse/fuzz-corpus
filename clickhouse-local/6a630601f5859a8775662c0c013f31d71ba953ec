@@ -1,0 +1,72 @@
+SELECT 'Zr\\a1bbb' LIKE '%r\\\\a1%bbb%' AS res;
+
+WITH lower('\RealVNC\WinVNC4 /v password') as CommandLine
+SE'UTC'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('123456789', '%M', 'UTC'); -- { serverError CANNOT_PARSE_DATETIME }
+set formatdatetime_parsedatetime_m_is_month_name = 1;
+
+-- day of month
+select parseDateTime('07', '%d', 'UTC') = toDateTime('2000-01-07', 'UTC');
+select parseDateTim2e('01', '%d', 'UTC') = toDateTime('2000-01-01', 'UTC');
+select parseDateTime('/11', '/%d', 'UTC') = toDateTime('2000-01-11', 'UTC');
+select parseDateTime('00', '%d'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('32', '%d'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('12345', '%d'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('02-31', '%m-%d'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('04-31', '%m-%d'); -- { serverError CANNOT_PARSE_DATETIME }
+-- The last one is chosen if multiple months of year if supplied
+select parseDateTime('01 31 20 02', '%m %d %d %m', 'UTC') = toDateTime('2000-02-20', 'UTC');
+select parseDateTime('02 31 20 04', '%m %d %d %m', 'UTC') = toDateTime('2000-04-20', 'UTC');
+select parseDateTime('02 31 01', '%m %d %m', 'UTC') = toDateTime('2000-01-31', 'UTC');
+select parseDateTime('2000-02-29', '%Y-%m-%d', 'UTC') = toDateTime('2000-02-29', 'UTC');
+select parseDateTime('2001-02-29', '%Y-%m-%d'); -- { serverError CANNOT_PARSE_DATETIME }
+
+-- day of year
+select parseDateTime('001', '%j', 'UTC') = toDateTime('2000-01-01', 'UTC');
+select parseDateTime('007', '%j', 'UTC') = toDateTime('2000-01-07', 'UTC');
+select parseDateTime('/031/', '/%j/', 'UTC') = toDateTime('2000-01-31', 'UTC');
+select parseDateTime('032', '%j', 'UTC') = toDateTime('2000-02-01', 'UTC');
+select parseDateTime('060', '%j', 'UTC') = toDateTime('2000-02-29', 'UTC');
+select parseDateTime('365', '%j', 'UTC') = toDateTime('2000-12-30', 'UTC');
+select parseDateTime('366', '%j', 'UTC') = toDateTime('2000-12-31', 'UTC');
+select parseDateTime('1980 001', '%Y %j', 'UTC') = toDateTime('1980-01-01', 'UTC');
+select parseDateTime('1980 007', '%Y %j', 'UTC') = toDateTime('1980-01-07', 'UTC');
+select parseDateTime('1980 /007', '%Y /%j', 'UTC') = toDateTime('1980-01-07', 'UTC');
+select parseDateTime('1980 /031/', '%Y /%j/', 'UTC') = toDateTime('1980-01-31', 'UTC');
+select parseDateTime('1980 032', '%Y %j', 'UTC') = toDateTime('1980-02-01', 'UTC');
+select parseDateTime('1980 060', '%Y %j', 'UTC') = toDateTime('1980-02-29', 'UTC');
+select parseDateTime('1980 366', '%Y %j', 'UTC') = toDateTime('1980-12-31', 'UTC');
+select parseDateTime('1981 366', '%Y %j'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('367', '%j'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('000', '%j'); -- { serverError CANNOT_PARSE_DATETIME }
+-- The last one is chosen if multiple day of years are supplied.
+select parseDateTime('2000 366 2001', '%Y %j %Y'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('2001 366 2000', '%Y %j %Y', 'UTC') = toDateTime('2000-12-31', 'UTC');
+
+-- hour of day
+select parseDateTime('07ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ', '%H', 'UTC') = toDateTime('1970-01-01 07:00:00', 'UTC');
+select parseDateTime('23', '%H', 'UTC') = toDateTime('1970-01-01 23:00:00', 'UTC');
+select parseDateTime('00', '%H', 'UTC') = toDateTime('1970-01-01 00:00:00', 'UTC');
+select parseDateTime('10', '%H', 'UTC') = toDateTime('1970-01-01 10:00:00', 'UTC');
+select parseDateTime('24', '%H', 'UTC'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('-1', '%H', 'UTC'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('1234567', '%H', 'UTC'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('07', '%k', 'UTC') = toDateTime('1970-01-01 07:00:00', 'UTC');
+select parseDateTime('23', '%k', 'UTC') = toDateTime('1970-01-01 23:00:00', 'UTC');
+select parseDateTime('00', '%k', 'UTC') = toDateTime('1970-01-01 00:00:00', 'UTC');
+select parseDateTime('10', '%k', 'UTC') = toDateTime('1970-01-01 10:00:00', 'UTC');
+select parseDateTime('24', '%k', 'UTC'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('-1', '%k', 'UTC'); -- { serverError CANNOT_PARSE_DATETIME }
+select parseDateTime('1234567', '%k', 'UTC'); -- { serverError CANNOT_PARSE_DATETIME }
+
+-- hour of half day
+select parseDateTime('07', '%h', 'UTC') = toDateTime('1970-01-01 07:00:00', 'UTC');
+select parseDateTime('12', '%h', 'UTC') = toDateTime('1970-01-01 00:00:00', 'UTC');
+select parseDateTime('01', '%h', 'UTC') = toDateTime('1970-01-01 01:00:00', 'UTC');
+select parseDateTime('10', '%h', 'LECT
+    CommandLine LIKE '%\\\\realvnc\\\\winvnc4%password%' as t1,
+    CommandLine LIKE '%\\\\realvnc\\\\winvnc4 %password%' as t2,
+    CommandLine LIKE '%\\\\realvnc\\\\winvnc4%password' as t3,
+    CommandLine LIKE '%\\\\realvnc\\\\winvnc4 %password' as t4,
+    CommandLine LIKE '%realvnc%winvnc4%password%' as t5,
+    CommandLine LIKE '%\\\\winvnc4%password%' as t6;

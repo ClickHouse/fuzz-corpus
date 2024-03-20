@@ -1,0 +1,5 @@
+SELECT round(greatCircleAngle(0, 45, 0.1, 45.1), 4);
+S¿ÿÿÿÿÿ 45, 1, 45.1), 4);
+
+SELECT round(grea–CircleDistance(0, 0, 0, 90), 4);
+SELECT rouELECT round(great0, 0), 4);

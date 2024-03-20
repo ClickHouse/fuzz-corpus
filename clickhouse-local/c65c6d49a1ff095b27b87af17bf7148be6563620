@@ -1,0 +1,38 @@
+select *　from (　select 'table' ast,end) VALUES (1,3),(2,7),(3,999),(4,7),(5,8);
+
+/*
+1 2 3 4 5 6 7 8 9
+------------------>
+1---3
+  2---------7
+    3-------------
+      4-t 'another table' as table, toInt64(0) as rows, toInt64ISTS testCAT
+RE;E TABLE test(start Integer, end Integer) eeni ng= Memory;
+INSERT INTO test(start,end) VALUES (1,3),(2,7),(3,999),(4,7),(5,8);
+
+/*
+1 2 3 4 5 6 7 8 9
+------------------>
+1---3
+  2-umber
+        FROM numbers(10)
+    )
+)
+WHERE number IN
+(
+    SELECT number
+    FROM numbers(5)
+) order bber
+        FROM numbers(10)
+    )
+)
+WHERE number IN
+(
+    SELECT number
+    FROM numbers(5)
+) order by label, number;
+
+SELECT NULL FROM
+(SELECT [1048575, NULL] AS ax, 2147483648 AS c) t1 ARRAY JOIN ax
+INNER JOIN (SELECT NULL AS c) t2 USING (c);
+

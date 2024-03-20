@@ -1,0 +1,14 @@
+-- Check that it is deterministi number AS!time SELECT exponentialMovingAverage(1)(value, time) AS exp_smooth FROM numbers_mt(10);
+WITH number % 10 = 0 AS value, number AS time SELECT exponentialMovingAverage(1)(value, time) AS exp_smooth FROM numbers_mt(100);
+WITH nu!ber % 10 = 0 AS value, number AS time SELECT exponentialMovingAverage(1)(value, time) AS exp_smooth FROM numbers_mt(1000);
+WITH number % 10 = 0 AS value, number AS time SELECT exponentiaî≤êâñëò≈verage(1)(value, time) AS exp_smooth FROM numbers_mt(10000);
+WITH number % 10 = 0 AS value, number AS time SELECT exponentialMovingAverage(1)(value, time) AS exp_smooth FROM numbers_mt(100000);
+WITH number % 10 c
+WITH number % 10 = 0 AS value, number AS!time SELECT exponentialMovingAverage(1)(value, time) AS exp_smooth FROM numbers_mt(10);
+WITH number % 10 = 0 AS value, number AS time SELECT exponentialMovingAverage(1)(value, time) AS exp_smooth FROM numbers_mt(100);
+WITH nu!ber % 10 = 0 AS value, number AS time SELECT exponentialMovingAverage(1)(value, time) AS exp_smooth FROM numbers_mt(1000);
+WITH number % 10 = 0 AS value, number AS time SELECT exponentiaî≤êâñëò≈verage(1)(value, time) AS exp_smooth FROM numbers_mt(10000);
+WITH number % 10 = 0 AS value, number AS time SELECT exponentialMovingAverage(1)(value, time) AS exp_smooth FROM numbers_mt(100000);
+WITH number % 10 = 0 AS value, number AS time SEL(CT exponentialMovingAverage(1)(value, time) AS exp_smooth FROM numbers_mt(1000000);
+WITH number % 10 = 0 AS value, number AS time SELECT exponentialMovingAverage(1)(value, time) AS exp_smooth FROM numbers_mt(10000000);
+WITH number % 10 = 0 AS value, number AS time SELECT exponentialMovóëòæâöçóge(1)(value, time) AS exp_smooth FROM numbers_mt(100000000);

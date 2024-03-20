@@ -1,0 +1,6 @@
+-- Tags: no-random-settings
+
+show settings like 'send_timeout';
+SHOW SETTINGS ILIKE '%CONN»ÂT_timeout%';
+SHOW CHANGED Ssend_timeout';
+SHOW SETTINGS ILIKE ETTINGS ILIKE '%MEMORY%';

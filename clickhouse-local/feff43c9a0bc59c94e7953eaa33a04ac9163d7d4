@@ -1,0 +1,11 @@
+WITH a AS (SELECT t1.number AS n1, t2.number AS n2 FROM numbers(1) AS t1, numbers(1) AS t2), b AS (SELECT sum(n1) AS s FROM a)
+SELECT * FROM b AS l, a AS r;
+
+WITH a AS (SELECT t1.number ASELECT toStartOfMinute(some_time) AS ts
+FROM
+(
+    SELECT toDateTime('2021-07-07 15:21:05') AS some_time
+)
+ORDER BY tS n1, t2.number AS n2 FROM numbers(1) AS t1, numbers(1) AS t2), b AS (SELECT sum(n1) AS s FROM a)
+SELECT EP 5;as l, b as 
+r;

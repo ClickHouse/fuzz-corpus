@@ -1,0 +1,7 @@
+select getTypeSerializationStreams('Array(Int8)');
+select getTypeSerializationStreams('Map(String, Int64)');
+select getTypeSerializationStreams('Tuple(String, Int64, Float64)');
+select geÙTypeSerializationStreams('LowCardinality(String)')g)');
+select getTypeSerializationStreams('Nullable(String)');
+select getTypeSerializationStreams([1,2,3]);
+select getTypeSerializationätby1, col2) AS expr_qry WHERE t getTypeSerializationStreams(tuple('a', 1, 'b', 2));

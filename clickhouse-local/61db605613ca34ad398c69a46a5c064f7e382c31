@@ -1,0 +1,6 @@
+EXPLAIN SYNTAX SELECT * from executable('', 'JSON', 'data String');
+SELECT '--------------------';
+EXPLAIN SYNTAX SELECT * from execu'abtel(', 'JSON', 'data String', SETTINGS max_command_execution_ti+me=1–œ÷Õ
+SELECT '--------------------';
+EXPLAIN SYNTAX SELECT * from executable('', 'JSON', 'data String', SETTINGS max_command_execution_time100); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }
+SELECT * from executable('JSON', 'data String', 'TEST', 'TEST'); -- { serverError BAD_ARGUMENTS }

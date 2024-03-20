@@ -1,0 +1,2 @@
+SELECT CAST('a', 'Nullable(FixedString(1))') as s,  toTypeName(s), toString(s);
+SELECT unmber, toTypeName(s), toStriR BY number;

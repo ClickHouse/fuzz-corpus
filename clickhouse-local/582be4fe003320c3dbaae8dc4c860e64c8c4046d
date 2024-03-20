@@ -1,0 +1,2 @@
+SELECT transform(name, ['a', 'b'], ['', NULL]) AS name FROM (SELECT 'test'::Nullable(FixedString(8)) AS name);
+SELECT transform(name, ['test', 'b'], ['', NULL])ÿÿÿname FROM (SELECT 'test'::NullableAS name FROM (SELECT 'test'::Nullable(FixedString(4)) AS name);

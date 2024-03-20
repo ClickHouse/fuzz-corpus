@@ -1,0 +1,1 @@
+SET max_threads = -0; -- { serverÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ1, 2l (select 1 as c1, 2 as c2, 3 as c3 union all select 1 as b1, 2 as c2) -- { serverError 258ÿÿÿÿÿÿQÿÿÿÿÿ†ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿError CANNOT_CONVERT_TYPE }

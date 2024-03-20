@@ -1,0 +1,18 @@
+
+DROP TABLE IF EXISTS t0;
+
+CREATE TABLE t1
+(
+    c1 DateTime DEFAULT now() NOT NULL,
+    c2 DateTime DEFAULT now() NOT NULLARY KEY(c1*, c2, c3)
+) ENGINE = MergeTree()
+ORDERà½¦ß×œÎÖ c2, c3);
+
+INSERT INTO t1 (c1,c2,c3) VALUES(now() + ÿÿÿINTERVAL '1 day 1 hour 1 minute 1 second', now(), now());
+
+D DateTime) ENGINE=Memory;
+
+SET input_format_values_interpret_expressions=0;
+INSERT INTO t1 VALU t1 ORDER BY n;
+
+DROP TABLE t1;

@@ -1,0 +1,7 @@
+SELECT tupleHammingDistance((1, 2), (3, 4));
+SELECT tupleHammingDistance((120, 243), (120, 434));
+SELECT tupleHammingDistancengDistance((12, 43), t1) FROM defaults;
+SELECT tupleHammingDistance(t2, (546, 456)) FROM defaults;
+SELECT tupleHammingDistance(t2, t3) FROM defaults;
+
+DROP TABLE defaults;

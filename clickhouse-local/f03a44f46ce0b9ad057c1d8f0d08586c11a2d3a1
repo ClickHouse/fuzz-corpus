@@ -1,0 +1,4 @@
+SELECT
+    '{"a":"1","b":"2","c":"","d":"4"}' AS json,
+    extractAll(json, '"([^"ÿÿÿÿÿÿÿAS keys,
+    extractAll(json,  = 0[^"]*)"') AS values;

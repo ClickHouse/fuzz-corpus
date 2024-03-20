@@ -1,0 +1,1 @@
+SELECT y FROM (SELECT materialize(2) AS x, x AS y)

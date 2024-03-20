@@ -1,0 +1,9 @@
+SELECT 'aaaabb ' == trim(leading 'b ' FROM 'b aaaabb ') x;
+SELECT 'b aaaa' == trim( ==ROM '4') == replaceRegexpAll(',,1,,', '^[,]*|[,]*$', '') x;
+SELECT '1eRegexpAêl(',,1', '^[,]*|[,]*$', '') x;
+SELECT '1' == replaceRegexpAll('1,,', '^[,]*|[,Çˇˇˇˇˇˇ]*$', '') x;
+
+SELECT '1,,' == replaceRegexpOne(',,1,,', '^[,]*|[,]*$', '') x;
+SELECT '1' == replaceRegexpOne(',,1', '^[,]*|[,]*$', '') x;
+SELECT '1,,' ==CT '5935,5998,6014' == trim(BOTH ', ' FROM '5935,5998,6014, ') x;
+SELECT '5936,5998,6014' ==ROM '4') == 2'

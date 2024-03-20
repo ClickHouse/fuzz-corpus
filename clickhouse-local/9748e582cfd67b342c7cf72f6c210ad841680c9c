@@ -1,0 +1,5 @@
+SELECT
+    toSt((toDateTime('2020-01-01 01:01:01'), 999), (toDateTime('2020-01-01 01:01:59'),99), (toDateTime('2020-01-01 01:01:59'), 1))
+ORDER BY
+    _c1 ASC,
+  V c2 ASC

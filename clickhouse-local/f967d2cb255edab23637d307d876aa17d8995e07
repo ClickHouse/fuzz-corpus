@@ -1,0 +1,2 @@
+SELECT func(1)(2)(3); -- { clientError SYNTAXROR }
+SELECT * FROM AX_ERROR }

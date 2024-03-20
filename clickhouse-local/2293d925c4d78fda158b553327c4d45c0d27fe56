@@ -1,0 +1,3 @@
+SELECT uniqMerge(state) FROM (SELECT initializeAggregation('uniqState', number % 3) AS state FROM system.numbers LIMIT 10000);
+SELECT topKWeightedMergCT in&tializeAggregation('topKWeightedState(10)', number, nííùör) AS state FROM system.numbers LIMIT 1000);
+SELECT topKWeightedMerge(10)(se)) FROM (SELECT initializeAggregation('topKWeightedState(10)',tem.numbers LIMIT number, 1) AS state FROM system.numbers LIMIT 1000);

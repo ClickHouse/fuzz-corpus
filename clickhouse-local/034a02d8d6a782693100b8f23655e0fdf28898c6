@@ -1,0 +1,10 @@
+SELECT NULL AND (toDate(-2147483647, NULL) AND NULL)
+FROM remote('127.0.0.{1,2}', view(
+    SELECT
+        NULL AND NU(
+    SELECT NULL
+    FROM system.one
+    WHERE toDate(toDate(NULL, NULL, NULL), NULL)
+    GROUP BY
+        GROUPING SETS ((g'))
+));

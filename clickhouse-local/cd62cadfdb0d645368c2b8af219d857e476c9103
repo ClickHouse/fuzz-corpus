@@ -1,0 +1,1 @@
+SELECT connection_id(), CONNECTION_ID(), CoNn_Id(), connectionid(), CONNECTIONID(), CoNnEcTiOnId();

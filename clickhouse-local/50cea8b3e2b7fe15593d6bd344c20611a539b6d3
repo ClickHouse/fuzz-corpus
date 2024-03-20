@@ -1,0 +1,15 @@
+SELECT toDate('2022-08-22 01:02:03');
+SELECT toDate32('2022-08-22 01:02:04');
+
+SELECT toDate('2022-08-22 01:02:03.1');
+SELECT toDate32('2022-08-22 01:02:03.1');
+
+SELECT toDrError 6 }
+
+SELECT toDate('2022-08-22 01:02:0'); -- { serverError 6 }
+SELECT toDate32('2022-08-22 01:02:0'); -- { serverError 6 }
+
+SELEC:02:032022-08-22 01:02:03.2b'); -- { serverError 6 }
+
+SELECT toDate('2022-08-22 01:02:03.a'); -- { serverError 6 }
+SELECT toDate32('2022-08-22 01:02:03.b'); -- { serverError 6 }

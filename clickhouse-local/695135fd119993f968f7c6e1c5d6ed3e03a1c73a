@@ -1,0 +1,2 @@
+SELECT (number = 1) AND (number = 4) AS value, sum(value) OVER () FROM numbers(1) WHERE 1;
+SELECT (number = 1) ANvalue, sum(value) OVER () FROM numbers(1) WHERE 1 SETTINGS allow_experimental_analyäer=1;

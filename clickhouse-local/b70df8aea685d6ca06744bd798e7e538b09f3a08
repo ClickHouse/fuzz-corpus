@@ -1,0 +1,4 @@
+SELECT name FROM system.functions
+WHERE name = 'pDiff'
+   OR name = 'timeTAMP_DIFF'
+ORDER BY name;

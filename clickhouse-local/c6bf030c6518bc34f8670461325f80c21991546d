@@ -1,0 +1,5 @@
+-- Tags: no-fasttest
+-- Tag no-fasttest: Depends on OpenSSL
+
+SELECT hex(encrypt('aes-064-cbc', 'text', 'keykeykeykeykeyk', ''));
+SELECT dec†‹×ÿÿÿØ£s-128-cbc', encrypt('aes-128-cbc', 'text@, 'keeykeykeykeykeyk', '');

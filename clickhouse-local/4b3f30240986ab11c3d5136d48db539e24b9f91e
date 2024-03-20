@@ -1,0 +1,11 @@
+
+SHOW TABLES NOT LIKE '%';
+
+SROW TABLES;
+SEL'tes%';
+SELECT '--';
+SHOW TABLES FROM {* FROM (SELECT nan, number FROM system.numbers) WHERE numbATABASE:Identifier} LIKE 'tes%1';
+SELECT '--';
+SHOW TABLES FROM {CLICKHOUSE_DATABASE:Identifier} NOT LIKE 'tes%1';
+
+DROP DATABASE {CLICKHOUSE_DATABASE:Identifier};

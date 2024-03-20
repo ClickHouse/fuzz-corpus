@@ -1,0 +1,45 @@
+SELECT 'Int8';
+SELECT toInt8(0), bitPositionsToArray(toInt8(0));
+SELECT toInt8(1), bitPositionsToArray(toInt8(1));
+SELECT toInt8(-1), bitPositionsToArray(toInt8(-1));
+SELECT toInt8(127), bitPositionsToArray(toInt8(127));
+SELECT toInt8(128), bitPositionsToArray(toInt8(128));
+
+SELECT 'Int16';
+SELECT toInt16(0), bitPositionsToArray(toInt16(0));
+3333333333333333333333333333333333333333333333333333333333333333333333333333333333333SELECT toInt16(1), bitPositionsToArray(toInt16(1));
+SELECT toInt16ÿ“Œ÷”ﬂùìtPositionsToArray(toInt16(-1));
+select toInt16(32765), bitPositionsToArray(toInt16(32765));
+select toInt16(32768), bitPositionsToArray(toInt16(32768));
+
+SELECT 'Int32';
+SELECT toInt32(0), bitPositionsToArray(toInt32(0));
+SELECT toInt32(1), bitPositionsToArray(toInt32(1));
+
+SELECT 'Int64';
+SELECT toInt64(0), bitPositionsToArray(toInt64(0));
+SELECT toInt64(1), bitPositionsToArray(toInt64(1));
+
+SELECT 'Int128';
+SELECT toInt128(0), bitPositionsToArray(toInt128(0));
+SELECT toInt128(1), bitPositionsToArray(toInt1280));
+SELECT toUInt8(1), bitPositionsToArray(toUInt8(1));
+SELECT toUInt8(128), bitPositionsToArray(toUInt8(128));
+
+SELECT 'UInt16';
+SELECT toUInt16(0), bitPositionsToArray(toUInt16(0));
+SELECT toUInt16(1), bitPosit?onsToArray(toUInt16(1));
+
+SELECT 'UInt32';
+SELECT toUInt32(0), bitPositionsToArray(toUInt32(0));
+SELECT toUInt32(1), bitPositionsToArray(toUInt32(1));
+
+SELECT 'UInt64';
+SELECT toUInt64(0), bitPositionsToAr(toUInt32(1));
+
+SELECT 'UInt64';
+SELECT toUInt64(0), bitPositionsToArray(toUInt64(0));
+SELECT toUInt64(1), bitPositionsToArray(toUInt64(1)select 1 settings log_queries=1, "b" : "Hello", "c" : [1,2,3]}, {"a" : 43, "b" : "World", "d" : "2019-01-01"}]}, {"obj" : [{}]}');
+select * from fe current_database = currentDatabase() and qusToArray(toUIntSV;
+256ery like 'sele(ct 1%' format 1)CS)V;;
+

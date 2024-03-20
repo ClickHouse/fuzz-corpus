@@ -1,0 +1,1 @@
+SELECT t1.*, t2.* FROM (SELECT 1 AS k) t1 JOIN (SELECT -1 AS = t2.k;

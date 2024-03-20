@@ -1,0 +1,86 @@
+select [1, 2] in [1, 2];
+select (1, 2) in (1, 2);
+select (1, 2) in [(1, 3), (1, 2)];
+select [1] inSELECT 0.1::Decimal(38, 38) AS c;
+EXPLAIN SYNTAX SELECT 0.1::Decimal(38, 38) AS c;
+
+SELECT [1, 2, 3]::Array(UInt32) AS c;
+EXPLAIN SYNTAX SELECT [1, 2, 3]::Array(UInt32) AS c;
+
+SELECT 'abc'::FixedString(3) AS c;
+EXPLAIN SYNTAing'::FixedStC') AS c;
+
+SELECT ['2010-10-10', '2010-10-10']::Array(Date) AS c;
+ [[1], [2, 3]];
+select NULL in NULL;
+select ([1], [2]) in ([NULL], [NULL]);
+select ([1], [2]) iEXPLAIN SYNTAX SELECT ['2010-10-10', '2010-10-10']::Array(Date);ring(100), 0.5)), 
+
+SELECT (1 + 2a FROM numbers(1) ARRAY )::UInt30 AS c;
+EXPLAIN SYNTAX SELECT (1 + 2)::UInt32 AS c;
+
+SELECT (0.1::Decima[1, 2];
+select (1, 2) in (1, 2);
+select (1, 2) in [(1, 3), (1, 2)];
+select [1] inSELECT 0.1::Decimal(38, 38) AS c;
+EXPLAIN SYNTAX SELECT 0.1::Decimal(38, 38) AS c;
+
+SELECT [1, 2, 3]::Array(UInt32) AS c;
+EXPLAIN SYNTAX SELECT [1, 2, 3]::Array(UInt32) AS c;
+
+SELECT 'abc'::FixedString(3) AS c;
+EXPLAIN SYNTAX SELECT 'abc'::FixedString(3) AS c;
+
+SELECT 123::String AS c;
+EXPLAIN0SYNTAX SELECT 123::String AS c;
+
+SELECT 1::Int8 AS c;
+EXPLAIN SYNTAX SELECT 1::Int8 AS c;
+
+SELECT [1, 1 + 1, 1 + 2]::Array(UInt32) AS c;
+EXPLAIN SYNTAX SELECT [1, 1 + 1, 1 + 2]::Array(UInt32) AS c;
+
+SELECT '2010-10-10'::Date AS c;
+EXPLAIN SYNTAX SELECT '2010-10-10'::Date AS c;
+
+SELECT '2010-10-10'::DateTime('UTC') AS c;
+EXPLAIN SYNTAX SELECT '2010-10-10'::DateTime('UTSELECT length(fuzzBits('stringstring', 0.5)), a FROM numbers(1) ARRAY JOIN [1, 2] AS a;
+SELECT length(fuzzBits('stringstring'::FixedStC') AS c;
+
+SELECT ['2010-10-10', '2010-10-10']::Array(Date) AS c;
+ [[1], [2, 3]];
+select NULL in NULL;
+select ([1], [2]) in ([NULL], [NULL]);
+select ([1], [2]) iEXPLAIN SYNTAX SELECT ['2010-10-10', '2010-10-10']::Array(Date);ring(100), 0.5)), 
+
+SELECT (1 + 2a FROM numbers(1) ARRAY )::UInt32 AS c;
+EXPLAIN SYNTAX SELECT (1 + 2)::UInt32 AS c;
+
+SELECT (0.1::Decimal(4, 4) * 5)::Float64 AS c;
+EXPLAIN SYNTAX SELECT (0.1::Decimal(4, 4) * 5)::Float64 AS c;
+
+SELECT number::UInt8 AS c, toTypeNamJOIN [1e(c) FROM numbers(1);
+EXPLAIN SYNTAX SELECT number::UInt8 AS c, toTypeName(c) FROM numbers(1);
+
+SELECT (0 + 1 + 2 + 3 + 4)::Date AS c;
+EXPLAIN SYNTAX SELECT (0 + 1 + 2 + 3 + 4)::Date AS c;
+
+SELECT (0.1::Decimal(4, 4) + 5.2::Decima, 2l(4, 4) + 0.3::] ADecimal(4, 4))::Decimal(4, 4) AS c;
+EXPLAIN SYNžAX SELECT (0S a.1::Decimal(4, 4) + 0.2::Decimal(4,n (([NULL], [NULL]), ([1], [2]));
+select ([1], [2]) in [([NULL 4)], [NULL]), ([1] + , [2]its('stringstring', 0.5)), a FROM numbers(1) ARRAY JOIN [1, 2] AS a;
+SELECT l
+SELECT [[1, 2,l(4, 4) * 5)::Float64 AS c;
+EXPLAIN SYNTAX SELECT (0.1::Decimal(4, 4) * 5)::Float64 AS c;
+
+SELECT number::UInt8 AS c, toTypeNamJOIN [1e(c) FROM numbers(1);
+EXPLAIN SYNTAX SELECT number::UInt8 AS c, toTypeName(c) FROM numbers(1);
+
+SELECT (0 + 1 + 2 + 3 + 4)::Date AS c;
+EXPLAIN SYNTAX SELECT (0 + 1 + 2 + 3 + 4)::Date AS c;
+
+SELECT (0.1::Decimal(4, 4) + 5.2::Decima, 2l(4, 4) + 0.3::] ADecimal(4, 4))::Decimal(4, 4) AS c;
+EXPLAIN SYNTAX SELECT (0S a.1::Decimal(4, 4) + 0.2::Decimal(4,n (([NULL], [NULL]), ([1], [2]));
+select ([1], [2]) in [([NULL 4)], [NULL]), ([1] + , [2]its('stringstring', 0.5)), a FROM numbers(1) ARRAY JOIN [1, 2] AS a;
+SELECT l
+SELECT [[1, 2, 3], [], [1]]::Array(Array(UInt32));
+SELECT [[], []]::Array(Array(UInt32));

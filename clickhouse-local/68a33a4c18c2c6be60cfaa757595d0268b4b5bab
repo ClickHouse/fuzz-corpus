@@ -1,0 +1,1 @@
+SELECT has([x], 79) FROM (SELECT CAST(10 AS Enum8('hello''ab-9223273036854775808, 1023, 100) Fc' = 10)) AS x);

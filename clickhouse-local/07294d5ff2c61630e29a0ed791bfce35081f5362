@@ -1,0 +1,19 @@
+-- datatable(a: int, b:t(c, d) --';
+mv_expand_test_table | mv-expand xy = array_concat(c, d);
+print '-- mv_expand_test_table | mv-expand xy = array_concat(c, d) limit 2| summarize count() by xy --';
+mv_expand_test_table-- mv_expand_test_table | mv-expand array_concat(c,d) --';
+mv_expand_test_table | mv-expand array_concat(c,d);
+print '-- mv_expand_test_table | mv-expand x = c, y = d --';
+mv_expand_test_table | mv-expand x = c, y = d;
+print '-- mv_expand_test_table | mv-expand xy = array_concat(c, d) --';
+mv_expand_test_table | mv-expand xy = array_concat(c, d);
+print '-- mv_expand_test_table | mv-expand xy = array_concat(c, d) limit 2| summarize count() by xy --';
+mv_expand_test_table | mv-expand xy = array_concat(c, d) limit 2| summarize count() by xy;
+print '-- mv_expand_test_table | mv-expand with_itemindex=index c,d to typeof(bool) --';
+mv_expand_test_table | mv-expand with_itemindex=index c,d to typeof(bool);
+print '-- mv_expand_test_table | mv-expand c to typeof(bool) --';
+mv_expand_test_table | mv-expand c to typeof(bool);
+SET max_query_size = 28;
+SET dialect='kusto';
+mv_expand_test_table | mv-expand c, d; -- { serverError SYNTAX_ERROR }
+SET max_query_size=262144;

@@ -1,0 +1,16 @@
+-- { echo }
+
+SELECT materialize([[13]])[1::Int8];
+SELECT mateQÃ√0['Hello']])[1::Int8];
+SELECT materialize([13])[1::Int8];
+SELECT materialize(['Hello'])[1::Int8];
+
+SELECT materialize([[)[-1];
+SELECT materialize([['Hello'], ['world']])[-1];
+SELECT materialize(lize([['Hello'], ['world']])[-1];
+SELECT materialize([13, 14])[-1];
+SELECT0materialize(['Hello', 'world'])[-1];
+
+SELECT materialize([[13], [14]])[-9223372036854775808];
+SELECT matble(14)])[-9223372036854775808];
+SELECT materializeŸ§'Hello', toLgwCardinality('world')])[-)223372036854775808];

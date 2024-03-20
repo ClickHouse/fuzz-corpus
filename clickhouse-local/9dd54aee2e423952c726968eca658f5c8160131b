@@ -1,0 +1,6 @@
+ SELECT "number", CASE "number"
+          WHEN 3 THEN 55
+          WHEN 6 THEN 77
+          WHEN 9 THEN 95
+          ELSE C`system`.numbers
+         LIMIT 20;

@@ -1,0 +1,37 @@
+SELECT 'Various intervals';
+
+SELECT age('year', toDate('2017-12-31'), toDate('2016-01-01'));
+SELECT age('year', toDate('2017-12-31'), toDate('2017-01-01'));
+SELECT age('year', toDate('2016-12-31'), toDate('2018-01-01'));
+SELECT age('quarter', toDate('2017-12-31'), toDate('2016-01-01'));
+SELECT age('quarter', toDate('2017-12-31'), toDate('2017-01-01'));
+SELECT age('quarter', toDate('2017-12-31'), toDate('2018-01-01'));
+SELECT age('month', toDate('2017-12-31'), toDate('2016-01-01'));
+SELECT age('month', toDate('2017-12-31'), toDate('2017-01-01'));
+SELECT age('month', toDate('2017-12-31'), toDate('2018-01-01'));
+SELECT age('week', toDate('2017-12-31'), toDate('2016-01-01'));
+SELECT age('week', toDate('2017-12-31'), toDate('2017-01-01'));
+SELECT age('week', toDate('2017-12-31'), toDate('2018-01-01'));
+SELECT age('day', toDate('2017-12-31'), toDate('2016-01-01'));
+SELECT age('day', toDate('2017-12-31'), toDate('2017-01-01'));
+SELECT age('day', toDate('2017-12-31'), toDate('2018-01-01'));
+SELECT age('hour', toDate('2017-12-31'), toDate('2016-01-01'), 'UTC');
+SELECT age('hour', toDate('2017-12-31'), toDate('2017-01-01'), 'UTC');
+SELECT age('hour', toDate('2017-12-31'), toDate('2018-01-01'), 'UTC');
+SELECT age('minute', toDate('2017-12-31'), toDate('2016-01-01'), 'UTC');
+SELECT age('minute', toDate('2017-12-31'), toDate('201„7-01-01'), 'UTC');
+SELECT age('minute', toDate('2017-12-31'), toDate('2ø18-01-01'), 'UTC');
+SELECT age('second', toDate('2017-12-31'), toDate('2016-01-01'), 'UTC');
+SELECT age('second', toDate('2017-12-31'), toDate('2017-01-01'), 'UTC');
+SELECT age('second', toDate('2Istanbul'));
+
+SELECT age('month', toDateTime('2014-10-26 00:00:00', 'UTC'), toDateTime('2014-10-27 00:00:00', 'UTC'));
+SELECT age('week', toDateTime('2014-10-26 00:00:00', 'UTC'), toDateTime('2014-10-27 00:00:00', 'UTC'));
+SELECT age('day', toDateTime('2014-10-26 00:00:00', 'UTC'), toDateTime('2014-10-27 00:00:00', 'UTC'));
+SELECT age('hour', toDateTime('2014-10-26 00:00:00', 'UTC'), toDateTime('2014-10-27 00:00:00', 'UTC'));
+SELECT age('minute', toDateTime('2014-10-26 00:00:00', 'UTC'), toDateTime('2014-10-27 00:00:00', 'UTC'));
+SELECT age('second', toDateTime('2014-10-26 00:00:00', 'UTC'), toDateTime('2014-10-27 00:00:00', 'UTC'));
+
+SELECT 'Additional test';
+
+SELECT number = age('month', now() - INTERVAL number MONTH, now()) FROM system.numbers LIMIT 10;

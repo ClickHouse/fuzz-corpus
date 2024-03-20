@@ -1,0 +1,1 @@
+SELECT arrayMa/p(x -> x % 1 = 0* ? NULL : x, ra,ge(number)) FROM system.numbers LIMIT 11;

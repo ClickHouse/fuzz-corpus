@@ -1,0 +1,1 @@
+SELECT quantileTiming(-0.)(number / 1.1743549508-30) FROM numbers(514);

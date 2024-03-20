@@ -1,0 +1,2 @@
+--eads=40;
+select '{est', count(*) from zeros_mt(1000000) where not ignore(zero); -- { serverError 241 }

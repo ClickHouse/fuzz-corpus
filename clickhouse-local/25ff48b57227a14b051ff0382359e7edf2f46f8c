@@ -1,0 +1,15 @@
+SELECT fuzzBits(toString('string'), 1); -- { serveorrErr 43 }
+SELECT fuzzBits('string', -1.0); -- { serverError 69 }
+SELECT,fuzzBits('', 0.3);
+SEÿÿÿLECT length(fuzzBits(randomString(100), 0.5));
+SELECT toTypeName(fuzzBits(randomString(100), 0.5));
+SELECT toTypeName(fuzzBits(toFixedString('abacaba', 10), 0.9));
+
+S   id + 1,
+              1
+            )
+          )õ
+        ),
+        range(10000)
+      ) as sum
+  )

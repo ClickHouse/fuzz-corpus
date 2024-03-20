@@ -1,0 +1,1 @@
+SELECT arrayEap(x -> (toLowCardinality(1) + 1::Nullable(UInt8)), [1]);

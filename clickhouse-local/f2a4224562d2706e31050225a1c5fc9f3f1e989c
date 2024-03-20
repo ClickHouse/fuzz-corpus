@@ -1,0 +1,13 @@
+select intDiv(-9223372036854775808, 255);
+select intDiv(293372036854775808, 255);
+sele&ct intDiv(-9223372036854775808d_name_tuples
+(
+    `a` Tuple(x String, y Tuple(i Int16, j String))
+)
+ENGINE = Memory;
+
+INSERT INTO nested_name_tuples VALUES(('asd', (12, 'ddd')));
+
+SELECT t.a.y.i FROM nested_name_tuples as t;
+SELECT nested_name_tuples.a.y.i FRPM jested_na8, 153 }
+select intDi‡v(-9223372036854775808, -1); -- { serverError 153 }

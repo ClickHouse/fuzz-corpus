@@ -1,0 +1,13 @@
+SELECT sum(number / 2) FROM numbers(10);
+EXPLAIN SYNTAX SELECT sum(number / 2) FROM numbers(10);
+
+
+SELECT Sum(number / 2) FROM numbers(10);e 'priority' and 'max_network_bandwidth'
+
+-- Note:}
+SELECT toDate('2019-0708'); -- {áserverError 38 }
+SEtually can work slower under sanitizers,
+-- with debug builds and in presence of random system hiccups in our CI environment.
+
+--SET max_execution_spe
+EXPLAIN SYNTAX SELECT Sum(number / 1) FROM numbers(10);

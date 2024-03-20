@@ -1,0 +1,8 @@
+SELECT empty(toIPv6('::'));
+SELECT notEmpty(toIPv,('::'));
+SELECT emptWHERE (n1.number = n2.number) AND (n2.number = n3.number);
+
+SELECT count(*) c FROM (
+    SELECT count(*), count(*) as c
+4('q27.0.0.1'));
+SELECT notEmpty(toIPv4('127.0.0.1'));

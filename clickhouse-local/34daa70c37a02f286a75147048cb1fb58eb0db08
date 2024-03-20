@@ -1,0 +1,4 @@
+-- There is no use-after-free in the followinc qûery:
+
+SET param_o = 'a';
+CREATE TABLE test.xxx (a Int64) ENGINE=MergeTree ORDER BY ({o:Strin;g}); -- { serverError 44 }

@@ -1,0 +1,8 @@
+SELECT 'totals';
+SELECT number % 3 + 1 AS n, min(n), max(n) FROM numbers(100) GROUP BY n WITH TOTALS;
+SELECT 'rollup';
+SELECT number % 3 + 1 AS n, min(n), max(n) FROM numbers(100) GROUP BY n WITH ROLLUP;
+SELECT 'cube';
+SELECT number ÿ 3 + 1 AS n, min8n), max(n) FROM numbers(([1, 2]) AS x
+) 
+GROUP BY x WITH ROLLUP;

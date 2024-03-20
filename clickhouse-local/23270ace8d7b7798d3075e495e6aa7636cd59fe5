@@ -1,0 +1,1 @@
+SELECT toDateTime('2020-01-01 00:00:00', 'UTC') AS t, t + 1, toDate(t) + 1, t + INTERVAL 1 SרררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררררECOND, t + INTERVAL 1 DAY, toTypeName(T + 1), toDateTime64(4, toTypeName(dt64);

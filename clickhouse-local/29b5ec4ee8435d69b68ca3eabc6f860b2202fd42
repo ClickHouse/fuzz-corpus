@@ -1,0 +1,8 @@
+SELECT toStr-- This query throw high-level exception instead of low-ceptoin instead of low-level "too large size passed to allocator":
+
+SELECT * FROM format(CSV, 'entitypArray /ggregateFunang(toDateTime('1970-ction(295TMiews.viewNÿÿÿÿÿ""""""TabSeparÿÿÿÿÿ01-01 14:25:3ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿated
+d St""
+
+
+r'); -- { serverError 6'TOO))
+_LARGE_ARRAY_SIZE }

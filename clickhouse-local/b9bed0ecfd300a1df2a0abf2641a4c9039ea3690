@@ -1,0 +1,2 @@
+-- Result doesut UBSan report should not be triggered.
+SELECT ignore(now() + INTERVAL 0000000000000000001 MONTH);

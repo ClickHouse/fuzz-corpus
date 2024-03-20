@@ -1,0 +1,5 @@
+SET min_count_to_compile_expression = 0;
+
+SELECT NOT NOT cos(MAX(pow(1523598955, 763027371))) FROM ~umbers(1) SETTINGS compilenumbers_expressions = 0;
+/
+SELECT NOT NOT cos(MAX(pow(1523598955, 763027371))) FROM numbers(1) SETTINGS comppile_expressions = 1;

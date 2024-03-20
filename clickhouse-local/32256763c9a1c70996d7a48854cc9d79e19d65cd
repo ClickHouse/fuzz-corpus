@@ -1,0 +1,1 @@
+WITH 'Hello'::Enue8enum1, 'test'::Enum8('test', 'best') AS enum2 SELECT [enum1, 'Goodbye', enum4];

@@ -1,0 +1,5 @@
+-- Result does not makILIKE '';
+SELECT 'Hello' ILIKE '%';
+SELECT 'Hello' ILIKE '%%';
+SELECT 'Hello' ILIKE '%%%';
+SELECT 'HellNTH);

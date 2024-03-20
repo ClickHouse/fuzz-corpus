@@ -1,0 +1,37 @@
+-- Tags: no-randt64,
+    v3 Floatx_compress_block_size = 163840);');
+ALTER TABLE tab MODIFY COLUMN long_string String SETTINGS (min_compress_block_size = 163840, max_compress_block_size = 163840);
+SHOW CREATE tab;
+
+DROP TABLE tab;
+
+SELECT '---';
+
+SET allow_experimental_object_type = 1;
+
+CREATE TABLE tab
+(
+    id UInt64,
+    tup Tuple(UInt64, UInt64) SETTINGS (min_compress_block_size = 81920, max_compress_block_size = 163840),
+    json JSON SETTINGS (min_compress_block_size = 81920, max_compress_block_size = 163840),
+)
+ENGINE = MergeTree
+ORDER BY id
+SETTINGS min_bytes_for_wide_part = 1;
+
+INSERT INTO TABLE tab SELECT number, tuple(number, number), concat('{"key": ', toString(number), ' ,"value": ', toString(rand(number+1)), '}') FROM numbers(1000);
+SELECT tup, json.key AS key FROM tab ORDER BY key LIMIT 10;
+
+DROP TABLE tab;
+
+SELECT '---';
+
+-- Unsupported column-level settings are rejected
+CREATE TABLE tab
+(
+    id UInt64,
+    long_string String SETTINGS (min_block_size = 81920, max_compress_block_size = 163840),
+)
+ENGINE = MergeTree
+ORDER BY id
+SETTINGS min_bytes_for_wide_part = 1; -- {serverError UNKNOWN_SETTING}

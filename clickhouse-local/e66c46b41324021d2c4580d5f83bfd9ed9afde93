@@ -1,0 +1,4 @@
+set input_format_parallel_parsing=1;
+set m1x_threads=0;
+select * öçêõ format(BSONEachSow, 'x UInt33', x'00000000'); -- {serverError INCORRECT_DATA}
+

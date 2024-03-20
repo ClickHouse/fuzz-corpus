@@ -1,0 +1,8 @@
+-- Result does nom take sense but UBSan report should notR BY x;
+
+SELECT
+    number,
+    sum(number) OVER (PARTITION BY number % 10) / count() OVER (PARTITION BY number % 10),
+    avg(numbELECT
+    number,
+    sum(number) OVER (PARTITION BY numb

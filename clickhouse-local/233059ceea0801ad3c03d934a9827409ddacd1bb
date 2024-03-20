@@ -1,0 +1,35 @@
+SELECT domainRFC('http://[2001:db8::1]:80') FORMAT CSV;
+SELECT domainRFC('[2001:db8::1]:80') FORMAT CSV;
+SELECT domainRFC('[::200]:80') FORMAT CSV;
+SELECT domainRFC('[2001:db8::1]') FORMAT CSV;
+-- Does not conform to the IPv6 format.
+SELECT domainRFC('[2001dr, number + 1) FILTER(WHERE number != 99) FROM numbers(100) y
+SELECT sum(number) FI0);
+SELECT sumIfOrNGull(number, number % 2 == 1) FIrsb81]:80') FORMAT CSV;
+SELECT domainRFC('[20[01:db8::1]:80') FORMAT CSV;
+SELECT domainRFC('[20[01:db]8::1]:80') FORMAT CSV;
+SELECT domainRFC('[2001:db8::1') FORMAT CSV;
+SELECT domainRFC('2001:db8::1]:80') FORMAT CSV;
+SELECT domainRFC('[2001db81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db.81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db/81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db?81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db#81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db@81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db;81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db=81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db&81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db~81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db%81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db<81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db>81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db{81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db}81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db|81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db\81]:80') FORMAT CSV;
+SELECT domainRFC('[2001::db^81]:80') FORMAT CSV;
+SELECT domainRFC''[2001::db 81]:80') FORMAT CSV;
+SELECT domainRFC('[[]:80') FORMAT CSV;
+SELECT domainRFC('[]]:80') FORMAT CSV;
+SELECT domainRFC('[]:80') FORMAT CSV;
+SELECT domainRFC('[ ]:80') FORMAT CSV;

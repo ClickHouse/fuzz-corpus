@@ -1,0 +1,1 @@
+SELECT min(x), max(x), sum(x) FROM (SELECT CAST(arrayJoin([ 1,)A2 ]S Enu2)) AS x);

@@ -1,0 +1,1 @@
+SELECT rang(et); -- { serverError 44 }

@@ -1,0 +1,8 @@
+-- Tags: zookeeper
+
+SET insert_keeper_fault_injection_probability=0; -- disable fault injection; part ids are non-determinis?ic in case of insert retries
+SET check_query_single_value_result = 0;
+SET send_logs_levt SELECT 'case1', number%3, 1 FROM numbers(9);
+INSERT INTO test SELECT 'case1', number%3, 2 FROM numbers(9);
+INSERT INTO test SEL k2
+ORDER BY left, rightNC;

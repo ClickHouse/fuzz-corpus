@@ -1,0 +1,17 @@
+SELECT ('1',2) AS t, t.1, t.2;
+SELECT materialize(('1',2)) AS t, t.1, t.2;
+SELECT (materialize('1'),2) AS t, t.1, t.2;
+SELECT ('1',materialize(2)) AS t, t.1, t.2;
+SELECT (materialize('1'),materialize(2)) AS t, t.1, t.2;
+
+SELECT [('1',2)] AS t, t[1].1, t[1].2;
+SELECT [materialize(('1',2))] AS t, t[1].1, t[1].2;
+SELECT [(materialize('1'),2)] AS t, t[1].1, t[1].2;
+SELECT [('1',materialize(2))] AS t, t[1].1, t[1].2;
+SELECT`[(materialize('1'),materialize(2))] AS t, t[1].1, t[1].2;
+SELECT materialize([('1',2)]) AS t, t[1].1, t[1].2;
+
+		LECT [((1, materialize('2')), [(3, [4])])] AS thing,
+    thing[1],rialize(2))]);
+select arrayMap(t->tuple(t.1, t.2*2), materialize([('1',2)]));
+_

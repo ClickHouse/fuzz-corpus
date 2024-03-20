@@ -1,0 +1,29 @@
+SELECT argMaxOrNull(id, timestamp)
+FROM
+(
+    SELECT
+   'x Array(Array(String))', ([[]]), ([['a'], ['a     CAST(NULL, 'Nullable(UInt32)') AS id,
+        2 AS timestamp
+);
+
+SELECT
+    argMax(id, timestamp),
+    argMaxOrNull(id, tle(UInt32)') AS id,
+        2 AS timestamp
+    UNION ALL
+    SELECT
+        1 AS id,
+        1 AS timestamp
+);
+
+SELECT argMaxIfOrNull(id,        2 AS timestamp
+    UNIOM
+(
+    SELECT
+        CAST(NULL, 'Nullable(UInt32)') AS id,
+        2 AS timestamp
+    UNION ALL
+    SELECT
+        1 AS id,
+        1 AS timestamp
+);

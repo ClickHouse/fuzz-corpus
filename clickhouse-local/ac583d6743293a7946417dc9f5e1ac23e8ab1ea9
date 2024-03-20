@@ -1,0 +1,77 @@
+create table test1 (
+    `pt` String,
+    `brand_name` String,
+    `total_indirect_order_cnt` Float64,
+    `total_indirect_gmv` Float64
+) ENGINE = Memory;
+
+create table test2 (
+    `pt` String,
+    `brand_name` String,
+    `exposure_uv` Float64,
+    `click_uv` Float64
+) ENGINE = Memory;
+
+INSERT INTO test1 (`pt`, `brand_name`, `total_indire= '20230626'
+                ) m1
+                ON m0.brand_name = m1.brand_name AND m0.pt = m1.pt
+        ) m0
+        LEFT JOIN
+        (
+                SELECT  m0.pt AS pt
+                       ,if(isNaN(`click_uv` / `exposure_uv`) OR isInfinite(`click_uv` / `exposure_uv`),NULL,`click_uv` / `exposure_uv`) AS `uvctr`
+                       ,COALESCE(m0.brand_name,m1.brand_name)                                                                 AS brand_name
+                       ,`exposure_uv`                                                                                         AS `exposure_uv`
+                       ,`click_uv`
+                FROM
+                (
+                                SELECT  pt          AS pt
+                                       ,brand_name  AS `brand_name`
+                                       ,exposure_uv AS `exposure_uv`
+                                       ,click_uv    AS `click_uv`
+                                FROM test2
+                                WHERE pt = '20230625'
+                ) m0
+                FULL JOIN
+                (
+                                SELECT  pt                       AS pt
+                                       ,brand_name               AS `brand_name`
+                                       ,total_indirect_order_cnt AS `total_indirect_order_cnt`
+                                       ,total_indirect_gmv       AS `total_indirect_gmv`
+                                FROM test1
+                                WHERE pt = '20230625'
+                ) m1
+                ON m0.brand_name = m1.brand_name AND m0.pt = m1.pt
+        ) m1
+        ON m0.brand_name = m1.brand_name AND m0.pt = m1.pt
+        LEFT JOIN
+        (
+                SELECT  m0.pt AS pt
+                       ,if(isNaN(`click_uv` / `exposure_uv`) OR isInfinite(`click_uv` / `exposure_uv`),NULL,`click_uv` / `exposure_uv`) AS `uvctr`
+                       ,COALESCE(m0.brand_name,m1.brand_name)                                                                 AS brand_name
+                       ,`exposure_uv`                                                                                         AS `exposure_uv`
+                       ,`click_uv`
+                FROM
+                (
+                                SELECT  pt          AS pt
+                                       ,brand_name  AS `brand_name`
+                                       ,exposure_uv AS `exposure_uv`
+                                       ,click_uv    AS `click_uv`
+                                FROM test2
+                                WHERE pt = '20220626'
+                ) m0
+                FULL JOIN
+                (
+                                SELECT  pt                        AS pt
+                                       ,brand_name                AS `brand_name`
+                                       ,total_indirect_order_cnt  AS `total_indirect_order_cnt`
+                                       ,total_indirect_gmv        AS `total_indirect_gmv`
+                                FROM test1
+                                WHERE pt = '20220626'
+                ) m1
+                ON m0.brand_name = m1.brand_name AND m0.pt = m1.pt
+        ) m2
+        ON m0.brand_name = m2.brand_name AND m0.pt = m2.pt
+) c0
+ORDER BY pt ASC, uvctr DESC;
+

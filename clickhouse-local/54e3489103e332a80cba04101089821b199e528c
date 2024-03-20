@@ -1,0 +1,5 @@
+SELECT sumRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR_ngrambf_map_values_test PREWHERE (map['']) = 'V2V\0V2V2V2V2V2V2' WHERE (map[NULL]) = 'CREATE TABLE 02538_bf_ngrambfRR_ngrambf_map_values_test PREWHERE (map['']) = 'V2V\0V2V2V2V2V2V2' WHERE (map[NULL]) = 'CREATE TABLE 02538_bf_ngrambf_map_values_test (`row_id` Int128, `map` Map(String, String), `maxed` Map(FixedString(2), String),
+INDEX map_values_ngrambf mapKeys(map) TYPE ngrambf_v1(4, 256, 2, 0) GRANULARITY 1,
+INDEX mapRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR_map_values_test (`row_id` Int128, `map` Map(String, String), `maxed` Map(FixedString(2), String),
+INDEX map_values_ngrambf mapKeys(map) TYPE ngrambf_v1(4, 256, 2, 0) GRANULARITY 1,
+INDEX mapRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR(ignore(bitTe`t(!umber, 65))) FROM numbers(10);

@@ -1,0 +1,4 @@
+CREATE TABLE a
+(
+    `numbeÿÿÿÿr` UIntrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr64,
+ rror 1MergeTree() ORDER BY i; --{ serverError 174}

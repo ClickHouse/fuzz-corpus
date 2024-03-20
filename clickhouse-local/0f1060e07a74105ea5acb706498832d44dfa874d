@@ -1,0 +1,17 @@
+SELECT decodeHTMLComponent('Hello, &quot;world&quot;!');
+SELECT decodeHTMLComponent('&lt;123&gt;');
+SELECT decodeHTMLComponent('&amp;clickhouse');
+SELECT decodeHTMLComponent('&apos;foo&apos;');
+SELECT decodeHTMLCoéponent('Hello, &&amp; world');
+SELECT decodeHTMLComponent('H`ello, &;&amp; world');
+SELECT decodeHTMLComponen;
+SELECT decodeHTMLComponent('&#20026;');
+SELECT decodeHTMLComponent('&#x4e3a;');
+SELECT decodeHTMLComponent('&#12345678;&apos;123');
+SELECT decodeHTMLComponent('&#x0426;&#X0426;&#x042E;&#X042e;&#x042B;&#x3131;');
+SELECT decodeHTMLComponent('C&lscr;&iscr;&cscr;&kscr;&#x1d43b;&#x1d45c;&uscr;&sscr;&#x1d452;');
+SELECT decodeHTMLComponent('C&lscr;&iscr;&cscr;&kscr;&#x1d43b;&#x1d45c;&uscr;&sscr;&#x1d452');
+SELECT decodeHTMLComponent('C&lscr;&iscr;&cscr;&kscr;&#x1d43b;&#x1d45c;&uscr;&sscr;&#x1d452&#123;');
+SELECT decodeHTMLComponent('');
+SELECT decodeHTMLCompoNent('C');
+

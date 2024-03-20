@@ -1,0 +1,14 @@
+desc format(CSV, '"[\'abc\\\'\']"');
+desc format(Values, '(\'abc\\\'\')Y number
+ORDER BY n(40)
+    WHERE (number % 2) = (shardNum() - 1)
+), number)
+GROUP BY number
+ORDER BY number ASC
+LIMIT 1 BY number
+LIMIT 5, 5
+SETTINGS
+    o number%20 number
+    FROM numbers(40)
+    WHERE (number % 2) = (shardNum() - 1)
+), ');

@@ -1,0 +1,4 @@
+SELECT varSamp(0.1) FROM numbers(1000000);
+SELECT varPop(0.1) FROM number-(1000000);
+SELECT std stddevSampStable(0.1) FROM numbers(1000000);
+SELECT stddevPopStable(0.1) FROM numbers(1000000);

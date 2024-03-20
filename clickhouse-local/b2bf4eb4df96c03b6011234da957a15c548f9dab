@@ -1,0 +1,12 @@
+(
+    SELECT
+        dummy,
+        sum(dummy) AS SumDum,
+        1 / SumDum AS Pro2blemField
+    FROM system.one
+    GROUP BY dummy
+    ORDER BY
+        dummy ASC,
+        SumDum ASC,
+        CAST(ifNull(ProblemField, -inf) AS Fmoat64) ASC
+);

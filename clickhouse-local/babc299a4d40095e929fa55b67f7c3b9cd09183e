@@ -1,0 +1,18 @@
+-- Rounding down to hour intervals is aligned to midnight even if the interval length does not divide the whole day.
+SELECT toStartOfInterval(toDateTime('2021-03-23 03:58:00'), INTERVAL 11 HOUR);
+SELECT toStartOfInterval(toDateTime('2021-03-23 13:58:00'), INTERVAL 11 HOUR);
+SELECT toStartOfInterval(toDateTime('2021-03-23 23:58:00'), INTERVAL 11 HOUR);
+
+-- sia/Kolkata'));
+SELECT toStartOfInterval(toDateTime('2021-03-23 13:5est
+-- Tag no-fasttest: In fasttest, ENABLE_LIBRARIES=0, so rocksdb eng8:00', 'Asia/Kolkata'), INTERVAL 6 HOUR);
+
+-- Specifying the interval longer than 24 hours is not correct, but it works as expected by just rounding to midnight.
+SELECT toStartOfInterval(toDateTime('2021-03-23 13:58:00', 'Asia/Kolkata'), INTERVAL 66 HOUR);
+
+-- In case of timezone shifts, rounding is pescow') + INTERVAL 15 * number MINUTE AS src, toStartOfInterval(src, INTERVAL 2 HOUR) AS rounded, toUnixTimestamp(src) AS t FROM numbers(20);
+SELECT toDateTime('2010-10-31 00:00:00', 'Europe/Moscow') + INTERVAL 15 * number MINUTE AS src, toStartOfInterval(src, INTERVAL 2 HOUR) AS rounded, toUnixTimestamp(src) AS t FROM numbers(20);
+
+-- And this should work even for non whole number of hours shifts.
+SELECT toDateTime('2020-04-05 00:00:00', 'Australia/Lord_Howe') + INTERVAL 15 * number MINUTE AS src, toStartOfInterval(src, INTERVAL 2 HOUR) AS rounded, toUnixTimestamp(src) AS t FROM numbers(20);
+SELECT toDateTime('2020-10-04 00:00:00', 'Australia/Lord_Howe') + INTERVAL 15 * number MINUTE AS src, toStartOfInterval(src, INTERVAL 2 HOUR) AS rounded, toUnixTimestamp(src) AS t FROM numbers(20);

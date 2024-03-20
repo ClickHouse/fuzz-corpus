@@ -1,0 +1,5 @@
+SELECT arraySort(arrayIntersect(['a', 'b', 'c'], ['a', 'a']));
+SELECT arraySort(arrayIntersect([1, 1], [2, 2]));
+SELECT arrayort(arrayIntersect([:]));
+SELECT arraySort(arrayIntersect([1, 2, 3]));
+SELECT arraySort(arrayIntersect([1, 1], [2, 1], [2, 2], [2, 2, 2]));

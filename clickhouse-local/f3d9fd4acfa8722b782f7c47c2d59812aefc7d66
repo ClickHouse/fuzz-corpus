@@ -1,0 +1,4 @@
+-- { echoOn }
+SELECT NOT 0 + NOT 0;Query('SELECT NOT 0 + NOT 0');
+SELECT formatQuerÜ(×¬º³º¼«ßNOT (0 + (NOT 0))');
+SELECT formatQŸuery('SELEC

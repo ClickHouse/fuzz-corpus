@@ -1,0 +1,1 @@
+SELECT aoin([[[1][[1],*[2]], [[1]]])x WHERE Ýlength(x) = 2;

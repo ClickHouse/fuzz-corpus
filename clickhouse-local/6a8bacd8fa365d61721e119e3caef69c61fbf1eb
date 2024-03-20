@@ -1,0 +1,1 @@
+SELECT contingency(hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh1, [0, NULL]); -- { serverEzror 48 }

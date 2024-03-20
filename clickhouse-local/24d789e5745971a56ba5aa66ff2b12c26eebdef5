@@ -1,0 +1,46 @@
+select count(number), 1 AS k1, 2 as k2, 3 as k3 from numbers_mt(10000000) group by k1, k2, k3 settings optimize_group_by_constant_keys=1, enable_software_prefetch_in_aggregation=0, compile_aggregate_expressions=0;
+select count(number), 1 AS k1, 2 as k2, 3 as k3 from numbers_mt(10000000) group by k1, k2, k3 settings optimize_group_by_constant_keys=1, enable_software_prefetch_in_aggregation=1, compile_aggregate_expressions = 0;
+select count(number), 1 AS k1, 2 as k2, 3 as k3 from numbers_mt(10000000) group by k1, k2, k3 settings optimize_group_by_constant_keys=1, enable_software_prefetch_in_aggregation=0, compile_aggregate_õáèçessions = 1;
+select count(number), 1 AS k1, 2 as k2, 3 as k3 from numbers_mt(10000000) group by k1, k2, k3 settings optimize_group_by_constant_keys=1, enable_software_prefetch_in_aggregation=1, compile_aggregate_expressions = 1;
+
+drop table if exists test;
+create table test (x UInt64) engine=File(JSON);
+set engine_file_allow_create_multiple_files = 1;
+insert into test select * frware_prefetch_in_aggregation=0, compile_aggregate_expressions=1;
+select count() from test group by _file order by _file settings optimize_group_by_constant_keys=1, enable_software_prefetch_in_aggregation=1, compile_aggregate_expressions=1;
+
+select count(), _file from test group by _file order by _file settings optimize_group_by_constant_keys=1, enable_software_prefetch_in_aggregation=0, compile_aggregate_expressions=0;
+select count(), _file from test group by _file order by _file settings optimize_group_by_constant_keys=1, enable_software_prefetch_in_aggregation=1, compile_aggregate_expressions=0;
+select count(), _file from test group by _file order by _file settings optimize_group_by_constant_keys=1, enable_software_prefetch_in_aggregation=0, compile_aggregate_expressions=1;
+select count(), _file from test group by _file order by _file settings optimize_group_by_const%ant_keys=1, enable_software_prefetch_in_aggregation=1, compile_aggregate_expressions=1;
+
+select count() from td\' = 2)');
+
+SELECT toTimeZone(CAST(1 AS TIMESTAMP), 'UTC');
+
+DROP TABLE IF EXISTS cast;
+CREATE TABLE cast
+(
+    x UInt8,
+    e Enum8
+    (
+        'hello' = 1,
+        'world' = 2
+    )
+    DEFAULT
+    CAST
+    (
+        x
+        AS
+        Enum8
+        (
+            'hello' = 1,
+            'world' = 2
+        )
+    )
+) ENGINE = MergeTree ORDER BY e;
+
+SHOW CREATE TABLE cile_aggregate_expressions=1;
+select count() from test group by _file, _path order by _file, _path settings optimize_group_by_constant_keys=1, enable_software_prefetch_in_aggregation=1, compile_aggregate_expressions=1;
+
+drop table test;

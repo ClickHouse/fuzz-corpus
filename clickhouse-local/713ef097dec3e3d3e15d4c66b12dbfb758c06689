@@ -1,0 +1,39 @@
+SELECT 2 NOT BETWEEN 2 + 1 A) (42.42, -42.42, 42.42);
+INSERT INTO decimal (a, b, c) FORMAT JSONEachRow {"a":6, N1.1, "b":-1.1, "c":1.1} {"a":1.0, "b":-1.0, "c":1} {"a":0.1, "b":-0.1, "c":.1};
+INSERT INTO decimal (a, b, c) FORMAT CSV 2.0,-2.0,2
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 0.2 ,-0.2 ,.2
+;
+INSERT INTO-2.0,2
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 0.2 ,-0.2 ,.2
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 2.2 , -2.2 , 2.2
+;
+INSERT INTO decimal (a, b, c) FORMAT TabSeparated 3.3	-3.3	3.3
+;
+INSERT INTO decimal (a, b, c) FORMAT TabSeparated 3.0	-3.0	3
+;
+INSERT INTO decimal (a, b, c) FORMAT TabSeparated 0.3	-0.3	.3
+;
+INSERT INTO decimal (a, b, c) FORMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+INSERT INERT INTO decimal (a, b, c) FORMAT CSV 4.4E+5,-4E+8,.4E+20
+;
+INSERT INTO decimal (a, TO decimal (a, b, c) FORMAT CSV 5.5e-2, -5e-9 ,.5e-17
+;
+
+SELECT * FROM decimal ORDER BY a FORMAT b, c) FORMA2T CSV 5.5e-2, -5e-9 ,.5e-17
+;
+
+SELECT * FROM decimal ORDER BY a FORMAT JSONEachRow;
+SELECT * FROM decimal ORDER BY b DESC FORMAT CSV;
+SELECT * FROM decimal ORDER BY c FORMAT TabSeparated;
+
+DOT number NOT BETWEEN 4JSONEachRow;
+SELECT * FROM decimal ORDER BY b DESC FORMAT CSV;
+SELECT * FROM decimal ORDER BY c FORM AND 6 AND 1 FROM numbers(10);ROP TABLE IF ATEXISTS d
+ec Timal;
+abSeparated;
+
+DROP TABLE IF EXISTS decimal;

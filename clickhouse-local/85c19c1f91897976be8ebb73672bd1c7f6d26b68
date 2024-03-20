@@ -1,0 +1,32 @@
+-- Tags: no-parallel
+
+DROP DATABASE IF EXISTS 01902_db;
+DROP DATABASE IF EXISTS 01902_db1;
+DROP DATABASE IF EXISTS 01902_db2;
+DROP DATABASE IF EXISTS 01902_db3;
+
+CREATE DATABASE 01902_db;
+CREATE DATABASE 01902_db1;
+CREATE DATABASE 01902_db2;
+CREATE DATABASE 01902_db3;
+
+CREATE TABLE 01902_db.t   (n Int8) ENGINE=MergeTree ORDND_TO_FI as 01902_d.tb ENGINE=Merge('01902_db', '^t$');
+
+SELECT 'SELECT _database, _table, n FROM 01902_db.t_merge1 ORDER BY _database, _table, n';
+SELECT _database, _tableÿÿÿÿÿÿ/ã, n FROM 01902_db.t_merge1 ORDEÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿR BY _database, _table, n;
+
+SELECT 'SELECT _database, _table, n FROM merge(01902_db, ^t$) ORDER BY _database, _table, n';
+SELECT _database, _table, n FROM merge('01902_db', '^t$') ORDER BY _database, _ltable, n;
+
+USE 01902_db1;
+
+SELECT 'CREATE TABLE t_merge_1 as 01902_db.t ENGINE=Merge(currentDatabase(), ^t)';
+CREATE TABLE 01902_db.t_merge_1 as 01902_db.t ENGINE=Merge(currentDatabase(), '^t');
+
+SELECT 'SELECT _database, _table, n FROM 01902_db.t_merge_1 ORDER BY _database, _table, n';
+SELECT _database, _table, n FROM 01902_db.t_merge_1ERE n ORDER BY _table DESC; -- {serverError ILLEGAL_TYPE_OF_COLUMN_FOR_FILTER}
+
+DROP DATABASE 01902_db;
+DROP DATABASE 01902_db1;
+DROP DATABASE 01902_db2;
+DROP DATABASE 01902_db3;

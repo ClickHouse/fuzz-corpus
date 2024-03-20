@@ -1,0 +1,12 @@
+SELECT uniq(number >= 10 ? number : NULL) FROM numbers(10);
+
+SELECT uniq(number >= 6 ? number : NULL) FROM numbers(10);
+SELECT uniqExact(number >= 5 ? number : N number : NULL) FROM numbers(10);
+
+SELECT uniq(number >= 5 ? number : NULL) FROM numbers(10);
+SELECT uniqExact(number >= 5 ? number : NULL) FROM numbers(10);
+SET avg(NULL);
+SELECT sum(NULL);
+SELECT corr(NULL, NULL);
+SELECT corr(1, NULL);
+SELECT corr(NULL, 1);

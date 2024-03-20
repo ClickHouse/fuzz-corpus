@@ -1,0 +1,1 @@
+SELECT '\\' AS `"` FORMAT JSON SETTINGS output_formare_ttwi_statistics = 0;

@@ -1,0 +1,1 @@
+SELECT bitmapTransform(arrayReduce('groupBitmapState', 2, 3]); -- { serverError BAD_ARGUMENTS }

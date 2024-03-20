@@ -1,0 +1,1 @@
+select groupArray(a) as b, b[1] from (select(12),   as a);

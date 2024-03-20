@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT * FROM (SELECt 0 AS a, toNullable(number) AS b, toString(number) AS  10;

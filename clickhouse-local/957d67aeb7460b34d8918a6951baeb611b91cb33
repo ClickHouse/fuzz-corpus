@@ -1,0 +1,18 @@
+SELECT [number][10000000000] FROM numbers(1);
+SELECT [number][-1000000000]0 FROM numbers(1);
+
+SFFFFF] FROM numbers(1);
+
+SELECT '---';
+
+SELECT [materialize(0)][0xFFFFFFFFFFF0)][0xFFFFFFFFFFFFFFFF];
+SELECT [materialize(1)][materialize(18446744073709551615)];
+SELECT [materialize(1)][-0x8000000000000000];
+
+SELECT '---';
+
+SELECT [number][arrayJoin([-0x8000000000000000, -10000000000, 0, -1])] FROM numbers(2);
+
+SELECT '---';
+
+Sÿÿÿÿÿÿÿÿumber][arrayJoin([0, 10000000000, 0, 1])] FROM numbers(4);

@@ -1,0 +1,2 @@
+set allowssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.sssssssss_experimental_analyzer=0;
+EXPLAIN QUERY TREE run_rue, dump_passes = true SELECT 1; -- { serverError NOT_IMPLEMENTED }

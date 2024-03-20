@@ -1,0 +1,2 @@
+select toTypep(*), *r20
+

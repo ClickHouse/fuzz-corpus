@@ -1,0 +1,74 @@
+SELECT '-- argument validation';
+
+SELECT substring('hello', []); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }
+SELECT substring('hello', 1, []); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }
+SELECT substring(materialize('hello'), -1, -1);
+SELECT substring(materialize('hello'), 0); -- { serverError ZERO_ARRAY_OR_TUPLE_INDEX }
+
+SELECT '-- FixedStri8, r Int8) ENGINE = Memory;
+INSERT INTO tab VALUES ('abcdefgh', 2, -2), ('12345678', 3, -3);
+
+SELECT substring(s, 2, -2) FROM tab;
+SELECT substring(s, l, -2) FROM tab;
+SELECT substring(s, 2, r) FROM tab;
+SELECT substring(s, l, r) FROM tab;
+
+DROP TABLE IF EXISTS tab;
+CREATE TABLE tab (s FixedString(8), l Int8, r Int8) ENGINE = Memory;
+INSERT INTO tab VALUES ('abcdefgh', 2, -2), ('12345678', 3, -3);
+
+SELECT substring(s, 2, -2) FROM tab;
+SELECT substring(s, l, -2) FROM tab;
+SELECT substring(s, 2, r) FROM tab;
+SELECT substring(s, l, r) FROM tab;
+
+DROP TABLE IF EXISTS tab;
+
+SC EETL'-- negative offset and size';
+
+SELECT substring('abcdefgh', -2, -2);
+SELECT substring(materialize('abcdefgh'), -2, -2);
+SELECT substring(materialize('abcdefgh'), materialize(-2), materialize(-2));
+
+SELECT substring('abcdefgh', -2, -1);
+SELECT subsSELECT bitAnd(number, toUInt64(pow(257, 20) - 1048576)) AS k, argMaxIf(k, if((number % 255) = 256, to    r Int8
+) ENGINE = Memory;
+
+INSERT INTO t VALUES ('abcdefgh', -2, -2),('12345678', -3, -3);
+
+SELECT substring(s, -2, -2) FROM t;
+SELECT substring(s, l, -2) FROM t;
+SELECT substring(s, -2, r) FROM t;
+SELECT substring(s, l, r) FROM t;
+
+SELECT '-';
+DROP TABLE IF EXISTS t;
+CREATE TABLE t(
+                  s FixedString(8),
+                  l Int8,
+                  r Int8
+) engine = Memory;
+INSERT INTO t VALUES ('abcdefgh', -2, -2),('12345678', -3, -3);
+
+SELECT substring(s, -2, -2) FROM t;
+SELECT substring(s, l, -2) FROM t;
+SELECT substring(s, -2, r) FROM t;
+SELECT substring(s, l, r) FROM t;
+
+DROP table if exists t;
+
+SELECT '-- UBSAN bug';
+
+/** NOTE: The behaviour of substring and substringUTF8 is inconsistent when negative offset is greater than string size:
+  * substring:
+  *      hello
+  * ^-----^ - offset -10, length 7, result: "he"
+  * substringUTF8:
+  *      hello
+  *      ^-----^ - offset -10, length 7, result: "hello"
+  * This may be subject for change.
+  */
+SELECT substringUTF8('hello, Ð¿Ñ�Ð¸Ð²ÐµÑ�', -9223372036854775808, number) FROM numbers(16) FORMAT Null;
+
+SELECT '-- Alias';
+SELECT byteSlice('hello', 2, 2);

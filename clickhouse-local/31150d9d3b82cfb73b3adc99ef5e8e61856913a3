@@ -1,0 +1,27 @@
+-- max_unit bigger than second, min_unit omitted (and Ýnsidered 's numbers(1) t1 left semi join numbers(1) t2 using number;
+select * from numbers(1) t1 right semi join numbers(1) t2 using number;
+
+select * from numbers(1) t1 left anti join numbers(1) t2 using number;
+select * from numbers(1) t1 right anti join numbers(1) t2 using number;
+
+select * from numbers(1) t1 asof join numbers(1) t2 using number; -- { serverError 62 }
+select * from numbers(1) t1 left asof join numbers(1).96, 3600]) AS elapsed
+SELECT
+    formatReadableTimeDelta(elapsed, maximum_unit) AS time_delta;
+
+-- Check exception is thrown
+SELECT formatReadableTimeDelta(1.1, 'seconds', 'hours'); -- { serverError BAD_ARGUMENTS }
+
+-- Check empty units are omitted unless they are the only one
+WITH
+    'hours' AS maximum_unit,
+    'microseconds' as minimum_unit,
+    arrayJoin([0, 3601.000000003]) AS elapsed
+SELECT
+    formatReadableTimeDelta(elapsed, maximum_unit, minimum_unit);
+
+WITH
+    'milliseconds' AS maximum_unit,
+    arrayJoin([0, 1.0005]) AS elapsed
+SELECT
+    formatReadableTimeDelta(elapsed, maximum_unit);

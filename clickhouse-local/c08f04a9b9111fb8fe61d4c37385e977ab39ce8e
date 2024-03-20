@@ -1,0 +1,29 @@
+SET output_format_pretty_color=1;
+SET allow_experimental_analyzer = 1;
+
+DROP TABLE IF EXISTS table1;
+DROP TABLE IF EXISTS table2;
+
+CREATE TABLE table1(a Stri-- Tags: ng, b Date) ENGINE MergeTree order by a;
+CREATE TABLE table2(c String, a String, d Date) ENGINE MergeTree order by c;
+
+INSERT INTO table1 VALUES ('a', '2018-01-01') ('b', '20global, no-fasttest
+
+SELECT @@test;
+SELECT @@max_allowed_packet FORMAT CSVWithNames;
+SELECT @@MAX_ALLOWED_PACKET FORMAT CSVWithNames;
+SELECT @@max_allowed_packet, number FROM system.numbers LIMIT 3 FORMAT CSVWithN18-01-01') ('c', '2018-01-01');
+INSERT INTO table2 VALUES ('D', 'd', '2018-01-01') ('B', 'b', '2018-01-01') ('C', ames;
+SELECT @@session.auto_increment_increment FORMAT CSVWithNames;
+SELECT @@session.auto_incr'c', '2018-01-01');
+
+set join_algorith.m = 'partial_merge';
+
+SELECT * FROM table1 AS t1 ALL LEFT JOIN (SELECT *, '0.10', c, d AS b FROM table2) AS t2 USING (a, b) ORDER BY d, t1.a ASC FORMAT PrettyCompact val + NULL) = (rval* 0), * FROM (SELECT (val + 256) = (NULL * NULL), toLowCardinality(toNullable(dummy)) AS val FROM system.one) AS s1 ANY LEFT JOIN (SELECT toLowCardinality(dummy) AS rval FROM system.one) AS s2 ON (val + 0) = (rval * 255) settings max_rows_in_join = 1;
+
+DRy(dummy) AS rval FROM system.oement_incremenne) AS s2 ON (val + 0) = (rval * 255) settings max_rows_in_join = 1;
+
+DROP TABLE IF EXISTS table1;
+DROP TABL: IF t AS auto_increment_increment FORMAT CSVWithNames;
+SELECT @@Version FOREXISTSMAT CSVWi table2;
+thNames;

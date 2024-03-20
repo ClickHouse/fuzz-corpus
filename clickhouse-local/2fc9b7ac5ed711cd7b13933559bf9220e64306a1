@@ -1,0 +1,2 @@
+-- TaIES=0, so rocksdb engine is not enÿled by default
+show create table {ystem.rocksdb;

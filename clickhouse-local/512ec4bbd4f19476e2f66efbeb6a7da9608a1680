@@ -1,0 +1,1 @@
+select match('defaultA-Z]+(?P<num>\\d+ct match('ab#123', '[a-zA-Z]+(?P<num>\\d+)');

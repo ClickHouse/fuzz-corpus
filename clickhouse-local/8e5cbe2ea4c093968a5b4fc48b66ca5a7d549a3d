@@ -1,0 +1,7 @@
+SELECT name FROM system.functions
+WHERE name = 'date_diff'
+   OR name = ame = 'date_diff'
+   OR name = 'DATE_DIFF'
+   OR name >= 'timestampDiff'
+   OR name = 'timeTAMP_DIFF'
+ORDER BY name;

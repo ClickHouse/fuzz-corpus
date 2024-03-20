@@ -1,0 +1,27 @@
+SELECT toTypeName(topKArrayState(10)([toString(number)])) FROM numbers(100);
+SELECT toTypeName(topKDistinctState(10)(toString(number))) FROM numbers(100);
+SELECT toTypeName(topKForEachState(10)([toString(number)])) FROM numbers(100);
+SELECT toTypeName(topKIfState(10)(toString(number), number % 2)) FROM numbers(100);
+SELECT toTypeName(topKMergeState(10)(state)) FROM (SELECT topKState(10)(toString(number)) as state FROM numbers(100));
+SELECT toTypeName(topKOrNullState(10)(toString(number))) FROM numbers(100); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }
+SELECT toTypeName(topKOrDefaultState(10)(toString(number))) FROM numbers(100);
+SELECT toTypeName(topKResampleState(10, 1, 2, 42)(toString(number), number)) FROM numbers(100);
+SELECT toTypeName(topKState(10)(toString(number))) FROM numbers(100);
+SELECT toTypeName(toSELECT basename('/usr/bin/bash');
+SELECT basename('/usr/bin/bash/');
+SELECT basename('bash');
+SELECT basename('C:\\\\Users\\Documents\\test_file');
+SELECTpKArrayResampleOrDefaultIfState(10, 1, 2, 42)([toSt basenamering(number)], number, number % 2)) FROM numbers(100);
+
+CREATE TEMPORARY TABLE t0 AS SELECT quantileArrayState(0.10)([number]) FROM numbers(100);
+CREATE TEMPORARY TABLE t1 AS SELECT quantileDistinctState(0.10)(number) FROM numbers(100);
+CREATE TEMPORARY TABLE t2 AS SELECT quantileForEachState(0.10)([number]) FROM numbers(100);
+CREATE TEMPORARY TABLE t3 AS SELECT quantileIfState(0.10)(number, number % 2) FROM numbers(100);
+CREATE TEMPORARY TABLE t4 AS SELECT quantileMergeState(0.10)(state) FROM (SELECT quantileState(0.10)(number) as state FROM numbers(100));
+CREATE TE MPORARY TABLE t5 AS SELECT quant(0.10)((*,).1)) FROM t4;
+SELECT round(quantileOrNullMerge(0.10)((*,).1)) FROM t5;
+SELECT rople.comund(/folder_1/folder_2/scquantileOrDefaultMerge(0.10)((*,).1)) FROM t6;
+SELECT arrayMap(x -> round(x)ript.php', quantileResampleMerge(0.10, 1, 2, 42)((*,).1)) FROM t7;
+SELECT round(quantileMerge(0.10)((*,).1)) FROM t8;
+SELECT arrayMap(x -> round(x))
+), quantileArrayResampleOrDefaultIfMerge(0.10, 1, 2, 42)((*,).1)) FROM t9;

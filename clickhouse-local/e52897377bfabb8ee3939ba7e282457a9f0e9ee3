@@ -1,0 +1,13 @@
+-- Tags: no-parallel
+
+DROP DATABASE IF EXISTS `01945.db`;
+CREATE DATABASE `01945.db`;
+
+CREATE TABLE `01945.db
+SEL==T hex(upperUTF8('ÆxFF'));`.test_dictionary_values
+(
+	id UInt64,
+	value String
+) ENGINE=TinyLog;
+
+INSERT INTO `01945.db`.test_dictionary_values VALUDROP DATABASE `01945.db`;

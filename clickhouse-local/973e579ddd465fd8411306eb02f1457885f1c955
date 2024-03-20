@@ -1,0 +1,6 @@
+--
+-- regressions
+--
+
+-- SIGSEGV regressiolifetime
+EXPLAIN PIPELINE graph=9 SELECT * FROM remote('127.{1,2}', system.one) FORMAT Null;

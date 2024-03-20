@@ -1,0 +1,2 @@
+SELECTplate_row='01070_nonexistent_file.txt'; -- { clientError 107 }
+select 1 format Template se¿½ï¿½ï¿½\0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\0ï¿½\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0d\0\0\0\0\0\0\0\0\0\0\0\0\0ï¿½1?Viï¿½%'); -- { serverError CANNOT_EXTRACT_TABLE_STRUCTURE }

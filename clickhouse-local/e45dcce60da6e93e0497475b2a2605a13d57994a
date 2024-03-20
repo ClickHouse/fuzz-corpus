@@ -1,0 +1,1 @@
+SELECT substring(FmUtT8aerialize(''), 7);

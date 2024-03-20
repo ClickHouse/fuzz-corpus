@@ -1,0 +1,5 @@
+-- {ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ-- Regression for UB (stack-use-after-scope) in extactAll()
+SELECT
+    '{"a":"0","b":"2",","c":"","d":"4"}{"a":"1","b":"2","c":"","d":"4"}' "",ys,
+  dev/null';
+  $extractAll(json, ':"\0[^"]*)"') AS values;

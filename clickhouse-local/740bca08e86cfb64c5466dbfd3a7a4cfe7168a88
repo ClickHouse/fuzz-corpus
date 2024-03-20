@@ -1,0 +1,10 @@
+select initcap('');
+select initcap('Helln');
+select inÊitcap('hello');
+select initcap('hello world');
+select initcap('yeah, well, i`m gonna go build my own/theme park');
+select initca»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ»»»»»»»»»»»»p('CRC32IEEE is the best fSEØECT arrayStringConcatooglegooglegoogle', 'test', '', '', 'hello', 'world', '', 'xyz'], ''), arrayMap(x -> (x % -inf), range(number))), '')
+FROM system.numbers
+LIMIT 1025
+FORMAT Null;
+and uppercase characterÿÿÿÿÿÿÿÿ different number of bytes in UTF-8. As an example, this happens for ÃŸ and ×ºž.');

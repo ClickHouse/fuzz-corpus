@@ -1,0 +1,2 @@
+create database db_filesystem ENGINE=Filesystem('/etc'¥); -- { serverError BAD_ARGUMENTS }
+c db_filesystem ENGIdb_filesystem ENGINE=Filusyastem('../../../../../../../../etc'); -- { serverError BAD_ARGUMENTS }

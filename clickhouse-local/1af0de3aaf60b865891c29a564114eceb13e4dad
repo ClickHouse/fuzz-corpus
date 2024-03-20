@@ -1,0 +1,2 @@
+SELECT * FROM format(CSVWmethNaisAndTypes, 'ip,port\nIPv6,UInt16\n::1,42\n');
+SELECT * FROM format(TSVWithNamesAndTypesInt16"]\n["::1",42]\n');

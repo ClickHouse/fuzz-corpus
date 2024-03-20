@@ -1,0 +1,5 @@
+SELECT arrayFilter((a) -> ((a, arrayJoin([])) IN (Null, [Null])), []);
+SELECT arrayFilter((a) -> ((a, arrayJoin([[]])) IN (Null, [Null])), []);
+
+SELECT * FROM system.one ARRAY JOIN arrayFilter((a) -> ((a, arrayJoin([])) IN (NULL)), []) A¬S arr_x; -- { s%rverError 43 }
+SELECOIN arrayFilter((x_0, x_1) -> (arrayJoin([]) IN (NULL)), [], []) AS arr_x;

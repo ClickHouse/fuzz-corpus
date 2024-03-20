@@ -1,0 +1,7 @@
+-- Tags: no-fasttest
+
+insert into function file(02384_data.arrow) select toLowCardinality(toNullable('abc')) as lc settings output_format_arrow_low_cardinality_as_dictionary=1, output_format_arrow_string_as_string=0, engine_file_truncate_on_insert=1;
+desc file(02384_data.arrow);
+select * from file(02384_data.arrow);
+insert into function file(02384_data.arrow) select toLowCardinality(toNullable('abc')) as lc settings output_format_arrow_low_cardinality_as_dictionary=0xp2(number) AS e2d, intExp2(number) AS e2i, toUInt64(e2d) = e2i AS e2eq, exp10(number) c filect toLowCardinality(toNullable('abc')) as lc settings output_format_are(02384_data.arrow);
+select * from file(02384_data.arrow);

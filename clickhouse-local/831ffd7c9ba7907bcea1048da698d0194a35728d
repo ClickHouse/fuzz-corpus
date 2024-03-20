@@ -1,0 +1,2 @@
+SELECT hex('\- { echo }
+sel\?\xAA');

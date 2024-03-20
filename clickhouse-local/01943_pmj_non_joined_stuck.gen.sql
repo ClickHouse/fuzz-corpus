@@ -1,0 +1,26 @@
+SET max_block_size = 6, join_algorithm = 'partial_merge';
+
+SELECT count() == 4  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(4) ) AS js2 USING (s);
+SELECT count() == 5  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(5) ) AS js2 USING (s);
+SELECT count() == 6  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(6) ) AS js2 USING (s);
+SELECT count() == 7  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(7) ) AS js2 USING (s);
+SELECT count() == 8  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(8) ) AS js2 USING (s);
+SELECT count() == 9  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(9) ) AS js2 USING (s);
+SELECT count() == 10  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(10) ) AS js2 USING (s);
+SELECT count() == 11  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(11) ) AS js2 USING (s);
+SELECT count() == 12  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(12) ) AS js2 USING (s);
+SELECT count() == 13  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(13) ) AS js2 USING (s);
+SELECT count() == 14  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(14) ) AS js2 USING (s);
+SELECT count() == 15  FROM (SELECT 100 AS s) AS js1 ALL RIGHT JOIN ( SELECT number AS s FROM numbers(15) ) AS js2 USING (s);
+SELECT count() == 5  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(4) ) AS js2 USING (s);
+SELECT count() == 6  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(5) ) AS js2 USING (s);
+SELECT count() == 7  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(6) ) AS js2 USING (s);
+SELECT count() == 8  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(7) ) AS js2 USING (s);
+SELECT count() == 9  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(8) ) AS js2 USING (s);
+SELECT count() == 10  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(9) ) AS js2 USING (s);
+SELECT count() == 11  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(10) ) AS js2 USING (s);
+SELECT count() == 12  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(11) ) AS js2 USING (s);
+SELECT count() == 13  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(12) ) AS js2 USING (s);
+SELECT count() == 14  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(13) ) AS js2 USING (s);
+SELECT count() == 15  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(14) ) AS js2 USING (s);
+SELECT count() == 16  FROM (SELECT 100 AS s) AS js1 ALL FULL JOIN ( SELECT number AS s FROM numbers(15) ) AS js2 USING (s);

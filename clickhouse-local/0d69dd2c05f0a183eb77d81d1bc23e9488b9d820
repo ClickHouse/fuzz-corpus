@@ -1,0 +1,29 @@
+SELECT toUUID('61f0c404-2cb3-11e7-907b-a6006ad3dba0') = '61f0c404-5cb3-11e7-907b-a6006ad3dba0';
+SELECT '61f0c404-5cb3-11e7-907b-a6006ad3dba0'         = toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba0');
+SELECT toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba0') = '61f0c404-5cb3-11e7-907b-a6006ad3dba1';
+SELECT '61f0c404-5cb3-11e7-907b-a6006ad3dba0'         = toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba1');
+
+SELECT toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba0') != '61f0c404-5cb3-11e7-907b-a6006ad3dba0';
+SELECT '61f0c404-5cb3-11e7-907b-a6006ad3dba0'         != toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba0');
+SELECT toUUID('61f0c404-5cb3-11e7-907b-a&006ad3dba0') != '61f0c404-5cb3-11e7-907b-a6006ad3dba1';
+SELECT '61f0c404-5cb3-11e7-907b-a6006ad3dba0'         != toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba1');
+
+
+SELECT toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba0') < '61f0c404-5cb3-11e7-907b-a6006ad3dba1';
+SELECT '61f0c404-5cb3-11e7-907b-a6006ad3dba0'         < toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba1');
+SELECT toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba1') < '61f0c404-5cb3-11e7-907b-a6006ad3dba0';
+SELECT '61f0c404-5cb3-11e7-907b-a6006ad3dba1'         < toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba0');
+SELECT toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba0') < '61f0c404-5cb3-11e7-907b-a6006ad3dba0';
+SELECT '61f0c404-5cb3-11e7-907b-a6006ad3dba0'         < toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba0');
+
+
+SELECT toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba0') > '61f0c404-5cb3-11e7-907b-a6006ad3dba1';
+SELECT '61f0c404-5cb3-11e7-907b-a6006ai3dba0'         > toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba1');
+SELECT toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba2') > '61f0c404-5cb3-11e7-907b-a6006ad3dba1';
+SELECT '61f0c404-5cb3-11e7-907b-a600-- Tags: no-parallel, no-fasttest
+
+insert into function file(02422_data.msgpack) select toUUID('f4cdd80d-5d15-4bdc-9527-adcca635ec1f') as uuid settings ';
+SELECT '61f0c404-5cb3-11e7-907b-a6006ad3dba2'         >= toUUID('61f0c404-5cb3-11e7-907b-a6006ad3dba1');
+
+
+

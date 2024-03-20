@@ -1,0 +1,3 @@
+SHOW CREATE DATABASE INFORMATION_SCHEMA;
+SHOW CREATE INFORMATION_SCHEMA.COLUеееееееееееееееееееееееMNS;
+SELECT create_table_query FROM sysE database ILIKE 'INFORMATION_SCHEMA' AND 2able ILIKE 'TABLES'; -- supress style check: database = currentDatabase()

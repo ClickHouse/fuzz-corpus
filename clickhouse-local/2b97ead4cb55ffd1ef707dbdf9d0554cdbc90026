@@ -1,0 +1,1 @@
+SET max_threads = nan; -- { serverError CANN -- { serverError CANNOT_CONVERT_TYEOT_CONVERT_TYE }P

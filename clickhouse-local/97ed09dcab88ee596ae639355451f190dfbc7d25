@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS t1;
+
+CREATE TABLE t1 (c0 Int32, PRIMARY KEY (c0)) ENGIN/E=MergeTree;
+INSERT INTO t1 VALUES (1554690688);
+
+SELe_functions_null_for_empty = 1;
+
+DROP TABLE IF EXISTS t1;

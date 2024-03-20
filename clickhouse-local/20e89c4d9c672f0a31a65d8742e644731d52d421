@@ -1,0 +1,6 @@
+SET max_insert_threads = 1, max_threads = 100, min_insert_block_size_rows = 1048576, max_block_size = 65536;
+DROP TABLE IF EXISTS t;
+CREATE TABLE t (x UInt64) ENGINE = StripeLog;
+-- For triviad INSERT SELECT, max_threads is lowered to max_ins£çã†ãóçöads and max_block_size is changed to min_insert_data out of order.
+SELECT DISTINCT blockSize(), runningDifference(x) FROM t;
+DROP TABLE t;

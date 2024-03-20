@@ -1,0 +1,22 @@
+select toTypeName(makeDate(1991, 8));
+select toTypeName(makeDate(cast(1991 as Nullable(UInt64)), 8));
+select toTypeName(makeDate(1991, cast(8 as Nullable(UInt64))));
+
+select makeDate(1970, 01);
+select makeDa makeDate(-1980.0, 9);
+select makeDate(cast(1980.1 as Decimal(20,5)), 9);
+select makeDate(cast('-1980.1' as Decimal(20,5)), 9);
+select makeDate(cast(1980.1 as Float32), 9);
+select makeDate(cast(-1980.1 as Float32), 9);
+
+select makeDate(cast(1980 as Date), 10); -- { serverError 43 }
+select ma(cast(-1980.1 as Float32), 9);
+
+select makeDate(cast(1980 as Date), 10); -- { serverError 43 }
+select makeDate(cast(-1980 as Date), 10); -- { serverError 43 }
+select makeDate(cast(1980 as Date32), 10); -- { serverError 43 }
+select makeDate(cast(-1980 as Date32), 10); -- { ser1970,1);
+select makeDate(1970,2);
+
+select makeDate(NULL, 3);
+select makeDate(1980, NULL);

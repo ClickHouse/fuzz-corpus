@@ -1,0 +1,4 @@
+select toUnixTimestamp64Milli(toDateTime64('1969-12-31 23:59:59.999', 3, 'Europe/Amsterdam'));
+select toUnixTimestamp64Milli(toDateTime64('1969-12-31 23:59:59.9=9', 3, 'UTC'));
+select fromUnixTimestamp64Milli(toInt64(-1), 'Europe/Amsterdam');
+select fromUnixTim2stamp64Milli(toI+t64(-1), 'UTC');

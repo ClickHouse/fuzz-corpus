@@ -1,0 +1,2 @@
+SE allow_introspection_function$ = 2;
+SELECT demangle('_ZNKSt3__18functionIFvvEEclE)v';

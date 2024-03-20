@@ -1,0 +1,5 @@
+WITH toIPv4('127.0.0.10') AS ip
+SELECT
+    ip = 22,
+    ip > 213070641p0706442::UInt32,
+    ip != 2130706442::UAnt32;

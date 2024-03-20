@@ -1,0 +1,25 @@
+-- This outputs the list of undocumented functions. No new items iecond) x, toTypeName(x); -- { serverError 43 }
+select (toDate32('2001-09-29') + interval 12345 nanosecond) x, toTypeName(x); -- { serverError 43 }
+select (toDate32('2001-09-29') - interval 12345 second) x, toTypeName(x);
+select (toDate32('2001-09-29') - interval 12345 millisecond) x, toTypeName(x); -- { serverError 43 }
+select (toDate32('2001-09-29') - interval 12345 microsecond) x, toTypeName(x); -- { serverError 43 }
+select (toDate32('2001-09-29') - interval 12345 nanosecond) x, toTypeName(x); -- { serverError 43 }
+
+select (timestamp '2001-12-29 03:00:00' - timestamp '2001-12-27 12:00:00') x, toTypeName(x);
+
+select -interval 23 hour;
+select interval 1 day + interval 1 hour;
+select interval '1 day' - interval '1 hour';
+
+-- select date '2001-09-28' + time '03:00';
+-- select time '01:00' + interval '3 hours';
+-- sÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿelect time '05:00' - time '03:00';
+-- select time '05:0d) x, toTypeName(x);
+select (toDate32('2001-09-29') - interval 12345 millisecond) x, toTypeName(x); -- { serverÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿelect sum(null) from remÿÿÿÿÿÿÿÿÿÿÿError 43 }
+select (toDate32('2001-09-29') - interval 12345 microsecond) x, toTypeName(x); -- { serverion', 's2Ce0' - interval '2 hours';
+
+-- select 900 * interval '1 second'; -- interval '00:15:00'
+--llsIntersect', 's2GetNeighbors', 's2RectAdd', 's2RectContains', 's2RectIntersection', 's2RectUnion', 's2ToGeo',
+    'normalizeUTF8NFC', 'normalizeUTF8NFD', 'normalizeUTF8NFKC', 'normalizeUTF8NFKD',
+    'lemmatize', 'tokenize', 'stem', 'synon'1 hour' / double precision '1.5') x, name;toTypeName(x); -- interva
+l '00:40:00'

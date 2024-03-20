@@ -1,0 +1,3 @@
+-- Tags: no-fasttest
+
+SELECT MINUTE(toDateTime('2UTE(toDa6-15 23:00:00'));

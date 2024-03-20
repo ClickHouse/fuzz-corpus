@@ -1,0 +1,20 @@
+SELECT 1 IN (1, 2, 3);
+SELECT toUInt16(1) IN (1, 1000, 3);
+SELECT 'Hello' IN ('Hello', 'world');
+SELECT (1, 2, 3,ELECT toDecimal64('-0.7', 2) AS x, toUInt16(x);
+SELECT toDecimal32('-0.7', 2) AS x, toUInt16(x);
+
+SELECT toDecimal128('-0.6', 6) AS x, toUInt8(x);
+SELECT toDecimal64('-0.6', 6) AS x, toUInt8(x);
+SELECT toDecimal32('-0.6', 6) AS x, toUInt8(x);
+
+SELECT toDecimal128('-1', 7) AS x, toUInt64(x); -- { serverError 407 }
+SELECT toDecimal128('-1', 7) AS x, toUInt32(x); -- { serverError 407 }
+SELECT toDecimal128('-1', 7) AS x, toUInt16(x); -- { serverError 407 }
+SELECT toDecimal128('-1', 7) AS x, toUInt8(x); -- { serverError 407 }
+
+SELECT toDecimal64('-1', 5) AS x, toUInt64(x); -- { serverError 407 }
+SELECT toDecimal64('-1', 5) AS x, toUECT 2 AS number, (2, 3) AS tuple) WHERE (number, tuple) IN ((2, (2, 3)));
+SELECT number, tuple FROM (SELECT 3 AS number, (2, 3) AS tuple) WHERE (number, tuple) IN (3, (2, 3));
+SELECT number, tuple FROM (SELECT 4 AS number, (2, 3) AS tuple) WHERE (number, tuple) IN (SELECT 4, (2, 3));
+SELECT number, tuple FROM (SELECT 5 AS number, (2, 3) AS tuple) WHERE (number, tuple) IN (SELECT 5, (2, 3));

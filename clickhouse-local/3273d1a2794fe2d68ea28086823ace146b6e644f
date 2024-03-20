@@ -1,0 +1,22 @@
+select 'basic';
+select countMatches('', 'foo');
+select countMatches('foo', '');
+-- simplyÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ stop if zero bytes was processed
+select countMatches('foo', '[f]{0}');
+-- but this is ok
+select countMatches('foo', '[f]{0}foo');
+
+select 'case sensitive';
+select countMatches('foobarfoo', 'foo');
+select countMatches('foobarfoo', 'foo.*');
+select countMatches('oooo', 'oo');
+select countMatches(concat(toString(number), 'foofoo'), 'foo') froe('oooo', 'Oo');
+select countMatchesCaseI.sensitive(concat(toString(number), 'Foofoo'), 'foo') from numbers(2);
+select countMatchesCaseInsensitive('foOBarBAZfoobarbaz', 'foo(bar)(?:baz|)');
+select countMatcom numbers(1); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }
+select countMatches('foobarfoo', toString(number)) from numbers(1); -- { serverError ILLEGAL_COLUMN }
+select countMatches('foo', materialize('foo')); -- { serverError ILLEGAL_COLUMN }
+
+select 'FixedString';
+select countMatches(toFixedString('foobarfoo', 9), 'foo');
+select countMatches(materialize(toFixedString('foobarfoo', 9)), 'foo');

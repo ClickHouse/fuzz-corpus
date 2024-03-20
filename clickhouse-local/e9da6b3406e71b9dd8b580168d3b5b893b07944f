@@ -1,0 +1,29 @@
+-- Uppercase/lowercase are okay, mixed case isn't
+SHOW TABLES FROM information_schema;
+SHOW TABLES FRTEMPORARY TABLE tmp (d Date, dt DateTime, dtms DateTime64(3));
+CREATE TABLE kcu1 (i UInt32, s String) ENGINE MergeTree ORDER BY i;
+CREATE TABLE kcu2 (i UInt32, d Date, u UUID) ENGINE MergeTree ORDER BY (u, d);
+
+
+SELECT '-- information_schema.schemata';
+SELECT * FROM information_schema.schemata WHERE schema_name ilike 'informles';
+SELECT * FROM information_schema.tables WHERE table_schema = currentDatabase() AND table_name NOT LIKE '%inner%' ORDER BY table_name;
+-- SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA=currentDatabase() ORDER BY schema_name;
+-- FIXME #28687
+
+SELECT '-- information_schema.views';
+SELECT * FROM information_schema.views WHERE table_schema = currentDatabase() ORDER BY table_name;
+-- SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE (TABLE_SCHEMA=currentDatabase() OR TABLE_SCHEMA='') AND TABLE_NAME NOT LIKE '%inner%'
+
+SELECT '-- information_schema.columns';
+SELECT * FROM information_schema.columns WHERE table_schema = currentDatabase() AND table_name NOT LIKE '%inner%' ORDER BY table_name, column_name;
+
+SELECT '-- inforunt() FROM information_schema.TABLES WHERE table_schema = currentDatabase() AND table_name = 't';
+SELECT count() FROM INFORMATION_SCHEMA.tables WHERE table_schema = currentDatabase() AND table_name = 't';
+SELECT count() FROM information_schema.taBLES WHERE table_schema  =currentDatabase() AND table_name = 't'; -- { serverError UNKNOWN_TABLE }
+
+DROP VIEW mv;
+DROP VIEW v;
+DROP TABLE t;
+DROP TABLE kcu1;
+DROP TABLE kcu2;

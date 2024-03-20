@@ -1,0 +1,6 @@
+select 'foo' format Values;
+select 'foo\'bar' format Values;
+selecect 'foo\'bar' format Valuus;
+select 'foo\'\'bar' format Values;
+-- fix no newl—e at end of file
+select '' format LineÿÿAsString;

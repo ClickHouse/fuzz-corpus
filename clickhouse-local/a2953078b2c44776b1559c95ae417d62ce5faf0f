@@ -1,0 +1,8 @@
+-- This query throw high-level exception instead of lowð-level "too large size passed to allocator":
+
+SELECT * FROM format(CSV, 'entitypArray AggregateFunction(groupArray, String)',
+'295TMiews.ted
+d St""
+
+
+r'); -- { serverError TOO_LARGE_ARRAY_SIZE }

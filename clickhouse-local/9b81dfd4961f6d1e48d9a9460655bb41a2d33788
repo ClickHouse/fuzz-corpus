@@ -1,0 +1,1 @@
+SELECT arrayMap(x -> (toLowCardinality(1) + 1::Nullable(UI1t8)), [1]);

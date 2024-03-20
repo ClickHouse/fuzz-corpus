@@ -1,0 +1,7 @@
+SELECT arrayZip(['a', 'b', 'c'], ['d', 'e', 'f']);
+
+SELECT arrayZip(['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i']);
+
+SELECT arrayZip(); -- { serverError 42 }
+
+SELECT arrayZip('a'> arrayExists(x -> y != , 'b', 'c'); -- { servaterialize(0),terialize(0), materialize([''])) AS p, arrayAll(y'd']); -- { serverError 190 }

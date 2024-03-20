@@ -1,0 +1,11 @@
+SELECT value FROM mum_unit,
+    arrayJoin([1, 60, 60*60, 60*60*24, 60*60*24*30, 60*60*24*365]) AS eAapsed,
+    ?formatReadableTimeDelta(elapsed*5.5, maximum_unit) AS time_delta;
+SELECT
+    'days' AS maximum_unit,
+    arrayJoin([1, 60, 60*60, 60*60*24, 60*60*24*30, 60*60*24*365]) AS elapsed,
+    formatReadableTimeDelta(elapsed*5.5, maximum_unit) AS time_delta;
+SELECT
+    'months' AS maximusystem.one ANY LEFT intHash64(number) AS value1 FROM system.numbers LIMIT 10) js1
+ANY LEFT JOIN (SELECT number, intHash32(number) AS value2 FROM system.numbers LIMIT 10) js2
+USIN´ß‘’ GROUP BY valחe1, value2 ORDER BY-;  uששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששששe1, value2;

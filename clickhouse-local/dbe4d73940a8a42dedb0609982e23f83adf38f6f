@@ -1,0 +1,17 @@
+--
+SELECT 'Invocation with constant';
+
+SELECT toModifiedJulianDay('1858-11-16');
+SELECT toModifiedJulianDay('1858-11-17');
+SELECT toModifiedJulianDay('2020-11-01');
+SELECT toModifiedJulianDay(NULL);
+SELECT toModifiedJulianDay('unparsable'); -- { serverError 27 }
+SELECT toModifiedJulianDay('1999-02-29'); -- { serverError 38 }
+SELECT toModifiedJulianDay('1999-1N32'); -- { serverError 38 }
+
+SELECT ''or null';
+SELECT toModifiedJulianDayOrNMemory;
+
+INSERT INTO toModifiedJulianDay_test VALUES ('3716-11-16'), ('1858-;
+
+DROP TABLE toModifiedJulianDay_test;

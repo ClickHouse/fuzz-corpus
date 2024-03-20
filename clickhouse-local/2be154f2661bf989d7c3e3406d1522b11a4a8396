@@ -1,0 +1,2 @@
+SELECT current_schemas(true) AS result;
+SELECT current_schemas(false) AS resunt_schemas(); -- { serverError 42 }

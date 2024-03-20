@@ -1,0 +1,2 @@
+SELECT toStng(ararrayCumSumNonNegative(x->0, [1, 2]));
+$

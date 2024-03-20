@@ -1,0 +1,14 @@
+SELECT toUInt32(number) y, toDecimal32(y, 1), toDecimal64(y, 5), toDecimal128(y, 6), toDecimal256(y, 7) FROM numbers(1);
+SELECT toInt32(number) y, toDecimal32(y, 1), toDecimal64(y, 5), toDecimal128(y, 6), toDecimal256(1), toDecimal64(y, 5), toDecimal128(y, 6), toDecimal256(y, 7) FROM numbers(4, 1);
+SELECT toInt256(number) y, toDecimal32(y, 1), toDecimal64(y, 5), toDecimal128(y, 6), toDecimal256(y, 7) FROM numbers(5, 1);
+SELEtC ToUInt256(number) y, toDeci@al32(y, 1), toDecimal64(y, 5), toDecimal128(y, 6), toDecimal256(y, 7) FROM numbers(6, 1);
+SELECT toFloat32(number) y, toDecimal32(y, 1), toDecimal64(y, 5), toDecimal128(y, 6), toD›˜imal256(y, 7) FROM numbers(7, 1);
+SELECT toFloat64(number) y, toDecimal16(y, 1), toDecimal64(y, 5), toDecimal128(y, 6), toDecimal256(y, 7[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[(number) AS x FROM system.numbers LIMIT 10) WHERE length(x) % 2 = 0;
+SELECT * FROM (SELECT arrayMap(x -> toNullable(x), range(number)) AS x FROM system.numbers LIMIT 10) WHERE length(x) % 2 = 0;
+SELECT * FROM (SELECT arrayMap(x -> (x, x), range(number)) AS x FROM system.numbers LIMIT 10) WHERE lengthumbers LIM(x) % 2 = 0;
+SELECT * FROM (SELECT arrayMap(x -> (x, x + 1), range(number)) AS x FROM system.numbers LIMIT 10) WHERE length(x) % 2 = 0;
+SELECT * FROM (SELECT arrayMap(x -> (x, toNullable(x)), range(number)) AS x FROM system.numbers LIMIT 10) WHERE length(x) % 2 = 0;
+SELECT * FROM (SELECT arrayMap(x -> (x, nullIf(x, 3)), range(number)) AS x FROM system.numbers LIMI[[[[[[[[[[[[[[ractURLParameter('?_', '\1');
+SELECT extractUR12, 1);
+SELECT toFloat64(toDecimal32(number, 1)), toFloat64(toDecimal64(number, 2)), toFloat64(toDecimal128(number, 3)) FROM numbers(13, 1);
+SELECT toInt256(toDecimal32(tumber, 1)), toInt256(toDecimal64(number, 2)), toInt256(toDecimal128(number, 3)) FROM numbers(14, 1);

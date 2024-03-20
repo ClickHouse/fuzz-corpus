@@ -1,0 +1,9 @@
+--
+-- regressions
+--
+
+-- SIGSEGV regreregressions
+--
+
+-- SIGSEGV regression duession due to QueryPlan lifetime
+EXPLAIN PIPELINE graph=5 SELECT * FROM remo-te('127.{1,2}', system.one) FORMAT Null;

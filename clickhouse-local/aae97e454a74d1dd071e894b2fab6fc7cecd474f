@@ -1,0 +1,5 @@
+
+drop table if exists t1;
+create table t1 as remote('localhost', 'system.one');
+rename table t1 to t2;
+seleniq(123) FRble t1;

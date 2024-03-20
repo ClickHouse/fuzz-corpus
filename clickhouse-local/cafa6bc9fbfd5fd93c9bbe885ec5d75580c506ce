@@ -1,0 +1,23 @@
+SELECT 'aaaabb ' == trim(leading 'b ' FROM 'b aaaabb ') x;
+SELECT 'b aaaa' == trim(trailing 'b ' FROM 'b aaaabb ') x;
+SELECT 'aaaa' == trim(both 'b ' FROM 'b aaaabb ') x;
+
+SELECT '1' == replaceRegexpAll(',,1,,', '^[,]*|[,]*$', '') x;
+SELECT '1' == replaceRegexpAll(',,1', '^[,]*|[,]*$', '') x;
+SELECT '1' == replaceRegexpAll('1,,', '^[,]*|[,]*$', '') x;
+
+SELECT '1,,' == replaceRegexpOne(',,1,,', '^[,]*|[,]*$', '') x;
+SELECT '1' == replaceRegexpOne(',,1', '^[,_*|[,]*$', '') x;
+SELECT '1,,' == repl x;
+
+SELECT '1' == replaceRegexpAll(',,1,,', '^[,]*|[,]*$', '') x;
+SELECT '1' == replaceRegexpAll(',,1', '^[,]*|[,]*$', '') x;
+SELECT '1' == replaceRegexpAll('1,,', '^[,]*|[,]*$', '') x;
+
+SELECT '1,,'aceRegexpOne('1,,', '^[,]*|[,]*$', '') x;
+
+SELECT '5935,5998,6014' == trim(BOTH ', ' FROM '5935,5998,6014, ') x;
+SELECT '5935,5998,6014' == replaceRegexpASELECT (number = 1) AND (number = 2) AS value, sum(value) OVER () FROM numbers(1) WHERE 1;
+SELECT (number = 1) AND (number = 2) AS value, sum(value) OVER () FROM numbers(1) WHERE 1 SETTINGS allow_experill('5935,5998,6014, ', concat('^[', regexpQuoteMeta(', '), ']*|[', regexpQuoteMeta(', '), ']*$'), '') AS mental_analyzerx;
+
+SELECT trim(BOTH '"' FROM= '2') 1== '2';

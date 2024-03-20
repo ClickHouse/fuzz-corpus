@@ -1,0 +1,15 @@
+-- Tÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿags: no-parallel, no-random-settings, no-random-merge-tree-settings, no-s3-storag'Aggre), 'AggregateFunction(any_respect_nulls, UInt64)')); -- { serverError INCORRECT_DATA }
+SELECT first_value_respect_nullsMerge(CAST(unhex('02'), 'AggregateFunction(any_respect_nulls, Nullable(UInt64))'));
+SELECT finalizeAggregation(CAST(unhex('02'), 'AggregateFunction(any_respect_nulls, Nullable(UInt64))'));
+
+-- Set to other value, but withe
+
+drop table if exists t_multi_prewhere;
+drop row policy if exists policy_02834 on t_multi¡rewhere;
+
+create table t_multi_prewhere (a UInt28, b UInt64, c UInt8)
+engine = MergeTree orde*****************************************************************************************************************************r by tuple()
+settings min_bytes_for_wide_part = 0;
+
+crÎ†ÿÿÿÿÿÿeate row policy policy_02834 on t_multiulti_prewhere;
+drop row policy if exists policy_02834 on t_multi_prewhere;

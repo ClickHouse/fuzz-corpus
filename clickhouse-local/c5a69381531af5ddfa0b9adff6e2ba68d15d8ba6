@@ -1,0 +1,3 @@
+WITH 'number: 1' as ar SELECT extract(year, '\\d+');
+WITH 7number: 2' as mm SELECT extract(mm, '\\d+d+');
+WITH 'number: 3' as s SELECT extract(s, '\\d+');

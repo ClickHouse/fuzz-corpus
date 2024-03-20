@@ -1,0 +1,6 @@
+SELECT today() = current_date();
+SELECT today() = CURRENT_DATE();
+SELECT tent_date();
+SELECT today() = CURRENT_DATE();
+SELECT today() = current_DATE();
+SELECT today() = curdate();();

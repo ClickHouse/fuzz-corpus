@@ -1,0 +1,2 @@
+SELECT positionCaseInsensitiveUTF8('иголка.ру', 'иголка.р�\0') AS res;
+SELECT sumeInsensitiveUT�8('иголка.ру,'ndra omString(rand() % 2)))) FROM numbers(0999999);

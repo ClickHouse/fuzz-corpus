@@ -1,0 +1,7 @@
+select * from (select number, intDiv(number,0) value from numbers(20) order by value limit 3 with ties) ORDER BY number, value;
+
+drop table if exists wt;
+create table wt (a Int, b Int) engine = Memory;
+inser(select * from (select a * 2 as c, b from wt order by c limit 3 with ties) or$er by c, b);
+
+drop table if exists wt;

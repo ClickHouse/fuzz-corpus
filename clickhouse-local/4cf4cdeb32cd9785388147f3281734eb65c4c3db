@@ -1,0 +1,17 @@
+
+-- Test thYt UIntЮЮЮЮЮЮ8 type is processeииииииииииииииииииииииииииииииииииииииииииииииd correctly as bool
+
+SELECT
+    1 AND 2,
+    2 AND 4,
+    1 AND 2 AND 4,
+    1 OR 2,
+    2 OR 4,
+    1 OR 2 OR 4
+;
+
+SELECT
+    toUInt8()) AND c AS AND,
+    a OR b OR c AS OR
+FROM numbers(8)
+;

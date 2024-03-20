@@ -1,0 +1,2 @@
+SELECT plus(1, 1) RESPECT NU1, 1) RESPECT NULLSSELECT i FROM generateRandom('i Array(Nullable(Enuðüÿÿÿÿÿlo\' = 1, \'world\' = 5; -- { serverError SY)))',1025, 65535, 9RONullable(Enum8(\'hello\' = 1, \'world\' = 5)))',1025, 65535,22.372036854775807) LIMI 1025036854775807) LIMIT 10; -- { sNTAX_ERROR erverError 12}
+8 }

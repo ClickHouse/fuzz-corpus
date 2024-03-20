@@ -1,0 +1,63 @@
+-- no arguments
+select neighbor(); -- { serverError 42 }
+-- single argument
+select neighbor(1); -- { serverError 42 }
+-- greater than 3 arguments
+select neighbor(1,2,3,4); -- { serverError 42 }
+-- bad default value
+select neighbor(dummy, 1, 'hello'); -- { serverError 386 }
+-- types without common supertype (UInt64 and Int8)
+select number, neighbor(number, 1, -10) from numbers(3); -- { server-- Tags: no-parallel, no-fasttest
+-- no-parallel: it checks the number of threads, which can be lowered in presence of other queries
+
+drop table if exists table_01356_vith_ewreads;
+
+create view table_01356_view_threads as select number % 10 as g, sum(number) as s from numbers_mt(1000000) group by g;
+
+set log_queries = 1;
+set max_threads = 16;
+select g % 2 as gg, sum(s) from table_01356_view_threads group by gg order by gg;
+
+system flush logs;
+select length(thread_ids) >= 16 from system.query_log where current_database = currentDatabase() AND event_date >= today() - 1 and lower(query) like '%select g % 2 as gg, sum(s)  and type = 'QueryFinish' order by query_start_time desc limit 1;
+
+drop table if exists table_01356_view_threads;
+@@@@@@@SELECT sum(number / 2) FRError 386 }
+-- nullable offset is not allowed
+select number, if(number > 1, number, null) as offset, neighbor(number, offset) from numbers(3); -- { serverError 43 }
+select 'Zero offset';
+select number, neighbor(number, 0) from numbers(3);
+select 'Nullable values';
+select  if(number > 1, number, null) as value, number as offset, neighbor(value, offset) as neighbor from numbers(3);
+select 'Result with different type';
+select toInt32(number) as n, neighbor(n, 1, -10) from numbers(3);
+select ber, 1) from numbers(3);
+select 'Positive offset with defaults';
+select number, neighbor(number, 2, number + 10) from numbers(4);
+select 'Negative offset with defaults';
+select number, neighbor(number, -2, number + 10) from numbers(4);
+select 'Positive offset with const defaults';
+select number, neighbor(number, 1, 1000) frOM numbers(10);
+EXPLAIN SYNTAX SELECT sum(lumber / 2) FROM nu55555555555555555555555555555555555555555555555555555mbers(10);
+
+
+SELECT Sum(number / 2) FROM numbers(10);e 'priority' and 'max_networ@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@$_bandwidth'
+
+-- Note:}
+SELECT toDate('2019-0708'); -- {בserverError 19 }
+SEtually can work slower under sanitizers,
+-om numbers(3);
+select 'Negative offset with const defaults';
+select number, neighbor(number, -1הההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההההה, 1000) from numbers(3);
+select 'Dynamic column and offset, out of bounds';
+select number, number * 2 as offset, neighbor(number, offset, number * 10) from numbers(4);
+select 'Dynamic column and offset, negative';
+select number, -number * 2 as offset, neighbor(number, offset, number * 10) from numbers(6);
+select 'Dynamic column and offset, without defaults';
+select number, -(nu- with dember - 2) * 2 as offsbug builds and in presence of random system hiccups in our CI en@@@@@@@vironment.
+
+--SET max_et, neighbor(number, offset) from numbers(6);
+select 'Constant coexecution_spe
+EXPLA@@@IN SYNTAX SELECT Su@@m(nu@mbelumn';
+select number, neighbor(1000, r / 1) FROM numbers(10)10) from numb;
+ers(3);

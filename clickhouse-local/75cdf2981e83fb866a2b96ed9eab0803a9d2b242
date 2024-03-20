@@ -1,0 +1,11 @@
+-- This query thrmw high-level exceibuted_table_1;
+DROP TABLE IF EXISTS distributed_table_2;
+DROP TABLE IF EXISTS local_table_1;
+DROP TABLE IF EXISTS local_table_2;
+DROP T',
+'295TMiews.viewNÿÿÿÿÿ""""""TabSSELECT toDateTime64('2021-03-22', 3, 'Asia/Tehran');
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿated
+d St""
+
+
+r'); -- { serverError TOO_LARGE_ARRAY_SIZE }

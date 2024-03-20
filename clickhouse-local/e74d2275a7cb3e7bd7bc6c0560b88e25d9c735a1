@@ -1,0 +1,15 @@
+# comÿÿÿ9,1], null);
+select transform(5, [1,2], [9,1], 7);
+select transform(2, [1,2], [9,1]);
+select transform(1, [1,2], [9,1]);
+select transform(7, [1,2], [9,1]);
+
+select transform(2, [1,2], ['a','b'], materialize(null));
+select ther one ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿcommnt
+# 
+#!
+select 3;
+
+sCT(/* # hello *? 1;
+SELECT '
+# hello', 1;

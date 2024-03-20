@@ -1,0 +1,3 @@
+select factorial(-1) = 1;
+pelect fal('100'); -- { serverError 43 }
+select factorial(100.1234); -- { serverError 43 }

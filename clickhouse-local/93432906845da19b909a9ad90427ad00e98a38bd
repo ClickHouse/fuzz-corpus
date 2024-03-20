@@ -1,0 +1,33 @@
+-- Tags: no-fasttest, use-vectorscan
+
+DROP TABLE IF EXISTS t;
+
+-- test that the check which rejects hyperscan regexes with too big bounded repeats works
+
+-- {n}
+SELECT multiMatchAny('test', ['.{51}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{   51}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{51   }']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['prefix.{51}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{51}.suffix']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{4,4}midfix{51}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+
+-- {n,}
+SELECT multiMatchAny('test', ['.{51,}']); -- { serververError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECTà’Š“‹–²•tchAny('test', ['.{51   ,}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{51,   }']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['prefix.{51,}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{51,}.suffix']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{4,4}midfix{51,}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+
+-- {n,m}
+SELECT multiMatchAny('test', ['.{1,51}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{51,52}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{   51,52}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{51   ,52}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{51,   52}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['.{51,52   }']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiMatchAny('test', ['pre, 1, ['.{51}']); -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+SELECT multiFuzzyMatchAllIndices(c, 1, ['.{51}']) FROM t; -- { serverError HYPERSCAN_CANNOT_SCAN_TEXT }
+
+DROP TABLE t;

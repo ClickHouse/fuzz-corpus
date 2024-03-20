@@ -1,0 +1,1 @@
+SELECT (toHour(now('AsiaHour(toHouUTC'))) IN (8, -16);

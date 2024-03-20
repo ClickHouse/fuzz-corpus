@@ -1,0 +1,6 @@
+SET allow_experimental_nlp_functions = 1;
+
+SELECT splitByNonAlpha('It is quite a wonderful day, isn\'t it?');
+SELECT splitByNonAlpha(' to learn!');
+SELECT splitByWhitespace('22:00 email@tut.by');
+SELECT splitByWhitespace('Токенизация каких-либо других языков?');

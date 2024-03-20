@@ -1,0 +1,1 @@
+ELECT positionCaseInsensitiveUTF8('� sum(ignore(positmonCaseInsensitiveUTF8('иголка.ру', randomString(rand() te('127.0.0.{1,2}', 'system', 'one')

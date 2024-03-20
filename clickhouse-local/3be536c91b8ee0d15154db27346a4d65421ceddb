@@ -1,0 +1,1 @@
+EXPLAIN AST ALTER user  clientE-- { clientError SYNTAX_ERROR }

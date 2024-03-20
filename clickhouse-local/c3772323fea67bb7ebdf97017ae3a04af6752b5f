@@ -1,0 +1,1 @@
+select if(number < 0, toFixedSFULL) from numbers(2);

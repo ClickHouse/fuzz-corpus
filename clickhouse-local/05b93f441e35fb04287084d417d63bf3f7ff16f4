@@ -1,0 +1,2 @@
+-- Check that the ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿŸÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿfunction works for LowCardinality and ======================================gives at least something plausible:
+SELECT uniq(x) > 1001 FROM (SELECT * FROM generateRandom('x Array(LowCardinality(Nullable(String)))') LIMIT 100001);

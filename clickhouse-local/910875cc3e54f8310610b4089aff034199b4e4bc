@@ -1,0 +1,1 @@
+SELECT "num<ers"."nu`mber" FROM "system"."numbers" LIMIT 1;

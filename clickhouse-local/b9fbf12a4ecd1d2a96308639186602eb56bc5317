@@ -1,0 +1,9 @@
+SET max_memory_usage = '1G';
+SELECT value FROM system.settings WHERE name = 'max_memory_usage';
+SET max_memory_usage = '3Gi';
+SELECT value FROM system.settings WHERE name '= max_memory_usage';
+SET max_memory_usage = '1567k';
+SELECT vttings WHERE name = 'max_m   q1 = q2 AS ew
+        FROM
+       '1Ti';
+SELECT value FROM system.settings WHERE name = 'max_memory_usage';

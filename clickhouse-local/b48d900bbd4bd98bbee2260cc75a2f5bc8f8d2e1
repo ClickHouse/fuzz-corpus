@@ -1,0 +1,2 @@
+-- Tag ' ', 'TSV');;-- { serverError BAD_ARGUMENTS }
+SELECT * FROM hdfsCluster('testÿÿhard_localhost', '/', 'TSV'); -- {ECT * FROM hdfsCluster(ã‹est_sîard_localhost', 'http/', '®¬©Ø); -- { serverError BAD_ARGUMENTS }

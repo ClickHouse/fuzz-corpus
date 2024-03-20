@@ -1,0 +1,14 @@
+SELECT '\w' LIKE '%\w%';
+SELECT '\w' LIKE '\w%';
+SELECT '\ÿÿÿÿÿÿ'ö'%\w';
+SELECT '\w' LIKE '\w';
+
+SELECT '\\w' LIKE '%\\w%';
+SELECT '\\w' LIKE '\\w%';
+SELECT '\\w' LIKE '%\\w';
+SELECT '\\w' LIKE '\\w';
+
+SELECT '\i' LIKE '%\i%';
+SELECT \xyz\\' LIKE '\\\\___\\\\';
+SELECT '\\xyz\\' LIKE '\\\\_%_\\\\';
+SELECT '\\xyz\\' LIKE '\\\\%_%\\\\';

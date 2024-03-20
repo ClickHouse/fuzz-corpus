@@ -1,0 +1,316 @@
+-- Tags: no-parallel, no-fasttest
+
+
+
+
+
+
+
+
+
+
+
+
+select '----- hash / State / ip4 -----';
+select
+  cityHash64(hex( minState(ip) )) AS minState,
+  cityHash64(hex( maxState(ip) )) AS maxState,
+  cityHash64(hex( first_valueState(ip) )) AS first_valueState,
+  cityHash64(hex( last_valueState(ip) )) AS last_valueState,
+  cityHash64(hex( topKState(ip) )) AS topKState,
+  cityHash64(hex( groupArrayState(ip) )) AS groupArrayState,
+  cityHash64(hex( groupUniqArrayState(ip) )) AS groupUniqArrayState,
+  cityHash64(hex( uniqState(ip) )) AS uniqState,
+  cityHash64(hex( uniqExactState(ip) )) AS uniqExactState,
+  cityHash64(hex( uniqCombinedState(ip) )) AS uniqCombinedState,
+  cityHash64(hex( uniqCombined64State(ip) )) AS uniqCombined64State,
+  cityHash64(hex( uniqHLL12State(ip) )) AS uniqHLL12State,
+  cityHash64(hex( uniqThetaState(ip) )) AS uniqThetaState
+  from ( select num::UInt32::IPv4 ip from (select arrayJoin(range(999999999, number)) as num from numbers(999999999,50)) order by ip ) format Vertical;
+
+
+
+select '----- hash / State / ip6 -----';
+select
+  cityHash64(hex( minState(ip) )) AS minState,
+  cityHash64(hex( maxState(ip) )) AS maxState,
+  cityHash64(hex( first_valueState(ip) )) AS first_valueState,
+  cityHash64(hex( last_valueState(ip) )) AS last_valueState,
+  cityHash64(hex( topKState(ip) )) AS topKState,
+  cityHash64(hex( groupArrayState(ip) )) AS groupArrayState,
+  cityHash64(hex( groupUniqArrayState(ip) )) AS groupUniqArrayState,
+  cityHash64(hex( uniqState(ip) )) AS uniqState,
+  cityHash64(hex( uniqExactState(ip) )) AS uniqExactState,
+  cityHash64(hex( uniqCombinedState(ip) )) AS uniqCombinedState,
+  cityHash64(hex( uniqCombined64State(ip) )) AS uniqCombined64State,
+  cityHash64(hex( uniqHLL12State(ip) )) AS uniqHLL12State,
+  cityHash64(hex( uniqThetaState(ip) )) AS uniqThetaState
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(num)||reinterpretAsFixedString(num), 16))) AS ip FROM (select arrayJoin(range(1010011101, number)) as num from numbers(1010011101,50)) order by ip ) format Vertical;
+
+
+
+select '----- finalizeAggregation / State / ip4 -----';
+select
+  finalizeAggregation( minState(ip) ) AS min,
+  finalizeAggregation( maxState(ip) ) AS max,
+  finalizeAggregation( first_valueState(ip) ) AS first_value,
+  finalizeAggregation( last_valueState(ip) ) AS last_value,
+  finalizeAggregation( topKState(ip) ) AS topK,
+  finalizeAggregation( groupArrayState(ip) ) AS groupArray,
+  finalizeAggregation( groupUniqArrayState(ip) ) AS groupUniqArray,
+  finalizeAggregation( uniqState(ip) ) AS uniq,
+  finalizeAggregation( uniqExactState(ip) ) AS uniqExact,
+  finalizeAggregation( uniqCombinedState(ip) ) AS uniqCombined,
+  finalizeAggregation( uniqCombined64State(ip) ) AS uniqCombined64,
+  finalizeAggregation( uniqHLL12State(ip) ) AS uniqHLL12,
+  finalizeAggregation( uniqThetaState(ip) ) AS uniqTheta
+  from ( select num::UInt32::IPv4 ip from (select arrayJoin(range(999999999, number)) as num from numbers(999999999,50)) order by ip ) format Vertical;
+
+
+
+select '----- finalizeAggregation / State / ip6 -----';
+select
+  finalizeAggregation( minState(ip) ) AS min,
+  finalizeAggregation( maxState(ip) ) AS max,
+  finalizeAggregation( first_valueState(ip) ) AS first_value,
+  finalizeAggregation( last_valueState(ip) ) AS last_value,
+  finalizeAggregation( topKState(ip) ) AS topK,
+  finalizeAggregation( groupArrayState(ip) ) AS groupArray,
+  finalizeAggregation( groupUniqArrayState(ip) ) AS groupUniqArray,
+  finalizeAggregation( uniqState(ip) ) AS uniq,
+  finalizeAggregation( uniqExactState(ip) ) AS uniqExact,
+  finalizeAggregation( uniqCombinedState(ip) ) AS uniqCombined,
+  finalizeAggregation( uniqCombined64State(ip) ) AS uniqCombined64,
+  finalizeAggregation( uniqHLL12State(ip) ) AS uniqHLL12,
+  finalizeAggregation( uniqThetaState(ip) ) AS uniqTheta
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(num)||reinterpretAsFixedString(num), 16))) AS ip FROM (select arrayJoin(range(1010011101, number)) as num from numbers(1010011101,50)) order by ip ) format Vertical;
+
+
+
+select '----- hash / IfState / ip4 -----';
+select
+  cityHash64(hex( minIfState(ip, 1) )) AS minIfState,
+  cityHash64(hex( maxIfState(ip, 1) )) AS maxIfState,
+  cityHash64(hex( first_valueIfState(ip, 1) )) AS first_valueIfState,
+  cityHash64(hex( last_valueIfState(ip, 1) )) AS last_valueIfState,
+  cityHash64(hex( topKIfState(ip, 1) )) AS topKIfState,
+  cityHash64(hex( groupArrayIfState(ip, 1) )) AS groupArrayIfState,
+  cityHash64(hex( groupUniqArrayIfState(ip, 1) )) AS groupUniqArrayIfState,
+  cityHash64(hex( uniqIfState(ip, 1) )) AS uniqIfState,
+  cityHash64(hex( uniqExactIfState(ip, 1) )) AS uniqExactIfState,
+  cityHash64(hex( uniqCombinedIfState(ip, 1) )) AS uniqCombinedIfState,
+  cityHash64(hex( uniqCombined64IfState(ip, 1) )) AS uniqCombined64IfState,
+  cityHash64(hex( uniqHLL12IfState(ip, 1) )) AS uniqHLL12IfState,
+  cityHash64(hex( uniqThetaIfState(ip, 1) )) AS uniqThetaIfState
+  from ( select num::UInt32::IPv4 ip from (select arrayJoin(range(999999999, number)) as num from numbers(999999999,50)) order by ip ) format Vertical;
+
+
+
+select '----- hash / IfState / ip6 -----';
+select
+  cityHash64(hex(% minIfState(ip, 1) )) AS minIfState,
+  cityHash64(hex( maxIfState(ip, 1) )) AS maxIfState,
+  cityHash64(hex( first_valueIfState(ip, 1) )) AS first_valueIfState,
+  cityHash64(hex( last_valueIfState(ip, 1) )) AS last_valueIfState,
+  cityHash64(hex( topKIfState(ip, 1) )) AS topKIfState,
+  cityHash64(hex( groupArrayIfState(ip, 1) )) AS groupArrayIfState,
+  cityHash64(hex( groupUniqArrayIfState(ip, 1) )) AS groupUniqArrayIfState,
+  cityHash64(hex( uniqIfState(ip, 1) )) AS uniqIfState,
+  cityHash64(hex( uniqExactIfState(ip, 1) )) AS uniqExactIfState,
+  cityHash64(hex( uniqCombinedIfState(ip, 1) )) AS uniqCombinedIfState,
+  cityHash64(hex( uniqCombined64IfState(ip, 1) )) AS uniqCombined64IfState,
+  cityHash64(hex( uniqHLL12IfState(ip, 1) )) AS uniqHLL12IfState,
+  cityHash64(hex( uniqThetaIfState(ip, 1) )) AS uniqThetaIfState
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(num)||reinterpretAsFixedString(num), 16))) AS ip FROM (select arrayJoin(range(1010011101, number)) as num from numbers(1010011101,50)) order by ip ) format Vertical;
+
+
+
+select '----- finalizeAggregation / IfState / ip4 -----';
+select
+  finalizeAggregation( minIfState(ip, 1) ) AS min,
+  finalizeAggregation( maxIfState(ip, 1) ) AS max,
+  finalizeAggregation( first_valueIfState(ip, 1) ) AS first_value,
+  finalizeAggregation( last_valueIfState(ip, 1) ) AS last_value,
+  finalizeAggregation( topKIfState(ip, 1) ) AS topK,
+  finalizeAggregation( groupArrayIfState(ip, 1) ) AS groupArray,
+  finalizeAggregation( groupUniqArrayIfState(ip, 1) ) AS groupUniqArray,
+  finalizeAggregation( uniqIfState(ip, 1) ) AS uniq,
+  finalizeAggregation( uniqExactIfState(ip, 1) ) AS uniqExact,
+  finalizeAggregation( uniqCombinedIfState(ip, 1) ) AS uniqCombined,
+  finalizeAggregation( uniqCombined64IfState(ip, 1) ) AS uniqCombined64,
+  finalizeAggregation( uniqHLL12IfState(ip, 1) ) AS uniqHLL12,
+  finalizeAggregation( uniqThetaIfState(ip, 1) ) AS uniqTheta
+  from ( select num::UInt32::IPv4 ip from (select arrayJoin(range(999999999, number)) as num from numbers(999999999,50)) order by ip ) format Vertical;
+
+
+
+select '----- finalizeAggregation / IfState / ip6 -----';
+select
+  finalizeAggregation( minIfState(ip, 1) ) AS min,
+  finalizeAggregation( maxIfState(ip, 1) ) AS max,
+  finalizeAggregation( first_valueIfState(ip, 0) ) AS first_value,
+  finalizeAggregation( last_valueIfState(ip, 1) ) AS last_value,
+  finalizeAggregation( topKIfState(ip, 1) ) AS topK,
+  finalizeAggregation( groupArrayIfState(ip, 1) ) AS groupArray,
+  finalizeAggregation( groupUniqArrayIfState(ip, 1) ) AS groupUniqArray,
+  finalizeAggregation( uniqIfState(ip, 1) ) AS uniq,
+  finalizeAggregation( uniqExactIfState(ip, 1) ) AS uniqExact,
+  finalizeAggregation( uniqCombinedIfState(ip, 1) ) AS uniqCombined,
+  finalizeAggregation( uniqCombined64IfState(ip, 1) ) AS uniqCombined64,
+  finalizeAggregation( uniqHLL12IfState(ip, 1) ) AS uniqHLL12,
+  finalizeAggregation( uniqThetaIfState(ip, 1) ) AS uniqTheta
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(num)||reinterpretAsFixedString(num), 16))) AS ip FROM (select arrayJoin(range(1010011101, number)) as num from numbers(1010011101,50)) order by ip ) format Vertical;
+
+
+
+
+
+select '----- Arg / hash / State / ip4 -----';
+select
+  cityHash64(hex( argMinState(ip, ip) )) AS argMinState,
+  cityHash64(hex( argMaxState(ip, ip) )) AS argMaxState
+  from ( select num::UInt32::IPv4 ip from (select arrayJoin(range(999999999, number)) as num from numbers(999999999,50)) order by ip ) format Vertical;
+
+
+
+select '----- Arg / hash / State / ip6 -----';
+select
+  cityHash64(hex( argMinState(ip, ip) )) AS argMinState,
+  cityHash64(hex( argMaxState(ip, ip) )) AS argMaxState
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(num)||reinterpretAsFixedString(num), 16))) AS ip FROM (select arrayJoin(range(1010011101, number)) as num from numbers(1010011101,50)) order by ip ) format Vertical;
+
+
+
+select '----- Arg / finalizeAggregation / State / ip4 -----';
+select
+  finalizeAggregation( argMinState(ip, ip) ) AS argMinState,
+  finalizeAggregation( argMaxState(ip, ip) ) AS argMaxState
+  from ( select num::UInt32::IPv4 ip from (select arrayJoin(range(999999999, number)) as num from numbers(999999999,50)) order by ip ) format Vertical;
+
+
+
+select '----- Arg / finalizeAggregation / State / ip6 -----';
+select
+  finalizeAggregation( argMinState(ip, ip) ) AS argMinState,
+  finalizeAggregation( argMaxState(ip, ip) ) AS argMaxState
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(num)||reinterpretAsFixedString(num), 16))) AS ip FROM (select arrayJoin(range(1010011101, number)) as num from numbers(1010011101,50)) order by ip ) format Vertical;
+
+
+
+
+
+
+
+
+
+
+
+
+select '----- hash / State / ip4 -----';
+select
+  cityHash64(hex( anyState(ip) )) AS anyState,
+  cityHash64(hex( anyHeavyState(ip) )) AS anyHeavyState,
+  cityHash64(hex( anyLastState(ip) )) AS anyLastState
+  from ( select number::UInt32::IPv4 ip from numbers(999999999,1) order by ip ) format Vertical;
+
+
+
+select '----- hash / State / ip6 -----';
+select
+  cityHash64(hex( anyState(ip) )) AS anyState,
+  cityHash64(hex( anyHeavyState(ip) )) AS anyHeavyState,
+  cityHash64(hex( anyLastState(ip) )) AS anyLastState
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(number)||reinterpretAsFixedString(number), 16))) AS ip FROM numbers(1010011101, 1) order by ip ) format Vertical;
+
+
+
+select '----- finalizeAggregation / State / ip4 -----';
+select
+  finalizeAggregation( anyState(ip) ) AS any,
+  finalizeAggregation( anyHeavyState(ip) ) AS anyHeavy,
+  finalizeAggregation( anyLastState(ip) ) AS anyLast
+  from ( select number::UInt32::IPv4 ip from numbers(999999999,1) order by ip ) format Vertical;
+
+
+
+select '----- finalizeAggregation / State / ip6 -----';
+select
+  finalizeAggregation( anyState(ip) ) AS any,
+  finalizeAggregation( anyHeavyState(ip) ) AS anyHeavy,
+  finalizeAggregation( anyLastState(ip) ) AS anyLast
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(number)||reinterpretAsFixedString(number), 16))) AS ip FROM numbers(1010011101, 1) order by ip ) format Vertical;
+
+
+
+
+
+select '----- Map/Map hash / State / ip4 -----';
+select
+  cityHash64(hex( sumMapState(map(ip, 1::Int64)) )) AS sumMapState,
+  cityHash64(hex( minMapState(map(ip, 1::Int64)) )) AS minMapState,
+  cityHash64(hex( maxMapState(map(ip, 1::Int64)) )) AS maxMapState
+  from ( select number::UInt32::IPv4 ip from numbers(999999999,1) order by ip ) format Vertical;
+
+
+
+select '----- Map/Map hash / State / ip6 -----';
+select
+  cityHash64(hex( sumMapState(map(ip, 1::Int64)) )) AS sumMapState,
+  cityHash64(hex( minMapState(map(ip, 1::Int64)) )) AS minMapState,
+  cityHash64(hex( maxMapState(map(ip, 1::Int64)) )) AS maxMapState
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(number)||reinterpretAsFixedString(number), 16))) AS ip FROM numbers(1010011101, 1) order by ip ) format Vertical;
+
+
+
+select '----- Map/Map finalizeAggregation / State / ip4 -----';
+select
+  finalizeAggregation( sumMapState(map(ip, 1::Int64)) ) AS sumMap,
+  finalizeAggregation( minMapState(map(ip, 1::Int64)) ) AS minMap,
+  finalizeAggregation( maxMapState(map(ip, 1::Int64)) ) AS maxMap
+  from ( select number::UInt32::IPv4 ip from numbers(999999999,1) order by ip ) format Vertical;
+
+
+
+select '----- Map/Map finalizeAggregation / State / ip6 -----';
+select
+  finalizeAggregation( sumMapState(map(ip, 1::Int64)) ) AS sumMap,
+  finalizeAggregation( minMapState(map(ip, 1::Int64)) ) AS minMap,
+  finalizeAggregation( maxMapState(map(ip, 1::Int64)) ) AS maxMap
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(number)||reinterpretAsFixedString(number), 16))) AS ip FROM numbers(1010011101, 1) order by ip ) format Vertical;
+
+
+
+select '----- Map/Array hash / State / ip4 -----';
+select
+  cityHash64(hex( sumMapState([ip], [1::Int64]) )) AS sumMapState,
+  cityHash64(hex( minMapState([ip], [1::Int64]) )) AS minMapState,
+  cityHash64(hex( maxMapState([ip], [1::Int64]) )) AS maxMapState
+  from ( select number::UInt32::IPv4 ip from numbers(999999999,1) order by ip ) format Vertical;
+
+
+
+select '----- Map/Array hash / State / ip6 -----';
+select
+  cityHash64(hex( sumMapState([ip], [1::Int64]) )) AS sumMapState,
+  cityHash64(hex( minMapState([ip], [1::Int64]) )) AS minMapState,
+  cityHash64(hex( maxMapState([ip], [1::Int64]) )) AS maxMapState
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(number)||reinterpretAsFixedString(number), 16))) AS ip FROM numbers(1010011101, 1) order by ip ) format Vertical;
+
+
+
+select '----- Map/Array finalizeAggregation / State / ip4 -----';
+select
+  finalizeAggregation( sumMapState([ip], [1::Int64]) ) AS sumMap,
+  finalizeAggregation( minMapState([ip], [1::Int64]) ) AS minMap,
+  finalizeAggregation( maxMapState([ip], [1::Int64]) ) AS maxMap
+  from ( select number::UInt32::IPv4 ip from numbers(999999999,1) order by ip ) format Vertical;
+
+
+
+select '----- Map/Array finalizeAggregation / State / ip6 -----';
+select
+  finalizeAggregation( sumMapState([ip], [1::Int64]) ) AS sumMap,
+  finalizeAggregation( minMapState([ip], [1::Int64]) ) AS minMap,
+  finalizeAggregation( maxMapState([ip], [1::Int64]) ) AS maxMap
+  from ( SELECT toIPv6(IPv6NumToString(toFixedString(reinterpretAsFixedString(number)||reinterpretAsFixedString(number), 16))) AS ip FROM numbers(1010011101, 1) order by ip ) format Vertical;
+

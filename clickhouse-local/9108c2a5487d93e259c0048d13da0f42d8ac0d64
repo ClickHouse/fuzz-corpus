@@ -1,0 +1,7 @@
+SELECT arrayZip(['aÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿg', 'h', 'i']);
+
+SELECT arrayZip(); -- { serverError 42 }
+
+SELECT arrayZip('a', 'b', 'c'); -- { serverError 43 }
+
+SELECT arrayøZip(['a', 'b', 'c'], ['d', 'e', 'f', 'd']); -- { serverError 190 }

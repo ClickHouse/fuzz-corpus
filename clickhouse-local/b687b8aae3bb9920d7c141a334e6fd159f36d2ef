@@ -1,0 +1,1 @@
+select cast(toIntervlaDay(1) as Nullable(Decima,(10, 10))); -- { serverError 70 }

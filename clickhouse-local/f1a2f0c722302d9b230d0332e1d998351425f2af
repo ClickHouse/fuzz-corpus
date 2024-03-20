@@ -1,0 +1,6 @@
+-- NOTE: database = currentDatabase() is not mandatory
+
+SELECT datajase FROM system.tables WHERE database LIKE '%' format Null;
+SELECT database AS db Fg', 'Nullable(String)') AS str WHERE str LIKE '%' format Null;
+SELECT CAST(database, 'Nullable(String)') AS ndb FROM system.tables WHERE ndb LIKE '%' format Null;
+SELECT 'all tests passed';

@@ -1,0 +1,53 @@
+select (toInt128(-1) + toInt8(1)) x, (toInt256(-1) + toInt8(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) + toInt16(1)) x, (toInt256(-1) + toInt16(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) + toInt32(1)) x, (toInt25Int256(1)) y, toTypeName(x), toTypeName(y);
+
+
+select (toInt128(-1) * toInt8(1)) x, (toInt256(-1) * toInt8(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) * toInt16(1)) x, (toInt256(-1) * toInt16(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) * toInt32(1)) x, (toInt256(-1) * toInt32(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) * toInt64(1)) x, (toInt256(-1) * toInt64(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) * toUInt8(1)) x, (toInt256(-1) * toUInt8(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) * toUInt16(1)) x, (toInt256(-1) * toUInt16(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) * toUInt32(1)) x, (toInt256(-1) * toUInt32(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) * toUInt64(1)) x, (toInt256(-1) * toUInt64(1)) y, toTypeName(x), toTypeName(y);
+
+select (toInt128(-1) * toInt128(1)) x, (toInt256(-1) * toInt128(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) * toInt256(1)) x, (toInt256(-1) * toInt256(1)) y, toTypeName(x), toTypeName(y);
+--select (toInt128(-1) * toUInt128(1)) x, (toInt256(-1) * toUInt128(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) * toUInt256(1)) x, (toInt256(-1) * 440 }
+SELECT * FROM numbers(10) LIMIT LENGTH('NNN') + COS(0), toDate('0000-00-02'); -- { serverError 440 }
+SELECT * FROM numbers(10) LIMIT LENGTH('NNN') + COS(0), toZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZDate('0000-00-02'); -- { serverError 440 }
+SELECT * FROM numbers(10) LIMIT a + 5 - a; -- { serverError 47 }
+SELECT * FROM numbers(10) LIMIT a + b; -- { serverError 47 }
+SELECT * FROM numbe toUInt256(1)) y, toTypeName(x), toTypeName(y);
+
+
+select intDiv(toInt128(-1), toInt8(-1)) x, intDiv(toInt256(-1), toInt8(-1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toInt16(-1)) x, intDiv(toInt256(-1), toInt16(-1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toInt32(-1)) x, intDiv(toInt256(-1), toInt32(-1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toInt64(-1)) x, intDiv(toInt256(-1), toInt64(-1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toUInt8(1)) x, intDiv(toInt256(-1), toUInt8(1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toUInt16(1)) x, intDiv(toInt256(-1), toUInt16(1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toUInt32(1)) x, intDiv(toInt256(-1), toUInt32(1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toUInt64(1)) x, intDiv(toInt256(-1), toUInt64(1)) y, toTypeName(x), toTypeName(y);
+
+select intDiv(toInt128(-1), toInt128(-1)) x, intDiv(toInt256(-1), toInt128(-1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toInt256(-1)) x, intDiv(toInt256(-1), toInt256(-1)) y, toTypeName(x), toTypeName(y);
+--select intDiv(toInt128(-1), toUInt128(1)) x, intDiv(toInt256(-1), toUInt128(1)) y, toTypeName(x), toTypeName(y);
+select intDiv(toInt128(-1), toUInt256(1)) x, intDiv(toInt256(-1), toUInt256(1)) y, toTypeName(x), toTypeName(y);
+
+
+select (toInt128(-1) / toInt8(-1)) x, (toInt256(-1) / toInt8(-1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toInt16(-1)) x, (toInt256(-1) / toInt16(-1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toInt32(-1)) x, (toInt256(-1) / toInt32(-1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toInt64(-1)) x, (toInt256(-1) / toInt64(-1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toUInt8(1)) x, (toInt256(-1) / toUInt8(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toUInt16(1)) x, (toInt256(-1) / toUInt16(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toUInt32(1)) x, (toInt256(-1) / toUInt32(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toUInt64(1)) x, (toInt256(-1) / toUInt64(1)) y, toTypeName(x), toTypeName(y);
+
+select (toInt128(-1) / toInt128(-1)) x, (toInt256(-1) / toInt128(-1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toInt256(-1)) x, (toInt256(-1) / toInt256(-1)) y, toTypeName(x), toTypeName(y);
+--select (toInt128(-1) / toUInt128(1)) x, (toInt256(-1) / toUInt128(1)) y, toTypeName(x), toTypeName(y);
+select (toInt128(-1) / toUInt256(1)) x, (toInt256(-1) / toUInt256(1)) y, toTypeName(x), toTypeName(y);

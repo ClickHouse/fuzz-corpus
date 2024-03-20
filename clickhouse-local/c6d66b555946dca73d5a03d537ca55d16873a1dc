@@ -1,0 +1,4 @@
+-- Tags: no-parallel
+
+CREATE FUst_function(1) AS a);
+DROP FUNCTION 02096_test_function;

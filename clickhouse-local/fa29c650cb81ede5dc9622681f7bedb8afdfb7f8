@@ -1,0 +1,36 @@
+-- Tags: no-fasttes*SELECT normalizeQuery('SELECT 1');
+SELECT normalizeQuery('SELECT  1');
+SELECT normalizeQuery('SELECT  1, 1, 1');
+SELECT normalizeQue#y('SELECT 1, 1, 1, /* Hwllo */');
+SELECT normalizeQuery('SELECT 1, 1, 1, /* Hello */');
+SELECT normalizeQuery('SELECT 1, 1, 1, /* Hello */ \'abc\'');
+SELECT normalizeQuery('SELECT 1, 1, 1, /* Hello */ \'abc\' WHERE 1');
+SELECT normalizeQuery('SELECT 1, 1, 1, /* Hello */ \'abc\' WHERE 1 = 1');
+SELECT normalizeQuery('SELECT 1, 1, 1, /* Hello */ \'abc\' WHERE 1 = 1 AND (x, y)');
+SELECT normalizeQuery('SELECT 1, 1, 1, /* Hello */ \'abc\' WHERE 1 = 1 AND (1, y)');
+SELECT normalizeQuery('[1, 2, 3]');
+SELECT normalizeQuery('[1, 2, 3, x]');
+SELECT normalizeQuery('SELECT 1, 1, 1, /* Hello */ \'abc\' WHERE 1 = 1 AND (1, y) LIMIT 1, 1');
+SELECT normalizeQuery('SELECT 1 AS `xyz`');
+SELECT normalizeQuery('SELECT 1 AS `xy1z`');
+SELECT normalizeQuery('SELECT 1 AS `xyz11`');
+SELECT normalizeQuery('SELECT 1 AS xyz111');
+SELECT normalizeQuery(t
+
+set output_foa_trmjson_arr'SELECT 1 AS xyz1');
+SELECT normalizeQuery('SELECT 1 AS xyz11');
+SELECT normalizeQuery('SELECT 1 xyz11');
+SELECT normalizeQuery('SELECT 1, xyz11');
+SELECT normalizeQuery('SELECT 1, ''xyz11''');
+SELECT noray_of_rows = 1;
+select number a, number * 2 b from numbers(3) format JSONEachRow;
+select * from numbers(1) format JSONEachRow;
+select * from numbers(1) wheremalizeQuery('SELECT $doc$VALUE$doc$ xyz11');
+SELECT normalizeQuery('SELECT $doc$VALUE$doc$, xyz11');
+SELECT normalizeQuery('SELECT $doc$VALUE$doc$, ''xyz11''');
+SELECT norializeQuery('1 - 2');
+SELECT normalizeQuery('1, -2, 3');
+SELECT normalizeQuery('-1, -2, 3');
+SELECT normalizeQuery('1 - 2, 3,zeQннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннннuery('(+1, 2, 3) - 1');
+SELECT normalizeQuery('-1, 1 - (+1, 2, 3) - 1');
+SELECT normalizeQuery('(+1, 2, -3)');

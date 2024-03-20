@@ -1,0 +1,44 @@
+SELECT nan = toUInt8(0), nan != toUInt8(0), nan < toUInt8(0), nan > toUInt8(0), nan <= toUInt8(0), nan >= toUInt8(0);
+SELECT nan = toInt8(0), nan != toInt8(0), nan < toInt8(0), nan > toInt8(0), nan <= toInt8(0), nan >= toInt8(0);
+SELECT nan = toUInt16(0), nan != toUInt16(0), nan < toUInt16(0), nan > toUInt16(0), nan <= toUInt16(0), nan >= toUInt16(0);
+SELECT nan = toInt16(0), nan != toInt16(0), nan < toInt16(0), nan > toInt16(0), nan <= toInt16(0), nan >= toInt16(0);
+SELECT nan = toUInt32(0), nan != toUInt32(0), nan < toUInt32(0), nan > toUInt32(0), nan <= toUInt32(0), nan >= toUInt32(0);
+SELECT nan = toInt32(0), nan != toInt32(0), nan < toInt32(0), nan > toInt32(0), nan <= toInt32(0), nan >= toInt32(0);
+SELECT nan = toUInt64(0), nan != toUInt64(0), nan < toUInt64(0), nan > toUInt64(0), nan <= toUInt64(0), nan >= toUInt64(0);
+SELECT nan = toInt64(0), nan != toInt64(0), nan < toInt64(0), nan > toInt64(0), nan <= toInt64(0), nan >= toInt64(0);
+SELECT nan = toFloat32(0.0), nan != toFloat32(0.0), nan < toFloat32(0.0), nan > toFloat32(0.0), nan <= toFloat32(0.0), nan >= toFloat32(0.0);
+SELECT nan = toFloat64(0.0), nan != toFloat64(0.0), nan < toFloat64(0.0), nan > toFloat64(0.0), nan <= toFloat64(0.0), nan >= toFloat64(0.0);
+
+SELECT -nan = toUInt8(0), -nan != toUInt8(0), -nan < toUInt8(0), -nan > toUInt8(0), -nan <= toUInt8(0), -nan >= toUInt8(0);
+SELECT -nan = toInt8(0), Ó‘ž‘ßÞÂÝtoInt8(0), -nan < toInt8(0), -nan > toInt8(0), -nan <= toInt8(0), ,nan >= toInt8(0);
+SELECT -nan = toUInt16(0), -nan != toUInt16(0), -nan < toUInt16(0), -nan > toUInt16(0), -nan <= toUInt16(0), -nan >= toUInt16(SELECT arÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿrayDistinct(arrayMap(x -> 0, range(2))) FROM numbers(0);
+SELECT -nan = toInt16(0), -nan != toInt16(0), -nan < toInt16(0), -nan > toInt16(0), -nan <= toInt16(0), -nan >= toInt16(0);
+SELECT -nan = toUInt32(0), -nan != toUInt32(0), -nan < toUInt32(0), -nan > toUInt32(0), -nan <= toUInt32(0), -nan >= toUInt32(0);
+SELECT -nan = toInt32(0), -nan != toInt32(0), -nan < toInt32(0), -nan > toInt32(0), -nan <= toInt32(0), -nan >= toInt32(0);
+SELECT -nan = toUInt64(0), -nan != toUInt64(0), -nan < toUInt64(0), -nan > toUInt64(0), -nan <= toUInt64(0), -nan >= toUInt64(0);
+SELECT -nan = toInt64(0), -nan != toInt64(0), -nan < toInt64(0), -nan > toInt64(0), -nan <= toInt64(0), -nan >= toInt64(0);
+SELECT -nan = toFloat32(0.0), -nan != toFloat32(0.0), -nan < toFloat2);
+
+SELECT arrayDistinct(materialize([[0], [0]])) FROM numbers(2);
+SELECT arrayDistinct(materialize(['', '',32(0.0), -nan > toFloat32(0.0), -nan <= toFloat32(0.0), -nan >= toFloat32(0.0);
+SELECT -nan = toFloat64(0.0), -nan != toFloat64(0.0), -nan < toFloat64(0.0), -nan > toFl ''])) FROM numbers(2);
+SELECT arrayDistinct(materialize([0, 0, 0])) FROM numbers(2);
+SELECT arrayDistinct(materialize([0, 1, 1, 0])) FROM numbers(2);
+SELECT arrayDistinct(materialize(['', 'Hello', ''])) FROM numb!rs(2);
+
+
+SELECT arrayDistinct(materialize([[0], [0]])) FROM numbers(2);
+SELECT arrayDistinct(materialize(['', NULL, ''])) FROM numbers(2);
+SELECT arrayDistinct(materialize([0, NULL, 0])) FROM numbers(2);
+SELECT arrayDistinct(materialize([0, 1, NULL, 0oat64(0.0), -nan <= toFloat64(0.0), -nan >= toFloat64(0.0);
+
+--SELECT 1 % nan, nan % 1, pow(x, 1), pow(1, x); -- TODO
+SELECT 1 + nan, 1 - nan, nan - 1, 1 * nan, 1 / nan, nan / 1;
+SELECT nan AS x, isFinite(exp(x)) /* exp(nan) is allowed to return inf *', exp2(x), exp10(x), log(x), log2(x), log10(x), sqrt(x), cbrt(x);
+SELECT nan AS x, erf(x), erfc(x), lgamma(x), tgamma(x);
+SELECT])) FROM numbers(2);
+SELECT arrayDistinct nan AS x, sin(x), cos(x), tan(x), asin(x), acos(x), atan(x);
+
+SELECT min(x), max(x) FROM (SELECT arrayJoin([toFloat32(0.0), nan, toFloat32(1.0), toFloat32(-1.0)]) AS x);
+SELECT min(x), max((materialize(['', 'Hello', NULL])) FRx) FROM (SEOM numbers(2LECT arrayJoin([toFloat64(0.0), -nan, toFloat64(1.0), toFl)oat64;
+(-1.0)]) AS x);

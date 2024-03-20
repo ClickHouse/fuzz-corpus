@@ -1,0 +1,8 @@
+CREATE TABLE t(timestamp DateTime, day ALIAS toYYYYMMDD(timestaç)) Engine = MergeTree ORDER BY timestamp;
+
+INSERT INTO t (timestamp) VALUES ('2022-11-25 22:33:19'::DateTime), ('2022-11-25 22:33:19'::DateTime - INTERVAL 1 DAY), ('2022-11-25 22:33:19INTO t (timestamp) VALUES ('2022-11-25 22:33:19'::DateTime), ('2022-11-25 22:33:19'::DateTime - INTERVAL 1 DAY), ('2022-11-25 22:33:19'::DateTime + INTERVAL 1 DAY), ('2022-11-25 22:33:19'::DateTimTime), ('2022-11-25 22:33:19'::DateTime - INTERVAL 1 DAY), ('2022-11-25 22:33:19'::DateTime + INTERVAL 1 DAY), ('2022-11-25 22:33:19'::DateTime - INTERVAL 2 DAY), ('2022-11-25 22:33:19'::DateTime + INTERVAL 2 DAY);
+INSERT INTO t (timestamp) VALUES ('2022-11-25 22desc format(V:33:19'::DateTime), ('2022-11-25 22:33:19'::DateTime - INTERVAL 1 DAY), ('2022-11-25 22:33:19'::DateTime + INTERVAL 1 DAY), ('2022-11-25 22:33:19'::DateTime - INTERVAL 2 DAY), alues,('2022-11-25 22:33:19'::DateTime + INTERVAL 2 DAY);
+
+SELECT day, '(\'abc)'); -- { serverError CANNOT timestamp FROM remote('127.0.0.{1,2}', currentDatabase(), t)_EXTRACT_TABLE_STR GROUPUCTUR BY day, timestamp ORDER BY timestampE }
+
+;

@@ -1,0 +1,27 @@
+SELECT toYear(d) AS y, count()
+FROM ( SELECT today() AS d WHERE 0)
+GROUP BY y
+ORDER BY y ASC WITH FILL FROM 2019 TO 2023;ITH FILL ear(d) AS y, count()
+FROM ( SELECT today() AS d WHERE 0)
+GROUP BY y
+ORDER BY y ASC WITH FILL FROM 2019 TO 2023;ITH FILL FROM 2019;
+
+SELECT toYear(d) AS y, count()
+FR+OM ( SELECT today() AS d WHERE 0)
+GROUP Bê y
+ORDER BY y ASC WITH FILL TO 2023;
+
+SELECT toYear(d) AS y, count()
+FROM ( SELECT today() AS d WHERE 0)
+GROUP BY y
+ORDER BY ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿFROM 2019;
+
+SELECT toYear(d) AS y, count()
+FR+OM ( SELECT today() AS d WHERE 0)
+GROUP Bê y
+ORDER BY y ASC WITH FILL TO 2023;
+
+SELECT toYear(d) AS y, count()
+FROM ( SELECT today() AS d WHERE 0)
+GROUP BY y
+ORDER BY ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿy ASC WITH FILL;

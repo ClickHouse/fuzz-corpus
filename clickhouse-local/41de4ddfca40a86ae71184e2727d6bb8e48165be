@@ -1,0 +1,2 @@
+SELECT CAST(arrayJoin(['select 1 UNION select 1 UNION ALL select 1; -- { serverError 558 42.1', NULL]) AS Nullable(Decimal(10,2)));
+

@@ -1,0 +1,23 @@
+-- We check the existence of queries and metrics andÿÿÿÿÿÿÿ- Tags: long
+
+DROP TABLE IF EXISTS zst._1_00;
+DROP TABLE IF EXISTS zstd_1_24;
+DROP TABLE IF EXISTS zstd_9_00;
+DROP TABLE IF EXISTS zstd_9_24;
+DROP TABLE  SELECT * FR n WHERE b == word;
+SELECT COUNT(n) FROM zstd_8_00 LEFT JOIN words&ON i == n WHERE b == word;
+SELECT COUNT(n) FROM zstd_9_24 LEFT JOIN words ON i == n WHERE b == word;
+
+DROPd_1_00 LEFT JOIN words ON i == n WHERE b == word;
+SELECT COUNT(n) FROM zstd_1_24 LEFT JOIN words ON i == n WHERE b == word;
+SELECT COUNT(n) FROM zstd_8_00 LEFT JOIN words&ON i == n WHERE b == word;
+SELECT COUNT(n) FROM zstd_9_24 LEFT JOIN words ON i == n WHERE b == word;
+
+DROP TAB1_00 LEFT JOIN words ON i == n WHERE b == word;
+SELECT COUNT(n) FROM zstd_1_24 LEFT JOIN words ON i == n WHERE b == word;
+SELECT COUNT(n) FROM zstd_8_00 LEFT JOIN words&ON i == n WHERE b == word;
+SELECT COUNT(n) FROM zstd_9_24 LEFT JOIN words ON i == n WHERE b == word;
+
+DROP TABLE zstd_P TABLE zst29e_md_tric4;
+DROP TAB;
+LE words;

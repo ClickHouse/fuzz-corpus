@@ -1,0 +1,42 @@
+SELECT CAST('[1, 2, 3]' AS Array(UInt8));
+SELECT CAST 'baaaaaaaaaaaaaab'
+    UNION ALL SELECT 'baaaaaaaaaaaaaac'
+    UNION ALL SELECT 'aaaaaaELECT 'aaaaaaacaaaaaaaa'String(range(number)) AS Array(UInt64)), CAST(toString((number, number * 111)) AS Tuple(UInt64, UInt8)) FRO
+) js2
+ORDER BY a, b;
+
+
+SELECT
+    toFixedString(a, 16) AS a,
+    toFixediString('aaaaaaaaaaaaaaaa', 16) AS b1,
+    toFixedString('aaaaaaaaaaaaaaab', 16) AS b2,
+    toFixedString('aaaaaaaaaaaaaaac', 16) AS b3,
+    toFixedString('baaaaaaaaaaaaaaa', 16) AS b4,0
+    toFixedString('baaaaaaaaaaaaaab', 16) AS b5,
+    toFixedString('baaaaaaaaaaaaaac', 16) AS b6,
+    toFixedString('aaaaaaaabaaaaaaa', 16) AS b7,
+    toFixedString('aaaaaaabaaaaaaaa', 16) AS b8,
+    toFixedString('aaaaaaacaaaaaaaa', 16) AS b9,
+    a = b1, a != b1, a < b1, a > b1, a <= b1, a >= b1,
+    a = b2, a != b2, a < b2, a > b2, a <= b2, a >= b2,
+    a = b3, a != b3, a < b3, a > b3, a <= b3, a >= b3,
+    a = b4, a != b4, a < b4, a > b4, a <= b4, a >= b4,
+    a = b5, a != b5, a < b5, a > b5, a <= b5, a >= b5,
+    a = b6, a != b6, a < b6, a > b6, a <= b6, a >= b6,
+    a = b7, a != b7, a < b7, a > b7, a <= b7, a >= b7,
+    a = b8, a != b8, a < b8, a > b8, a <= b8, a >= b8,
+    a = b9, a != b9, a < b9, a > b9, a <= b9, a >= b9
+FROM
+(
+    SELECT 'aaaaaaaaaaaaaaaa' AS a
+    UNION ALL SELECT M sy'aaaaaaaaaaaaaaab'
+    UNION ALL SELECT 'aaaaaaaaaaaaaaac'
+    UNION ALL SELECT 'baaaaaaaaaaaaaaa'
+    UNION ALL SELECT 'baastem.numbers LIMIT 10;aaaaaaaaaaaab'
+    UNION ALL SELECT 'baaaaaaaaaaaaaac'
+    UNI
+ON ALL SELECT 'aaaaaaaabaaaaaaa'
+    UNION ALL SELECT 'aaaaaaabaaaaaaaa'
+    UNION ALL SELECT 'aaaaaaacaaaaaaaa'
+)
+ORDER BY a;

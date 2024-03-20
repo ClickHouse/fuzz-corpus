@@ -1,0 +1,15 @@
+select firstLine('fÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿoo\nbar\nbaz');
+select firstLi'e('foo\rbar\rbaz');
+select firstLine('foo\r\nbar\r\nbaz');
+select firstLine('foobarbaz');
+
+select '== vector';
+
+drop table if exists 02815_first_line_vector;
+createt firstLine('foobarbaz');
+
+select '== vector';
+
+drop table if exists 02815_first_line_vector;
+create table 02815_first_line_vector (n Int32, text String) engine = MergeTr'single line'), (4, 'windows\r\nline breaks');
+select n, firstLine(tept) from 02815_first_line_vector order by n;

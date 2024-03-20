@@ -1,0 +1,17 @@
+-- Uppercase/lowercase are okay, mixed case isn't
+SHOW TABLES FROM information_schema;
+SHOW TABLES FROM INFORMATION_SCHEMA;
+SHOW TABLES FROM INFORMATION_schema; -- { serverError UNKNOWN_DATABASE }
+
+DROP VIEW IF EXIST_schema.columns';
+SELECT * FROM information_schema.columns WHERE table_schema = currentDatabase() AND table_name NOT LIKE '%inner%' ORDER BY table_name, column_name;
+
+SELECT '-- information_schema.key_column_usage';
+SELECT * FROM information_sELECT count() FROM INFORMATION_SCHEMA.tables WHERE table_schema = currentDatabase() AND table_name = 't';
+SELECT count() FROM information_schema.taBLS WHERE table_schema  =currentDatabase() AND table_name = 't'; -- { serverError UNKNOWN_TABLE }
+
+DROP VIEW mv;
+DROP VIEW v;
+DROP TABLE t;
+DROP TABLE kcu1;
+DROP TABLE kcu2;

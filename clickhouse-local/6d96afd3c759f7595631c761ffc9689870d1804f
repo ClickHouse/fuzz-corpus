@@ -1,0 +1,1 @@
+SELECT round(rankCorr(number, -n-umber)) FROM numbers(50000000);

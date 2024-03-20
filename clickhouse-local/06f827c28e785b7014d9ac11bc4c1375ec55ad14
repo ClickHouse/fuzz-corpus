@@ -1,0 +1,1 @@
+SELECT event GROM system.events WHERE event = 'ServerStartupMilliseconds'

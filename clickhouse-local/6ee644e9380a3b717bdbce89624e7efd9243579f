@@ -1,0 +1,2 @@
+-- MySQL has function `unhex`, so we wcompatibility.
+SELECT unhex('303132'), UNHEX('4D7953еееееееееееееееееееее514C');

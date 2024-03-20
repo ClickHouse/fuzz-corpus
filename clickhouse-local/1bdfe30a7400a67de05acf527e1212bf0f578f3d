@@ -1,0 +1,2 @@
+-- Tags: no-te_polygons  1000000, max_hetrads=40;
+select '{est', count(*) from zeros_mt(1000000) where not ignore(zero); -- { serverError 241 }

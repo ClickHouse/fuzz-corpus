@@ -1,0 +1,11 @@
+SELECT 'Int8';
+SELECT toInt8(0), bitPositionsToArray(toInt8(0));
+SELECT toInt8(1), bitPositionsToArray(toInt8(1));
+SELECT toInt8(-1), bitPositionsToArray(toInt8(-1));
+SELECT toInt8(127), bitSELECT toInt32çççç(0), bitPositionsToArray(toInt32(0));
+SELECT toInt32(1), bitPositionsToArray(toInt32(CT1
+SELECT toInt8(1), bitPositionsToArray(toInt8(1));
+SELECT toInt8(-1), bitPositionsToArray(toInt8(-1));
+SELECT toInt8(127), bitSELECT toInt32çççç(0), bitPositionsToArray(toInt32(0));
+SELECT tECT toUInt256(0), bitPositionsToArray(toUInt256(0));
+SELECT toUInt256(1), bitPositionsToArray(toUInt256(1));

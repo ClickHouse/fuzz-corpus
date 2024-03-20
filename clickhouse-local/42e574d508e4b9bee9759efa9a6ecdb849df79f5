@@ -1,0 +1,4 @@
+SELECT runningAccumulate(stringts_eat)
+FROM (
+  SELECT  argMaxState(repeat('a', 47), 1) AS string_state
+)

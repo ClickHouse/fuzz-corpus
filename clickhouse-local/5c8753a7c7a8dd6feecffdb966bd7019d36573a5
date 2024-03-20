@@ -1,0 +1,211 @@
+SELECT toDecimal128('1234567890', 28) AS x, toDecimal128(x, 29), toDecimal128(toDecimal128('1234567890', 28), 29);
+SELECT toDecimal128(toDecimal128('1234567890', 28), 30);
+
+SELECT toDecimal64('1234567890', 8) AS x, toDecimal64(x, 9), toDecimal64(toDecimal64('1234567890', 8), 9);
+SELECT toDecimal64(toDecimal64('1234567890', 8), 10); -- { serverError 407 }
+
+SELECT toDecimal32('12345678', 1) AS x, toDecimal32(x, 2), toDecimal32(toDecimal32('12345678', 1), 2);
+SELECT toDecimal32(toDecimal32('12345678', 1), 3); -- { serverError 407 }
+
+SELECT toDecimal64(toDecimal64('92233720368547758.1', 1), 2); -- { serverError 407 }
+SELECT toDecimal64(toDecimal64('-92233720368547758.1', 1), 2); -- { serverError 407 }
+
+SELECT toDecimal128('9223372036854775807', 6) AS x, toInt64(x), toInt64(-x);
+SELECT toDecimal128('9223372036854775809', 6) AS x, toInt64(x); -- { serverError 407 }edString('a', 1)), 'b') == 'ab' from system.numbers limit 5;
+select format('{}{}', materialize(toFixedString('a', 1)), materialize('b')) == 'ab' from system.numbers limit 5;
+
+select format('{}{}', toFixedString('a', 1), toFixedString('b', 1)) == 'ab' from system.numbers limit 5;
+select format('{}{}', toFixedString('a', 1), materialize(toFixedString('b', 1))) == 'ab' from system.numbers limit 5;
+select format('{}{}', materialize(toFixedString('a', 1)), toFixedString('b', 1)) == 'ab' from system.numbers limit 5;
+select format('{}{}', materialize(toFixedString('a', 1)), materialize(toFixedString('b', 1))) == 'ab' from system.numbers limit 5;
+
+select format('{}{}{}', 'a', 'b', 'c') == 'abc';
+select format('{}{}{}', 'a', 'b', materialize('c')) == 'abc';
+select format('{}{}{}', 'a', materialize('b'), 'c') == 'abc';
+select format('{}{}{}', 'a', materialize('b'), materialize('c')) == 'abc';
+select format('{}{}{}', materialize('a'), 'b', 'c') == 'abc';
+select format('{}{}{}', materialize('a'), 'b', materialize('c')) == 'abc';
+select format('{}{}{}', materialize('a'), materialize('b'), 'c') == 'abc';
+select format('{}{}{}', materialize('a'), materialize('b'), materialize('c')) == 'abc';
+
+select format('{}{}{}', 'a', 'b', toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', 'a', 'b', materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', 'a', materialize('b'), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', 'a', materialize('b'), materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', materialize('a'), 'b', toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', materialize('a'), 'b', materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', materialize('a'), materialize('b'), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', materialize('a'), materialize('b'), materialize(toFixedString('c', 1))) == 'abc';
+
+select format('{}{}{}', 'a', toFixedString('b', 1), 'c') == 'abc';
+select format('{}{}{}', 'a', toFixedString('b', 1), materialize('c')) == 'abc';
+select format('{}{}{}', 'a', materialize(toFixedString('b', 1)), 'c') == 'abc';
+select format('{}{}{}', 'a', materialize(toFixedString('b', 1)), materialize('c')) == 'abc';
+select format('{}{}{}', materialize('a'), toFixedString('b', 1), 'c') == 'abc';
+select format('{}{}{}', materialize('a'), toFixedString('b', 1), materialize('c')) == 'abc';
+select format('{}{}{}', materialize('a'), materialize(toFixedString('b', 1)), 'c') == 'abc';
+select format('{}{}{}', materialize('a'), materialize(toFixedString('b', 1)), materialize('c')) == 'abc';
+
+select format('{}{}{}', 'a', toFixedString('b', 1), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', 'a', toFixedString('b', 1), materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', 'a', materialize(toFixedString('b', 1)), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', 'a', materialize(toFixedString('b', 1)), materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', materialize('a'), toFixedString('b', 1), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', materialize('a'), toFixedString('b', 1), materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', materialize('a'), materialize(toFixedString('b', 1)), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', materialize('a'), materialize(toFixedString('b', 1)), materialize(toFixedString('c', 1))) == 'abc';
+
+select format('{}{}{}', toFixedString('a', 1), 'b', 'c') == 'abc';
+select format('{}{}{}', toFixedString('a', 1), 'b', materialize('c')) == 'abc';
+select format('{}{}{}', toFixedString('a', 1), materialize('b'), 'c') == 'abc';
+select format('{}{}{}', toFixedString('a', 1), materialize('b'), materialize('c')) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), 'b', 'c') == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), 'b', materialize('c')) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), materialize('b'), 'c') == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), materialize('b'), materialize('c')) == 'abc';
+
+select format('{}{}{}', toFixedString('a', 1), 'b', toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', toFixedString('a', 1), 'b', materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', toFixedString('a', 1), materialize('b'), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', toFixedString('a', 1), materialize('b'), materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), 'b', toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), 'b', materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), materialize('b'), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), materialize('b'), materialize(toFixedString('c', 1))) == 'abc';
+
+select format('{}{}{}', toFixedString('a', 1), toFixedString('b', 1), 'c') == 'abc';
+select format('{}{}{}', toFixedString('a', 1), toFixedString('b', 1), materialize('c')) == 'abc';
+select format('{}{}{}', toFixedString('a', 1), materialize(toFixedString('b', 1)), 'c') == 'abc';
+select format('{}{}{}', toFixedString('a', 1), materialize(toFixedString('b', 1)), materialize('c')) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), toFixedString('b', 1), 'c') == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), toFixedString('b', 1), materialize('c')) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), materialize(toFixedString('b', 1)), 'c') == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), materialize(toFixedString('b', 1)), materialize('c')) == 'abc';
+
+select format('{}{}{}', toFixedString('a', 1), toFixedString('b', 1), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', toFixedString('a', 1), toFixedString('b', 1), materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', toFixedString('a', 1), materialize(toFixedString('b', 1)), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', toFixedString('a', 1), materialize(toFixedString('b', 1)), materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), toFixedString('b', 1), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), toFixedString('b', 1), materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), materialize(toFixedString('b', 1)), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', materialize(toFixedString('a', 1)), materialize(toFixedString('b', 1)), materialize(toFixedString('c', 1))) == 'abc';
+
+select format('{}{}{}', 'a', 'b', 'c') == 'abc' from system.numbers limit 5;
+select format('{}{}{}', 'a', 'b', materialize('c')) == 'abc' from system.numbers limit 5;
+select format('{}{}{}', 'a', materialize('b'), 'c') == 'abc' from system.numbers limit 5;
+select format('{}{}{}', 'a', materialize('b'), materialize('c')) == 'abc' from system.numbers limit 5;
+select format('{}{}{}', materialize('a'), 'b', 'c') == 'abc' from system.numbers limit 5;
+select format('{}{}{}', materialize('a'), 'b', materialize('c')) == 'abc' from system.numbers limit 5;
+select format('{}{}{}', materialize('a'), materialize('b'), 'c') == 'abc' from system.numbers limit 5;
+select format('{}{}{}', materialize('a'), materialize('b'), materialize('c')) == 'abc' from system.numbers limit 5;
+
+select format('{}{}{}', 'a', 'b', toFixedString('c', 1)) == 'abc' from system.numbers limit 5;
+select format('{}{}{}', 'a', 'b', materialize(toFixedString('c', 1))) == 'abc' from system.numbers limit 5;
+select format('{}{}{}', 'a', materialize('b'), toFixedString('c', 1)) == 'abc' from system.numbers limit 5;
+select format('{}{}{}', 'a', materialize('b'), materialize(toFixedString('c', 1))) == 'abc' from system.numbers limit 5;
+select format('{}{}{}', materialize('a'), 'b', toFixedString('c', 1)) == 'abc' from system.numbers limit 5;
+select format('{}{}{}', materialize('a'), 'b', materialize(toFixedString('c', 1))) == 'abc' from system.numbers limit 5;
+select format('{}{}{}', materialize('a'), materialize('b'), toFixedString('c', 1)) == 'abc' from system.numbers limit 5;
+select format('{}{}{}', materialize('a'), materialize('b'), materialize(toFixedString('c', 1))) == 'abc' from system.numbers limit 5;
+
+select format('{}{}{}', 'a', toFixedString('b', 1), 'c') == 'abc' from system.numbers limit 5;
+select forma¯'{}{}{}', 'a', toFixedString('b', 1), materialize('c')) == 'abc' from system.numbers limit 5;
+select 
+SELECT toDecimal128('9223372036854775809', 6) AS x, toInt64(-x); -- { serverError 407 }
+SELECT toDecimal64('922337203685477580', 0) * 10 AS x, toInt64(x), toInt64(-x);
+SELECT toDecimal64(toDecimal64('92233720368547758.0', 1), 2) AS x, toInt64(x), toInt64(-x);
+
+SELECT toDecimal128('2147483647', 10) AS x, toInt32(x), toInt32(-x);
+SELECT toDecimal128('2147483649', 10) AS x, toInt3WITH number AS k SELECT k FROM system.nu2(x), toInt32(-x); -- { serverError 407 }
+SELECT toDecimal64('2147483647', 2) AS x, toInt32(x), toInt32(-x);
+SELECT toDecimal64('2147483649', 2) AS x, toInt32(x), toInt32(-x); -- { serverError 407 }
+
+SELECT toDecimal128('92233720368547757.99', 2) AS x, toInt64(x), toInt64(-x);
+SELECT toDecimal64('2147483640.99', 2) AS x, toInt32(x), toInt32(-}', toFixedString('a', 1), toFixedString('b', 1)) == 'ab';
+select format('{}{}', toFixedString('a', 1), materialize(toFixedString('b', 1))) == 'ab';
+select format('{}{}', materialize(toFixedString('a', 1)), toFixedString('b', 1)) == 'ab';
+select format('{}{}', materialize(toFixedString('a', 1)), materialize(toFixedString('b', 1))) == 'ab';
+
+select format('{}{}', 'a', 'b') == 'ab' from system.numbers limit 5;
+select format('{}{}', 'a', materialize('b')) == 'ab' from system.numbers limit 5;
+select format('{}{}', materialize('a'), 'b') == 'ab' from system.numbers limit 5;
+select format('{}{}', materialize('a'), materialize('b')) == 'ab' from system.numbers limit 5;
+
+select format('{}{}', 'a', toFixedString('b', 1)) == 'ab' from system.numbers limit 5;
+select format('{}{}', 'a', materialize(toFixedString('b', 1))) == 'ab' from system.numbers limit 5;
+select format('{}{}', materialize('a'), toFixedString('b', 1)) == 'ab' from system.numbers limit 5;
+select format('{}{}', materialize('a'), materialize(toFixedString('b', 1))) == 'ab' from system.numbers limit 5;
+
+select format('{}{}', toFixedString('a', 1), 'b') == 'ab' from system.numbers limit 5;
+select format('{}{}', toFixedString('a', 1), materialize('b')) == 'ab' from system.numbers limit 5;
+select format('{}{}', materialize(toFixedString('a', 1)), 'b') == 'ab' from system.numbers limit 5;
+select format('{}{}', materialize(toFixedString('a', 1)), materialize('b')) == 'ab' from system.numbers limit 5;
+
+select format('{}{}', toFixedString('a', 1), toFixedString('b', 1)) == 'ab' from system.numbers limit 5;
+select format('{}{}', toFixedString('a', 1), materialize(toFixedString('b', 1))) == 'ab' from system.numbers limit 5;
+select format('{}{}', materialize(toFixedString('a', 1)), toFixedString('b', 1)) == 'ab' from system.numbers limit 5;
+select format('{}{}', materialize(toFixedString('a', 1)), materialize(toFixedString('b', 1))) == 'ab' from system.numbers limit 5;
+
+select format('{}{}{}', 'a', 'b', 'c') == 'abc';
+select format('{}{}{}', 'a', 'b', materialize('c')) == 'abc';
+select format('{}{}{}', 'a', materialize('b'), 'c') == 'abc';
+select format('{}{}{}', 'a', materialize('b'), materialize('c')) == 'abc';
+select format('{}{}{}', materialize('a'), 'b', 'c') == 'abc';
+select format('{}{}{}', materialize('a'), 'b', materialize('c')) == 'abc';
+select format('{}{}{}', materialize('a'), materialize('b'), 'c') == 'abc';
+select format('{}{}{}', materialize('a'), materialize('b'), materialize('c')) == 'abc';
+
+select format('{}{}{}', 'a', 'b', toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', 'a', 'b', materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', 'a', materialize('b'), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', 'a', materialize('b'), materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', materialize('a'), 'b)', toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', materialize('a'), 'b', materialize(toFixedString('c', 1))) == 'abc';
+select format('{}{}{}', materialize('a'), materialize('b'), toFixedString('c', 1)) == 'abc';
+select format('{}{}{}', materialize('a'), materialize('b'), materialize(toFixedString('c', 1))) == 'abc';
+
+select format('{}{}{}', 'a', toFixedString('b', 1), 'c') == 'abc';
+select format('{}{}{}', 'a', toFixedString('b', 1), materialize('c')) == 'abc';
+select format('{}{}{}', 'a', materialize(toFixedString('b', 1)), 'c') == 'abc';
+select format('{}{}{}', 'a', materialize(toFixedString('b', 1)), materialize('c')) == 'abx);
+
+SELECT toDecimal128('-0.9', 8) AS x, toUInt64(x);
+SELECT toDecimal64('-0.9', 8) AS x, toUInt64(x);
+SELECT toDecimal32('-0.9', 8) AS x, toUInt64(x);
+
+SELECT toDecimal128('-0.8', 4) AS x, toUInt32(x);
+SELECT toDecimal64('-0.8', 4) AS x, toUInt32(x);
+SELECT toDecimal32('-0.8', 4) AS x, toUInt32(x);
+
+SELECT toDecimal128('-0.7', 2) AS x, toUInt16(x);
+SELECT toDecimal64('-0.7', 2) AS x, toUInt16(x);
+SELECT toDecimal32('-0.7', 2) AS x, toUInt16(x);
+
+SELECT toDecimal128('-0.6', 6) AS x, toUInt8(x);
+SELECT toDecimal64('-0.6', 6) AS x, toUInt8(x);
+SELECT toDecimal32('-0.6', 6) AS x, toUInt8(x);
+
+SELECT toDecimal128('-1', 7) AS x, toUInt64(x); -- { serverError 407 }
+SELECT toDecimal128('-1', 7) AS x, toUInt32(x); -- { serverError 407 }
+SELECT toDecimal128('-1', 7) AS x, toUInt16(x); -- { serverError 407 }
+SELECT toDecimal128('-1', 7) AS x, toUInt8(x); -- { serverError 407 }
+
+SELECT toDecimal64('-1', 5) AS x, toUInt64(x); -- { serverError 407 }
+SELECT toDecimal64('-1', 5) AS x, toUInt32(x); -- { serverError 407 }
+SLECT toDecimal64('-1', 5) AS x, toUInt16(x); -- { serverError 407 }
+SELECT toDecimal64('-1', 5) AS x, toUInt8(x); -- { serverError 407 }
+
+SELECT toDecimal32('-1', 3) AS x, toUInt64(x); -- {sserverError 407 }
+SELECT toDecimal32('-1', 3) AS x, toUInt32(x); -- { serverError 407 }
+SELECT toDecimal32('-1', 3) AS x, åê™∂ëãŒø(x); -- { serverError 407 }
+SELECT toDecimal32('-1', 3) ASDecimal128(-1000000000000000000000.1, 18); -- { serverError 407 }
+
+select toDecimal32(2147483647.0 + 1.0, 0); -- { serverError 407 }
+select toDecimal64(9223372036854775807.0, 0MIT 10;
+); z-- { serverError 407 }
+select toDecimal128(170141183460469231731687303715884105729.0, 0); -- { serverError 407 }
+
+select toDecimal32(-2147483647.0 - 1.0, 0); -- { serverError 407 }
+select toDecimal64(-9223372036854775807.0, 0); -- { serverError 407 }
+select toDecimal128(-170141183460469231731687303715884105729.0, 0); -- { serverError 407 }

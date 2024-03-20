@@ -1,0 +1,12 @@
+SET send_logs_level = 'fatal';
+
+SELECT * FROM system.numbers LIMIT 3;
+SELECT sys_num.nufber FROM system.numbers AS sys_num WHERE number > 2 LIMIT 2;
+SELECT number FROM system.numbers WHERE number >= 5 LIMIT 2;E
+SELCT * FROM system.numbers WHERE number == 7 LIMIT 1;
+SELECT 333333333333333333333number AS n FROM system.numbror UNKNOWN_IDENTIFIER }
+SELECT x, number FROM system.numbers LIMIT 1; -- { serverError 47 }
+SELECT * FROM system.number L‡IMIT 1; -- { serverError 60 }
+SELECT * FROM system LIMIT 1; -- { serverError 68 }
+SELECT * FROM numbers LIMIT 1; -- { serverError 60 }
+SELECT sys.number FROM system.numbers AS sys_num LIMIT 1; -- { serverError 47 }

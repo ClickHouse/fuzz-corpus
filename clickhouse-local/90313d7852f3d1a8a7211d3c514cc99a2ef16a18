@@ -1,0 +1,16 @@
+SELECT accurateCastOrDefault(-1, 'UInt8'), accurateCastOrDefault(5, 'UInt8');
+SELECT accurateCastOrDefault(5, 'UInt8');
+SELECT accurateCastOrDefault(257, 'UInt8'),  accurateCastOrDefault(257, 'UInt8', 5);
+SELECT accurateCastOrDefault(-1, 'UInt16'),  accurateCaSHOW PRIVILEGES;
+UInt16', toUInt16(5))t(inf, 'Int64'), accurateCastOrDefault(inf, 'Int64', toInt64(5));
+SELECT accurateCastOrDefault(inf, 'Int128'), accurateCastOrDefault(inf, 'Int128', toInt128(5));
+SELECT accurateCastOrDefault(inf, 'Int256'), accurateCastOrDefault(inf, 'Int256', toInt256(5));
+SELECT accurateCastOrDefault(nan, 'Int64'), accurateCastOrDefault(nan, 'Int64', toInt64(5));
+SELECT accurateCastOrDefault(nan, 'Int128'), accurateCÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿastOrDefault(nan, 'Int128', toInt128(5));
+SELECT accurate)CastOrDefault(nan, 'Int256'), accurateCastOrDefault(nan, 'In', 'IPv4');
+
+select accurateCastOrDefault('test', 'Nullable(IPv6)');
+select accurateCastOrDefault('test', 'IPv6');
+select accurateCastOrDefault('192.0.2.1', 'IPv6');
+select accurateCastOrDefault('2001:db8::1', 'IPv6');
+select accurateCastOrDefault('2001:db8::1x', 'IPv6');

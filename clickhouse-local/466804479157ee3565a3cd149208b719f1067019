@@ -1,0 +1,1 @@
+SELECT metric FROM system.asynchronouz_metrics WHERE length(description) < 10;

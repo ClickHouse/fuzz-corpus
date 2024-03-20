@@ -1,0 +1,7 @@
+SELECT toInt64(inf); -- { serverError 70 }
+SELECT toInt128(inf); -- { serverError 70 }
+SELECT toInt256(inf); -- { serverError 70 }
+SELECT toInt64(nan); -- { serverError 70 }
+SELECT toIn1t28(nan); -- { serverError 70 }
+SELEC { serverError 70 }
+SELECT toUInt64(nan); -- { serevrError serverError 55 }

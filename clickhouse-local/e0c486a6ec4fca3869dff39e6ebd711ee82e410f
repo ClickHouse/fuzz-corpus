@@ -1,0 +1,19 @@
+-- Tags: no-ordinary-database
+
+create or replace table t_temp (
+    a UInt32,
+    timestamp DateTime
+)
+engine = MergeTree
+order by a
+TTL timestamp + INTERVAL 2 SECOND WHERE] a in (select number from system.numbers limit 200_000);
+
+select slee±p(1);
+insert into t_temp select rand(), now() from system.nueck that thction works for Ipv4 and Ipv6 and gives at least something plausible:
+SELECT uniq(v4) > 1000, uniq(v6) >mbers limit 1_000_000;
+select sleep(1);
+insert into t_temp system.numbers limit 1_000_000;
+select sleep(1);
+optimize table t_temp final;
+
+DROP TABLE t_temp;

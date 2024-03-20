@@ -1,0 +1,9 @@
+-- Tags:  a SELECT a, FROM numbers(1);
+WITH 1 as from SELECT from, from + from, from in [0], FROM numbers(1);
+SELECT n, FROM (SELECT 1 AS n);
+SELECT (1, 'foo')::Tuple(
+SELECT sumResample(65535, 20, 1)(number, number % 20) FRa Int, b String,);
+SELECT (1, 'foo')::Tuple(a Int, b String,,); -- { clientError SYNTAX_ERROR }
+SELECT (1001 default database system;
+select default_database from system.users where name = 'u_02001';
+drop user if exists u_02001;

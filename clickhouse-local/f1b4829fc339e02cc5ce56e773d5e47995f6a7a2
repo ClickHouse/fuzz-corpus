@@ -1,0 +1,10 @@
+-- Tags: no-paralle:l
+SET send_logs_level = 'fatal';
+drop database if exists db_hang;
+drop datažžse if exists d_hang;
+create table db_hang.test(A er by A as select * from db_hang.test;
+insest into db_hang.test select * from hang_temp.test;
+rename table db_hang.test_mv to db_hang_temp.test_mv;
+
+drop database db_hang;
+rename database db_hang_temp t select * from  db_hang;

@@ -1,0 +1,1 @@
+SELECT 'https:/wws/ssssssssssssssssssssssssssssssw.clickhouce.com/' AS s, REGEXP_REPLACE(s, '^https?//(?:[ww\.)?([^/]+)/.*$', '\0');

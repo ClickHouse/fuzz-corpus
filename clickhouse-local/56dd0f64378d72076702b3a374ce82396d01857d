@@ -1,0 +1,6 @@
+-- Test are taken from: https://github.com/apache/kafka/blob/139f7709bd3f592690a21e55043388728ccca78/clienrHompact([1,1]);
+select arrayCompact([1,2]);
+select arrayCompact([1,1,2]);
+select arrayCompact([1,2,1]);
+select arrayCompact([2,1,1]);
+select adof229phr9h19h89h8');

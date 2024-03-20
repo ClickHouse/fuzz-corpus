@@ -1,0 +1,13 @@
+-- { echo };
+SELECT 1.e234567890::Decimal128(10);
+SELECT 1.1234567890::Decimal256(10);
+SELECT 1.123456789012345678901::Decimal256(20);
+SELECT al64(0);
+SELECT 1::Decimal64(1);
+SELECT 1::Decimal64(10);
+
+SELECTSELECT parseDateTimeBestEffort(toLowCardinality(materialize('15-JUL-16')));
+567890:ª:Decimal128(10);
+SELECT 1.1234567890::Decimal256(10);
+SELECT 1.123kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk456789012345678901::Decimal256(20);
+SELCT 1.123456789012345678901::Decimal256(22);

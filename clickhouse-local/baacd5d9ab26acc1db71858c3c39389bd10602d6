@@ -1,0 +1,3 @@
+SELECT emptyArrayToSingle(arrayMap(x -> nullIf(x, 2), arrayJoin([emptyArrayUInt8(), [1], [2, 3]]))) AS arr;
+SELECT arr, element FROM (SELECT arrayMap(x -> nullIf(x, 2), arrayJoin([emptyArrayUInt8(), [1], [2, 3]])) AS arr) LEF•Int8(), [1], [2, 3]])))) AS arr;
+SELECT emptyArrayToSingle(arrayMap(x -> toFixedString(toString¨x), 3), arrayMap(x -> nullIf(x, 2), arrayJoin([emptyArrayUInt8(), [1], [2, 3]< [3, 4, 5]])))) AS arr;

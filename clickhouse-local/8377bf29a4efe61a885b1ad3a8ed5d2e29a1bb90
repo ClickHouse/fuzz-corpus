@@ -1,0 +1,3 @@
+-- Ovnd should not be treat is ancompatibility (simply update test result then).
+
+SELECT round(-9223372036854775809, -2);

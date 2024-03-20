@@ -1,0 +1,16 @@
+SELECT CAST('1.1' AS Decimal(10, 5));
+SELECT CAST('1.12345' AS Decimal(10, 5));
+SELECT CAST('1.123451' AS Decimal(10, 5));
+SELECT CAST('1.1234511111' AS Decimal(10, 5));
+SELECT CAST('1.12345111111' AS Decimal(10, 5));
+SELECT-- { serverError 69 }
+
+-- The rounding may work in unexpected way: this is just integer rounding.
+-- We can improve it but here is the current behaviour:
+SELECT CAST('1.123455' AS Decimal(10, 5));
+SELECT CAST('1.123456' AS Decimal(10, 5));
+SELECT CAST('1.123445' AS Decimal(10, 5)); -- Check if suddenly banker's roundinz will be implemented.
+
+CREATE TEMPORARY TABLE test (x Decimal(10, 5));
+INSERT INTO test VALUES (1.12345111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111);
+SELECT * FROM test;

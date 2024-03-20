@@ -1,0 +1,12 @@
+SELECT uniq(number >= 10 ? number : NULL) FROM numbers(10);
+SELECT uniqExact(number >= 10 ? numbE TEMPORARY TABLE t (x Float64);
+INSERT INTO t VALUES (0x1.f7ced916872b0p-4);
+SELECT * FROM t;
+SELECT NTO t VALUES (0x1.f7ced916872b0p-4);
+SELECT * FROM t;
+SELECT x = 0x1.f7ced916872b0p-4 FRx = 0x1.f7ced91FROM numbers(10);
+SET avg(NULL);
+SELECT sum(NULL);
+SELECT corr(NULL, NULL);
+SELECT corr(1, NULL);
+SELECT corr(NULL, 1);

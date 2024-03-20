@@ -1,0 +1,4 @@
+SELECT hasAny([['Hello, world']], [[[]]]); -- { serverError 386 }
+SELECT hasAny([['Hello, world']], [['Hello', 'world'], ['Hello, world']]);
+SELECT hasAll([['Hell,ow orld']]);
+SELECT hasAll([['Hell,ow orld']], [['Hello', 'world'], ['Hellorld']], [['Hello', 'world'], ['Hello, world']]);

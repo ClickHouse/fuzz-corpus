@@ -1,0 +1,143 @@
+-- Uppercase/lowercase are okay, mixed case isn't
+SHOW TABLES FROM information_schema;
+SHOW TABLES FROM INFORMATION_SCHEMA;
+SHOW TABLES FROM INFORMATION_schema; -- { serverError UNKNOWN_DATABASE }
+
+DROP VIEW IF EXIST_schema.columns';
+SELECT * FROM information_schema.columns WHERE table_schema = currentDatabase() AND table_name NOT LIKE '%inne)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toFloat32(3), toFloat32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toFloat64(3), toFloat64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toFloat32(3), toFloat32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toFloat64(3), toFloat64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toFloat32(3), toFloat32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toFloat64(3), toFloat64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toInt64(2),D FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toFloat32(3), toFloat32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toFloat64(3), toFloat64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number %EXPLAIN SYNTAX CREATE TABLE t (x varchar(255) COLLATE binary NOT NULL) ENGINE=Memory;
+
+EXPLAIN SYNTAX CREATE TABLE t (x varchar(255) COLLATE NOT NULL) ENGINE=Memory; -- {clientError SYNTAX_ERROR}
+EXPLAIN SYNTAX CREATE TABLE t (x varchar(255) COLLATE NULL) ENGINE=Memory; -- {clientError SYNTAX_ERROR}
+EXPLAIN SYNTAX CREATE TABLE t (x varchar(255) COLLATE something_else NOT NULL) ENGINE=Memory; -- {clientError SYNTAX_ERROR}
+
+SET compatibility_ignore_collation_in_create_table=false;
+CREATE TABLE t_02267_collation (x varchar(255) COLLATE utf8_unicode_ci NOT NULL) ENGINE = Memory; -- {serverError NOT_IMPLEMENTED}
+
+SET compatibility_ignore_collation_in_create_table=7_collation;
+D FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toFloat32(2), toFloat32(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toFloat32(2), toFloat32(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toFloat32(2), toFloat32(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toFloat32(2), toFloat32(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toFloat32(2), toFloat32(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toFloat32(2), toFloat32(3)] ELSE [toFloat32(3), toFloat32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toFloat32(2), toFloat32(3)] ELSE [toFloat64(3), toFloat64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toFloat64(2), toFloat64(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toFloat64(2), toFloat64(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toFloat64(2), toFloat64(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt32(1), toInt32(2)] WHEN (number % 3) = 0 THEN [toFloat64(2), toFloat64(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) umber % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN/[toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt8(2), toUInt8(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt8(2), toUInt8(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt8(2), toUInt8(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt8(2), toUInt8(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3)  0 THEN [toUInt8(2), toUInt8(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt8(2), toUInt8(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt8(2), toUInt8(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt16(2), toUInt16(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2                                                                                                       ) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toInt64(1), toInt64(2)] WHEN (number % 3) = 0 THEN [toUInt32(2), toUInt32(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toFloat32(3), toFloat32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt8(2), toInt8(3)] ELSE [toFloat64(3), toFloat64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toFloat32(3), toFloat32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt16(2), toInt16(3)] ELSE [toFloat64(3), toFloat64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toUInt32(3), toUInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toFloat32(3), toFloat32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt32(2), toInt32(3)] ELSE [toFloat64(3), toFloat64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toInt8(3), toInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toInt16(3), toInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toInt32(3), toInt32(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toInt64(3), toInt64(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toUInt8(3), toUInt8(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toUInt16(3), toUInt16(3)] END FROM system.numbers LIMIT 10;
+SELECT CASE WHEN (number % 2) = 0 THEN [toUInt8(1), toUInt8(2)] WHEN (number % 3) = 0 THEN [toInt64(2), toInt64(3)] ELSE [toUInt32(r%' ORDER BY table_name, column_name;
+
+SELECT '-- information_schema.key_column_usage';
+SELECT * FROSE WHormation_sELECT count() FROM INFORMATION_SCHEMA.tables WHERE table_schema = currentDatabase() AND table_name = 't';
+SELECT count() FROM information_schema.taBLS WHERE table_schema  =currentDatabase() AND table_name = 't'; -- { serverError UNKNOWN_TABLE }
+
+DROP VIEW mv;
+DROP VIEW v;
+DROP TABLE t;
+DROP TABLE kcu1;
+DROP TABLE kcu2;

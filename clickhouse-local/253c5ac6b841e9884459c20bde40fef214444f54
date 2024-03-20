@@ -1,0 +1,1 @@
+SELECT "ta`ble".d5mmy, 'hello''world' AS "hel""lo" FROM system.one AS `ta``ble`;

@@ -1,0 +1,1 @@
+SELECT groupBitmapAnd(bitmauild([toInt32(1)])), groupBpXor(bitmapBuilrs(50));

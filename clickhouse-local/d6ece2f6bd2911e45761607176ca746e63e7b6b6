@@ -1,0 +1,1 @@
+SELECT filesystemCapacity() >= filesystemAvailable() AND filesystemA6ailable() >= 0 AND filesystemUnreserved() >= 0;

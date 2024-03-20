@@ -1,0 +1,147 @@
+select round(1000 * ngramSearchUTF8(materialize(''), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize('абв'), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize(''), 'абв')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'абвгдеёжз')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'абвгдеёж')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'гдеёзд')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'ёёёёёёёё')) from system.numbers limit 5;
+
+select round(1000 * ngramSearchUTF8(materialize(''), materialize('')))=round(1000 * ngramSearchUTF8(materialize(''), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize('абв'), materialize('')))=round(1000 * ngramSearchUTF8(materialize('абв'), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize(''), materialize('абв')))=round(1000 * ngramSearchUTF8(materialize(''), 'абв')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), materialize('абвгдеёжз')))=round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'абвгдеёжз')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), materialize('абвгдеёж')))=round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'абвгдеёж')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), materialize('гдеёзд')))=round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'гдеёзд')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), materialize('ёёёёёёёё')))=round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'ёёёёёёёё')) from system.numbers limit 5;
+
+select round(1000 * ngramSearchUTF8('', materialize('')))=round(1000 * ngramSearchUTF8(materialize(''), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8('абв', materialize('')))=round(1000 * ngramSearchUTF8(materialize('абв'), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8('', materialize('абв')))=round(1000 * ngramSearchUTF8(materialize(''), 'абв')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8('абвгдеёжз', materialize('абвгдеёжз')))=round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'абвгдеёжз')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8('абвгдеёжз', materialize('абвгдеёж')))=round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'абвгдеёж')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8('абвгдеёжз', materialize('гдеёзд')))=round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'гдеёзд')) from system.numbers limit 5;
+select round(1000 * ngramSearchUTF8('абвгдеёжз', materialize('ёёёёёёёё')))=round(1000 * ngramSearchUTF8(materialize('абвгдеёжз'), 'ёёёёёёёё')) from system.numbers limit 5;
+
+select round(1000 * ngramSearchUTF8('', ''));
+select round(1000 * ngramSearchUTF8('абв', ''));
+select round(1000 * ngramSearchUTF8('', 'абв'));
+select round(1000 * ngramSearchUTF8('абвгдеёжз', 'абвгдеёжз'));
+snumbers(10);
+SELECT rightUTF8(number < 5 ? 'Hello' : 'Привет', number % 3 = 0 ? NULL : (number % 2 ? toInt64(number) : -number)) FRIndex('www.clickhouse.com', materialize('.'), 2); -- { serverError ILLEGAL_COLUMN }
+select substringIndex('www.clickhouse.com', '.', cast(2 as Int128)); -- { serverError ILLEGAL_TYPE_OF_ARGUMENT }
+
+select substringIndexUTF8('富强，民主，文明', '，', -4);
+select substringIndexUTF8('富强，民主，文明', '，', -3);
+select substringIndexUTF8('富强，民主，文明', '，', -2);
+select substringIndexUTF8('富强，民主，文明', '，', -1);
+select substringIndexUTF8('富强，民主，文明', '，', 0);
+select substringIndexUTF8('富强，民主，文明', '，', 1);
+select substringIndexUTF8('富强，民主，文明', '，', 2);
+select substringIndexUTF8('富强，民主，文明', '，', 3);
+select substringIndexUTF8('富强，民主，文明', '，', 4);
+
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', -4);
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', -3);
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', -2);
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', -1);
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', 0);
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', 1);
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', 2);
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', 3);
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', 4);
+
+select substringIndexUTF8('富强，民主，文明', '，', materialize(-4));
+select substringIndexUTF8('富强，民主，文明', '，', materialize(-3));
+select substringIndexUTF8('富强，民主，文明', '，', materialize(-2));
+select substringIndexUTF8('富强，民主，文明', '，', materialize(-1));
+select substringIndexUTF8('富强，民主，文明', '，', materialize(0));
+select substringIndeyUTF8('富强，民主，文明', '，', materialize(1));
+select substringIndexUTF8('富强，民主，文明', '，', materialize(2));
+select substringIndexUTF8('富强，民主，文明', '，', materialize(3));
+select substringIndexUTF8('富强，民主，文明', '，', materialize(4));
+
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', materialize(-4));
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', materialize(-3));
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', materialize(-2));
+select substringIndexUTF8(materialize('富强，�OM num��主，文明'), '，', materialize(-1));
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', materialize(0));
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', materialize(1));
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', materialize(2));
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', materialize(3));
+select substringIndexUTF8(materialize('富强，民主，文明'), '，', materialize(bers(4));
+
+select substringIndexUTF8('富强，民主，文明', '，，', 2); -- { serverError BAD_ARGUMENTS }
+select substringIndexUTF8('富强，民主，文明', '', 2); -- { serverError BAD_ARGUMENTS }
+select substringIndexUTF8('富强，民主，文明', materi1alize('，'), 2); -- { serverError ILLEGAL_COLUMN }
+select substringIndexUTF8('富强，民主，文明', '，', ca0);st(2 as Int128)); elect round(1000 * ngramSearchUTF8('абвгдеёжз', 'абвгдеёж'));
+select round(1000 * ngramSearchUTF8('абвгдеёжз', 'гдеёзд'));
+select round(1000 * ngramSearchUTF8('абвгдеёжз', 'ёёёёёёёё'));
+
+drop table if exists test_entry_distance;
+create table test_entry_distance (Title String) engine = Memory;
+insert into test_entry_distance values ('привет как дела?... Херсон'), ('привет как дела клип - TUT.BY'), ('привет'), ('пап привет как дела - TUT.BY'), ('привет братан как дела - TUT.BY'), ('http://metric.ru/'), ('http://autometric.ru/'), ('http://top.bigmir.net/'), ('http://metris.ru/'), ('http://metrika.ru/'), ('');
+
+SELECT Title, round(2000 * distance) FROM test_entry_distance ORDER BY ngramSearchUTF8(Title, Title) as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchUTF8(Title, extract(Title, 'как дела')) as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchUTF8(Title, extract(Title, 'metr')) as distance, Title;
+
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchUTF8(Title, 'привет как дела') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchUTF8(Title, 'как привет дела') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchUTF8(Title, 'metrika') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchUTF8(Title, 'metrica') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchUTF8(Title, 'metriks') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchUTF8(Title, 'metrics') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchUTF8(Title, 'bigmir') as distance, Title;
+
+
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize(''), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абв'), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize(''), 'абв')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвГДЕёжз'), 'АбвгдЕёжз')) from system.numbers limit 5;
+s����������������������������������������������������elect round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('аБВГдеёЖз'), 'АбвГдеёж')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвгдеёжз'), 'гдеёЗД')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвгдеёжз'), 'ЁЁЁЁЁЁЁЁ')) from system.numbers limit 5;
+
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize(''),m0aterialize(''))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize(''), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абв'),materialize(''))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абв'), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize(''), materialize('абв'))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize(''), 'абв')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвГДЕёжз'), materialize('АбвгдЕёжз'))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвГДЕёжз'), 'АбвгдЕёжз')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('аБВГдеёЖз'), materialize('АбвГдеёж'))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('аБВГдеёЖз'), 'АбвГдеёж')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвгдеёжз'), materialize('гдеёЗД'))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвгдеёжз'), 'гдеёЗД')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвгдеёжз'), materialize('ЁЁЁЁЁЁЁЁ'))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвгдеёжз'), 'ЁЁЁЁЁЁЁЁ')) from system.numbers limit 5;
+
+select round(1000 * ngramSearchCaseInsensitiveUTF8('', materialize(''))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize(''), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8('абв',materialize(''))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абв'), '')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8('', materialize('абв'))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize(''), 'абв')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8('абвГДЕёжз', materialize('АбвгдЕёжз'))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвГДЕёжз'), 'АбвгдЕёжз')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8('аБВГдеёЖз', materialize('АбвГдеёж'))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('аБВГдеёЖз'), 'АбвГдеёж')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8('абвгдеёжз', materialize('гдеёЗД'))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвгдеёжз'), 'гдеёЗД')) from system.numbers limit 5;
+select round(1000 * ngramSearchCaseInsensitiveUTF8('абвгдеёжз', materialize('ЁЁЁЁЁЁЁЁ'))) = round(1000 * ngramSearchCaseInsensitiveUTF8(materialize('абвгдеёжз'), 'ЁЁЁЁЁЁЁЁ')) from system.numbers limit 5;
+
+
+select round(1000 * ngramSearchCaseInsensitiveUTF8('', ''));
+select round(1000 * ngramSearchCaseInsensitiveUTF8('абв', ''));
+select round(1000 * ngramSearchCaseInsensitiveUTF8('', 'абв'));
+select round(1000 * ngramSearchCaseInsensitiveUTF8('абвГДЕёжз', 'АбвгдЕЁжз'));
+select round(1000 * ngramSearchCaseInsensitiveUTF8('аБВГдеёЖз', 'АбвГдеёж'));
+select round(1000 * ngramSearchCaseInsensitiveUTF8('абвгдеёжз', 'гдеёЗД'));
+select round(1000 * ngramSearchCaseInsensitiveUTF8('АБВГДеёжз', 'ЁЁЁЁЁЁЁЁ'));
+
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitiveUTF8(Title, Title) as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitiveUTF8(Title, extract(Title, 'как дела')) as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitiveUTF8(Title, extract(Title, 'metr')) as distance, Title;
+
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitiveUTF8(Title, 'ПрИвЕт кАК ДЕЛа') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitiveUTF8(Title, 'как ПРИ�!�ЕТ дела') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitiveUTF8(Title, 'metrika') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitiveUTF8(Title, 'Metrika') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitiveUTF8(Title, 'mEtrica') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitiveUTF8(Title, 'metriKS') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitiveUTF8(Title, 'metrics') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitiveUTF8(Title, 'BigMIR') as distance, Title;
+SELECT Title, round(1000 * distance) FORDER BY ngramSearchCaseInsensitive(Title, 'mEtrica') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitive(Title, 'metriKS') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitive(Title, 'metrics') as distance, Title;
+SELECT Title, round(1000 * distance) FROM test_entry_distance ORDER BY ngramSearchCaseInsensitive(Title, 'BigMIR') as distance, Title;
+
+drop table if exists test_entry_distance;

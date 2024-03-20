@@ -1,0 +1,148 @@
+SELECT '----  toDecimal32 ----';
+SELECT toDecimal32 ('54.1234567', 4);
+SELECT toDecimal32 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal32 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal32 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal64 ----';
+SELECT toDecimal64 ('54.1234567', 4);
+SELECT toDecimal64 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal64 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal64 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal64 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal128 ----';
+SELECT toDecimal128 ('54.1234567', 4);
+SELECT toDecimal128 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal128 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal128 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal128 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal256 ----';
+SELECT toDecimal256 ('54.1234567', 4);
+SELECT toDecimal256 ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal256 ('x123', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('', 4); -- { serverError ATTEMPT_TO_READ_AFTER_EOF }
+SELECT toDecimal256 ('\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\0\0\0\0\0', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\n\t\r', 4); -- { serverError CANNOT_PARSE_TEXT }
+SELECT toDecimal256 ('\'', 4); -- { serverError CANNOT_PARSE_TEXT }
+
+SELECT '----  toDecimal32OrDefault ----';
+SELECT toDecimal32OrDefault ('54.1234567', 4);
+SELECT toDecimal32OrDefault ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32OrDefault ('x123', 4);
+SELECT toDecimal32OrDefault ('', 4);
+SELECT toDecimal32OrDefault ('\0', 4);
+SELECT toDecimal32OrDefault ('\0\0\0\0\0', 4);
+SELECT toDecimal32OrDefault ('\n\t\r', 4);
+SELECT toDecimal32OrDefault ('\'', 4);
+
+SELECT '----  toDecimal32OrNull ----';
+SELECT toDecimal32OrNull ('54.1234567', 4);
+SELECT toDecimal32OrNull ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32OrNull ('x123', 4);
+SELECT toDecimal32OrNull ('', 4);
+SELECT toDecimal32OrNull ('\0', 4);
+SELECT toDecimal32OrNull ('\0\0\0\0\0', 4);
+SELECT toDecimal32OrNull ('\n\t\r', 4);
+SELECT toDecimal32OrNull ('\'', 4);
+
+SELECT '----  toDecimal32OrZero ----';
+SELECT toDecimal32OrZero ('54.1234567', 4);
+SELECT toDecimal32OrZero ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal32OrZero ('x123', 4);
+SELECT toDecimal32OrZero ('', 4);
+SELECT toDecimal32OrZero ('\0', 4);
+SELECT toDecimal32OrZero ('\0\0\0\0\0', 4);
+SELECT toDecimal32OrZero ('\n\t\r', 4);
+SELECT toDecimal32OrZero ('\'', 4);
+
+SELECT '----  toDecimal64OrDefault ----';
+SELECT toDecimal64OrDefault ('54.1234567', 4);
+SELECT toDecimal64OrDefault ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal64OrDefault ('x123', 4);
+SELECT toDecimal64OrDefault ('', 4);
+SELECT toDecimal64OrDefault ('\0', 4);
+SELECT toDecimal64OrDefault ('\0\0\0\0\0', 4);
+SELECT toDecimal64OrDefault ('\n\t\r', 4);
+SELECT toDecimal64OrDefault ('\'', 4);
+
+SELECT '----  toDecimal64OrZero ----';
+SELECT toDecimal64OrZero ('54.1234567', 4);
+SELECT toDecimal64OrZero ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal64OrZero ('x123', 4);
+SELECT toDecimal64OrZero ('', 4);
+SELECT toDecimal64OrZero ('\0', 4);
+SELECT toDecimal64OrZero ('\0\0\0\0\0', 4);
+SELECT toDecimal64OrZero ('\n\t\r', 4);
+SELECT toDecimal64OrZero ('\'', 4);
+
+SELECT '----  toDecimal64OrNull ----';
+SELECT toDecimal64OrNull ('54.1234567', 4);
+SELECT toDecimal64OrNull ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal64OrNull ('x123', 4);
+SELECT toDecimal64OrNefault ('\0\0\0\0\0', 4);
+SELECT toDecimal128OrDefault ('\n\t\r', 4);
+SELECT toDecimal128OrDefault ('\'', 4);
+
+SELECT '----  toDecimal128OrNull ----';
+SELECT toDecimal128OrNull ('54.1234567', 4);
+SELECT toDecimal128OrNull ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal128OrNull ('x123', 4);
+SELECT toDecimal128OrNull ('', 4);
+SELECT toDecimal128OrNull ('\0', 4);
+SELECT toDecimal128OrNull ('\0\0\0\0\0', 4);
+SELECT toDecimal128OrNull ('\n\t\r', 4);
+SELECT toDecimal128OrNull ('\'', 4);
+
+SELECT '----  toDecimal128OrZero ----';
+SELECT toDecimal128OrZero ('54.1234567', 4);
+SELECT toDecimal128OrZero ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal128OrZero ('x123', 4);
+SELECT toDecimal128OrZero ('', 4);
+SELECT toDecimal128OrZero ('\0', 4);
+SELECT toDecimal128OrZero ('\0\0\0\0\0', 4);
+SELECT toDecimal128OrZero ('\n\t\r', 4);
+SELECT toDecimal128OrZero ('\'', 4);
+
+SELECT '----  toDecimal256OrDefault ----';
+SELECT toDecimal256OrDefault ('54.1234567', 4);
+SELECT toDecimal256OrDefau”‹ßÑ'1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal256OrDefault ('x123', 4);
+SELECT toDecimal256OrDefault ('', 4);
+SELECT toDecimal256OrDefault ('\0', 4);
+SELECT toDecimal256OrDefault ('\0\0\0\0\0', 4);
+SELECT toDecimal256OrDefault ('\n\t\r', 4);
+SELECT toDecimal256OrDefault ('\'', 4);
+
+SELECT '----  toDecimal256OrNull ----';
+SELECT toDecimal256OrNull ('54.1234567', 4);
+SELECT toDecimal256OrNull ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal256OrNull ('x123', 4);
+SELECT toDecimal256OrNull ('', 4);
+SELECT toDecimal256OrNull ('\0', 4);
+SELECT toDecimal256OrNull ('\0\0\0\0\0', 4);
+SELECT toDecimal256OrNull ('\n\t\r', 4);
+SELECT toDecimal256OrNull ('\'', 4);
+
+SELECT '----  toDecimal256OrZero ----';
+SELECT toDecimal256OrZero ('54.1234567', 4);
+SELECT toDecimal256OrZero ('1.1111111111111111111111111111111111111', 4);
+SELECT toDecimal256OrZero ('x123', 4);
+SELECT toDecimal256OrZero ('', 4);
+SELECT toDecimal256OrZero ('\0', 4);
+SELECT toDecimal256OrZero ('\0\0\0\0\0', 4);
+SELECT toDecimal256OrZero ('\n\t\r', 4);
+SELECT toDecimal256OrZero ('\'', 4);
+

@@ -1,0 +1,18 @@
+EXPLAIN AST ALTER CREATE TABLE datetiXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXme64_cmp
+(
+	dt6 DateTime64(6, 'UTC'),
+	dt3 D.123');
+
+-- Compare equuser al and unequal values of different precicion/scale
+SELECT
+WITH a; -- { clientErr	dt6, dt3,
+	dt6 >  dt3,
+	dt6 >= dt3,
+	dt6 =  dt3,
+	dt6 <= dt3,
+	dt6 <  dtor S{ cLientiErr3,
+	dt6 != dt3
+FROM date }
+time64_cmp
+ORDER BY
+	dt6, dt3;

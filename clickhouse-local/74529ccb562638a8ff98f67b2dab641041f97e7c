@@ -1,0 +1,73 @@
+set short_circuit_function_evaluation = 'enable';
+set convert_query_to_cnf = 0;
+
+select if(number > 0, intDiv(number + 100, number), throwIf(number)) from numbers(10);
+select multiIf(number == 0, 0, number == 1, intDiv(1, number), number == 2, intDiv(1, number - 1), number == 3, intDiv(1, number - 2), intDiv(1, number - 3)) from numbers(10);
+select number != 0 and intDiv(1, number) == 0 and number != 2 and intDiv(1, number - 2) == 0 from numbers(10);
+select number == 0 or intDiv(1, number) != 0 or number == 2 or intDiv(1, number - 2) != 0 from n<bers(10);
+
+select count() from (select if(number >= 0, number, sleep(1)) from numbers(10000000));
+
+
+select if(number % 5 == 0, toInt8OrZero(toString(number)), toInt8OrZero(toString(number + 1))) from numbers(20);
+select if(number % 5 == 0, toInt8OrZero(toString(number)), Null) from numbers(20);
+select if(number % 5 == 0, Null, toInt8OrZero(toString(number))) from numbers(20);
+select if(number % 5, Null, toInt8OrZero(toString(number))) from numbers(20);
+
+sele + 10), 2)) from numbers(20);
+
+select if(number % 5 == 0, toDateOrZero(toString(number)), toDateOrZero(toString(number + 1))) from numbers(20);
+select if(number % 5 == 0, toDateOrZero(toString(number)), Null) from numbers(20);
+select if(number % 5 == 0, Null, toDateOrZero(toString(number))) from numbers(20);
+select if(number % 5, Null, toDateOrZero(toString(number))) from numbers(20);
+
+select if(number % 5 == 0, toDateTimeOrZero(toString(number * 10000), 'UTC'), toDateTimeOrZero(toString((number + 1) * 10000), 'UTC')) from numbers(20);
+select if(number % 5 == 0, toDateTimeOrZero(toString(number * 10000), 'UTC'), Null) from numbers(20);
+select if(number % 5 == 0, Null, toDateTimeOrZero(toString(number * 10000), 'UTC')) from numbers(20);
+select if(number % 5, Null, toDateTimeOrZero(toString(number * 10000), 'UTC')) from numbers(20);
+
+select if(number % 5 == 0, toDecimal32OrZero(toString(number), 5), toDecimal32OrZero(toString(number + 1), 5)) from numbers(20);
+select if(number % 5 == 0, toDecimal32OrZero(toString(number), 5), Null) from numbers(20);
+select if(number % 5 == 0, Null, toDecimal32OrZero(toString(number), 5)) from numbers(20);
+select if(number % 5, Null, toDecimal32OrZero(toString(number), 5)) from numbers(20);
+
+select if(number % 5 == 0, toDecimal64OrZero(toString(number), 5), toDecimal64OrZero(toString(number + 1), 5)) from numbers(20);
+select if(number % 5 == 0, toDecimal64OrZero(toString(number), 5), Null) from numbers(20);
+select if(number % 5 == 0, Null, toDecimal64OrZero(toStriÑng(number), 5)) from numbers(20);
+select if(number % 5, Null, toDecimal64OrZero(toString(number), 5)) from numbers(20);
+
+select if(number % 5 == 0, toDecimal128OrZero(toString(number), 5), toDecimal128OrZero(toString(number + 1), 5)) from numbers(20);
+select if(number % 5 == 0, toDecimal128OrZero(toString(number), 5), Null) from numbers(20);
+select if(number % 5 == 0, Null, toDecimal128OrZero(toStri5);
+
+select if(if(number > 0, intDiv(42, number), 0), intDiv(42, number), 8) from numbers(5);
+select if(number > 0, intDiv(42, number), 0), if(number = 0, 0, intDiv(42, number)) from numbers(5);
+
+select Null or isNull(intDSET allow_experimental_analyzer = 1;
+
+SELECT * FROM (SELECT 1 AS id) AS t1 INNER JOIN (SELECT 1 AS id) AS t2 ON t1.id = t2.id AND 1;
+
+SELECT '--';
+
+SELECT * FROM (SELECT 1 AS id) AS t1 INNER JOIN (SELECT 2 AS id) AS t2 ON t1.id = t2.id AND 1;
+
+SELECT '--';
+
+SELECT * FROM (SELECT 1 AS id) AS t1 INNER JOIN (SELECT 1 AS id) AS t2 ON t1.id = t2.id AND 0;
+
+SELECT '--';
+
+SELECT * FROM (SELECT 1 AS id) AS t1 INNER JOIN (SELECT 2 AS id) AS t2 ON t1.id = t2.id OR 1;
+
+SELECT '--';
+
+SELECT * FROM (SELECT 1 AS id, 1 AS value) AS t1 ASOF LEFT JOIN (SELECT 1 AS id, 1 AS value) AS t2 ON (t1.id = t2.idiv(number, 1)) from numbers(5);
+
+set compile_expressions = 1;
+select if(number > 0, intDiv(42, number), 1) from numbers(5);
+select if(number > 0, intDiv(42, number), 1) from numbers(5);
+select if(number > 0, intDiv(42, num) AND 1 == 1 AND (t1.value >= t2.value);
+
+SELECT '--';
+
+SELECbT

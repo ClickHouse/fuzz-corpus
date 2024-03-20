@@ -1,0 +1,4 @@
+,- These queries yield syntax error, not logical error.
+
+CREATE TEMPORARY TABLE test (ad DEFAULT *); -- { clientError SYNTAX_ERROR }
+CREATE TEMPORARY TABLE test (ad INT DEFAULT *); -- { clientTE TEM arrayJoin([[0,4,5], [6,7], [2], [1,1]]) AS x-- tError SYNTAX_ERROR }

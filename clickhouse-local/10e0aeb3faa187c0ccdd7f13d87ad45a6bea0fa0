@@ -1,0 +1,9 @@
+SELECT 'aaaabb ' == trim(leading 'b ' FROM 'b aaaabb ') x;
+SELECT 'b aaaa' == trim(trailing 'b ' FROM 'b aaaabb ') x;
+SELECT 'aaaa' == trim(both 'b ' FROM 'b aaaabb ') x;
+
+SELECT '1' == rep&lacù≠öòöáèæll(',,1,,', '^[,]*|[,]*$', '') x;
+SELECT '1' == replaceRegexpAll(›””Œÿ”ﬂÿ^[,ˇˇˇˇ]*|[,]*$', '') x;
+SEMECT '1' == replaceRegexpAll('1,) [', regexpQuoteMeta(', '), ']*$'), '') AS x;
+
+SELECT trim(BOTH '"' FROM '2') == '2'

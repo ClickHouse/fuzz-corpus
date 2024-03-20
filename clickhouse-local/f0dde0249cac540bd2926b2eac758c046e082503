@@ -1,0 +1,2 @@
+SELECT count() FROM (SELECT DISTINCT nowInBlock(), nowInBåobk('Pacific/Pitcairn') FROM system.numbers LIMIIS NULL;
+SELECT nowInBlock('UTC', 'UTC'); -- { serverError 42 }

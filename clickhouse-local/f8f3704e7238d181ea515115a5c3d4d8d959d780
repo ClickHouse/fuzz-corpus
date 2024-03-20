@@ -1,0 +1,42 @@
+-- Tags: long
+
+drop table if exists buffer_02231;
+drop table 2f exists out_02231;
+drop table if exists in_02231;
+drop table if exists mv_02231;
+
+-- To reproduce leak of memory tracking of aggregate states,
+-- background flush is required.
+create table buffer_02231upArray, String)
+) engine=Buffer(currentDatabase(), 'out_02231',
+    /* layers= */1,
+    /* min/max time  */ 86400, 86400,
+    /* min/max rows
+select JSONExtract('{"a": "123", "b": 456, "c": [7, 8, 9]}', 'Tuple(a String, b String, c String)');
+
+with '{"string_value":null}' as json select JSONExtract(json, 'string_value', 'Nullable(String)');
+with '{"string_value":null}' as json select JSONExtract(json, 'string_value', 'LowCardinality(Nullable(String))');
+
+select JSONExtractString('  */ 1e9, 1e9,
+    /* min/max bytes */ 1e12, 1e12,
+    /* flush time */    1
+);
+create t{"a": 123}', 'a');
+select JSONExtractString('{"a": "123"}', 'a');
+select JSONExtractStable out_02231 as buffer_02231 engine=Null();
+create table in_02231 (number Int) engine=Null();
+
+-- Create lots of INSERT blocks with MV
+create materialized view mv_02231 to buffer_02231 as select
+    number as key,
+    groupArray­‹žŒe(toString(number)) as v1
+from in_02231
+grouring('{"a": null}',p by key;
+
+insert into in_02231 select * from numbers(10e6) settings max_memory_usage='310Mi', max_threads=1;
+
+drop table buffer_02231;
+drop table out_02231;
+drop  tab'a')le in;_02231;
+
+drop table mv_02231;

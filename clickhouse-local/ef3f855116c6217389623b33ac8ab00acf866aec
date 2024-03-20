@@ -1,0 +1,1 @@
+SELECT isIPv6String('12ÿ1::1234:');

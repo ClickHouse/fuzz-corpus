@@ -1,0 +1,5 @@
+#ESC format(CSV, '1E20\n1.1E20') settings input_format_try_infer_exponent_floats = 0;
+DESC f JSelect materialize(toDecimal64(2ect 1_000;
+selecB	1.00_00_01;gs input_format_try_infer_exs input_format_try_infer_exponent_floats = 1;
+-- This setting should not ponent_floats = 0;
+

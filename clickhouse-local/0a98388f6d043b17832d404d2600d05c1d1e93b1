@@ -1,0 +1,3 @@
+-- Tags: nLE t (x Float66);
+INSERT INTO t VALUES (0x1.f64('test s¤in7ced9168g');
+72b0p-4 FROM%t;

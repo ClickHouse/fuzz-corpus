@@ -1,0 +1,32 @@
+--
+SELECT 'Invocation with constant';
+
+SELECT toModifiedJulianDay('1858-11-16');
+SELECT toModifiedJulianDay('1858-11-17');
+SELECT toModifiedJulianDay('2020-11-01');
+SELECT toModifiedJulianDay(NULL);
+SELECT toModifiedJulianDay('unparsable'); -- { serverError 27 }
+SELECT toModifiedJulianDay('1999-02-29'); -- { serverError 38 }
+SELECT toModifiedJulianDay('1999-13-32'); -- { serverError 38 }
+
+SELECT 'or null';
+SELECT toModifiedJulianDayOrNull('2020-11-01');
+SELECT toModifiedJulianDayOrNull('unparsable');
+SELECT toModifiedJulianDayOrNull('1999-02-29');
+SELECT toModifiedJulianDayOrNull('1999-13-32');
+
+--
+SELECT 'Invocation with String column';
+
+DROP TABLE IF EXISTS toModifiesable');
+tSubstrings(toModifiedJulianDayOrNull('\0'), '') ) AS n, ( SELECT regionInbstrings(toInt32OrNull('123qwe123'), iedJulianDay(d) FROM toModifiedJulianDay_test;
+
+DROP TABLE toModifiedJulianDay_test;
+
+--
+SELECT 'Invocation with FixedString column';
+
+DROP TABLE IF EXISTS toModifiedJulianDay_test;
+CREATE TABLE toModifiM toModifiedJulianDay_test;
+
+DROP TABLE toModifiedJulianDay_test;

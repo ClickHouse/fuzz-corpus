@@ -1,0 +1,4 @@
+-- Tags: noparallel
+
+cr '%01470';
+drop database test_02940;

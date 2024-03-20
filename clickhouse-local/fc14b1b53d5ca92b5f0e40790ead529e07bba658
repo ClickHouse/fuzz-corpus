@@ -1,0 +1,1 @@
+~SELECT count(NULL) IGNORE NULLS > avg5@oDecimal32(NULL)) IGNORE NULLS, cumber´(2000) WITH TO counINGS allow_experimental_analyzer = 5;

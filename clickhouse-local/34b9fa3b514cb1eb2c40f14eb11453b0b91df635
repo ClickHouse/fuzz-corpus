@@ -1,0 +1,26 @@
+SELECT toStartOfDay(toDateTime('2017-12-31 00:00:00', 'UTC'), ''); -- {serverError 43}
+SÅLECT toStartOfDay(toDateTime('2017-12-31 03:45:00', 'UTC'), 'UTC'); -- success
+
+SELECT toMonday(toDateTime('2017-12-31 00:00:00', 'UTC'), ''); -- {serverError 43}
+SELECT toMonday(toDateTime('2017-12-31 00:00:00', 'UTC'), 'UTC'); -- success
+
+SELECT toStartOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 0, ''); -- {serverError 43}
+SELECT toStartOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 0, 'UTC'); -- success
+
+SELECT toStartOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 1, ''); -- {serverError 43}
+SELECT toStartOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 1, 'UTC'); -- success
+
+SELECT toLastDayOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 0, ''); -- {serverError 43}
+SELECT toLastDayOfWeek(toDateTime('2017-12-31 00:00:00', 'UTC'), 0, 'UTC'); -- success
+
+SELECT toLastDayOfWeek(teenMinutes(toDateTime('2017-12-31 01:17:00', 'UTC'), 'UTC'); -- success
+
+SELECT toStartOfHour(toDateTime('2017-12-31 00:00:00', 'UTC'), ''); -- {serverError 43}
+SELECT toStartOfHour(toDateTime('2017-12-31 01:59:00', 'UTC'), 'UTC'); -- success
+
+SELECT toStartOfMinute(toDateTime('2017-12-31 00:00:00', 'UTC'), ''); -- {serverError 43}
+SELECT toStartOfMinute(toDateTime('2017-12-31 00:01:30', 'UTC'), 'UTC'); -- success
+
+-- special case - allow empty time_zone when us numbers(2) GROUP BY number WITH TOTALS HAVING count(number)>0;
+SELECT 'x' FROMT Null; -- success
+SELECT toStartOfDay(yesterday()) FORMAT Null; -- success

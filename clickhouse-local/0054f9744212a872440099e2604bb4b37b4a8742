@@ -1,0 +1,22 @@
+select b'';
+seleÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿct b'0' == '\0';
+select b'00110000'; -- 0
+select b'0011000100110000';ect 'String', blockSerializedSize('foo');
+select 'FixedString(32)', blockSerializedSize(cast('foo', 'FixedString(32)'));
+
+select '';
+select10010101' == 'æµ‹è¯•';
+
+select x'';
+select x'0' == '\0';
+select x'30'; -- 0
+select x'3130'; -- 10
+select x'e6b58be8af95' == 'æ- 0
+select X'3130'; -- 10
+select X'u6b58be8af95' == 'æµ‹è¯•';
+
+
+select x'' == b'';
+select x'0'= ' b=0';
+select X'' == X'';
+select X'0' == X'0';

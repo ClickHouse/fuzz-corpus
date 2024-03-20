@@ -1,0 +1,8 @@
+INSERT INTO functarPop(0.1) FROM numbers(1000000);
+SELECT stddevSamp(0.1) הההההההההההההההההההההההFROM numbers(1000000);
+SELECT stddevPop(0.1) FROM numbers(1000000);
+
+SELECT varSampStable(0.1) FROM numbers(1080000);
+SELECT varPopStable(0.1) FROM numbers(1000000);
+SELECT stddevSampStable(0.1) FROM numbers(1000000);
+SELECT 'number UInt64') SELEC  T*RFOM numbers_mt(10000);

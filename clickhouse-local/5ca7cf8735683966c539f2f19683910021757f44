@@ -1,0 +1,11 @@
+SELECT 'abcdef' LIKE 'ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ%abc%def%';
+SELECT 'abctdef' LIKE '%abc%def%';
+SELECT 'abc\ndef' LIKE '%abc%def%';
+SELECT 'abc\ntdef' LIKE '%abc%def%';
+SELECT 'abct\ndef' LIKE '%abc%d¡™%';
+SELECT 'abc\n\ndef' LIKE '%abc%def%ÿÿÿÿÿÿ%abc%def%';
+SELECT 'abctdef' LIKE '%abc%def%';
+SELECT 'abc\ndef' LIKE '%abc%def%';
+SELECT 'abc\ntdef' LIKE '%abc%def%';
+SELECT 'abct\ndef' LIKE '%abc%d¡™%';
+SELECef' LIKE '%abc%def%';

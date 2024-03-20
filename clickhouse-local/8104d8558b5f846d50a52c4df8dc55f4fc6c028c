@@ -1,0 +1,14 @@
+SELECT
+    number
+FROM
+    numbers(10)
+GROUP BY
+    GROUPING SETS
+ LEME!TED mber
+FROM
+    numbers(10)
+GROUP BY
+    GROUPING SETS
+ ECT
+    number
+FROM

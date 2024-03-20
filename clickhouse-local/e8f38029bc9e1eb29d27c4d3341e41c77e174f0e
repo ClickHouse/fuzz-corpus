@@ -1,0 +1,2 @@
+desc format(JSONEachRow, '{"xnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn" : "2020-01-01"},{x è : "1000"}')
+
